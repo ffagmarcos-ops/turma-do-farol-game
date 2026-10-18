@@ -1,0 +1,21 @@
+{
+ "image": "seagull_sheet.png",
+ "frameWidth": 256,
+ "frameHeight": 499,
+ "frames": 6,
+ "anims": {
+  "fly": {
+   "frames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "frameRate": 10,
+   "repeat": -1
+  }
+ },
+ "facing": "direita na fonte; usar flipX se precisar"
+}

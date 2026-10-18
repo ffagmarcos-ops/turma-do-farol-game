@@ -1,0 +1,243 @@
+{
+ "_fonte": "Falas marcadas com hq=true são literais do Roteiro Definitivo V1.0 (pág. indicada). As demais são ponte de jogabilidade (adaptação).",
+ "julia_porto": {
+  "lines": [
+   {
+    "who": "julia",
+    "text": "Bom dia, Marina! A luz da manhã no porto está perfeita hoje.",
+    "hq": false
+   },
+   {
+    "who": "marina",
+    "text": "Guarda uma foto do Esperança pra mim. Vou dar uma volta pelo cais.",
+    "hq": false
+   }
+  ],
+  "setFlag": "falou_julia"
+ },
+ "lucas_praca": {
+  "lines": [
+   {
+    "who": "lucas",
+    "text": "Espera... meu dispositivo está captando uma interferência estranha perto do cais.",
+    "hq": false
+   },
+   {
+    "who": "marina",
+    "text": "Interferência? Vou dar uma olhada lá para os lados das redes.",
+    "hq": false
+   }
+  ],
+  "setFlag": "falou_lucas"
+ },
+ "faisca_latido": {
+  "lines": [
+   {
+    "who": "faisca",
+    "text": "Au! Au!",
+    "hq": false
+   }
+  ]
+ },
+ "bia_redes": {
+  "lines": [
+   {
+    "who": "narrador",
+    "text": "Bia ajuda um pescador a separar redes antigas. Faísca fareja uma pilha de cordas.",
+    "hq": true,
+    "page": 2
+   },
+   {
+    "who": "narrador",
+    "text": "Faísca puxa uma ponta da rede com os dentes... CLINC!",
+    "hq": true,
+    "page": 2,
+    "sfx": "clinc",
+    "event": "artefato_cai"
+   },
+   {
+    "who": "bia",
+    "text": "O que é isso?",
+    "hq": true,
+    "page": 2
+   },
+   {
+    "who": "narrador",
+    "text": "Uma peça metálica coberta de sal e ferrugem. No centro, uma espiral cercada por três formas de cristal.",
+    "hq": true,
+    "page": 2
+   },
+   {
+    "who": "bia",
+    "text": "Faísca, acho que você achou alguma coisa importante.",
+    "hq": true,
+    "page": 2
+   },
+   {
+    "who": "marina",
+    "text": "Vamos mostrar isso pro Seu Toninho. Ele conhece todas as histórias deste porto.",
+    "hq": false
+   }
+  ],
+  "setFlag": "artefato_encontrado",
+  "repeat": "bia_depois"
+ },
+ "bia_depois": {
+  "lines": [
+   {
+    "who": "bia",
+    "text": "Vamos, o Seu Toninho está lá no Grande Píer!",
+    "hq": false
+   }
+  ]
+ },
+ "toninho_bom_dia": {
+  "lines": [
+   {
+    "who": "toninho",
+    "text": "Bom dia, Marina. Mar calmo hoje. Aproveite e veja se a Bia precisa de ajuda com as redes.",
+    "hq": false
+   }
+  ]
+ },
+ "toninho_artefato": {
+  "lines": [
+   {
+    "who": "toninho",
+    "text": "Onde vocês encontraram isso?",
+    "hq": true,
+    "page": 2
+   },
+   {
+    "who": "narrador",
+    "text": "O grupo se reúne perto do barco. Seu Toninho segura o artefato com cuidado.",
+    "hq": true,
+    "page": 3
+   },
+   {
+    "who": "marina",
+    "text": "O senhor conhece esse símbolo?",
+    "hq": true,
+    "page": 3
+   },
+   {
+    "who": "toninho",
+    "text": "Conheço uma história. E histórias assim costumam começar quando alguém encontra o que devia continuar perdido.",
+    "hq": true,
+    "page": 3
+   },
+   {
+    "who": "lucas",
+    "text": "Não é só metal. Tem alguma coisa aqui emitindo um sinal muito fraco.",
+    "hq": true,
+    "page": 3
+   },
+   {
+    "who": "julia",
+    "text": "Depois de tanto tempo no mar?",
+    "hq": true,
+    "page": 3
+   },
+   {
+    "who": "toninho",
+    "text": "Venham. Se essa peça voltou para o porto, vocês precisam ver o resto.",
+    "hq": true,
+    "page": 3
+   },
+   {
+    "who": "narrador",
+    "text": "Dentro da cabine, ele tira um velho baú debaixo de um banco.",
+    "hq": true,
+    "page": 3
+   },
+   {
+    "who": "bia",
+    "text": "O senhor tem um baú secreto?",
+    "hq": true,
+    "page": 3
+   },
+   {
+    "who": "toninho",
+    "text": "Todo marinheiro respeitável tem pelo menos um.",
+    "hq": true,
+    "page": 3
+   },
+   {
+    "who": "narrador",
+    "text": "Seu Toninho abre um mapa envelhecido sobre a mesa.",
+    "hq": true,
+    "page": 4
+   },
+   {
+    "who": "toninho",
+    "text": "Ilha das Cavernas Azuis.",
+    "hq": true,
+    "page": 4
+   },
+   {
+    "who": "toninho",
+    "text": "Quando eu era menino, ouvi marinheiros jurarem que existia uma caverna onde a pedra brilhava como céu de tempestade.",
+    "hq": true,
+    "page": 4
+   },
+   {
+    "who": "julia",
+    "text": "Alguém chegou lá?",
+    "hq": true,
+    "page": 4
+   },
+   {
+    "who": "toninho",
+    "text": "Alguns disseram que sim. Nenhum contou a mesma história quando voltou.",
+    "hq": true,
+    "page": 4
+   },
+   {
+    "who": "lucas",
+    "text": "Isso aqui parece uma rota.",
+    "hq": true,
+    "page": 4
+   },
+   {
+    "who": "bia",
+    "text": "Ou um aviso.",
+    "hq": true,
+    "page": 4
+   },
+   {
+    "who": "marina",
+    "text": "Então vamos descobrir qual dos dois.",
+    "hq": true,
+    "page": 4
+   },
+   {
+    "who": "narrador",
+    "text": "Todos se preparam. Faísca aparece carregando uma corda grande demais para ele.",
+    "hq": true,
+    "page": 5
+   },
+   {
+    "who": "julia",
+    "text": "Pelo menos alguém está levando corda suficiente.",
+    "hq": true,
+    "page": 5
+   },
+   {
+    "who": "toninho",
+    "text": "Se depender dele, levamos o cais inteiro.",
+    "hq": true,
+    "page": 5
+   }
+  ],
+  "setFlag": "pronto_para_partir"
+ },
+ "toninho_embarcar": {
+  "lines": [
+   {
+    "who": "toninho",
+    "text": "Todos a bordo! Suba no Esperança, Marina.",
+    "hq": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "farol-vila",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
+    "prebuild": "node list_assets.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.2",
+    "@capacitor/core": "^6.2.2",
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.2",
+    "vite": "^6.0.0"
+  }
+}

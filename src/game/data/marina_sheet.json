@@ -1,0 +1,92 @@
+{
+ "image": "marina_sheet_1536.png",
+ "frameWidth": 192,
+ "frameHeight": 256,
+ "columns": 8,
+ "rows": 6,
+ "pivot": {
+  "x": 96,
+  "y": 240,
+  "originX": 0.5,
+  "originY": 0.9375
+ },
+ "facing": "right (flipX para esquerda)",
+ "anims": {
+  "idle": {
+   "frames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "frameRate": 6,
+   "repeat": -1
+  },
+  "walk": {
+   "frames": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "frameRate": 10,
+   "repeat": -1
+  },
+  "run": {
+   "frames": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+   ],
+   "frameRate": 14,
+   "repeat": -1
+  },
+  "jump": {
+   "frames": [
+    24,
+    25,
+    26
+   ],
+   "frameRate": 12,
+   "repeat": 0
+  },
+  "fall": {
+   "frames": [
+    32,
+    33
+   ],
+   "frameRate": 8,
+   "repeat": -1
+  },
+  "land": {
+   "frames": [
+    40,
+    41
+   ],
+   "frameRate": 12,
+   "repeat": 0
+  }
+ },
+ "missing": [
+  "crouch",
+  "interact"
+ ],
+ "notes": {
+  "idle": "8 quadros na fonte (spec pedia 4); todos mantidos",
+  "crouch": "NAO EXISTE - usar quadro 24 (jump antecipacao) ou 40 (land impacto) como fallback",
+  "interact": "NAO EXISTE - usar idle por enquanto"
+ }
+}

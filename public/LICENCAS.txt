@@ -1,0 +1,24 @@
+TURMA DO FAROL – LICENÇAS DE ASSETS EXTERNOS
+Todos os itens abaixo são CC0 (domínio público). Crédito não é obrigatório; fica aqui como cortesia.
+
+SONS (Fase 2)
+- Trovão longo com chuva: "Rain long thunder", de wuxiascrub, https://opengameart.org/content/rain-long-thunder (CC0)
+- Trovão (estrondo), loop de mar, rangido e batida de madeira: "100 CC0 SFX #2", de rubberduck, https://opengameart.org/content/100-cc0-sfx-2 (CC0)
+- Chuva em loop: "Amb rain loop 1", de kresiek-the-furry, https://opengameart.org/content/amb-rain-loop-1 (CC0)
+- Splash: "40 CC0 water/splash/slime SFX", de rubberduck, https://opengameart.org/content/40-cc0-water-splash-slime-sfx (CC0)
+- Onda do mar: "Water waves", de qubodup (orig. Freesound transitking), https://opengameart.org/content/water-waves (CC0)
+- Impacto de madeira: "Impact Sounds", de Kenney, https://kenney.nl/assets/impact-sounds (CC0)
+- Pancadas no barco: "Battle at sea", de thimras, https://opengameart.org/content/battle-at-sea (CC0)
+- Música do chefe (abertura + loop): "Boss Battle #2 (Symphonic Metal)", de nene, https://opengameart.org/content/boss-battle-2-symphonic-metal (CC0)
+- Latido do Faísca na Fase 2: sintetizado no próprio jogo (os latidos gravados ficaram de fora porque a licença não estava clara).
+
+PARTÍCULAS DE APOIO (Fase 2)
+- trace, light, flare, circle, spark, slash, star: "Particle Pack", de Kenney, https://kenney.nl/assets/particle-pack (CC0)
+- whitePuff, blackSmoke: "Smoke Particles", de Kenney, https://kenney.nl/assets/smoke-particles (CC0)
+- raindrops: "2D spell effects", de Martin Jelinek (mikodrak), https://opengameart.org/content/2d-spell-effects (CC0)
+- Fundo de chuva: "Backgrounds effects sprite pack", de puccigames, https://opengameart.org/content/backgrounds-effects-sprite-pack (CC0)
+- Fase 1 (ondas do píer): "Beach ocean waves", de qubodup (orig. Freesound jasinski), https://opengameart.org/content/beach-ocean-waves (CC0). Também usados na Fase 1: loop de mar, rangido de madeira e splash (créditos acima).
+- Partículas de apoio na Fase 1 (brilho, anéis, vapor, poeira, gotas): mesmas partículas CC0 listadas acima.
+
+SONS DA FASE 1: efeitos CC0 já incluídos na versão anterior (pasta grok_upload_sfx).
+Arte dos personagens, cenários e HQ: equipe Turma do Farol.

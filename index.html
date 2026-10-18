@@ -1,0 +1,66 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>Turma do Farol – Vila das Conchas</title>
+<style>
+@font-face{font-family:"Luckiest Guy";src:url("assets/fonts/LuckiestGuy-Regular.ttf") format("truetype");font-display:block}
+html,body{margin:0;height:100%;background:#08304a;overflow:hidden;overscroll-behavior:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+#farol-root{width:100vw;height:100vh;touch-action:none}#farol-root canvas{touch-action:none}
+.touch-controls{position:fixed;inset:0;z-index:20;display:none;pointer-events:none}
+.dpad{position:absolute;left:calc(18px + env(safe-area-inset-left));bottom:calc(14px + env(safe-area-inset-bottom));width:min(42vh,210px);height:min(42vh,210px);pointer-events:auto;touch-action:none;border-radius:50%;background:radial-gradient(circle,rgba(11,58,91,.35) 0,rgba(11,58,91,.22) 70%,transparent 71%)}
+.dpad i{position:absolute;width:34%;height:34%;border-radius:14px;background:rgba(11,58,91,.5);border:2px solid rgba(246,231,193,.35);color:#f6e7c1;font:700 30px/1 sans-serif;display:flex;align-items:center;justify-content:center;font-style:normal;transition:transform .05s}
+.dpad .l{left:2%;top:33%}.dpad .r{right:2%;top:33%}.dpad .d{left:33%;bottom:2%}.dpad .u{left:33%;top:2%;opacity:.7}
+.dpad i.on,.act.on{background:rgba(226,182,87,.8);color:#08304a;transform:scale(.93)}
+.acts{position:absolute;right:calc(18px + env(safe-area-inset-right));bottom:calc(14px + env(safe-area-inset-bottom));width:min(44vh,220px);height:min(42vh,200px);pointer-events:none}
+.act{position:absolute;pointer-events:auto;touch-action:none;border-radius:50%;border:3px solid rgba(246,231,193,.5);background:rgba(11,58,91,.55);color:#f6e7c1;display:flex;flex-direction:column;align-items:center;justify-content:center;font:700 13px Georgia,serif;-webkit-tap-highlight-color:transparent;transition:transform .05s}
+.act b{font:700 34px/1 sans-serif}
+.act.jump{width:min(24vh,118px);height:min(24vh,118px);right:0;bottom:0;background:rgba(40,120,70,.6)}
+.act.talk{width:min(19vh,94px);height:min(19vh,94px);left:0;top:0;background:rgba(160,80,40,.6)}
+.pause{position:absolute;top:calc(10px + env(safe-area-inset-top));right:calc(14px + env(safe-area-inset-right));width:56px;height:56px;border-radius:50%;pointer-events:auto;border:2px solid rgba(246,231,193,.5);background:rgba(11,58,91,.55);color:#f6e7c1;font:700 24px sans-serif;display:flex;align-items:center;justify-content:center}
+@media (pointer:coarse){.touch-controls{display:block}}
+body.is-title .touch-controls{display:none!important}
+body.fase2 .act.talk{width:118px;height:118px;background:rgba(20,110,140,.62);border-color:rgba(143,246,255,.7)}
+</style></head>
+<body class="is-title"><div id="farol-root"></div>
+<div class="touch-controls">
+ <div class="dpad" id="dpad"><i class="u">↑</i><i class="l">◀</i><i class="r">▶</i><i class="d">▼</i></div>
+ <div class="pause" id="pauseBtn">⏸</div>
+ <div class="acts"><div class="act talk" data-k="interact"><b>💬</b>FALAR</div><div class="act jump" data-k="jump"><b>⤒</b>PULAR</div></div>
+</div>
+<script type="module">
+import { createGame } from "./src/game/main.js";
+import { setTouch } from "./src/game/input.js";
+const game = createGame("farol-root"); window.__game = game;
+const buzz = (ms = 12) => { try { navigator.vibrate && navigator.vibrate(ms); } catch {} };
+// D-pad: cada dedo vira uma zona; deslizar troca a direção sem levantar.
+const dpad = document.getElementById("dpad"); const fingers = new Map();
+const els = { left: dpad.querySelector(".l"), right: dpad.querySelector(".r"), down: dpad.querySelector(".d"), up: dpad.querySelector(".u") };
+const zone = (e) => { const r = dpad.getBoundingClientRect(); const dx = e.clientX - (r.left + r.width / 2), dy = e.clientY - (r.top + r.height / 2);
+  if (Math.hypot(dx, dy) < r.width * 0.12) return null;
+  const ang = Math.atan2(dy, dx) * 180 / Math.PI; // 0 = direita, 90 = baixo
+  if (ang >= 65 && ang <= 115) return ["down"]; if (ang > 22 && ang < 65) return ["down", "right"]; if (ang > 115 && ang < 158) return ["down", "left"];
+  if (ang < -60 && ang > -120) return ["up"]; return Math.abs(ang) <= 90 ? ["right"] : ["left"]; };
+let prevSet = "";
+const applyDpad = () => { const z = new Set([...fingers.values()].flat().filter(Boolean));
+  setTouch("left", z.has("left")); setTouch("right", z.has("right")); setTouch("down", z.has("down"));
+  upJump = z.has("up"); setTouch("jump", upJump || jumpBtn);
+  setTouch("run", z.has("left") || z.has("right"));
+  for (const [k, el] of Object.entries(els)) el.classList.toggle("on", z.has(k));
+  const key = [...z].sort().join(); if (key !== prevSet && z.size) buzz(8); prevSet = key; };
+let upJump = false, jumpBtn = false;
+dpad.addEventListener("pointerdown", (e) => { e.preventDefault(); dpad.setPointerCapture(e.pointerId); fingers.set(e.pointerId, zone(e)); applyDpad(); });
+dpad.addEventListener("pointermove", (e) => { if (!fingers.has(e.pointerId)) return; fingers.set(e.pointerId, zone(e)); applyDpad(); });
+for (const ev of ["pointerup", "pointercancel", "lostpointercapture"]) dpad.addEventListener(ev, (e) => { fingers.delete(e.pointerId); applyDpad(); });
+for (const b of document.querySelectorAll(".act")) {
+  const k = b.dataset.k; const ids = new Set();
+  const set = (v) => { b.classList.toggle("on", v); if (k === "jump") { jumpBtn = v; setTouch("jump", v || upJump); } else setTouch(k, v); };
+  b.addEventListener("pointerdown", (e) => { e.preventDefault(); b.setPointerCapture(e.pointerId); ids.add(e.pointerId); set(true); buzz(15); });
+  for (const ev of ["pointerup", "pointercancel", "lostpointercapture"]) b.addEventListener(ev, (e) => { ids.delete(e.pointerId); if (!ids.size) set(false); });
+}
+document.getElementById("pauseBtn").addEventListener("pointerdown", (e) => { e.preventDefault(); buzz(10); window.dispatchEvent(new KeyboardEvent("keydown", { code: "Escape" })); });
+document.addEventListener("contextmenu", (e) => e.preventDefault());
+const unlock = () => {
+  try { game.sound?.context?.resume?.(); } catch {}
+  try { game.registry.get("audio")?.unlock?.(); } catch {}
+};
+for (const ev of ["pointerdown", "touchstart", "keydown"]) document.addEventListener(ev, unlock, { capture: true, passive: true });
+</script></body></html>

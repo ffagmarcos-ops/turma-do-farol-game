@@ -1,0 +1,246 @@
+{
+ "intro1": [
+  {
+   "who": "lucas",
+   "text": "O sinal do artefato está ficando mais forte.",
+   "hq": true,
+   "page": 6
+  },
+  {
+   "who": "marina",
+   "text": "Na direção da ilha?",
+   "hq": true,
+   "page": 6
+  },
+  {
+   "who": "lucas",
+   "text": "Mais ou menos. É isso que me preocupa.",
+   "hq": true,
+   "page": 6
+  }
+ ],
+ "intro2": [
+  {
+   "who": "marina",
+   "text": "Seu Toninho...",
+   "hq": true,
+   "page": 7
+  },
+  {
+   "who": "toninho",
+   "text": "Pois é. O mar resolveu esquecer onde fica o norte.",
+   "hq": true,
+   "page": 7
+  },
+  {
+   "who": "julia",
+   "text": "Essas ondas estão vindo de todos os lados.",
+   "hq": true,
+   "page": 7
+  },
+  {
+   "who": "bia",
+   "text": "Faísca? O que foi?",
+   "hq": true,
+   "page": 7
+  }
+ ],
+ "intro3": [
+  {
+   "who": "lucas",
+   "text": "Isso não foi uma onda!",
+   "hq": true,
+   "page": 8
+  },
+  {
+   "who": "bia",
+   "text": "Eu vi uma... ventosa?",
+   "hq": true,
+   "page": 8
+  },
+  {
+   "who": "toninho",
+   "text": "Todos longe da borda. Agora.",
+   "hq": true,
+   "page": 8
+  }
+ ],
+ "entrada": [
+  {
+   "who": "bia",
+   "text": "Isso definitivamente não estava no mapa!",
+   "hq": true,
+   "page": 9
+  },
+  {
+   "who": "toninho",
+   "text": "Porque marinheiro inteligente não desenha monstro em mapa. Assusta cliente!",
+   "hq": true,
+   "page": 9
+  },
+  {
+   "who": "marina",
+   "text": "Júlia, fica com Bia! Lucas, descobre por que ele veio até nós! Seu Toninho, mantenha o barco em movimento!",
+   "hq": true,
+   "page": 10
+  }
+ ],
+ "bark_tentaculo": [
+  {
+   "who": "julia",
+   "text": "Minha câmera está começando a achar essa aventura pessoal demais.",
+   "hq": true,
+   "page": 10
+  }
+ ],
+ "bark_convés": [
+  {
+   "who": "bia",
+   "text": "Faísca, para trás!",
+   "hq": true,
+   "page": 10
+  }
+ ],
+ "bark_acerto": [
+  {
+   "who": "lucas",
+   "text": "Ele não gosta disso... continua!",
+   "hq": false,
+   "sugestao": true
+  }
+ ],
+ "p75": [
+  {
+   "who": "lucas",
+   "text": "Ele muda de direção toda vez que o motor acelera...",
+   "hq": true,
+   "page": 10
+  },
+  {
+   "who": "lucas",
+   "text": "Não é o barco. É a vibração!",
+   "hq": true,
+   "page": 10
+  }
+ ],
+ "p50": [
+  {
+   "who": "marina",
+   "text": "Quanto tempo?",
+   "hq": true,
+   "page": 11
+  },
+  {
+   "who": "lucas",
+   "text": "Menos se ninguém perguntar quanto tempo!",
+   "hq": true,
+   "page": 11
+  }
+ ],
+ "bark_onda": [
+  {
+   "who": "toninho",
+   "text": "Vou considerar isso uma resposta.",
+   "hq": true,
+   "page": 11
+  }
+ ],
+ "bark_tinta": [
+  {
+   "who": "julia",
+   "text": "Ei! Isso é tinta?!",
+   "hq": false,
+   "sugestao": true
+  }
+ ],
+ "p25": [
+  {
+   "who": "lucas",
+   "text": "Ele está furioso! Preciso de mais potência!",
+   "hq": false,
+   "sugestao": true
+  },
+  {
+   "who": "marina",
+   "text": "Segura firme, Lucas! A gente confia em você!",
+   "hq": false,
+   "sugestao": true
+  }
+ ],
+ "bark_mastro": [
+  {
+   "who": "marina",
+   "text": "Ele pegou o mastro!",
+   "hq": false,
+   "sugestao": true
+  }
+ ],
+ "p0": [
+  {
+   "who": "lucas",
+   "text": "Funcionou!",
+   "hq": true,
+   "page": 11
+  },
+  {
+   "who": "marina",
+   "text": "Seu Toninho, agora!",
+   "hq": true,
+   "page": 11
+  }
+ ],
+ "epilogo": [
+  {
+   "who": "bia",
+   "text": "Ele desistiu?",
+   "hq": true,
+   "page": 12
+  },
+  {
+   "who": "toninho",
+   "text": "Prefiro dizer que chegamos a um acordo.",
+   "hq": true,
+   "page": 12
+  },
+  {
+   "who": "lucas",
+   "text": "Obrigado. Eu precisava exatamente disso.",
+   "hq": true,
+   "page": 12
+  }
+ ],
+ "gancho": [
+  {
+   "who": "julia",
+   "text": "E agora?",
+   "hq": true,
+   "page": 12
+  },
+  {
+   "who": "toninho",
+   "text": "Agora entramos onde os mapas param de ajudar.",
+   "hq": true,
+   "page": 12
+  },
+  {
+   "who": "bia",
+   "text": "Uau...",
+   "hq": true,
+   "page": 12
+  },
+  {
+   "who": "marina",
+   "text": "Encontramos.",
+   "hq": true,
+   "page": 12
+  }
+ ],
+ "derrota": [
+  {
+   "who": "marina",
+   "text": "Lucas!",
+   "hq": false,
+   "sugestao": true
+  }
+ ]
+}

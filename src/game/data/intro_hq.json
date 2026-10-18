@@ -1,0 +1,24 @@
+{
+  "intro": [
+    { "id": 1, "img": "hq_P01_Q01", "focus": { "x": 0.5, "y": 0.35 }, "zoom": 1.06, "box": "top", "speaker": "", "text": "Na Vila das Conchas, o mar amanheceu quieto demais.", "curta": true },
+    { "id": 2, "img": "hq_P01_Q01", "focus": { "x": 0.88, "y": 0.3 }, "zoom": 1.45, "box": "top", "speaker": "", "text": "O farol, lá no fim da costa, passou a noite aceso.", "curta": true },
+    { "id": 3, "img": "hq_P02_Q01", "focus": { "x": 0.5, "y": 0.4 }, "zoom": 1.06, "box": "top", "speaker": "Bia", "text": "Essas redes estão pesadas demais hoje.", "curta": true },
+    { "id": 4, "img": "hq_P02_Q02", "focus": { "x": 0.5, "y": 0.5 }, "zoom": 1.06, "box": "top", "speaker": "", "text": "PUXA!", "shake": 4, "onoma": true },
+    { "id": 5, "img": "hq_P02_Q03", "focus": { "x": 0.5, "y": 0.5 }, "zoom": 1.06, "box": "bottom", "speaker": "", "text": "No meio das algas, um objeto que não era do mar." },
+    { "id": 6, "img": "hq_P02_Q05", "focus": { "x": 0.5, "y": 0.3 }, "zoom": 1.06, "box": "top", "speaker": "Seu Toninho", "text": "Eu já vi esse símbolo antes…" },
+    { "id": 7, "img": "hq_P03_Q02", "focus": { "x": 0.5, "y": 0.35 }, "zoom": 1.06, "box": "top", "speaker": "Lucas", "text": "Ele vibra. Meu aparelho está captando alguma coisa." },
+    { "id": 8, "img": "hq_P04_Q01", "focus": { "x": 0.5, "y": 0.5 }, "zoom": 1.06, "box": "bottom", "speaker": "", "text": "Um mapa antigo: a Ilha das Cavernas Azuis." },
+    { "id": 9, "img": "hq_P04_Q05", "focus": { "x": 0.5, "y": 0.3 }, "zoom": 1.06, "box": "top", "speaker": "Marina", "text": "Então a gente vai descobrir.", "curta": true },
+    { "id": 10, "img": "menu_capa", "focus": { "x": 0.5, "y": 0.5 }, "zoom": 1.04, "box": "center", "speaker": "", "text": "Fase 1: Vila das Conchas", "curta": true, "title": true }
+  ],
+  "transicao": [
+    { "id": 1, "img": "hq_P05_Q01", "focus": { "x": 0.5, "y": 0.35 }, "zoom": 1.06, "box": "top", "speaker": "", "text": "Preparar." },
+    { "id": 2, "img": "hq_P05_Q04", "focus": { "x": 0.5, "y": 0.35 }, "zoom": 1.06, "box": "top", "speaker": "", "text": "Embarcar." },
+    { "id": 3, "img": "hq_P05_Q05", "focus": { "x": 0.5, "y": 0.4 }, "zoom": 1.06, "box": "bottom", "speaker": "", "text": "Partir." },
+    { "id": 4, "img": "hq_P06_Q01", "focus": { "x": 0.5, "y": 0.5 }, "zoom": 1.06, "box": "top", "speaker": "", "text": "No mar aberto, a vila virou um ponto no horizonte." },
+    { "id": 5, "img": "hq_P07_Q01", "focus": { "x": 0.5, "y": 0.45 }, "zoom": 1.06, "box": "bottom", "speaker": "Seu Toninho", "text": "A bússola enlouqueceu!" },
+    { "id": 6, "img": "hq_P07_Q05", "focus": { "x": 0.5, "y": 0.5 }, "zoom": 1.06, "box": "top", "speaker": "Júlia", "text": "Tem alguma coisa enorme lá embaixo…" },
+    { "id": 7, "img": "hq_P08_Q03", "focus": { "x": 0.5, "y": 0.5 }, "zoom": 1.06, "box": "top", "speaker": "", "text": "TUM.", "shake": 6, "onoma": true },
+    { "id": 8, "img": "hq_P08_Q05", "focus": { "x": 0.5, "y": 0.45 }, "zoom": 1.06, "box": "top", "speaker": "Lucas", "text": "Segurem firme!" }
+  ]
+}
