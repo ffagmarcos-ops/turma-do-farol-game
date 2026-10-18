@@ -6,7 +6,7 @@
 export const POSES = {
   IDLE: { key: "marina-idle", fallback: "marina-idle", frameRate: 6 },
   WALK: { key: "marina-walk", fallback: "marina-walk", frameRate: 12 },
-  RUN: { key: "marina-run", fallback: "marina-walk", frameRate: 14 },
+  RUN: { key: "marina-run", fallback: "marina-walk", frameRate: 12 },
   JUMP_START: { key: "marina-jump", fallback: "marina-jump", frameRate: 12 },
   JUMP: { key: "marina-jump", fallback: "marina-jump", frameRate: 12 },
   FALL: { key: "marina-fall", fallback: "marina-jump", frameRate: 8 },

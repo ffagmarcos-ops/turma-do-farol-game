@@ -124,6 +124,9 @@ export class PreloadScene extends Phaser.Scene {
 
     const marinaSheet = "assets/farol/chars/marina_sheet_1536.png";
     this.marinaSheet = probe(marinaSheet);
+    // andar/correr v2 do Daniel (tira de 8 quadros, qualquer resolução: o tamanho do quadro sai do arquivo)
+    this.marinaV2 = ["walk", "run", "jump"].filter((k) => probe(`assets/farol/chars/marina_${k}_v2.png`));
+    for (const k of this.marinaV2) this.load.image(`marina_${k}_v2`, `assets/farol/chars/marina_${k}_v2.png`);
     for (const [name] of CAST) {
       const url = `assets/farol/chars/${name}_sheet_1536.png`;
       if (probe(url)) this.load.spritesheet(name, url, { frameWidth: 192, frameHeight: 256 });
@@ -162,6 +165,7 @@ export class PreloadScene extends Phaser.Scene {
       for (const [name, spec] of CAST) {
         if (this.textures.exists(name)) this.addSheet(name, spec);
       }
+      if (this.textures.exists("marina")) this.addMarinaV2();
       if (!this.textures.exists("marina")) {
         this.anims.create({
           key: "marina-idle",
@@ -233,6 +237,27 @@ export class PreloadScene extends Phaser.Scene {
       document.body.classList.remove("is-title");
       this.scene.start("boss-polvo", { segment: Number(params.get("boss")) || 0 });
     } else this.scene.start(params.has("qa") || params.has("play") ? "vila" : "menu");
+  }
+
+  /** Troca marina-walk / marina-run pelas tiras v2 (8 quadros; largura do quadro = largura do arquivo / 8). */
+  addMarinaV2() {
+    for (const k of this.marinaV2 || []) {
+      const key = `marina_${k}_v2`;
+      if (!this.textures.exists(key)) continue;
+      const tex = this.textures.get(key), src = tex.getSourceImage();
+      const fw = Math.floor(src.width / 8), fh = src.height;
+      for (let i = 0; i < 8; i++) tex.add(i, 0, i * fw, 0, fw, fh);
+      const mk = (name, frames, frameRate, repeat) => {
+        this.anims.remove(name);
+        this.anims.create({ key: name, frames: frames.map((frame) => ({ key, frame })), frameRate, repeat });
+      };
+      if (k === "jump") {
+        // pulo v2: 1-3 impulso/subida, 4 ápice, 5 queda, 6-7 aterrissagem (0 = agachar, não usado: o pulo sai na hora)
+        mk("marina-jump", [1, 2, 3], 12, 0);
+        mk("marina-fall", [4, 5], 8, 0);
+        mk("marina-land", [6, 7], 12, 0);
+      } else mk(`marina-${k}`, [0, 1, 2, 3, 4, 5, 6, 7], 12, -1);
+    }
   }
 
   addSheet(name, spec) {

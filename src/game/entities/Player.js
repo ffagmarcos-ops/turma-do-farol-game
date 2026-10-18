@@ -107,10 +107,11 @@ export class Player {
     const worldH = crouch ? Math.min(150, this.hitH * 0.62) : this.hitH;
     const bodyW = this.hitW / scaleX;
     const bodyH = worldH / scaleY;
-    const frameW = this.sheet ? this.sheet.frameW : frame.width;
-    const feetY = this.sheet ? this.sheet.feetY : frame.height;
+    const frameW = frame.width;
+    const feetY = this.sheet ? this.sheet.feetY * (frame.height / this.sheet.frameH) : frame.height;
     const offsetX = (frameW - bodyW) / 2;
     const offsetY = feetY - bodyH;
+    this.sprite.body.updateBounds?.(); // escala nova (tiras HD 2x) já vale para o setSize deste quadro
     this.sprite.body.setSize(bodyW, bodyH);
     this.sprite.body.setOffset(offsetX, Math.max(0, offsetY));
   }
@@ -210,8 +211,9 @@ export class Player {
     }
     this.onPose(pose);
     if (this.sheet) {
-      this.sprite.setScale(this.scale * sx, this.scale * sy);
-      this.applyBody(this.scale * sx, this.scale * sy);
+      const r = this.sheet.frameW / (this.sprite.frame.width || this.sheet.frameW); // 1 no sheet atual, 0,5 numa tira 2x
+      this.sprite.setScale(this.scale * r * sx, this.scale * r * sy);
+      this.applyBody(this.scale * r * sx, this.scale * r * sy);
     } else {
       const scale = this.fitFrame(this.sprite.texture.key);
       this.sprite.setScale(scale * sx, scale * sy);
