@@ -178,8 +178,12 @@ export class Player {
     this.sprite.setFlipX(this.facing < 0);
 
     const prev = this.state;
+    // chão "estável" para a animação: ignora perdas de contato de 1-2 quadros (emendas de tábua,
+    // rampas, setSize do corpo), que antes trocavam WALK->FALL->LAND e reiniciavam o passo no quadro 0
+    this.airT = grounded ? 0 : (this.airT || 0) + dt;
+    const animGrounded = grounded || (this.airT < 0.12 && body.velocity.y >= -40 && !jumped);
     const pose = this.machine.update(dt, {
-      grounded,
+      grounded: animGrounded,
       vx,
       vy: body.velocity.y,
       down: actions.down,

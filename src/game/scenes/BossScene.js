@@ -9,6 +9,7 @@ import { grantBonusF2, readWallet } from "../systems/Wallet.js";
 import Phaser from "../phaser.js";
 import { makeButton } from "../systems/UIButton.js";
 import { askMainMenu } from "../systems/PauseMenu.js";
+import { openSoundOptions } from "../systems/SoundOptions.js";
 import falas from "../data/falas_hq_fase2_polvo.json";
 import CFG from "../data/boss_polvo.json";
 import { HQPanel } from "../systems/HQPanel.js";
@@ -152,7 +153,7 @@ export class BossScene extends Phaser.Scene {
       if (["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "Space"].includes(e.code)) e.preventDefault?.();
       if (e.repeat) return;
       if (e.code === "Escape" && this.mode === "seq" && this.seq?.skipAll) this.skipSequence();
-      else if ((e.code === "Escape" || e.code === "KeyP") && this.mode !== "end") this.togglePause();
+      else if ((e.code === "Escape" || e.code === "KeyP") && this.mode !== "end" && !this.__som && !this.__askMenu) this.togglePause();
       else if (e.code === "KeyL") this.toggleFlash();
       else if (["Enter", "NumpadEnter", "Space", "KeyE", "KeyJ"].includes(e.code)) this.confirmPressed = true;
     };
@@ -331,7 +332,7 @@ export class BossScene extends Phaser.Scene {
       this.hqFlash.setAlpha(k);
       this.tweens.add({ targets: this.hqFlash, alpha: 0, duration: 260 });
       if (this.hqBolt) { this.hqBolt.setPosition(300 + Math.random() * 1320, 260).setFrame(Math.floor(Math.random() * 4)).setAlpha(0.9); this.tweens.add({ targets: this.hqBolt, alpha: 0, duration: 220, delay: 60 }); }
-      this.sfx("thunder", { volume: 0.5 });
+      this.sfx("thunder", { volume: 1.0 });
     }
   }
 
@@ -773,7 +774,7 @@ export class BossScene extends Phaser.Scene {
   togglePause() {
     this.paused = !this.paused;
     if (!this.pauseObjs) {
-      const objs = [this.add.rectangle(W / 2, H / 2, W + 1200, H + 1200, 0x02060c, 0.6).setScrollFactor(0).setDepth(250), this.add.text(W / 2, 360, "PAUSA", { fontFamily: "Georgia, serif", fontSize: "80px", color: "#F6E7C1" }).setOrigin(0.5).setScrollFactor(0).setDepth(251)];
+      const objs = [this.add.rectangle(W / 2, H / 2, W + 1200, H + 1200, 0x02060c, 0.6).setScrollFactor(0).setDepth(250), this.add.text(W / 2, 330, "PAUSA", { fontFamily: "Georgia, serif", fontSize: "80px", color: "#F6E7C1" }).setOrigin(0.5).setScrollFactor(0).setDepth(251)];
       const mk = (y, label, fn) => {
         const b = makeButton(this, W / 2, y, label, fn, { w: 760, h: 88, depth: 251, scrollFactor: 0, fontSize: 36, kind: /Menu/i.test(label) ? "menu" : /Recome|novo/i.test(label) ? "jogar_de_novo" : "continuar" });
         objs.push(...b.objs);
@@ -782,6 +783,7 @@ export class BossScene extends Phaser.Scene {
       mk(520, "▶  Continuar (Esc)", () => this.togglePause());
       this.flashLabel = mk(670, "", () => this.toggleFlash());
       mk(820, "MENU PRINCIPAL", () => askMainMenu(this, { depth: 300, onYes: () => { document.body.classList.add("is-title"); this.scene.start("menu"); } }));
+      mk(970, "SOM", () => openSoundOptions(this, { depth: 320 }));
       this.pauseObjs = objs;
     }
     this.flashLabel.setText(`Reduzir flashes: ${this.reduceFlash ? "SIM" : "NÃO"}  (L)`);

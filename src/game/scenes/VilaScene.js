@@ -3,6 +3,7 @@ import { readWallet, collect as walletCollect, unlockFree, newRun } from "../sys
 import Phaser from "../phaser.js";
 import { makeButton, BTN_FONT } from "../systems/UIButton.js";
 import { askMainMenu } from "../systems/PauseMenu.js";
+import { openSoundOptions } from "../systems/SoundOptions.js";
 import { LEVEL, zoneAt } from "../data/LevelData.js";
 import { computeActions, keyDown, keyUp, clearInput, setKeys } from "../input.js";
 import { Marina } from "../entities/Marina.js";
@@ -195,7 +196,7 @@ export class VilaScene extends Phaser.Scene {
     window.addEventListener("keydown", this.onDebugKey);
     this.paused = false;
     this.onPauseKey = (event) => {
-      if ((event.code !== "Escape" && event.code !== "KeyP") || event.repeat || this.finished || this.__askMenu) return;
+      if ((event.code !== "Escape" && event.code !== "KeyP") || event.repeat || this.finished || this.__askMenu || this.__som) return;
       this.setPaused(!this.paused);
     };
     window.addEventListener("keydown", this.onPauseKey);
@@ -527,7 +528,8 @@ export class VilaScene extends Phaser.Scene {
       this.pauseBtns = [
         ...makeButton(this, 960, 560, "CONTINUAR", () => this.setPaused(false), { w: 620, h: 88, depth: 242, scrollFactor: 0, kind: "continuar" }).objs,
         ...makeButton(this, 960, 690, "MENU PRINCIPAL", () => askMainMenu(this, { onYes: () => { this.setPaused(false); document.body.classList.add("is-title"); this.scene.start("menu"); } }), { w: 620, h: 88, depth: 242, scrollFactor: 0, kind: "menu" }).objs,
-        this.add.text(960, 800, "Esc ou P: continuar", { fontFamily: "Georgia, serif", fontSize: "26px", color: "#F6E7C1" }).setOrigin(0.5).setScrollFactor(0).setDepth(241),
+        ...makeButton(this, 960, 820, "SOM", () => openSoundOptions(this, { depth: 320 }), { w: 620, h: 88, depth: 242, scrollFactor: 0, kind: "menu" }).objs,
+        this.add.text(960, 920, "Esc ou P: continuar", { fontFamily: "Georgia, serif", fontSize: "26px", color: "#F6E7C1" }).setOrigin(0.5).setScrollFactor(0).setDepth(241),
       ];
     }
     this.pauseShade.setVisible(on);

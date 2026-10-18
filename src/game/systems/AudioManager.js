@@ -13,6 +13,7 @@
 
 const BUSES = { music: 0.6, ambience: 0.45, sfx: 0.8, ui: 0.5 };
 const MAX_SFX = 6;
+const PREF_KEY = "farol-som";
 
 const VARIANTS = {
   step_wood: ["sfx_step_wood_01", "sfx_step_wood_02", "sfx_step_wood_03", "sfx_passo_madeira_01", "sfx_passo_madeira_02", "sfx_passo_madeira_03", "sfx_passo_madeira_04", "sfx_passo_madeira_05"],
@@ -108,6 +109,7 @@ export class AudioManager {
     this.musicCfg = { file: "assets/audio/music_vila.mp3", duck: 0.35 };
     this.levelBound = false;
     this.duck = 0.35;
+    this.loadPrefs();
   }
 
   unlock() {
@@ -117,11 +119,15 @@ export class AudioManager {
     if (this.unlocked) return;
     this.master = ctx.createGain();
     this.master.gain.value = 1;
-    this.master.connect(ctx.destination);
+    // limitador no fim da cadeia: evita clipping quando música, chuva e efeitos somam
+    this.limiter = ctx.createDynamicsCompressor();
+    this.limiter.threshold.value = -3; this.limiter.knee.value = 2; this.limiter.ratio.value = 20;
+    this.limiter.attack.value = 0.003; this.limiter.release.value = 0.15;
+    this.master.connect(this.limiter); this.limiter.connect(ctx.destination);
     this.buses = {};
     for (const [name, value] of Object.entries(BUSES)) {
       const gain = ctx.createGain();
-      gain.gain.value = value;
+      gain.gain.value = value * this.volOf(name);
       gain.connect(this.master);
       this.buses[name] = gain;
     }
@@ -144,10 +150,11 @@ export class AudioManager {
     const buses = level.buses || BUSES;
     if (this.buses) {
       for (const name of Object.keys(BUSES)) {
-        if (typeof buses[name] === "number") this.buses[name].gain.value = buses[name];
+        if (typeof buses[name] === "number") this.buses[name].gain.value = buses[name] * this.volOf(name);
       }
     }
     this.levelBound = true;
+    this.baseBuses = { ...BUSES, ...level.buses };
     if (!this.unlocked) return;
     this.loadAmbient();
     this.startMusic();
@@ -497,7 +504,35 @@ export class AudioManager {
     this.talking = talking;
   }
 
+  /** Volume do jogador (SOM/OPÇÕES): música e efeitos 0..1 + mudo, salvo no localStorage. */
+  loadPrefs() {
+    if (this.prefs) return this.prefs;
+    let p = {};
+    try { p = JSON.parse(localStorage.getItem(PREF_KEY) || "{}"); } catch {}
+    this.prefs = { music: p.music ?? 1, sfx: p.sfx ?? 1, muted: Boolean(p.muted) };
+    this.muted = this.prefs.muted;
+    return this.prefs;
+  }
+  volOf(name) {
+    const p = this.loadPrefs();
+    return name === "music" ? p.music : p.sfx;
+  }
+  setPrefs(patch) {
+    Object.assign(this.loadPrefs(), patch);
+    this.muted = this.prefs.muted;
+    try { localStorage.setItem(PREF_KEY, JSON.stringify(this.prefs)); } catch {}
+    if (this.buses) {
+      const base = this.baseBuses || BUSES;
+      const now = this.ctx.currentTime;
+      for (const name of Object.keys(this.buses)) this.buses[name].gain.setTargetAtTime((base[name] ?? BUSES[name]) * this.volOf(name), now, 0.03);
+    }
+    if (this.master) this.master.gain.value = this.muted ? 0 : 1;
+    return this.prefs;
+  }
+
   toggleMute() {
+    this.setPrefs({ muted: !this.muted });
+    return this.muted;
     this.muted = !this.muted;
     if (this.master) this.master.gain.value = this.muted ? 0 : 1;
     return this.muted;

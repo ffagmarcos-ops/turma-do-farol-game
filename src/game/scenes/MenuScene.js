@@ -1,6 +1,7 @@
 // @ts-nocheck
 import Phaser from "../phaser.js";
 import { makeButton } from "../systems/UIButton.js";
+import { openSoundOptions } from "../systems/SoundOptions.js";
 import { AudioManager } from "../systems/AudioManager.js";
 import { readWallet, newRun, markSeen } from "../systems/Wallet.js";
 import { readProgress } from "../systems/CheckpointSystem.js";
@@ -76,9 +77,13 @@ export class MenuScene extends Phaser.Scene {
     const portais = () => leave(() => this.scene.start("portais", { list: false }));
     this.enterGame = enter; this.enterPortais = portais;
     makeButton(this, W / 2, jogarY, "JOGAR", enter, { kind: "jogar" });
+    this.openSom = () => openSoundOptions(this);
+    makeButton(this, 220, 1010, "SOM", this.openSom, { kind: "menu", w: 300, h: 72, fontSize: 30 });
+    this.input.keyboard?.on("keydown-O", this.openSom);
     makeButton(this, 1700, 1010, "CRÉDITOS", () => leave(() => this.scene.start("creditos", { back: "menu" })), { kind: "menu", w: 360, h: 72, fontSize: 30 });
-    this.input.keyboard?.on("keydown-ENTER", enter);
-    this.input.keyboard?.on("keydown-SPACE", enter);
+    const kEnter = () => { if (!this.__som) enter(); };
+    this.input.keyboard?.on("keydown-ENTER", kEnter);
+    this.input.keyboard?.on("keydown-SPACE", kEnter);
     // o toque vale só nos botões (antes, tocar em qualquer lugar começava o jogo)
     if (showPortais) {
       // botão de bronze do Daniel (normal / realce), sem texto na arte

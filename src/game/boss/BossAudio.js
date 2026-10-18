@@ -5,6 +5,10 @@
  * Se um arquivo faltar, cai no som sintetizado (AudioManager.synth).
  */
 const BASE = "assets/audio/fase2/";
+const MUSIC_LVL = 1.0; // -16 LUFS (arquivo) x 0,6 (bus música) = ~ -20,4 LUFS na mistura
+// ajuste por tipo (LUFS medidos: splash -26,5, pancada -11,8, trovão -20,5) para ficarem acima da música
+const TRIM = { splash: 1.6, slam: 0.6, wood: 0.8 };
+const BEAT = 0.836; // Pirate's Orchestra ~ 72 bpm (medido por autocorrelação de ataques)
 const FILES = {
   thunder: ["trovao_estrondo", "trovao_longo"],
   rain: ["chuva_loop"],
@@ -57,7 +61,7 @@ export class BossAudio {
     src.buffer = b;
     src.playbackRate.value = (opts.rate || 1) * (0.94 + Math.random() * 0.12);
     const g = ctx.createGain();
-    g.gain.value = (opts.volume ?? 1) * (opts.far ? 0.55 : 1);
+    g.gain.value = (opts.volume ?? 1) * (opts.far ? 0.55 : 1) * (TRIM[kind] ?? 1);
     src.connect(g);
     g.connect(this.a.buses.sfx);
     src.start(ctx.currentTime + (opts.delay || 0));
@@ -79,8 +83,8 @@ export class BossAudio {
   }
   startBeds() {
     if (!this.a.unlocked) return;
-    this.rainOn = Boolean(this.loop("rain", this.a.buses.ambience, 0.55));
-    this.loop("sea", this.a.buses.ambience, 0.45);
+    this.rainOn = Boolean(this.loop("rain", this.a.buses.ambience, 0.32));
+    this.loop("sea", this.a.buses.ambience, 0.3);
   }
   startMusic() {
     const a = this.a;
@@ -93,10 +97,12 @@ export class BossAudio {
     if (!loop) return;
     const ctx = this.ctx;
     let t = ctx.currentTime + 0.05;
+    // nível da música na luta: MUSIC_LVL x barramento 0,6 -> ~ -21 LUFS, abaixo dos efeitos
+    this.out = ctx.createGain(); this.out.gain.value = MUSIC_LVL; this.out.connect(a.musicTrim);
     if (intro) {
       const s = ctx.createBufferSource();
       s.buffer = intro;
-      s.connect(a.musicTrim);
+      this.gIntro = ctx.createGain(); s.connect(this.gIntro); this.gIntro.connect(this.out);
       s.start(t);
       this.loops.push(s);
       t += intro.duration;
@@ -107,7 +113,7 @@ export class BossAudio {
     this.gMain = ctx.createGain();
     this.gMain.gain.value = 1;
     l.connect(this.gMain);
-    this.gMain.connect(a.musicTrim);
+    this.gMain.connect(this.out);
     l.start(t);
     this.loops.push(l);
     a.musicNode = l;
@@ -118,7 +124,7 @@ export class BossAudio {
     if (this.fury) return;
     this.fury = true;
     this.setTension(true);
-    if (!this.drumT) this.drumT = setInterval(() => this.drum(), 400);
+    if (!this.drumT) this.drumT = setInterval(() => this.schedDrums(), 100);
   }
   /** Polvo com pouca vida: crossfade (2,5 s) para a faixa tensa (orquestra, 128 s). */
   setTension(on = true) {
@@ -126,35 +132,48 @@ export class BossAudio {
     const ctx = this.ctx, a = this.a, b = this.pick("music_tense");
     if (!ctx || !a.musicTrim || !this.gMain) { this.tensePending = true; return; }
     this.tense = true;
-    const now = ctx.currentTime, X = 2.5;
-    this.gMain.gain.cancelScheduledValues(now);
-    this.gMain.gain.setValueAtTime(this.gMain.gain.value, now);
-    this.gMain.gain.linearRampToValueAtTime(b ? 0 : 0.8, now + X);
+    const now = ctx.currentTime, X = 4;
+    // crossfade suave de 4 s (curvas seno/cosseno, potência constante, sem buraco nem pico)
+    const N = 32, down = new Float32Array(N), up = new Float32Array(N);
+    for (let i = 0; i < N; i++) { const k = i / (N - 1); down[i] = Math.cos(k * Math.PI / 2); up[i] = Math.sin(k * Math.PI / 2); }
+    for (const g of [this.gMain, this.gIntro]) {
+      if (!g) continue;
+      g.gain.cancelScheduledValues(now);
+      const v = g.gain.value; g.gain.setValueCurveAtTime(down.map((d) => d * v + 0.0001), now, X);
+    }
     if (b) {
       const s = ctx.createBufferSource();
       s.buffer = b; s.loop = true;
       const g = ctx.createGain();
-      g.gain.setValueAtTime(0.0001, now);
-      g.gain.linearRampToValueAtTime(1, now + X);
-      s.connect(g); g.connect(a.musicTrim);
+      g.gain.value = 0; g.gain.setValueCurveAtTime(up, now, X);
+      s.connect(g); g.connect(this.out);
       s.start(now);
+      this.tenseT0 = now;
       this.loops.push(s);
       this.gTense = g;
     }
   }
-  drum() {
+  /** Tambor sutil, agendado no pulso da orquestra (72 bpm) com 0,3 s de antecedência. */
+  schedDrums() {
+    const ctx = this.ctx;
+    if (!ctx || this.dead) return;
+    const t0 = this.tenseT0 ?? ctx.currentTime;
+    if (this.nextBeat == null) this.nextBeat = t0 + Math.ceil((ctx.currentTime - t0) / BEAT + 0.05) * BEAT;
+    while (this.nextBeat < ctx.currentTime + 0.3) { this.drum(this.nextBeat); this.nextBeat += BEAT; }
+  }
+  drum(at) {
     const ctx = this.ctx;
     if (!ctx || this.dead || !this.a.unlocked || this.a.muted) return;
-    const t0 = ctx.currentTime + 0.01;
+    const t0 = Math.max(at ?? 0, ctx.currentTime + 0.01);
     const o = ctx.createOscillator();
     o.type = "sine";
     o.frequency.setValueAtTime(120, t0);
     o.frequency.exponentialRampToValueAtTime(45, t0 + 0.18);
     const g = ctx.createGain();
     g.gain.setValueAtTime(0.0001, t0);
-    g.gain.exponentialRampToValueAtTime(0.32, t0 + 0.008);
+    g.gain.exponentialRampToValueAtTime(0.11, t0 + 0.012);
     g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.25);
-    o.connect(g); g.connect(this.a.musicTrim);
+    o.connect(g); g.connect(this.out || this.a.musicTrim);
     o.start(t0); o.stop(t0 + 0.27);
   }
   /** Latido sintetizado do Faísca (os latidos gravados ficaram de fora por licença incerta). */
