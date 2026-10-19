@@ -215,7 +215,6 @@ export const SETOR_I = {
         { kind: "moss_rock", x: 6050, y: G + 8 },
         { kind: "tree", x: 7180, y: G + 20, scale: 1.07, flip: true },
         { kind: "fern", x: 7310, y: G + 12, front: true },
-        { kind: "sign_end", x: 7440, y: G + 6 },
       ],
       shells: [
         { id: "f3I-17", x: 6204, y: 805 },
@@ -240,7 +239,6 @@ export const SETOR_I = {
             { x: 6810, y: 864, w: 168, oscAmp: 11, sinkDepth: 25 },
           ],
         },
-        { id: "fimI", x: 7480, y: 0, w: 200, h: 1080, event: "end" },
       ],
       checkpoints: [{ id: "I3", x: 7220 }],
       vistas: [{ x0: 7060, x1: 7680, zoom: 0.94 }],

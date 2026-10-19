@@ -27,6 +27,7 @@ export class ChunkManager {
     this.checkpoints = []; this.covers = []; this.waters = [];
     this.crumbles = []; this.movers = []; this.trickles = []; this.waveHits = [];
     this.toninhos = []; this.marinas = []; this.julias = []; this.lucases = []; this.ropes = [];
+    this.waterfalls = []; this.relics = []; this.energyOrbs = [];
   }
   update(camLeft, camRight, force = false) {
     for (const c of this.level.chunks) {
@@ -59,11 +60,13 @@ export class ChunkManager {
     for (const g of c.ground || []) {
       const y = g.y ?? G;
       this.tileRect(g.x, y, g.w, BOTTOM - y, this.tiles(c, g.tiles), DEPTH.ground, objs, y < G);
-      this.solid(g.x, y, g.w, BOTTOM - y, objs);
+      const z = this.solid(g.x, y, g.w, BOTTOM - y, objs);
+      if (g.slippery || (c.art === "J" && g.tiles === "rock")) z.setData("slippery", true);
     }
     for (const bl of c.blocks || []) {
       this.tileRect(bl.x, bl.y, bl.w, bl.h, this.tiles(c, bl.tiles || "rock"), DEPTH.ground + 0.1, objs, true);
-      this.solid(bl.x, bl.y, bl.w, bl.h, objs);
+      const z = this.solid(bl.x, bl.y, bl.w, bl.h, objs);
+      if (bl.slippery || (c.art === "J" && (bl.wet || bl.tiles === "rock"))) z.setData("slippery", true);
       if (bl.wet && bl.h >= 100) {
         const count = Math.max(1, Math.floor(bl.w / 140));
         for (let i = 0; i < count; i++) {
@@ -82,6 +85,7 @@ export class ChunkManager {
       const ts = s.add.tileSprite(p.x, baseY, p.w, def.h, tileKey(c.art, p.kind)).setOrigin(0).setTilePosition(p.x, 0).setDepth(DEPTH.ground + 0.2);
       objs.push(ts);
       const z = s.add.zone(p.x + p.w / 2, p.y + 12, p.w, 24).setData("oneway", true);
+      if (p.slippery || (c.art === "J" && (p.kind?.includes("ledge") || p.slippery !== false))) z.setData("slippery", true);
       this.oneway.add(z); objs.push(z);
       if (p.crumble || p.kind === "crumble") {
         this.crumbles.push({ def: p, ts, zone: z, baseX: p.x, baseY, state: "idle", t: 0, puffT: 0, chunk: c.id });
@@ -94,6 +98,33 @@ export class ChunkManager {
         }
         this.movers.push({ def: p, ts, zone: z, swayGfx, baseX: p.x, baseY, surfY: def.surfaceY || 0, prevX: p.x, prevY: p.y, chunk: c.id });
       }
+    }
+    for (const wf of c.waterfalls || []) {
+      const imKey = "f3_cortina_cachoeira";
+      const ts = s.add.tileSprite(wf.x, wf.y, wf.w, wf.h, imKey)
+        .setOrigin(0, 0)
+        .setDepth(12)
+        .setAlpha(0.88);
+      objs.push(ts);
+      this.waterfalls.push({ ...wf, ts, chunk: c.id });
+    }
+    for (const rel of c.relics || []) {
+      if (s.collected?.has(rel.id) || s.reliquiaK) continue;
+      const spr = s.add.image(rel.x, rel.y, "f3_reliquia_historia")
+        .setScale(0.85)
+        .setDepth(DEPTH.pickup);
+      s.tweens.add({ targets: spr, y: rel.y - 12, duration: 1200, yoyo: true, repeat: -1, ease: "Sine.easeInOut" });
+      objs.push(spr);
+      this.relics.push({ ...rel, spr, chunk: c.id });
+    }
+    for (const orb of c.energyOrbs || []) {
+      if (s.collected?.has(orb.id)) continue;
+      const spr = s.add.image(orb.x, orb.y, "f3_orbe_energia")
+        .setScale(0.9)
+        .setDepth(DEPTH.pickup);
+      s.tweens.add({ targets: spr, scale: 1.08, duration: 800, yoyo: true, repeat: -1, ease: "Sine.easeInOut" });
+      objs.push(spr);
+      this.energyOrbs.push({ ...orb, spr, chunk: c.id });
     }
     for (const w of c.water || []) {
       const wat = s.makeWater(w); objs.push(...wat.objs); this.waters.push(wat);
@@ -265,6 +296,65 @@ export class ChunkManager {
         }
       }
     }
+    // mecânica de solo/plataforma escorregadia (Setor J - Cachoeira)
+    let onSlip = false;
+    if (sofia.grounded && !sofia.onRope) {
+      const sb = sofia.body;
+      for (const z of this.oneway.getChildren()) {
+        if (z.getData("slippery") && !z.getData("disabled")) {
+          const zb = z.body;
+          if (zb && sb.bottom >= zb.top - 6 && sb.bottom <= zb.top + 24 && sb.right >= zb.left && sb.left <= zb.right) {
+            onSlip = true; break;
+          }
+        }
+      }
+      if (!onSlip) {
+        for (const z of this.solids.getChildren()) {
+          if (z.getData("slippery")) {
+            const zb = z.body;
+            if (zb && sb.bottom >= zb.top - 6 && sb.bottom <= zb.top + 24 && sb.right >= zb.left && sb.left <= zb.right) {
+              onSlip = true; break;
+            }
+          }
+        }
+      }
+    }
+    sofia.onSlippery = onSlip;
+    if (onSlip && Math.abs(sofia.body.velocity.x) > 40 && Math.random() < 0.25) {
+      s.puff?.(sofia.x + (Math.random() - 0.5) * 20, sofia.y - 2, 0.28, 0xbff7ff);
+    }
+    // animação da cortina de água das cachoeiras e revelação de passagem secreta
+    for (const wf of this.waterfalls) {
+      if (!wf.ts.active) continue;
+      wf.ts.tilePositionY -= dt * 380;
+      if (wf.secretPassage) {
+        const inside = sofia.x >= wf.x - 24 && sofia.x <= wf.x + wf.w + 24 && sofia.y >= wf.y && sofia.y <= wf.y + wf.h + 20;
+        const targetAlpha = inside ? 0.28 : 0.88;
+        wf.ts.alpha += (targetAlpha - wf.ts.alpha) * Math.min(1, dt * 6);
+      }
+      if (Math.abs(wf.x + wf.w / 2 - camMid) < 1400 && Math.random() < 0.22) {
+        s.puff?.(wf.x + Math.random() * wf.w, wf.y + wf.h - 12, 0.38, 0xd4f6ff);
+      }
+    }
+    // coleta de relíquias antigas da ilha e orbes de energia
+    for (let i = this.relics.length - 1; i >= 0; i--) {
+      const rel = this.relics[i];
+      if (!rel.spr.active) { this.relics.splice(i, 1); continue; }
+      if (Math.hypot(sofia.x - rel.x, sofia.y - (rel.y + 36)) < 65) {
+        rel.spr.destroy();
+        this.relics.splice(i, 1);
+        s.collectRelic?.(rel);
+      }
+    }
+    for (let i = this.energyOrbs.length - 1; i >= 0; i--) {
+      const orb = this.energyOrbs[i];
+      if (!orb.spr.active) { this.energyOrbs.splice(i, 1); continue; }
+      if (Math.hypot(sofia.x - orb.x, sofia.y - (orb.y + 30)) < 60) {
+        orb.spr.destroy();
+        this.energyOrbs.splice(i, 1);
+        s.collectEnergyOrb?.(orb);
+      }
+    }
   }
   unbuild(id) {
     const b = this.built.get(id); if (!b) return;
@@ -287,6 +377,9 @@ export class ChunkManager {
     this.movers = this.movers.filter((mv) => mv.chunk !== id);
     this.trickles = this.trickles.filter((tr) => tr.chunk !== id);
     this.waveHits = this.waveHits.filter((wh) => wh.chunk !== id);
+    this.waterfalls = this.waterfalls.filter((wf) => wf.chunk !== id);
+    this.relics = this.relics.filter((rel) => rel.chunk !== id);
+    this.energyOrbs = this.energyOrbs.filter((orb) => orb.chunk !== id);
     for (const o of b.objs) { this.scene.tweens.killTweensOf(o); o.destroy(); }
     this.covers = this.covers.filter((cv) => cv.cover.active);
     this.waters = this.waters.filter((w) => w.objs[0].active);

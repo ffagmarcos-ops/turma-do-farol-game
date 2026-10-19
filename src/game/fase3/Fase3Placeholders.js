@@ -748,9 +748,324 @@ function gorgeLayer(ctx, w, h) {
   }
 }
 
+function waterfallLayer(ctx, w, h) {
+  const pillar = (x, wid, hei, col) => {
+    for (const dx of [0, -w, w]) {
+      const px = x + dx;
+      ctx.beginPath();
+      ctx.moveTo(px - wid / 2, h);
+      ctx.lineTo(px - wid * 0.44, h - hei);
+      ctx.lineTo(px + wid * 0.44, h - hei);
+      ctx.lineTo(px + wid / 2, h);
+      ctx.closePath();
+      blob(ctx, col, OL, 4);
+    }
+  };
+  pillar(260, 480, 800, "#48535b");
+  pillar(1020, 520, 840, "#3f4950");
+  pillar(1740, 460, 780, "#4a555d");
+
+  const fall = (x, wid) => {
+    for (const dx of [0, -w, w]) {
+      const fx = x + dx;
+      const g = ctx.createLinearGradient(fx, 0, fx, h);
+      g.addColorStop(0, "rgba(220, 245, 255, 0.95)");
+      g.addColorStop(0.5, "rgba(165, 225, 245, 0.85)");
+      g.addColorStop(1, "rgba(240, 252, 255, 0.95)");
+      ctx.fillStyle = g;
+      ctx.fillRect(fx - wid / 2, 80, wid, h - 160);
+      ctx.strokeStyle = "rgba(255, 255, 255, 0.7)";
+      ctx.lineWidth = 3;
+      for (let s = -wid / 2 + 8; s < wid / 2; s += 16) {
+        ctx.beginPath(); ctx.moveTo(fx + s, 80); ctx.lineTo(fx + s, h - 80); ctx.stroke();
+      }
+    }
+  };
+  fall(620, 160);
+  fall(1400, 200);
+
+  for (const [x, wid] of [[620, 420], [1400, 480]]) {
+    for (const dx of [0, -w, w]) {
+      const g = ctx.createRadialGradient(x + dx, h - 80, 20, x + dx, h - 80, wid / 2);
+      g.addColorStop(0, "rgba(240, 250, 255, 0.75)");
+      g.addColorStop(0.5, "rgba(215, 242, 255, 0.4)");
+      g.addColorStop(1, "rgba(215, 242, 255, 0)");
+      ctx.fillStyle = g;
+      ctx.beginPath(); ctx.arc(x + dx, h - 80, wid / 2, 0, Math.PI * 2); ctx.fill();
+    }
+  }
+}
+
+function caveSkyLayer(ctx, w, h) {
+  const g = ctx.createLinearGradient(0, 0, 0, h);
+  g.addColorStop(0, "#090d19");
+  g.addColorStop(0.5, "#0e172a");
+  g.addColorStop(1, "#070b14");
+  ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+  const r = rng(77);
+  for (let k = 0; k < 60; k++) {
+    const x = r() * w, y = r() * h, rad = 1.5 + r() * 2.5;
+    ctx.beginPath(); ctx.arc(x, y, rad, 0, Math.PI * 2);
+    ctx.fillStyle = r() < 0.6 ? "rgba(100, 230, 255, 0.8)" : "rgba(160, 130, 255, 0.75)";
+    ctx.fill();
+  }
+}
+
+function caveRoofLayer(ctx, w, h) {
+  ctx.fillStyle = "#161f30";
+  ctx.fillRect(0, 0, w, 110);
+  const stal = (x, wid, len, col) => {
+    for (const dx of [0, -w, w]) {
+      const sx = x + dx;
+      ctx.beginPath();
+      ctx.moveTo(sx - wid / 2, 100);
+      ctx.lineTo(sx, 100 + len);
+      ctx.lineTo(sx + wid / 2, 100);
+      ctx.closePath();
+      blob(ctx, col, OL, 3);
+      ctx.beginPath(); ctx.arc(sx, 100 + len, 4, 0, Math.PI * 2);
+      ctx.fillStyle = "#6ef4ff"; ctx.fill();
+    }
+  };
+  stal(180, 50, 140, "#1f2a3f");
+  stal(360, 70, 210, "#26354f");
+  stal(640, 44, 110, "#1c2538");
+  stal(920, 80, 240, "#24324a");
+  stal(1220, 56, 170, "#1e283c");
+  stal(1520, 72, 220, "#25344d");
+  stal(1800, 48, 130, "#1c2639");
+}
+
+function caveWaterLayer(ctx, w, h) {
+  const g = ctx.createLinearGradient(0, 0, 0, h);
+  g.addColorStop(0, "rgba(15, 30, 50, 0.4)");
+  g.addColorStop(0.3, "rgba(20, 55, 80, 0.75)");
+  g.addColorStop(1, "rgba(10, 25, 45, 0.95)");
+  ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+  for (let y = 14; y < h; y += 18) {
+    ctx.strokeStyle = `rgba(110, 244, 255, ${0.15 + (y / h) * 0.25})`;
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.moveTo(0, y);
+    for (let x = 0; x <= w; x += 60) {
+      ctx.lineTo(x, y + Math.sin(x * 0.05 + y) * 4);
+    }
+    ctx.stroke();
+  }
+}
+
+function caveWallLayer(ctx, w, h) {
+  const col = (x, wid) => {
+    for (const dx of [0, -w, w]) {
+      const cx = x + dx;
+      ctx.beginPath();
+      ctx.moveTo(cx - wid / 2, 0); ctx.lineTo(cx - wid * 0.38, h);
+      ctx.lineTo(cx + wid * 0.38, h); ctx.lineTo(cx + wid / 2, 0);
+      ctx.closePath();
+      blob(ctx, "#1e293b", OL, 4);
+      ctx.beginPath();
+      ctx.moveTo(cx - 10, h * 0.2); ctx.lineTo(cx + 14, h * 0.5); ctx.lineTo(cx - 8, h * 0.8);
+      ctx.strokeStyle = "#59e2f2"; ctx.lineWidth = 5; ctx.stroke();
+    }
+  };
+  col(300, 160);
+  col(1050, 180);
+  col(1680, 150);
+}
+
+function caveStalagmitesLayer(ctx, w, h) {
+  const smit = (x, wid, len, col) => {
+    for (const dx of [0, -w, w]) {
+      const sx = x + dx;
+      ctx.beginPath();
+      ctx.moveTo(sx - wid / 2, h);
+      ctx.lineTo(sx, h - len);
+      ctx.lineTo(sx + wid / 2, h);
+      ctx.closePath();
+      blob(ctx, col, OL, 3.5);
+      ctx.beginPath();
+      ctx.moveTo(sx - wid * 0.2, h);
+      ctx.lineTo(sx, h - len);
+      ctx.lineTo(sx + wid * 0.1, h);
+      ctx.closePath();
+      ctx.fillStyle = "#48c9df"; ctx.fill();
+    }
+  };
+  smit(140, 70, 160, "#192434");
+  smit(520, 60, 120, "#16202e");
+  smit(960, 80, 200, "#1b2738");
+  smit(1420, 65, 140, "#182332");
+  smit(1850, 74, 180, "#192434");
+}
+
+function wetWaterfallStoneTile(ctx, w, h, top) {
+  const g = ctx.createLinearGradient(0, 0, 0, h);
+  g.addColorStop(0, top ? "#505c66" : "#3b454d");
+  g.addColorStop(1, top ? "#3e4850" : "#2d353b");
+  ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+  const r = rng(top ? 81 : 83);
+  for (let k = 0; k < 25; k++) {
+    ctx.fillStyle = r() < 0.5 ? "rgba(20,28,34,.45)" : "rgba(170,210,230,.3)";
+    ctx.fillRect(r() * w, (top ? 20 : 0) + r() * (h - 20), 4, 3);
+  }
+  if (top) {
+    ctx.clearRect(0, 0, w, 8);
+    ctx.fillStyle = "#3d7e52";
+    for (let x = 0; x < w; x += 16) {
+      ctx.beginPath(); ctx.ellipse(x + 8, 16, 9, 6, 0, 0, Math.PI * 2); ctx.fill();
+    }
+    ctx.fillStyle = "rgba(195, 245, 255, 0.75)";
+    ctx.fillRect(0, 8, w, 7);
+    ctx.strokeStyle = OL; ctx.lineWidth = 4;
+    ctx.beginPath(); ctx.moveTo(0, 8); ctx.lineTo(w, 8); ctx.stroke();
+  }
+}
+
+function wetWaterfallLedge(ctx, w, h) {
+  ctx.fillStyle = "#4a5660"; ctx.fillRect(0, 6, w, h - 16);
+  ctx.fillStyle = "#637380"; ctx.fillRect(0, 8, w, 12);
+  ctx.fillStyle = "#3d7e52";
+  for (let x = 0; x < w; x += 18) { ctx.beginPath(); ctx.ellipse(x + 9, 12, 10, 5, 0, 0, Math.PI * 2); ctx.fill(); }
+  ctx.fillStyle = "rgba(200, 248, 255, 0.85)"; ctx.fillRect(0, 6, w, 6);
+  ctx.strokeStyle = OL; ctx.lineWidth = 4;
+  ctx.beginPath(); ctx.moveTo(0, 6); ctx.lineTo(w, 6); ctx.moveTo(0, h - 10); ctx.lineTo(w, h - 10); ctx.stroke();
+}
+
+function caveCrystalStoneTile(ctx, w, h, top) {
+  const g = ctx.createLinearGradient(0, 0, 0, h);
+  g.addColorStop(0, top ? "#202e42" : "#172233");
+  g.addColorStop(1, top ? "#172233" : "#101824");
+  ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+  const r = rng(top ? 91 : 93);
+  for (let k = 0; k < 20; k++) {
+    ctx.fillStyle = r() < 0.5 ? "rgba(90, 220, 255, 0.35)" : "rgba(160, 140, 255, 0.25)";
+    ctx.fillRect(r() * w, (top ? 20 : 0) + r() * (h - 20), 4, 3);
+  }
+  if (top) {
+    ctx.clearRect(0, 0, w, 8);
+    ctx.fillStyle = "#346285"; ctx.fillRect(0, 9, w, 14);
+    ctx.fillStyle = "#6ee8ff";
+    for (let x = 0; x < w; x += 24) {
+      ctx.beginPath();
+      ctx.moveTo(x, 18); ctx.lineTo(x + 8, 8); ctx.lineTo(x + 16, 18);
+      ctx.closePath(); ctx.fill();
+    }
+    ctx.strokeStyle = OL; ctx.lineWidth = 4;
+    ctx.beginPath(); ctx.moveTo(0, 8); ctx.lineTo(w, 8); ctx.stroke();
+  }
+}
+
+function caveCrystalLedge(ctx, w, h) {
+  ctx.fillStyle = "#1f2d40"; ctx.fillRect(0, 6, w, h - 16);
+  ctx.fillStyle = "#334c6b"; ctx.fillRect(0, 8, w, 12);
+  ctx.fillStyle = "#72edff";
+  for (let x = 4; x < w - 8; x += 20) {
+    ctx.beginPath();
+    ctx.moveTo(x, 14); ctx.lineTo(x + 7, 6); ctx.lineTo(x + 14, 14);
+    ctx.closePath(); ctx.fill();
+  }
+  ctx.strokeStyle = OL; ctx.lineWidth = 4;
+  ctx.beginPath(); ctx.moveTo(0, 6); ctx.lineTo(w, 6); ctx.moveTo(0, h - 10); ctx.lineTo(w, h - 10); ctx.stroke();
+}
+
+function crystalCluster(ctx, w, h) {
+  const shard = (cx, cy, wid, hei, rot, colMain, colHi) => {
+    ctx.save();
+    ctx.translate(cx, cy);
+    ctx.rotate(rot);
+    ctx.beginPath();
+    ctx.moveTo(0, -hei);
+    ctx.lineTo(wid / 2, -hei * 0.7);
+    ctx.lineTo(wid / 2, 0);
+    ctx.lineTo(-wid / 2, 0);
+    ctx.lineTo(-wid / 2, -hei * 0.7);
+    ctx.closePath();
+    blob(ctx, colMain, OL, 3.5);
+    ctx.beginPath();
+    ctx.moveTo(0, -hei);
+    ctx.lineTo(wid / 2, -hei * 0.7);
+    ctx.lineTo(0, 0);
+    ctx.closePath();
+    ctx.fillStyle = colHi; ctx.fill();
+    ctx.restore();
+  };
+  shard(w * 0.35, h - 10, 36, 130, -0.18, "#258ca8", "#6de7ff");
+  shard(w * 0.52, h - 8, 42, 165, 0.05, "#2ba4c4", "#8cf0ff");
+  shard(w * 0.68, h - 10, 32, 115, 0.22, "#207a94", "#5bd8f2");
+  shard(w * 0.22, h - 6, 22, 65, -0.35, "#1d6c82", "#56d0ea");
+  shard(w * 0.78, h - 6, 24, 75, 0.38, "#1d6c82", "#56d0ea");
+}
+
+function waterfallCurtain(ctx, w, h) {
+  const g = ctx.createLinearGradient(0, 0, w, 0);
+  g.addColorStop(0, "rgba(210, 245, 255, 0.85)");
+  g.addColorStop(0.2, "rgba(160, 230, 255, 0.92)");
+  g.addColorStop(0.5, "rgba(235, 252, 255, 0.95)");
+  g.addColorStop(0.8, "rgba(160, 230, 255, 0.92)");
+  g.addColorStop(1, "rgba(210, 245, 255, 0.85)");
+  ctx.fillStyle = g;
+  ctx.fillRect(0, 0, w, h);
+  ctx.strokeStyle = "rgba(255, 255, 255, 0.8)";
+  ctx.lineWidth = 4;
+  for (let x = 12; x < w; x += 22) {
+    ctx.beginPath();
+    ctx.moveTo(x, 0);
+    for (let y = 0; y <= h; y += 40) {
+      ctx.lineTo(x + Math.sin(y * 0.08 + x) * 4, y);
+    }
+    ctx.stroke();
+  }
+}
+
+function storyRelic(ctx, w, h) {
+  const cx = w / 2, cy = h / 2;
+  const g = ctx.createRadialGradient(cx, cy, 10, cx, cy, w * 0.48);
+  g.addColorStop(0, "rgba(255, 240, 160, 0.8)");
+  g.addColorStop(0.6, "rgba(255, 215, 80, 0.3)");
+  g.addColorStop(1, "rgba(255, 215, 80, 0)");
+  ctx.fillStyle = g;
+  ctx.beginPath(); ctx.arc(cx, cy, w * 0.48, 0, Math.PI * 2); ctx.fill();
+
+  ctx.beginPath(); ctx.arc(cx, cy, w * 0.38, 0, Math.PI * 2);
+  blob(ctx, "#c89434", OL, 4);
+  ctx.beginPath(); ctx.arc(cx, cy, w * 0.32, 0, Math.PI * 2);
+  blob(ctx, "#f0be52", OL, 3);
+
+  ctx.strokeStyle = "#8d5d1c"; ctx.lineWidth = 4; ctx.lineCap = "round";
+  ctx.beginPath();
+  for (let a = 0; a < Math.PI * 4; a += 0.2) {
+    const r = 4 + a * 3;
+    const px = cx + Math.cos(a) * r, py = cy + Math.sin(a) * r;
+    if (a === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+  }
+  ctx.stroke();
+
+  ctx.beginPath(); ctx.arc(cx, cy, 7, 0, Math.PI * 2);
+  blob(ctx, "#6ee8ff", OL, 2.5);
+}
+
+function energyOrb(ctx, w, h) {
+  const cx = w / 2, cy = h / 2;
+  const g = ctx.createRadialGradient(cx, cy, 4, cx, cy, w * 0.46);
+  g.addColorStop(0, "rgba(255, 255, 255, 1)");
+  g.addColorStop(0.3, "rgba(130, 245, 255, 0.95)");
+  g.addColorStop(0.7, "rgba(50, 185, 240, 0.5)");
+  g.addColorStop(1, "rgba(30, 150, 220, 0)");
+  ctx.fillStyle = g;
+  ctx.beginPath(); ctx.arc(cx, cy, w * 0.46, 0, Math.PI * 2); ctx.fill();
+
+  ctx.beginPath(); ctx.arc(cx, cy, 14, 0, Math.PI * 2);
+  ctx.fillStyle = "#ffffff"; ctx.fill();
+  ctx.strokeStyle = "#72f4ff"; ctx.lineWidth = 3; ctx.stroke();
+
+  ctx.strokeStyle = "rgba(170, 245, 255, 0.85)"; ctx.lineWidth = 2.5;
+  ctx.beginPath(); ctx.ellipse(cx, cy, 28, 12, -0.4, 0, Math.PI * 2); ctx.stroke();
+  ctx.beginPath(); ctx.ellipse(cx, cy, 28, 12, 0.7, 0, Math.PI * 2); ctx.stroke();
+}
+
 /** Desenha o provisório de uma camada/tile/prop/efeito pelo "kind". */
 export const PLACEHOLDER = {
-  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer, E3: denseForestLayer, G3: gorgeLayer },
+  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer, E3: denseForestLayer, G3: gorgeLayer, J3: waterfallLayer, K0: caveSkyLayer, K1: caveRoofLayer, K2: caveWaterLayer, K3: caveWallLayer, K5: caveStalagmitesLayer },
   tile: {
     sand_top: (c, w, h) => sandTile(c, w, h, true), sand_fill: (c, w, h) => sandTile(c, w, h, false),
     rock_top: (c, w, h) => rockTile(c, w, h, true), rock_fill: (c, w, h) => rockTile(c, w, h, false),
@@ -770,6 +1085,12 @@ export const PLACEHOLDER = {
     H_log: branchTile,
     I_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), I_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
     I_log: branchTile,
+    J_sand_top: (c, w, h) => wetWaterfallStoneTile(c, w, h, true), J_sand_fill: (c, w, h) => wetWaterfallStoneTile(c, w, h, false),
+    J_rock_top: (c, w, h) => wetWaterfallStoneTile(c, w, h, true), J_rock_fill: (c, w, h) => wetWaterfallStoneTile(c, w, h, false),
+    J_ledge: wetWaterfallLedge, J_log: branchTile,
+    K_sand_top: (c, w, h) => caveCrystalStoneTile(c, w, h, true), K_sand_fill: (c, w, h) => caveCrystalStoneTile(c, w, h, false),
+    K_rock_top: (c, w, h) => caveCrystalStoneTile(c, w, h, true), K_rock_fill: (c, w, h) => caveCrystalStoneTile(c, w, h, false),
+    K_ledge: caveCrystalLedge, K_log: caveCrystalLedge,
     log: logTile, ledge: ledgeTile, crumble: crumbleTile,
   },
   prop: {
@@ -813,6 +1134,7 @@ export const PLACEHOLDER = {
     },
     starfish: (c, w, h) => { c.beginPath(); for (let k = 0; k < 10; k++) { const a = -Math.PI / 2 + k * Math.PI / 5, r = k % 2 ? 11 : 28; c.lineTo(w / 2 + Math.cos(a) * r, h / 2 + Math.sin(a) * r); } c.closePath(); blob(c, "#f08a4b", OL, 3); },
     pebbles: (c, w, h) => { const r = rng(9); for (let k = 0; k < 6; k++) { c.beginPath(); c.ellipse(20 + r() * (w - 40), h - 18 - r() * 16, 14 + r() * 14, 9 + r() * 7, 0, 0, Math.PI * 2); blob(c, k % 2 ? "#a39b8e" : "#8d857a", OL, 3); } },
+    crystal: crystalCluster,
     sign_end: (c, w, h) => { c.beginPath(); c.roundRect(w / 2 - 9, 70, 18, h - 70, 4); blob(c, "#8a5a2e"); c.beginPath(); c.moveTo(20, 30); c.lineTo(w - 50, 30); c.lineTo(w - 10, 70); c.lineTo(w - 50, 110); c.lineTo(20, 110); c.closePath(); blob(c, "#c08a52"); c.fillStyle = "#a8743e"; c.fillRect(30, 60, w - 90, 6); c.fillRect(30, 82, w - 100, 6); },
   },
   image: {
@@ -821,6 +1143,9 @@ export const PLACEHOLDER = {
     f3_concha_projetil: (c, w, h) => { c.beginPath(); c.moveTo(w / 2, 8); c.bezierCurveTo(w - 4, 14, w - 6, h - 12, w / 2, h - 6); c.bezierCurveTo(6, h - 12, 4, 14, w / 2, 8); blob(c, "#f6d9b8", OL, 3); },
     f3_concha: (c, w, h) => { c.beginPath(); c.moveTo(w / 2, 10); c.bezierCurveTo(w - 6, 18, w - 8, h - 14, w / 2, h - 8); c.bezierCurveTo(8, h - 14, 6, 18, w / 2, 10); blob(c, "#f6d9b8", OL, 4); },
     f3_pedra_macaco: (c, w, h) => { c.beginPath(); c.arc(w / 2, h / 2, w * 0.38, 0, Math.PI * 2); blob(c, "#7d756c", OL, 3.5); c.beginPath(); c.arc(w * 0.4, h * 0.38, w * 0.14, 0, Math.PI * 2); c.fillStyle = "#a89f94"; c.fill(); },
+    f3_cortina_cachoeira: waterfallCurtain,
+    f3_reliquia_historia: storyRelic,
+    f3_orbe_energia: energyOrb,
     f3_caixa_marina: (c, w, h) => {
       c.beginPath(); c.roundRect(4, 4, w - 8, h - 8, 8); blob(c, "#b57c42", OL, 4);
       c.fillStyle = "#ce9658"; c.fillRect(16, 16, w - 32, h - 32);

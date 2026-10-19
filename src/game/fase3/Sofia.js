@@ -156,7 +156,9 @@ export class Sofia {
     if (dir) this.facing = dir;
     const max = this.crouching ? T.crouch : a.run ? T.run : T.walk;
     const target = dir * max, vx = b.velocity.x;
-    const acc = this.grounded ? (dir ? T.accGround : T.decGround) : (dir ? T.accAir : T.decAir);
+    const accG = this.onSlippery ? 1650 : T.accGround;
+    const decG = this.onSlippery ? 760 : T.decGround;
+    const acc = this.grounded ? (dir ? accG : decG) : (dir ? T.accAir : T.decAir);
     const step = acc * dt;
     b.setVelocityX(Math.abs(target - vx) <= step ? target : vx + Math.sign(target - vx) * step);
 

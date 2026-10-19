@@ -13,6 +13,8 @@ import { SETOR_F } from "./setorF.js";
 import { SETOR_G } from "./setorG.js";
 import { SETOR_H } from "./setorH.js";
 import { SETOR_I } from "./setorI.js";
+import { SETOR_J } from "./setorJ.js";
+import { SETOR_K } from "./setorK.js";
 
 export const SECTORS = [
   { id: "A", name: "Praia da Chegada", gameplay: "tutorial + caranguejos", data: SETOR_A },
@@ -24,8 +26,8 @@ export const SECTORS = [
   { id: "G", name: "Desfiladeiro", gameplay: "verticalidade", data: SETOR_G },
   { id: "H", name: "Júlia", gameplay: "flashes e macacos", data: SETOR_H },
   { id: "I", name: "Riacho / Lucas", gameplay: "plataformas na água", data: SETOR_I },
-  { id: "J", name: "Cachoeira", gameplay: "exploração", data: null },
-  { id: "K", name: "Gruta Secreta", gameplay: "opcional", data: null },
+  { id: "J", name: "Cachoeira", gameplay: "exploração", data: SETOR_J },
+  { id: "K", name: "Gruta Secreta", gameplay: "opcional", data: SETOR_K },
   { id: "L", name: "Bia", gameplay: "rota secreta", data: null },
   { id: "M", name: "Copas Altas", gameplay: "desafio maior", data: null },
   { id: "N", name: "Ruínas", gameplay: "exploração / mistério", data: null },

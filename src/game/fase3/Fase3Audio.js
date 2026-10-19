@@ -106,4 +106,19 @@ export class Fase3Audio {
     this.tone(240, 560, 0.14, 0.15, "sine", 0, 1600);
     this.tone(420, 740, 0.09, 0.11, "triangle", 0.04, 2000);
   }
+  /** Sons da Cachoeira e Gruta Secreta (Setores J e K): relíquia da história, energia especial e eco da gruta */
+  relicChime() {
+    this.tone(587, 880, 0.18, 0.15, "sine", 0, 3200);
+    this.tone(880, 1175, 0.22, 0.16, "triangle", 0.12, 3400);
+    this.tone(1175, 1760, 0.34, 0.18, "sine", 0.24, 3600);
+  }
+  energyOrb() {
+    this.tone(440, 880, 0.18, 0.16, "triangle", 0, 2800);
+    this.tone(660, 1320, 0.24, 0.16, "sine", 0.08, 3200);
+    this.tone(880, 1760, 0.28, 0.14, "sine", 0.16, 3600);
+  }
+  caveEcho() {
+    this.tone(320, 480, 0.28, 0.12, "sine", 0, 1400);
+    this.tone(480, 360, 0.34, 0.09, "triangle", 0.18, 1200);
+  }
 }
