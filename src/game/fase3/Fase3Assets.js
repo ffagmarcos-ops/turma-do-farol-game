@@ -272,6 +272,39 @@ export const SECTOR_ART = {
       sign_end: { file: "placa_continua.png", w: 200, h: 220 },
     },
   },
+  I: {
+    folder: "setorI/",
+    tileset: "tileset_riacho_lucas/",
+    layers: [
+      { n: 0, file: "cenarioI_0_ceu.png", factor: 0.0, transparent: false, placeholder: { w: 512, h: 1080, y: 0, draw: 0 }, fallbackKey: "bg_sky" },
+      { n: 1, file: "cenarioI_1_ilhas.png", factor: 0.07, transparent: true, placeholder: { w: 2048, h: 320, y: 395, draw: 1 } },
+      { n: 2, file: "cenarioI_2_oceano.png", factor: 0.2, transparent: true, placeholder: { w: 1024, h: 380, y: 695, draw: 2 }, animatedWater: true },
+      { n: 3, file: "cenarioI_3_arvores.png", factor: 0.42, transparent: true, placeholder: { w: 2048, h: 900, y: 70, draw: "C3" } },
+      { n: 5, file: "cenarioI_5_folhagem.png", factor: 1.15, transparent: true, placeholder: { w: 1024, h: 280, y: 860, draw: "C5" } },
+      { n: 6, file: "cenarioI_6_folhas_desfocadas.png", factor: 1.38, transparent: true, placeholder: { w: 1024, h: 1080, y: 0, draw: 6 }, alpha: 0.85 },
+    ],
+    tiles: {
+      sand_top: { file: "margem_grama_topo.png", w: 128, h: 128, surfaceY: 12 },
+      sand_fill: { file: "margem_terra_meio.png", w: 128, h: 128 },
+      rock_top: { file: "rocha_riacho_topo.png", w: 128, h: 128, surfaceY: 8 },
+      rock_fill: { file: "rocha_riacho_meio.png", w: 128, h: 128 },
+      log: { file: "plataforma_galho.png", w: 128, h: 64, surfaceY: 6 },
+      ledge: { file: "plataforma_pedra_musgo.png", w: 128, h: 64, surfaceY: 6 },
+      crumble: { file: "plataforma_pedra_instavel.png", w: 128, h: 64, surfaceY: 6 },
+    },
+    props: {
+      tree: { file: "arvore_floresta.png", w: 420, h: 720 },
+      bush: { file: "arbusto_floresta.png", w: 260, h: 160 },
+      fern: { file: "samambaia.png", w: 220, h: 140 },
+      roots: { file: "raizes.png", w: 280, h: 130 },
+      vine: { file: "cipo_pendente.png", w: 120, h: 380 },
+      hollow_log: { file: "tronco_oco.png", w: 384, h: 160 },
+      boulder: { file: "pedra_costao.png", w: 240, h: 180 },
+      moss_rock: { file: "pedra_musgo.png", w: 180, h: 110 },
+      pebbles: { file: "pedrinhas.png", w: 180, h: 70 },
+      sign_end: { file: "placa_continua.png", w: 200, h: 220 },
+    },
+  },
 };
 
 /**
@@ -348,6 +381,16 @@ export const SPRITES = {
       cheer: { frames: [6, 7], frameRate: 6, repeat: -1 },
     },
   },
+  lucas: {
+    key: "f3_lucas", file: "chars/lucas_f3_sheet.png", frameWidth: 192, frameHeight: 256, scale: 1.06,
+    origin: [0.5, 0.9375],
+    anims: {
+      idle: { frames: [0, 1], frameRate: 4, repeat: -1 },
+      operateGadget: { frames: [2, 3], frameRate: 7, repeat: -1 },
+      activate: { frames: [4, 5], frameRate: 8, repeat: -1 },
+      celebrate: { frames: [6, 7], frameRate: 6, repeat: -1 },
+    },
+  },
   crab: {
     key: "f3_caranguejo", file: "inimigos/caranguejo_sheet.png", frameWidth: 160, frameHeight: 128, scale: 0.85,
     origin: [0.5, 0.92], body: [110, 80, 25, 38],
@@ -388,6 +431,7 @@ export const IMAGES = {
   shell_pickup: { key: "f3_concha", file: "props/concha_coletavel.png", w: 96, h: 96, fallbackKey: "shell", fallbackScale: 0.18 },
   monkey_rock: { key: "f3_pedra_macaco", file: "props/pedra_macaco.png", w: 48, h: 48 },
   marina_crate: { key: "f3_caixa_marina", file: "props/caixa_marina.png", w: 128, h: 128 },
+  lucas_buoy: { key: "f3_boia_lucas", file: "props/boia_lucas.png", w: 168, h: 58 },
   bark_wave: { key: "f3_onda_latido", file: "fx/onda_latido.png", w: 256, h: 512 },
   spark: { key: "f3_brilho", file: "fx/brilho_agua.png", w: 32, h: 32 },
   foam: { key: "f3_espuma", file: "fx/espuma.png", w: 32, h: 32 },

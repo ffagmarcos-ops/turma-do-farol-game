@@ -652,6 +652,48 @@ function drawJulia(ctx, i, fw, fh, scene) {
   }
 }
 
+/* ---------------- LUCAS (usa o sheet oficial da Fase 1 + aparelho das boias flutuantes) ---------------- */
+function drawLucas(ctx, i, fw, fh, scene) {
+  // i: 0-1 idle, 2-3 operateGadget (ajoelhado mexendo), 4-5 activate (pulso de energia), 6-7 celebrate
+  const srcFrames = [0, 1, 32, 33, 32, 40, 24, 41];
+  const sf = srcFrames[i] ?? 0;
+  if (scene?.textures?.exists("lucas")) {
+    const img = scene.textures.get("lucas").getSourceImage();
+    if (img) {
+      const sx = (sf % 8) * 192, sy = Math.floor(sf / 8) * 256;
+      ctx.drawImage(img, sx, sy, 192, 256, 0, 0, fw, fh);
+    }
+  } else {
+    const kneel = i >= 2 && i <= 5 ? 36 : 0;
+    ctx.beginPath(); ctx.roundRect(74, 120 + kneel, 44, 84 - kneel * 0.5, 14); blob(ctx, "#3273b8");
+    ctx.beginPath(); ctx.arc(96, 88 + kneel, 23, 0, Math.PI * 2); blob(ctx, "#e8b088");
+    ctx.beginPath(); ctx.arc(96, 80 + kneel, 25, Math.PI, 0); blob(ctx, "#4a2c18");
+  }
+  // aparelho de controle remoto das boias nas mãos do Lucas
+  const kneeling = i >= 2 && i <= 5;
+  const gx = kneeling ? 124 : 116, gy = kneeling ? 168 : 142;
+  ctx.beginPath(); ctx.roundRect(gx - 12, gy - 9, 24, 18, 4); blob(ctx, "#33475b", OL, 2.8);
+  // antena + esfera emissora
+  ctx.beginPath(); ctx.moveTo(gx + 8, gy - 9); ctx.lineTo(gx + 15, gy - 22);
+  ctx.strokeStyle = OL; ctx.lineWidth = 3.5; ctx.stroke();
+  ctx.beginPath(); ctx.arc(gx + 15, gy - 23, 4.5, 0, Math.PI * 2);
+  blob(ctx, i >= 2 && i <= 5 ? "#6ff7ff" : "#5bc0be", OL, 2);
+  // visor luminoso do aparelho
+  ctx.fillStyle = i % 2 === 0 ? "#7fe3f2" : "#bff7ff";
+  ctx.fillRect(gx - 7, gy - 4, 14, 8);
+  // ondas de ativação nos quadros 4-5
+  if (i === 4 || i === 5) {
+    const r1 = i === 4 ? 14 : 20, r2 = i === 4 ? 24 : 32;
+    ctx.strokeStyle = "rgba(127, 243, 255, 0.9)";
+    ctx.lineWidth = 3;
+    for (const r of [r1, r2]) {
+      ctx.beginPath();
+      ctx.arc(gx + 15, gy - 23, r, -0.9, 0.7);
+      ctx.stroke();
+    }
+  }
+}
+
 function denseForestLayer(ctx, w, h) {
   // fileira de árvores mais escuras ao fundo + cipós pendurados das copas + árvores em primeiro plano
   for (const [x, sc] of [[90, 1.05], [410, 1.16], [760, 1.02], [1120, 1.18], [1490, 1.06], [1840, 1.14]]) {
@@ -726,6 +768,8 @@ export const PLACEHOLDER = {
     G_log: branchTile,
     H_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), H_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
     H_log: branchTile,
+    I_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), I_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
+    I_log: branchTile,
     log: logTile, ledge: ledgeTile, crumble: crumbleTile,
   },
   prop: {
@@ -786,7 +830,20 @@ export const PLACEHOLDER = {
       c.lineWidth = 10; c.strokeStyle = "#8f5d2e"; c.stroke();
       c.strokeStyle = OL; c.lineWidth = 4; c.strokeRect(16, 16, w - 32, h - 32);
     },
+    f3_boia_lucas: (c, w, h) => {
+      // plataforma flutuante / boia náutica do Lucas (168x58, superfície onde pisa em y≈8)
+      c.beginPath(); c.roundRect(10, 20, w - 20, 28, 14); blob(c, "#f07a32", OL, 4);
+      // faixas brancas de boia salva-vidas
+      c.fillStyle = "#fff6e6";
+      for (const sx of [34, w / 2 - 12, w - 58]) c.fillRect(sx, 22, 24, 24);
+      c.strokeStyle = OL; c.lineWidth = 3.5; c.beginPath(); c.roundRect(10, 20, w - 20, 28, 14); c.stroke();
+      // deck superior antiderrapante (onde a Sofia pisa)
+      c.beginPath(); c.roundRect(18, 6, w - 36, 18, 7); blob(c, "#435d73", OL, 3.5);
+      c.fillStyle = "#6787a1"; c.fillRect(28, 10, w - 56, 6);
+      // luzinha azul do dispositivo do Lucas no centro
+      c.beginPath(); c.arc(w / 2, 34, 7, 0, Math.PI * 2); blob(c, "#7fe3f2", OL, 2.5);
+    },
   },
-  sheet: { f3_sofia: drawSofia, f3_toninho: drawToninho, f3_marina: drawMarina, f3_julia: drawJulia, f3_caranguejo: drawCrab, f3_macaco: drawMonkey, f3_checkpoint: drawCheckpoint },
-  sheetCount: { f3_sofia: SOFIA_POSES.length, f3_toninho: 8, f3_marina: 10, f3_julia: 8, f3_caranguejo: 9, f3_macaco: 15, f3_checkpoint: 3 },
+  sheet: { f3_sofia: drawSofia, f3_toninho: drawToninho, f3_marina: drawMarina, f3_julia: drawJulia, f3_lucas: drawLucas, f3_caranguejo: drawCrab, f3_macaco: drawMonkey, f3_checkpoint: drawCheckpoint },
+  sheetCount: { f3_sofia: SOFIA_POSES.length, f3_toninho: 8, f3_marina: 10, f3_julia: 8, f3_lucas: 8, f3_caranguejo: 9, f3_macaco: 15, f3_checkpoint: 3 },
 };

@@ -212,7 +212,6 @@ export const SETOR_H = {
         { kind: "tree", x: 6260, y: G + 20, scale: 1.08 },
         { kind: "fern", x: 6560, y: G + 12, front: true },
         { kind: "tree", x: 7060, y: G + 20, scale: 1.05, flip: true },
-        { kind: "sign_end", x: 7440, y: G + 6 },
       ],
       shells: [
         { id: "f3H-16", x: 6268, y: 480 },
@@ -238,7 +237,6 @@ export const SETOR_H = {
           stunDuration: 2.2,
           flashRadius: 1100,
         },
-        { id: "fimH", x: 7480, y: 0, w: 200, h: 1080, event: "end" },
       ],
       checkpoints: [{ id: "H3", x: 7220 }],
       vistas: [{ x0: 7120, x1: 7680, zoom: 0.94 }],

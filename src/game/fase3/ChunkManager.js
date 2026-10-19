@@ -13,6 +13,7 @@ import { Macaco } from "./Macaco.js";
 import { ToninhoHelper, NauticalRope } from "./ToninhoHelper.js";
 import { MarinaHelper } from "./MarinaHelper.js";
 import { JuliaHelper } from "./JuliaHelper.js";
+import { LucasHelper } from "./LucasHelper.js";
 
 export const DEPTH = { ground: 0, wash: 1, back: -2, interior: -3, pickup: 5, checkpoint: 4, enemy: 8, cover: 15, front: 16 };
 const BUILD_MARGIN = 1920, KEEP_MARGIN = 3840, BOTTOM = 1240;
@@ -25,7 +26,7 @@ export class ChunkManager {
     this.crabs = []; this.monkeys = []; this.shells = scene.physics.add.group({ allowGravity: false, immovable: true });
     this.checkpoints = []; this.covers = []; this.waters = [];
     this.crumbles = []; this.movers = []; this.trickles = []; this.waveHits = [];
-    this.toninhos = []; this.marinas = []; this.julias = []; this.ropes = [];
+    this.toninhos = []; this.marinas = []; this.julias = []; this.lucases = []; this.ropes = [];
   }
   update(camLeft, camRight, force = false) {
     for (const c of this.level.chunks) {
@@ -54,7 +55,7 @@ export class ChunkManager {
     if (outline) objs.push(s.add.rectangle(x + w / 2, y + h / 2, w, h).setStrokeStyle(4, 0x2a1a10).setDepth(depth + 0.01));
   }
   build(c) {
-    const s = this.scene, objs = [], crabs = [], monkeys = [], toninhos = [], marinas = [], julias = [], ropes = [], G = 900;
+    const s = this.scene, objs = [], crabs = [], monkeys = [], toninhos = [], marinas = [], julias = [], lucases = [], ropes = [], G = 900;
     for (const g of c.ground || []) {
       const y = g.y ?? G;
       this.tileRect(g.x, y, g.w, BOTTOM - y, this.tiles(c, g.tiles), DEPTH.ground, objs, y < G);
@@ -140,6 +141,9 @@ export class ChunkManager {
       } else if (tr.event === "helpZoneJulia") {
         const jh = new JuliaHelper(s, tr);
         julias.push(jh); this.julias.push(jh);
+      } else if (tr.event === "helpZoneLucas") {
+        const lh = new LucasHelper(s, tr, s.lucasTriggered?.has(tr.id));
+        lucases.push(lh); this.lucases.push(lh);
       }
     }
     for (const rp of c.ropes || []) {
@@ -157,7 +161,7 @@ export class ChunkManager {
         crabs.push(crab); this.crabs.push(crab);
       }
     });
-    this.built.set(c.id, { objs, crabs, monkeys, toninhos, marinas, julias, ropes });
+    this.built.set(c.id, { objs, crabs, monkeys, toninhos, marinas, julias, lucases, ropes });
   }
   updateMechanics(dt, sofia, timeSec, camMid, wantClimb = false) {
     const s = this.scene;
@@ -169,6 +173,9 @@ export class ChunkManager {
     }
     for (const jh of this.julias) {
       jh.update(dt, sofia);
+    }
+    for (const lh of this.lucases) {
+      lh.update(dt, sofia, timeSec);
     }
     for (const rp of this.ropes) {
       rp.update(dt, sofia, wantClimb);
@@ -266,12 +273,14 @@ export class ChunkManager {
     for (const th of b.toninhos || []) th.destroy();
     for (const mh of b.marinas || []) mh.destroy();
     for (const jh of b.julias || []) jh.destroy();
+    for (const lh of b.lucases || []) lh.destroy();
     for (const rp of b.ropes || []) rp.destroy();
     this.crabs = this.crabs.filter((cr) => !b.crabs.includes(cr));
     this.monkeys = this.monkeys.filter((mk) => !(b.monkeys || []).includes(mk));
     this.toninhos = this.toninhos.filter((th) => !(b.toninhos || []).includes(th));
     this.marinas = this.marinas.filter((mh) => !(b.marinas || []).includes(mh));
     this.julias = this.julias.filter((jh) => !(b.julias || []).includes(jh));
+    this.lucases = this.lucases.filter((lh) => !(b.lucases || []).includes(lh));
     this.ropes = this.ropes.filter((rp) => !(b.ropes || []).includes(rp));
     this.checkpoints = this.checkpoints.filter((e) => e.chunk !== id);
     this.crumbles = this.crumbles.filter((cr) => cr.chunk !== id);

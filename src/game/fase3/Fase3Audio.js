@@ -93,4 +93,17 @@ export class Fase3Audio {
     this.tone(1600, 420, 0.045, 0.18, "square", 0, 3200);
     this.tone(920, 1840, 0.14, 0.16, "triangle", 0.03, 2800);
   }
+  /** Aparelho do Lucas e boias flutuantes emergindo na água (Setor I) */
+  gadgetBeep() {
+    this.tone(740, 980, 0.07, 0.12, "triangle", 0, 2400);
+    this.tone(980, 1320, 0.08, 0.12, "sine", 0.09, 2600);
+  }
+  gadgetActivate() {
+    this.tone(520, 1480, 0.22, 0.16, "sine", 0, 2800);
+    this.tone(780, 1760, 0.18, 0.14, "triangle", 0.06, 3000);
+  }
+  buoyPop() {
+    this.tone(240, 560, 0.14, 0.15, "sine", 0, 1600);
+    this.tone(420, 740, 0.09, 0.11, "triangle", 0.04, 2000);
+  }
 }
