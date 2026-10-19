@@ -772,7 +772,7 @@ export class VilaScene extends Phaser.Scene {
       this.visual.puff(this.player.x, this.player.y);
       this.stepTimer = this.player.state === "RUN" ? 0.22 : 0.34;
     }
-    if (this.player.jumpedThisFrame) this.audio.play("jump");
+    if (this.player.jumpedThisFrame) this.audio.play("jump", { rate: this.player.isDoubleJump ? 1.25 : 1 });
     if (this.player.landedThisFrame) {
       this.audio.play("land");
       this.cc0?.land(this.player.x, this.player.sprite.y + (this.player.sprite.displayHeight || 0) * 0.45, this.audio.surfaceAt?.(this.player.x) === "wood");

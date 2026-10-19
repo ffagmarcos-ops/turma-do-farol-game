@@ -749,7 +749,7 @@ export class Fase3Scene extends Phaser.Scene {
       if (this.introT <= 0 || (this.introT < 1.9 && (a.jumpPressed || a.attackPressed))) { this.introT = 0; s.locked = false; s.looking = false; }
     }
     s.update(dt, this.ended ? {} : a);
-    if (s.jumpedThisFrame) this.audio.play("jump", { volume: 0.6 });
+    if (s.jumpedThisFrame) this.audio.play("jump", { volume: 0.6, rate: s.isDoubleJump ? 1.25 : 1 });
     if (s.landedSpeed) {
       this.audio.play("land", { volume: Math.min(1, s.landedSpeed / 1200) });
       this.puff(s.x, s.y - 6, 0.6);

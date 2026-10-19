@@ -16,6 +16,8 @@ export class Player {
     this.coyote = 0;
     this.jumpBuffer = 0;
     this.jumpCutApplied = false;
+    this.jumpsLeft = 2;
+    this.isDoubleJump = false;
     this.lock = false;
     this.slippery = false;
     this.jumpedThisFrame = false;
@@ -128,8 +130,13 @@ export class Player {
     if (grounded) {
       this.coyote = cfg.coyoteTime;
       this.jumpCutApplied = false;
+      this.jumpsLeft = 2;
+      this.isDoubleJump = false;
     } else {
       this.coyote = Math.max(0, this.coyote - dt);
+      if (this.coyote <= 0 && this.jumpsLeft === 2) {
+        this.jumpsLeft = 1;
+      }
     }
 
     if (actions.jumpPressed) this.jumpBuffer = cfg.jumpBuffer;
@@ -158,13 +165,25 @@ export class Player {
       vx = Math.max(target, vx - rate * dt);
     }
 
-    const jumped = this.jumpBuffer > 0 && (grounded || this.coyote > 0) && !this.lock;
-    if (jumped) {
+    const canFirstJump = this.jumpBuffer > 0 && (grounded || this.coyote > 0) && !this.lock;
+    const canAirJump = this.jumpBuffer > 0 && !grounded && this.coyote <= 0 && this.jumpsLeft > 0 && !this.lock;
+    const jumped = canFirstJump || canAirJump;
+
+    if (canFirstJump) {
       body.setVelocityY(cfg.jumpVelocity);
       this.jumpBuffer = 0;
       this.coyote = 0;
+      this.jumpsLeft = 1;
       this.jumpCutApplied = false;
       this.jumpedThisFrame = true;
+      this.isDoubleJump = false;
+    } else if (canAirJump) {
+      body.setVelocityY(cfg.jumpVelocity * 0.95);
+      this.jumpBuffer = 0;
+      this.jumpsLeft = 0;
+      this.jumpCutApplied = false;
+      this.jumpedThisFrame = true;
+      this.isDoubleJump = true;
     }
 
     if (actions.jumpReleased && body.velocity.y < 0 && !this.jumpCutApplied && !grounded) {

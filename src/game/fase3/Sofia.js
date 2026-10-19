@@ -23,6 +23,7 @@ export class Sofia {
     sp.body.setCollideWorldBounds(true);
     this.setBody("stand");
     this.facing = 1; this.coyoteT = 0; this.bufferT = 0; this.grounded = false; this.crouching = false;
+    this.jumpsLeft = 2; this.isDoubleJump = false;
     this.hurtT = 0; this.invulnT = 0; this.throwT = 0; this.landT = 0; this.locked = false; this.pointing = false;
     this.wasGrounded = false; this.airVy = 0; this.cheering = false;
     this.onRope = null; this.ropeDist = 0; this.ropeCooldown = 0; this.climbingActive = false;
@@ -69,12 +70,14 @@ export class Sofia {
       this.body.reset(rope.x + dir * 64, rope.topY - 6);
       this.body.setVelocity(dir * 260, -280);
       this.jumpedThisFrame = true;
+      this.jumpsLeft = 1; this.isDoubleJump = false;
     } else if (jumpDir !== 0) {
       this.facing = jumpDir;
       const swingBoost = Math.cos(rope.swingAngle || 0) * (rope.swingVel || 0) * 170;
       this.body.setVelocity(jumpDir * 540 + swingBoost, -960);
       this.jumpedThisFrame = true;
       this.jumpHeld = true;
+      this.jumpsLeft = 1; this.isDoubleJump = false;
     }
   }
   hurt(fromX) {
@@ -89,6 +92,7 @@ export class Sofia {
     if (this.onRope) this.leaveRope(0, false);
     this.sprite.setPosition(x, y); this.body.reset(x, y);
     this.hurtT = 0; this.invulnT = 0.8; this.coyoteT = 0; this.bufferT = 0; this.ropeCooldown = 0;
+    this.jumpsLeft = 2; this.isDoubleJump = false;
     if (this.bodyKind !== "stand") this.setBody("stand");
     this.crouching = false;
   }
@@ -138,6 +142,12 @@ export class Sofia {
 
     this.grounded = b.blocked.down || b.touching.down;
     this.jumpedThisFrame = false; this.landedSpeed = 0;
+    if (this.grounded) {
+      this.jumpsLeft = 2;
+      this.isDoubleJump = false;
+    } else if (this.coyoteT <= 0 && this.jumpsLeft === 2) {
+      this.jumpsLeft = 1;
+    }
     if (this.grounded && !this.wasGrounded && this.airVy > 420) { this.landedSpeed = this.airVy; this.landT = 0.12; }
     if (!this.grounded) this.airVy = Math.max(this.airVy, b.velocity.y); else this.airVy = 0;
     this.wasGrounded = this.grounded;
@@ -162,9 +172,19 @@ export class Sofia {
     const step = acc * dt;
     b.setVelocityX(Math.abs(target - vx) <= step ? target : vx + Math.sign(target - vx) * step);
 
-    if (control && this.bufferT > 0 && this.coyoteT > 0 && !this.crouching) {
+    const canFirstJump = control && this.bufferT > 0 && this.coyoteT > 0 && !this.crouching;
+    const canAirJump = control && this.bufferT > 0 && this.coyoteT <= 0 && !this.grounded && this.jumpsLeft > 0 && !this.crouching;
+
+    if (canFirstJump) {
       b.setVelocityY(-(Math.abs(vx) > T.walk + 40 ? T.runJumpV : T.jumpV));
-      this.bufferT = 0; this.coyoteT = 0; this.jumpedThisFrame = true; this.jumpHeld = true;
+      this.bufferT = 0; this.coyoteT = 0; this.jumpsLeft = 1;
+      this.jumpedThisFrame = true; this.jumpHeld = true; this.isDoubleJump = false;
+    } else if (canAirJump) {
+      b.setVelocityY(-(Math.abs(vx) > T.walk + 40 ? T.runJumpV * 0.96 : T.jumpV * 0.96));
+      this.bufferT = 0; this.jumpsLeft = 0;
+      this.jumpedThisFrame = true; this.jumpHeld = true; this.isDoubleJump = true;
+      this.scene.puff?.(this.x, this.y, 0.45, 0xbff7ff);
+      this.scene.stars?.(this.x, this.y - 30);
     }
     if (this.jumpHeld && !a.jump) { if (b.velocity.y < -300) b.setVelocityY(b.velocity.y * T.jumpCut); this.jumpHeld = false; }
     if (b.velocity.y >= 0) this.jumpHeld = false;
