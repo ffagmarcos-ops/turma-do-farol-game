@@ -572,6 +572,42 @@ function drawToninho(ctx, i, fw, fh, scene) {
   }
 }
 
+/* ---------------- MARINA (usa o sheet oficial da Fase 1 + efeitos de empurrar e gesto de "vai!") ---------------- */
+function drawMarina(ctx, i, fw, fh, scene) {
+  // i: 0-1 idle, 2-3 notice, 4-7 push, 8-9 cheer ("vai!")
+  const srcFrames = [0, 1, 40, 41, 8, 11, 13, 14, 24, 41];
+  const sf = srcFrames[i] ?? 0;
+  if (scene?.textures?.exists("marina")) {
+    const img = scene.textures.get("marina").getSourceImage();
+    if (img) {
+      const sx = (sf % 8) * 192, sy = Math.floor(sf / 8) * 256;
+      ctx.drawImage(img, sx, sy, 192, 256, 0, 0, fw, fh);
+    }
+  } else {
+    // fallback Canvas 2D caso a textura "marina" não esteja carregada
+    ctx.beginPath(); ctx.roundRect(74, 120, 44, 84, 14); blob(ctx, "#d86b43");
+    ctx.beginPath(); ctx.arc(96, 88, 23, 0, Math.PI * 2); blob(ctx, "#e8b48a");
+    ctx.beginPath(); ctx.arc(96, 80, 25, Math.PI, 0); blob(ctx, "#5a3420");
+  }
+  // linhas de força nas mãos ao empurrar a caixa (quadros 4..7)
+  if (i >= 4 && i <= 7) {
+    const ox = 136 + (i % 2) * 5, oy = 148;
+    ctx.strokeStyle = "#ffe08a"; ctx.lineWidth = 3.5; ctx.lineCap = "round";
+    for (const dy of [-12, 0, 12]) {
+      ctx.beginPath(); ctx.moveTo(ox, oy + dy); ctx.lineTo(ox + 14, oy + dy - 3); ctx.stroke();
+    }
+  }
+  // gesto de "vai!" (seta dourada de incentivo nos quadros 8-9)
+  if (i === 8 || i === 9) {
+    const bx = 138, by = i === 8 ? 88 : 84;
+    ctx.beginPath(); ctx.arc(bx, by, 18, 0, Math.PI * 2); blob(ctx, "#fff3a0", OL, 3.5);
+    ctx.beginPath();
+    ctx.moveTo(bx - 8, by - 4); ctx.lineTo(bx + 2, by - 4); ctx.lineTo(bx + 2, by - 10);
+    ctx.lineTo(bx + 11, by); ctx.lineTo(bx + 2, by + 10); ctx.lineTo(bx + 2, by + 4); ctx.lineTo(bx - 8, by + 4);
+    ctx.closePath(); blob(ctx, "#e87a30", OL, 2.5);
+  }
+}
+
 function denseForestLayer(ctx, w, h) {
   // fileira de árvores mais escuras ao fundo + cipós pendurados das copas + árvores em primeiro plano
   for (const [x, sc] of [[90, 1.05], [410, 1.16], [760, 1.02], [1120, 1.18], [1490, 1.06], [1840, 1.14]]) {
@@ -610,6 +646,8 @@ export const PLACEHOLDER = {
     D_log: branchTile,
     E_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), E_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
     E_log: branchTile,
+    F_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), F_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
+    F_log: branchTile,
     log: logTile, ledge: ledgeTile, crumble: crumbleTile,
   },
   prop: {
@@ -661,7 +699,16 @@ export const PLACEHOLDER = {
     f3_concha_projetil: (c, w, h) => { c.beginPath(); c.moveTo(w / 2, 8); c.bezierCurveTo(w - 4, 14, w - 6, h - 12, w / 2, h - 6); c.bezierCurveTo(6, h - 12, 4, 14, w / 2, 8); blob(c, "#f6d9b8", OL, 3); },
     f3_concha: (c, w, h) => { c.beginPath(); c.moveTo(w / 2, 10); c.bezierCurveTo(w - 6, 18, w - 8, h - 14, w / 2, h - 8); c.bezierCurveTo(8, h - 14, 6, 18, w / 2, 10); blob(c, "#f6d9b8", OL, 4); },
     f3_pedra_macaco: (c, w, h) => { c.beginPath(); c.arc(w / 2, h / 2, w * 0.38, 0, Math.PI * 2); blob(c, "#7d756c", OL, 3.5); c.beginPath(); c.arc(w * 0.4, h * 0.38, w * 0.14, 0, Math.PI * 2); c.fillStyle = "#a89f94"; c.fill(); },
+    f3_caixa_marina: (c, w, h) => {
+      c.beginPath(); c.roundRect(4, 4, w - 8, h - 8, 8); blob(c, "#b57c42", OL, 4);
+      c.fillStyle = "#ce9658"; c.fillRect(16, 16, w - 32, h - 32);
+      c.strokeStyle = "#7a4e24"; c.lineWidth = 4;
+      for (const y of [42, 68, 94]) { c.beginPath(); c.moveTo(16, y); c.lineTo(w - 16, y); c.stroke(); }
+      c.beginPath(); c.moveTo(18, 18); c.lineTo(w - 18, h - 18); c.moveTo(w - 18, 18); c.lineTo(18, h - 18);
+      c.lineWidth = 10; c.strokeStyle = "#8f5d2e"; c.stroke();
+      c.strokeStyle = OL; c.lineWidth = 4; c.strokeRect(16, 16, w - 32, h - 32);
+    },
   },
-  sheet: { f3_sofia: drawSofia, f3_toninho: drawToninho, f3_caranguejo: drawCrab, f3_macaco: drawMonkey, f3_checkpoint: drawCheckpoint },
-  sheetCount: { f3_sofia: SOFIA_POSES.length, f3_toninho: 8, f3_caranguejo: 9, f3_macaco: 15, f3_checkpoint: 3 },
+  sheet: { f3_sofia: drawSofia, f3_toninho: drawToninho, f3_marina: drawMarina, f3_caranguejo: drawCrab, f3_macaco: drawMonkey, f3_checkpoint: drawCheckpoint },
+  sheetCount: { f3_sofia: SOFIA_POSES.length, f3_toninho: 8, f3_marina: 10, f3_caranguejo: 9, f3_macaco: 15, f3_checkpoint: 3 },
 };

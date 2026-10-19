@@ -202,7 +202,7 @@ export const SETOR_E = {
         { kind: "hollow_log", x: 6790, y: G + 8, front: true },
         { kind: "tree", x: 7160, y: G + 20, scale: 1.08 },
         { kind: "fern", x: 7320, y: G + 12, front: true },
-        { kind: "sign_end", x: 7440, y: G + 6 },
+        { kind: "tree", x: 7500, y: G + 20, scale: 1.05, flip: true },
       ],
       shells: [
         { id: "f3E-17", x: 5956, y: 660 },
@@ -214,9 +214,6 @@ export const SETOR_E = {
       enemies: [
         { type: "monkey", x: 6780, y: 480, minX: 6680, maxX: 6880 },
         { type: "crab", x: 7080, minX: 6960, maxX: 7340 },
-      ],
-      triggers: [
-        { id: "fimE", x: 7480, y: 0, w: 200, h: 1080, event: "end" },
       ],
       checkpoints: [{ id: "E3", x: 7260 }],
       vistas: [{ x0: 7160, x1: 7680, zoom: 0.94 }],

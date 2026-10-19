@@ -72,4 +72,17 @@ export class Fase3Audio {
   ropeGrab() {
     this.tone(220, 320, 0.08, 0.14, "triangle", 0, 1100);
   }
+  /** Chamado alegre da Marina, arrasto da caixa de madeira e batida quando encaixa */
+  marinaCall() {
+    this.tone(420, 620, 0.11, 0.16, "triangle", 0, 1800);
+    this.tone(620, 780, 0.14, 0.18, "triangle", 0.09, 2100);
+  }
+  cratePush() {
+    this.tone(140, 95, 0.12, 0.14, "sawtooth", 0, 420);
+    this.tone(110, 80, 0.12, 0.12, "triangle", 0.03, 380);
+  }
+  crateThud() {
+    this.tone(130, 52, 0.18, 0.24, "triangle", 0, 520);
+    this.tone(95, 42, 0.22, 0.18, "sawtooth", 0.02, 420);
+  }
 }
