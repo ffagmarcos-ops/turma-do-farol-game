@@ -64,7 +64,7 @@ export function buildFase3Art(scene, sectors) {
     canvasTex(scene, im.key, im.w, im.h, PLACEHOLDER.image[im.key]);
     info.images[im.key] = { key: im.key, scale: 1 };
   }
-  for (const sp of [SPRITES.sofia, SPRITES.crab, SPRITES.monkey, SPRITES.checkpoint]) {
+  for (const sp of [SPRITES.sofia, SPRITES.toninho, SPRITES.crab, SPRITES.monkey, SPRITES.checkpoint]) {
     if (!scene.textures.exists(sp.key)) canvasSheet(scene, sp.key, sp.frameWidth, sp.frameHeight, PLACEHOLDER.sheetCount[sp.key], 8, PLACEHOLDER.sheet[sp.key]);
     for (const [pose, a] of Object.entries(sp.anims)) {
       const k = `${sp.key}-${pose}`;

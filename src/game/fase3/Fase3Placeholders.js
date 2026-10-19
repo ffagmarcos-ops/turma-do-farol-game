@@ -29,7 +29,7 @@ export function canvasSheet(scene, key, fw, fh, count, cols, drawFrame) {
     ctx.save();
     ctx.translate((i % cols) * fw, Math.floor(i / cols) * fh);
     ctx.beginPath(); ctx.rect(0, 0, fw, fh); ctx.clip();
-    drawFrame(ctx, i, fw, fh);
+    drawFrame(ctx, i, fw, fh, scene);
     ctx.restore();
   }
   t.refresh();
@@ -67,6 +67,9 @@ const SOFIA_POSES = (() => {
   p({ hipL: 0.3, hipR: -0.25, armL: 1.57, elbL: 0, armR: 0.2, lean: 0.05 }); // 17 point
   p({ armL: 2.9, armR: 2.6, elbL: 0.2, elbR: 0.2, bob: -4 }); p({ armL: 2.6, armR: 2.9, elbL: 0.2, elbR: 0.2, bob: 0 }); // 18-19 cheer
   p({ armL: 2.5, elbL: 2.4, armR: -0.1, lean: 0.05 }); // 20 look
+  p({ hipL: 0.55, kneeL: 1.1, hipR: 0.35, kneeR: 0.9, armL: 2.2, elbL: 0.35, armR: 1.95, elbR: 0.4, lean: -0.05 }); // 21 climb_idle
+  p({ hipL: 0.85, kneeL: 1.45, hipR: 0.2, kneeR: 0.6, armL: 2.55, elbL: 0.2, armR: 1.75, elbR: 0.55, bob: -4, lean: -0.04 }); // 22 climb 1
+  p({ hipL: 0.2, kneeL: 0.6, hipR: 0.85, kneeR: 1.45, armL: 1.75, elbL: 0.55, armR: 2.55, elbR: 0.2, bob: 2, lean: -0.04 }); // 23 climb 2
   return P;
 })();
 
@@ -533,6 +536,42 @@ function forestLayer(ctx, w, h) {
   }
 }
 
+/* ---------------- SEU TONINHO (usa o sheet oficial da Fase 1 + rolo de corda náutica) ---------------- */
+function drawToninho(ctx, i, fw, fh, scene) {
+  // i: 0-1 idle, 2-3 wave, 4-5 throwRope, 6-7 thumbsUp
+  const srcFrames = [0, 1, 40, 41, 32, 33, 40, 1];
+  const sf = srcFrames[i] ?? 0;
+  if (scene?.textures?.exists("toninho")) {
+    const img = scene.textures.get("toninho").getSourceImage();
+    if (img) {
+      const sx = (sf % 8) * 192, sy = Math.floor(sf / 8) * 256;
+      ctx.drawImage(img, sx, sy, 192, 256, 0, 0, fw, fh);
+    }
+  } else {
+    // fallback Canvas 2D caso a textura "toninho" não esteja carregada
+    ctx.beginPath(); ctx.roundRect(72, 118, 48, 86, 14); blob(ctx, "#3b6e8c");
+    ctx.beginPath(); ctx.arc(96, 88, 24, 0, Math.PI * 2); blob(ctx, "#d89c6c");
+    ctx.beginPath(); ctx.ellipse(96, 98, 22, 16, 0, 0, Math.PI); blob(ctx, "#e6e2da");
+    ctx.beginPath(); ctx.ellipse(96, 68, 34, 10, 0, 0, Math.PI * 2); blob(ctx, "#e8b93c");
+  }
+  // rolo de corda náutica na mão / cintura nos estados idle, wave e throwRope
+  if (i <= 5) {
+    const rx = i >= 4 ? 128 : 118, ry = i >= 4 ? 174 : 158;
+    for (let r = 18; r >= 10; r -= 4) {
+      ctx.beginPath(); ctx.arc(rx, ry, r, 0, Math.PI * 2);
+      ctx.strokeStyle = OL; ctx.lineWidth = 6; ctx.stroke();
+      ctx.strokeStyle = r === 14 ? "#e4be78" : "#c89d54"; ctx.lineWidth = 3.5; ctx.stroke();
+    }
+  }
+  // joinha / sinal de positivo brilhante nos quadros 6-7 (thumbsUp)
+  if (i === 6 || i === 7) {
+    const bx = 136, by = i === 6 ? 94 : 90;
+    ctx.beginPath(); ctx.arc(bx, by, 18, 0, Math.PI * 2); blob(ctx, "#fff3a0", OL, 3.5);
+    ctx.beginPath(); ctx.roundRect(bx - 6, by - 2, 14, 11, 3); blob(ctx, "#d89c6c", OL, 2.5);
+    ctx.beginPath(); ctx.roundRect(bx - 4, by - 12, 7, 12, 3); blob(ctx, "#d89c6c", OL, 2.5);
+  }
+}
+
 /** Desenha o provisório de uma camada/tile/prop/efeito pelo "kind". */
 export const PLACEHOLDER = {
   layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer },
@@ -543,6 +582,8 @@ export const PLACEHOLDER = {
     B_ledge: wetLedgeTile,
     C_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), C_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
     C_log: branchTile,
+    D_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), D_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
+    D_log: branchTile,
     log: logTile, ledge: ledgeTile, crumble: crumbleTile,
   },
   prop: {
@@ -573,6 +614,6 @@ export const PLACEHOLDER = {
     f3_concha: (c, w, h) => { c.beginPath(); c.moveTo(w / 2, 10); c.bezierCurveTo(w - 6, 18, w - 8, h - 14, w / 2, h - 8); c.bezierCurveTo(8, h - 14, 6, 18, w / 2, 10); blob(c, "#f6d9b8", OL, 4); },
     f3_pedra_macaco: (c, w, h) => { c.beginPath(); c.arc(w / 2, h / 2, w * 0.38, 0, Math.PI * 2); blob(c, "#7d756c", OL, 3.5); c.beginPath(); c.arc(w * 0.4, h * 0.38, w * 0.14, 0, Math.PI * 2); c.fillStyle = "#a89f94"; c.fill(); },
   },
-  sheet: { f3_sofia: drawSofia, f3_caranguejo: drawCrab, f3_macaco: drawMonkey, f3_checkpoint: drawCheckpoint },
-  sheetCount: { f3_sofia: SOFIA_POSES.length, f3_caranguejo: 9, f3_macaco: 15, f3_checkpoint: 3 },
+  sheet: { f3_sofia: drawSofia, f3_toninho: drawToninho, f3_caranguejo: drawCrab, f3_macaco: drawMonkey, f3_checkpoint: drawCheckpoint },
+  sheetCount: { f3_sofia: SOFIA_POSES.length, f3_toninho: 8, f3_caranguejo: 9, f3_macaco: 15, f3_checkpoint: 3 },
 };

@@ -38,7 +38,7 @@ export class Fase3Scene extends Phaser.Scene {
   }
 
   preload() {
-    const n = preloadFase3(this, ["A", "B", "C"]);
+    const n = preloadFase3(this, ["A", "B", "C", "D"]);
     if (n > 0) {
       const t = this.add.text(W / 2, H / 2, "Carregando a ilha… 0%", { fontFamily: BTN_FONT, fontSize: "48px", color: "#fff3d6", stroke: "#4a2a14", strokeThickness: 10 }).setOrigin(0.5);
       this.load.on("progress", (v) => t.setText(`Carregando a ilha… ${Math.round(v * 100)}%`));
@@ -58,11 +58,12 @@ export class Fase3Scene extends Phaser.Scene {
     this.sfx = new Fase3Audio(this.audio);
     this.input3 = new Fase3Input();
 
-    this.art = buildFase3Art(this, ["A", "B", "C"]);
+    this.art = buildFase3Art(this, ["A", "B", "C", "D"]);
     this.level = assembleLevel();
     const wallet = readWallet();
     this.collected = new Set(wallet.run.ids.filter((id) => id.startsWith("f3")));
     this.defeated = new Set(); this.cpReached = new Set(); this.foundSecrets = new Set(); this.shownHints = new Set();
+    this.toninhoTriggered = new Set();
     this.allCheckpoints = this.level.chunks.flatMap((c) => c.checkpoints || []);
     this.allHints = this.level.chunks.flatMap((c) => c.hints || []);
     this.allSecrets = this.level.chunks.flatMap((c) => c.secrets || []);
@@ -84,7 +85,7 @@ export class Fase3Scene extends Phaser.Scene {
     this.crabGroup = this.physics.add.group();
     this.monkeyGroup = this.physics.add.group();
     this.monkeyRocks = this.physics.add.group();
-    this.backdrop = new Backdrop(this, ["A", "B", "C"], this.art, this.level.sectors);
+    this.backdrop = new Backdrop(this, ["A", "B", "C", "D"], this.art, this.level.sectors);
     this.chunks = new ChunkManager(this, this.level);
 
     const gy = this.levelGroundY(cp.x);
@@ -128,6 +129,12 @@ export class Fase3Scene extends Phaser.Scene {
   }
 
   levelGroundY(x) {
+    for (const c of this.level.chunks) {
+      if (x >= c.x0 && x < c.x1) {
+        const g = (c.ground || []).find((seg) => x >= seg.x && x < seg.x + seg.w);
+        if (g && g.y != null) return g.y;
+      }
+    }
     const s = this.level.sectors.find((q) => x >= q.x0 && x < q.x1) || this.level.sectors[0];
     return s.groundY;
   }
@@ -484,15 +491,20 @@ export class Fase3Scene extends Phaser.Scene {
     }
   }
 
-  /* ------------------------------ fim do trecho atual (Setor C) ------------------------------ */
+  onToninhoTriggered(id) {
+    this.toninhoTriggered.add(id);
+  }
+
+  /* ------------------------------ fim do trecho atual (Setor D) ------------------------------ */
   endSector() {
     if (this.ended) return;
     this.ended = true; this.cancelCharge(); clearInput();
     this.sofia.cheering = true; this.sofia.locked = true;
-    saveF3({ setorA: true, setorB: true, setorC: true });
+    saveF3({ setorA: true, setorB: true, setorC: true, setorD: true });
     markSeen("fase3-setorA");
     markSeen("fase3-setorB");
     markSeen("fase3-setorC");
+    markSeen("fase3-setorD");
     this.audio.synth?.("gold3");
     const d = 200, objs = [];
     objs.push(this.add.rectangle(W / 2, H / 2, W + 400, H + 400, 0x02060c, 0.55).setScrollFactor(0).setDepth(d));
@@ -501,7 +513,7 @@ export class Fase3Scene extends Phaser.Scene {
       objs.push(this.add.image(W / 2, H / 2, "carta_moldura").setDisplaySize(1100, 690).setScrollFactor(0).setDepth(d + 1));
     } else objs.push(this.add.rectangle(W / 2, H / 2, 1000, 560, 0xf1e2bf).setStrokeStyle(8, 0x6b4a26).setScrollFactor(0).setDepth(d + 1));
     objs.push(this.add.text(W / 2, H / 2 - 150, "Continua…", { fontFamily: BTN_FONT, fontSize: "72px", color: "#fff3d6", stroke: "#4a2a14", strokeThickness: 12 }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
-    objs.push(this.add.text(W / 2, H / 2 - 40, "Você atravessou a Floresta Inicial!\nA encosta do Seu Toninho vem no próximo trecho.", { fontFamily: "Georgia, serif", fontSize: "32px", color: "#3a2412", align: "center" }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
+    objs.push(this.add.text(W / 2, H / 2 - 40, "Você subiu a Encosta do Seu Toninho!\nA Mata Densa vem no próximo trecho.", { fontFamily: "Georgia, serif", fontSize: "32px", color: "#3a2412", align: "center" }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
     const close = () => { objs.forEach((o) => o.destroy()); this.ended = false; this.sofia.cheering = false; this.sofia.locked = false; this.sofia.body.setVelocityX(-200); this.sofia.sprite.x -= 260; this.sofia.body.reset(this.sofia.sprite.x, this.sofia.sprite.y); };
     objs.push(...makeButton(this, W / 2 - 230, H / 2 + 120, "EXPLORAR MAIS", close, { w: 420, h: 84, depth: d + 2, scrollFactor: 0, fontSize: 28, kind: "continuar" }).objs);
     objs.push(...makeButton(this, W / 2 + 230, H / 2 + 120, "MENU PRINCIPAL", () => this.toMenu(), { w: 420, h: 84, depth: d + 2, scrollFactor: 0, fontSize: 28, kind: "menu" }).objs);
@@ -535,7 +547,7 @@ export class Fase3Scene extends Phaser.Scene {
 
     // ataque normal (concha) e especial (latido)
     this.throwCool = Math.max(0, this.throwCool - dt);
-    if (a.attackPressed && !this.ended && !this.charging && !s.locked && s.hurtT <= 0 && this.throwCool <= 0 && this.projectiles.countActive() < 3) { this.throwShell(); this.throwCool = 0.3; }
+    if (a.attackPressed && !this.ended && !this.charging && !s.locked && !s.onRope && s.hurtT <= 0 && this.throwCool <= 0 && this.projectiles.countActive() < 3) { this.throwShell(); this.throwCool = 0.3; }
     if (!this.ended) this.updateSpecial(dt, a);
     for (const p of this.projectiles.getChildren().slice()) {
       const life = p.getData("life") - dt; p.setData("life", life);
@@ -579,9 +591,9 @@ export class Fase3Scene extends Phaser.Scene {
       onGrowl: () => this.sfx.growl(),
     });
 
-    // inimigos e mecânicas de plataformas/ondas: só agem perto da câmera
+    // inimigos e mecânicas de plataformas/ondas/cordas: só agem perto da câmera
     const cam = this.cameras.main, mid = cam.scrollX + W / 2;
-    this.chunks.updateMechanics(dt, s, time / 1000, mid);
+    this.chunks.updateMechanics(dt, s, time / 1000, mid, Boolean(!this.ended && (a.up || a.jump)));
     for (const c of this.chunks.crabs) {
       if (!c.alive) continue;
       c.setActive(Math.abs(c.x - mid) < 1500);
@@ -616,6 +628,7 @@ export class Fase3Scene extends Phaser.Scene {
     if (sec.id !== this.curSectorId) {
       if (this.curSectorId === "A" && sec.id === "B") saveF3({ setorA: true });
       if (this.curSectorId === "B" && sec.id === "C") saveF3({ setorA: true, setorB: true });
+      if (this.curSectorId === "C" && sec.id === "D") saveF3({ setorA: true, setorB: true, setorC: true });
       this.curSectorId = sec.id;
       this.toast(sec.name, 190, "#F3D48A");
     }
@@ -625,10 +638,10 @@ export class Fase3Scene extends Phaser.Scene {
 
     // ambiente da praia / costão / floresta (ondas mais baixas na mata, vento constante)
     if ((this.ambT -= dt) <= 0) {
-      const vol = this.curSectorId === "B" ? 0.46 : this.curSectorId === "C" ? 0.18 : 0.4;
+      const vol = this.curSectorId === "B" ? 0.46 : (this.curSectorId === "C" || this.curSectorId === "D") ? 0.16 : 0.4;
       this.ambT = (this.curSectorId === "B" ? 2.6 : 3.5) + Math.random() * 3.0;
       this.audio.play("praia", { volume: vol, pan: Math.random() - 0.5 });
     }
-    if ((this.windT -= dt) <= 0) { this.windT = 9 + Math.random() * 7; this.audio.play("vento", { volume: this.curSectorId === "C" ? 0.3 : 0.24 }); }
+    if ((this.windT -= dt) <= 0) { this.windT = 9 + Math.random() * 7; this.audio.play("vento", { volume: (this.curSectorId === "C" || this.curSectorId === "D") ? 0.3 : 0.24 }); }
   }
 }

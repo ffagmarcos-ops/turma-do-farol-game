@@ -110,6 +110,37 @@ export const SECTOR_ART = {
       sign_end: { file: "placa_continua.png", w: 200, h: 220 },
     },
   },
+  D: {
+    folder: "setorD/",
+    tileset: "tileset_encosta/",
+    layers: [
+      { n: 0, file: "cenarioD_0_ceu.png", factor: 0.0, transparent: false, placeholder: { w: 512, h: 1080, y: 0, draw: 0 }, fallbackKey: "bg_sky" },
+      { n: 1, file: "cenarioD_1_ilhas.png", factor: 0.07, transparent: true, placeholder: { w: 2048, h: 320, y: 395, draw: 1 } },
+      { n: 2, file: "cenarioD_2_oceano.png", factor: 0.2, transparent: true, placeholder: { w: 1024, h: 380, y: 695, draw: 2 }, animatedWater: true },
+      { n: 3, file: "cenarioD_3_encosta.png", factor: 0.42, transparent: true, placeholder: { w: 2048, h: 860, y: 110, draw: "C3" } },
+      { n: 5, file: "cenarioD_5_folhagem.png", factor: 1.15, transparent: true, placeholder: { w: 1024, h: 280, y: 860, draw: "C5" } },
+      { n: 6, file: "cenarioD_6_folhas_desfocadas.png", factor: 1.38, transparent: true, placeholder: { w: 1024, h: 1080, y: 0, draw: 6 }, alpha: 0.85 },
+    ],
+    tiles: {
+      sand_top: { file: "terra_grama_topo.png", w: 128, h: 128, surfaceY: 12 },
+      sand_fill: { file: "terra_meio.png", w: 128, h: 128 },
+      rock_top: { file: "rocha_encosta_topo.png", w: 128, h: 128, surfaceY: 8 },
+      rock_fill: { file: "rocha_encosta_meio.png", w: 128, h: 128 },
+      log: { file: "plataforma_galho.png", w: 128, h: 64, surfaceY: 6 },
+      ledge: { file: "plataforma_pedra_musgo.png", w: 128, h: 64, surfaceY: 6 },
+      crumble: { file: "plataforma_pedra_instavel.png", w: 128, h: 64, surfaceY: 6 },
+    },
+    props: {
+      tree: { file: "arvore_floresta.png", w: 420, h: 720 },
+      bush: { file: "arbusto_floresta.png", w: 260, h: 160 },
+      fern: { file: "samambaia.png", w: 220, h: 140 },
+      roots: { file: "raizes.png", w: 280, h: 130 },
+      boulder: { file: "pedra_costao.png", w: 240, h: 180 },
+      moss_rock: { file: "pedra_musgo.png", w: 180, h: 110 },
+      pebbles: { file: "pedrinhas.png", w: 180, h: 70 },
+      sign_end: { file: "placa_continua.png", w: 200, h: 220 },
+    },
+  },
 };
 
 /**
@@ -135,6 +166,8 @@ export const SPRITES = {
       point: { frames: [17], frameRate: 8, repeat: 0 },
       cheer: { frames: [18, 19], frameRate: 6, repeat: -1 },
       look: { frames: [20], frameRate: 6, repeat: 0 },
+      climb_idle: { frames: [21], frameRate: 6, repeat: 0 },
+      climb: { frames: [22, 23], frameRate: 8, repeat: -1 },
     },
   },
   // Faísca: usa o sheet oficial da Fase 1 (chave "faisca", anims faisca-*) se não houver um próprio da Fase 3.
@@ -152,6 +185,16 @@ export const SPRITES = {
       sniff: { frames: [32, 33], frameRate: 4, repeat: -1, fallback: "crouch" },
       bark: { frames: [40, 41], frameRate: 8, repeat: -1, fallback: "interact" },
       attack: { frames: [32, 33], frameRate: 8, repeat: -1, fallback: "crouch" },
+    },
+  },
+  toninho: {
+    key: "f3_toninho", file: "chars/toninho_f3_sheet.png", frameWidth: 192, frameHeight: 256, scale: 1.08,
+    origin: [0.5, 0.9375],
+    anims: {
+      idle: { frames: [0, 1], frameRate: 4, repeat: -1 },
+      wave: { frames: [2, 3], frameRate: 6, repeat: -1 },
+      throwRope: { frames: [4, 5], frameRate: 6, repeat: 0 },
+      thumbsUp: { frames: [6, 7], frameRate: 5, repeat: -1 },
     },
   },
   crab: {

@@ -25,6 +25,7 @@ export class Sofia {
     this.facing = 1; this.coyoteT = 0; this.bufferT = 0; this.grounded = false; this.crouching = false;
     this.hurtT = 0; this.invulnT = 0; this.throwT = 0; this.landT = 0; this.locked = false; this.pointing = false;
     this.wasGrounded = false; this.airVy = 0; this.cheering = false;
+    this.onRope = null; this.ropeDist = 0; this.ropeCooldown = 0; this.climbingActive = false;
     sp.play(`${S.key}-idle`);
   }
   get x() { return this.sprite.x; }
@@ -41,29 +42,106 @@ export class Sofia {
     const hits = this.scene.physics.overlapRect(b.x + 2, b.bottom - H, b.width - 4, H - 6, false, true);
     return !hits.some((hb) => hb.gameObject?.getData?.("solid"));
   }
+  grabRope(rope, dist) {
+    if (this.onRope === rope || this.ropeCooldown > 0 || this.hurtT > 0 || this.locked) return false;
+    const vx = this.body.velocity.x || 0;
+    this.onRope = rope;
+    this.ropeDist = Math.max(46, Math.min(rope.curLen - 16, dist));
+    this.crouching = false;
+    if (this.bodyKind !== "stand") this.setBody("stand");
+    this.body.setAllowGravity(false);
+    this.body.setVelocity(0, 0);
+    rope.swingVel = (rope.swingVel || 0) + vx * 0.0022;
+    return true;
+  }
+  leaveRope(jumpDir = 0, vaultTop = false) {
+    if (!this.onRope) return;
+    const rope = this.onRope;
+    this.onRope = null;
+    this.climbingActive = false;
+    this.ropeCooldown = 0.42;
+    this.body.setAllowGravity(true);
+    this.sprite.setRotation(0);
+    if (vaultTop) {
+      const dir = rope.ledgeDir || 1;
+      this.facing = dir;
+      this.sprite.setPosition(rope.x + dir * 64, rope.topY - 6);
+      this.body.reset(rope.x + dir * 64, rope.topY - 6);
+      this.body.setVelocity(dir * 260, -280);
+      this.jumpedThisFrame = true;
+    } else if (jumpDir !== 0) {
+      this.facing = jumpDir;
+      const swingBoost = Math.cos(rope.swingAngle || 0) * (rope.swingVel || 0) * 170;
+      this.body.setVelocity(jumpDir * 540 + swingBoost, -960);
+      this.jumpedThisFrame = true;
+      this.jumpHeld = true;
+    }
+  }
   hurt(fromX) {
     if (this.invulnT > 0) return false;
+    if (this.onRope) this.leaveRope(0, false);
     const dir = this.x < fromX ? -1 : 1;
     this.body.setVelocity(dir * 420, -440);
     this.hurtT = 0.45; this.invulnT = 1.4;
     return true;
   }
   respawn(x, y) {
+    if (this.onRope) this.leaveRope(0, false);
     this.sprite.setPosition(x, y); this.body.reset(x, y);
-    this.hurtT = 0; this.invulnT = 0.8; this.coyoteT = 0; this.bufferT = 0;
+    this.hurtT = 0; this.invulnT = 0.8; this.coyoteT = 0; this.bufferT = 0; this.ropeCooldown = 0;
     if (this.bodyKind !== "stand") this.setBody("stand");
     this.crouching = false;
   }
   update(dt, a) {
     const T = this.T, b = this.body, sp = this.sprite;
+    this.ropeCooldown = Math.max(0, this.ropeCooldown - dt);
+    this.hurtT = Math.max(0, this.hurtT - dt); this.invulnT = Math.max(0, this.invulnT - dt);
+    this.throwT = Math.max(0, this.throwT - dt); this.landT = Math.max(0, this.landT - dt);
+
+    if (this.onRope) {
+      const rope = this.onRope;
+      this.grounded = false; this.wasGrounded = false; this.jumpedThisFrame = false; this.landedSpeed = 0;
+      const control = !this.locked && this.hurtT <= 0;
+      const dir = control ? (a.right ? 1 : 0) - (a.left ? 1 : 0) : 0;
+      if (dir) {
+        this.facing = dir;
+        rope.swingVel = (rope.swingVel || 0) + dir * 3.4 * dt;
+      }
+      let climbDir = 0;
+      if (control) {
+        if (a.up || (a.jump && !dir)) climbDir = -1;
+        else if (a.down) climbDir = 1;
+      }
+      this.ropeDist = Math.max(38, Math.min(rope.curLen - 12, this.ropeDist + climbDir * 270 * dt));
+      this.climbingActive = climbDir !== 0 || Math.abs(rope.swingVel || 0) > 0.65;
+      const ang = rope.swingAngle || 0;
+      const rx = rope.x + Math.sin(ang) * this.ropeDist;
+      const ry = rope.topY + Math.cos(ang) * this.ropeDist + 80;
+      sp.setPosition(rx, ry);
+      b.reset(rx, ry);
+      sp.setRotation(-ang * 0.45);
+      sp.setFlipX(this.facing < 0);
+      sp.setAlpha(this.invulnT > 0 ? (Math.floor(this.invulnT * 12) % 2 ? 0.45 : 1) : 1);
+
+      if (control) {
+        if (this.ropeDist <= 42 && climbDir < 0 && rope.canVaultTop) {
+          this.leaveRope(rope.ledgeDir || 1, true);
+        } else if ((a.jumpOffPressed || a.jumpPressed) && dir !== 0) {
+          this.leaveRope(dir, false);
+        } else if (this.ropeDist >= rope.curLen - 14 && a.down) {
+          this.leaveRope(0, false);
+        }
+      }
+      this.animate();
+      return;
+    }
+
     this.grounded = b.blocked.down || b.touching.down;
     this.jumpedThisFrame = false; this.landedSpeed = 0;
     if (this.grounded && !this.wasGrounded && this.airVy > 420) { this.landedSpeed = this.airVy; this.landT = 0.12; }
     if (!this.grounded) this.airVy = Math.max(this.airVy, b.velocity.y); else this.airVy = 0;
     this.wasGrounded = this.grounded;
 
-    this.hurtT = Math.max(0, this.hurtT - dt); this.invulnT = Math.max(0, this.invulnT - dt);
-    this.throwT = Math.max(0, this.throwT - dt); this.landT = Math.max(0, this.landT - dt);
     this.coyoteT = this.grounded ? T.coyote : Math.max(0, this.coyoteT - dt);
     this.bufferT = a.jumpPressed ? T.buffer : Math.max(0, this.bufferT - dt);
     const control = !this.locked && this.hurtT <= 0 && !this.pointing;
@@ -103,6 +181,7 @@ export class Sofia {
     sp.anims.timeScale = 1;
     if (this.cheering) return this.play("cheer");
     if (this.hurtT > 0) return this.play("hurt");
+    if (this.onRope) return this.play(this.climbingActive ? "climb" : "climb_idle");
     if (this.pointing) return this.play("point");
     if (this.looking) return this.play("look");
     if (this.crouching) { this.play(speed > 20 ? "crawl" : "crouch"); return; }

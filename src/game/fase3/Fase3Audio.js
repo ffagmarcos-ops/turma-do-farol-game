@@ -62,4 +62,14 @@ export class Fase3Audio {
   rockImpact() {
     this.tone(150, 55, 0.14, 0.2, "triangle", 0, 500);
   }
+  toninhoCall() {
+    this.tone(330, 440, 0.12, 0.14, "triangle", 0, 1600);
+    this.tone(440, 520, 0.16, 0.14, "triangle", 0.14, 1600);
+  }
+  ropeThrow() {
+    this.tone(380, 140, 0.26, 0.18, "sine", 0, 1200);
+  }
+  ropeGrab() {
+    this.tone(220, 320, 0.08, 0.14, "triangle", 0, 1100);
+  }
 }

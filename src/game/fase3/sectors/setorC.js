@@ -145,7 +145,6 @@ export const SETOR_C = {
         { kind: "fern", x: 6520, y: G + 12, front: true },
         { kind: "tree", x: 6788, y: G + 20, scale: 1.06, flip: true },
         { kind: "moss_rock", x: 7060, y: G + 8 },
-        { kind: "sign_end", x: 7440, y: G + 6 },
       ],
       shells: [
         { id: "f3C-18", x: 5996, y: 700 },
@@ -159,7 +158,6 @@ export const SETOR_C = {
         { type: "monkey", x: 6788, y: 600 },
       ],
       checkpoints: [{ id: "C3", x: 7140 }],
-      triggers: [{ id: "fimC", x: 7480, y: 0, w: 200, h: 1080, event: "end" }],
       vistas: [{ x0: 7120, x1: 7680, zoom: 0.94 }],
     },
   ],

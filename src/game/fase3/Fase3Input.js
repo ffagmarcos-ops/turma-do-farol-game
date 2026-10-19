@@ -9,9 +9,9 @@ const any = (codes) => codes.some((c) => isDown(c));
 const TOUCH_HOLD = 0.3;
 
 export const LABELS = {
-  kbd: { move: "← →", run: "Shift", jump: "Espaço", attack: "J", special: "K", down: "↓" },
-  pad: { move: "o direcional", run: "LB", jump: "A", attack: "X", special: "Y", down: "↓" },
-  touch: { move: "◀ ▶", run: null, jump: "⤒", attack: "🐚", special: "🐚 (segure)", down: "▼" },
+  kbd: { move: "← →", up: "↑ / W", run: "Shift", jump: "Espaço", attack: "J", special: "K", down: "↓" },
+  pad: { move: "o direcional", up: "↑", run: "LB", jump: "A", attack: "X", special: "Y", down: "↓" },
+  touch: { move: "◀ ▶", up: "⤒", run: null, jump: "⤒", attack: "🐚", special: "🐚 (segure)", down: "▼" },
 };
 
 export class Fase3Input {
@@ -32,12 +32,14 @@ export class Fase3Input {
     const ax = p ? p.axes[0] || 0 : 0, ay = p ? p.axes[1] || 0 : 0;
     const padLeft = b(14) || ax < -0.35, padRight = b(15) || ax > 0.35;
     const k = {
-      left: any(["ArrowLeft", "KeyA"]), right: any(["ArrowRight", "KeyD"]), down: any(["ArrowDown", "KeyS"]),
+      left: any(["ArrowLeft", "KeyA"]), right: any(["ArrowRight", "KeyD"]),
+      up: any(["ArrowUp", "KeyW"]), down: any(["ArrowDown", "KeyS"]),
+      space: isDown("Space"),
       run: any(["ShiftLeft", "ShiftRight"]), jump: any(["Space", "ArrowUp", "KeyW"]),
       attack: any(["KeyJ", "KeyX"]), special: any(["KeyK", "KeyC"]),
     };
     const pd = {
-      left: padLeft, right: padRight, down: b(13) || ay > 0.6, run: b(4) || b(6) || Math.abs(ax) > 0.88,
+      left: padLeft, right: padRight, up: b(12) || ay < -0.5, down: b(13) || ay > 0.6, run: b(4) || b(6) || Math.abs(ax) > 0.88,
       jump: b(0), attack: b(2), special: b(3) || b(5) || b(7), pause: b(9),
     };
     // toque: botão de ação = concha (curto) / latido (segurar)
@@ -45,22 +47,25 @@ export class Fase3Input {
     if (t.interact) { this.touchT += dt; if (this.touchT >= TOUCH_HOLD) tSpecial = true; }
     else { if (this.touchWas && this.touchT < TOUCH_HOLD) tAttack = true; this.touchT = 0; }
     this.touchWas = t.interact;
-    const tc = { left: t.left, right: t.right, down: t.down, run: t.run, jump: t.jump };
+    const tc = { left: t.left, right: t.right, up: t.jump, down: t.down, run: t.run, jump: t.jump };
 
     const anyKbd = Object.values(k).some(Boolean), anyPad = Object.values(pd).some(Boolean), anyTouch = t.left || t.right || t.jump || t.interact || t.down;
     if (anyPad) this.device = "pad"; else if (anyTouch) this.device = "touch"; else if (anyKbd) this.device = "kbd";
 
     const jump = k.jump || pd.jump || tc.jump;
+    const spaceOrPadJump = k.space || pd.jump || tc.jump;
     const attackHeld = k.attack || pd.attack;
     const special = k.special || pd.special || tSpecial;
     const pause = pd.pause;
     const a = {
       left: k.left || pd.left || tc.left,
       right: k.right || pd.right || tc.right,
+      up: k.up || pd.up || tc.up,
       down: k.down || pd.down || tc.down,
       run: k.run || pd.run || tc.run,
       jump,
       jumpPressed: jump && !this.prev.jump,
+      jumpOffPressed: spaceOrPadJump && !this.prev.spaceOrPadJump,
       jumpReleased: !jump && this.prev.jump,
       attackPressed: (attackHeld && !this.prev.attack) || tAttack,
       special,
@@ -68,7 +73,7 @@ export class Fase3Input {
       pausePressed: pause && !this.prev.pause,
       device: this.device,
     };
-    this.prev = { jump, attack: attackHeld, special, pause };
+    this.prev = { jump, spaceOrPadJump, attack: attackHeld, special, pause };
     return a;
   }
 }

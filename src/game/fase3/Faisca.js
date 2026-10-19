@@ -32,9 +32,9 @@ export class Faisca {
   safeSpot(sofia) {
     for (let i = this.trail.length - 1; i >= 0; i--) {
       const p = this.trail[i];
-      if (Math.abs(p.x - sofia.x) > 150) return p;
+      if (Math.abs(p.x - sofia.x) > 120 && Math.abs(p.y - sofia.y) < 120) return p;
     }
-    return { x: sofia.x - sofia.facing * 120, y: sofia.y };
+    return { x: sofia.x - sofia.facing * 110, y: sofia.y };
   }
   teleport(sofia) {
     const p = this.safeSpot(sofia);
