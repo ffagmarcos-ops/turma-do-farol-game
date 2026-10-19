@@ -5,10 +5,11 @@
  * importe aqui e troque o `data: null` dele. O assembleLevel() encaixa os setores em sequência (offset de x).
  */
 import { SETOR_A } from "./setorA.js";
+import { SETOR_B } from "./setorB.js";
 
 export const SECTORS = [
   { id: "A", name: "Praia da Chegada", gameplay: "tutorial + caranguejos", data: SETOR_A },
-  { id: "B", name: "Costão Rochoso", gameplay: "saltos e pedras", data: null },
+  { id: "B", name: "Costão Rochoso", gameplay: "saltos e pedras", data: SETOR_B },
   { id: "C", name: "Floresta Inicial", gameplay: "macacos", data: null },
   { id: "D", name: "Seu Toninho", gameplay: "corda", data: null },
   { id: "E", name: "Mata Densa", gameplay: "combate + plataforma", data: null },

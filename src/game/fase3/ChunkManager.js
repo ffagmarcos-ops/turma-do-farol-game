@@ -18,7 +18,9 @@ export class ChunkManager {
     this.scene = scene; this.level = level; this.built = new Map();
     this.solids = scene.physics.add.staticGroup();
     this.oneway = scene.physics.add.staticGroup();
-    this.crabs = []; this.shells = scene.physics.add.group({ allowGravity: false, immovable: true }); this.checkpoints = []; this.covers = []; this.waters = [];
+    this.crabs = []; this.shells = scene.physics.add.group({ allowGravity: false, immovable: true });
+    this.checkpoints = []; this.covers = []; this.waters = [];
+    this.crumbles = []; this.trickles = []; this.waveHits = [];
   }
   update(camLeft, camRight, force = false) {
     for (const c of this.level.chunks) {
@@ -56,16 +58,34 @@ export class ChunkManager {
     for (const bl of c.blocks || []) {
       this.tileRect(bl.x, bl.y, bl.w, bl.h, this.tiles(c, bl.tiles || "rock"), DEPTH.ground + 0.1, objs, true);
       this.solid(bl.x, bl.y, bl.w, bl.h, objs);
+      if (bl.wet && bl.h >= 100) {
+        const count = Math.max(1, Math.floor(bl.w / 140));
+        for (let i = 0; i < count; i++) {
+          const tx = bl.x + 36 + i * ((bl.w - 72) / Math.max(1, count));
+          const tr = s.add.tileSprite(tx, bl.y + 12, 10, bl.h - 20, "f3_espuma")
+            .setOrigin(0.5, 0).setAlpha(0.32).setTint(0xbff7ff).setDepth(DEPTH.ground + 0.15);
+          objs.push(tr);
+          this.trickles.push({ ts: tr, speed: 55 + (i % 2) * 20, chunk: c.id });
+        }
+      }
     }
     const art = SECTOR_ART[c.art];
     for (const p of c.platforms || []) {
       const def = art.tiles[p.kind] || art.tiles.log;
-      objs.push(s.add.tileSprite(p.x, p.y - (def.surfaceY || 0), p.w, def.h, tileKey(c.art, p.kind)).setOrigin(0).setTilePosition(p.x, 0).setDepth(DEPTH.ground + 0.2));
+      const baseY = p.y - (def.surfaceY || 0);
+      const ts = s.add.tileSprite(p.x, baseY, p.w, def.h, tileKey(c.art, p.kind)).setOrigin(0).setTilePosition(p.x, 0).setDepth(DEPTH.ground + 0.2);
+      objs.push(ts);
       const z = s.add.zone(p.x + p.w / 2, p.y + 12, p.w, 24).setData("oneway", true);
       this.oneway.add(z); objs.push(z);
+      if (p.crumble || p.kind === "crumble") {
+        this.crumbles.push({ def: p, ts, zone: z, baseX: p.x, baseY, state: "idle", t: 0, puffT: 0, chunk: c.id });
+      }
     }
     for (const w of c.water || []) {
       const wat = s.makeWater(w); objs.push(...wat.objs); this.waters.push(wat);
+    }
+    for (const wh of c.waveHits || []) {
+      this.waveHits.push({ ...wh, chunk: c.id, lastCycle: -1 });
     }
     for (const d of c.decor || []) {
       const key = propKey(c.art, d.kind);
@@ -100,16 +120,70 @@ export class ChunkManager {
     (c.enemies || []).forEach((e, i) => {
       const uid = `${c.id}-${i}`;
       if (s.defeated.has(uid)) return;
-      const crab = new Crab(s, { ...e, uid, y: s.levelGroundY(e.x) - 2 });
+      const crab = new Crab(s, { ...e, uid, y: (e.y ?? s.levelGroundY(e.x)) - 2 });
       crabs.push(crab); this.crabs.push(crab);
     });
     this.built.set(c.id, { objs, crabs });
+  }
+  updateMechanics(dt, sofia, timeSec, camMid) {
+    const s = this.scene;
+    for (const tr of this.trickles) {
+      if (tr.ts.active) tr.ts.tilePositionY -= dt * tr.speed;
+    }
+    for (const wh of this.waveHits) {
+      if (Math.abs(wh.x - camMid) > 1300) continue;
+      const period = 3.6, cyc = Math.floor((timeSec + (wh.phase || 0)) / period);
+      const phase = ((timeSec + (wh.phase || 0)) % period) / period;
+      if (phase < 0.08 && wh.lastCycle !== cyc) {
+        wh.lastCycle = cyc;
+        s.rockWaveSpray?.(wh.x, wh.y, Math.abs(wh.x - sofia.x) < 750);
+      }
+    }
+    for (const cr of this.crumbles) {
+      if (!cr.ts.active) continue;
+      const p = cr.def;
+      if (cr.state === "idle") {
+        const b = sofia.body;
+        const onTop = sofia.grounded && b.bottom >= p.y - 8 && b.bottom <= p.y + 18 && sofia.x >= p.x - 24 && sofia.x <= p.x + p.w + 24;
+        if (onTop) {
+          cr.state = "shaking"; cr.t = 0.52; cr.puffT = 0;
+          s.sfx?.crumble?.();
+          s.puff?.(p.x + p.w / 2, p.y + 12, 0.45, 0xa38d74);
+        }
+      } else if (cr.state === "shaking") {
+        cr.t -= dt; cr.puffT -= dt;
+        cr.ts.x = cr.baseX + Math.sin(timeSec * 65) * 4;
+        cr.ts.y = cr.baseY + (1 - Math.max(0, cr.t) / 0.52) * 4;
+        if (cr.puffT <= 0) { cr.puffT = 0.16; s.puff?.(p.x + Math.random() * p.w, p.y + 16, 0.3, 0xa38d74); }
+        if (cr.t <= 0) {
+          cr.state = "fallen"; cr.t = 2.6;
+          cr.zone.setData("disabled", true);
+          if (cr.zone.body) { cr.zone.body.enable = false; cr.zone.body.checkCollision.none = true; }
+          s.sfx?.collapse?.();
+          s.puff?.(p.x + p.w / 2, p.y + 18, 0.75, 0x8d7862);
+          s.tweens.add({ targets: cr.ts, y: cr.baseY + 110, alpha: 0, duration: 340, ease: "Quad.easeIn" });
+        }
+      } else if (cr.state === "fallen") {
+        cr.t -= dt;
+        if (cr.t <= 0) {
+          cr.state = "idle";
+          s.tweens.killTweensOf(cr.ts);
+          cr.ts.setPosition(cr.baseX, cr.baseY).setAlpha(0);
+          s.tweens.add({ targets: cr.ts, alpha: 1, duration: 260 });
+          cr.zone.setData("disabled", false);
+          if (cr.zone.body) { cr.zone.body.enable = true; cr.zone.body.checkCollision.none = false; }
+        }
+      }
+    }
   }
   unbuild(id) {
     const b = this.built.get(id); if (!b) return;
     for (const crab of b.crabs) { if (crab.alive) crab.sprite.destroy(); }
     this.crabs = this.crabs.filter((cr) => !b.crabs.includes(cr));
     this.checkpoints = this.checkpoints.filter((e) => e.chunk !== id);
+    this.crumbles = this.crumbles.filter((cr) => cr.chunk !== id);
+    this.trickles = this.trickles.filter((tr) => tr.chunk !== id);
+    this.waveHits = this.waveHits.filter((wh) => wh.chunk !== id);
     for (const o of b.objs) { this.scene.tweens.killTweensOf(o); o.destroy(); }
     this.covers = this.covers.filter((cv) => cv.cover.active);
     this.waters = this.waters.filter((w) => w.objs[0].active);

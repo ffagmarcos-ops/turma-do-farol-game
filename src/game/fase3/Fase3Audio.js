@@ -41,4 +41,12 @@ export class Fase3Audio {
     return () => { if (done) return; done = true; const n = ctx.currentTime; g.gain.cancelScheduledValues(n); g.gain.setValueAtTime(g.gain.value, n); g.gain.exponentialRampToValueAtTime(0.0001, n + 0.08); o.stop(n + 0.1); };
   }
   ready() { this.tone(880, 1320, 0.15, 0.12, "sine"); }
+  crumble() {
+    this.tone(240, 130, 0.09, 0.14, "triangle", 0, 900);
+    this.tone(190, 105, 0.11, 0.12, "sawtooth", 0.12, 700);
+  }
+  collapse() {
+    this.tone(160, 52, 0.28, 0.22, "sawtooth", 0, 600);
+    this.tone(110, 42, 0.32, 0.18, "triangle", 0.04, 450);
+  }
 }

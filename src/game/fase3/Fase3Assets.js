@@ -37,6 +37,7 @@ export const SECTOR_ART = {
       rock_fill: { file: "rocha_meio.png", w: 128, h: 128 },
       log: { file: "plataforma_tronco.png", w: 128, h: 64, surfaceY: 6 },
       ledge: { file: "plataforma_pedra.png", w: 128, h: 64, surfaceY: 6 },
+      crumble: { file: "plataforma_pedra_instavel.png", w: 128, h: 64, surfaceY: 6 },
     },
     // objetos de cenário soltos (sem colisão), também na pasta do tileset
     props: {
@@ -48,7 +49,36 @@ export const SECTOR_ART = {
       sign_end: { file: "placa_continua.png", w: 200, h: 220 },
     },
   },
-  // B: { folder: "setorB/", tileset: "tileset_costao/", layers: [cenarioB_0_ceu.png ...], tiles: {...} }, ...
+  B: {
+    folder: "setorB/",
+    tileset: "tileset_costao/",
+    layers: [
+      { n: 0, file: "cenarioB_0_ceu.png", factor: 0.0, transparent: false, placeholder: { w: 512, h: 1080, y: 0, draw: 0 }, fallbackKey: "bg_sky" },
+      { n: 1, file: "cenarioB_1_ilhas.png", factor: 0.07, transparent: true, placeholder: { w: 2048, h: 320, y: 395, draw: 1 } },
+      { n: 2, file: "cenarioB_2_oceano.png", factor: 0.2, transparent: true, placeholder: { w: 1024, h: 380, y: 695, draw: 2 }, animatedWater: true },
+      { n: 3, file: "cenarioB_3_costao.png", factor: 0.42, transparent: true, placeholder: { w: 2048, h: 760, y: 210, draw: "B3" } },
+      { n: 5, file: "cenarioB_5_rochas.png", factor: 1.15, transparent: true, placeholder: { w: 1024, h: 280, y: 860, draw: "B5" } },
+      { n: 6, file: "cenarioB_6_folhas_desfocadas.png", factor: 1.38, transparent: true, placeholder: { w: 1024, h: 1080, y: 0, draw: 6 }, alpha: 0.85 },
+    ],
+    tiles: {
+      sand_top: { file: "areia_molhada_topo.png", w: 128, h: 128, surfaceY: 12 },
+      sand_fill: { file: "areia_molhada_meio.png", w: 128, h: 128 },
+      rock_top: { file: "rocha_molhada_topo.png", w: 128, h: 128, surfaceY: 8 },
+      rock_fill: { file: "rocha_molhada_meio.png", w: 128, h: 128 },
+      log: { file: "plataforma_tronco.png", w: 128, h: 64, surfaceY: 6 },
+      ledge: { file: "plataforma_pedra_molhada.png", w: 128, h: 64, surfaceY: 6 },
+      crumble: { file: "plataforma_pedra_instavel.png", w: 128, h: 64, surfaceY: 6 },
+    },
+    props: {
+      palm: { file: "palmeira.png", w: 360, h: 620 },
+      bush: { file: "arbusto_costao.png", w: 260, h: 160 },
+      boulder: { file: "pedra_costao.png", w: 240, h: 180 },
+      moss_rock: { file: "pedra_musgo.png", w: 180, h: 110 },
+      pebbles: { file: "pedrinhas.png", w: 180, h: 70 },
+      starfish: { file: "estrela_do_mar.png", w: 64, h: 64 },
+      sign_end: { file: "placa_continua.png", w: 200, h: 220 },
+    },
+  },
 };
 
 /**

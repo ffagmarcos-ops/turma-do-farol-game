@@ -51,12 +51,12 @@ export function buildFase3Art(scene, sectors) {
       let file = scene.textures.exists(key);
       let useKey = key;
       if (!file && L.fallbackKey && scene.textures.exists(L.fallbackKey)) { useKey = L.fallbackKey; file = true; }
-      if (!file) canvasTex(scene, key, L.placeholder.w, L.placeholder.h, PLACEHOLDER.layer[L.n]);
+      if (!file) canvasTex(scene, key, L.placeholder.w, L.placeholder.h, PLACEHOLDER.layer[L.placeholder.draw ?? L.n] || PLACEHOLDER.layer[L.n]);
       const src = scene.textures.get(useKey).getSourceImage();
       info.layers[key] = { key: useKey, placeholder: !scene.textures.exists(key) || !FILES.has(f3url(L.file, art.folder)), w: src.width, h: src.height, y: file ? 0 : L.placeholder.y, final: file && useKey === key };
     }
-    for (const [name, t] of Object.entries(art.tiles)) canvasTex(scene, tileKey(s, name), t.w, t.h, PLACEHOLDER.tile[name]);
-    for (const [name, p] of Object.entries(art.props || {})) canvasTex(scene, propKey(s, name), p.w, p.h, PLACEHOLDER.prop[name]);
+    for (const [name, t] of Object.entries(art.tiles)) canvasTex(scene, tileKey(s, name), t.w, t.h, PLACEHOLDER.tile[`${s}_${name}`] || PLACEHOLDER.tile[name]);
+    for (const [name, p] of Object.entries(art.props || {})) canvasTex(scene, propKey(s, name), p.w, p.h, PLACEHOLDER.prop[`${s}_${name}`] || PLACEHOLDER.prop[name]);
   }
   for (const im of Object.values(IMAGES)) {
     if (scene.textures.exists(im.key)) { info.images[im.key] = { key: im.key, scale: 1 }; continue; }

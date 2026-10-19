@@ -38,7 +38,7 @@ export class Fase3Scene extends Phaser.Scene {
   }
 
   preload() {
-    const n = preloadFase3(this, ["A"]);
+    const n = preloadFase3(this, ["A", "B"]);
     if (n > 0) {
       const t = this.add.text(W / 2, H / 2, "Carregando a ilha… 0%", { fontFamily: BTN_FONT, fontSize: "48px", color: "#fff3d6", stroke: "#4a2a14", strokeThickness: 10 }).setOrigin(0.5);
       this.load.on("progress", (v) => t.setText(`Carregando a ilha… ${Math.round(v * 100)}%`));
@@ -58,7 +58,7 @@ export class Fase3Scene extends Phaser.Scene {
     this.sfx = new Fase3Audio(this.audio);
     this.input3 = new Fase3Input();
 
-    this.art = buildFase3Art(this, ["A"]);
+    this.art = buildFase3Art(this, ["A", "B"]);
     this.level = assembleLevel();
     const wallet = readWallet();
     this.collected = new Set(wallet.run.ids.filter((id) => id.startsWith("f3")));
@@ -82,18 +82,19 @@ export class Fase3Scene extends Phaser.Scene {
     this.physics.world.setBounds(0, -600, this.level.length, 2400);
     this.physics.world.checkCollision.down = false; this.physics.world.checkCollision.up = false;
     this.crabGroup = this.physics.add.group();
-    this.backdrop = new Backdrop(this, "A", this.art);
+    this.backdrop = new Backdrop(this, ["A", "B"], this.art, this.level.sectors);
     this.chunks = new ChunkManager(this, this.level);
 
     const gy = this.levelGroundY(cp.x);
     this.sofia = new Sofia(this, cp.x + 40, gy - 2);
     this.faisca = new Faisca(this, Math.max(40, fresh ? cp.x - 420 : cp.x - 80), gy - 2, this.art);
+    this.curSectorId = this.sectorAt(this.sofia.x).id;
     this.camera3 = new Fase3Camera(this, { x: 0, y: -40, w: this.level.length, h: H + 80 });
     this.camera3.snap(this.sofia.x + 110, this.sofia.y - 330);
     this.updateChunks();
 
     // colisões (o Faísca NÃO colide com a Sofia nem com inimigos)
-    const oneWay = (a, plat) => a.body.velocity.y >= 0 && a.body.prev.y + a.body.height <= plat.body.top + 12;
+    const oneWay = (a, plat) => !plat.getData("disabled") && a.body.velocity.y >= 0 && a.body.prev.y + a.body.height <= plat.body.top + 12;
     for (const sp of [this.sofia.sprite, this.faisca.sprite, this.crabGroup]) {
       this.physics.add.collider(sp, this.chunks.solids);
       this.physics.add.collider(sp, this.chunks.oneway, null, oneWay);
@@ -143,7 +144,7 @@ export class Fase3Scene extends Phaser.Scene {
       if ((e.code === "Escape" || e.code === "KeyP") && !this.__askMenu && !this.__som && !this.ended) this.setPaused(!this.paused);
       if (e.code === "KeyM") this.audio.toggleMute();
       if (e.code === "KeyH") this.toggleDebug();
-      const d = ["Digit1", "Digit2", "Digit3", "Digit4", "Digit5"].indexOf(e.code);
+      const d = ["Digit1", "Digit2", "Digit3", "Digit4", "Digit5", "Digit6", "Digit7", "Digit8"].indexOf(e.code);
       if (d >= 0 && this.allCheckpoints[d] && !this.paused) { this.cpActive = this.allCheckpoints[d].id; this.respawn(); }
     };
     this.onKU = (e) => keyUp(e.code);
@@ -271,6 +272,21 @@ export class Fase3Scene extends Phaser.Scene {
     e.explode(22);
     this.time.delayedCall(900, () => e.destroy());
     this.audio.play("splash", { volume: 0.6 });
+  }
+  /** Onda batendo na parede de pedra do costão: jato de espuma e gotas brilhantes */
+  rockWaveSpray(x, y, nearPlayer = false) {
+    const e = this.add.particles(x, y, "f3_espuma", {
+      speedY: { min: -460, max: -180 }, speedX: { min: -130, max: 130 }, gravityY: 1200,
+      lifespan: { min: 450, max: 780 }, scale: { start: 0.55, end: 0.08 }, alpha: { start: 0.92, end: 0 }, emitting: false,
+    }).setDepth(13);
+    e.explode(16);
+    const sp = this.add.particles(x, y - 20, "f3_brilho", {
+      speedY: { min: -340, max: -120 }, speedX: { min: -100, max: 100 }, gravityY: 900,
+      lifespan: 500, scale: { start: 0.45, end: 0 }, alpha: { start: 0.85, end: 0 }, blendMode: "ADD", emitting: false,
+    }).setDepth(13.2);
+    sp.explode(7);
+    this.time.delayedCall(850, () => { e.destroy(); sp.destroy(); });
+    if (nearPlayer) this.audio.play("praia", { volume: 0.28, rate: 1.08 });
   }
 
   /* ------------------------------ conchas e combate ------------------------------ */
@@ -400,13 +416,14 @@ export class Fase3Scene extends Phaser.Scene {
     }
   }
 
-  /* ------------------------------ fim do Setor A ------------------------------ */
+  /* ------------------------------ fim do trecho atual (Setor B) ------------------------------ */
   endSector() {
     if (this.ended) return;
     this.ended = true; this.cancelCharge(); clearInput();
     this.sofia.cheering = true; this.sofia.locked = true;
-    saveF3({ setorA: true });
+    saveF3({ setorA: true, setorB: true });
     markSeen("fase3-setorA");
+    markSeen("fase3-setorB");
     this.audio.synth?.("gold3");
     const d = 200, objs = [];
     objs.push(this.add.rectangle(W / 2, H / 2, W + 400, H + 400, 0x02060c, 0.55).setScrollFactor(0).setDepth(d));
@@ -415,7 +432,7 @@ export class Fase3Scene extends Phaser.Scene {
       objs.push(this.add.image(W / 2, H / 2, "carta_moldura").setDisplaySize(1100, 690).setScrollFactor(0).setDepth(d + 1));
     } else objs.push(this.add.rectangle(W / 2, H / 2, 1000, 560, 0xf1e2bf).setStrokeStyle(8, 0x6b4a26).setScrollFactor(0).setDepth(d + 1));
     objs.push(this.add.text(W / 2, H / 2 - 150, "Continua…", { fontFamily: BTN_FONT, fontSize: "72px", color: "#fff3d6", stroke: "#4a2a14", strokeThickness: 12 }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
-    objs.push(this.add.text(W / 2, H / 2 - 40, "Você atravessou a Praia da Chegada!\nO Costão Rochoso vem no próximo trecho.", { fontFamily: "Georgia, serif", fontSize: "32px", color: "#3a2412", align: "center" }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
+    objs.push(this.add.text(W / 2, H / 2 - 40, "Você atravessou o Costão Rochoso!\nA Entrada da Floresta vem no próximo trecho.", { fontFamily: "Georgia, serif", fontSize: "32px", color: "#3a2412", align: "center" }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
     const close = () => { objs.forEach((o) => o.destroy()); this.ended = false; this.sofia.cheering = false; this.sofia.locked = false; this.sofia.body.setVelocityX(-200); this.sofia.sprite.x -= 260; this.sofia.body.reset(this.sofia.sprite.x, this.sofia.sprite.y); };
     objs.push(...makeButton(this, W / 2 - 230, H / 2 + 120, "EXPLORAR MAIS", close, { w: 420, h: 84, depth: d + 2, scrollFactor: 0, fontSize: 28, kind: "continuar" }).objs);
     objs.push(...makeButton(this, W / 2 + 230, H / 2 + 120, "MENU PRINCIPAL", () => this.toMenu(), { w: 420, h: 84, depth: d + 2, scrollFactor: 0, fontSize: 28, kind: "menu" }).objs);
@@ -443,7 +460,8 @@ export class Fase3Scene extends Phaser.Scene {
     }
     if (s.grounded && Math.abs(s.body.velocity.x) > 60 && (this.stepT -= dt) <= 0) {
       this.stepT = Math.abs(s.body.velocity.x) > 450 ? 0.24 : 0.34;
-      this.audio.play("step_grass", { volume: 0.25, rate: 0.75 + Math.random() * 0.1 });
+      const inB = this.curSectorId === "B";
+      this.audio.play("step_grass", { volume: inB ? 0.3 : 0.25, rate: (inB ? 0.95 : 0.75) + Math.random() * 0.1 });
     }
 
     // ataque normal (concha) e especial (latido)
@@ -474,8 +492,9 @@ export class Fase3Scene extends Phaser.Scene {
       onGrowl: () => this.sfx.growl(),
     });
 
-    // inimigos: só agem perto da câmera
+    // inimigos e mecânicas de plataformas/ondas: só agem perto da câmera
     const cam = this.cameras.main, mid = cam.scrollX + W / 2;
+    this.chunks.updateMechanics(dt, s, time / 1000, mid);
     for (const c of this.chunks.crabs) {
       if (!c.alive) continue;
       c.setActive(Math.abs(c.x - mid) < 1500);
@@ -501,11 +520,17 @@ export class Fase3Scene extends Phaser.Scene {
     this.camera3.update(dt, s, vista ? vista.zoom : 1);
     this.updateChunks();
     const sec = this.sectorAt(s.x);
-    this.backdrop.update(dt, cam, { from: sec.x0, to: sec.x1, y: sec.groundY });
+    if (sec.id !== this.curSectorId) {
+      if (this.curSectorId === "A" && sec.id === "B") saveF3({ setorA: true });
+      this.curSectorId = sec.id;
+      this.toast(sec.name, 190, "#F3D48A");
+    }
+    const secA = this.level.sectors[0];
+    this.backdrop.update(dt, cam, { from: secA.x0, to: secA.x1, y: secA.groundY });
     this.updateHud();
 
-    // ambiente da praia (ondas e vento CC0 da Fase 1)
-    if ((this.ambT -= dt) <= 0) { this.ambT = 3.5 + Math.random() * 3.5; this.audio.play("praia", { volume: 0.4, pan: Math.random() - 0.5 }); }
-    if ((this.windT -= dt) <= 0) { this.windT = 9 + Math.random() * 7; this.audio.play("vento", { volume: 0.22 }); }
+    // ambiente da praia / costão (ondas e vento CC0 da Fase 1)
+    if ((this.ambT -= dt) <= 0) { this.ambT = (this.curSectorId === "B" ? 2.6 : 3.5) + Math.random() * 3.0; this.audio.play("praia", { volume: this.curSectorId === "B" ? 0.46 : 0.4, pan: Math.random() - 0.5 }); }
+    if ((this.windT -= dt) <= 0) { this.windT = 9 + Math.random() * 7; this.audio.play("vento", { volume: 0.24 }); }
   }
 }

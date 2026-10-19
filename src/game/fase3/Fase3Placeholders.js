@@ -313,17 +313,115 @@ function alertTex(ctx, w, h) {
   ctx.fillStyle = "#e0543a"; ctx.beginPath(); ctx.roundRect(w / 2 - 4, 12, 8, 24, 4); ctx.fill(); ctx.beginPath(); ctx.arc(w / 2, 44, 4.5, 0, Math.PI * 2); ctx.fill();
 }
 
+function wetRockTile(ctx, w, h, top) {
+  const g = ctx.createLinearGradient(0, 0, 0, h);
+  g.addColorStop(0, top ? "#6d7880" : "#535d66"); g.addColorStop(1, top ? "#4d565e" : "#3f4850");
+  ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+  const r = rng(top ? 13 : 17);
+  for (let k = 0; k < 5; k++) {
+    const x = r() * w, y = (top ? 28 : 0) + r() * (h - 28);
+    ctx.beginPath(); ctx.ellipse(x, y, 22 + r() * 18, 12 + r() * 10, r(), 0, Math.PI * 2);
+    ctx.fillStyle = top ? "#7e8a92" : "#616c75"; ctx.fill();
+    ctx.strokeStyle = "rgba(24,32,40,.5)"; ctx.lineWidth = 3; ctx.stroke();
+  }
+  // brilho molhado vertical
+  ctx.fillStyle = "rgba(190,235,250,.18)";
+  ctx.fillRect(w * 0.22, top ? 18 : 0, 10, h); ctx.fillRect(w * 0.68, top ? 22 : 0, 7, h * 0.8);
+  if (top) {
+    ctx.clearRect(0, 0, w, 8);
+    ctx.fillStyle = "#95a3ab"; ctx.fillRect(0, 9, w, 14);
+    ctx.fillStyle = "rgba(220,248,255,.55)"; ctx.fillRect(0, 9, w, 4); // película d'água
+    ctx.fillStyle = "#4e9452";
+    for (let x = 0; x < w; x += 20) { ctx.beginPath(); ctx.ellipse(x + 10, 13, 11, 5, 0, 0, Math.PI * 2); ctx.fill(); }
+    ctx.strokeStyle = OL; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(0, 8); ctx.lineTo(w, 8); ctx.stroke();
+  }
+}
+function wetLedgeTile(ctx, w, h) {
+  ctx.fillStyle = "#5f6a73"; ctx.fillRect(0, 6, w, h - 16);
+  ctx.fillStyle = "#88969e"; ctx.fillRect(0, 8, w, 12);
+  ctx.fillStyle = "rgba(220,250,255,.55)"; ctx.fillRect(0, 8, w, 4);
+  ctx.fillStyle = "#4e9452"; for (let x = 0; x < w; x += 22) { ctx.beginPath(); ctx.ellipse(x + 10, 10, 9, 4.5, 0, 0, Math.PI * 2); ctx.fill(); }
+  ctx.strokeStyle = OL; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(0, 6); ctx.lineTo(w, 6); ctx.moveTo(0, h - 10); ctx.lineTo(w, h - 10); ctx.stroke();
+}
+function crumbleTile(ctx, w, h) {
+  ctx.fillStyle = "#7a6855"; ctx.fillRect(0, 6, w, h - 18);
+  ctx.fillStyle = "#a38d74"; ctx.fillRect(0, 8, w, 11);
+  // rachaduras bem visíveis + pedrinhas soltas embaixo
+  ctx.strokeStyle = OL; ctx.lineWidth = 4;
+  ctx.beginPath(); ctx.moveTo(0, 6); ctx.lineTo(w, 6); ctx.moveTo(0, h - 12); ctx.lineTo(w, h - 12); ctx.stroke();
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(w * 0.28, 7); ctx.lineTo(w * 0.22, 26); ctx.lineTo(w * 0.34, h - 12);
+  ctx.moveTo(w * 0.68, 7); ctx.lineTo(w * 0.74, 24); ctx.lineTo(w * 0.62, h - 12);
+  ctx.moveTo(w * 0.22, 26); ctx.lineTo(w * 0.5, 29);
+  ctx.stroke();
+  for (const [px, py, r] of [[24, h - 6, 5], [64, h - 5, 6], [102, h - 6, 4.5]]) {
+    ctx.beginPath(); ctx.arc(px, py, r, 0, Math.PI * 2); blob(ctx, "#7a6855", OL, 2.5);
+  }
+}
+function cliffsLayer(ctx, w, h) {
+  // paredões e pontas rochosas do costão atrás da área jogável, deixando o mar aparecer nos vãos
+  const cliff = (x, wid, hei, col, hi) => {
+    for (const dx of [0, -w, w]) {
+      const cx = x + dx;
+      ctx.beginPath(); ctx.moveTo(cx - wid / 2, h);
+      ctx.lineTo(cx - wid * 0.38, h - hei * 0.72);
+      ctx.lineTo(cx - wid * 0.14, h - hei);
+      ctx.lineTo(cx + wid * 0.18, h - hei * 0.92);
+      ctx.lineTo(cx + wid * 0.36, h - hei * 0.55);
+      ctx.lineTo(cx + wid / 2, h);
+      ctx.closePath(); blob(ctx, col, OL, 4);
+      ctx.beginPath();
+      ctx.moveTo(cx - wid * 0.34, h - hei * 0.7);
+      ctx.lineTo(cx - wid * 0.14, h - hei + 6);
+      ctx.lineTo(cx + wid * 0.14, h - hei * 0.9);
+      ctx.lineTo(cx - wid * 0.06, h - hei * 0.45);
+      ctx.closePath(); ctx.fillStyle = hi; ctx.fill();
+      // vegetação no topo do penhasco
+      ctx.save(); ctx.translate(cx - wid * 0.22, h - hei - 36); bush(ctx, wid * 0.44, 70, "#2f6b48", "#539a62"); ctx.restore();
+    }
+  };
+  cliff(280, 560, 470, "#56636c", "#74838d");
+  cliff(1080, 680, 560, "#4c5861", "#687782");
+  cliff(1740, 480, 410, "#5b6872", "#798892");
+}
+function rocksFgLayer(ctx, w, h) {
+  for (const [x, wid, hei] of [[160, 260, 150], [720, 220, 125]]) {
+    for (const dx of [0, -w, w]) {
+      const cx = x + dx;
+      ctx.beginPath();
+      ctx.moveTo(cx - wid / 2, h);
+      ctx.quadraticCurveTo(cx - wid * 0.3, h - hei, cx, h - hei);
+      ctx.quadraticCurveTo(cx + wid * 0.35, h - hei * 0.9, cx + wid / 2, h);
+      ctx.closePath(); blob(ctx, "#2c3840", OL, 4);
+    }
+  }
+}
+
 /** Desenha o provisório de uma camada/tile/prop/efeito pelo "kind". */
 export const PLACEHOLDER = {
-  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer },
+  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer },
   tile: {
     sand_top: (c, w, h) => sandTile(c, w, h, true), sand_fill: (c, w, h) => sandTile(c, w, h, false),
     rock_top: (c, w, h) => rockTile(c, w, h, true), rock_fill: (c, w, h) => rockTile(c, w, h, false),
-    log: logTile, ledge: ledgeTile,
+    B_rock_top: (c, w, h) => wetRockTile(c, w, h, true), B_rock_fill: (c, w, h) => wetRockTile(c, w, h, false),
+    B_ledge: wetLedgeTile,
+    log: logTile, ledge: ledgeTile, crumble: crumbleTile,
   },
   prop: {
     palm: (c, w, h) => palm(c, w, h, 0.12), bush: (c, w, h) => bush(c, w, h),
     driftwood: (c, w, h) => { c.save(); c.translate(10, 30); c.rotate(0.05); logTile(c, w - 20, 64); c.restore(); },
+    boulder: (c, w, h) => {
+      c.beginPath(); c.moveTo(18, h - 6); c.quadraticCurveTo(28, 22, w * 0.48, 16); c.quadraticCurveTo(w - 22, 20, w - 16, h - 6); c.closePath();
+      blob(c, "#637079", OL, 4);
+      c.beginPath(); c.ellipse(w * 0.42, 48, w * 0.24, 22, -0.1, 0, Math.PI * 2); c.fillStyle = "#84939d"; c.fill();
+      c.fillStyle = "rgba(210,245,255,.45)"; c.fillRect(w * 0.32, 26, 8, h - 42);
+    },
+    moss_rock: (c, w, h) => {
+      c.beginPath(); c.ellipse(w / 2, h - 28, w * 0.44, 34, 0, Math.PI, 0); c.lineTo(w * 0.94, h - 8); c.lineTo(w * 0.06, h - 8); c.closePath();
+      blob(c, "#5c6870", OL, 4);
+      c.fillStyle = "#529b56"; for (let x = 28; x < w - 28; x += 22) { c.beginPath(); c.ellipse(x, h - 54, 14, 7, 0, 0, Math.PI * 2); c.fill(); }
+    },
     starfish: (c, w, h) => { c.beginPath(); for (let k = 0; k < 10; k++) { const a = -Math.PI / 2 + k * Math.PI / 5, r = k % 2 ? 11 : 28; c.lineTo(w / 2 + Math.cos(a) * r, h / 2 + Math.sin(a) * r); } c.closePath(); blob(c, "#f08a4b", OL, 3); },
     pebbles: (c, w, h) => { const r = rng(9); for (let k = 0; k < 6; k++) { c.beginPath(); c.ellipse(20 + r() * (w - 40), h - 18 - r() * 16, 14 + r() * 14, 9 + r() * 7, 0, 0, Math.PI * 2); blob(c, k % 2 ? "#a39b8e" : "#8d857a", OL, 3); } },
     sign_end: (c, w, h) => { c.beginPath(); c.roundRect(w / 2 - 9, 70, 18, h - 70, 4); blob(c, "#8a5a2e"); c.beginPath(); c.moveTo(20, 30); c.lineTo(w - 50, 30); c.lineTo(w - 10, 70); c.lineTo(w - 50, 110); c.lineTo(20, 110); c.closePath(); blob(c, "#c08a52"); c.fillStyle = "#a8743e"; c.fillRect(30, 60, w - 90, 6); c.fillRect(30, 82, w - 100, 6); },

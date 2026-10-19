@@ -15,19 +15,29 @@ const W = 1920, H = 1080, PAD = 140; // folga para o zoom de vista (0,94) não m
 const DEPTH = { 0: -100, 1: -90, 2: -80, 3: -60, 5: 20, 6: 25 };
 
 export class Backdrop {
-  constructor(scene, sectorId, art) {
+  constructor(scene, sectorOrList, art, sectorsMeta = []) {
     this.scene = scene; this.layers = []; this.t = 0;
-    const S = SECTOR_ART[sectorId];
-    for (const L of S.layers) {
-      const info = art.layers[layerKey(sectorId, L.n)];
-      const scale = info.final || info.key === L.fallbackKey ? H / info.h : 1;
-      const y = info.final || info.key === L.fallbackKey ? 0 : info.y;
-      const h = (info.final || info.key === L.fallbackKey ? H : info.h);
-      const ts = scene.add.tileSprite(-PAD, y - (L.n === 0 || L.n === 6 ? PAD : 0), W + PAD * 2, h * 1 + (L.n === 0 || L.n === 6 ? PAD * 2 : 0), info.key)
-        .setOrigin(0).setScrollFactor(0).setDepth(DEPTH[L.n]).setTileScale(scale).setAlpha(L.alpha ?? 1);
-      this.layers.push({ L, ts, scale });
-      if (L.animatedWater) this.makeOcean(y);
-    }
+    const ids = Array.isArray(sectorOrList) ? sectorOrList : [sectorOrList];
+    this.sectorsMeta = sectorsMeta;
+    let oceanBuilt = false;
+    ids.forEach((sectorId, sIdx) => {
+      const S = SECTOR_ART[sectorId];
+      if (!S) return;
+      for (const L of S.layers) {
+        // Céu (0), ilhas (1), oceano (2) e folhas desfocadas (6) compartilhados se usarem a mesma textura/placeholder base
+        if (sIdx > 0 && (L.n === 0 || L.n === 1 || L.n === 2 || L.n === 6)) continue;
+        const info = art.layers[layerKey(sectorId, L.n)];
+        if (!info) continue;
+        const scale = info.final || info.key === L.fallbackKey ? H / info.h : 1;
+        const y = info.final || info.key === L.fallbackKey ? 0 : info.y;
+        const h = (info.final || info.key === L.fallbackKey ? H : info.h);
+        const baseAlpha = L.alpha ?? 1;
+        const ts = scene.add.tileSprite(-PAD, y - (L.n === 0 || L.n === 6 ? PAD : 0), W + PAD * 2, h * 1 + (L.n === 0 || L.n === 6 ? PAD * 2 : 0), info.key)
+          .setOrigin(0).setScrollFactor(0).setDepth(DEPTH[L.n] + sIdx * 0.1).setTileScale(scale).setAlpha(sIdx === 0 ? baseAlpha : 0);
+        this.layers.push({ sectorId, shared: L.n === 0 || L.n === 1 || L.n === 2 || L.n === 6, baseAlpha, L, ts, scale });
+        if (L.animatedWater && !oceanBuilt) { oceanBuilt = true; this.makeOcean(y); }
+      }
+    });
     this.makeGulls();
     // poeira/brilho no ar (partículas de ambiente)
     if (scene.textures.exists("f3_poeira")) {
@@ -66,12 +76,28 @@ export class Backdrop {
     if (!s.anims.exists("seagull-fly")) return;
     this.gulls = [0, 1, 2].map((i) => s.add.sprite(300 + i * 700, 180 + i * 60, "seagull").play({ key: "seagull-fly", startFrame: i }).setScale(0.11 - i * 0.015).setScrollFactor(0).setDepth(-85).setAlpha(0.9));
   }
+  /** Calcula o peso (0..1) de um setor na posição da câmera, com crossfade de 600 px na fronteira. */
+  sectorWeight(sectorId, camMid) {
+    if (!this.sectorsMeta?.length) return 1;
+    const sec = this.sectorsMeta.find((q) => q.id === sectorId);
+    if (!sec) return 0;
+    const FADE = 600;
+    let w = 1;
+    if (sec.x0 > 0) w = Math.min(w, Phaser.Math.Clamp((camMid - (sec.x0 - FADE)) / (FADE * 2), 0, 1));
+    if (sec.x1 < this.sectorsMeta[this.sectorsMeta.length - 1].x1) w = Math.min(w, Phaser.Math.Clamp(((sec.x1 + FADE) - camMid) / (FADE * 2), 0, 1));
+    return w;
+  }
   /** shoreFrom/To: trecho da praia (em x do mundo) onde as ondas chegam na areia */
   update(dt, cam, shore) {
     this.t += dt;
-    const sx = cam.scrollX;
-    for (const { L, ts, scale } of this.layers) {
+    const sx = cam.scrollX, camMid = sx + W / 2;
+    for (const item of this.layers) {
+      const { L, ts, scale, shared, sectorId, baseAlpha } = item;
       ts.tilePositionX = (sx * L.factor) / scale + (L.n === 0 ? this.t * 3 : 0);
+      if (!shared) {
+        const w = this.sectorWeight(sectorId, camMid);
+        ts.setAlpha(baseAlpha * w).setVisible(w > 0.01);
+      }
     }
     for (const w of this.waves || []) {
       w.ts.tilePositionX = (sx * w.f + this.t * w.speed + w.off) / w.sc;
@@ -83,21 +109,24 @@ export class Backdrop {
     if (!this.shore) return;
     // vai e vem da onda (ciclo de ~4,5 s)
     const cyc = (this.t % 4.5) / 4.5, surge = Math.max(0, Math.sin(cyc * Math.PI * 2));
-    const onShore = shore && cam.scrollX + W > shore.from && cam.scrollX < shore.to;
+    const onShore = Boolean(shore && cam.scrollX + W > shore.from && cam.scrollX < shore.to);
     this.shore.setVisible(onShore);
     this.wash.clear();
     if (!onShore) return;
+    const fadeEdge = shore.to ? Phaser.Math.Clamp((shore.to - sx) / 600, 0.15, 1) : 1;
+    this.shore.setAlpha(0.95 * fadeEdge);
     this.shore.tilePositionX = (sx * 0.9 + this.t * 30) / 1.1;
     this.shore.y = 868 - surge * 24;
     const x0 = Math.max(shore.from, sx - 50), x1 = Math.min(shore.to, sx + W + 50), y0 = shore.y;
+    if (x1 <= x0) return;
     // areia molhada (mais escura) + renda de espuma que avança e recua
-    this.wash.fillStyle(0xb88f55, 0.35 * surge + 0.12);
+    this.wash.fillStyle(0xb88f55, (0.35 * surge + 0.12) * fadeEdge);
     this.wash.fillRect(x0, y0 + 2, x1 - x0, 10 + surge * 6);
-    this.wash.fillStyle(0xffffff, 0.75 * surge);
+    this.wash.fillStyle(0xffffff, 0.75 * surge * fadeEdge);
     this.wash.beginPath(); this.wash.moveTo(x0, y0 + 2);
     for (let x = x0; x <= x1; x += 24) this.wash.lineTo(x, y0 + 4 + surge * (6 + Math.sin(x * 0.03 + this.t * 2) * 4));
     this.wash.lineTo(x1, y0 + 2); this.wash.closePath(); this.wash.fillPath();
-    if (surge > 0.92 && Math.random() < 0.5) this.foam.emitParticleAt(sx + Math.random() * W, y0 - 4, 2);
+    if (surge > 0.92 && Math.random() < 0.5) this.foam.emitParticleAt(x0 + Math.random() * (x1 - x0), y0 - 4, 2);
     this.surge = surge;
   }
 }

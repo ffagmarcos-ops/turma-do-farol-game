@@ -97,7 +97,7 @@ export const SETOR_A = {
       platforms: [{ x: 5950, y: 790, w: 256, kind: "log" }, { x: 6200, y: 680, w: 256, kind: "log" }, { x: 6480, y: 760, w: 192, kind: "ledge" }],
       decor: [
         { kind: "bush", x: 5900, y: G + 18, scale: 0.8 }, { kind: "palm", x: 6600, y: G + 20, scale: 1.05, flip: true },
-        { kind: "starfish", x: 7100, y: G + 10, front: true }, { kind: "sign_end", x: 7440, y: G + 6 },
+        { kind: "starfish", x: 7100, y: G + 10, front: true }, { kind: "pebbles", x: 7480, y: G + 12, front: true },
       ],
       shells: [
         { id: "f3A-18", x: 6070, y: 730 }, { id: "f3A-19", x: 6330, y: 620 }, { id: "f3A-20", x: 6576, y: 700 }, { id: "f3A-21", x: 7260, y: 845 },
@@ -106,7 +106,6 @@ export const SETOR_A = {
         { type: "crab", x: 6760, minX: 6640, maxX: 6920 }, { type: "crab", x: 6900, minX: 6760, maxX: 7040 }, { type: "crab", x: 7060, minX: 6940, maxX: 7180 },
       ],
       checkpoints: [{ id: "A3", x: 5880 }],
-      triggers: [{ id: "fimA", x: 7480, y: 0, w: 200, h: 1080, event: "end" }],
       vistas: [{ x0: 7200, x1: 7680, zoom: 0.94 }],
     },
   ],
