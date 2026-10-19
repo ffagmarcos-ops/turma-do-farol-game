@@ -38,7 +38,7 @@ export class Fase3Scene extends Phaser.Scene {
   }
 
   preload() {
-    const n = preloadFase3(this, ["A", "B", "C", "D", "E", "F"]);
+    const n = preloadFase3(this, ["A", "B", "C", "D", "E", "F", "G"]);
     if (n > 0) {
       const t = this.add.text(W / 2, H / 2, "Carregando a ilha… 0%", { fontFamily: BTN_FONT, fontSize: "48px", color: "#fff3d6", stroke: "#4a2a14", strokeThickness: 10 }).setOrigin(0.5);
       this.load.on("progress", (v) => t.setText(`Carregando a ilha… ${Math.round(v * 100)}%`));
@@ -58,7 +58,7 @@ export class Fase3Scene extends Phaser.Scene {
     this.sfx = new Fase3Audio(this.audio);
     this.input3 = new Fase3Input();
 
-    this.art = buildFase3Art(this, ["A", "B", "C", "D", "E", "F"]);
+    this.art = buildFase3Art(this, ["A", "B", "C", "D", "E", "F", "G"]);
     this.level = assembleLevel();
     const wallet = readWallet();
     this.collected = new Set(wallet.run.ids.filter((id) => id.startsWith("f3")));
@@ -85,14 +85,14 @@ export class Fase3Scene extends Phaser.Scene {
     this.crabGroup = this.physics.add.group();
     this.monkeyGroup = this.physics.add.group();
     this.monkeyRocks = this.physics.add.group();
-    this.backdrop = new Backdrop(this, ["A", "B", "C", "D", "E", "F"], this.art, this.level.sectors);
+    this.backdrop = new Backdrop(this, ["A", "B", "C", "D", "E", "F", "G"], this.art, this.level.sectors);
     this.chunks = new ChunkManager(this, this.level);
 
     const gy = this.levelGroundY(cp.x);
     this.sofia = new Sofia(this, cp.x + 40, gy - 2);
     this.faisca = new Faisca(this, Math.max(40, fresh ? cp.x - 420 : cp.x - 80), gy - 2, this.art);
     this.curSectorId = this.sectorAt(this.sofia.x).id;
-    this.camera3 = new Fase3Camera(this, { x: 0, y: -40, w: this.level.length, h: H + 80 });
+    this.camera3 = new Fase3Camera(this, { x: 0, y: -140, w: this.level.length, h: H + 180 });
     this.camera3.snap(this.sofia.x + 110, this.sofia.y - 330);
     this.updateChunks();
 
@@ -498,18 +498,19 @@ export class Fase3Scene extends Phaser.Scene {
     this.marinaTriggered.add(id);
   }
 
-  /* ------------------------------ fim do trecho atual (Setor F) ------------------------------ */
+  /* ------------------------------ fim do trecho atual (Setor G) ------------------------------ */
   endSector() {
     if (this.ended) return;
     this.ended = true; this.cancelCharge(); clearInput();
     this.sofia.cheering = true; this.sofia.locked = true;
-    saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true, setorF: true });
+    saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true, setorF: true, setorG: true });
     markSeen("fase3-setorA");
     markSeen("fase3-setorB");
     markSeen("fase3-setorC");
     markSeen("fase3-setorD");
     markSeen("fase3-setorE");
     markSeen("fase3-setorF");
+    markSeen("fase3-setorG");
     this.audio.synth?.("gold3");
     const d = 200, objs = [];
     objs.push(this.add.rectangle(W / 2, H / 2, W + 400, H + 400, 0x02060c, 0.55).setScrollFactor(0).setDepth(d));
@@ -518,7 +519,7 @@ export class Fase3Scene extends Phaser.Scene {
       objs.push(this.add.image(W / 2, H / 2, "carta_moldura").setDisplaySize(1100, 690).setScrollFactor(0).setDepth(d + 1));
     } else objs.push(this.add.rectangle(W / 2, H / 2, 1000, 560, 0xf1e2bf).setStrokeStyle(8, 0x6b4a26).setScrollFactor(0).setDepth(d + 1));
     objs.push(this.add.text(W / 2, H / 2 - 150, "Continua…", { fontFamily: BTN_FONT, fontSize: "72px", color: "#fff3d6", stroke: "#4a2a14", strokeThickness: 12 }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
-    objs.push(this.add.text(W / 2, H / 2 - 40, "Você atravessou a Clareira da Marina!\nO Desfiladeiro vem no próximo trecho.", { fontFamily: "Georgia, serif", fontSize: "32px", color: "#3a2412", align: "center" }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
+    objs.push(this.add.text(W / 2, H / 2 - 40, "Você atravessou o Desfiladeiro!\nO trecho da Júlia vem no próximo passo.", { fontFamily: "Georgia, serif", fontSize: "32px", color: "#3a2412", align: "center" }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
     const close = () => { objs.forEach((o) => o.destroy()); this.ended = false; this.sofia.cheering = false; this.sofia.locked = false; this.sofia.body.setVelocityX(-200); this.sofia.sprite.x -= 260; this.sofia.body.reset(this.sofia.sprite.x, this.sofia.sprite.y); };
     objs.push(...makeButton(this, W / 2 - 230, H / 2 + 120, "EXPLORAR MAIS", close, { w: 420, h: 84, depth: d + 2, scrollFactor: 0, fontSize: 28, kind: "continuar" }).objs);
     objs.push(...makeButton(this, W / 2 + 230, H / 2 + 120, "MENU PRINCIPAL", () => this.toMenu(), { w: 420, h: 84, depth: d + 2, scrollFactor: 0, fontSize: 28, kind: "menu" }).objs);
@@ -546,7 +547,7 @@ export class Fase3Scene extends Phaser.Scene {
     }
     if (s.grounded && Math.abs(s.body.velocity.x) > 60 && (this.stepT -= dt) <= 0) {
       this.stepT = Math.abs(s.body.velocity.x) > 450 ? 0.24 : 0.34;
-      const inB = this.curSectorId === "B";
+      const inB = this.curSectorId === "B" || this.curSectorId === "G";
       this.audio.play("step_grass", { volume: inB ? 0.3 : 0.25, rate: (inB ? 0.95 : 0.75) + Math.random() * 0.1 });
     }
 
@@ -590,10 +591,14 @@ export class Fase3Scene extends Phaser.Scene {
     const enemyNear =
       this.chunks.crabs.some((c) => c.alive && Math.abs(c.x - f.x) < 380 && Math.abs(c.y - f.y) < 200) ||
       this.chunks.monkeys.some((m) => m.alive && Math.abs(m.x - f.x) < 420 && Math.abs(m.y - f.y) < 380);
+    const detour = this.allTriggers.find(
+      (t) => t.event === "faiscaDetour" && s.x >= t.x && s.x <= t.x + t.w && f.lastReunionId !== t.id
+    );
     f.update(dt, s, {
-      charging: this.charging, sniffX, enemyNear, killY: KILL_Y,
+      charging: this.charging, sniffX, enemyNear, detour, killY: KILL_Y,
       onSniff: () => { this.sfx.bark(false, true); this.icon(f.x, f.y - 110); if (!this.shownHints.has("farejou")) { this.shownHints.add("farejou"); this.showHint("O Faísca farejou alguma coisa… {down} para agachar"); } },
       onGrowl: () => this.sfx.growl(),
+      onReunion: () => { this.stars(f.x, f.y - 60); },
     });
 
     // inimigos e mecânicas de plataformas/ondas/cordas: só agem perto da câmera
@@ -636,6 +641,7 @@ export class Fase3Scene extends Phaser.Scene {
       if (this.curSectorId === "C" && sec.id === "D") saveF3({ setorA: true, setorB: true, setorC: true });
       if (this.curSectorId === "D" && sec.id === "E") saveF3({ setorA: true, setorB: true, setorC: true, setorD: true });
       if (this.curSectorId === "E" && sec.id === "F") saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true });
+      if (this.curSectorId === "F" && sec.id === "G") saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true, setorF: true });
       this.curSectorId = sec.id;
       this.toast(sec.name, 190, "#F3D48A");
     }
@@ -646,10 +652,10 @@ export class Fase3Scene extends Phaser.Scene {
     // ambiente da praia / costão / floresta (ondas mais baixas na mata, vento constante)
     const inForest = this.curSectorId === "C" || this.curSectorId === "D" || this.curSectorId === "E" || this.curSectorId === "F";
     if ((this.ambT -= dt) <= 0) {
-      const vol = this.curSectorId === "B" ? 0.46 : inForest ? 0.14 : 0.4;
+      const vol = this.curSectorId === "B" || this.curSectorId === "G" ? 0.36 : inForest ? 0.14 : 0.4;
       this.ambT = (this.curSectorId === "B" ? 2.6 : 3.5) + Math.random() * 3.0;
       this.audio.play("praia", { volume: vol, pan: Math.random() - 0.5 });
     }
-    if ((this.windT -= dt) <= 0) { this.windT = 9 + Math.random() * 7; this.audio.play("vento", { volume: inForest ? 0.32 : 0.24 }); }
+    if ((this.windT -= dt) <= 0) { this.windT = 9 + Math.random() * 7; this.audio.play("vento", { volume: inForest || this.curSectorId === "G" ? 0.34 : 0.24 }); }
   }
 }

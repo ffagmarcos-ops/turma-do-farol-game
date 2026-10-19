@@ -632,9 +632,39 @@ function denseForestLayer(ctx, w, h) {
   }
 }
 
+function gorgeLayer(ctx, w, h) {
+  // paredões altos do desfiladeiro com aberturas largas para o mar ao fundo + cipós nas bordas
+  const pillar = (x, wid, hei, col, hi) => {
+    for (const dx of [0, -w, w]) {
+      const px = x + dx;
+      ctx.beginPath();
+      ctx.moveTo(px - wid / 2, h);
+      ctx.lineTo(px - wid * 0.42, h - hei * 0.72);
+      ctx.quadraticCurveTo(px - wid * 0.28, h - hei, px, h - hei);
+      ctx.quadraticCurveTo(px + wid * 0.3, h - hei * 0.96, px + wid * 0.42, h - hei * 0.68);
+      ctx.lineTo(px + wid / 2, h);
+      ctx.closePath();
+      blob(ctx, col, OL, 4);
+      ctx.beginPath();
+      ctx.ellipse(px - wid * 0.06, h - hei + 14, wid * 0.28, 16, 0, 0, Math.PI * 2);
+      blob(ctx, hi, OL, 3);
+    }
+  };
+  pillar(220, 420, 740, "#5e6a73", "#468c4d");
+  pillar(920, 360, 660, "#546069", "#3f8246");
+  pillar(1620, 440, 780, "#637079", "#4d9654");
+  ctx.lineCap = "round";
+  for (const [vx, len, sw] of [[390, 360, 22], [1080, 340, -20], [1810, 390, 24]]) {
+    for (const dx of [0, -w, w]) {
+      const x0 = vx + dx;
+      line(ctx, [[x0, 140], [x0 + sw, 140 + len * 0.55], [x0 + sw * 0.35, 140 + len]], 9, "#2f6b3a");
+    }
+  }
+}
+
 /** Desenha o provisório de uma camada/tile/prop/efeito pelo "kind". */
 export const PLACEHOLDER = {
-  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer, E3: denseForestLayer },
+  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer, E3: denseForestLayer, G3: gorgeLayer },
   tile: {
     sand_top: (c, w, h) => sandTile(c, w, h, true), sand_fill: (c, w, h) => sandTile(c, w, h, false),
     rock_top: (c, w, h) => rockTile(c, w, h, true), rock_fill: (c, w, h) => rockTile(c, w, h, false),
@@ -648,6 +678,8 @@ export const PLACEHOLDER = {
     E_log: branchTile,
     F_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), F_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
     F_log: branchTile,
+    G_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), G_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
+    G_log: branchTile,
     log: logTile, ledge: ledgeTile, crumble: crumbleTile,
   },
   prop: {

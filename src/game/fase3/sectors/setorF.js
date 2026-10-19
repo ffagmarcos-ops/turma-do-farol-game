@@ -179,7 +179,6 @@ export const SETOR_F = {
         { kind: "fern", x: 6120, y: G + 12, front: true },
         { kind: "moss_rock", x: 6660, y: 620 + 8 },
         { kind: "tree", x: 7060, y: 620 + 20, scale: 1.06 },
-        { kind: "sign_end", x: 7440, y: 620 + 6 },
       ],
       shells: [
         { id: "f3F-16", x: 6016, y: 680 },
@@ -203,7 +202,6 @@ export const SETOR_F = {
           crateTargetX: 6400,
           crateTargetY: G,
         },
-        { id: "fimF", x: 7480, y: 0, w: 200, h: 1080, event: "end" },
       ],
       checkpoints: [{ id: "F3", x: 7220 }],
       vistas: [{ x0: 7120, x1: 7680, zoom: 0.94 }],

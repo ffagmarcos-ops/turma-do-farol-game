@@ -51,8 +51,25 @@ export class Faisca {
 
     let targetX = sofia.x - sofia.facing * 120;
     let pose = null;
+    const det = ctx.detour;
     if (ctx.charging) { targetX = sofia.x + sofia.facing * 95; pose = "attack"; }
-    else if (ctx.sniffX != null && this.sniffCooldown <= 0) { targetX = ctx.sniffX; this.mode = "sniff"; }
+    else if (det) {
+      this.mode = "detour";
+      if (sofia.x >= det.reunionX && sofia.grounded) {
+        if (this.lastReunionId !== det.id) {
+          this.lastReunionId = det.id;
+          const rx = det.reunionX - 90, ry = (det.reunionY ?? sofia.y) - 4;
+          sp.setPosition(rx, ry); b.reset(rx, ry);
+          this.scene.puff?.(rx, ry - 26, 0.7);
+          this.scene.sfx?.bark?.(false, true);
+          this.stuckT = 0;
+          ctx.onReunion?.(det.id);
+        }
+        this.mode = "follow";
+      } else {
+        targetX = det.pathX ?? (sofia.x - 60);
+      }
+    } else if (ctx.sniffX != null && this.sniffCooldown <= 0) { targetX = ctx.sniffX; this.mode = "sniff"; }
     else this.mode = "follow";
 
     const dx = targetX - sp.x, adx = Math.abs(dx), dir = Math.sign(dx) || this.facing;
@@ -70,8 +87,8 @@ export class Faisca {
       if (blocked) b.setVelocityY(-820);
       else if (!this.groundAhead(dir)) b.setVelocityY(-880); // vão pequeno: pula
     }
-    // Sofia numa plataforma logo acima: sobe atrás dela
-    if (grounded && sofia.grounded && sofia.y < sp.y - 80 && Math.abs(sofia.x - sp.x) < 300) b.setVelocityY(-1000);
+    // Sofia numa plataforma logo acima: sobe atrás dela (exceto se estiver na rota alternativa do desfiladeiro)
+    if (this.mode !== "detour" && grounded && sofia.grounded && sofia.y < sp.y - 80 && Math.abs(sofia.x - sp.x) < 300) b.setVelocityY(-1000);
 
     // sniff (segredo): para, fareja, late baixinho
     if (this.mode === "sniff" && adx < 50 && grounded) {
@@ -85,8 +102,15 @@ export class Faisca {
 
     // longe demais / preso / caiu: reaparece atrás da Sofia (fora da vista, se der)
     const dist = Math.hypot(sofia.x - sp.x, sofia.y - sp.y);
-    if (Math.abs(sofia.y - sp.y) > 380 || (adx > 400 && Math.abs(vx) < 30)) this.stuckT += dt; else this.stuckT = 0;
-    if (dist > 1150 || this.stuckT > 1.4 || sp.y > (ctx.killY || 1300)) this.teleport(sofia);
+    if (this.mode === "detour") {
+      this.stuckT = 0;
+      if (sp.y > (ctx.killY || 1300) && det?.pathY) {
+        sp.setPosition(sp.x, det.pathY - 8); b.reset(sp.x, det.pathY - 8);
+      }
+    } else {
+      if (Math.abs(sofia.y - sp.y) > 380 || (adx > 400 && Math.abs(vx) < 30)) this.stuckT += dt; else this.stuckT = 0;
+      if (dist > 1150 || this.stuckT > 1.4 || sp.y > (ctx.killY || 1300)) this.teleport(sofia);
+    }
 
     sp.setFlipX(this.facing < 0);
     if (!pose) {

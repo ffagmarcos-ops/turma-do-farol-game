@@ -84,8 +84,13 @@ export class ChunkManager {
       if (p.crumble || p.kind === "crumble") {
         this.crumbles.push({ def: p, ts, zone: z, baseX: p.x, baseY, state: "idle", t: 0, puffT: 0, chunk: c.id });
       }
-      if (p.moveX || p.moveY) {
-        this.movers.push({ def: p, ts, zone: z, baseX: p.x, baseY, surfY: def.surfaceY || 0, prevX: p.x, prevY: p.y, chunk: c.id });
+      if (p.moveX || p.moveY || p.sway) {
+        let swayGfx = null;
+        if (p.sway) {
+          swayGfx = s.add.graphics().setDepth(DEPTH.ground + 0.18);
+          objs.push(swayGfx);
+        }
+        this.movers.push({ def: p, ts, zone: z, swayGfx, baseX: p.x, baseY, surfY: def.surfaceY || 0, prevX: p.x, prevY: p.y, chunk: c.id });
       }
     }
     for (const w of c.water || []) {
@@ -165,8 +170,11 @@ export class ChunkManager {
       if (!mv.ts.active) continue;
       const p = mv.def;
       const ang = timeSec * (p.speed || 1.6) + (p.phase || 0);
-      const nx = mv.baseX + Math.sin(ang) * (p.moveX || 0);
-      const ny = mv.baseY + Math.sin(ang) * (p.moveY || 0);
+      const ampX = p.moveX ?? (p.sway ? 72 : 0);
+      const nx = mv.baseX + Math.sin(ang) * ampX;
+      const ny = p.sway
+        ? mv.baseY - (1 - Math.cos(ang)) * (p.swayLift || 14)
+        : mv.baseY + Math.sin(ang) * (p.moveY || 0);
       const curPlatY = ny + mv.surfY;
       const dx = nx - mv.prevX, dy = curPlatY - mv.prevY;
       const b = sofia.body;
@@ -174,6 +182,21 @@ export class ChunkManager {
       mv.ts.setPosition(nx, ny);
       mv.zone.setPosition(nx + p.w / 2, curPlatY + 12);
       mv.zone.body?.updateFromGameObject();
+      if (mv.swayGfx) {
+        const topY = p.ropeTopY ?? (mv.baseY - 180);
+        const g = mv.swayGfx;
+        g.clear();
+        for (const offX of [22, p.w - 22]) {
+          const ax = mv.baseX + offX, bx = nx + offX, by = curPlatY + 4;
+          g.lineStyle(8, 0x2a1a10, 1);
+          g.beginPath(); g.moveTo(ax, topY); g.lineTo(bx, by); g.strokePath();
+          g.lineStyle(4, 0x4b7d42, 1);
+          g.beginPath(); g.moveTo(ax, topY); g.lineTo(bx, by); g.strokePath();
+          g.fillStyle(0x6e472b, 1); g.lineStyle(3, 0x2a1a10, 1);
+          g.fillCircle(ax, topY, 6); g.strokeCircle(ax, topY, 6);
+          g.fillCircle(bx, by, 6); g.strokeCircle(bx, by, 6);
+        }
+      }
       if (onTop) {
         sofia.sprite.x += dx; sofia.sprite.y += dy;
         b.x += dx; b.y += dy;
