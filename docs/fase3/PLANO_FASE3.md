@@ -44,8 +44,8 @@ A Fase 3 é um side-scroller longo e contínuo. O mapa parece uma única panorâ
 | J | Cachoeira | exploração | 4 min | ✅ **concluído e testado** (Passo 10, arte provisória) |
 | K | Gruta Secreta | opcional | 2–4 min | ✅ **concluído e testado** (Passo 10, arte provisória) |
 | L | Bia | rota secreta | 3–4 min | ✅ **concluído e testado** (Passo 11, arte provisória) |
-| M | Copas Altas | desafio maior | 5 min | ⏭️ **próximo passo (Passo 12)** |
-| N | Ruínas | exploração / mistério | 3 min | planejado |
+| M | Copas Altas | desafio maior | 5 min | ✅ **concluído e testado** (Passo 12, arte provisória) |
+| N | Ruínas | exploração / mistério | 3 min | ⏭️ **próximo passo (Passo 13)** |
 | O | Entrada da Caverna | encerramento | 2 min | planejado |
 
 ### Passo 0 (Base) + Passo 1 (Setor A — Praia da Chegada): concluídos ✅
@@ -145,6 +145,7 @@ A Fase 3 é um side-scroller longo e contínuo. O mapa parece uma única panorâ
 | `fase3/sectors/setorJ.js` | **Dados** do Setor J (Cachoeira dos Penhascos): solo molhado escorregadio (`slippery`), cortinas de água animadas (`waterfalls`) e segredo atrás da cascata. |
 | `fase3/sectors/setorK.js` | **Dados** do Setor K (Gruta Secreta): caverna bioluminescente azulada, orbe de energia (`f3_orbe_energia`) e Relíquia da Ilha (`f3_reliquia_historia`). |
 | `fase3/sectors/setorL.js` | **Dados** do Setor L (Caminho Escondido da Bia): floresta com copas altas, monólito com símbolos circulares (`ancient_rune_stone`), zonas `helpZoneBia`, plataformas secretas reveladas e concha dourada `f3L-G1` no ninho das copas. |
+| `fase3/sectors/setorM.js` | **Dados** do Setor M (Copas Altas): maior desafio acrobático, múltiplos níveis verticais (solo, pontes de galhos, copas e dossel), cipós suspensos (`ropes`), plataformas móveis/instáveis/balanço, tronco oco com passagem agachada e segredo `ninho-copas-altas` com a concha dourada `f3M-G1`. |
 | `fase3/sectors/index.js` | Lista A–O e `assembleLevel()`, que encaixa os setores em sequência (soma o x de cada um). |
 | `fase3/ChunkManager.js` | Monta e desmonta chunks perto e longe da câmera. Camadas: colisão (`solids`, `oneway`), plataformas móveis e que balançam (`movers`, `sway`), plataformas instáveis (`crumbles`), solo escorregadio (`slippery`), cortinas de cachoeira (`waterfalls`), rochas molhadas (`trickles`), ondas (`waveHits`), cordas (`toninhos`, `ropes`), caixas da Marina (`marinas`), flashes da Júlia (`julias`), boias do Lucas (`lucases`), revelação da Bia (`bias`), relíquias (`relics`), orbes (`energyOrbs`), interação, inimigos (`crabs`, `monkeys`), segredo e decor. |
 | `fase3/Backdrop.js` | Parallax de 7 camadas com crossfade por setor, água animada (3 faixas de crista, brilho especular, ondas na areia, espuma), gaivotas e poeira. Também tem a **câmera** (`Fase3Camera`). |
@@ -166,7 +167,7 @@ O jogo inteiro já roda em 1920×1080 lógico (Phaser `Scale.FIT`), então a Fas
 ### Formato do chunk
 Cada chunk é um objeto dentro de `chunks: [...]` do setor. As coordenadas são **locais do setor**, com x começando em 0, e todos os campos são opcionais:
 ```js
-{ id: "L0", x0: 0, x1: 1920,
+{ id: "M0", x0: 0, x1: 1920,
   ground:     [{ x, w, y?, tiles: "sand" | "rock", slippery? }],      // chão sólido até o fundo
   blocks:     [{ x, y, w, h, tiles: "rock", wet?, slippery? }],       // bloco sólido (wet = água escorrendo)
   platforms:  [{ x, y, w, kind: "log" | "ledge" | "crumble", crumble?, moveX?, moveY?, sway?, slippery?, speed? }],
@@ -177,9 +178,9 @@ Cada chunk é um objeto dentro de `chunks: [...]` do setor. As coordenadas são 
   energyOrbs: [{ id, x, y }],                                          // orbe de recarga rápida de energia
   waveHits:   [{ x, y, phase? }],                                      // onda batendo na pedra (espuma)
   decor:      [{ kind, x, y, scale?, flip?, front? }],                 // props do tileset, sem colisão
-  shells:     [{ id: "f3L-01", x, y, gold? }],                         // id ÚNICO (vai para a carteira)
+  shells:     [{ id: "f3M-01", x, y, gold? }],                         // id ÚNICO (vai para a carteira)
   enemies:    [{ type: "crab" | "monkey", x, y?, minX, maxX }],
-  checkpoints:[{ id: "L0", x }],
+  checkpoints:[{ id: "M0", x }],
   hints:      [{ id, x, text: "{jump} para pular" }],                  // tokens: {move} {up} {run} {jump} {attack} {special} {down}
   secrets:    [{ id, sniffX, zone: {x,y,w,h}, cover: {x,y,w,h} }],
   triggers:   [{ id, x, y, w, h, event: "end" | "helpZoneToninho" | "helpZoneMarina" | "helpZoneJulia" | "helpZoneLucas" | "helpZoneBia" | "faiscaDetour" }],
@@ -192,10 +193,10 @@ Cada chunk é um objeto dentro de `chunks: [...]` do setor. As coordenadas são 
 - Se a grade for outra, ajuste `frameWidth`, `frameHeight`, `anims` e `body` em `Fase3Assets.js`. Nada mais muda.
 
 ### Save
-- `farol-fase3` (localStorage) guarda `{ cp, reliquiaK, setorA..setorL }`: o último checkpoint, relíquia coletada e os setores concluídos.
-- As conchas usam a carteira normal (`farol-conchas-v2`), com ids `f3A-..` a `f3L-..`.
+- `farol-fase3` (localStorage) guarda `{ cp, reliquiaK, setorA..setorM }`: o último checkpoint, relíquia coletada e os setores concluídos.
+- As conchas usam a carteira normal (`farol-conchas-v2`), com ids `f3A-..` a `f3M-..`.
 - O `resetAll()` da carteira ainda **não** apaga o `farol-fase3`. Para zerar, apague essa chave no DevTools ou use `?fase3=novo`.
 
-## Próximo marco: Passo 12 — Setor M (Copas Altas)
-- **Setor M (Copas Altas):** desafio acrobático nos galhos superiores e dossel da floresta tropical.
-- A placa `"Continua…"` avança de `L3` para o Setor M.
+## Próximo marco: Passo 13 — Setor N (Ruínas Antigas)
+- **Setor N (Ruínas):** a vegetação diminui gradualmente, revelando estruturas de pedra talhadas com símbolos circulares e espirais arcaicas (sem texto), com iluminação azulada translúcida se aproximando do fundo.
+- A placa `"Continua…"` avança de `M3` para o Setor N.

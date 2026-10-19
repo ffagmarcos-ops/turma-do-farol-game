@@ -1131,6 +1131,82 @@ function canopyLayer(ctx, w, h) {
   }
 }
 
+function highCanopyLayer(ctx, w, h) {
+  // Parallax de copas altas (Setor M): dossel tropical denso, pontes de galhos altos e raios de sol
+  const skyGrad = ctx.createLinearGradient(0, 0, 0, h);
+  skyGrad.addColorStop(0, "#2c4a32");
+  skyGrad.addColorStop(0.45, "#416c48");
+  skyGrad.addColorStop(1, "#182c1e");
+  ctx.fillStyle = skyGrad;
+  ctx.fillRect(0, 0, w, h);
+
+  // Raios de sol filtrados pelo dossel superior
+  ctx.fillStyle = "rgba(255, 248, 180, 0.07)";
+  for (const [rx, rw] of [[180, 140], [680, 180], [1180, 150], [1640, 190]]) {
+    ctx.beginPath();
+    ctx.moveTo(rx, 0);
+    ctx.lineTo(rx + rw, 0);
+    ctx.lineTo(rx + rw + 160, h);
+    ctx.lineTo(rx + 110, h);
+    ctx.closePath();
+    ctx.fill();
+  }
+
+  // Troncos colossais de árvores antigas
+  const treeX = [220, 580, 1020, 1460, 1880];
+  for (const tx of treeX) {
+    for (const dx of [0, -w, w]) {
+      const cx = tx + dx;
+      ctx.beginPath();
+      ctx.moveTo(cx - 75, h);
+      ctx.quadraticCurveTo(cx - 42, h * 0.5, cx - 38, 0);
+      ctx.lineTo(cx + 38, 0);
+      ctx.quadraticCurveTo(cx + 42, h * 0.5, cx + 75, h);
+      ctx.closePath();
+      blob(ctx, "#3b2616", OL, 4);
+
+      // Galhos laterais maciços formando pontes naturais no fundo
+      ctx.strokeStyle = "#4d3420";
+      ctx.lineWidth = 18;
+      ctx.beginPath();
+      ctx.moveTo(cx - 20, h * 0.45);
+      ctx.quadraticCurveTo(cx - 140, h * 0.42, cx - 220, h * 0.48);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(cx + 20, h * 0.55);
+      ctx.quadraticCurveTo(cx + 150, h * 0.52, cx + 240, h * 0.58);
+      ctx.stroke();
+
+      // Cipós pendurados
+      ctx.strokeStyle = "#25572e";
+      ctx.lineWidth = 6;
+      ctx.beginPath();
+      ctx.moveTo(cx - 40, 40);
+      ctx.quadraticCurveTo(cx - 15, h * 0.35, cx - 35, h * 0.7);
+      ctx.stroke();
+    }
+  }
+
+  // Copas volumosas de folhagem em múltiplos níveis
+  for (const [x, y, rx, ry, colMain, colHl] of [
+    [160, 120, 210, 120, "#1e4d2b", "#31743e"],
+    [480, 80, 260, 140, "#194425", "#2a6636"],
+    [880, 130, 240, 130, "#235831", "#3b804a"],
+    [1280, 90, 270, 140, "#1a4626", "#2c6b39"],
+    [1680, 120, 230, 120, "#20522d", "#367944"],
+  ]) {
+    for (const dx of [0, -w, w]) {
+      ctx.beginPath();
+      ctx.ellipse(x + dx, y, rx, ry, 0, 0, Math.PI * 2);
+      blob(ctx, colMain, OL, 4);
+      ctx.beginPath();
+      ctx.ellipse(x + dx - 25, y - 15, rx * 0.72, ry * 0.75, 0, 0, Math.PI * 2);
+      ctx.fillStyle = colHl;
+      ctx.fill();
+    }
+  }
+}
+
 function ancientRuneStone(ctx, w, h) {
   ctx.beginPath();
   ctx.moveTo(w * 0.2, h);
@@ -1171,7 +1247,7 @@ function ancientRuneStone(ctx, w, h) {
 
 /** Desenha o provisório de uma camada/tile/prop/efeito pelo "kind". */
 export const PLACEHOLDER = {
-  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer, E3: denseForestLayer, G3: gorgeLayer, J3: waterfallLayer, K0: caveSkyLayer, K1: caveRoofLayer, K2: caveWaterLayer, K3: caveWallLayer, K5: caveStalagmitesLayer, L3: canopyLayer },
+  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer, E3: denseForestLayer, G3: gorgeLayer, J3: waterfallLayer, K0: caveSkyLayer, K1: caveRoofLayer, K2: caveWaterLayer, K3: caveWallLayer, K5: caveStalagmitesLayer, L3: canopyLayer, M3: highCanopyLayer },
   tile: {
     sand_top: (c, w, h) => sandTile(c, w, h, true), sand_fill: (c, w, h) => sandTile(c, w, h, false),
     rock_top: (c, w, h) => rockTile(c, w, h, true), rock_fill: (c, w, h) => rockTile(c, w, h, false),
@@ -1200,6 +1276,9 @@ export const PLACEHOLDER = {
     L_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), L_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
     L_rock_top: (c, w, h) => rockTile(c, w, h, true), L_rock_fill: (c, w, h) => rockTile(c, w, h, false),
     L_log: branchTile, L_ledge: ledgeTile,
+    M_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), M_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
+    M_rock_top: (c, w, h) => rockTile(c, w, h, true), M_rock_fill: (c, w, h) => rockTile(c, w, h, false),
+    M_log: branchTile, M_ledge: ledgeTile,
     log: logTile, ledge: ledgeTile, crumble: crumbleTile,
   },
   prop: {
