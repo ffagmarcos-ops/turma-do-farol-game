@@ -22,7 +22,7 @@ export class ChunkManager {
     this.oneway = scene.physics.add.staticGroup();
     this.crabs = []; this.monkeys = []; this.shells = scene.physics.add.group({ allowGravity: false, immovable: true });
     this.checkpoints = []; this.covers = []; this.waters = [];
-    this.crumbles = []; this.trickles = []; this.waveHits = [];
+    this.crumbles = []; this.movers = []; this.trickles = []; this.waveHits = [];
     this.toninhos = []; this.ropes = [];
   }
   update(camLeft, camRight, force = false) {
@@ -82,6 +82,9 @@ export class ChunkManager {
       this.oneway.add(z); objs.push(z);
       if (p.crumble || p.kind === "crumble") {
         this.crumbles.push({ def: p, ts, zone: z, baseX: p.x, baseY, state: "idle", t: 0, puffT: 0, chunk: c.id });
+      }
+      if (p.moveX || p.moveY) {
+        this.movers.push({ def: p, ts, zone: z, baseX: p.x, baseY, surfY: def.surfaceY || 0, prevX: p.x, prevY: p.y, chunk: c.id });
       }
     }
     for (const w of c.water || []) {
@@ -151,6 +154,25 @@ export class ChunkManager {
     for (const rp of this.ropes) {
       rp.update(dt, sofia, wantClimb);
     }
+    for (const mv of this.movers) {
+      if (!mv.ts.active) continue;
+      const p = mv.def;
+      const ang = timeSec * (p.speed || 1.6) + (p.phase || 0);
+      const nx = mv.baseX + Math.sin(ang) * (p.moveX || 0);
+      const ny = mv.baseY + Math.sin(ang) * (p.moveY || 0);
+      const curPlatY = ny + mv.surfY;
+      const dx = nx - mv.prevX, dy = curPlatY - mv.prevY;
+      const b = sofia.body;
+      const onTop = !sofia.onRope && sofia.grounded && b.bottom >= mv.prevY - 12 && b.bottom <= mv.prevY + 20 && sofia.x >= mv.prevX - 24 && sofia.x <= mv.prevX + p.w + 24;
+      mv.ts.setPosition(nx, ny);
+      mv.zone.setPosition(nx + p.w / 2, curPlatY + 12);
+      mv.zone.body?.updateFromGameObject();
+      if (onTop) {
+        sofia.sprite.x += dx; sofia.sprite.y += dy;
+        b.x += dx; b.y += dy;
+      }
+      mv.prevX = nx; mv.prevY = curPlatY;
+    }
     for (const tr of this.trickles) {
       if (tr.ts.active) tr.ts.tilePositionY -= dt * tr.speed;
     }
@@ -212,6 +234,7 @@ export class ChunkManager {
     this.ropes = this.ropes.filter((rp) => !(b.ropes || []).includes(rp));
     this.checkpoints = this.checkpoints.filter((e) => e.chunk !== id);
     this.crumbles = this.crumbles.filter((cr) => cr.chunk !== id);
+    this.movers = this.movers.filter((mv) => mv.chunk !== id);
     this.trickles = this.trickles.filter((tr) => tr.chunk !== id);
     this.waveHits = this.waveHits.filter((wh) => wh.chunk !== id);
     for (const o of b.objs) { this.scene.tweens.killTweensOf(o); o.destroy(); }

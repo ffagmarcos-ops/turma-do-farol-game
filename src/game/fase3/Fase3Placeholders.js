@@ -572,9 +572,33 @@ function drawToninho(ctx, i, fw, fh, scene) {
   }
 }
 
+function denseForestLayer(ctx, w, h) {
+  // fileira de árvores mais escuras ao fundo + cipós pendurados das copas + árvores em primeiro plano
+  for (const [x, sc] of [[90, 1.05], [410, 1.16], [760, 1.02], [1120, 1.18], [1490, 1.06], [1840, 1.14]]) {
+    for (const dx of [0, -w, w]) {
+      ctx.save(); ctx.translate(x + dx - 210 * sc, h - 720 * sc); ctx.scale(sc, sc);
+      forestTree(ctx, 420, 720);
+      ctx.restore();
+    }
+  }
+  // cipós longos pendurados entre as copas
+  ctx.lineCap = "round";
+  for (const [vx, len, sw] of [[250, 420, 26], [610, 360, -22], [960, 450, 30], [1310, 380, -24], [1670, 410, 22]]) {
+    for (const dx of [0, -w, w]) {
+      const x0 = vx + dx;
+      line(ctx, [[x0, 90], [x0 + sw, 90 + len * 0.55], [x0 + sw * 0.4, 90 + len]], 10, "#2b5e34");
+    }
+  }
+  for (const [x, wid] of [[220, 620], [880, 720], [1560, 640]]) {
+    for (const dx of [0, -w, w]) {
+      ctx.save(); ctx.translate(x + dx - wid / 2, h - 220); bush(ctx, wid, 215, "#1f4d2e", "#367044"); ctx.restore();
+    }
+  }
+}
+
 /** Desenha o provisório de uma camada/tile/prop/efeito pelo "kind". */
 export const PLACEHOLDER = {
-  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer },
+  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer, E3: denseForestLayer },
   tile: {
     sand_top: (c, w, h) => sandTile(c, w, h, true), sand_fill: (c, w, h) => sandTile(c, w, h, false),
     rock_top: (c, w, h) => rockTile(c, w, h, true), rock_fill: (c, w, h) => rockTile(c, w, h, false),
@@ -584,6 +608,8 @@ export const PLACEHOLDER = {
     C_log: branchTile,
     D_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), D_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
     D_log: branchTile,
+    E_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), E_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
+    E_log: branchTile,
     log: logTile, ledge: ledgeTile, crumble: crumbleTile,
   },
   prop: {
@@ -591,6 +617,28 @@ export const PLACEHOLDER = {
     tree: forestTree,
     fern: (c, w, h) => { c.save(); c.translate(w / 2, h - 8); for (let k = -4; k <= 4; k++) { const a = k * 0.22 - Math.PI / 2, L = h * (0.78 - Math.abs(k) * 0.06); c.beginPath(); c.moveTo(0, 0); c.quadraticCurveTo(Math.cos(a) * L * 0.55, Math.sin(a) * L * 0.55, Math.cos(a) * L, Math.sin(a) * L); c.quadraticCurveTo(Math.cos(a) * L * 0.35, Math.sin(a) * L * 0.35 + 10, 6, 0); blob(c, k % 2 ? "#2f7d40" : "#4ca356", OL, 3); } c.restore(); },
     roots: (c, w, h) => { c.lineCap = "round"; for (const [x0, x1, y1] of [[w * 0.3, 18, h - 10], [w * 0.5, w * 0.48, h - 8], [w * 0.7, w - 20, h - 10]]) { line(c, [[x0, 16], [(x0 + x1) / 2, h * 0.58], [x1, y1]], 14, "#6e472b"); } },
+    vine: (c, w, h) => {
+      c.lineCap = "round";
+      line(c, [[w * 0.48, 6], [w * 0.34, h * 0.36], [w * 0.62, h * 0.68], [w * 0.46, h - 12]], 11, "#356e3f");
+      for (const [lx, ly, ang] of [[w * 0.38, h * 0.24, -0.5], [w * 0.56, h * 0.48, 0.55], [w * 0.42, h * 0.74, -0.45], [w * 0.54, h * 0.88, 0.4]]) {
+        c.save(); c.translate(lx, ly); c.rotate(ang);
+        c.beginPath(); c.ellipse(12, 0, 16, 8, 0, 0, Math.PI * 2); blob(c, "#54a85c", OL, 3);
+        c.restore();
+      }
+    },
+    hollow_log: (c, w, h) => {
+      c.beginPath(); c.roundRect(14, 18, w - 28, h - 24, 28); blob(c, "#6b4428", OL, 4);
+      c.fillStyle = "#855836"; c.fillRect(36, 30, w - 72, 18);
+      c.fillStyle = "#52321b"; c.fillRect(36, h - 42, w - 72, 14);
+      // aberturas escuras do tronco oco nas pontas + musgo no topo
+      for (const ex of [26, w - 26]) {
+        c.beginPath(); c.ellipse(ex, h * 0.56, 18, h * 0.34, 0, 0, Math.PI * 2); blob(c, "#26160c", OL, 3.5);
+      }
+      c.fillStyle = "#48994e";
+      for (let x = 48; x < w - 48; x += 38) {
+        c.beginPath(); c.ellipse(x, 20, 22, 9, 0, 0, Math.PI * 2); c.fill();
+      }
+    },
     driftwood: (c, w, h) => { c.save(); c.translate(10, 30); c.rotate(0.05); logTile(c, w - 20, 64); c.restore(); },
     boulder: (c, w, h) => {
       c.beginPath(); c.moveTo(18, h - 6); c.quadraticCurveTo(28, 22, w * 0.48, 16); c.quadraticCurveTo(w - 22, 20, w - 16, h - 6); c.closePath();

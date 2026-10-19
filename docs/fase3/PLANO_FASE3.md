@@ -36,8 +36,8 @@ A Fase 3 é um side-scroller longo e contínuo. O mapa parece uma única panorâ
 | B | Costão Rochoso | saltos e pedras | 3 min | ✅ **concluído e testado** (Passo 2, arte provisória) |
 | C | Floresta Inicial | macacos | 4 min | ✅ **concluído e testado** (Passo 3, arte provisória) |
 | D | Seu Toninho | corda (`helpZoneToninho`) | 3 min | ✅ **concluído e testado** (Passo 4, arte provisória) |
-| E | Mata Densa | combate + plataforma | 4 min | ⏭️ **próximo passo (Passo 5)** |
-| F | Marina | plataforma móvel (caixa) | 3 min | planejado |
+| E | Mata Densa | combate + plataforma | 4 min | ✅ **concluído e testado** (Passo 5, arte provisória) |
+| F | Marina | plataforma móvel (caixa) | 3 min | ⏭️ **próximo passo (Passo 6)** |
 | G | Desfiladeiro | verticalidade | 5 min | planejado |
 | H | Júlia | flashes e macacos | 4 min | planejado |
 | I | Riacho / Lucas | plataformas na água | 4 min | planejado |
@@ -72,12 +72,19 @@ A Fase 3 é um side-scroller longo e contínuo. O mapa parece uma única panorâ
 - 6 macacos em galhos altos, 2 caranguejos na entrada da mata, 21 conchas + 1 concha dourada (`f3C-G1`) num esconderijo sob as raízes (`raizes-floresta`).
 
 ### Passo 4 (Setor D — Seu Toninho e a corda): concluído ✅
-- 7.680 px adicionais em 4 chunks (`D0`–`D3`, mapa total atual: 30.720 px) e 4 checkpoints (`D0`–`D3`).
+- 7.680 px adicionais em 4 chunks (`D0`–`D3`, 30.720 px acumulados) e 4 checkpoints (`D0`–`D3`).
 - Transição contínua `C3` → `D0` rumo à Encosta do Seu Toninho, com paredões altos de pedra (`y = 480` e `y = 500`) que a Sofia não alcança pulando sozinha.
 - **Seu Toninho e a corda náutica (`src/game/fase3/ToninhoHelper.js`):** ao entrar em `helpZoneToninho`, o Seu Toninho no topo do paredão acena (`wave`), lança a corda náutica (`throwRope`), segura firme a ponta e faz sinal de positivo (`thumbsUp`) quando a Sofia chega ao topo. O NPC nunca bloqueia a Sofia e a corda permanece interativa.
 - **Mecânica de corda na Sofia (`Sofia.js`):** estados `climb_idle` (segurando na corda) e `climb` (subindo/descendo com `↑`/`↓` ou `W`/`S`, ou balançando com `←`/`→`), com física de pêndulo e salto com impulso (`Espaço`/`⤒`/`A` + direção) ou subida completa até o topo do paredão.
 - Segunda corda náutica suspensa sobre um fosso de água em `D1` (`ropeD1`), plataformas instáveis e esconderijo secreto na encosta (`gruta-toninho` em `D2` com a concha dourada `f3D-G1`).
-- Placa `"Continua…"` posicionada no fim do Setor D (`D3`).
+
+### Passo 5 (Setor E — Floresta Densa): concluído ✅
+- 7.680 px adicionais em 4 chunks (`E0`–`E3`, mapa total atual: 38.400 px) e 4 checkpoints (`E0`–`E3`).
+- Transição contínua `D3` → `E0` para o interior da Floresta Densa, com camada de parallax de mata fechada e cipós pendurados (`E3`: `denseForestLayer`) e novos props (`vine` e `hollow_log`).
+- **Plataformas na vertical e na horizontal (`ChunkManager.js`):** suporte a plataformas móveis (`moveX` / `moveY`) que transportam a Sofia suavemente, combinadas com galhos em múltiplos níveis, cordas/cipós suspensos (`ropeE1`, `ropeE3`) e troncos ocos onde é preciso passar agachada (`crawl`).
+- **Macacos em cima e caranguejos embaixo:** 7 macacos nos galhos superiores e 6 caranguejos patrulhando no solo da mata, com uma **clareira segura no meio** do setor (início de `E2`, com checkpoint `E2`, zoom de vista `0,94` e sem inimigos por perto).
+- **Área secreta (`tronco-secreto-e` em `E1`):** esconderijo sob raízes e tronco oco farejado pelo Faísca (`sniffX`), revelando a concha dourada `f3E-G1` + 21 conchas normais no setor.
+- Placa `"Continua…"` posicionada no fim do Setor E (`E3`).
 
 ## Arquitetura (código em `src/game/fase3/` + `src/game/scenes/Fase3Scene.js`)
 
@@ -91,8 +98,9 @@ A Fase 3 é um side-scroller longo e contínuo. O mapa parece uma única panorâ
 | `fase3/sectors/setorB.js` | **Dados** do Setor B (Costão Rochoso): fendas no mar, lajes que desmoronam, ondas nas pedras e caranguejos no alto. |
 | `fase3/sectors/setorC.js` | **Dados** do Setor C (Floresta Inicial): árvores, galhos altos, esconderijo nas raízes e 6 macacos. |
 | `fase3/sectors/setorD.js` | **Dados** do Setor D (Encosta do Seu Toninho): paredões altos, zonas `helpZoneToninho`, corda sobre água e segredo `gruta-toninho`. |
+| `fase3/sectors/setorE.js` | **Dados** do Setor E (Floresta Densa): troncos ocos, cipós, plataformas móveis verticais/horizontais, macacos em cima e caranguejos embaixo, clareira segura e segredo `tronco-secreto-e`. |
 | `fase3/sectors/index.js` | Lista A–O e `assembleLevel()`, que encaixa os setores em sequência (soma o x de cada um). |
-| `fase3/ChunkManager.js` | Monta e desmonta chunks perto e longe da câmera. Camadas: colisão (`solids`, `oneway`), plataformas instáveis (`crumbles`), rochas molhadas (`trickles`), ondas (`waveHits`), cordas (`toninhos`, `ropes`), interação, inimigos (`crabs`, `monkeys`), segredo e decor. |
+| `fase3/ChunkManager.js` | Monta e desmonta chunks perto e longe da câmera. Camadas: colisão (`solids`, `oneway`), plataformas móveis (`movers`), plataformas instáveis (`crumbles`), rochas molhadas (`trickles`), ondas (`waveHits`), cordas (`toninhos`, `ropes`), interação, inimigos (`crabs`, `monkeys`), segredo e decor. |
 | `fase3/Backdrop.js` | Parallax de 7 camadas com crossfade por setor, água animada (3 faixas de crista, brilho especular, ondas na areia, espuma), gaivotas e poeira. Também tem a **câmera** (`Fase3Camera`). |
 | `fase3/Sofia.js` | Física da Sofia: aceleração, coyote time de 120 ms, jump buffer de 120 ms, pulo variável, correr, agachar (com teto), escalar/balançar na corda (`climb_idle`, `climb`) e dano com recuo. |
 | `fase3/Faisca.js` | IA do Faísca: segue, para, pula obstáculos e vãos, sobe em plataformas, rosna para inimigos, fareja segredos e reaparece atrás da Sofia quando se perde. Não colide com ela. |

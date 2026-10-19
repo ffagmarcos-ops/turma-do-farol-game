@@ -141,6 +141,39 @@ export const SECTOR_ART = {
       sign_end: { file: "placa_continua.png", w: 200, h: 220 },
     },
   },
+  E: {
+    folder: "setorE/",
+    tileset: "tileset_mata_densa/",
+    layers: [
+      { n: 0, file: "cenarioE_0_ceu.png", factor: 0.0, transparent: false, placeholder: { w: 512, h: 1080, y: 0, draw: 0 }, fallbackKey: "bg_sky" },
+      { n: 1, file: "cenarioE_1_ilhas.png", factor: 0.07, transparent: true, placeholder: { w: 2048, h: 320, y: 395, draw: 1 } },
+      { n: 2, file: "cenarioE_2_oceano.png", factor: 0.2, transparent: true, placeholder: { w: 1024, h: 380, y: 695, draw: 2 }, animatedWater: true },
+      { n: 3, file: "cenarioE_3_mata_densa.png", factor: 0.42, transparent: true, placeholder: { w: 2048, h: 900, y: 70, draw: "E3" } },
+      { n: 5, file: "cenarioE_5_folhagem.png", factor: 1.15, transparent: true, placeholder: { w: 1024, h: 280, y: 860, draw: "C5" } },
+      { n: 6, file: "cenarioE_6_folhas_desfocadas.png", factor: 1.38, transparent: true, placeholder: { w: 1024, h: 1080, y: 0, draw: 6 }, alpha: 0.85 },
+    ],
+    tiles: {
+      sand_top: { file: "terra_densa_topo.png", w: 128, h: 128, surfaceY: 12 },
+      sand_fill: { file: "terra_densa_meio.png", w: 128, h: 128 },
+      rock_top: { file: "rocha_musgo_topo.png", w: 128, h: 128, surfaceY: 8 },
+      rock_fill: { file: "rocha_musgo_meio.png", w: 128, h: 128 },
+      log: { file: "plataforma_galho.png", w: 128, h: 64, surfaceY: 6 },
+      ledge: { file: "plataforma_pedra_musgo.png", w: 128, h: 64, surfaceY: 6 },
+      crumble: { file: "plataforma_pedra_instavel.png", w: 128, h: 64, surfaceY: 6 },
+    },
+    props: {
+      tree: { file: "arvore_floresta.png", w: 420, h: 720 },
+      bush: { file: "arbusto_floresta.png", w: 260, h: 160 },
+      fern: { file: "samambaia.png", w: 220, h: 140 },
+      roots: { file: "raizes.png", w: 280, h: 130 },
+      vine: { file: "cipo_pendente.png", w: 120, h: 380 },
+      hollow_log: { file: "tronco_oco.png", w: 384, h: 160 },
+      boulder: { file: "pedra_costao.png", w: 240, h: 180 },
+      moss_rock: { file: "pedra_musgo.png", w: 180, h: 110 },
+      pebbles: { file: "pedrinhas.png", w: 180, h: 70 },
+      sign_end: { file: "placa_continua.png", w: 200, h: 220 },
+    },
+  },
 };
 
 /**

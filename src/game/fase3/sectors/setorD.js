@@ -165,7 +165,7 @@ export const SETOR_D = {
         { kind: "fern", x: 6160, y: G + 12, front: true },
         { kind: "moss_rock", x: 6680, y: 500 + 8 },
         { kind: "tree", x: 6900, y: 500 + 20, scale: 1.02 },
-        { kind: "sign_end", x: 7440, y: G + 6 },
+        { kind: "tree", x: 7480, y: G + 20, scale: 1.05 },
       ],
       shells: [
         { id: "f3D-17", x: 6036, y: 700 },
@@ -187,7 +187,6 @@ export const SETOR_D = {
           topY: 500,
           bottomY: 855,
         },
-        { id: "fimD", x: 7480, y: 0, w: 200, h: 1080, event: "end" },
       ],
       checkpoints: [{ id: "D3", x: 7180 }],
       vistas: [{ x0: 7120, x1: 7680, zoom: 0.94 }],
