@@ -1245,9 +1245,177 @@ function ancientRuneStone(ctx, w, h) {
   }
 }
 
+function ruinsLayer(ctx, w, h) {
+  // Parallax de Ruínas Antigas (Setor N): colunas de pedra talhada, arcos monumentais e névoa azulada surgindo ao fundo
+  const grad = ctx.createLinearGradient(0, 0, 0, h);
+  grad.addColorStop(0, "#1a2c3a");
+  grad.addColorStop(0.5, "#224254");
+  grad.addColorStop(1, "#12202b");
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, w, h);
+
+  // Névoa e brilho azulado emergindo das fendas no horizonte (transição para a Caverna Azul)
+  const blueGlow = ctx.createRadialGradient(w * 0.7, h * 0.75, 40, w * 0.7, h * 0.75, 520);
+  blueGlow.addColorStop(0, "rgba(80, 200, 255, 0.28)");
+  blueGlow.addColorStop(0.5, "rgba(40, 140, 210, 0.12)");
+  blueGlow.addColorStop(1, "rgba(0, 0, 0, 0)");
+  ctx.fillStyle = blueGlow;
+  ctx.fillRect(0, 0, w, h);
+
+  // Silhuetas de arcos e paredões monumentais ao longe
+  ctx.fillStyle = "#1e3442";
+  for (const [ax, aw, ah] of [[120, 240, 480], [640, 320, 560], [1280, 280, 510], [1720, 300, 540]]) {
+    for (const dx of [0, -w, w]) {
+      ctx.beginPath();
+      ctx.roundRect(ax + dx, h - ah, aw, ah, [32, 32, 0, 0]);
+      ctx.fill();
+      // Vão do arco
+      ctx.beginPath();
+      ctx.roundRect(ax + dx + 44, h - ah + 70, aw - 88, ah - 70, [24, 24, 0, 0]);
+      ctx.fillStyle = "#162732";
+      ctx.fill();
+      ctx.fillStyle = "#1e3442";
+    }
+  }
+
+  // Colunas de pedra desgastada em primeiro plano do parallax
+  for (const px of [320, 580, 1080, 1540]) {
+    for (const dx of [0, -w, w]) {
+      const cx = px + dx;
+      // Base
+      ctx.beginPath();
+      ctx.roundRect(cx - 48, h - 38, 96, 38, 6);
+      blob(ctx, "#3b4d58", OL, 4);
+      // Fuste
+      ctx.beginPath();
+      ctx.roundRect(cx - 36, 120, 72, h - 150, 4);
+      blob(ctx, "#4a5d68", OL, 4);
+      // Caneluras / ranhuras da coluna
+      ctx.strokeStyle = "#384750"; ctx.lineWidth = 3.5;
+      for (const lx of [-18, 0, 18]) {
+        ctx.beginPath(); ctx.moveTo(cx + lx, 140); ctx.lineTo(cx + lx, h - 45); ctx.stroke();
+      }
+      // Capitel antigo
+      ctx.beginPath();
+      ctx.roundRect(cx - 52, 90, 104, 38, [12, 12, 4, 4]);
+      blob(ctx, "#566c78", OL, 4);
+      // Musgo verde nas juntas
+      ctx.fillStyle = "#3c7a4b";
+      ctx.beginPath(); ctx.ellipse(cx - 16, 115, 14, 6, 0, 0, Math.PI * 2); ctx.fill();
+      ctx.beginPath(); ctx.ellipse(cx + 18, h - 35, 16, 7, 0, 0, Math.PI * 2); ctx.fill();
+    }
+  }
+}
+
+function ruinPillar(ctx, w, h) {
+  // Pilar de ruína ancestral (160x420)
+  ctx.beginPath(); ctx.roundRect(14, h - 48, w - 28, 44, 8); blob(ctx, "#485b66", OL, 4);
+  ctx.beginPath(); ctx.roundRect(26, 42, w - 52, h - 86, 6); blob(ctx, "#5b6f7c", OL, 4);
+  // Capitel esculpido
+  ctx.beginPath(); ctx.roundRect(10, 12, w - 20, 36, [14, 14, 6, 6]); blob(ctx, "#6a7f8c", OL, 4);
+  // Estrias e fissuras antigas
+  ctx.strokeStyle = "#3a4a53"; ctx.lineWidth = 4;
+  for (const lx of [w * 0.35, w * 0.5, w * 0.65]) {
+    ctx.beginPath(); ctx.moveTo(lx, 52); ctx.lineTo(lx, h - 52); ctx.stroke();
+  }
+  // Símbolo circular em baixo-relevo no capitel (sem texto)
+  ctx.beginPath(); ctx.arc(w / 2, 30, 9, 0, Math.PI * 2); blob(ctx, "#485b66", OL, 2.5);
+  ctx.beginPath(); ctx.arc(w / 2, 30, 4, 0, Math.PI * 2); ctx.fillStyle = "#80e2f5"; ctx.fill();
+  // Manchas de musgo
+  ctx.fillStyle = "#468a56";
+  for (const [mx, my, mr] of [[36, 90, 12], [w - 38, h * 0.6, 15], [42, h - 52, 14]]) {
+    ctx.beginPath(); ctx.arc(mx, my, mr, 0, Math.PI * 2); ctx.fill();
+  }
+}
+
+function ruinArch(ctx, w, h) {
+  // Arco monumental de ruína de pedra antiga (380x440)
+  ctx.beginPath();
+  ctx.moveTo(20, h);
+  ctx.lineTo(20, 140);
+  ctx.quadraticCurveTo(20, 20, w / 2, 16);
+  ctx.quadraticCurveTo(w - 20, 20, w - 20, 140);
+  ctx.lineTo(w - 20, h);
+  ctx.lineTo(w - 90, h);
+  ctx.lineTo(w - 90, 180);
+  ctx.quadraticCurveTo(w - 90, 95, w / 2, 92);
+  ctx.quadraticCurveTo(90, 95, 90, 180);
+  ctx.lineTo(90, h);
+  ctx.closePath();
+  blob(ctx, "#546773", OL, 5);
+
+  // Pedra-chave no topo do arco
+  ctx.beginPath();
+  ctx.moveTo(w / 2 - 28, 12);
+  ctx.lineTo(w / 2 + 28, 12);
+  ctx.lineTo(w / 2 + 20, 98);
+  ctx.lineTo(w / 2 - 20, 98);
+  ctx.closePath();
+  blob(ctx, "#6c818e", OL, 4);
+
+  // Símbolo de espiral na pedra-chave (sem texto)
+  ctx.strokeStyle = "#35444e"; ctx.lineWidth = 3;
+  ctx.beginPath();
+  for (let a = 0; a < Math.PI * 2.5; a += 0.3) {
+    const r = 3 + a * 3;
+    const px = w / 2 + Math.cos(a) * r, py = 52 + Math.sin(a) * r;
+    if (a === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+  }
+  ctx.stroke();
+
+  // Musgo e heras
+  ctx.fillStyle = "#3c7a4b";
+  ctx.beginPath(); ctx.ellipse(60, 140, 26, 12, 0.4, 0, Math.PI * 2); ctx.fill();
+  ctx.beginPath(); ctx.ellipse(w - 60, 220, 28, 14, -0.3, 0, Math.PI * 2); ctx.fill();
+}
+
+function ancientPedestal(ctx, w, h) {
+  // Pedestal ancestral talhado (220x180)
+  ctx.beginPath(); ctx.roundRect(16, h - 42, w - 32, 38, 6); blob(ctx, "#445560", OL, 4);
+  ctx.beginPath(); ctx.roundRect(32, 44, w - 64, h - 82, 6); blob(ctx, "#566a77", OL, 4);
+  ctx.beginPath(); ctx.roundRect(12, 14, w - 24, 34, 6); blob(ctx, "#677c8a", OL, 4);
+
+  // Baixo-relevo geométrico circular
+  ctx.beginPath(); ctx.arc(w / 2, h * 0.52, 24, 0, Math.PI * 2); blob(ctx, "#3e4f5a", OL, 3);
+  ctx.beginPath(); ctx.arc(w / 2, h * 0.52, 10, 0, Math.PI * 2); ctx.fillStyle = "#8ae4f8"; ctx.fill();
+}
+
+function ruinStoneTile(ctx, w, h, top) {
+  const g = ctx.createLinearGradient(0, 0, 0, h);
+  g.addColorStop(0, top ? "#6a7d8a" : "#4a5b66");
+  g.addColorStop(1, top ? "#52636f" : "#3b4952");
+  ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+  // Fissuras de pedra talhada
+  ctx.strokeStyle = "rgba(40, 52, 60, 0.45)"; ctx.lineWidth = 2.5;
+  ctx.beginPath(); ctx.moveTo(18, 20); ctx.lineTo(54, 36); ctx.lineTo(88, 28); ctx.stroke();
+  if (top) {
+    ctx.beginPath(); ctx.moveTo(0, 12);
+    for (let x = 0; x <= w; x += 16) ctx.lineTo(x, 10 + Math.sin(x * 0.2) * 2);
+    ctx.lineTo(w, 24); ctx.lineTo(0, 24); ctx.closePath();
+    ctx.fillStyle = "#7c919e"; ctx.fill();
+    ctx.beginPath(); ctx.moveTo(0, 10);
+    for (let x = 0; x <= w; x += 16) ctx.lineTo(x, 10 + Math.sin(x * 0.2) * 2);
+    ctx.strokeStyle = OL; ctx.lineWidth = 4; ctx.stroke();
+    // Musgo de borda
+    ctx.fillStyle = "#4a8a56";
+    ctx.beginPath(); ctx.ellipse(28, 13, 14, 5, 0, 0, Math.PI * 2); ctx.fill();
+    ctx.beginPath(); ctx.ellipse(w - 32, 12, 18, 6, 0, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = "rgba(0,0,0,0)"; ctx.clearRect(0, 0, w, 8);
+  }
+}
+
+function ruinLedgeTile(ctx, w, h) {
+  ctx.beginPath(); ctx.roundRect(4, 8, w - 8, h - 14, 6); blob(ctx, "#5d707c", OL, 4);
+  ctx.fillStyle = "#738896"; ctx.fillRect(14, 12, w - 28, 10);
+  ctx.fillStyle = "#44545e"; ctx.fillRect(14, h - 16, w - 28, 6);
+  // Detalhe de musgo
+  ctx.fillStyle = "#488f56";
+  ctx.beginPath(); ctx.ellipse(w * 0.35, 11, 15, 5, 0, 0, Math.PI * 2); ctx.fill();
+}
+
 /** Desenha o provisório de uma camada/tile/prop/efeito pelo "kind". */
 export const PLACEHOLDER = {
-  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer, E3: denseForestLayer, G3: gorgeLayer, J3: waterfallLayer, K0: caveSkyLayer, K1: caveRoofLayer, K2: caveWaterLayer, K3: caveWallLayer, K5: caveStalagmitesLayer, L3: canopyLayer, M3: highCanopyLayer },
+  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer, E3: denseForestLayer, G3: gorgeLayer, J3: waterfallLayer, K0: caveSkyLayer, K1: caveRoofLayer, K2: caveWaterLayer, K3: caveWallLayer, K5: caveStalagmitesLayer, L3: canopyLayer, M3: highCanopyLayer, N3: ruinsLayer },
   tile: {
     sand_top: (c, w, h) => sandTile(c, w, h, true), sand_fill: (c, w, h) => sandTile(c, w, h, false),
     rock_top: (c, w, h) => rockTile(c, w, h, true), rock_fill: (c, w, h) => rockTile(c, w, h, false),
@@ -1279,6 +1447,9 @@ export const PLACEHOLDER = {
     M_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), M_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
     M_rock_top: (c, w, h) => rockTile(c, w, h, true), M_rock_fill: (c, w, h) => rockTile(c, w, h, false),
     M_log: branchTile, M_ledge: ledgeTile,
+    N_sand_top: (c, w, h) => ruinStoneTile(c, w, h, true), N_sand_fill: (c, w, h) => ruinStoneTile(c, w, h, false),
+    N_rock_top: (c, w, h) => ruinStoneTile(c, w, h, true), N_rock_fill: (c, w, h) => ruinStoneTile(c, w, h, false),
+    N_log: ruinLedgeTile, N_ledge: ruinLedgeTile,
     log: logTile, ledge: ledgeTile, crumble: crumbleTile,
   },
   prop: {
@@ -1324,6 +1495,9 @@ export const PLACEHOLDER = {
     pebbles: (c, w, h) => { const r = rng(9); for (let k = 0; k < 6; k++) { c.beginPath(); c.ellipse(20 + r() * (w - 40), h - 18 - r() * 16, 14 + r() * 14, 9 + r() * 7, 0, 0, Math.PI * 2); blob(c, k % 2 ? "#a39b8e" : "#8d857a", OL, 3); } },
     crystal: crystalCluster,
     ancient_rune_stone: ancientRuneStone,
+    ruin_pillar: ruinPillar,
+    ruin_arch: ruinArch,
+    ancient_pedestal: ancientPedestal,
     sign_end: (c, w, h) => { c.beginPath(); c.roundRect(w / 2 - 9, 70, 18, h - 70, 4); blob(c, "#8a5a2e"); c.beginPath(); c.moveTo(20, 30); c.lineTo(w - 50, 30); c.lineTo(w - 10, 70); c.lineTo(w - 50, 110); c.lineTo(20, 110); c.closePath(); blob(c, "#c08a52"); c.fillStyle = "#a8743e"; c.fillRect(30, 60, w - 90, 6); c.fillRect(30, 82, w - 100, 6); },
   },
   image: {

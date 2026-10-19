@@ -213,7 +213,6 @@ export const SETOR_M = {
         { kind: "vine", x: 6320, y: 220 },
         { kind: "tree", x: 7120, y: G + 20, scale: 1.24, flip: true },
         { kind: "ancient_rune_stone", x: 7340, y: G + 10 },
-        { kind: "sign_end", x: 7480, y: G + 6 },
       ],
       shells: [
         { id: "f3M-17", x: 5960, y: 820 },
@@ -222,9 +221,7 @@ export const SETOR_M = {
         { id: "f3M-20", x: 6680, y: 370 },
         { id: "f3M-21", x: 7260, y: 820 },
       ],
-      triggers: [
-        { id: "fimM", x: 7500, y: 0, w: 200, h: 1080, event: "end" },
-      ],
+      triggers: [],
       checkpoints: [{ id: "M3", x: 5860 }],
       vistas: [{ x0: 6100, x1: 7680, zoom: 0.94 }],
     },
