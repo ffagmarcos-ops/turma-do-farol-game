@@ -207,6 +207,27 @@ Cada chunk é um objeto dentro de `chunks: [...]` do setor. As coordenadas são 
 - Sequência de encerramento cinematográfica (`fase3Finale`): Sofia para no mirante admirando a caverna, Faísca comemora e late ao lado dela, e Seu Toninho, Marina, Júlia, Lucas e Bia chegam para a celebração triunfante.
 - Tela de conclusão com estatísticas da expedição e opções "JOGAR NOVAMENTE" e "MENU PRINCIPAL".
 
-## Próximo marco: Passo 15 — Segredos extras, balanceamento e polimento geral da Fase 3
-- Revisão fina do tempo de percurso e balanceamento das conchas em todos os setores (A–O).
-- Ajustes de polimento audiovisual, partículas e feedback táptico/sonoro.
+### Passo 15 (Segredos e Polimento Geral): concluído ✅
+- Revisão completa dos 8 tipos de segredos da Fase 3:
+  - **Folhagem / moitas:** Setor C (`raizes-floresta`) e Setor H (`moita-julia`).
+  - **Buracos sob plataformas:** Setor A (`toca-rochas`) e Setor B (`fenda-costao`).
+  - **Atrás da cachoeira:** Setor J (`atras-da-cachoeira`).
+  - **Paredes quebráveis (`breakables`):** Setor G (`parede-g0`) e Setor N (`parede-n0`), com colisão, rachaduras visíveis, partículas de pedra e quebra por concha arremessada ou onda de latido do Faísca.
+  - **Caminho superior:** Setor M (`ninho-copas-altas`) nas copas altas do dossel.
+  - **Túneis estreitos:** Setor E (`tronco-secreto-e`) e Setor M com passagens agachadas.
+  - **Pedra móvel:** Setor F (`pedra-marina`) e caixas da Marina.
+  - **Plataformas que aparecem:** Setor L (`ninho-copas`) com monólito rúnico da Bia.
+- **Indicação do Faísca balanceada:** Faísca agora indica apenas 5 segredos (`sniffX`), deixando os demais 8 para descoberta autônoma do jogador via exploração e observação.
+- **Polimento sonoro por setor e volumes:**
+  - Praia/Costão (mar presente, vento suave).
+  - Floresta/Copas (vento nas copas, mar distante).
+  - Desfiladeiro (vento forte uivante).
+  - Riacho/Cachoeira (novo rugido sintetizado `waterfallRumble` e respingos).
+  - Ruínas (vento solene entre pilares).
+  - Cavernas (ecos `caveEcho` e ressonância mística `caveHum`).
+  - Efeitos em destaque e música equilibrada, respeitando o `AudioManager`.
+
+## Próximo marco: Passo 16 — Trocar a arte provisória pela arte final
+- Colocar os arquivos PNG finais nas respectivas pastas em `public/assets/farol/fase3_ilha/...` seguindo `docs/fase3/ASSETS_FASE3.md`.
+- Executar `node list_assets.mjs` e recarregar o jogo.
+- Fazer ajustes finos de dimensões de quadro e alinhamentos de colisão no manifesto `Fase3Assets.js`.

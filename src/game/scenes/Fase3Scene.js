@@ -66,6 +66,7 @@ export class Fase3Scene extends Phaser.Scene {
     this.toninhoTriggered = new Set(); this.marinaTriggered = new Set(); this.lucasTriggered = new Set();
     this.biaTriggered = new Set();
     this.foundOrbs = new Set();
+    this.brokenWalls = new Set(readF3().brokenWalls || []);
     this.allCheckpoints = this.level.chunks.flatMap((c) => c.checkpoints || []);
     this.allHints = this.level.chunks.flatMap((c) => c.hints || []);
     this.allSecrets = this.level.chunks.flatMap((c) => c.secrets || []);
@@ -499,6 +500,45 @@ export class Fase3Scene extends Phaser.Scene {
       const dx = (monkey.x - ox) * dir;
       if (dx > -80 && dx < WAVE_RANGE && Math.abs(monkey.y - oy) < 420) this.time.delayedCall(Math.max(0, dx) / 2.2, () => monkey.defeat(ox));
     }
+    for (const br of (this.chunks.breakables || []).slice()) {
+      const dx = (br.x + br.w / 2 - ox) * dir;
+      if (dx > -80 && dx < WAVE_RANGE && Math.abs(br.y + br.h / 2 - oy) < 320) {
+        this.time.delayedCall(Math.max(0, dx) / 2.2, () => this.breakWall(br));
+      }
+    }
+  }
+
+  breakWall(br) {
+    if (!br || this.brokenWalls.has(br.id)) return;
+    this.brokenWalls.add(br.id);
+    saveF3({ brokenWalls: Array.from(this.brokenWalls) });
+    this.sfx?.rockSmash?.();
+    this.camera3?.shake?.(0.003, 140);
+    for (let k = 0; k < 10; k++) {
+      this.puff(
+        br.x + Math.random() * br.w,
+        br.y + Math.random() * br.h,
+        0.45 + Math.random() * 0.35,
+        0x7a6c5d
+      );
+    }
+    if (br.container) {
+      this.tweens.add({
+        targets: br.container,
+        alpha: 0,
+        y: br.y + 36,
+        scaleY: 0.2,
+        duration: 260,
+        ease: "Quad.easeIn",
+        onComplete: () => br.container.destroy(),
+      });
+    }
+    if (br.zone && br.zone.body) {
+      br.zone.body.enable = false;
+      br.zone.destroy();
+    }
+    this.chunks.breakables = (this.chunks.breakables || []).filter((b) => b.id !== br.id);
+    this.toast("Passagem aberta!", 240, "#FFE08A");
   }
 
   /* ------------------------------ checkpoints / respawn ------------------------------ */
@@ -726,6 +766,14 @@ export class Fase3Scene extends Phaser.Scene {
     if (a.attackPressed && !this.ended && !this.charging && !s.locked && !s.onRope && s.hurtT <= 0 && this.throwCool <= 0 && this.projectiles.countActive() < 3) { this.throwShell(); this.throwCool = 0.3; }
     if (!this.ended) this.updateSpecial(dt, a);
     for (const p of this.projectiles.getChildren().slice()) {
+      for (const br of (this.chunks.breakables || []).slice()) {
+        if (p.x >= br.x && p.x <= br.x + br.w && p.y >= br.y && p.y <= br.y + br.h) {
+          p.destroy();
+          this.breakWall(br);
+          break;
+        }
+      }
+      if (!p.active) continue;
       const life = p.getData("life") - dt; p.setData("life", life);
       if (life < 0.25) p.setAlpha(Math.max(0, life / 0.25));
       if (life <= 0 || p.y > KILL_Y) p.destroy();
@@ -747,12 +795,12 @@ export class Fase3Scene extends Phaser.Scene {
       }
     }
 
-    // segredos: cobertura some quando a Sofia entra; Faísca fareja perto
+    // segredos: cobertura some quando a Sofia entra; Faísca fareja só alguns
     let sniffX = null;
     for (const sec of this.allSecrets) {
       const z = sec.zone, inside = s.x > z.x && s.x < z.x + z.w && s.y > z.y && s.y < z.y + z.h + 10;
       if (inside && !this.foundSecrets.has(sec.id)) { this.foundSecrets.add(sec.id); this.audio.synth?.("gold3"); this.toast("Um esconderijo!", 300, "#FFE08A"); }
-      if (!this.foundSecrets.has(sec.id) && Math.abs(s.x - sec.sniffX) < 520) sniffX = sec.sniffX;
+      if (!this.foundSecrets.has(sec.id) && typeof sec.sniffX === "number" && Math.abs(s.x - sec.sniffX) < 520) sniffX = sec.sniffX;
     }
     for (const cv of this.chunks.covers) {
       const z = cv.sec.zone, inside = s.x > z.x - 20 && s.x < z.x + z.w + 20 && s.y > z.y && s.y < z.y + z.h + 10;
@@ -831,22 +879,35 @@ export class Fase3Scene extends Phaser.Scene {
     this.backdrop.update(dt, cam, { from: secA.x0, to: secA.x1, y: secA.groundY });
     this.updateHud();
 
-    // ambiente da praia / costão / floresta / cachoeira / gruta secreta / ruínas / caverna azul
-    const inForest = this.curSectorId === "C" || this.curSectorId === "D" || this.curSectorId === "E" || this.curSectorId === "F" || this.curSectorId === "H" || this.curSectorId === "I" || this.curSectorId === "J" || this.curSectorId === "L" || this.curSectorId === "M" || this.curSectorId === "N";
+    // ambiente sonoro dinâmico por setor (Praia, Costão, Floresta, Desfiladeiro, Riacho, Cachoeira, Ruínas, Caverna)
+    const inBeach = this.curSectorId === "A" || this.curSectorId === "B";
+    const inCanyon = this.curSectorId === "G";
+    const inWaterfall = this.curSectorId === "J";
+    const inStream = this.curSectorId === "I";
+    const inRuins = this.curSectorId === "N";
     const inCave = this.curSectorId === "K" || this.curSectorId === "O";
+    const inForest = !inBeach && !inCanyon && !inCave && !inWaterfall && !inRuins;
+
     if ((this.ambT -= dt) <= 0) {
       if (inCave) {
-        this.ambT = 4.2 + Math.random() * 3.5;
-        this.sfx.caveEcho?.();
+        this.ambT = 4.0 + Math.random() * 3.0;
+        if (Math.random() < 0.5) this.sfx.caveEcho?.(); else this.sfx.caveHum?.();
+      } else if (inWaterfall) {
+        this.ambT = 2.4 + Math.random() * 1.8;
+        this.sfx.waterfallRumble?.();
+        if (Math.random() < 0.45) this.audio.play("splash", { volume: 0.24, pan: Math.random() - 0.5 });
       } else {
-        const vol = this.curSectorId === "B" || this.curSectorId === "G" || this.curSectorId === "I" || this.curSectorId === "J" ? 0.38 : inForest ? 0.14 : 0.4;
-        this.ambT = (this.curSectorId === "B" || this.curSectorId === "I" || this.curSectorId === "J" ? 2.4 : 3.5) + Math.random() * 2.8;
+        const vol = inBeach ? 0.42 : inStream ? 0.28 : inRuins ? 0.12 : inForest ? 0.08 : 0.35;
+        this.ambT = (inBeach ? 2.5 : inStream ? 3.0 : 4.0) + Math.random() * 2.5;
         this.audio.play("praia", { volume: vol, pan: Math.random() - 0.5 });
       }
     }
     if ((this.windT -= dt) <= 0) {
-      this.windT = 9 + Math.random() * 7;
-      if (!inCave) this.audio.play("vento", { volume: inForest || this.curSectorId === "G" ? 0.34 : 0.24 });
+      this.windT = inCanyon ? 6 + Math.random() * 5 : 9 + Math.random() * 7;
+      if (!inCave) {
+        const windVol = inCanyon ? 0.45 : inForest ? 0.34 : inRuins ? 0.28 : 0.22;
+        this.audio.play("vento", { volume: windVol });
+      }
     }
   }
 }

@@ -98,7 +98,7 @@ export const SETOR_H = {
       secrets: [
         {
           id: "moita-julia",
-          sniffX: 3290,
+          sniffX: null,
           zone: { x: 3390, y: 760, w: 310, h: 140 },
           cover: { x: 3360, y: 680, w: 380, h: 220 },
         },

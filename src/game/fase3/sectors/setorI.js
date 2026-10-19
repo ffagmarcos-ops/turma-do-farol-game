@@ -104,7 +104,7 @@ export const SETOR_I = {
       secrets: [
         {
           id: "margem-lucas",
-          sniffX: 2080,
+          sniffX: null,
           zone: { x: 2140, y: 780, w: 320, h: 120 },
           cover: { x: 2130, y: 770, w: 340, h: 140 },
         },

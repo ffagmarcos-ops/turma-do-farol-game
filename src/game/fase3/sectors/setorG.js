@@ -44,12 +44,16 @@ export const SETOR_G = {
         { kind: "fern", x: 1180, y: G + 12, front: true },
         { kind: "tree", x: 1720, y: 460 + 20, scale: 1.04 },
       ],
+      breakables: [
+        { id: "parede-g0", x: 1440, y: G - 120, w: 60, h: 120, tiles: "rock" },
+      ],
       shells: [
         { id: "f3G-01", x: 636, y: 515 },
         { id: "f3G-02", x: 850, y: 430 },
         { id: "f3G-03", x: 1056, y: 410 },
         { id: "f3G-04", x: 1316, y: 370 },
         { id: "f3G-05", x: 1640, y: 400 },
+        { id: "f3G-05b", x: 1475, y: G - 40 },
       ],
       triggers: [
         {
@@ -97,7 +101,7 @@ export const SETOR_G = {
       secrets: [
         {
           id: "fenda-desfiladeiro",
-          sniffX: 3290,
+          sniffX: null,
           zone: { x: 3390, y: 760, w: 310, h: 140 },
           cover: { x: 3360, y: 680, w: 380, h: 220 },
         },

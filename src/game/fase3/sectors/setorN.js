@@ -51,11 +51,15 @@ export const SETOR_N = {
         { kind: "ruin_arch", x: 1420, y: G + 10 },
         { kind: "ancient_pedestal", x: 1740, y: G + 8 },
       ],
+      breakables: [
+        { id: "parede-n0", x: 1210, y: G - 130, w: 70, h: 130, tiles: "rock" },
+      ],
       shells: [
         { id: "f3N-01", x: 340, y: 820 },
         { id: "f3N-02", x: 640, y: 690 },
         { id: "f3N-03", x: 910, y: 570 },
         { id: "f3N-04", x: 1180, y: 450 },
+        { id: "f3N-04b", x: 1250, y: G - 40 },
         { id: "f3N-05", x: 1540, y: 820 },
       ],
       checkpoints: [{ id: "N0", x: 100 }],

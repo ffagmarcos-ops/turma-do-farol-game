@@ -28,7 +28,7 @@ export class ChunkManager {
     this.checkpoints = []; this.covers = []; this.waters = [];
     this.crumbles = []; this.movers = []; this.trickles = []; this.waveHits = [];
     this.toninhos = []; this.marinas = []; this.julias = []; this.lucases = []; this.bias = []; this.ropes = [];
-    this.waterfalls = []; this.relics = []; this.energyOrbs = [];
+    this.waterfalls = []; this.relics = []; this.energyOrbs = []; this.breakables = [];
   }
   update(camLeft, camRight, force = false) {
     for (const c of this.level.chunks) {
@@ -126,6 +126,43 @@ export class ChunkManager {
       s.tweens.add({ targets: spr, scale: 1.08, duration: 800, yoyo: true, repeat: -1, ease: "Sine.easeInOut" });
       objs.push(spr);
       this.energyOrbs.push({ ...orb, spr, chunk: c.id });
+    }
+    for (const br of c.breakables || []) {
+      if (s.brokenWalls?.has(br.id)) continue;
+      const t = this.tiles(c, br.tiles || "rock");
+      const wallContainer = s.add.container(0, 0).setDepth(DEPTH.ground + 0.15);
+      const ts = s.add.tileSprite(br.x, br.y, br.w, br.h, t.fill).setOrigin(0).setTilePosition(br.x, br.y);
+      wallContainer.add(ts);
+      const cracks = s.add.graphics();
+      cracks.lineStyle(3.5, 0x1f140e, 0.85);
+      cracks.beginPath();
+      cracks.moveTo(br.x + br.w * 0.25, br.y + 10);
+      cracks.lineTo(br.x + br.w * 0.45, br.y + br.h * 0.4);
+      cracks.lineTo(br.x + br.w * 0.35, br.y + br.h * 0.7);
+      cracks.lineTo(br.x + br.w * 0.55, br.y + br.h - 10);
+      cracks.moveTo(br.x + br.w * 0.45, br.y + br.h * 0.4);
+      cracks.lineTo(br.x + br.w * 0.75, br.y + br.h * 0.55);
+      cracks.stroke();
+      cracks.lineStyle(4, 0x2a1a10, 1);
+      cracks.strokeRect(br.x, br.y, br.w, br.h);
+      wallContainer.add(cracks);
+      objs.push(wallContainer);
+
+      const zone = this.solid(br.x, br.y, br.w, br.h, objs);
+      zone.setData("breakable", true);
+      zone.setData("breakableId", br.id);
+
+      this.breakables.push({
+        id: br.id,
+        x: br.x,
+        y: br.y,
+        w: br.w,
+        h: br.h,
+        chunk: c.id,
+        zone,
+        container: wallContainer,
+        hp: br.hp || 1,
+      });
     }
     for (const w of c.water || []) {
       const wat = s.makeWater(w); objs.push(...wat.objs); this.waters.push(wat);
@@ -389,6 +426,7 @@ export class ChunkManager {
     this.waterfalls = this.waterfalls.filter((wf) => wf.chunk !== id);
     this.relics = this.relics.filter((rel) => rel.chunk !== id);
     this.energyOrbs = this.energyOrbs.filter((orb) => orb.chunk !== id);
+    this.breakables = this.breakables.filter((br) => br.chunk !== id);
     for (const o of b.objs) { this.scene.tweens.killTweensOf(o); o.destroy(); }
     this.covers = this.covers.filter((cv) => cv.cover.active);
     this.waters = this.waters.filter((w) => w.objs[0].active);

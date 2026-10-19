@@ -99,7 +99,7 @@ export const SETOR_L = {
       secrets: [
         {
           id: "ninho-copas",
-          sniffX: 2720,
+          sniffX: null,
           zone: { x: 2680, y: 260, w: 280, h: 120 },
           cover: { x: 2660, y: 250, w: 310, h: 140 },
         },

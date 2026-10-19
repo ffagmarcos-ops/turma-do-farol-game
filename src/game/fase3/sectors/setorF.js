@@ -94,7 +94,7 @@ export const SETOR_F = {
       secrets: [
         {
           id: "pedra-marina",
-          sniffX: 3190,
+          sniffX: null,
           zone: { x: 3290, y: 760, w: 310, h: 140 },
           cover: { x: 3260, y: 680, w: 380, h: 220 },
         },

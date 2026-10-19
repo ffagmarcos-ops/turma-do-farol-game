@@ -143,7 +143,7 @@ export const SETOR_B = {
         { id: "f3B-17", x: 5224, y: 590 },
       ],
       secrets: [
-        { id: "fenda-costao", sniffX: 4030, zone: { x: 4120, y: 760, w: 310, h: 140 }, cover: { x: 4090, y: 680, w: 380, h: 220 } },
+        { id: "fenda-costao", sniffX: null, zone: { x: 4120, y: 760, w: 310, h: 140 }, cover: { x: 4090, y: 680, w: 380, h: 220 } },
       ],
       enemies: [
         { type: "crab", x: 4280, y: 680, minX: 4108, maxX: 4452 },

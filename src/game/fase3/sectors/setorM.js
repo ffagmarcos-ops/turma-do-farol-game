@@ -110,7 +110,7 @@ export const SETOR_M = {
       secrets: [
         {
           id: "ninho-copas-altas",
-          sniffX: 2780,
+          sniffX: null,
           zone: { x: 2840, y: 220, w: 320, h: 180 },
           cover: { x: 2820, y: 200, w: 350, h: 200 },
         },

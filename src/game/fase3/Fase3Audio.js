@@ -130,4 +130,20 @@ export class Fase3Audio {
     this.tone(380, 760, 0.22, 0.16, "triangle", 0, 1800);
     this.tone(520, 1040, 0.28, 0.14, "sine", 0.12, 2200);
   }
+  /** Parede quebrável rachando e desabando */
+  rockSmash() {
+    this.tone(180, 48, 0.35, 0.26, "sawtooth", 0, 520);
+    this.tone(140, 36, 0.42, 0.22, "triangle", 0.04, 380);
+    this.tone(420, 120, 0.18, 0.14, "square", 0.02, 1200);
+  }
+  /** Rugido suave da queda d'água da cachoeira */
+  waterfallRumble() {
+    this.tone(90, 65, 0.65, 0.18, "triangle", 0, 260);
+    this.tone(120, 85, 0.55, 0.14, "sawtooth", 0.06, 220);
+  }
+  /** Zumbido místico e harmônico da Caverna Azul */
+  caveHum() {
+    this.tone(220, 440, 0.7, 0.10, "sine", 0, 1600);
+    this.tone(330, 660, 0.6, 0.08, "triangle", 0.15, 2000);
+  }
 }

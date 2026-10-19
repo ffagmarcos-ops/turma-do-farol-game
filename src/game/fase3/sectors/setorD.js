@@ -143,7 +143,7 @@ export const SETOR_D = {
       secrets: [
         {
           id: "gruta-toninho",
-          sniffX: 4520,
+          sniffX: null,
           zone: { x: 4580, y: 775, w: 450, h: 125 },
           cover: { x: 4580, y: 780, w: 460, h: 124 },
         },
