@@ -49,4 +49,17 @@ export class Fase3Audio {
     this.tone(160, 52, 0.28, 0.22, "sawtooth", 0, 600);
     this.tone(110, 42, 0.32, 0.18, "triangle", 0.04, 450);
   }
+  monkeyChatter() {
+    this.tone(580, 920, 0.08, 0.14, "triangle", 0, 2200);
+    this.tone(640, 1040, 0.09, 0.14, "triangle", 0.1, 2200);
+  }
+  monkeyThrow() {
+    this.tone(420, 220, 0.14, 0.16, "sine");
+  }
+  monkeyLaugh() {
+    for (let i = 0; i < 3; i++) this.tone(680 + i * 50, 480, 0.08, 0.12, "triangle", i * 0.11, 2000);
+  }
+  rockImpact() {
+    this.tone(150, 55, 0.14, 0.2, "triangle", 0, 500);
+  }
 }

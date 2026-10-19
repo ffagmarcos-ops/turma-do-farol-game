@@ -6,11 +6,12 @@
  */
 import { SETOR_A } from "./setorA.js";
 import { SETOR_B } from "./setorB.js";
+import { SETOR_C } from "./setorC.js";
 
 export const SECTORS = [
   { id: "A", name: "Praia da Chegada", gameplay: "tutorial + caranguejos", data: SETOR_A },
   { id: "B", name: "Costão Rochoso", gameplay: "saltos e pedras", data: SETOR_B },
-  { id: "C", name: "Floresta Inicial", gameplay: "macacos", data: null },
+  { id: "C", name: "Floresta Inicial", gameplay: "macacos", data: SETOR_C },
   { id: "D", name: "Seu Toninho", gameplay: "corda", data: null },
   { id: "E", name: "Mata Densa", gameplay: "combate + plataforma", data: null },
   { id: "F", name: "Marina", gameplay: "plataforma móvel (caixa)", data: null },

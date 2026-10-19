@@ -38,7 +38,7 @@ export class Fase3Scene extends Phaser.Scene {
   }
 
   preload() {
-    const n = preloadFase3(this, ["A", "B"]);
+    const n = preloadFase3(this, ["A", "B", "C"]);
     if (n > 0) {
       const t = this.add.text(W / 2, H / 2, "Carregando a ilha… 0%", { fontFamily: BTN_FONT, fontSize: "48px", color: "#fff3d6", stroke: "#4a2a14", strokeThickness: 10 }).setOrigin(0.5);
       this.load.on("progress", (v) => t.setText(`Carregando a ilha… ${Math.round(v * 100)}%`));
@@ -58,7 +58,7 @@ export class Fase3Scene extends Phaser.Scene {
     this.sfx = new Fase3Audio(this.audio);
     this.input3 = new Fase3Input();
 
-    this.art = buildFase3Art(this, ["A", "B"]);
+    this.art = buildFase3Art(this, ["A", "B", "C"]);
     this.level = assembleLevel();
     const wallet = readWallet();
     this.collected = new Set(wallet.run.ids.filter((id) => id.startsWith("f3")));
@@ -82,7 +82,9 @@ export class Fase3Scene extends Phaser.Scene {
     this.physics.world.setBounds(0, -600, this.level.length, 2400);
     this.physics.world.checkCollision.down = false; this.physics.world.checkCollision.up = false;
     this.crabGroup = this.physics.add.group();
-    this.backdrop = new Backdrop(this, ["A", "B"], this.art, this.level.sectors);
+    this.monkeyGroup = this.physics.add.group();
+    this.monkeyRocks = this.physics.add.group();
+    this.backdrop = new Backdrop(this, ["A", "B", "C"], this.art, this.level.sectors);
     this.chunks = new ChunkManager(this, this.level);
 
     const gy = this.levelGroundY(cp.x);
@@ -95,16 +97,19 @@ export class Fase3Scene extends Phaser.Scene {
 
     // colisões (o Faísca NÃO colide com a Sofia nem com inimigos)
     const oneWay = (a, plat) => !plat.getData("disabled") && a.body.velocity.y >= 0 && a.body.prev.y + a.body.height <= plat.body.top + 12;
-    for (const sp of [this.sofia.sprite, this.faisca.sprite, this.crabGroup]) {
+    for (const sp of [this.sofia.sprite, this.faisca.sprite, this.crabGroup, this.monkeyGroup]) {
       this.physics.add.collider(sp, this.chunks.solids);
       this.physics.add.collider(sp, this.chunks.oneway, null, oneWay);
     }
     this.physics.add.overlap(this.sofia.sprite, this.chunks.shells, (_, shell) => this.collectShell(shell));
     this.physics.add.overlap(this.sofia.sprite, this.crabGroup, (_, cs) => this.touchCrab(cs.getData("crab")));
+    this.physics.add.overlap(this.sofia.sprite, this.monkeyGroup, (_, ms) => this.touchMonkey(ms.getData("monkey")));
+    this.physics.add.overlap(this.sofia.sprite, this.monkeyRocks, (_, rock) => this.hitByMonkeyRock(rock));
     this.projectiles = this.physics.add.group();
     this.physics.add.collider(this.projectiles, this.chunks.solids, (p) => this.shellBounce(p));
     this.physics.add.collider(this.projectiles, this.chunks.oneway, (p) => this.shellBounce(p), oneWay);
     this.physics.add.overlap(this.projectiles, this.crabGroup, (p, cs) => this.shellHit(p, cs.getData("crab")));
+    this.physics.add.overlap(this.projectiles, this.monkeyGroup, (p, ms) => this.shellHitMonkey(p, ms.getData("monkey")));
 
     this.charge = 0; this.charging = false; this.specialCool = 0; this.throwCool = 0; this.stepT = 0; this.ambT = 2; this.windT = 8;
     this.chargeGfx = this.add.graphics().setDepth(9.5);
@@ -305,11 +310,20 @@ export class Fase3Scene extends Phaser.Scene {
   }
   throwShell() {
     const s = this.sofia, im = this.art.img("f3_concha_projetil");
-    const p = this.projectiles.create(s.x + s.facing * 50, s.y - (s.crouching ? 50 : 80), im.key).setScale(im.scale).setDepth(11);
+    const x0 = s.x + s.facing * 50, y0 = s.y - (s.crouching ? 50 : 80);
+    const p = this.projectiles.create(x0, y0, im.key).setScale(im.scale).setDepth(11);
     p.body.setCircle(p.width * 0.45, p.width * 0.05, p.height * 0.05);
-    // arco leve: sai na altura da cintura, sobe pouco e quica no chão (acerta caranguejos de perto e de longe)
-    p.body.setVelocity(s.facing * 900 + s.body.velocity.x * 0.3, -160).setGravityY(-400).setBounce(0.4, 0.4).setAngularVelocity(s.facing * 900);
-    p.setData({ life: 1.25, bounces: 0 });
+    // se houver um macaco num galho alto à frente na direção em que a Sofia olha, calcula o arco para acertá-lo
+    const highMonkey = this.chunks.monkeys.find((m) => m.alive && (m.x - s.x) * s.facing > 30 && (m.x - s.x) * s.facing < 740 && m.y < s.y - 60);
+    let vx = s.facing * 900 + s.body.velocity.x * 0.3, vy = -160;
+    if (highMonkey) {
+      const tx = highMonkey.x, ty = highMonkey.y - 65;
+      const tHit = Phaser.Math.Clamp(Math.abs(tx - x0) / 780, 0.22, 0.75);
+      vx = (tx - x0) / tHit;
+      vy = (ty - y0 - 0.5 * 1400 * tHit * tHit) / tHit;
+    }
+    p.body.setVelocity(vx, vy).setGravityY(-400).setBounce(0.4, 0.4).setAngularVelocity(s.facing * 900);
+    p.setData({ life: 1.35, bounces: 0 });
     s.throwT = 0.22;
     this.sfx.throw();
   }
@@ -329,6 +343,13 @@ export class Fase3Scene extends Phaser.Scene {
     this.stars(p.x, p.y);
     p.destroy();
   }
+  shellHitMonkey(p, monkey) {
+    if (!p.active || !monkey?.alive) return;
+    monkey.hurt(p.x);
+    this.sfx.hit();
+    this.stars(p.x, p.y);
+    p.destroy();
+  }
   touchCrab(crab) {
     if (!crab?.dangerous() || this.respawning) return;
     if (this.sofia.hurt(crab.x)) {
@@ -337,10 +358,52 @@ export class Fase3Scene extends Phaser.Scene {
       crab.dir = Math.sign(crab.x - this.sofia.x) || 1; crab.state = "recover"; crab.t = 0.8;
     }
   }
+  touchMonkey(monkey) {
+    if (!monkey?.dangerous() || this.respawning) return;
+    if (this.sofia.hurt(monkey.x)) {
+      this.audio.synth?.("hurt");
+      this.camera3.shake(0.002, 120);
+    }
+  }
   onCrabDefeated(crab) {
     this.defeated.add(crab.id);
     this.stars(crab.x, crab.y - 40);
     this.sfx.poof();
+  }
+  onMonkeyDefeated(monkey) {
+    this.defeated.add(monkey.id);
+    this.stars(monkey.x, monkey.y - 50);
+    this.sfx.poof();
+  }
+  /** Sombra no chão indicando onde a pedra do macaco vai cair */
+  createRockShadow(x, groundY) {
+    const sh = this.add.ellipse(x, groundY - 4, 86, 24, 0x1a0e06, 0.42).setStrokeStyle(3, 0xffd27a, 0.65).setDepth(3.5);
+    this.tweens.add({ targets: sh, scaleX: { from: 0.55, to: 1.05 }, scaleY: { from: 0.55, to: 1.05 }, duration: 260, yoyo: true, repeat: 2 });
+    return sh;
+  }
+  /** Lança a pedra em arco parabólico exato até (targetX, groundY) */
+  spawnMonkeyRock(x0, y0, targetX, groundY, shadow) {
+    const im = this.art.img("f3_pedra_macaco");
+    const rock = this.monkeyRocks.create(x0, y0, im.key).setScale(im.scale).setDepth(11.5);
+    rock.body.setCircle(rock.width * 0.4, rock.width * 0.1, rock.height * 0.1);
+    // gravidade líquida vertical = 1800 - 400 = 1400 px/s²
+    const g = 1400, T = 0.88;
+    const vx = (targetX - x0) / T;
+    const vy = (groundY - y0 - 0.5 * g * T * T) / T;
+    rock.body.setGravityY(-400).setVelocity(vx, vy).setAngularVelocity(vx >= 0 ? 560 : -560);
+    rock.setData({ groundY, y0, shadow, life: 1.8 });
+    this.sfx.monkeyThrow?.();
+  }
+  hitByMonkeyRock(rock) {
+    if (!rock.active || this.respawning) return;
+    const sh = rock.getData("shadow");
+    if (sh) sh.destroy();
+    this.puff(rock.x, rock.y, 0.55, 0xc8b090);
+    if (this.sofia.hurt(rock.x)) {
+      this.audio.synth?.("hurt");
+      this.camera3.shake(0.0025, 130);
+    }
+    rock.destroy();
   }
   cancelCharge() { this.charging = false; this.charge = 0; this.sofia && (this.sofia.pointing = false); this.stopCharge?.(); this.stopCharge = null; this.chargeGfx?.clear(); }
   updateSpecial(dt, a) {
@@ -381,6 +444,11 @@ export class Fase3Scene extends Phaser.Scene {
       const dx = (crab.x - ox) * dir;
       if (dx > -80 && dx < WAVE_RANGE && Math.abs(crab.y - oy) < 320) this.time.delayedCall(Math.max(0, dx) / 2.2, () => crab.defeat(ox));
     }
+    for (const monkey of this.chunks.monkeys) {
+      if (!monkey.alive) continue;
+      const dx = (monkey.x - ox) * dir;
+      if (dx > -80 && dx < WAVE_RANGE && Math.abs(monkey.y - oy) < 420) this.time.delayedCall(Math.max(0, dx) / 2.2, () => monkey.defeat(ox));
+    }
   }
 
   /* ------------------------------ checkpoints / respawn ------------------------------ */
@@ -416,14 +484,15 @@ export class Fase3Scene extends Phaser.Scene {
     }
   }
 
-  /* ------------------------------ fim do trecho atual (Setor B) ------------------------------ */
+  /* ------------------------------ fim do trecho atual (Setor C) ------------------------------ */
   endSector() {
     if (this.ended) return;
     this.ended = true; this.cancelCharge(); clearInput();
     this.sofia.cheering = true; this.sofia.locked = true;
-    saveF3({ setorA: true, setorB: true });
+    saveF3({ setorA: true, setorB: true, setorC: true });
     markSeen("fase3-setorA");
     markSeen("fase3-setorB");
+    markSeen("fase3-setorC");
     this.audio.synth?.("gold3");
     const d = 200, objs = [];
     objs.push(this.add.rectangle(W / 2, H / 2, W + 400, H + 400, 0x02060c, 0.55).setScrollFactor(0).setDepth(d));
@@ -432,7 +501,7 @@ export class Fase3Scene extends Phaser.Scene {
       objs.push(this.add.image(W / 2, H / 2, "carta_moldura").setDisplaySize(1100, 690).setScrollFactor(0).setDepth(d + 1));
     } else objs.push(this.add.rectangle(W / 2, H / 2, 1000, 560, 0xf1e2bf).setStrokeStyle(8, 0x6b4a26).setScrollFactor(0).setDepth(d + 1));
     objs.push(this.add.text(W / 2, H / 2 - 150, "Continua…", { fontFamily: BTN_FONT, fontSize: "72px", color: "#fff3d6", stroke: "#4a2a14", strokeThickness: 12 }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
-    objs.push(this.add.text(W / 2, H / 2 - 40, "Você atravessou o Costão Rochoso!\nA Entrada da Floresta vem no próximo trecho.", { fontFamily: "Georgia, serif", fontSize: "32px", color: "#3a2412", align: "center" }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
+    objs.push(this.add.text(W / 2, H / 2 - 40, "Você atravessou a Floresta Inicial!\nA encosta do Seu Toninho vem no próximo trecho.", { fontFamily: "Georgia, serif", fontSize: "32px", color: "#3a2412", align: "center" }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
     const close = () => { objs.forEach((o) => o.destroy()); this.ended = false; this.sofia.cheering = false; this.sofia.locked = false; this.sofia.body.setVelocityX(-200); this.sofia.sprite.x -= 260; this.sofia.body.reset(this.sofia.sprite.x, this.sofia.sprite.y); };
     objs.push(...makeButton(this, W / 2 - 230, H / 2 + 120, "EXPLORAR MAIS", close, { w: 420, h: 84, depth: d + 2, scrollFactor: 0, fontSize: 28, kind: "continuar" }).objs);
     objs.push(...makeButton(this, W / 2 + 230, H / 2 + 120, "MENU PRINCIPAL", () => this.toMenu(), { w: 420, h: 84, depth: d + 2, scrollFactor: 0, fontSize: 28, kind: "menu" }).objs);
@@ -473,6 +542,22 @@ export class Fase3Scene extends Phaser.Scene {
       if (life < 0.25) p.setAlpha(Math.max(0, life / 0.25));
       if (life <= 0 || p.y > KILL_Y) p.destroy();
     }
+    // pedras arremessadas pelos macacos: atualiza sombra e impacto no chão
+    for (const r of this.monkeyRocks.getChildren().slice()) {
+      const life = r.getData("life") - dt; r.setData("life", life);
+      const gy = r.getData("groundY"), y0 = r.getData("y0"), sh = r.getData("shadow");
+      if (sh && sh.active) {
+        const prog = Phaser.Math.Clamp((r.y - y0) / Math.max(40, gy - y0), 0, 1);
+        sh.setScale(0.55 + prog * 0.55);
+        sh.setAlpha(0.32 + prog * 0.45);
+      }
+      if (r.y >= gy - 14 || life <= 0 || r.y > KILL_Y) {
+        if (sh) sh.destroy();
+        this.puff(r.x, Math.min(r.y, gy - 6), 0.55, 0xc8b090);
+        if (Math.abs(r.x - s.x) < 900) this.sfx.rockImpact?.();
+        r.destroy();
+      }
+    }
 
     // segredos: cobertura some quando a Sofia entra; Faísca fareja perto
     let sniffX = null;
@@ -485,7 +570,9 @@ export class Fase3Scene extends Phaser.Scene {
       const z = cv.sec.zone, inside = s.x > z.x - 20 && s.x < z.x + z.w + 20 && s.y > z.y && s.y < z.y + z.h + 10;
       cv.cover.setAlpha(cv.cover.alpha + ((inside ? 0.2 : 1) - cv.cover.alpha) * Math.min(1, dt * 8));
     }
-    const enemyNear = this.chunks.crabs.some((c) => c.alive && Math.abs(c.x - f.x) < 380 && Math.abs(c.y - f.y) < 200);
+    const enemyNear =
+      this.chunks.crabs.some((c) => c.alive && Math.abs(c.x - f.x) < 380 && Math.abs(c.y - f.y) < 200) ||
+      this.chunks.monkeys.some((m) => m.alive && Math.abs(m.x - f.x) < 420 && Math.abs(m.y - f.y) < 380);
     f.update(dt, s, {
       charging: this.charging, sniffX, enemyNear, killY: KILL_Y,
       onSniff: () => { this.sfx.bark(false, true); this.icon(f.x, f.y - 110); if (!this.shownHints.has("farejou")) { this.shownHints.add("farejou"); this.showHint("O Faísca farejou alguma coisa… {down} para agachar"); } },
@@ -500,6 +587,12 @@ export class Fase3Scene extends Phaser.Scene {
       c.setActive(Math.abs(c.x - mid) < 1500);
       c.update(dt, s);
       if (c.y > KILL_Y) c.defeat(c.x);
+    }
+    for (const m of this.chunks.monkeys) {
+      if (!m.alive) continue;
+      m.setActive(Math.abs(m.x - mid) < 1500);
+      m.update(dt, s);
+      if (m.y > KILL_Y) m.defeat(m.x);
     }
 
     // água e queda: volta ao checkpoint / ponto seguro (vida infinita)
@@ -522,6 +615,7 @@ export class Fase3Scene extends Phaser.Scene {
     const sec = this.sectorAt(s.x);
     if (sec.id !== this.curSectorId) {
       if (this.curSectorId === "A" && sec.id === "B") saveF3({ setorA: true });
+      if (this.curSectorId === "B" && sec.id === "C") saveF3({ setorA: true, setorB: true });
       this.curSectorId = sec.id;
       this.toast(sec.name, 190, "#F3D48A");
     }
@@ -529,8 +623,12 @@ export class Fase3Scene extends Phaser.Scene {
     this.backdrop.update(dt, cam, { from: secA.x0, to: secA.x1, y: secA.groundY });
     this.updateHud();
 
-    // ambiente da praia / costão (ondas e vento CC0 da Fase 1)
-    if ((this.ambT -= dt) <= 0) { this.ambT = (this.curSectorId === "B" ? 2.6 : 3.5) + Math.random() * 3.0; this.audio.play("praia", { volume: this.curSectorId === "B" ? 0.46 : 0.4, pan: Math.random() - 0.5 }); }
-    if ((this.windT -= dt) <= 0) { this.windT = 9 + Math.random() * 7; this.audio.play("vento", { volume: 0.24 }); }
+    // ambiente da praia / costão / floresta (ondas mais baixas na mata, vento constante)
+    if ((this.ambT -= dt) <= 0) {
+      const vol = this.curSectorId === "B" ? 0.46 : this.curSectorId === "C" ? 0.18 : 0.4;
+      this.ambT = (this.curSectorId === "B" ? 2.6 : 3.5) + Math.random() * 3.0;
+      this.audio.play("praia", { volume: vol, pan: Math.random() - 0.5 });
+    }
+    if ((this.windT -= dt) <= 0) { this.windT = 9 + Math.random() * 7; this.audio.play("vento", { volume: this.curSectorId === "C" ? 0.3 : 0.24 }); }
   }
 }

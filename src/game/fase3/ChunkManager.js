@@ -9,6 +9,7 @@ import Phaser from "../phaser.js";
 import { SECTOR_ART } from "./Fase3Assets.js";
 import { tileKey, propKey } from "./Fase3Loader.js";
 import { Crab } from "./Crab.js";
+import { Macaco } from "./Macaco.js";
 
 export const DEPTH = { ground: 0, wash: 1, back: -2, interior: -3, pickup: 5, checkpoint: 4, enemy: 8, cover: 15, front: 16 };
 const BUILD_MARGIN = 1920, KEEP_MARGIN = 3840, BOTTOM = 1240;
@@ -18,7 +19,7 @@ export class ChunkManager {
     this.scene = scene; this.level = level; this.built = new Map();
     this.solids = scene.physics.add.staticGroup();
     this.oneway = scene.physics.add.staticGroup();
-    this.crabs = []; this.shells = scene.physics.add.group({ allowGravity: false, immovable: true });
+    this.crabs = []; this.monkeys = []; this.shells = scene.physics.add.group({ allowGravity: false, immovable: true });
     this.checkpoints = []; this.covers = []; this.waters = [];
     this.crumbles = []; this.trickles = []; this.waveHits = [];
   }
@@ -49,7 +50,7 @@ export class ChunkManager {
     if (outline) objs.push(s.add.rectangle(x + w / 2, y + h / 2, w, h).setStrokeStyle(4, 0x2a1a10).setDepth(depth + 0.01));
   }
   build(c) {
-    const s = this.scene, objs = [], crabs = [], G = s.levelGroundY(c.x0);
+    const s = this.scene, objs = [], crabs = [], monkeys = [], G = s.levelGroundY(c.x0);
     for (const g of c.ground || []) {
       const y = g.y ?? G;
       this.tileRect(g.x, y, g.w, BOTTOM - y, this.tiles(c, g.tiles), DEPTH.ground, objs, false);
@@ -120,10 +121,15 @@ export class ChunkManager {
     (c.enemies || []).forEach((e, i) => {
       const uid = `${c.id}-${i}`;
       if (s.defeated.has(uid)) return;
-      const crab = new Crab(s, { ...e, uid, y: (e.y ?? s.levelGroundY(e.x)) - 2 });
-      crabs.push(crab); this.crabs.push(crab);
+      if (e.type === "monkey") {
+        const mk = new Macaco(s, { ...e, uid, y: (e.y ?? s.levelGroundY(e.x)) - 2 });
+        monkeys.push(mk); this.monkeys.push(mk);
+      } else {
+        const crab = new Crab(s, { ...e, uid, y: (e.y ?? s.levelGroundY(e.x)) - 2 });
+        crabs.push(crab); this.crabs.push(crab);
+      }
     });
-    this.built.set(c.id, { objs, crabs });
+    this.built.set(c.id, { objs, crabs, monkeys });
   }
   updateMechanics(dt, sofia, timeSec, camMid) {
     const s = this.scene;
@@ -179,7 +185,9 @@ export class ChunkManager {
   unbuild(id) {
     const b = this.built.get(id); if (!b) return;
     for (const crab of b.crabs) { if (crab.alive) crab.sprite.destroy(); }
+    for (const mk of b.monkeys || []) mk.destroy();
     this.crabs = this.crabs.filter((cr) => !b.crabs.includes(cr));
+    this.monkeys = this.monkeys.filter((mk) => !(b.monkeys || []).includes(mk));
     this.checkpoints = this.checkpoints.filter((e) => e.chunk !== id);
     this.crumbles = this.crumbles.filter((cr) => cr.chunk !== id);
     this.trickles = this.trickles.filter((tr) => tr.chunk !== id);

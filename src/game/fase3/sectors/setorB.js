@@ -175,7 +175,7 @@ export const SETOR_B = {
         { kind: "moss_rock", x: 5900, y: G + 8 },
         { kind: "palm", x: 7020, y: G + 18, scale: 1.0, flip: true },
         { kind: "bush", x: 7260, y: G + 16, scale: 0.95 },
-        { kind: "sign_end", x: 7440, y: G + 6 },
+        { kind: "pebbles", x: 7460, y: G + 10, front: true },
       ],
       shells: [
         { id: "f3B-18", x: 6108, y: 680 },
@@ -188,7 +188,6 @@ export const SETOR_B = {
         { type: "crab", x: 7000, y: 900, minX: 6860, maxX: 7100 },
       ],
       checkpoints: [{ id: "B3", x: 7140 }],
-      triggers: [{ id: "fimB", x: 7480, y: 0, w: 200, h: 1080, event: "end" }],
       vistas: [{ x0: 7120, x1: 7680, zoom: 0.94 }],
     },
   ],
