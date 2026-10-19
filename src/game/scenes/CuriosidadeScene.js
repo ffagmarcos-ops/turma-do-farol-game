@@ -14,7 +14,7 @@ const ZONAS = [["Entrada", 420, 2000], ["Rua", 2000, 4200], ["Mercado", 4200, 64
 
 export class CuriosidadeScene extends Phaser.Scene {
   constructor() { super("curiosidade"); }
-  init(data) { this.cid = data?.id; this.item = CUR.itens.find((c) => c.id === this.cid) || CUR.itens[0]; }
+  init(data) { this.leaving = false; this.sx = null; this.cid = data?.id; this.item = CUR.itens.find((c) => c.id === this.cid) || CUR.itens[0]; }
   preload() {
     loadFase3(this);
     for (const [k, p] of Object.entries(CURIO)) if (!this.textures.exists(k)) this.load.image(k, "assets/farol/fase3/" + p);

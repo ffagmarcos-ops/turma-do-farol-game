@@ -57,7 +57,7 @@ export function loadFase3(scene) {
 
 export class PortaisScene extends Phaser.Scene {
   constructor() { super("portais"); }
-  init(data) { this.from = data?.at || null; this.fromMenu = Boolean(data?.list); } // list: aberto pelo menu principal, direto no modo lista
+  init(data) { this.leaving = false; this.from = data?.at || null; this.fromMenu = Boolean(data?.list); } // list: aberto pelo menu principal, direto no modo lista
   preload() { loadFase3(this); }
 
   create() {
