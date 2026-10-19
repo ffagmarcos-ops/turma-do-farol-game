@@ -1,0 +1,49 @@
+TURMA DO FAROL – O MISTÉRIO DA ILHA DO FAROL
+Fase 1: Vila das Conchas  ·  Fase 2: O Polvo Gigante  ·  Portais e Curiosidades  (versão 16 / APK 3.6)
+
+COMO ABRIR
+1. Extraia o zip inteiro numa pasta (não abra direto de dentro do zip).
+2. Windows: dê dois cliques em "jogar.bat". Vai abrir uma janela preta (é o servidor do jogo)
+   e o navegador abre sozinho em http://127.0.0.1:8765/
+   Se o Windows avisar "o Windows protegeu o computador", clique em "Mais informações" > "Executar assim mesmo".
+   Mac/Linux: dê dois cliques em "jogar.command" (ou rode no Terminal: ./jogar.command).
+3. Para sair, feche o navegador e a janela do servidor.
+Obs.: abrir o index.html direto com duplo clique NÃO funciona (o navegador bloqueia imagens e sons
+fora de um servidor). Use sempre o jogar.bat / jogar.command.
+Use Chrome ou Edge atualizados. Tela cheia: F11.
+
+CONTROLES
+  Setas ← → ou A / D ...... andar
+  Shift ................... correr
+  Espaço, ↑ ou W .......... pular (segure para pular mais alto)
+  ↓ ou S .................. agachar (passar por baixo da rede no cais)
+  E ou Enter .............. falar / continuar o diálogo
+  M ....................... liga/desliga o som
+  F ....................... mostra/esconde o contador de FPS
+  H ....................... mostra/esconde as hitboxes (debug)
+  Esc ou P ................ pausa (no celular, botão ⏸ no canto superior direito)
+  1 a 5 ................... atalhos de teste (Entrada, Júlia, Lucas, Bia, Seu Toninho)
+
+OBJETIVO
+Siga a Faísca até o Cais de Pesca, fale com a turma (Júlia, Lucas, Bia), descubra o artefato
+na rede, leve-o ao Seu Toninho no Grande Píer e suba no Esperança. Pegue as 20 conchas
+(a concha dourada fica escondida junto à barraca do Mercado). O jogo salva o progresso nos
+checkpoints. Na tela final, use "Jogar de novo" (Enter) ou "Menu" (Esc): os dois zeram o progresso.
+
+FASE 2 – O POLVO GIGANTE
+Na tela final da Fase 1, escolha "Continuar → Fase 2" (tecla C). Lucas está no Esperança,
+em plena tempestade, com o aparelho sônico. O Seu Toninho pilota da cabine; Marina, Júlia, Bia e
+o Faísca ajudam nas pontas do barco e gritam os avisos.
+  Setas ← → ou A / D ...... andar (Lucas anda sempre na velocidade cheia)
+  ↑, W ou K ............... pular (dá para subir no teto da cabine)
+  ↓ ou S .................. abaixar (na onda grande, abaixe perto do mastro)
+  J, Espaço, E ou clique .. SÔNICO: toque = tiro; segure ~1 s e solte = tiro carregado
+                            (a mira é automática; com o mouse, o clique mira onde você apontar)
+  Esc ou P ................ pausa (com a opção "Reduzir flashes"); L liga/desliga a redução de flashes
+Dicas: o "!" e a seta amarela mostram de que lado o tentáculo vai bater. Saia da faixa e acerte a
+ponta brilhante quando ele ficar apoiado no convés. Olhos brilhando = ponto fraco. Cuidado com o
+superaquecimento do aparelho. As vidas são infinitas: se a barra do Lucas zerar, ele cai, levanta
+com a vida cheia e continua. A luta salva o checkpoint a cada 25% da vida do polvo.
+No celular: direcional à esquerda; PULAR e SÔNICO à direita; ⏸ para pausar.
+
+CRÉDITOS DE SOM E PARTÍCULAS: veja LICENCAS.txt.

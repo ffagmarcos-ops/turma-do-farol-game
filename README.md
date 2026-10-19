@@ -1,5 +1,7 @@
 # Turma do Farol: Vila das Conchas
 
+> **Continuação do projeto:** leia o [GUIA_CONTINUIDADE.md](GUIA_CONTINUIDADE.md). As regras para agentes de IA estão em [AGENTS.md](AGENTS.md).
+
 Jogo 2D de plataforma e aventura (Phaser 3 + Vite), empacotado para Android com Capacitor e com uma versão para PC que roda no navegador.
 
 - **Fase 1: Vila das Conchas.** Marina explora a vila, coleta conchas, conversa com os moradores e vive páginas de HQ.
