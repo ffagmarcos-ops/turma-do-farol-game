@@ -189,7 +189,6 @@ export const SETOR_G = {
         { kind: "moss_rock", x: 5920, y: 380 + 8 },
         { kind: "vine", x: 6500, y: 320 },
         { kind: "tree", x: 7240, y: 620 + 20, scale: 1.05, flip: true },
-        { kind: "sign_end", x: 7440, y: 620 + 6 },
       ],
       shells: [
         { id: "f3G-16", x: 6256, y: 370 },
@@ -201,9 +200,6 @@ export const SETOR_G = {
       ],
       enemies: [
         { type: "monkey", x: 7228, y: 470, minX: 7120, maxX: 7330 },
-      ],
-      triggers: [
-        { id: "fimG", x: 7480, y: 0, w: 200, h: 1080, event: "end" },
       ],
       checkpoints: [{ id: "G3", x: 5860 }],
       vistas: [{ x0: 5760, x1: 7100, zoom: 0.94 }],

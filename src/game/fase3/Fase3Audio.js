@@ -85,4 +85,12 @@ export class Fase3Audio {
     this.tone(130, 52, 0.18, 0.24, "triangle", 0, 520);
     this.tone(95, 42, 0.22, 0.18, "sawtooth", 0.02, 420);
   }
+  /** Bip de foco e clique/flash da câmera fotográfica da Júlia (Setor H) */
+  cameraBeep() {
+    this.tone(1180, 1320, 0.06, 0.11, "sine", 0, 2600);
+  }
+  cameraShutter() {
+    this.tone(1600, 420, 0.045, 0.18, "square", 0, 3200);
+    this.tone(920, 1840, 0.14, 0.16, "triangle", 0.03, 2800);
+  }
 }

@@ -39,8 +39,8 @@ A Fase 3 é um side-scroller longo e contínuo. O mapa parece uma única panorâ
 | E | Mata Densa | combate + plataforma | 4 min | ✅ **concluído e testado** (Passo 5, arte provisória) |
 | F | Marina | plataforma móvel (caixa) | 3 min | ✅ **concluído e testado** (Passo 6, arte provisória) |
 | G | Desfiladeiro | verticalidade | 5 min | ✅ **concluído e testado** (Passo 7, arte provisória) |
-| H | Júlia | flashes e macacos | 4 min | ⏭️ **próximo passo (Passo 8)** |
-| I | Riacho / Lucas | plataformas na água | 4 min | planejado |
+| H | Júlia | flashes e macacos | 4 min | ✅ **concluído e testado** (Passo 8, arte provisória) |
+| I | Riacho / Lucas | plataformas na água | 4 min | ⏭️ **próximo passo (Passo 9)** |
 | J | Cachoeira | exploração | 4 min | planejado |
 | K | Gruta Secreta | opcional | 2–4 min | planejado |
 | L | Bia | rota secreta | 3 min | planejado |
@@ -93,12 +93,19 @@ A Fase 3 é um side-scroller longo e contínuo. O mapa parece uma única panorâ
 - **Área secreta (`pedra-marina` em `F1`):** esconderijo sob o rochedo farejado pelo Faísca (`sniffX`), revelando a concha dourada `f3F-G1` + 21 conchas normais no setor.
 
 ### Passo 7 (Setor G — Desfiladeiro): concluído ✅
-- 7.680 px adicionais em 4 chunks (`G0`–`G3`, mapa total atual: 53.760 px) e 4 checkpoints (`G0`–`G3`).
+- 7.680 px adicionais em 4 chunks (`G0`–`G3`, 53.760 px acumulados) e 4 checkpoints (`G0`–`G3`).
 - Transição contínua `F3` → `G0` para o Desfiladeiro, com camada de parallax de pilares rochosos altos e vista aberta do oceano ao fundo (`G3`: `gorgeLayer` + `vistas` com zoom `0,94`).
 - **Área vertical grande (`y = 900` até `y = 380`):** subida e descida em várias alturas combinando cipós (`ropes`), lajes que desmoronam (`crumble`), plataforma móvel vertical (`moveY`) e **plataformas suspensas que balançam** (`sway: true` em `ChunkManager.js`, penduradas por cipós/cordas com movimento de pêndulo). Sem inimigos nas plataformas mais estreitas.
 - **Rota alternativa do Faísca (`faiscaDetour` em `Faisca.js`):** enquanto a Sofia atravessa os trechos suspensos e escala o desfiladeiro (`detourG0` e `detourG2`), o Faísca percorre a trilha inferior/lateral e reaparece alegremente nos platôs superiores (`reunionX`, `reunionY`) para reencontrá-la.
 - **Área secreta (`fenda-desfiladeiro` em `G1`):** esconderijo no fundo do desfiladeiro farejado pelo Faísca (`sniffX`), com a concha dourada `f3G-G1` + 21 conchas normais no setor.
-- Placa `"Continua…"` posicionada no fim do Setor G (`G3`).
+
+### Passo 8 (Setor H — Júlia e o flash): concluído ✅
+- 7.680 px adicionais em 4 chunks (`H0`–`H3`, mapa total atual: 61.440 px) e 4 checkpoints (`H0`–`H3`).
+- Transição contínua `G3` → `H0` do Desfiladeiro para a Clareira da Júlia, com 13 macacos nos galhos altos e copas.
+- **Júlia e o flash fotográfico (`src/game/fase3/JuliaHelper.js`):** posicionada em plataformas laterais elevadas (`helpZoneJulia`: `juliaH0`–`juliaH3`), a Júlia tira fotos em intervalo regular (`~3,1 s`, estados `idle` → `aimCamera` → `snap` → `cheer`). Cada flash produz um clarão rápido na área, dissipa pedras de macacos em pleno ar na zona e deixa os macacos próximos tontos (`stun`) por `~2,2 s`, abrindo janelas seguras para a Sofia atravessar.
+- **Arte da Júlia (`Fase3Placeholders.js`):** reutiliza os quadros oficiais de `julia_sheet_1536.png` compondo os estados `idle`, `aimCamera` (luzinha vermelha de foco), `snap` (clarão na lente) e `cheer`.
+- **Área secreta (`moita-julia` em `H1`):** esconderijo sob a moita densa e tronco caído farejado pelo Faísca (`sniffX`), com a concha dourada `f3H-G1` + 21 conchas normais no setor.
+- Placa `"Continua…"` posicionada no fim do Setor H (`H3`).
 
 ## Arquitetura (código em `src/game/fase3/` + `src/game/scenes/Fase3Scene.js`)
 
@@ -115,17 +122,19 @@ A Fase 3 é um side-scroller longo e contínuo. O mapa parece uma única panorâ
 | `fase3/sectors/setorE.js` | **Dados** do Setor E (Floresta Densa): troncos ocos, cipós, plataformas móveis verticais/horizontais, macacos em cima e caranguejos embaixo, clareira segura e segredo `tronco-secreto-e`. |
 | `fase3/sectors/setorF.js` | **Dados** do Setor F (Clareira da Marina): paredões altos, zonas `helpZoneMarina`, caixas que viram degrau e segredo `pedra-marina`. |
 | `fase3/sectors/setorG.js` | **Dados** do Setor G (Desfiladeiro): área vertical (`y=900..380`), plataformas que balançam (`sway`), cipós, lajes instáveis, rota alternativa do Faísca (`faiscaDetour`) e segredo `fenda-desfiladeiro`. |
+| `fase3/sectors/setorH.js` | **Dados** do Setor H (Clareira da Júlia): sequência de macacos nos galhos altos, zonas `helpZoneJulia` com flashes periódicos e segredo `moita-julia`. |
 | `fase3/sectors/index.js` | Lista A–O e `assembleLevel()`, que encaixa os setores em sequência (soma o x de cada um). |
-| `fase3/ChunkManager.js` | Monta e desmonta chunks perto e longe da câmera. Camadas: colisão (`solids`, `oneway`), plataformas móveis e que balançam (`movers`, `sway`), plataformas instáveis (`crumbles`), rochas molhadas (`trickles`), ondas (`waveHits`), cordas (`toninhos`, `ropes`), caixas da Marina (`marinas`), interação, inimigos (`crabs`, `monkeys`), segredo e decor. |
+| `fase3/ChunkManager.js` | Monta e desmonta chunks perto e longe da câmera. Camadas: colisão (`solids`, `oneway`), plataformas móveis e que balançam (`movers`, `sway`), plataformas instáveis (`crumbles`), rochas molhadas (`trickles`), ondas (`waveHits`), cordas (`toninhos`, `ropes`), caixas da Marina (`marinas`), flashes da Júlia (`julias`), interação, inimigos (`crabs`, `monkeys`), segredo e decor. |
 | `fase3/Backdrop.js` | Parallax de 7 camadas com crossfade por setor, água animada (3 faixas de crista, brilho especular, ondas na areia, espuma), gaivotas e poeira. Também tem a **câmera** (`Fase3Camera`). |
 | `fase3/Sofia.js` | Física da Sofia: aceleração, coyote time de 120 ms, jump buffer de 120 ms, pulo variável, correr, agachar (com teto), escalar/balançar na corda (`climb_idle`, `climb`) e dano com recuo. |
 | `fase3/Faisca.js` | IA do Faísca: segue, para, pula obstáculos e vãos, sobe em plataformas, percorre rota alternativa no desfiladeiro (`detour`), rosna para inimigos, fareja segredos e reaparece atrás da Sofia quando se perde. Não colide com ela. |
 | `fase3/ToninhoHelper.js` | Seu Toninho (`idle`, `wave`, `throwRope`, `thumbsUp`) e corda náutica (`NauticalRope`) com física de pêndulo e nós. |
 | `fase3/MarinaHelper.js` | Marina (`idle`, `notice`, `push`, `cheer`) e caixa de madeira (`128×128`) que ela empurra até formar degrau para a Sofia subir. |
+| `fase3/JuliaHelper.js` | Júlia (`idle`, `aimCamera`, `snap`, `cheer`): tira fotos periódicas em `helpZoneJulia`, produzindo clarão que atordoa os macacos da área por ~2,2 s e dissipa pedras no ar. |
 | `fase3/Crab.js` | Caranguejo: patrulha → "!" → garras para cima → avanço → recupera. Tem 2 vidas; a derrota é em estilo cartoon. |
 | `fase3/Macaco.js` | Macaco: fica em galho alto (`idle` → `watch` → `pick` → `aim` → `throw` → `laugh`), marca sombra no chão e lança pedra em arco. Tem 2 vidas (`hurt` → `stun` → `defeat`). |
 | `fase3/Fase3Input.js` | Teclado, gamepad e toque. Inclui o texto das dicas por controle. |
-| `fase3/Fase3Audio.js` | Latido, carga, arremesso, golpe, pedra rachando/desmoronando, macaco, corda/Seu Toninho e caixa/Marina sintetizados, pelo barramento de EFEITOS. |
+| `fase3/Fase3Audio.js` | Latido, carga, arremesso, golpe, pedra rachando/desmoronando, macaco, corda/Seu Toninho, caixa/Marina e câmera/Júlia sintetizados, pelo barramento de EFEITOS. |
 
 ### Resolução
 O jogo inteiro já roda em 1920×1080 lógico (Phaser `Scale.FIT`), então a Fase 3 usa a mesma configuração, sem escala própria. O "zoom de vista" é um zoom suave da câmera para 0,94 nos trechos marcados em `vistas`.
@@ -133,7 +142,7 @@ O jogo inteiro já roda em 1920×1080 lógico (Phaser `Scale.FIT`), então a Fas
 ### Formato do chunk
 Cada chunk é um objeto dentro de `chunks: [...]` do setor. As coordenadas são **locais do setor**, com x começando em 0, e todos os campos são opcionais:
 ```js
-{ id: "G0", x0: 0, x1: 1920,
+{ id: "H0", x0: 0, x1: 1920,
   ground:     [{ x, w, y?, tiles: "sand" | "rock" }],      // chão sólido até o fundo
   blocks:     [{ x, y, w, h, tiles: "rock", wet? }],       // bloco sólido (wet = água escorrendo)
   platforms:  [{ x, y, w, kind: "log" | "ledge" | "crumble", crumble?, moveX?, moveY?, sway?, speed? }],
@@ -141,12 +150,12 @@ Cada chunk é um objeto dentro de `chunks: [...]` do setor. As coordenadas são 
   water:      [{ x, w, y, respawn: { x, y } }],             // cair = volta ao respawn
   waveHits:   [{ x, y, phase? }],                           // onda batendo na pedra (espuma)
   decor:      [{ kind, x, y, scale?, flip?, front? }],      // props do tileset, sem colisão
-  shells:     [{ id: "f3G-01", x, y, gold? }],              // id ÚNICO (vai para a carteira)
+  shells:     [{ id: "f3H-01", x, y, gold? }],              // id ÚNICO (vai para a carteira)
   enemies:    [{ type: "crab" | "monkey", x, y?, minX, maxX }],
-  checkpoints:[{ id: "G0", x }],
+  checkpoints:[{ id: "H0", x }],
   hints:      [{ id, x, text: "{jump} para pular" }],       // tokens: {move} {up} {run} {jump} {attack} {special} {down}
   secrets:    [{ id, sniffX, zone: {x,y,w,h}, cover: {x,y,w,h} }],
-  triggers:   [{ id, x, y, w, h, event: "end" | "helpZoneToninho" | "helpZoneMarina" | "faiscaDetour" }],
+  triggers:   [{ id, x, y, w, h, event: "end" | "helpZoneToninho" | "helpZoneMarina" | "helpZoneJulia" | "faiscaDetour" }],
   vistas:     [{ x0, x1, zoom: 0.94 }] }
 ```
 
@@ -156,11 +165,12 @@ Cada chunk é um objeto dentro de `chunks: [...]` do setor. As coordenadas são 
 - Se a grade for outra, ajuste `frameWidth`, `frameHeight`, `anims` e `body` em `Fase3Assets.js`. Nada mais muda.
 
 ### Save
-- `farol-fase3` (localStorage) guarda `{ cp, setorA, setorB, setorC, setorD, setorE, setorF, setorG }`: o último checkpoint e os setores concluídos.
-- As conchas usam a carteira normal (`farol-conchas-v2`), com ids `f3A-..` a `f3G-..`.
+- `farol-fase3` (localStorage) guarda `{ cp, setorA, setorB, setorC, setorD, setorE, setorF, setorG, setorH }`: o último checkpoint e os setores concluídos.
+- As conchas usam a carteira normal (`farol-conchas-v2`), com ids `f3A-..` a `f3H-..`.
 - O `resetAll()` da carteira ainda **não** apaga o `farol-fase3`. Para zerar, apague essa chave no DevTools ou use `?fase3=novo`.
 
-## Próximo marco: Passo 8 — Setor H (Júlia e o flash)
-- Vários macacos; Júlia numa plataforma lateral tira fotos em intervalo regular; cada flash dá um clarão rápido e deixa os macacos tontos por ~2 s.
-- A travessia é feita aproveitando as janelas do flash.
-- A placa `"Continua…"` sai do fim do G e vai para o fim do H.
+## Próximo marco: Passo 9 — Setor I (Riacho e o aparelho do Lucas)
+- Riacho largo com correnteza; cair na água volta para a margem.
+- Lucas na margem segura o aparelho e aponta para a água (`idle`, `operateGadget`, `activate`, `celebrate`).
+- Em `helpZoneLucas`, o aparelho ativa boias/plataformas flutuantes em sequência; algumas afundam um pouco com o peso e voltam.
+- A placa `"Continua…"` sai do fim do H e vai para o fim do I.

@@ -608,6 +608,50 @@ function drawMarina(ctx, i, fw, fh, scene) {
   }
 }
 
+/* ---------------- JÚLIA (usa o sheet oficial da Fase 1 + câmera fotográfica e flash) ---------------- */
+function drawJulia(ctx, i, fw, fh, scene) {
+  // i: 0-1 idle, 2-3 aimCamera, 4-5 snap (flash!), 6-7 cheer
+  const srcFrames = [0, 1, 40, 41, 41, 40, 24, 41];
+  const sf = srcFrames[i] ?? 0;
+  if (scene?.textures?.exists("julia")) {
+    const img = scene.textures.get("julia").getSourceImage();
+    if (img) {
+      const sx = (sf % 8) * 192, sy = Math.floor(sf / 8) * 256;
+      ctx.drawImage(img, sx, sy, 192, 256, 0, 0, fw, fh);
+    }
+  } else {
+    // fallback Canvas 2D caso a textura "julia" não esteja carregada
+    ctx.beginPath(); ctx.roundRect(74, 120, 44, 84, 14); blob(ctx, "#8c4a9e");
+    ctx.beginPath(); ctx.arc(96, 88, 23, 0, Math.PI * 2); blob(ctx, "#d89c6c");
+    ctx.beginPath(); ctx.arc(96, 80, 25, Math.PI, 0); blob(ctx, "#2e1c14");
+  }
+  // câmera fotográfica nas mãos (mais alta ao mirar/disparar nos quadros 2..5)
+  const aiming = i >= 2 && i <= 5;
+  const cx = aiming ? 124 : 114, cy = aiming ? 112 : 144;
+  ctx.beginPath(); ctx.roundRect(cx - 14, cy - 10, 28, 20, 4); blob(ctx, "#3d4652", OL, 3);
+  ctx.beginPath(); ctx.roundRect(cx - 6, cy - 15, 12, 6, 2); blob(ctx, "#5c6775", OL, 2.5);
+  ctx.beginPath(); ctx.arc(cx + 4, cy, 7, 0, Math.PI * 2); blob(ctx, "#8be9fd", OL, 2.5);
+  // luz de foco (quadros 2-3) ou clarão de flash (quadros 4-5)
+  if (i === 2 || i === 3) {
+    ctx.beginPath(); ctx.arc(cx + 12, cy - 6, 4 + (i % 2) * 2, 0, Math.PI * 2);
+    ctx.fillStyle = "#ff6b6b"; ctx.fill();
+  } else if (i === 4 || i === 5) {
+    const fx = cx + 14, fy = cy - 2, rOut = i === 4 ? 28 : 20;
+    ctx.save();
+    ctx.translate(fx, fy);
+    ctx.beginPath();
+    for (let k = 0; k < 16; k++) {
+      const a = (k * Math.PI) / 8, r = k % 2 ? rOut * 0.42 : rOut;
+      if (k === 0) ctx.moveTo(Math.cos(a) * r, Math.sin(a) * r);
+      else ctx.lineTo(Math.cos(a) * r, Math.sin(a) * r);
+    }
+    ctx.closePath();
+    ctx.fillStyle = "#fffbe0"; ctx.fill();
+    ctx.strokeStyle = "#ffd166"; ctx.lineWidth = 2.5; ctx.stroke();
+    ctx.restore();
+  }
+}
+
 function denseForestLayer(ctx, w, h) {
   // fileira de árvores mais escuras ao fundo + cipós pendurados das copas + árvores em primeiro plano
   for (const [x, sc] of [[90, 1.05], [410, 1.16], [760, 1.02], [1120, 1.18], [1490, 1.06], [1840, 1.14]]) {
@@ -680,6 +724,8 @@ export const PLACEHOLDER = {
     F_log: branchTile,
     G_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), G_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
     G_log: branchTile,
+    H_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), H_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
+    H_log: branchTile,
     log: logTile, ledge: ledgeTile, crumble: crumbleTile,
   },
   prop: {
@@ -741,6 +787,6 @@ export const PLACEHOLDER = {
       c.strokeStyle = OL; c.lineWidth = 4; c.strokeRect(16, 16, w - 32, h - 32);
     },
   },
-  sheet: { f3_sofia: drawSofia, f3_toninho: drawToninho, f3_marina: drawMarina, f3_caranguejo: drawCrab, f3_macaco: drawMonkey, f3_checkpoint: drawCheckpoint },
-  sheetCount: { f3_sofia: SOFIA_POSES.length, f3_toninho: 8, f3_marina: 10, f3_caranguejo: 9, f3_macaco: 15, f3_checkpoint: 3 },
+  sheet: { f3_sofia: drawSofia, f3_toninho: drawToninho, f3_marina: drawMarina, f3_julia: drawJulia, f3_caranguejo: drawCrab, f3_macaco: drawMonkey, f3_checkpoint: drawCheckpoint },
+  sheetCount: { f3_sofia: SOFIA_POSES.length, f3_toninho: 8, f3_marina: 10, f3_julia: 8, f3_caranguejo: 9, f3_macaco: 15, f3_checkpoint: 3 },
 };
