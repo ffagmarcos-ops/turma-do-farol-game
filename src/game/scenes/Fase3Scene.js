@@ -38,7 +38,7 @@ export class Fase3Scene extends Phaser.Scene {
   }
 
   preload() {
-    const n = preloadFase3(this, ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"]);
+    const n = preloadFase3(this, ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]);
     if (n > 0) {
       const t = this.add.text(W / 2, H / 2, "Carregando a ilha… 0%", { fontFamily: BTN_FONT, fontSize: "48px", color: "#fff3d6", stroke: "#4a2a14", strokeThickness: 10 }).setOrigin(0.5);
       this.load.on("progress", (v) => t.setText(`Carregando a ilha… ${Math.round(v * 100)}%`));
@@ -58,12 +58,13 @@ export class Fase3Scene extends Phaser.Scene {
     this.sfx = new Fase3Audio(this.audio);
     this.input3 = new Fase3Input();
 
-    this.art = buildFase3Art(this, ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"]);
+    this.art = buildFase3Art(this, ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]);
     this.level = assembleLevel();
     const wallet = readWallet();
     this.collected = new Set(wallet.run.ids.filter((id) => id.startsWith("f3")));
     this.defeated = new Set(); this.cpReached = new Set(); this.foundSecrets = new Set(); this.shownHints = new Set();
     this.toninhoTriggered = new Set(); this.marinaTriggered = new Set(); this.lucasTriggered = new Set();
+    this.biaTriggered = new Set();
     this.foundOrbs = new Set();
     this.allCheckpoints = this.level.chunks.flatMap((c) => c.checkpoints || []);
     this.allHints = this.level.chunks.flatMap((c) => c.hints || []);
@@ -87,7 +88,7 @@ export class Fase3Scene extends Phaser.Scene {
     this.crabGroup = this.physics.add.group();
     this.monkeyGroup = this.physics.add.group();
     this.monkeyRocks = this.physics.add.group();
-    this.backdrop = new Backdrop(this, ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"], this.art, this.level.sectors);
+    this.backdrop = new Backdrop(this, ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"], this.art, this.level.sectors);
     this.chunks = new ChunkManager(this, this.level);
 
     const gy = this.levelGroundY(cp.x);
@@ -542,13 +543,16 @@ export class Fase3Scene extends Phaser.Scene {
   onLucasTriggered(id) {
     this.lucasTriggered.add(id);
   }
+  onBiaTriggered(id) {
+    this.biaTriggered.add(id);
+  }
 
-  /* ------------------------------ fim do trecho atual (Setor I) ------------------------------ */
+  /* ------------------------------ fim do trecho atual (Setor L) ------------------------------ */
   endSector() {
     if (this.ended) return;
     this.ended = true; this.cancelCharge(); clearInput();
     this.sofia.cheering = true; this.sofia.locked = true;
-    saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true, setorF: true, setorG: true, setorH: true, setorI: true, setorJ: true, setorK: true });
+    saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true, setorF: true, setorG: true, setorH: true, setorI: true, setorJ: true, setorK: true, setorL: true });
     markSeen("fase3-setorA");
     markSeen("fase3-setorB");
     markSeen("fase3-setorC");
@@ -560,6 +564,7 @@ export class Fase3Scene extends Phaser.Scene {
     markSeen("fase3-setorI");
     markSeen("fase3-setorJ");
     markSeen("fase3-setorK");
+    markSeen("fase3-setorL");
     this.audio.synth?.("gold3");
     const d = 200, objs = [];
     objs.push(this.add.rectangle(W / 2, H / 2, W + 400, H + 400, 0x02060c, 0.55).setScrollFactor(0).setDepth(d));
@@ -568,7 +573,7 @@ export class Fase3Scene extends Phaser.Scene {
       objs.push(this.add.image(W / 2, H / 2, "carta_moldura").setDisplaySize(1100, 690).setScrollFactor(0).setDepth(d + 1));
     } else objs.push(this.add.rectangle(W / 2, H / 2, 1000, 560, 0xf1e2bf).setStrokeStyle(8, 0x6b4a26).setScrollFactor(0).setDepth(d + 1));
     objs.push(this.add.text(W / 2, H / 2 - 150, "Continua…", { fontFamily: BTN_FONT, fontSize: "72px", color: "#fff3d6", stroke: "#4a2a14", strokeThickness: 12 }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
-    objs.push(this.add.text(W / 2, H / 2 - 40, "Você explorou a Cachoeira e a Gruta Secreta!\nA Bia e a rota das Copas Altas vêm no próximo passo.", { fontFamily: "Georgia, serif", fontSize: "32px", color: "#3a2412", align: "center" }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
+    objs.push(this.add.text(W / 2, H / 2 - 40, "Você explorou o Caminho Escondido com a Bia!\nAs Copas Altas e o dossel da floresta vêm no próximo passo.", { fontFamily: "Georgia, serif", fontSize: "32px", color: "#3a2412", align: "center" }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
     const close = () => { objs.forEach((o) => o.destroy()); this.ended = false; this.sofia.cheering = false; this.sofia.locked = false; this.sofia.body.setVelocityX(-200); this.sofia.sprite.x -= 260; this.sofia.body.reset(this.sofia.sprite.x, this.sofia.sprite.y); };
     objs.push(...makeButton(this, W / 2 - 230, H / 2 + 120, "EXPLORAR MAIS", close, { w: 420, h: 84, depth: d + 2, scrollFactor: 0, fontSize: 28, kind: "continuar" }).objs);
     objs.push(...makeButton(this, W / 2 + 230, H / 2 + 120, "MENU PRINCIPAL", () => this.toMenu(), { w: 420, h: 84, depth: d + 2, scrollFactor: 0, fontSize: 28, kind: "menu" }).objs);
@@ -696,6 +701,7 @@ export class Fase3Scene extends Phaser.Scene {
       if (this.curSectorId === "H" && sec.id === "I") saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true, setorF: true, setorG: true, setorH: true });
       if (this.curSectorId === "I" && sec.id === "J") saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true, setorF: true, setorG: true, setorH: true, setorI: true });
       if (this.curSectorId === "J" && sec.id === "K") saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true, setorF: true, setorG: true, setorH: true, setorI: true, setorJ: true });
+      if (this.curSectorId === "K" && sec.id === "L") saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true, setorF: true, setorG: true, setorH: true, setorI: true, setorJ: true, setorK: true });
       this.curSectorId = sec.id;
       this.toast(sec.name, 190, "#F3D48A");
     }
@@ -703,8 +709,8 @@ export class Fase3Scene extends Phaser.Scene {
     this.backdrop.update(dt, cam, { from: secA.x0, to: secA.x1, y: secA.groundY });
     this.updateHud();
 
-    // ambiente da praia / costão / floresta / cachoeira / gruta secreta
-    const inForest = this.curSectorId === "C" || this.curSectorId === "D" || this.curSectorId === "E" || this.curSectorId === "F" || this.curSectorId === "H" || this.curSectorId === "I" || this.curSectorId === "J";
+    // ambiente da praia / costão / floresta / cachoeira / gruta secreta / caminho da bia
+    const inForest = this.curSectorId === "C" || this.curSectorId === "D" || this.curSectorId === "E" || this.curSectorId === "F" || this.curSectorId === "H" || this.curSectorId === "I" || this.curSectorId === "J" || this.curSectorId === "L";
     const inCave = this.curSectorId === "K";
     if ((this.ambT -= dt) <= 0) {
       if (inCave) {

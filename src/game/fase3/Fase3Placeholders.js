@@ -694,6 +694,46 @@ function drawLucas(ctx, i, fw, fh, scene) {
   }
 }
 
+/* ---------------- BIA (usa o sheet oficial da Fase 1 + lupa/marcas nas pedras e gesto de apontar) ---------------- */
+function drawBia(ctx, i, fw, fh, scene) {
+  // i: 0-1 idle, 2-3 inspect (examinando pedras), 4-5 point (apontando caminho no alto), 6-7 cheer
+  const srcFrames = [0, 1, 40, 41, 40, 41, 24, 25];
+  const sf = srcFrames[i] ?? 0;
+  if (scene?.textures?.exists("bia")) {
+    const img = scene.textures.get("bia").getSourceImage();
+    if (img) {
+      const sx = (sf % 8) * 192, sy = Math.floor(sf / 8) * 256;
+      ctx.drawImage(img, sx, sy, 192, 256, 0, 0, fw, fh);
+    }
+  } else {
+    ctx.beginPath(); ctx.roundRect(74, 120, 44, 84, 14); blob(ctx, "#f2c94c");
+    ctx.beginPath(); ctx.arc(96, 88, 23, 0, Math.PI * 2); blob(ctx, "#e8b088");
+    ctx.beginPath(); ctx.arc(96, 78, 25, Math.PI, 0); blob(ctx, "#7d4f27");
+  }
+  if (i === 2 || i === 3) {
+    const lx = 126, ly = 138;
+    ctx.beginPath(); ctx.arc(lx, ly, 14, 0, Math.PI * 2);
+    ctx.strokeStyle = OL; ctx.lineWidth = 4; ctx.stroke();
+    ctx.fillStyle = "rgba(180, 240, 255, 0.45)"; ctx.fill();
+    ctx.beginPath(); ctx.moveTo(lx + 10, ly + 10); ctx.lineTo(lx + 22, ly + 22);
+    ctx.strokeStyle = OL; ctx.lineWidth = 5; ctx.stroke();
+  }
+  if (i === 4 || i === 5) {
+    const px = 144, py = 76;
+    ctx.strokeStyle = "#ffe08a"; ctx.lineWidth = 3.5;
+    for (let k = 0; k < 4; k++) {
+      const a = (k * Math.PI) / 2;
+      ctx.beginPath(); ctx.moveTo(px + Math.cos(a) * 8, py + Math.sin(a) * 8);
+      ctx.lineTo(px + Math.cos(a) * 20, py + Math.sin(a) * 20); ctx.stroke();
+    }
+    ctx.beginPath(); ctx.arc(px, py, 6, 0, Math.PI * 2); blob(ctx, "#fff3a0", OL, 2.5);
+  }
+  if (i === 6 || i === 7) {
+    const bx = 136, by = i === 6 ? 84 : 80;
+    ctx.beginPath(); ctx.arc(bx, by, 16, 0, Math.PI * 2); blob(ctx, "#ffe08a", OL, 3);
+  }
+}
+
 function denseForestLayer(ctx, w, h) {
   // fileira de árvores mais escuras ao fundo + cipós pendurados das copas + árvores em primeiro plano
   for (const [x, sc] of [[90, 1.05], [410, 1.16], [760, 1.02], [1120, 1.18], [1490, 1.06], [1840, 1.14]]) {
@@ -1063,9 +1103,75 @@ function energyOrb(ctx, w, h) {
   ctx.beginPath(); ctx.ellipse(cx, cy, 28, 12, 0.7, 0, Math.PI * 2); ctx.stroke();
 }
 
+function canopyLayer(ctx, w, h) {
+  for (const [x, sc] of [[120, 1.2], [540, 1.35], [980, 1.18], [1420, 1.38], [1860, 1.22]]) {
+    for (const dx of [0, -w, w]) {
+      const cx = x + dx;
+      ctx.beginPath();
+      ctx.moveTo(cx - 70 * sc, h);
+      ctx.quadraticCurveTo(cx - 38 * sc, h * 0.5, cx - 34 * sc, 0);
+      ctx.lineTo(cx + 34 * sc, 0);
+      ctx.quadraticCurveTo(cx + 38 * sc, h * 0.5, cx + 70 * sc, h);
+      ctx.closePath();
+      blob(ctx, "#4d3420", OL, 4);
+      ctx.strokeStyle = "#2f6b3a"; ctx.lineWidth = 8;
+      ctx.beginPath();
+      ctx.moveTo(cx - 30, 20); ctx.lineTo(cx + 24, h * 0.35); ctx.lineTo(cx - 20, h * 0.7); ctx.stroke();
+    }
+  }
+  for (const [x, rad] of [[240, 220], [700, 260], [1160, 240], [1620, 270]]) {
+    for (const dx of [0, -w, w]) {
+      ctx.beginPath();
+      ctx.ellipse(x + dx, 90, rad, 130, 0, 0, Math.PI * 2);
+      blob(ctx, "#265d35", OL, 4);
+      ctx.beginPath();
+      ctx.ellipse(x + dx - 20, 80, rad * 0.75, 95, 0, 0, Math.PI * 2);
+      ctx.fillStyle = "#3e8c4f"; ctx.fill();
+    }
+  }
+}
+
+function ancientRuneStone(ctx, w, h) {
+  ctx.beginPath();
+  ctx.moveTo(w * 0.2, h);
+  ctx.lineTo(w * 0.16, h * 0.24);
+  ctx.quadraticCurveTo(w * 0.22, 16, w * 0.5, 12);
+  ctx.quadraticCurveTo(w * 0.78, 16, w * 0.84, h * 0.24);
+  ctx.lineTo(w * 0.8, h);
+  ctx.closePath();
+  blob(ctx, "#697279", OL, 4);
+
+  ctx.beginPath();
+  ctx.moveTo(w * 0.22, h * 0.28);
+  ctx.lineTo(w * 0.48, 18);
+  ctx.lineTo(w * 0.52, h - 10);
+  ctx.lineTo(w * 0.24, h - 10);
+  ctx.closePath();
+  ctx.fillStyle = "rgba(160, 180, 195, 0.35)"; ctx.fill();
+
+  const cx = w * 0.5, cy = h * 0.44;
+  ctx.strokeStyle = "#38434a"; ctx.lineWidth = 4; ctx.lineCap = "round";
+  ctx.beginPath();
+  for (let a = 0; a < Math.PI * 3.5; a += 0.25) {
+    const r = 4 + a * 5;
+    const px = cx + Math.cos(a) * r, py = cy + Math.sin(a) * r;
+    if (a === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+  }
+  ctx.stroke();
+
+  ctx.strokeStyle = "rgba(255, 224, 138, 0.5)"; ctx.lineWidth = 2; ctx.stroke();
+
+  for (const dx of [-28, 0, 28]) {
+    ctx.beginPath(); ctx.arc(cx + dx, cy + 54, 5, 0, Math.PI * 2);
+    blob(ctx, "#445058", OL, 2);
+    ctx.beginPath(); ctx.arc(cx + dx, cy + 54, 2, 0, Math.PI * 2);
+    ctx.fillStyle = "#ffe08a"; ctx.fill();
+  }
+}
+
 /** Desenha o provisório de uma camada/tile/prop/efeito pelo "kind". */
 export const PLACEHOLDER = {
-  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer, E3: denseForestLayer, G3: gorgeLayer, J3: waterfallLayer, K0: caveSkyLayer, K1: caveRoofLayer, K2: caveWaterLayer, K3: caveWallLayer, K5: caveStalagmitesLayer },
+  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer, E3: denseForestLayer, G3: gorgeLayer, J3: waterfallLayer, K0: caveSkyLayer, K1: caveRoofLayer, K2: caveWaterLayer, K3: caveWallLayer, K5: caveStalagmitesLayer, L3: canopyLayer },
   tile: {
     sand_top: (c, w, h) => sandTile(c, w, h, true), sand_fill: (c, w, h) => sandTile(c, w, h, false),
     rock_top: (c, w, h) => rockTile(c, w, h, true), rock_fill: (c, w, h) => rockTile(c, w, h, false),
@@ -1091,6 +1197,9 @@ export const PLACEHOLDER = {
     K_sand_top: (c, w, h) => caveCrystalStoneTile(c, w, h, true), K_sand_fill: (c, w, h) => caveCrystalStoneTile(c, w, h, false),
     K_rock_top: (c, w, h) => caveCrystalStoneTile(c, w, h, true), K_rock_fill: (c, w, h) => caveCrystalStoneTile(c, w, h, false),
     K_ledge: caveCrystalLedge, K_log: caveCrystalLedge,
+    L_sand_top: (c, w, h) => forestGrassTile(c, w, h, true), L_sand_fill: (c, w, h) => forestGrassTile(c, w, h, false),
+    L_rock_top: (c, w, h) => rockTile(c, w, h, true), L_rock_fill: (c, w, h) => rockTile(c, w, h, false),
+    L_log: branchTile, L_ledge: ledgeTile,
     log: logTile, ledge: ledgeTile, crumble: crumbleTile,
   },
   prop: {
@@ -1135,6 +1244,7 @@ export const PLACEHOLDER = {
     starfish: (c, w, h) => { c.beginPath(); for (let k = 0; k < 10; k++) { const a = -Math.PI / 2 + k * Math.PI / 5, r = k % 2 ? 11 : 28; c.lineTo(w / 2 + Math.cos(a) * r, h / 2 + Math.sin(a) * r); } c.closePath(); blob(c, "#f08a4b", OL, 3); },
     pebbles: (c, w, h) => { const r = rng(9); for (let k = 0; k < 6; k++) { c.beginPath(); c.ellipse(20 + r() * (w - 40), h - 18 - r() * 16, 14 + r() * 14, 9 + r() * 7, 0, 0, Math.PI * 2); blob(c, k % 2 ? "#a39b8e" : "#8d857a", OL, 3); } },
     crystal: crystalCluster,
+    ancient_rune_stone: ancientRuneStone,
     sign_end: (c, w, h) => { c.beginPath(); c.roundRect(w / 2 - 9, 70, 18, h - 70, 4); blob(c, "#8a5a2e"); c.beginPath(); c.moveTo(20, 30); c.lineTo(w - 50, 30); c.lineTo(w - 10, 70); c.lineTo(w - 50, 110); c.lineTo(20, 110); c.closePath(); blob(c, "#c08a52"); c.fillStyle = "#a8743e"; c.fillRect(30, 60, w - 90, 6); c.fillRect(30, 82, w - 100, 6); },
   },
   image: {
@@ -1169,6 +1279,6 @@ export const PLACEHOLDER = {
       c.beginPath(); c.arc(w / 2, 34, 7, 0, Math.PI * 2); blob(c, "#7fe3f2", OL, 2.5);
     },
   },
-  sheet: { f3_sofia: drawSofia, f3_toninho: drawToninho, f3_marina: drawMarina, f3_julia: drawJulia, f3_lucas: drawLucas, f3_caranguejo: drawCrab, f3_macaco: drawMonkey, f3_checkpoint: drawCheckpoint },
-  sheetCount: { f3_sofia: SOFIA_POSES.length, f3_toninho: 8, f3_marina: 10, f3_julia: 8, f3_lucas: 8, f3_caranguejo: 9, f3_macaco: 15, f3_checkpoint: 3 },
+  sheet: { f3_sofia: drawSofia, f3_toninho: drawToninho, f3_marina: drawMarina, f3_julia: drawJulia, f3_lucas: drawLucas, f3_bia: drawBia, f3_caranguejo: drawCrab, f3_macaco: drawMonkey, f3_checkpoint: drawCheckpoint },
+  sheetCount: { f3_sofia: SOFIA_POSES.length, f3_toninho: 8, f3_marina: 10, f3_julia: 8, f3_lucas: 8, f3_bia: 8, f3_caranguejo: 9, f3_macaco: 15, f3_checkpoint: 3 },
 };

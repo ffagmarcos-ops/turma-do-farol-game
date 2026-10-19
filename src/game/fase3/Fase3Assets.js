@@ -365,6 +365,37 @@ export const SECTOR_ART = {
       sign_end: { file: "placa_continua.png", w: 200, h: 220 },
     },
   },
+  L: {
+    folder: "setorL/",
+    tileset: "tileset_copas/",
+    layers: [
+      { n: 0, file: "cenarioL_0_ceu.png", factor: 0.0, transparent: false, placeholder: { w: 512, h: 1080, y: 0, draw: 0 }, fallbackKey: "bg_sky" },
+      { n: 1, file: "cenarioL_1_ilhas.png", factor: 0.07, transparent: true, placeholder: { w: 2048, h: 320, y: 395, draw: 1 } },
+      { n: 2, file: "cenarioL_2_oceano.png", factor: 0.2, transparent: true, placeholder: { w: 1024, h: 380, y: 695, draw: 2 }, animatedWater: true },
+      { n: 3, file: "cenarioL_3_copas_arvores.png", factor: 0.42, transparent: true, placeholder: { w: 2048, h: 900, y: 60, draw: "L3" } },
+      { n: 5, file: "cenarioL_5_folhagem.png", factor: 1.15, transparent: true, placeholder: { w: 1024, h: 280, y: 860, draw: "C5" } },
+      { n: 6, file: "cenarioL_6_folhas_desfocadas.png", factor: 1.38, transparent: true, placeholder: { w: 1024, h: 1080, y: 0, draw: 6 }, alpha: 0.85 },
+    ],
+    tiles: {
+      sand_top: { file: "terra_copas_topo.png", w: 128, h: 128, surfaceY: 12 },
+      sand_fill: { file: "terra_copas_meio.png", w: 128, h: 128 },
+      rock_top: { file: "rocha_runica_topo.png", w: 128, h: 128, surfaceY: 8 },
+      rock_fill: { file: "rocha_runica_meio.png", w: 128, h: 128 },
+      log: { file: "plataforma_galho.png", w: 128, h: 64, surfaceY: 6 },
+      ledge: { file: "plataforma_pedra_musgo.png", w: 128, h: 64, surfaceY: 6 },
+      crumble: { file: "plataforma_pedra_instavel.png", w: 128, h: 64, surfaceY: 6 },
+    },
+    props: {
+      tree: { file: "arvore_floresta.png", w: 420, h: 720 },
+      bush: { file: "arbusto_floresta.png", w: 260, h: 160 },
+      fern: { file: "samambaia.png", w: 220, h: 140 },
+      roots: { file: "raizes.png", w: 280, h: 130 },
+      boulder: { file: "pedra_costao.png", w: 240, h: 180 },
+      moss_rock: { file: "pedra_musgo.png", w: 180, h: 110 },
+      ancient_rune_stone: { file: "pedra_runica_antiga.png", w: 180, h: 200 },
+      sign_end: { file: "placa_continua.png", w: 200, h: 220 },
+    },
+  },
 };
 
 /**
@@ -449,6 +480,16 @@ export const SPRITES = {
       operateGadget: { frames: [2, 3], frameRate: 7, repeat: -1 },
       activate: { frames: [4, 5], frameRate: 8, repeat: -1 },
       celebrate: { frames: [6, 7], frameRate: 6, repeat: -1 },
+    },
+  },
+  bia: {
+    key: "f3_bia", file: "chars/bia_f3_sheet.png", frameWidth: 192, frameHeight: 256, scale: 1.05,
+    origin: [0.5, 0.9375],
+    anims: {
+      idle: { frames: [0, 1], frameRate: 4, repeat: -1 },
+      inspect: { frames: [2, 3], frameRate: 4, repeat: -1 },
+      point: { frames: [4, 5], frameRate: 6, repeat: -1 },
+      cheer: { frames: [6, 7], frameRate: 6, repeat: -1 },
     },
   },
   crab: {

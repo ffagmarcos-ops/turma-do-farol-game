@@ -121,4 +121,13 @@ export class Fase3Audio {
     this.tone(320, 480, 0.28, 0.12, "sine", 0, 1400);
     this.tone(480, 360, 0.34, 0.09, "triangle", 0.18, 1200);
   }
+  /** Sons da Bia e caminho escondido nas copas (Setor L) */
+  biaPoint() {
+    this.tone(680, 1020, 0.12, 0.14, "sine", 0, 2400);
+    this.tone(1020, 1360, 0.16, 0.15, "triangle", 0.08, 2800);
+  }
+  secretPathReveal() {
+    this.tone(380, 760, 0.22, 0.16, "triangle", 0, 1800);
+    this.tone(520, 1040, 0.28, 0.14, "sine", 0.12, 2200);
+  }
 }

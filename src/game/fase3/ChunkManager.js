@@ -14,6 +14,7 @@ import { ToninhoHelper, NauticalRope } from "./ToninhoHelper.js";
 import { MarinaHelper } from "./MarinaHelper.js";
 import { JuliaHelper } from "./JuliaHelper.js";
 import { LucasHelper } from "./LucasHelper.js";
+import { BiaHelper } from "./BiaHelper.js";
 
 export const DEPTH = { ground: 0, wash: 1, back: -2, interior: -3, pickup: 5, checkpoint: 4, enemy: 8, cover: 15, front: 16 };
 const BUILD_MARGIN = 1920, KEEP_MARGIN = 3840, BOTTOM = 1240;
@@ -26,7 +27,7 @@ export class ChunkManager {
     this.crabs = []; this.monkeys = []; this.shells = scene.physics.add.group({ allowGravity: false, immovable: true });
     this.checkpoints = []; this.covers = []; this.waters = [];
     this.crumbles = []; this.movers = []; this.trickles = []; this.waveHits = [];
-    this.toninhos = []; this.marinas = []; this.julias = []; this.lucases = []; this.ropes = [];
+    this.toninhos = []; this.marinas = []; this.julias = []; this.lucases = []; this.bias = []; this.ropes = [];
     this.waterfalls = []; this.relics = []; this.energyOrbs = [];
   }
   update(camLeft, camRight, force = false) {
@@ -56,7 +57,7 @@ export class ChunkManager {
     if (outline) objs.push(s.add.rectangle(x + w / 2, y + h / 2, w, h).setStrokeStyle(4, 0x2a1a10).setDepth(depth + 0.01));
   }
   build(c) {
-    const s = this.scene, objs = [], crabs = [], monkeys = [], toninhos = [], marinas = [], julias = [], lucases = [], ropes = [], G = 900;
+    const s = this.scene, objs = [], crabs = [], monkeys = [], toninhos = [], marinas = [], julias = [], lucases = [], bias = [], ropes = [], G = 900;
     for (const g of c.ground || []) {
       const y = g.y ?? G;
       this.tileRect(g.x, y, g.w, BOTTOM - y, this.tiles(c, g.tiles), DEPTH.ground, objs, y < G);
@@ -175,6 +176,9 @@ export class ChunkManager {
       } else if (tr.event === "helpZoneLucas") {
         const lh = new LucasHelper(s, tr, s.lucasTriggered?.has(tr.id));
         lucases.push(lh); this.lucases.push(lh);
+      } else if (tr.event === "helpZoneBia") {
+        const bh = new BiaHelper(s, tr, s.biaTriggered?.has(tr.id));
+        bias.push(bh); this.bias.push(bh);
       }
     }
     for (const rp of c.ropes || []) {
@@ -192,7 +196,7 @@ export class ChunkManager {
         crabs.push(crab); this.crabs.push(crab);
       }
     });
-    this.built.set(c.id, { objs, crabs, monkeys, toninhos, marinas, julias, lucases, ropes });
+    this.built.set(c.id, { objs, crabs, monkeys, toninhos, marinas, julias, lucases, bias, ropes });
   }
   updateMechanics(dt, sofia, timeSec, camMid, wantClimb = false) {
     const s = this.scene;
@@ -207,6 +211,9 @@ export class ChunkManager {
     }
     for (const lh of this.lucases) {
       lh.update(dt, sofia, timeSec);
+    }
+    for (const bh of this.bias) {
+      bh.update(dt, sofia);
     }
     for (const rp of this.ropes) {
       rp.update(dt, sofia, wantClimb);
@@ -364,6 +371,7 @@ export class ChunkManager {
     for (const mh of b.marinas || []) mh.destroy();
     for (const jh of b.julias || []) jh.destroy();
     for (const lh of b.lucases || []) lh.destroy();
+    for (const bh of b.bias || []) bh.destroy();
     for (const rp of b.ropes || []) rp.destroy();
     this.crabs = this.crabs.filter((cr) => !b.crabs.includes(cr));
     this.monkeys = this.monkeys.filter((mk) => !(b.monkeys || []).includes(mk));
@@ -371,6 +379,7 @@ export class ChunkManager {
     this.marinas = this.marinas.filter((mh) => !(b.marinas || []).includes(mh));
     this.julias = this.julias.filter((jh) => !(b.julias || []).includes(jh));
     this.lucases = this.lucases.filter((lh) => !(b.lucases || []).includes(lh));
+    this.bias = this.bias.filter((bh) => !(b.bias || []).includes(bh));
     this.ropes = this.ropes.filter((rp) => !(b.ropes || []).includes(rp));
     this.checkpoints = this.checkpoints.filter((e) => e.chunk !== id);
     this.crumbles = this.crumbles.filter((cr) => cr.chunk !== id);

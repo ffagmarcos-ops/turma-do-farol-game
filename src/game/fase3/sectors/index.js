@@ -15,6 +15,7 @@ import { SETOR_H } from "./setorH.js";
 import { SETOR_I } from "./setorI.js";
 import { SETOR_J } from "./setorJ.js";
 import { SETOR_K } from "./setorK.js";
+import { SETOR_L } from "./setorL.js";
 
 export const SECTORS = [
   { id: "A", name: "Praia da Chegada", gameplay: "tutorial + caranguejos", data: SETOR_A },
@@ -28,13 +29,13 @@ export const SECTORS = [
   { id: "I", name: "Riacho / Lucas", gameplay: "plataformas na água", data: SETOR_I },
   { id: "J", name: "Cachoeira", gameplay: "exploração", data: SETOR_J },
   { id: "K", name: "Gruta Secreta", gameplay: "opcional", data: SETOR_K },
-  { id: "L", name: "Bia", gameplay: "rota secreta", data: null },
+  { id: "L", name: "Bia", gameplay: "rota secreta", data: SETOR_L },
   { id: "M", name: "Copas Altas", gameplay: "desafio maior", data: null },
   { id: "N", name: "Ruínas", gameplay: "exploração / mistério", data: null },
   { id: "O", name: "Entrada da Caverna", gameplay: "encerramento", data: null },
 ];
 
-const XKEYS = ["x", "x0", "x1", "minX", "maxX", "sniffX", "toninhoX", "ropeX", "crateStartX", "crateTargetX", "pathX", "reunionX", "juliaX", "lucasX", "celebrateX"];
+const XKEYS = ["x", "x0", "x1", "minX", "maxX", "sniffX", "toninhoX", "ropeX", "crateStartX", "crateTargetX", "pathX", "reunionX", "juliaX", "lucasX", "biaX", "celebrateX"];
 function shift(o, dx) {
   if (Array.isArray(o)) return o.map((v) => shift(v, dx));
   if (!o || typeof o !== "object") return o;

@@ -41,10 +41,10 @@ A Fase 3 é um side-scroller longo e contínuo. O mapa parece uma única panorâ
 | G | Desfiladeiro | verticalidade | 5 min | ✅ **concluído e testado** (Passo 7, arte provisória) |
 | H | Júlia | flashes e macacos | 4 min | ✅ **concluído e testado** (Passo 8, arte provisória) |
 | I | Riacho / Lucas | plataformas na água | 4 min | ✅ **concluído e testado** (Passo 9, arte provisória) |
-| J | Cachoeira | exploração | 4 min | ⏭️ **próximo passo (Passo 10)** |
-| K | Gruta Secreta | opcional | 2–4 min | ⏭️ **próximo passo (Passo 10)** |
-| L | Bia | rota secreta | 3 min | planejado |
-| M | Copas Altas | desafio maior | 5 min | planejado |
+| J | Cachoeira | exploração | 4 min | ✅ **concluído e testado** (Passo 10, arte provisória) |
+| K | Gruta Secreta | opcional | 2–4 min | ✅ **concluído e testado** (Passo 10, arte provisória) |
+| L | Bia | rota secreta | 3–4 min | ✅ **concluído e testado** (Passo 11, arte provisória) |
+| M | Copas Altas | desafio maior | 5 min | ⏭️ **próximo passo (Passo 12)** |
 | N | Ruínas | exploração / mistério | 3 min | planejado |
 | O | Entrada da Caverna | encerramento | 2 min | planejado |
 
@@ -144,8 +144,9 @@ A Fase 3 é um side-scroller longo e contínuo. O mapa parece uma única panorâ
 | `fase3/sectors/setorI.js` | **Dados** do Setor I (Riacho do Lucas): riacho com água detalhada, zonas `helpZoneLucas` com 4–5 boias flutuantes e segredo `margem-lucas`. |
 | `fase3/sectors/setorJ.js` | **Dados** do Setor J (Cachoeira dos Penhascos): solo molhado escorregadio (`slippery`), cortinas de água animadas (`waterfalls`) e segredo atrás da cascata. |
 | `fase3/sectors/setorK.js` | **Dados** do Setor K (Gruta Secreta): caverna bioluminescente azulada, orbe de energia (`f3_orbe_energia`) e Relíquia da Ilha (`f3_reliquia_historia`). |
+| `fase3/sectors/setorL.js` | **Dados** do Setor L (Caminho Escondido da Bia): floresta com copas altas, monólito com símbolos circulares (`ancient_rune_stone`), zonas `helpZoneBia`, plataformas secretas reveladas e concha dourada `f3L-G1` no ninho das copas. |
 | `fase3/sectors/index.js` | Lista A–O e `assembleLevel()`, que encaixa os setores em sequência (soma o x de cada um). |
-| `fase3/ChunkManager.js` | Monta e desmonta chunks perto e longe da câmera. Camadas: colisão (`solids`, `oneway`), plataformas móveis e que balançam (`movers`, `sway`), plataformas instáveis (`crumbles`), solo escorregadio (`slippery`), cortinas de cachoeira (`waterfalls`), rochas molhadas (`trickles`), ondas (`waveHits`), cordas (`toninhos`, `ropes`), caixas da Marina (`marinas`), flashes da Júlia (`julias`), boias do Lucas (`lucases`), relíquias (`relics`), orbes (`energyOrbs`), interação, inimigos (`crabs`, `monkeys`), segredo e decor. |
+| `fase3/ChunkManager.js` | Monta e desmonta chunks perto e longe da câmera. Camadas: colisão (`solids`, `oneway`), plataformas móveis e que balançam (`movers`, `sway`), plataformas instáveis (`crumbles`), solo escorregadio (`slippery`), cortinas de cachoeira (`waterfalls`), rochas molhadas (`trickles`), ondas (`waveHits`), cordas (`toninhos`, `ropes`), caixas da Marina (`marinas`), flashes da Júlia (`julias`), boias do Lucas (`lucases`), revelação da Bia (`bias`), relíquias (`relics`), orbes (`energyOrbs`), interação, inimigos (`crabs`, `monkeys`), segredo e decor. |
 | `fase3/Backdrop.js` | Parallax de 7 camadas com crossfade por setor, água animada (3 faixas de crista, brilho especular, ondas na areia, espuma), gaivotas e poeira. Também tem a **câmera** (`Fase3Camera`). |
 | `fase3/Sofia.js` | Física da Sofia: aceleração, desaceleração suave em solo escorregadio (`onSlippery`), coyote time de 120 ms, jump buffer de 120 ms, pulo variável, correr, agachar (com teto), escalar/balançar na corda (`climb_idle`, `climb`) e dano com recuo. |
 | `fase3/Faisca.js` | IA do Faísca: segue, para, pula obstáculos e vãos, sobe em plataformas, percorre rota alternativa no desfiladeiro/riacho (`detour`), rosna para inimigos, fareja segredos e reaparece atrás da Sofia quando se perde. Não colide com ela. |
@@ -153,10 +154,11 @@ A Fase 3 é um side-scroller longo e contínuo. O mapa parece uma única panorâ
 | `fase3/MarinaHelper.js` | Marina (`idle`, `notice`, `push`, `cheer`) e caixa de madeira (`128×128`) que ela empurra até formar degrau para a Sofia subir. |
 | `fase3/JuliaHelper.js` | Júlia (`idle`, `aimCamera`, `snap`, `cheer`): tira fotos periódicas em `helpZoneJulia`, produzindo clarão que atordoa os macacos da área por ~2,2 s e dissipa pedras no ar. |
 | `fase3/LucasHelper.js` | Lucas (`idle`, `operateGadget`, `activate`, `celebrate`) e 4–5 boias flutuantes (`f3_boia_lucas`) que emergem na água, oscilam e afundam um pouco com o peso da Sofia. |
+| `fase3/BiaHelper.js` | Bia (`idle`, `inspect`, `point`, `cheer`): analisa o monólito de pedras antigas rúnicas com a lupa, aponta para a vegetação alta, faz as plataformas secretas descerem suavemente e comemora no reencontro. |
 | `fase3/Crab.js` | Caranguejo: patrulha → "!" → garras para cima → avanço → recupera. Tem 2 vidas; a derrota é em estilo cartoon. |
 | `fase3/Macaco.js` | Macaco: fica em galho alto (`idle` → `watch` → `pick` → `aim` → `throw` → `laugh`), marca sombra no chão e lança pedra em arco. Tem 2 vidas (`hurt` → `stun` → `defeat`). |
 | `fase3/Fase3Input.js` | Teclado, gamepad e toque. Inclui o texto das dicas por controle. |
-| `fase3/Fase3Audio.js` | Latido, carga, arremesso, golpe, pedra rachando/desmoronando, macaco, corda/Seu Toninho, caixa/Marina, câmera/Júlia, aparelho/Lucas, sino de relíquia, orbe e eco de caverna sintetizados, pelo barramento de EFEITOS. |
+| `fase3/Fase3Audio.js` | Latido, carga, arremesso, golpe, pedra rachando/desmoronando, macaco, corda/Seu Toninho, caixa/Marina, câmera/Júlia, aparelho/Lucas, apontar/Bia (`biaPoint`), revelação secreta, sino de relíquia, orbe e eco de caverna sintetizados, pelo barramento de EFEITOS. |
 
 ### Resolução
 O jogo inteiro já roda em 1920×1080 lógico (Phaser `Scale.FIT`), então a Fase 3 usa a mesma configuração, sem escala própria. O "zoom de vista" é um zoom suave da câmera para 0,94 nos trechos marcados em `vistas`.
@@ -164,7 +166,7 @@ O jogo inteiro já roda em 1920×1080 lógico (Phaser `Scale.FIT`), então a Fas
 ### Formato do chunk
 Cada chunk é um objeto dentro de `chunks: [...]` do setor. As coordenadas são **locais do setor**, com x começando em 0, e todos os campos são opcionais:
 ```js
-{ id: "J0", x0: 0, x1: 1920,
+{ id: "L0", x0: 0, x1: 1920,
   ground:     [{ x, w, y?, tiles: "sand" | "rock", slippery? }],      // chão sólido até o fundo
   blocks:     [{ x, y, w, h, tiles: "rock", wet?, slippery? }],       // bloco sólido (wet = água escorrendo)
   platforms:  [{ x, y, w, kind: "log" | "ledge" | "crumble", crumble?, moveX?, moveY?, sway?, slippery?, speed? }],
@@ -175,12 +177,12 @@ Cada chunk é um objeto dentro de `chunks: [...]` do setor. As coordenadas são 
   energyOrbs: [{ id, x, y }],                                          // orbe de recarga rápida de energia
   waveHits:   [{ x, y, phase? }],                                      // onda batendo na pedra (espuma)
   decor:      [{ kind, x, y, scale?, flip?, front? }],                 // props do tileset, sem colisão
-  shells:     [{ id: "f3J-01", x, y, gold? }],                         // id ÚNICO (vai para a carteira)
+  shells:     [{ id: "f3L-01", x, y, gold? }],                         // id ÚNICO (vai para a carteira)
   enemies:    [{ type: "crab" | "monkey", x, y?, minX, maxX }],
-  checkpoints:[{ id: "J0", x }],
+  checkpoints:[{ id: "L0", x }],
   hints:      [{ id, x, text: "{jump} para pular" }],                  // tokens: {move} {up} {run} {jump} {attack} {special} {down}
   secrets:    [{ id, sniffX, zone: {x,y,w,h}, cover: {x,y,w,h} }],
-  triggers:   [{ id, x, y, w, h, event: "end" | "helpZoneToninho" | "helpZoneMarina" | "helpZoneJulia" | "helpZoneLucas" | "faiscaDetour" }],
+  triggers:   [{ id, x, y, w, h, event: "end" | "helpZoneToninho" | "helpZoneMarina" | "helpZoneJulia" | "helpZoneLucas" | "helpZoneBia" | "faiscaDetour" }],
   vistas:     [{ x0, x1, zoom: 0.94 }] }
 ```
 
@@ -190,11 +192,10 @@ Cada chunk é um objeto dentro de `chunks: [...]` do setor. As coordenadas são 
 - Se a grade for outra, ajuste `frameWidth`, `frameHeight`, `anims` e `body` em `Fase3Assets.js`. Nada mais muda.
 
 ### Save
-- `farol-fase3` (localStorage) guarda `{ cp, reliquiaK, setorA..setorK }`: o último checkpoint, relíquia coletada e os setores concluídos.
-- As conchas usam a carteira normal (`farol-conchas-v2`), com ids `f3A-..` a `f3K-..`.
+- `farol-fase3` (localStorage) guarda `{ cp, reliquiaK, setorA..setorL }`: o último checkpoint, relíquia coletada e os setores concluídos.
+- As conchas usam a carteira normal (`farol-conchas-v2`), com ids `f3A-..` a `f3L-..`.
 - O `resetAll()` da carteira ainda **não** apaga o `farol-fase3`. Para zerar, apague essa chave no DevTools ou use `?fase3=novo`.
 
-## Próximo marco: Passo 11 — Setor L (Bia e a rota alternativa / Copas Altas)
-- **Setor L (Bia):** a Bia ajuda a Sofia a encontrar o caminho pelas copas das árvores ou desvio alternativo no topo dos penhascos.
-- **Setor M (Copas Altas):** desafio acrobático nos galhos superiores da floresta tropical.
-- A placa `"Continua…"` avança de `K1` para os setores seguintes.
+## Próximo marco: Passo 12 — Setor M (Copas Altas)
+- **Setor M (Copas Altas):** desafio acrobático nos galhos superiores e dossel da floresta tropical.
+- A placa `"Continua…"` avança de `L3` para o Setor M.

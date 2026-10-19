@@ -84,7 +84,6 @@ export const SETOR_K = {
         { kind: "crystal", x: 2740, y: 480, scale: 0.85 },
         { kind: "crystal", x: 2990, y: 480, scale: 0.85, flip: true },
         { kind: "crystal", x: 3340, y: G + 10, scale: 1.2 },
-        { kind: "sign_end", x: 3620, y: G + 6 },
       ],
       shells: [
         { id: "f3K-07", x: 2240, y: 830 },
@@ -92,9 +91,6 @@ export const SETOR_K = {
         { id: "f3K-G1", x: 2870, y: 310, gold: true },
         { id: "f3K-09", x: 3380, y: 830 },
         { id: "f3K-10", x: 3540, y: 830 },
-      ],
-      triggers: [
-        { id: "fimK", x: 3660, y: 0, w: 200, h: 1080, event: "end" },
       ],
       checkpoints: [{ id: "K1", x: 2100 }],
       vistas: [{ x0: 2540, x1: 3840, zoom: 0.94 }],
