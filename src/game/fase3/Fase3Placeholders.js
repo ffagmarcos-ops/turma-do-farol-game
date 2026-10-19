@@ -1413,9 +1413,124 @@ function ruinLedgeTile(ctx, w, h) {
   ctx.beginPath(); ctx.ellipse(w * 0.35, 11, 15, 5, 0, 0, Math.PI * 2); ctx.fill();
 }
 
+function caveEntranceLayer(ctx, w, h) {
+  // Camada monumental da Boca da Caverna Azul (w = 2048, h = 900)
+  ctx.clearRect(0, 0, w, h);
+
+  // Paredão maciço da montanha ao redor
+  ctx.fillStyle = "#1b2933";
+  ctx.beginPath();
+  ctx.moveTo(0, 0);
+  ctx.lineTo(w, 0);
+  ctx.lineTo(w, h);
+  ctx.lineTo(0, h);
+  ctx.closePath();
+  ctx.fill();
+
+  // Abertura colossal da Caverna no centro/direita (portal natural com arco orgânico e estalactites)
+  const cx = w * 0.65;
+  const cy = h * 0.58;
+  const rx = w * 0.28;
+  const ry = h * 0.44;
+
+  ctx.save();
+  ctx.beginPath();
+  ctx.moveTo(cx - rx, h);
+  ctx.quadraticCurveTo(cx - rx * 1.05, cy - ry * 0.6, cx - rx * 0.6, cy - ry * 0.95);
+  ctx.quadraticCurveTo(cx, cy - ry * 1.1, cx + rx * 0.6, cy - ry * 0.95);
+  ctx.quadraticCurveTo(cx + rx * 1.05, cy - ry * 0.6, cx + rx, h);
+  ctx.closePath();
+
+  // Interior misterioso da caverna: gradiente de profundidade azul celeste
+  const caveGrad = ctx.createRadialGradient(cx, cy, 30, cx, cy, rx * 1.2);
+  caveGrad.addColorStop(0, "#8ae4f8");
+  caveGrad.addColorStop(0.2, "#3ca7d4");
+  caveGrad.addColorStop(0.5, "#154f7a");
+  caveGrad.addColorStop(0.85, "#0b2033");
+  caveGrad.addColorStop(1, "#05111c");
+  ctx.fillStyle = caveGrad;
+  ctx.fill();
+
+  // Feixes de luz azul celeste vazando de dentro para fora
+  ctx.save();
+  ctx.clip();
+  const lightRays = [
+    { x0: cx - 40, a: -0.45, w0: 60, w1: 220 },
+    { x0: cx + 10, a: -0.22, w0: 80, w1: 260 },
+    { x0: cx + 80, a: 0.15, w0: 70, w1: 240 },
+    { x0: cx + 160, a: 0.38, w0: 50, w1: 190 },
+  ];
+  for (const ray of lightRays) {
+    ctx.save();
+    ctx.translate(ray.x0, cy - 60);
+    ctx.rotate(ray.a);
+    const rg = ctx.createLinearGradient(0, 0, 0, h);
+    rg.addColorStop(0, "rgba(180, 245, 255, 0.45)");
+    rg.addColorStop(0.4, "rgba(90, 210, 255, 0.25)");
+    rg.addColorStop(1, "rgba(50, 160, 230, 0)");
+    ctx.fillStyle = rg;
+    ctx.beginPath();
+    ctx.moveTo(-ray.w0 / 2, 0);
+    ctx.lineTo(ray.w0 / 2, 0);
+    ctx.lineTo(ray.w1 / 2, h);
+    ctx.lineTo(-ray.w1 / 2, h);
+    ctx.closePath();
+    ctx.fill();
+    ctx.restore();
+  }
+  ctx.restore();
+
+  // Contorno rochoso e estalactites na boca da caverna
+  ctx.lineWidth = 14;
+  ctx.strokeStyle = OL;
+  ctx.stroke();
+
+  ctx.lineWidth = 6;
+  ctx.strokeStyle = "#2f4656";
+  ctx.stroke();
+
+  // Estalactites penduradas na borda superior da abertura
+  for (let i = 0; i < 9; i++) {
+    const frac = 0.2 + (i / 8) * 0.6;
+    const sx = cx - rx * 0.8 + frac * (rx * 1.6);
+    const sy = cy - ry * 0.95 + Math.sin(frac * Math.PI) * 20;
+    const len = 35 + ((i * 37) % 55);
+    ctx.beginPath();
+    ctx.moveTo(sx - 14, sy);
+    ctx.lineTo(sx + 14, sy);
+    ctx.lineTo(sx, sy + len);
+    ctx.closePath();
+    blob(ctx, "#1c2e3a", OL, 3.5);
+  }
+
+  // Cristais brilhantes nas bordas rochosas
+  for (const [kpx, kpy] of [
+    [cx - rx * 0.75, cy + 40],
+    [cx - rx * 0.88, cy + 180],
+    [cx + rx * 0.78, cy + 60],
+    [cx + rx * 0.9, cy + 210],
+  ]) {
+    ctx.save();
+    ctx.translate(kpx, kpy);
+    ctx.beginPath();
+    ctx.moveTo(0, -22);
+    ctx.lineTo(12, 0);
+    ctx.lineTo(0, 22);
+    ctx.lineTo(-12, 0);
+    ctx.closePath();
+    blob(ctx, "#7fe7fa", OL, 2.5);
+    ctx.fillStyle = "#ffffff";
+    ctx.beginPath();
+    ctx.arc(-2, -6, 3, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.restore();
+  }
+  ctx.restore();
+}
+
 /** Desenha o provisório de uma camada/tile/prop/efeito pelo "kind". */
 export const PLACEHOLDER = {
-  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer, E3: denseForestLayer, G3: gorgeLayer, J3: waterfallLayer, K0: caveSkyLayer, K1: caveRoofLayer, K2: caveWaterLayer, K3: caveWallLayer, K5: caveStalagmitesLayer, L3: canopyLayer, M3: highCanopyLayer, N3: ruinsLayer },
+  layer: { 0: skyLayer, 1: islandsLayer, 2: oceanLayer, 3: treesLayer, 5: foliageLayer, 6: leavesLayer, B3: cliffsLayer, B5: rocksFgLayer, C3: forestLayer, C5: foliageLayer, E3: denseForestLayer, G3: gorgeLayer, J3: waterfallLayer, K0: caveSkyLayer, K1: caveRoofLayer, K2: caveWaterLayer, K3: caveWallLayer, K5: caveStalagmitesLayer, L3: canopyLayer, M3: highCanopyLayer, N3: ruinsLayer, O3: caveEntranceLayer },
   tile: {
     sand_top: (c, w, h) => sandTile(c, w, h, true), sand_fill: (c, w, h) => sandTile(c, w, h, false),
     rock_top: (c, w, h) => rockTile(c, w, h, true), rock_fill: (c, w, h) => rockTile(c, w, h, false),
@@ -1450,6 +1565,12 @@ export const PLACEHOLDER = {
     N_sand_top: (c, w, h) => ruinStoneTile(c, w, h, true), N_sand_fill: (c, w, h) => ruinStoneTile(c, w, h, false),
     N_rock_top: (c, w, h) => ruinStoneTile(c, w, h, true), N_rock_fill: (c, w, h) => ruinStoneTile(c, w, h, false),
     N_log: ruinLedgeTile, N_ledge: ruinLedgeTile,
+    O_sand_top: (c, w, h) => ruinStoneTile(c, w, h, true),
+    O_sand_fill: (c, w, h) => ruinStoneTile(c, w, h, false),
+    O_rock_top: (c, w, h) => caveCrystalStoneTile(c, w, h, true),
+    O_rock_fill: (c, w, h) => caveCrystalStoneTile(c, w, h, false),
+    O_log: caveCrystalLedge,
+    O_ledge: caveCrystalLedge,
     log: logTile, ledge: ledgeTile, crumble: crumbleTile,
   },
   prop: {

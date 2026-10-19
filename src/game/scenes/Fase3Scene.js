@@ -12,7 +12,7 @@ import { makeButton, BTN_FONT } from "../systems/UIButton.js";
 import { askMainMenu } from "../systems/PauseMenu.js";
 import { openSoundOptions } from "../systems/SoundOptions.js";
 import { readWallet, collect as walletCollect, markSeen } from "../systems/Wallet.js";
-import { F3_AUDIO } from "../fase3/Fase3Assets.js";
+import { F3_AUDIO, SPRITES } from "../fase3/Fase3Assets.js";
 import { preloadFase3, buildFase3Art } from "../fase3/Fase3Loader.js";
 import { assembleLevel } from "../fase3/sectors/index.js";
 import { ChunkManager } from "../fase3/ChunkManager.js";
@@ -38,7 +38,7 @@ export class Fase3Scene extends Phaser.Scene {
   }
 
   preload() {
-    const n = preloadFase3(this, ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N"]);
+    const n = preloadFase3(this, ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O"]);
     if (n > 0) {
       const t = this.add.text(W / 2, H / 2, "Carregando a ilha… 0%", { fontFamily: BTN_FONT, fontSize: "48px", color: "#fff3d6", stroke: "#4a2a14", strokeThickness: 10 }).setOrigin(0.5);
       this.load.on("progress", (v) => t.setText(`Carregando a ilha… ${Math.round(v * 100)}%`));
@@ -58,7 +58,7 @@ export class Fase3Scene extends Phaser.Scene {
     this.sfx = new Fase3Audio(this.audio);
     this.input3 = new Fase3Input();
 
-    this.art = buildFase3Art(this, ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N"]);
+    this.art = buildFase3Art(this, ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O"]);
     this.level = assembleLevel();
     const wallet = readWallet();
     this.collected = new Set(wallet.run.ids.filter((id) => id.startsWith("f3")));
@@ -88,7 +88,7 @@ export class Fase3Scene extends Phaser.Scene {
     this.crabGroup = this.physics.add.group();
     this.monkeyGroup = this.physics.add.group();
     this.monkeyRocks = this.physics.add.group();
-    this.backdrop = new Backdrop(this, ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N"], this.art, this.level.sectors);
+    this.backdrop = new Backdrop(this, ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O"], this.art, this.level.sectors);
     this.chunks = new ChunkManager(this, this.level);
 
     const gy = this.levelGroundY(cp.x);
@@ -582,6 +582,120 @@ export class Fase3Scene extends Phaser.Scene {
     this.endObjs = objs;
   }
 
+  /* ------------------------------ grande encerramento da Fase 3 ------------------------------ */
+  finishFase3() {
+    if (this.ended) return;
+    this.ended = true; this.cancelCharge(); clearInput();
+    saveF3({
+      setorA: true, setorB: true, setorC: true, setorD: true, setorE: true,
+      setorF: true, setorG: true, setorH: true, setorI: true, setorJ: true,
+      setorK: true, setorL: true, setorM: true, setorN: true, setorO: true,
+      concluida: true,
+    });
+    markSeen("fase3-setorA");
+    markSeen("fase3-setorB");
+    markSeen("fase3-setorC");
+    markSeen("fase3-setorD");
+    markSeen("fase3-setorE");
+    markSeen("fase3-setorF");
+    markSeen("fase3-setorG");
+    markSeen("fase3-setorH");
+    markSeen("fase3-setorI");
+    markSeen("fase3-setorJ");
+    markSeen("fase3-setorK");
+    markSeen("fase3-setorL");
+    markSeen("fase3-setorM");
+    markSeen("fase3-setorN");
+    markSeen("fase3-setorO");
+    markSeen("fase3-concluida");
+
+    // Sofia comemora virada para a Caverna Azul
+    this.sofia.locked = true;
+    this.sofia.cheering = true;
+    this.sofia.facing = 1;
+    this.sofia.sprite.setFlipX(false);
+    this.audio.synth?.("gold3");
+
+    // Faísca comemora sentado ao lado dela
+    this.faisca.x = this.sofia.x + 85;
+    this.faisca.y = this.sofia.y;
+    this.faisca.facing = 1;
+    this.faisca.sitting = true;
+    this.sfx.bark(true, true);
+    this.stars(this.faisca.x, this.faisca.y - 60);
+
+    // Amigos chegam em celebração triunfante
+    const friends = [
+      { key: SPRITES.toninho.key, anim: "f3_toninho-wave", x: this.sofia.x - 90, scale: SPRITES.toninho.scale, origin: SPRITES.toninho.origin },
+      { key: SPRITES.marina.key, anim: "f3_marina-cheer", x: this.sofia.x - 175, scale: SPRITES.marina.scale, origin: SPRITES.marina.origin },
+      { key: SPRITES.lucas.key, anim: "f3_lucas-celebrate", x: this.sofia.x - 260, scale: SPRITES.lucas.scale, origin: SPRITES.lucas.origin },
+      { key: SPRITES.julia.key, anim: "f3_julia-cheer", x: this.sofia.x - 345, scale: SPRITES.julia.scale, origin: SPRITES.julia.origin },
+      { key: SPRITES.bia.key, anim: "f3_bia-cheer", x: this.sofia.x - 430, scale: SPRITES.bia.scale, origin: SPRITES.bia.origin },
+    ];
+    const friendSprites = [];
+    friends.forEach((fDef, idx) => {
+      const spr = this.add.sprite(fDef.x - 90, this.sofia.y, fDef.key, 0)
+        .setOrigin(fDef.origin[0], fDef.origin[1])
+        .setScale(fDef.scale)
+        .setDepth(8.7 - idx * 0.05)
+        .setAlpha(0);
+      this.tweens.add({
+        targets: spr,
+        x: fDef.x,
+        alpha: 1,
+        duration: 650,
+        delay: 200 + idx * 220,
+        ease: "Power2",
+        onComplete: () => {
+          spr.play(fDef.anim);
+          this.stars(spr.x, spr.y - 120);
+        },
+      });
+      friendSprites.push(spr);
+    });
+
+    // Cartão de vitória triunfante da Fase 3
+    this.time.delayedCall(2500, () => {
+      const d = 200, objs = [];
+      objs.push(this.add.rectangle(W / 2, H / 2, W + 400, H + 400, 0x02060c, 0.65).setScrollFactor(0).setDepth(d));
+      if (this.textures.exists("carta_moldura")) {
+        objs.push(this.add.rectangle(W / 2, H / 2, 960, 580, 0xf3e6c8).setScrollFactor(0).setDepth(d + 0.5));
+        objs.push(this.add.image(W / 2, H / 2, "carta_moldura").setDisplaySize(1160, 740).setScrollFactor(0).setDepth(d + 1));
+      } else {
+        objs.push(this.add.rectangle(W / 2, H / 2, 1020, 580, 0xf1e2bf).setStrokeStyle(8, 0x6b4a26).setScrollFactor(0).setDepth(d + 1));
+      }
+
+      objs.push(this.add.text(W / 2, H / 2 - 165, "Fase 3 Concluída!", {
+        fontFamily: BTN_FONT, fontSize: "64px", color: "#fff3d6", stroke: "#4a2a14", strokeThickness: 12
+      }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
+
+      const relTxt = this.reliquiaK ? "Encontrada! (Gruta Secreta)" : "Não encontrada";
+      const statsMsg =
+        "A Turma do Farol alcançou a Entrada da Caverna Azul!\n\n" +
+        `Conchas da Ilha: ${this.collected.size} coletadas\n` +
+        `Relíquia Oculta: ${relTxt}\n` +
+        "Amigos Reunidos: 5 de 5 (Toninho, Marina, Júlia, Lucas e Bia)";
+
+      objs.push(this.add.text(W / 2, H / 2 - 20, statsMsg, {
+        fontFamily: "Georgia, serif", fontSize: "28px", color: "#3a2412", align: "center", lineSpacing: 8
+      }).setOrigin(0.5).setScrollFactor(0).setDepth(d + 2));
+
+      objs.push(...makeButton(this, W / 2 - 230, H / 2 + 160, "JOGAR NOVAMENTE", () => {
+        objs.forEach((o) => o.destroy());
+        friendSprites.forEach((fs) => fs.destroy());
+        this.scene.restart({ cp: "A0" });
+      }, { w: 420, h: 84, depth: d + 2, scrollFactor: 0, fontSize: 28, kind: "continuar" }).objs);
+
+      objs.push(...makeButton(this, W / 2 + 230, H / 2 + 160, "MENU PRINCIPAL", () => {
+        objs.forEach((o) => o.destroy());
+        friendSprites.forEach((fs) => fs.destroy());
+        this.toMenu();
+      }, { w: 420, h: 84, depth: d + 2, scrollFactor: 0, fontSize: 28, kind: "menu" }).objs);
+
+      this.endObjs = objs;
+    });
+  }
+
   /* ------------------------------ loop ------------------------------ */
   update(time, delta) {
     if (this.paused) { if (this.input3.read(0).pausePressed) this.setPaused(false); return; }
@@ -685,7 +799,10 @@ export class Fase3Scene extends Phaser.Scene {
     if (!this.ended) {
       this.checkpointsUpdate();
       for (const h of this.allHints) if (!this.shownHints.has(h.id) && s.x > h.x && !this.introT) { this.shownHints.add(h.id); this.showHint(h.text); }
-      for (const t of this.allTriggers) if (t.event === "end" && s.x > t.x && s.x < t.x + t.w) this.endSector();
+      for (const t of this.allTriggers) {
+        if (t.event === "end" && s.x > t.x && s.x < t.x + t.w) this.endSector();
+        if (t.event === "fase3Finale" && s.x > t.x && s.x < t.x + t.w) this.finishFase3();
+      }
     }
 
     const vista = this.allVistas.find((v) => s.x >= v.x0 && s.x < v.x1);
@@ -706,6 +823,7 @@ export class Fase3Scene extends Phaser.Scene {
       if (this.curSectorId === "K" && sec.id === "L") saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true, setorF: true, setorG: true, setorH: true, setorI: true, setorJ: true, setorK: true });
       if (this.curSectorId === "L" && sec.id === "M") saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true, setorF: true, setorG: true, setorH: true, setorI: true, setorJ: true, setorK: true, setorL: true });
       if (this.curSectorId === "M" && sec.id === "N") saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true, setorF: true, setorG: true, setorH: true, setorI: true, setorJ: true, setorK: true, setorL: true, setorM: true });
+      if (this.curSectorId === "N" && sec.id === "O") saveF3({ setorA: true, setorB: true, setorC: true, setorD: true, setorE: true, setorF: true, setorG: true, setorH: true, setorI: true, setorJ: true, setorK: true, setorL: true, setorM: true, setorN: true });
       this.curSectorId = sec.id;
       this.toast(sec.name, 190, "#F3D48A");
     }
@@ -713,9 +831,9 @@ export class Fase3Scene extends Phaser.Scene {
     this.backdrop.update(dt, cam, { from: secA.x0, to: secA.x1, y: secA.groundY });
     this.updateHud();
 
-    // ambiente da praia / costão / floresta / cachoeira / gruta secreta / ruínas
+    // ambiente da praia / costão / floresta / cachoeira / gruta secreta / ruínas / caverna azul
     const inForest = this.curSectorId === "C" || this.curSectorId === "D" || this.curSectorId === "E" || this.curSectorId === "F" || this.curSectorId === "H" || this.curSectorId === "I" || this.curSectorId === "J" || this.curSectorId === "L" || this.curSectorId === "M" || this.curSectorId === "N";
-    const inCave = this.curSectorId === "K";
+    const inCave = this.curSectorId === "K" || this.curSectorId === "O";
     if ((this.ambT -= dt) <= 0) {
       if (inCave) {
         this.ambT = 4.2 + Math.random() * 3.5;

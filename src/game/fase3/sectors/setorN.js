@@ -196,7 +196,6 @@ export const SETOR_N = {
         { kind: "ruin_arch", x: 6480, y: 380 },
         { kind: "ancient_pedestal", x: 7120, y: G + 8 },
         { kind: "ancient_rune_stone", x: 7320, y: G + 10 },
-        { kind: "sign_end", x: 7480, y: G + 6 },
       ],
       shells: [
         { id: "f3N-17", x: 6000, y: 820 },
@@ -205,9 +204,7 @@ export const SETOR_N = {
         { id: "f3N-20", x: 6720, y: 390 },
         { id: "f3N-21", x: 7280, y: 820 },
       ],
-      triggers: [
-        { id: "fimN", x: 7500, y: 0, w: 200, h: 1080, event: "end" },
-      ],
+      triggers: [],
       checkpoints: [{ id: "N3", x: 5860 }],
       vistas: [{ x0: 6100, x1: 7680, zoom: 0.94 }],
     },
