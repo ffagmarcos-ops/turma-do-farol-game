@@ -1,0 +1,118 @@
+// @ts-nocheck
+/**
+ * CHUNKS: a fase é uma panorâmica única, mas cada pedaço (1920 px) só é MONTADO quando a câmera chega
+ * perto (1 chunk de folga) e DESMONTADO quando fica longe (2 chunks), sem tela de loading.
+ * Camadas por chunk: colisão (solids/oneway), interação (conchas/checkpoints), inimigos, segredos (cobertura), decor.
+ * O estado (conchas pegas, caranguejos derrotados) fica na cena, então remontar não "ressuscita" nada.
+ */
+import Phaser from "../phaser.js";
+import { SECTOR_ART } from "./Fase3Assets.js";
+import { tileKey, propKey } from "./Fase3Loader.js";
+import { Crab } from "./Crab.js";
+
+export const DEPTH = { ground: 0, wash: 1, back: -2, interior: -3, pickup: 5, checkpoint: 4, enemy: 8, cover: 15, front: 16 };
+const BUILD_MARGIN = 1920, KEEP_MARGIN = 3840, BOTTOM = 1240;
+
+export class ChunkManager {
+  constructor(scene, level) {
+    this.scene = scene; this.level = level; this.built = new Map();
+    this.solids = scene.physics.add.staticGroup();
+    this.oneway = scene.physics.add.staticGroup();
+    this.crabs = []; this.shells = scene.physics.add.group({ allowGravity: false, immovable: true }); this.checkpoints = []; this.covers = []; this.waters = [];
+  }
+  update(camLeft, camRight, force = false) {
+    for (const c of this.level.chunks) {
+      const near = c.x0 < camRight + BUILD_MARGIN && c.x1 > camLeft - BUILD_MARGIN;
+      const far = c.x1 < camLeft - KEEP_MARGIN || c.x0 > camRight + KEEP_MARGIN;
+      if (near && !this.built.has(c.id)) this.build(c);
+      else if (far && this.built.has(c.id)) this.unbuild(c.id);
+    }
+  }
+  tiles(c, set) {
+    const art = SECTOR_ART[c.art];
+    const top = set === "rock" ? "rock_top" : "sand_top", fill = set === "rock" ? "rock_fill" : "sand_fill";
+    return { top: tileKey(c.art, top), fill: tileKey(c.art, fill), surf: art.tiles[top].surfaceY || 0 };
+  }
+  solid(x, y, w, h, objs) {
+    const z = this.scene.add.zone(x + w / 2, y + h / 2, w, h).setData("solid", true);
+    this.solids.add(z); objs.push(z); return z;
+  }
+  tileRect(x, y, w, h, t, depth, objs, outline) {
+    const s = this.scene;
+    if (h >= 100) {
+      const topH = Math.min(128, h + t.surf);
+      objs.push(s.add.tileSprite(x, y - t.surf, w, topH, t.top).setOrigin(0).setTilePosition(x, 0).setDepth(depth));
+      if (h + t.surf > 128) objs.push(s.add.tileSprite(x, y - t.surf + 128, w, h + t.surf - 128, t.fill).setOrigin(0).setTilePosition(x, 0).setDepth(depth));
+    } else objs.push(s.add.tileSprite(x, y, w, h, t.fill).setOrigin(0).setTilePosition(x, y).setDepth(depth));
+    if (outline) objs.push(s.add.rectangle(x + w / 2, y + h / 2, w, h).setStrokeStyle(4, 0x2a1a10).setDepth(depth + 0.01));
+  }
+  build(c) {
+    const s = this.scene, objs = [], crabs = [], G = s.levelGroundY(c.x0);
+    for (const g of c.ground || []) {
+      const y = g.y ?? G;
+      this.tileRect(g.x, y, g.w, BOTTOM - y, this.tiles(c, g.tiles), DEPTH.ground, objs, false);
+      this.solid(g.x, y, g.w, BOTTOM - y, objs);
+    }
+    for (const bl of c.blocks || []) {
+      this.tileRect(bl.x, bl.y, bl.w, bl.h, this.tiles(c, bl.tiles || "rock"), DEPTH.ground + 0.1, objs, true);
+      this.solid(bl.x, bl.y, bl.w, bl.h, objs);
+    }
+    const art = SECTOR_ART[c.art];
+    for (const p of c.platforms || []) {
+      const def = art.tiles[p.kind] || art.tiles.log;
+      objs.push(s.add.tileSprite(p.x, p.y - (def.surfaceY || 0), p.w, def.h, tileKey(c.art, p.kind)).setOrigin(0).setTilePosition(p.x, 0).setDepth(DEPTH.ground + 0.2));
+      const z = s.add.zone(p.x + p.w / 2, p.y + 12, p.w, 24).setData("oneway", true);
+      this.oneway.add(z); objs.push(z);
+    }
+    for (const w of c.water || []) {
+      const wat = s.makeWater(w); objs.push(...wat.objs); this.waters.push(wat);
+    }
+    for (const d of c.decor || []) {
+      const key = propKey(c.art, d.kind);
+      if (!s.textures.exists(key)) continue;
+      objs.push(s.add.image(d.x, d.y, key).setOrigin(0.5, 1).setScale(d.scale || 1).setFlipX(Boolean(d.flip)).setDepth(d.front ? DEPTH.front : DEPTH.back));
+    }
+    for (const sec of c.secrets || []) {
+      const z = sec.zone, cv = sec.cover;
+      objs.push(s.add.rectangle(z.x + z.w / 2, z.y + z.h / 2, z.w, z.h, 0x2e2420).setDepth(DEPTH.interior));
+      const t = this.tiles(c, "rock"), cover = s.add.container(0, 0).setDepth(DEPTH.cover);
+      cover.add(s.add.tileSprite(cv.x, cv.y - t.surf, cv.w, 128, t.top).setOrigin(0).setTilePosition(cv.x, 0));
+      cover.add(s.add.tileSprite(cv.x, cv.y - t.surf + 128, cv.w, cv.h + t.surf - 128, t.fill).setOrigin(0).setTilePosition(cv.x, 0));
+      cover.add(s.add.rectangle(cv.x + cv.w / 2, cv.y + cv.h / 2, cv.w, cv.h).setStrokeStyle(4, 0x2a1a10));
+      objs.push(cover); this.covers.push({ sec, cover });
+    }
+    for (const sh of c.shells || []) {
+      if (s.collected.has(sh.id)) continue;
+      const im = s.art.img("f3_concha");
+      const o = this.shells.create(sh.x, sh.y, im.key).setScale(im.scale * (sh.gold ? 1.45 : 1)).setDepth(DEPTH.pickup);
+      if (sh.gold) o.setTint(0xffe08a);
+      o.setData({ id: sh.id, value: sh.gold ? 5 : 1, gold: Boolean(sh.gold) });
+      o.body.setSize(o.width * 0.8, o.height * 0.8);
+      s.tweens.add({ targets: o, y: sh.y - 10, yoyo: true, repeat: -1, duration: 900 + (sh.x % 300), ease: "Sine.easeInOut" });
+      objs.push(o);
+    }
+    for (const cp of c.checkpoints || []) {
+      const on = s.cpActive === cp.id || s.cpReached.has(cp.id);
+      const spr = s.add.sprite(cp.x, s.levelGroundY(cp.x) + 4, "f3_checkpoint", on ? 1 : 0).setOrigin(0.5, 1).setScale(0.9).setDepth(DEPTH.checkpoint);
+      spr.play(on ? "f3_checkpoint-on" : "f3_checkpoint-off");
+      const entry = { def: cp, sprite: spr, chunk: c.id }; this.checkpoints.push(entry); objs.push(spr);
+    }
+    (c.enemies || []).forEach((e, i) => {
+      const uid = `${c.id}-${i}`;
+      if (s.defeated.has(uid)) return;
+      const crab = new Crab(s, { ...e, uid, y: s.levelGroundY(e.x) - 2 });
+      crabs.push(crab); this.crabs.push(crab);
+    });
+    this.built.set(c.id, { objs, crabs });
+  }
+  unbuild(id) {
+    const b = this.built.get(id); if (!b) return;
+    for (const crab of b.crabs) { if (crab.alive) crab.sprite.destroy(); }
+    this.crabs = this.crabs.filter((cr) => !b.crabs.includes(cr));
+    this.checkpoints = this.checkpoints.filter((e) => e.chunk !== id);
+    for (const o of b.objs) { this.scene.tweens.killTweensOf(o); o.destroy(); }
+    this.covers = this.covers.filter((cv) => cv.cover.active);
+    this.waters = this.waters.filter((w) => w.objs[0].active);
+    this.built.delete(id);
+  }
+}

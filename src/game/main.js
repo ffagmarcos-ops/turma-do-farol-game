@@ -9,6 +9,7 @@ import { IntroHQScene, TransicaoHQScene } from "./scenes/HQSeqScene.js";
 import { PortaisScene } from "./scenes/PortaisScene.js";
 import { CreditosScene } from "./scenes/CreditosScene.js";
 import { CuriosidadeScene } from "./scenes/CuriosidadeScene.js";
+import { Fase3Scene } from "./scenes/Fase3Scene.js";
 
 export function createGame(parent) {
   const game = new Phaser.Game({
@@ -32,7 +33,7 @@ export function createGame(parent) {
         debug: false,
       },
     },
-    scene: [BootScene, PreloadScene, MenuScene, VilaScene, BossScene, IntroHQScene, TransicaoHQScene, PortaisScene, CuriosidadeScene, CreditosScene],
+    scene: [BootScene, PreloadScene, MenuScene, VilaScene, BossScene, IntroHQScene, TransicaoHQScene, PortaisScene, CuriosidadeScene, CreditosScene, Fase3Scene],
   });
 
   const root = typeof parent === "string" ? document.getElementById(parent) : parent;

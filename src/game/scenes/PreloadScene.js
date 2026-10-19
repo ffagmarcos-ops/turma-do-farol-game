@@ -236,6 +236,10 @@ export class PreloadScene extends Phaser.Scene {
     if (params.has("boss")) {
       document.body.classList.remove("is-title");
       this.scene.start("boss-polvo", { segment: Number(params.get("boss")) || 0 });
+    } else if (params.has("fase3")) {
+      // dev: ?fase3 (último checkpoint) · ?fase3=A2 · ?fase3=novo
+      document.body.classList.remove("is-title");
+      this.scene.start("fase3", { cp: params.get("fase3") || undefined });
     } else this.scene.start(params.has("qa") || params.has("play") ? "vila" : "menu");
   }
 

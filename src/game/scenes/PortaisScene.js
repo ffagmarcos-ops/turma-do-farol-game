@@ -149,13 +149,13 @@ export class PortaisScene extends Phaser.Scene {
   }
 
   meta(id) {
-    if (id === "embreve") return { id, nome: "Ilha das Cavernas Azuis", tipo: "Fase 3", preco: null };
+    if (id === "embreve") return { id, nome: "Ilha das Cavernas Azuis", tipo: "Fase", preco: 0 }; // Fase 3 (em construção: Setor A jogável)
     return PORTAIS.find((p) => p.id === id);
   }
 
   /** estado: open | locked-req | afford | poor | soon */
   stateOf(p) {
-    if (p.id === "embreve") return "soon";
+    if (p.id === "embreve") return "open";
     const w = this.wallet;
     if (w.portas.includes(p.id)) return "open";
     if (!requisitoOk(p.meta)) return "locked-req";
@@ -212,7 +212,7 @@ export class PortaisScene extends Phaser.Scene {
     p.frame = this.add.image(x, p.cy, "portal_moldura").setDisplaySize(pw, ph).setDepth(d);
     if (id === "embreve") p.chains = this.add.image(x, p.cy, "portal_fase3_correntes").setDisplaySize(pw, ph).setDepth(d + 0.2);
     // placa em branco da arte (x≈384, y≈790 em 768x1024): "Em breve" escrito no código
-    if (id === "embreve") p.soonTxt = this.add.text(x, y - ph + ph * (790 / 1024), "Em breve", { fontFamily: "Georgia, serif", fontSize: `${Math.round(pw * 0.13)}px`, fontStyle: "bold", color: "#3A2410" }).setOrigin(0.5).setDepth(d + 0.25);
+    if (id === "embreve") p.soonTxt = this.add.text(x, y - ph + ph * (790 / 1024), "Fase 3", { fontFamily: "Georgia, serif", fontSize: `${Math.round(pw * 0.13)}px`, fontStyle: "bold", color: "#3A2410" }).setOrigin(0.5).setDepth(d + 0.25);
     const ls = mez ? 66 : 84;
     p.lockSize = ls;
     p.lock = this.add.image(x, oc.y + 10, "cadeado_concha_sheet", "lock0").setDisplaySize(ls, ls).setDepth(d + 0.3);
@@ -358,6 +358,7 @@ export class PortaisScene extends Phaser.Scene {
         document.body.classList.remove("is-title");
         this.scene.start("vila");
       } else if (p.id === "mar") this.scene.start("boss-polvo", { segment: 0 });
+      else if (p.id === "embreve") { document.body.classList.remove("is-title"); this.scene.start("fase3"); }
       else this.scene.start("curiosidade", { id: p.id });
     });
   }
