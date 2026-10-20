@@ -362,7 +362,8 @@ export class Fase3Scene extends Phaser.Scene {
   throwShell() {
     const s = this.sofia, im = this.art.img("f3_concha_projetil");
     const x0 = s.x + s.facing * 50, y0 = s.y - (s.crouching ? 50 : 80);
-    const p = this.projectiles.create(x0, y0, im.key).setScale(im.scale).setDepth(11);
+    const p = this.projectiles.create(x0, y0, im.key, im.frame || 0).setScale(im.scale).setDepth(11);
+    if (this.anims.exists("shell.spin")) p.play("shell.spin");
     p.body.setCircle(p.width * 0.45, p.width * 0.05, p.height * 0.05);
     // se houver um macaco num galho alto à frente na direção em que a Sofia olha, calcula o arco para acertá-lo
     const highMonkey = this.chunks.monkeys.find((m) => m.alive && (m.x - s.x) * s.facing > 30 && (m.x - s.x) * s.facing < 740 && m.y < s.y - 60);
@@ -435,7 +436,8 @@ export class Fase3Scene extends Phaser.Scene {
   /** Lança a pedra em arco parabólico exato até (targetX, groundY) */
   spawnMonkeyRock(x0, y0, targetX, groundY, shadow) {
     const im = this.art.img("f3_pedra_macaco");
-    const rock = this.monkeyRocks.create(x0, y0, im.key).setScale(im.scale).setDepth(11.5);
+    const rock = this.monkeyRocks.create(x0, y0, im.key, im.frame || 0).setScale(im.scale).setDepth(11.5);
+    if (this.anims.exists("stone.spin")) rock.play("stone.spin");
     rock.body.setCircle(rock.width * 0.4, rock.width * 0.1, rock.height * 0.1);
     // gravidade líquida vertical = 1800 - 400 = 1400 px/s²
     const g = 1400, T = 0.88;
@@ -486,9 +488,11 @@ export class Fase3Scene extends Phaser.Scene {
     const ox = Math.abs(f.x - s.x) < 260 ? f.x : s.x + dir * 80, oy = (Math.abs(f.x - s.x) < 260 ? f.y : s.y) - 50;
     this.sfx.bark(true);
     this.camera3.shake(0.004, 180);
+    const imWave = this.art.img("f3_onda_latido");
     for (let i = 0; i < 3; i++) {
-      const wv = this.add.image(ox + dir * 30, oy, "f3_onda_latido").setDepth(29).setFlipX(dir < 0).setScale(0.5).setAlpha(0.95).setBlendMode(Phaser.BlendModes.ADD);
-      this.tweens.add({ targets: wv, x: ox + dir * WAVE_RANGE, scale: 2.3, alpha: 0, delay: i * 90, duration: 620, ease: "Quad.easeOut", onComplete: () => wv.destroy() });
+      const wv = this.add.sprite(ox + dir * 30, oy, imWave.key, imWave.frame || 0).setDepth(29).setFlipX(dir < 0).setScale(imWave.scale || 0.5).setAlpha(0.95).setBlendMode(Phaser.BlendModes.ADD);
+      if (this.anims.exists("bark_wave.play")) wv.play("bark_wave.play");
+      this.tweens.add({ targets: wv, x: ox + dir * WAVE_RANGE, scale: (imWave.scale || 0.5) * 4.2, alpha: 0, delay: i * 90, duration: 620, ease: "Quad.easeOut", onComplete: () => wv.destroy() });
     }
     for (const crab of this.chunks.crabs) {
       if (!crab.alive) continue;

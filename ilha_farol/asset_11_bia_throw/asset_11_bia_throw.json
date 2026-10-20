@@ -1,0 +1,664 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 324,
+        "h": 342
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 27,
+        "y": 0,
+        "w": 324,
+        "h": 342
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 324,
+        "y": 0,
+        "w": 324,
+        "h": 342
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 27,
+        "y": 0,
+        "w": 324,
+        "h": 342
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 648,
+        "y": 0,
+        "w": 323,
+        "h": 342
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 28,
+        "y": 0,
+        "w": 323,
+        "h": 342
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 971,
+        "y": 0,
+        "w": 379,
+        "h": 342
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 379,
+        "h": 342
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 1350,
+        "y": 0,
+        "w": 269,
+        "h": 342
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 55,
+        "y": 0,
+        "w": 269,
+        "h": 342
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 0,
+        "y": 342,
+        "w": 324,
+        "h": 311
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 27,
+        "y": 31,
+        "w": 324,
+        "h": 311
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 324,
+        "y": 342,
+        "w": 324,
+        "h": 311
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 27,
+        "y": 31,
+        "w": 324,
+        "h": 311
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 648,
+        "y": 342,
+        "w": 323,
+        "h": 311
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 28,
+        "y": 31,
+        "w": 323,
+        "h": 311
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f008": {
+      "frame": {
+        "x": 971,
+        "y": 342,
+        "w": 379,
+        "h": 311
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 31,
+        "w": 379,
+        "h": 311
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f009": {
+      "frame": {
+        "x": 1350,
+        "y": 342,
+        "w": 269,
+        "h": 311
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 55,
+        "y": 31,
+        "w": 269,
+        "h": 311
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f010": {
+      "frame": {
+        "x": 0,
+        "y": 653,
+        "w": 324,
+        "h": 318
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 27,
+        "y": 24,
+        "w": 324,
+        "h": 318
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f011": {
+      "frame": {
+        "x": 324,
+        "y": 653,
+        "w": 324,
+        "h": 318
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 27,
+        "y": 24,
+        "w": 324,
+        "h": 318
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f012": {
+      "frame": {
+        "x": 648,
+        "y": 653,
+        "w": 323,
+        "h": 318
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 28,
+        "y": 24,
+        "w": 323,
+        "h": 318
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f013": {
+      "frame": {
+        "x": 971,
+        "y": 653,
+        "w": 379,
+        "h": 318
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 24,
+        "w": 379,
+        "h": 318
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    },
+    "f014": {
+      "frame": {
+        "x": 1350,
+        "y": 653,
+        "w": 269,
+        "h": 318
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 55,
+        "y": 24,
+        "w": 269,
+        "h": 318
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 342
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_11_bia_throw.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1619,
+      "h": 971
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 11,
+    "textureKey": "bia_throw",
+    "title": "Bia: lançamento de conchas",
+    "imageFile": "asset_11_bia_throw.png",
+    "originalFilename": "exec-29d57959-3fbb-4d87-b2cb-264a1532dc4c.png",
+    "sourceSizePx": {
+      "width": 1619,
+      "height": 971
+    },
+    "sourceMode": "RGBA",
+    "sha256": "da45f2e4748ab88299b074dd8da357fb6f7debfee758fbc21804d422c01cf647",
+    "kind": "animation_sheet",
+    "frameCount": 15,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "parada_antecipacao",
+      "f001": "parada_puxar",
+      "f002": "parada_acelerar",
+      "f003": "parada_soltar_concha_pintada",
+      "f004": "parada_recuperar",
+      "f005": "correndo_antecipacao",
+      "f006": "correndo_puxar",
+      "f007": "correndo_acelerar",
+      "f008": "correndo_soltar_concha_pintada",
+      "f009": "correndo_recuperar",
+      "f010": "no_ar_antecipacao",
+      "f011": "no_ar_puxar",
+      "f012": "no_ar_acelerar",
+      "f013": "no_ar_soltar_concha_pintada",
+      "f014": "no_ar_recuperar"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 1
+      },
+      "normalization": "canvas_comum_por_folha_alinhado_ao_centro_inferior",
+      "scaleRule": "Calibrar a escala corporal da Bia entre os assets 10, 11 e 27 usando uma pose neutra. A folha 10 tem margens maiores; não usar a altura inteira da célula como altura da personagem.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo.",
+      "sharedActorTextures": [
+        "bia_locomotion",
+        "bia_throw",
+        "bia_secret"
+      ]
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "recortes_revisados_incluindo_conchas_soltas_no_quarto_quadro",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            342
+          ],
+          "x": [
+            0,
+            324,
+            648,
+            971,
+            1350,
+            1619
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            342,
+            653
+          ],
+          "x": [
+            0,
+            324,
+            648,
+            971,
+            1350,
+            1619
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 2,
+          "y": [
+            653,
+            971
+          ],
+          "x": [
+            0,
+            324,
+            648,
+            971,
+            1350,
+            1619
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": [
+        "Concha já pintada nos quadros 3, 8 e 13. O projétil de gameplay nasce no quadro seguinte para evitar uma segunda concha visual. Ajustar o ponto de saída à posição da concha pintada.",
+        "Limite entre colunas 4 e 5 revisado para manter a concha pintada dentro do quadro de soltura, sem contaminar o quadro de recuperação."
+      ]
+    },
+    "animationKeys": [
+      "bia.throw_stand",
+      "bia.throw_run",
+      "bia.throw_air"
+    ],
+    "characterId": "bia",
+    "characterRole": "player"
+  },
+  "phaserAnimations": {
+    "anims": [
+      {
+        "key": "bia.throw_stand",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_throw",
+            "frame": "f000",
+            "duration": 0
+          },
+          {
+            "key": "bia_throw",
+            "frame": "f001",
+            "duration": 0
+          },
+          {
+            "key": "bia_throw",
+            "frame": "f002",
+            "duration": 0
+          },
+          {
+            "key": "bia_throw",
+            "frame": "f003",
+            "duration": 0
+          },
+          {
+            "key": "bia_throw",
+            "frame": "f004",
+            "duration": 0
+          }
+        ],
+        "frameRate": 12,
+        "duration": 416.666667,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "bia.throw_run",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_throw",
+            "frame": "f005",
+            "duration": 0
+          },
+          {
+            "key": "bia_throw",
+            "frame": "f006",
+            "duration": 0
+          },
+          {
+            "key": "bia_throw",
+            "frame": "f007",
+            "duration": 0
+          },
+          {
+            "key": "bia_throw",
+            "frame": "f008",
+            "duration": 0
+          },
+          {
+            "key": "bia_throw",
+            "frame": "f009",
+            "duration": 0
+          }
+        ],
+        "frameRate": 12,
+        "duration": 416.666667,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "bia.throw_air",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_throw",
+            "frame": "f010",
+            "duration": 0
+          },
+          {
+            "key": "bia_throw",
+            "frame": "f011",
+            "duration": 0
+          },
+          {
+            "key": "bia_throw",
+            "frame": "f012",
+            "duration": 0
+          },
+          {
+            "key": "bia_throw",
+            "frame": "f013",
+            "duration": 0
+          },
+          {
+            "key": "bia_throw",
+            "frame": "f014",
+            "duration": 0
+          }
+        ],
+        "frameRate": 12,
+        "duration": 416.666667,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      }
+    ],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [
+    {
+      "animationKey": "bia.throw_stand",
+      "atFrameIndex": 4,
+      "action": "spawn_shell",
+      "parameters": {
+        "socket": "shell_painted_release_end",
+        "perAttackLimit": 1,
+        "note": "O quadro anterior já contém a concha pintada."
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 333.333333
+    },
+    {
+      "animationKey": "bia.throw_run",
+      "atFrameIndex": 4,
+      "action": "spawn_shell",
+      "parameters": {
+        "socket": "shell_painted_release_end",
+        "perAttackLimit": 1,
+        "note": "O quadro anterior já contém a concha pintada."
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 333.333333
+    },
+    {
+      "animationKey": "bia.throw_air",
+      "atFrameIndex": 4,
+      "action": "spawn_shell",
+      "parameters": {
+        "socket": "shell_painted_release_end",
+        "perAttackLimit": 1,
+        "note": "O quadro anterior já contém a concha pintada."
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 333.333333
+    }
+  ],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "bia": {
+      "throw": {
+        "standingAnimation": "bia.throw_stand",
+        "runningAnimation": "bia.throw_run",
+        "airAnimation": "bia.throw_air",
+        "cooldownMs": 480,
+        "maximumQueuedAttacks": 1,
+        "lockHorizontalMotion": false,
+        "cancelOnHurt": true,
+        "facingLockUntilProjectileSpawn": true
+      }
+    },
+    "projectiles": {
+      "shell": {
+        "texture": "shell_projectile",
+        "animation": "shell.spin",
+        "speedX": 540,
+        "velocityY": -210,
+        "gravity": 800,
+        "lifeMs": 1500,
+        "maxGroundBounces": 1,
+        "bounceFactor": 0.22,
+        "damage": 1,
+        "destroyOnEnemyHit": true,
+        "ignoreOwner": true,
+        "damageOncePerTarget": true,
+        "spawnSocket": "shell_painted_release_end",
+        "socketCalibrationRequired": true
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/bia/throw",
+    "/behaviors/projectiles/shell"
+  ],
+  "dependencies": [
+    {
+      "assetNumber": 10,
+      "textureKey": "bia_locomotion",
+      "imageFile": "../asset_10_bia_locomotion/asset_10_bia_locomotion.png",
+      "jsonFile": "../asset_10_bia_locomotion/asset_10_bia_locomotion.json"
+    },
+    {
+      "assetNumber": 12,
+      "textureKey": "shell_projectile",
+      "imageFile": "../asset_12_shell_projectile/asset_12_shell_projectile.png",
+      "jsonFile": "../asset_12_shell_projectile/asset_12_shell_projectile.json"
+    }
+  ],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('bia_throw', 'assets/ilha_farol/asset_11_bia_throw/asset_11_bia_throw.png', 'assets/ilha_farol/asset_11_bia_throw/asset_11_bia_throw.json');\nthis.load.json('config_asset_11', 'assets/ilha_farol/asset_11_bia_throw/asset_11_bia_throw.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_11');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência."
+  }
+}

@@ -17,7 +17,13 @@ export class Sofia {
   constructor(scene, x, y) {
     const S = SPRITES.sofia;
     this.scene = scene; this.S = S; this.T = SOFIA_TUNING;
-    const sp = scene.physics.add.sprite(x, y, S.key, 0).setOrigin(S.origin[0], S.origin[1]).setScale(S.scale).setDepth(10);
+    const isBia = scene.textures.exists("bia_locomotion");
+    this.isBia = isBia;
+    const initialKey = isBia ? "bia_locomotion" : S.key;
+    const initialFrame = isBia ? "f000" : 0;
+    const initialScale = isBia ? 0.82 : S.scale;
+    const initialOrigin = isBia ? [0.5, 0.96] : S.origin;
+    const sp = scene.physics.add.sprite(x, y, initialKey, initialFrame).setOrigin(initialOrigin[0], initialOrigin[1]).setScale(initialScale).setDepth(10);
     this.sprite = sp;
     sp.body.setMaxVelocity(900, this.T.maxFall);
     sp.body.setCollideWorldBounds(true);
@@ -27,20 +33,30 @@ export class Sofia {
     this.hurtT = 0; this.invulnT = 0; this.throwT = 0; this.landT = 0; this.locked = false; this.pointing = false;
     this.wasGrounded = false; this.airVy = 0; this.cheering = false;
     this.onRope = null; this.ropeDist = 0; this.ropeCooldown = 0; this.climbingActive = false;
-    sp.play(`${S.key}-idle`);
+    this.play("idle");
   }
   get x() { return this.sprite.x; }
   get y() { return this.sprite.y; }
   get body() { return this.sprite.body; }
   setBody(kind) {
+    if (this.isBia) {
+      if (kind === "stand") {
+        this.sprite.body.setSize(86, 204, false).setOffset(113, 114);
+      } else {
+        this.sprite.body.setSize(86, 116, false).setOffset(113, 202);
+      }
+      this.bodyKind = kind;
+      return;
+    }
     const [w, h, ox, oy] = this.S.body[kind];
     this.sprite.body.setSize(w, h, false).setOffset(ox, oy);
     this.bodyKind = kind;
   }
   /** há teto sólido onde a Sofia ficaria em pé? */
   canStand() {
-    const b = this.body, [, h] = this.S.body.stand, H = h * this.S.scale;
-    const hits = this.scene.physics.overlapRect(b.x + 2, b.bottom - H, b.width - 4, H - 6, false, true);
+    const b = this.body;
+    const standH = this.isBia ? 204 * 0.82 : this.S.body.stand[1] * this.S.scale;
+    const hits = this.scene.physics.overlapRect(b.x + 2, b.bottom - standH, b.width - 4, standH - 6, false, true);
     return !hits.some((hb) => hb.gameObject?.getData?.("solid"));
   }
   grabRope(rope, dist) {
@@ -195,6 +211,66 @@ export class Sofia {
     this.animate();
   }
   play(pose) {
+    if (this.isBia) {
+      let animKey = "bia.idle";
+      const b = this.body, speed = Math.abs(b?.velocity?.x || 0);
+      switch (pose) {
+        case "idle":
+          animKey = "bia.idle";
+          break;
+        case "walk":
+          animKey = "bia.walk";
+          break;
+        case "run":
+          animKey = "bia.run";
+          break;
+        case "jump":
+          animKey = "bia.jump";
+          break;
+        case "fall":
+          animKey = b && b.velocity.y > 200 ? "bia.fall" : "bia.apex";
+          break;
+        case "land":
+          animKey = "bia.land";
+          break;
+        case "crouch":
+          animKey = "bia.crouch_hold";
+          break;
+        case "crawl":
+          animKey = "bia.crawl";
+          break;
+        case "throw":
+          if (!this.grounded) animKey = "bia.throw_air";
+          else if (speed > 40) animKey = "bia.throw_run";
+          else animKey = "bia.throw_stand";
+          break;
+        case "point":
+          animKey = "bia.point";
+          break;
+        case "cheer":
+          animKey = "bia.discover";
+          break;
+        case "look":
+          animKey = "bia.observe";
+          break;
+        case "hurt":
+          animKey = "bia.land";
+          break;
+        case "climb":
+        case "climb_idle":
+          animKey = "bia.jump";
+          break;
+        default:
+          animKey = `bia.${pose}`;
+          break;
+      }
+      if (this.scene.anims.exists(animKey)) {
+        if (this.sprite.anims.currentAnim?.key !== animKey) {
+          this.sprite.play(animKey);
+        }
+        return;
+      }
+    }
     const k = `${this.S.key}-${pose}`;
     if (this.sprite.anims.currentAnim?.key !== k) this.sprite.play(k);
   }

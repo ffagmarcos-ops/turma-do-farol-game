@@ -1,0 +1,371 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 443,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 443,
+        "y": 0,
+        "w": 444,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 444,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 887,
+        "y": 0,
+        "w": 443,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 443,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 1330,
+        "y": 0,
+        "w": 444,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 444,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 0,
+        "y": 443,
+        "w": 443,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 443,
+        "y": 443,
+        "w": 444,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 444,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 887,
+        "y": 443,
+        "w": 443,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 1330,
+        "y": 443,
+        "w": 444,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 444,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_18_stone_projectile.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 18,
+    "textureKey": "stone_projectile",
+    "title": "Pedra projétil",
+    "imageFile": "asset_18_stone_projectile.png",
+    "originalFilename": "exec-e09a395b-b44e-4c42-a0af-17ab69e1ee96.png",
+    "sourceSizePx": {
+      "width": 1774,
+      "height": 887
+    },
+    "sourceMode": "RGBA",
+    "sha256": "d69d570223b89c3027bc31ac6fa91b24e6e9c0f67d451695d4f66b2b91c27ece",
+    "kind": "animation_sheet",
+    "frameCount": 8,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "fase_01",
+      "f001": "fase_02",
+      "f002": "fase_03",
+      "f003": "fase_04",
+      "f004": "fase_05",
+      "f005": "fase_06",
+      "f006": "fase_07",
+      "f007": "fase_08"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "normalization": "canvas_comum_por_folha_alinhado_ao_centro_inferior",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            443
+          ],
+          "x": [
+            0,
+            443,
+            887,
+            1330,
+            1774
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            443,
+            887
+          ],
+          "x": [
+            0,
+            443,
+            887,
+            1330,
+            1774
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": []
+    },
+    "animationKeys": [
+      "stone.spin"
+    ]
+  },
+  "phaserAnimations": {
+    "anims": [
+      {
+        "key": "stone.spin",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "stone_projectile",
+            "frame": "f000",
+            "duration": 0
+          },
+          {
+            "key": "stone_projectile",
+            "frame": "f001",
+            "duration": 0
+          },
+          {
+            "key": "stone_projectile",
+            "frame": "f002",
+            "duration": 0
+          },
+          {
+            "key": "stone_projectile",
+            "frame": "f003",
+            "duration": 0
+          },
+          {
+            "key": "stone_projectile",
+            "frame": "f004",
+            "duration": 0
+          },
+          {
+            "key": "stone_projectile",
+            "frame": "f005",
+            "duration": 0
+          },
+          {
+            "key": "stone_projectile",
+            "frame": "f006",
+            "duration": 0
+          },
+          {
+            "key": "stone_projectile",
+            "frame": "f007",
+            "duration": 0
+          }
+        ],
+        "frameRate": 14,
+        "duration": 571.428571,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      }
+    ],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [],
+  "incomingEvents": [
+    {
+      "animationKey": "monkey.throw",
+      "atFrameIndex": 4,
+      "action": "spawn_stone",
+      "parameters": {
+        "socket": "stone_painted_release_end",
+        "perAttackLimit": 1
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 400.0
+    }
+  ],
+  "behaviorConfig": {
+    "projectiles": {
+      "stone": {
+        "texture": "stone_projectile",
+        "animation": "stone.spin",
+        "flightTimeMs": 850,
+        "gravity": 900,
+        "trajectory": "Capture target at lock_stone_aim, then solve vx=(targetX-startX)/T and vy=(targetY-startY-0.5*g*T*T)/T, with T in seconds.",
+        "lifeMs": 1800,
+        "damage": 1,
+        "destroyOnFirstCollision": true,
+        "showLandingShadow": true,
+        "removeShadowOnCancelOrImpact": true,
+        "ignoreOwner": true,
+        "spawnSocket": "stone_painted_release_end",
+        "socketCalibrationRequired": true
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/projectiles/stone"
+  ],
+  "dependencies": [
+    {
+      "assetNumber": 17,
+      "textureKey": "monkey",
+      "imageFile": "../asset_17_monkey/asset_17_monkey.png",
+      "jsonFile": "../asset_17_monkey/asset_17_monkey.json"
+    }
+  ],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('stone_projectile', 'assets/ilha_farol/asset_18_stone_projectile/asset_18_stone_projectile.png', 'assets/ilha_farol/asset_18_stone_projectile/asset_18_stone_projectile.json');\nthis.load.json('config_asset_18', 'assets/ilha_farol/asset_18_stone_projectile/asset_18_stone_projectile.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_18');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência."
+  }
+}

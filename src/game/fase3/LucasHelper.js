@@ -23,10 +23,16 @@ export class LucasHelper {
     this.facing = def.facing ?? 1;
 
     const S = SPRITES.lucas;
+    const useAtlas = scene.textures.exists("lucas_device");
+    this.useAtlas = useAtlas;
+    const key = useAtlas ? "lucas_device" : S.key;
+    const initialFrame = useAtlas ? "f000" : 0;
+    const scale = useAtlas ? 0.62 : S.scale;
+    const origin = useAtlas ? [0.5, 0.95] : S.origin;
     this.sprite = scene.add
-      .sprite(this.x, this.y, S.key, 0)
-      .setOrigin(...S.origin)
-      .setScale(S.scale)
+      .sprite(this.x, this.y, key, initialFrame)
+      .setOrigin(...origin)
+      .setScale(scale)
       .setFlipX(this.facing < 0)
       .setDepth(6.3);
 
@@ -74,11 +80,27 @@ export class LucasHelper {
       for (const b of this.buoys) this.enableBuoyImmediate(b);
       this.state = "celebrate";
       this.t = 0;
-      this.sprite.play("f3_lucas-celebrate", true);
+      this.play("celebrate");
     } else {
       this.state = "idle";
       this.t = 0;
-      this.sprite.play("f3_lucas-idle", true);
+      this.play("idle");
+    }
+  }
+
+  play(pose) {
+    let k = `f3_lucas-${pose}`;
+    if (this.useAtlas) {
+      const map = {
+        idle: "lucas.idle",
+        operateGadget: "lucas.assemble",
+        activate: "lucas.ready",
+        celebrate: "lucas.ready",
+      };
+      if (map[pose] && this.scene.anims.exists(map[pose])) k = map[pose];
+    }
+    if (this.scene.anims.exists(k) && this.sprite.anims.currentAnim?.key !== k) {
+      this.sprite.play(k, true);
     }
   }
 
@@ -126,7 +148,7 @@ export class LucasHelper {
       if (inZone) {
         this.state = "operateGadget";
         this.t = 0.42;
-        this.sprite.play("f3_lucas-operateGadget", true);
+        this.play("operateGadget");
         this.scene.sfx?.gadgetBeep?.();
         this.scene.icon?.(this.x, this.y - 190);
       }
@@ -135,7 +157,7 @@ export class LucasHelper {
       if (this.t <= 0) {
         this.state = "activate";
         this.t = 0.68;
-        this.sprite.play("f3_lucas-activate", true);
+        this.play("activate");
         this.scene.sfx?.gadgetActivate?.();
         this.scene.onLucasTriggered?.(this.id);
       }
@@ -157,12 +179,12 @@ export class LucasHelper {
         this.pulseGfx.clear();
         for (const b of this.buoys) if (!b.active) this.popBuoy(b);
         this.state = "active";
-        this.sprite.play("f3_lucas-idle", true);
+        this.play("idle");
       }
     } else if (this.state === "active") {
       if (d.celebrateX && sofia.x >= d.celebrateX) {
         this.state = "celebrate";
-        this.sprite.play("f3_lucas-celebrate", true);
+        this.play("celebrate");
         this.scene.stars?.(this.x, this.y - 165);
         this.scene.sfx?.ready?.();
       }

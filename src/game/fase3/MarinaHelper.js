@@ -42,10 +42,16 @@ export class MarinaHelper {
     this.marinaY = this.crateStartY;
 
     // Sprite da Marina (sem colisão para nunca bloquear a Sofia)
+    const useAtlas = scene.textures.exists("marina_push");
+    this.useAtlas = useAtlas;
+    const key = useAtlas ? "marina_push" : M.key;
+    const initialFrame = useAtlas ? "f000" : 0;
+    const scale = useAtlas ? 0.65 : M.scale;
+    const origin = useAtlas ? [0.5, 0.95] : M.origin;
     this.sprite = scene.add
-      .sprite(this.marinaX, this.marinaY, M.key, 0)
-      .setOrigin(M.origin[0], M.origin[1])
-      .setScale(M.scale)
+      .sprite(this.marinaX, this.marinaY, key, initialFrame)
+      .setOrigin(origin[0], origin[1])
+      .setScale(scale)
       .setDepth(8.8)
       .setFlipX(this.pushDir < 0);
 
@@ -71,7 +77,16 @@ export class MarinaHelper {
   }
 
   play(pose) {
-    const k = `${this.M.key}-${pose}`;
+    let k = `${this.M.key}-${pose}`;
+    if (this.useAtlas) {
+      const map = {
+        idle: "marina.idle",
+        notice: "marina.prepare",
+        push: "marina.push",
+        cheer: "marina.finish",
+      };
+      if (map[pose] && this.scene.anims.exists(map[pose])) k = map[pose];
+    }
     if (this.sprite.anims.currentAnim?.key !== k) this.sprite.play(k);
   }
 

@@ -19,9 +19,15 @@ export class Macaco {
   constructor(scene, def) {
     const M = SPRITES.monkey;
     this.scene = scene; this.def = def; this.id = def.uid; this.M = M;
-    const sp = scene.physics.add.sprite(def.x, def.y ?? 650, M.key, 0).setOrigin(M.origin[0], M.origin[1]).setScale(M.scale).setDepth(8.2);
+    const useAtlas = scene.textures.exists("monkey");
+    this.useAtlas = useAtlas;
+    const key = useAtlas ? "monkey" : M.key;
+    const initialFrame = useAtlas ? "f000" : 0;
+    const scale = useAtlas ? 0.68 : M.scale;
+    const origin = useAtlas ? [0.5, 0.95] : M.origin;
+    const sp = scene.physics.add.sprite(def.x, def.y ?? 650, key, initialFrame).setOrigin(origin[0], origin[1]).setScale(scale).setDepth(8.2);
     scene.monkeyGroup?.add(sp);
-    const [w, h, ox, oy] = M.body;
+    const [w, h, ox, oy] = useAtlas ? [90, 116, 103, 172] : M.body;
     sp.body.setSize(w, h, false).setOffset(ox, oy);
     sp.body.setMaxVelocity(700, 1400);
     sp.setData("monkey", this);
@@ -42,7 +48,21 @@ export class Macaco {
   get x() { return this.sprite.x; }
   get y() { return this.sprite.y; }
   play(pose) {
-    const k = `${this.M.key}-${pose}`;
+    let k = `${this.M.key}-${pose}`;
+    if (this.useAtlas) {
+      const map = {
+        idle: "monkey.idle",
+        watch: "monkey.notice",
+        pick: "monkey.pickup",
+        aim: "monkey.throw",
+        throw: "monkey.throw",
+        laugh: "monkey.taunt",
+        hurt: "monkey.hurt",
+        stun: "monkey.stun_hanging",
+        defeat: "monkey.hurt",
+      };
+      if (map[pose] && this.scene.anims.exists(map[pose])) k = map[pose];
+    }
     if (this.sprite.anims.currentAnim?.key !== k) this.sprite.play(k);
   }
   setActive(on) {

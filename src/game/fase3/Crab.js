@@ -11,9 +11,15 @@ export class Crab {
   constructor(scene, def) {
     const C = SPRITES.crab;
     this.scene = scene; this.def = def; this.id = def.uid; this.C = C;
-    const sp = scene.physics.add.sprite(def.x, def.y ?? 880, C.key, 0).setOrigin(C.origin[0], C.origin[1]).setScale(C.scale).setDepth(8);
+    const useAtlas = scene.textures.exists("crab");
+    this.useAtlas = useAtlas;
+    const key = useAtlas ? "crab" : C.key;
+    const initialFrame = useAtlas ? "f000" : 0;
+    const scale = useAtlas ? 0.72 : C.scale;
+    const origin = useAtlas ? [0.5, 0.95] : C.origin;
+    const sp = scene.physics.add.sprite(def.x, def.y ?? 880, key, initialFrame).setOrigin(origin[0], origin[1]).setScale(scale).setDepth(8);
     scene.crabGroup?.add(sp);
-    const [w, h, ox, oy] = C.body;
+    const [w, h, ox, oy] = useAtlas ? [110, 80, 54, 110] : C.body;
     sp.body.setSize(w, h, false).setOffset(ox, oy);
     sp.body.setMaxVelocity(900, 1400);
     sp.setData("crab", this);
@@ -23,7 +29,21 @@ export class Crab {
   }
   get x() { return this.sprite.x; }
   get y() { return this.sprite.y; }
-  play(pose) { const k = `${this.C.key}-${pose}`; if (this.sprite.anims.currentAnim?.key !== k) this.sprite.play(k); }
+  play(pose) {
+    let k = `${this.C.key}-${pose}`;
+    if (this.useAtlas) {
+      const map = {
+        idle: "crab.idle",
+        walk: "crab.walk",
+        raise: "crab.alert",
+        attack: "crab.attack",
+        hurt: "crab.hurt",
+        defeat: "crab.defeat",
+      };
+      if (map[pose] && this.scene.anims.exists(map[pose])) k = map[pose];
+    }
+    if (this.sprite.anims.currentAnim?.key !== k) this.sprite.play(k);
+  }
   groundAhead() {
     const b = this.sprite.body;
     return this.scene.physics.overlapRect(b.center.x + this.dir * (b.width / 2 + 12), b.bottom + 4, 8, 30, false, true).length > 0;

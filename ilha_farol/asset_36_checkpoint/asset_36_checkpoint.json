@@ -1,0 +1,165 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 887,
+        "h": 887
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 887,
+        "h": 887
+      },
+      "sourceSize": {
+        "w": 887,
+        "h": 887
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 887,
+        "y": 0,
+        "w": 887,
+        "h": 887
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 887,
+        "h": 887
+      },
+      "sourceSize": {
+        "w": 887,
+        "h": 887
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_36_checkpoint.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 36,
+    "textureKey": "checkpoint",
+    "title": "Checkpoint apagado e ativo",
+    "imageFile": "asset_36_checkpoint.png",
+    "originalFilename": "exec-21f2dad5-96cf-48bb-b255-88370a468c5e.png",
+    "sourceSizePx": {
+      "width": 1774,
+      "height": 887
+    },
+    "sourceMode": "RGBA",
+    "sha256": "a05947ad4ea0faafd994e18a335269e003260f49393e4e81ec40cd84d77b51e6",
+    "kind": "state_images",
+    "frameCount": 2,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "apagado",
+      "f001": "ativo"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "normalization": "tamanho_proprio_do_recorte",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            887
+          ],
+          "x": [
+            0,
+            887,
+            1774
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": [
+        "Alternar apagado/ativo por estado, sem loop de dois quadros."
+      ]
+    },
+    "animationKeys": []
+  },
+  "phaserAnimations": {
+    "anims": [],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "checkpoint": {
+      "texture": "checkpoint",
+      "inactiveFrame": "f000",
+      "activeFrame": "f001",
+      "trigger": "player_overlap_first_time",
+      "switchIsAnimationLoop": false,
+      "activationTween": {
+        "scaleMultiplier": 1.06,
+        "durationMs": 180,
+        "yoyo": true
+      },
+      "save": [
+        "checkpoint_id",
+        "safe_player_position",
+        "completed_npc_puzzles",
+        "found_secrets",
+        "collected_sextants"
+      ],
+      "resetOnRespawn": [
+        "enemies",
+        "projectiles",
+        "temporary_platforms",
+        "charge_state"
+      ],
+      "respawnDogOnSafeGround": true,
+      "neverSaveMidAirOrInsideHazard": true,
+      "targetSpacingMinutes": [
+        3,
+        5
+      ]
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/checkpoint"
+  ],
+  "dependencies": [],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('checkpoint', 'assets/ilha_farol/asset_36_checkpoint/asset_36_checkpoint.png', 'assets/ilha_farol/asset_36_checkpoint/asset_36_checkpoint.json');\nthis.load.json('config_asset_36', 'assets/ilha_farol/asset_36_checkpoint/asset_36_checkpoint.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_36');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência.",
+    "staticAssetNote": "Este asset não possui sequência temporal de quadros. O JSON configura módulos, estados, partículas ou movimentos procedurais conforme o tipo."
+  }
+}

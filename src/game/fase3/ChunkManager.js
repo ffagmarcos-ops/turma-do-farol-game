@@ -196,7 +196,11 @@ export class ChunkManager {
     }
     for (const cp of c.checkpoints || []) {
       const on = s.cpActive === cp.id || s.cpReached.has(cp.id);
-      const spr = s.add.sprite(cp.x, s.levelGroundY(cp.x) + 4, "f3_checkpoint", on ? 1 : 0).setOrigin(0.5, 1).setScale(0.9).setDepth(DEPTH.checkpoint);
+      const useAtlas = s.textures.exists("checkpoint");
+      const key = useAtlas ? "checkpoint" : "f3_checkpoint";
+      const frame = useAtlas ? (on ? "f001" : "f000") : (on ? 1 : 0);
+      const scale = useAtlas ? 0.28 : 0.9;
+      const spr = s.add.sprite(cp.x, s.levelGroundY(cp.x) + 4, key, frame).setOrigin(0.5, 1).setScale(scale).setDepth(DEPTH.checkpoint);
       spr.play(on ? "f3_checkpoint-on" : "f3_checkpoint-off");
       const entry = { def: cp, sprite: spr, chunk: c.id }; this.checkpoints.push(entry); objs.push(spr);
     }

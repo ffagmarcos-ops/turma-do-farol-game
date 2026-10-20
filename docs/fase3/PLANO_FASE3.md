@@ -227,7 +227,30 @@ Cada chunk é um objeto dentro de `chunks: [...]` do setor. As coordenadas são 
   - Cavernas (ecos `caveEcho` e ressonância mística `caveHum`).
   - Efeitos em destaque e música equilibrada, respeitando o `AudioManager`.
 
-## Próximo marco: Passo 16 — Trocar a arte provisória pela arte final
-- Colocar os arquivos PNG finais nas respectivas pastas em `public/assets/farol/fase3_ilha/...` seguindo `docs/fase3/ASSETS_FASE3.md`.
-- Executar `node list_assets.mjs` e recarregar o jogo.
-- Fazer ajustes finos de dimensões de quadro e alinhamentos de colisão no manifesto `Fase3Assets.js`.
+### Passo 16 (Trocar a arte provisória pela arte final — Pacote Ilha do Farol): concluído ✅
+- **Instalação e Catálogo:**
+  - 32 assets oficiais com atlas embutido integrados em `public/assets/ilha_farol/` e catalogados no `files.json` (354 arquivos no total).
+  - Manifesto `ilha_farol_animacoes_assets_06_37.json` integrado no `Fase3Loader.js`, carregando os 32 atlas com todas as 69 definições de animações Phaser 3 (`phaserAnimations.anims`).
+- **Protagonista Oficial — Bia Oliveira (Assets 10, 11 e 27):**
+  - Texturas `bia_locomotion`, `bia_throw` e `bia_secret` ativadas na classe jogável.
+  - Escala corporal calibrada (`0.82`) com corpo físico desacoplado (`stand`: 86x204, `crouch`: 86x116).
+  - Máquina de estados animada: `bia.idle`, `bia.walk`, `bia.run`, `bia.jump`, `bia.apex`, `bia.fall`, `bia.land`, `bia.crouch_hold`, `bia.crawl`, `bia.throw_stand`, `bia.throw_run`, `bia.throw_air`, `bia.observe`, `bia.discover`, `bia.point`.
+  - Compatibilidade total com o salto duplo (Passo 15) e agachamento para vãos de 120 px.
+- **Faísca (Assets 13 e 14):**
+  - Texturas `faisca_run` e `faisca_bark` em 4 patas integradas.
+  - Escala `0.52` perfeitamente alinhada ao chão ao lado de Bia.
+  - Animações `faisca.idle`, `faisca.run`, `faisca.jump_placeholder`, `faisca.brake`, `faisca.charge`, `faisca.charged`, `faisca.bark`, `faisca.cancel_charge`.
+- **Inimigos do Ecossistema:**
+  - **Caranguejo (Asset 16):** atlas `crab`, escala `0.72`, animações `crab.idle`, `crab.walk`, `crab.alert`, `crab.attack`, `crab.hurt`, `crab.defeat`.
+  - **Macaco (Asset 17):** atlas `monkey`, escala `0.68`, animações `monkey.idle`, `monkey.notice`, `monkey.pickup`, `monkey.throw`, `monkey.taunt`, `monkey.hurt`, `monkey.stun_hanging`, `monkey.recover`.
+- **Helpers & Companheiros da Turma:**
+  - **Seu Toninho (Asset 19):** atlas `toninho_rope`, escala `0.62`, animações `toninho.idle`, `toninho.throw_rope`, `toninho.brace`, `toninho.confirm`.
+  - **Marina (Asset 21):** atlas `marina_push`, escala `0.65`, animações `marina.idle`, `marina.prepare`, `marina.push`, `marina.finish`.
+  - **Júlia (Asset 22):** atlas `julia_camera`, escala `0.62`, animações `julia.idle`, `julia.flash`.
+  - **Lucas (Asset 25):** atlas `lucas_device`, escala `0.62`, animações `lucas.idle`, `lucas.assemble`, `lucas.ready`.
+- **Props, Checkpoint e FX:**
+  - **Checkpoint (Asset 36):** atlas `checkpoint`, escala `0.28`, alternando frame `f000` (desativado) e `f001` (ativado).
+  - **Concha Projétil (Asset 12):** atlas `shell_projectile`, animação rotativa `shell.spin`.
+  - **Pedra do Macaco (Asset 18):** atlas `stone_projectile`, animação `stone.spin`.
+  - **Onda do Latido (Asset 15):** atlas `bark_wave`, animação de pulso sônico `bark_wave.play`.
+- **Robustez e Retrocompatibilidade:** Fallbacks preservados para todos os elementos, garantindo execução fluida sem erros visuais ou quebras de física.

@@ -1,0 +1,61 @@
+O MISTÉRIO DA ILHA DO FAROL — ASSETS 06 A 37
+Pacote corrigido: Bia é a protagonista; Faísca acompanha Bia; Júlia ajuda com a câmera.
+
+CONTEÚDO
+32 pastas, uma para cada asset, com exatamente um PNG e um JSON correspondente.
+O JSON geral na raiz reúne o planejamento, as 69 sequências e as regras de integração.
+Os assets 10 e 11 já são as versões corrigidas de Bia; a folha 10 é a versão com maior espaçamento.
+O asset 27 contém ações da mesma Bia jogável. Não criar uma segunda Bia como NPC.
+Os PNGs foram copiados sem alterar seus pixels, dimensões ou transparência original.
+
+COMO USAR NO ANTIGRAVITY
+1. Extraia o ZIP. A pasta principal se chama ilha_farol.
+2. Coloque essa pasta no diretório de arquivos públicos do projeto, acessível em assets/ilha_farol/.
+   A localização física desse diretório depende do projeto. Se a URL for diferente, ajuste assetBasePath no JSON geral.
+3. Peça ao Antigravity para integrar pelo JSON geral. Os caminhos para os 32 PNGs já incluem suas subpastas.
+4. Para trabalhar em um único asset, use o PNG e o JSON dentro da pasta dele.
+   No JSON individual, frames e meta são o atlas; phaserAnimations contém as animações dessa imagem.
+   behaviorConfig descreve suas regras e dependencies aponta para assets relacionados.
+5. Implemente os eventos e controladores indicados no JSON geral. Configuração JSON não executa sozinha a física e a lógica do jogo.
+6. Teste inicialmente Bia, Faísca, conchas e latido; depois integre inimigos, NPCs e plataformas.
+
+ORGANIZAÇÃO DAS PASTAS
+asset_06_forest_tiles/ — Tileset floresta
+asset_07_ruins_cave_tiles/ — Tileset ruínas e caverna
+asset_08_beach_waves/ — Ondas da praia
+asset_09_waterfall/ — Cachoeira
+asset_10_bia_locomotion/ — Bia: locomoção
+asset_11_bia_throw/ — Bia: lançamento de conchas
+asset_12_shell_projectile/ — Concha projétil
+asset_13_faisca_run/ — Faísca: corrida
+asset_14_faisca_bark/ — Faísca: latido especial
+asset_15_bark_wave/ — Onda sonora do latido
+asset_16_crab/ — Caranguejo inimigo
+asset_17_monkey/ — Macaco inimigo: versão corrigida
+asset_18_stone_projectile/ — Pedra projétil
+asset_19_toninho_rope/ — Toninho: corda, versão final
+asset_20_rope/ — Corda interativa
+asset_21_marina_push/ — Marina: plataforma
+asset_22_julia_camera/ — Júlia: câmera
+asset_23_camera_flash/ — Flash fotográfico
+asset_24_monkey_stun/ — Macaco: atordoado no galho
+asset_25_lucas_device/ — Lucas: dispositivo
+asset_26_floating_platforms/ — Cinco plataformas flutuantes
+asset_27_bia_secret/ — Bia: investigação e indicação de caminho pela protagonista
+asset_28_crumble_platform/ — Plataforma que desaba
+asset_29_flex_branch/ — Galho flexível
+asset_30_secret_entrance/ — Entrada atrás da cachoeira
+asset_31_secret_grotto/ — Gruta secreta
+asset_32_ruins_props/ — Ruínas antigas
+asset_33_blue_cave_entrance/ — Entrada da Caverna Azul
+asset_34_forest_particles/ — Partículas de floresta
+asset_35_water_particles/ — Partículas de água
+asset_36_checkpoint/ — Checkpoint apagado e ativo
+asset_37_secret_collectible/ — Sextante colecionável
+
+OBSERVAÇÕES DE INTEGRAÇÃO
+Não registrar novamente os mesmos eventos e animações se já foram carregados pelo JSON geral.
+Variantes de plataformas, tiles, formas de partículas e estados de checkpoint não são ciclos de animação.
+As poses ainda ausentes e os recortes problemáticos de alguns assets continuam sinalizados.
+Os arquivos foram verificados estruturalmente; física, alinhamento e comportamento ainda precisam de teste no jogo.
+Este pacote cobre os assets 06 a 37; assets 01 a 05 não estão incluídos.

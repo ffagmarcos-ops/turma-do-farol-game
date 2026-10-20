@@ -1,0 +1,374 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 443,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 443,
+        "y": 0,
+        "w": 444,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 444,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 887,
+        "y": 0,
+        "w": 443,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 443,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 1330,
+        "y": 0,
+        "w": 444,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 444,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 0,
+        "y": 443,
+        "w": 443,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 443,
+        "y": 443,
+        "w": 444,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 444,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 887,
+        "y": 443,
+        "w": 443,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 1330,
+        "y": 443,
+        "w": 444,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 444,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_15_bark_wave.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 15,
+    "textureKey": "bark_wave",
+    "title": "Onda sonora do latido",
+    "imageFile": "asset_15_bark_wave.png",
+    "originalFilename": "exec-f188ec86-4115-4675-bda8-1fad43d0917a.png",
+    "sourceSizePx": {
+      "width": 1774,
+      "height": 887
+    },
+    "sourceMode": "RGBA",
+    "sha256": "fcc29967a1eca3e2f2f297f0803fd3b65a30c90c331f3eff3baba30ea0d24ca4",
+    "kind": "animation_sheet",
+    "frameCount": 8,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "fase_01",
+      "f001": "fase_02",
+      "f002": "fase_03",
+      "f003": "fase_04",
+      "f004": "fase_05",
+      "f005": "fase_06",
+      "f006": "fase_07",
+      "f007": "fase_08"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "normalization": "canvas_comum_por_folha_alinhado_ao_centro_inferior",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            443
+          ],
+          "x": [
+            0,
+            443,
+            887,
+            1330,
+            1774
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            443,
+            887
+          ],
+          "x": [
+            0,
+            443,
+            887,
+            1330,
+            1774
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": []
+    },
+    "animationKeys": [
+      "bark_wave.play"
+    ]
+  },
+  "phaserAnimations": {
+    "anims": [
+      {
+        "key": "bark_wave.play",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bark_wave",
+            "frame": "f000",
+            "duration": 0
+          },
+          {
+            "key": "bark_wave",
+            "frame": "f001",
+            "duration": 0
+          },
+          {
+            "key": "bark_wave",
+            "frame": "f002",
+            "duration": 0
+          },
+          {
+            "key": "bark_wave",
+            "frame": "f003",
+            "duration": 0
+          },
+          {
+            "key": "bark_wave",
+            "frame": "f004",
+            "duration": 0
+          },
+          {
+            "key": "bark_wave",
+            "frame": "f005",
+            "duration": 0
+          },
+          {
+            "key": "bark_wave",
+            "frame": "f006",
+            "duration": 0
+          },
+          {
+            "key": "bark_wave",
+            "frame": "f007",
+            "duration": 0
+          }
+        ],
+        "frameRate": 18,
+        "duration": 444.444444,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": true,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      }
+    ],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [],
+  "incomingEvents": [
+    {
+      "animationKey": "faisca.bark",
+      "atFrameIndex": 0,
+      "action": "spawn_bark_wave",
+      "parameters": {
+        "socket": "faisca_mouth",
+        "perCastLimit": 1
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 0.0
+    }
+  ],
+  "behaviorConfig": {
+    "projectiles": {
+      "barkWave": {
+        "texture": "bark_wave",
+        "animation": "bark_wave.play",
+        "durationMs": 444.444444,
+        "maxRange": 620,
+        "originSocket": "faisca_mouth",
+        "direction": "bia_facing_at_release",
+        "damageMode": "instant_comic_defeat_common_enemies",
+        "targetTags": [
+          "common_enemy"
+        ],
+        "bossBehavior": "requires_separate_design",
+        "hitEachEnemyOncePerCast": true,
+        "geometry": "Expanding forward sector; sweep radius from 0 to maxRange during durationMs, mirrored with facing.",
+        "angleDegrees": 70,
+        "blockBySolidWalls": true,
+        "visualRule": "A arte já cresce entre os quadros. Não duplicar esse crescimento com uma segunda escala exponencial."
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/projectiles/barkWave"
+  ],
+  "dependencies": [
+    {
+      "assetNumber": 14,
+      "textureKey": "faisca_bark",
+      "imageFile": "../asset_14_faisca_bark/asset_14_faisca_bark.png",
+      "jsonFile": "../asset_14_faisca_bark/asset_14_faisca_bark.json"
+    }
+  ],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('bark_wave', 'assets/ilha_farol/asset_15_bark_wave/asset_15_bark_wave.png', 'assets/ilha_farol/asset_15_bark_wave/asset_15_bark_wave.json');\nthis.load.json('config_asset_15', 'assets/ilha_farol/asset_15_bark_wave/asset_15_bark_wave.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_15');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência."
+  }
+}

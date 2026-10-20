@@ -1,0 +1,351 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 512,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 1024,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_24_monkey_stun.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1536,
+      "h": 1024
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 24,
+    "textureKey": "monkey_stun",
+    "title": "Macaco: atordoado no galho",
+    "imageFile": "asset_24_monkey_stun.png",
+    "originalFilename": "exec-95f89aff-2b01-43a8-ac8f-c843e1944f0a.png",
+    "sourceSizePx": {
+      "width": 1536,
+      "height": 1024
+    },
+    "sourceMode": "RGBA",
+    "sha256": "0ffc0dd9f19f139e8fd2174d0e8fc70939344f43ba3efc9c23bf526ab1b43372",
+    "kind": "animation_sheet",
+    "frameCount": 6,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "fechar_olhos",
+      "f001": "proteger_rosto",
+      "f002": "balancar",
+      "f003": "sentar",
+      "f004": "esfregar_olhos",
+      "f005": "recuperar"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 1
+      },
+      "normalization": "canvas_comum_por_folha_alinhado_ao_centro_inferior",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            512
+          ],
+          "x": [
+            0,
+            512,
+            1024,
+            1536
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            512,
+            1024
+          ],
+          "x": [
+            0,
+            512,
+            1024,
+            1536
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": [
+        "Macaco sentado com galho desenhado: variação de postura distinta do macaco pendurado do asset 17."
+      ]
+    },
+    "animationKeys": [
+      "monkey_perched.stun_enter",
+      "monkey_perched.stun_hold",
+      "monkey_perched.recover"
+    ]
+  },
+  "phaserAnimations": {
+    "anims": [
+      {
+        "key": "monkey_perched.stun_enter",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "monkey_stun",
+            "frame": "f000",
+            "duration": 0
+          },
+          {
+            "key": "monkey_stun",
+            "frame": "f001",
+            "duration": 0
+          },
+          {
+            "key": "monkey_stun",
+            "frame": "f002",
+            "duration": 0
+          },
+          {
+            "key": "monkey_stun",
+            "frame": "f003",
+            "duration": 0
+          }
+        ],
+        "frameRate": 8,
+        "duration": 500.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "monkey_perched.stun_hold",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "monkey_stun",
+            "frame": "f003",
+            "duration": 0
+          },
+          {
+            "key": "monkey_stun",
+            "frame": "f004",
+            "duration": 0
+          }
+        ],
+        "frameRate": 4,
+        "duration": 500.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "monkey_perched.recover",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "monkey_stun",
+            "frame": "f005",
+            "duration": 0
+          }
+        ],
+        "frameRate": 6,
+        "duration": 166.666667,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      }
+    ],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "monkeys": {
+      "perched": {
+        "texture": "monkey_stun",
+        "animations": {
+          "stun_enter": "monkey_perched.stun_enter",
+          "stun_hold": "monkey_perched.stun_hold",
+          "recover": "monkey_perched.recover"
+        },
+        "stunDurationMs": 2000,
+        "stunDurationIncludesEnterAndHold": true,
+        "ordinaryIdleAndThrowArtMissing": true,
+        "enabledByDefault": false,
+        "note": "Variação de postura; precisa de poses normais próprias antes de funcionar como segundo tipo completo de inimigo."
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/monkeys/perched"
+  ],
+  "dependencies": [
+    {
+      "assetNumber": 22,
+      "textureKey": "julia_camera",
+      "imageFile": "../asset_22_julia_camera/asset_22_julia_camera.png",
+      "jsonFile": "../asset_22_julia_camera/asset_22_julia_camera.json"
+    },
+    {
+      "assetNumber": 23,
+      "textureKey": "camera_flash",
+      "imageFile": "../asset_23_camera_flash/asset_23_camera_flash.png",
+      "jsonFile": "../asset_23_camera_flash/asset_23_camera_flash.json"
+    }
+  ],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('monkey_stun', 'assets/ilha_farol/asset_24_monkey_stun/asset_24_monkey_stun.png', 'assets/ilha_farol/asset_24_monkey_stun/asset_24_monkey_stun.json');\nthis.load.json('config_asset_24', 'assets/ilha_farol/asset_24_monkey_stun/asset_24_monkey_stun.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_24');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência."
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 443,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 443,
+        "y": 0,
+        "w": 444,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 444,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 887,
+        "y": 0,
+        "w": 443,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 443,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 1330,
+        "y": 0,
+        "w": 444,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 444,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 0,
+        "y": 443,
+        "w": 443,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 443,
+        "y": 443,
+        "w": 444,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 444,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 887,
+        "y": 443,
+        "w": 443,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 1330,
+        "y": 443,
+        "w": 444,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 444,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_25_lucas_device.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 25,
+    "textureKey": "lucas_device",
+    "title": "Lucas: dispositivo",
+    "imageFile": "asset_25_lucas_device.png",
+    "originalFilename": "exec-0a98824f-7ea1-4599-9a57-7d1243381628.png",
+    "sourceSizePx": {
+      "width": 1774,
+      "height": 887
+    },
+    "sourceMode": "RGBA",
+    "sha256": "9f7dc18be244750031696dc52120290f8945934f4b2b8b4b3faad46c8fc6080c",
+    "kind": "animation_sheet",
+    "frameCount": 8,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "maleta_fechada",
+      "f001": "abrir",
+      "f002": "selecionar",
+      "f003": "encaixar",
+      "f004": "apertar",
+      "f005": "ativar",
+      "f006": "luz_azul",
+      "f007": "positivo"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 1
+      },
+      "normalization": "canvas_comum_por_folha_alinhado_ao_centro_inferior",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            443
+          ],
+          "x": [
+            0,
+            443,
+            887,
+            1330,
+            1774
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            443,
+            887
+          ],
+          "x": [
+            0,
+            443,
+            887,
+            1330,
+            1774
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": []
+    },
+    "animationKeys": [
+      "lucas.idle",
+      "lucas.assemble",
+      "lucas.ready"
+    ]
+  },
+  "phaserAnimations": {
+    "anims": [
+      {
+        "key": "lucas.idle",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "lucas_device",
+            "frame": "f000",
+            "duration": 0
+          }
+        ],
+        "frameRate": 1,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "lucas.assemble",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "lucas_device",
+            "frame": "f000",
+            "duration": 0
+          },
+          {
+            "key": "lucas_device",
+            "frame": "f001",
+            "duration": 0
+          },
+          {
+            "key": "lucas_device",
+            "frame": "f002",
+            "duration": 0
+          },
+          {
+            "key": "lucas_device",
+            "frame": "f003",
+            "duration": 0
+          },
+          {
+            "key": "lucas_device",
+            "frame": "f004",
+            "duration": 0
+          },
+          {
+            "key": "lucas_device",
+            "frame": "f005",
+            "duration": 0
+          },
+          {
+            "key": "lucas_device",
+            "frame": "f006",
+            "duration": 0
+          }
+        ],
+        "frameRate": 5,
+        "duration": 1400.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "lucas.ready",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "lucas_device",
+            "frame": "f007",
+            "duration": 0
+          }
+        ],
+        "frameRate": 1,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      }
+    ],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [
+    {
+      "animationKey": "lucas.assemble",
+      "atFrameIndex": 5,
+      "action": "activate_floating_platforms",
+      "parameters": {
+        "groupId": "lucas_stream",
+        "activationStaggerMs": 180,
+        "oncePerPuzzle": true
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 1000.0
+    }
+  ],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "lucas": {
+      "trigger": "interact_at_stream",
+      "animations": {
+        "idle": "lucas.idle",
+        "assemble": "lucas.assemble",
+        "ready": "lucas.ready"
+      },
+      "sequence": [
+        "assemble",
+        "activate_platforms_at_keyframe",
+        "hold_ready"
+      ],
+      "caseAlreadyInArtwork": true,
+      "repeatAfterComplete": false,
+      "persistCompletionAtCheckpoint": true,
+      "platformGroup": {
+        "id": "lucas_stream",
+        "texture": "floating_platforms",
+        "frames": [
+          "f000",
+          "f001",
+          "f002",
+          "f003",
+          "f004"
+        ],
+        "count": 5,
+        "variantsAreAnimation": false,
+        "placeAt": "five_level_markers_over_stream",
+        "initialState": "inactive_below_water",
+        "activateStaggerMs": 180,
+        "riseDistance": 90,
+        "riseDurationMs": 650,
+        "riseEasing": "Sine.Out",
+        "bobAmplitude": 5,
+        "bobPeriodMs": 2200,
+        "phaseOffsetMs": 330,
+        "enableColliderWhen": "rise_complete",
+        "carryPlayerByPlatformDelta": true,
+        "canSinkAgain": false
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/lucas"
+  ],
+  "dependencies": [
+    {
+      "assetNumber": 26,
+      "textureKey": "floating_platforms",
+      "imageFile": "../asset_26_floating_platforms/asset_26_floating_platforms.png",
+      "jsonFile": "../asset_26_floating_platforms/asset_26_floating_platforms.json"
+    }
+  ],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('lucas_device', 'assets/ilha_farol/asset_25_lucas_device/asset_25_lucas_device.png', 'assets/ilha_farol/asset_25_lucas_device/asset_25_lucas_device.json');\nthis.load.json('config_asset_25', 'assets/ilha_farol/asset_25_lucas_device/asset_25_lucas_device.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_25');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência."
+  }
+}

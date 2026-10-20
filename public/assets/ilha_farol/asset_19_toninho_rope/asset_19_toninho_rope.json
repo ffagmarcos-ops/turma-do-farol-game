@@ -1,0 +1,504 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 378,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 0,
+        "w": 378,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 512
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 378,
+        "y": 0,
+        "w": 342,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 0,
+        "w": 342,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 512
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 720,
+        "y": 0,
+        "w": 398,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 0,
+        "w": 398,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 512
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 1118,
+        "y": 0,
+        "w": 418,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 512
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 0,
+        "y": 512,
+        "w": 408,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 408,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 512
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 408,
+        "y": 512,
+        "w": 375,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21,
+        "y": 0,
+        "w": 375,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 512
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 783,
+        "y": 512,
+        "w": 355,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 31,
+        "y": 0,
+        "w": 355,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 512
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 1138,
+        "y": 512,
+        "w": 398,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 0,
+        "w": 398,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 512
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_19_toninho_rope.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1536,
+      "h": 1024
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 19,
+    "textureKey": "toninho_rope",
+    "title": "Toninho: corda, versão final",
+    "imageFile": "asset_19_toninho_rope.png",
+    "originalFilename": "exec-f641f52f-075f-4a9f-9b61-6c7e6b282396.png",
+    "sourceSizePx": {
+      "width": 1536,
+      "height": 1024
+    },
+    "sourceMode": "RGBA",
+    "sha256": "1632885b5cda5ceb2218face2835e820a259a75d3e51fc24a0b9dd2bd7619c22",
+    "kind": "animation_sheet",
+    "frameCount": 8,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "segurar_rolo",
+      "f001": "preparar",
+      "f002": "girar",
+      "f003": "soltar",
+      "f004": "firmar",
+      "f005": "puxar",
+      "f006": "estabilizar",
+      "f007": "confirmar"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 1
+      },
+      "normalization": "canvas_comum_por_folha_alinhado_ao_centro_inferior",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "requires_frame_separation",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            512
+          ],
+          "x": [
+            0,
+            378,
+            720,
+            1118,
+            1536
+          ],
+          "max_seam_pixels": 58
+        },
+        {
+          "row": 1,
+          "y": [
+            512,
+            1024
+          ],
+          "x": [
+            0,
+            408,
+            783,
+            1138,
+            1536
+          ],
+          "max_seam_pixels": 17
+        }
+      ],
+      "notes": [
+        "Braços e cordas atravessam limites de várias células; atlas retangular provisório pode cortar cordas ou incluir partes do quadro vizinho. Separar poses em arquivos individuais antes da versão final."
+      ]
+    },
+    "animationKeys": [
+      "toninho.idle",
+      "toninho.throw_rope",
+      "toninho.brace",
+      "toninho.pull",
+      "toninho.confirm"
+    ]
+  },
+  "phaserAnimations": {
+    "anims": [
+      {
+        "key": "toninho.idle",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "toninho_rope",
+            "frame": "f000",
+            "duration": 0
+          }
+        ],
+        "frameRate": 1,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "toninho.throw_rope",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "toninho_rope",
+            "frame": "f001",
+            "duration": 0
+          },
+          {
+            "key": "toninho_rope",
+            "frame": "f002",
+            "duration": 0
+          },
+          {
+            "key": "toninho_rope",
+            "frame": "f003",
+            "duration": 0
+          },
+          {
+            "key": "toninho_rope",
+            "frame": "f004",
+            "duration": 0
+          }
+        ],
+        "frameRate": 7,
+        "duration": 571.428571,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "toninho.brace",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "toninho_rope",
+            "frame": "f004",
+            "duration": 0
+          }
+        ],
+        "frameRate": 1,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "toninho.pull",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "toninho_rope",
+            "frame": "f005",
+            "duration": 0
+          },
+          {
+            "key": "toninho_rope",
+            "frame": "f006",
+            "duration": 0
+          }
+        ],
+        "frameRate": 5,
+        "duration": 400.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "toninho.confirm",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "toninho_rope",
+            "frame": "f007",
+            "duration": 0
+          }
+        ],
+        "frameRate": 1,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      }
+    ],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [
+    {
+      "animationKey": "toninho.throw_rope",
+      "atFrameIndex": 2,
+      "action": "deploy_rope",
+      "parameters": {
+        "ropeId": "toninho_rope_01",
+        "oncePerPuzzle": true
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 285.714286
+    }
+  ],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "toninho": {
+      "trigger": "interact_in_rope_zone",
+      "animations": {
+        "idle": "toninho.idle",
+        "deploy": "toninho.throw_rope",
+        "brace": "toninho.brace",
+        "pull": "toninho.pull",
+        "complete": "toninho.confirm"
+      },
+      "sequence": [
+        "idle",
+        "throw_rope",
+        "brace_while_player_attached",
+        "confirm_after_safe_landing"
+      ],
+      "oneTimePerCheckpoint": true,
+      "quality": "frame_separation_required",
+      "prototypeFallback": "Manter f000 enquanto a corda procedural é lançada; usar animação completa apenas após revisar recortes.",
+      "rope": {
+        "texture": "rope",
+        "previewAnimation": "rope.swing_preview",
+        "gameplayUsesPreviewLoop": false,
+        "length": 440,
+        "maxAngleDegrees": 35,
+        "grabRadius": 55,
+        "climbSpeed": 130,
+        "swingAcceleration": 70,
+        "damping": 0.995,
+        "gravity": 1500,
+        "anchorSource": "level_marker_toninho_rope_anchor",
+        "renderMethod": "Preferir linha/mesh com a textura da corda; alternativamente selecionar uma pose da folha pelo ângulo, sem reproduzir um loop independente da física.",
+        "angleFrameMap": [
+          {
+            "angle": -35,
+            "frame": "f006"
+          },
+          {
+            "angle": -18,
+            "frame": "f005"
+          },
+          {
+            "angle": 0,
+            "frame": "f000"
+          },
+          {
+            "angle": 18,
+            "frame": "f001"
+          },
+          {
+            "angle": 35,
+            "frame": "f002"
+          }
+        ],
+        "arcadeImplementation": "Arcade não fornece junta de corda pendular neste manifesto. Implementar posição tangencial e restrição de comprimento no controlador; ao soltar, restaurar gravidade e velocidade tangencial.",
+        "playerCan": [
+          "grab",
+          "climb",
+          "swing",
+          "release_jump"
+        ],
+        "onRelease": "inherit_tangent_velocity_plus_jump_impulse",
+        "noAutomaticReleaseIntoWall": true,
+        "playerRopeArtMissing": true
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/toninho"
+  ],
+  "dependencies": [
+    {
+      "assetNumber": 10,
+      "textureKey": "bia_locomotion",
+      "imageFile": "../asset_10_bia_locomotion/asset_10_bia_locomotion.png",
+      "jsonFile": "../asset_10_bia_locomotion/asset_10_bia_locomotion.json"
+    },
+    {
+      "assetNumber": 20,
+      "textureKey": "rope",
+      "imageFile": "../asset_20_rope/asset_20_rope.png",
+      "jsonFile": "../asset_20_rope/asset_20_rope.json"
+    }
+  ],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('toninho_rope', 'assets/ilha_farol/asset_19_toninho_rope/asset_19_toninho_rope.png', 'assets/ilha_farol/asset_19_toninho_rope/asset_19_toninho_rope.json');\nthis.load.json('config_asset_19', 'assets/ilha_farol/asset_19_toninho_rope/asset_19_toninho_rope.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_19');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência."
+  }
+}

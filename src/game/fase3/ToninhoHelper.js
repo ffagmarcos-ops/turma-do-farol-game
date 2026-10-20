@@ -140,11 +140,17 @@ export class ToninhoHelper {
     this.T = T;
     this.toninhoX = def.toninhoX ?? def.x + 320;
     this.topY = def.topY ?? 480;
+    const useAtlas = scene.textures.exists("toninho_rope");
+    this.useAtlas = useAtlas;
+    const key = useAtlas ? "toninho_rope" : T.key;
+    const initialFrame = useAtlas ? "f000" : 0;
+    const scale = useAtlas ? 0.62 : T.scale;
+    const origin = useAtlas ? [0.5, 0.95] : T.origin;
     // Sprite visual (sem corpo físico de colisão para nunca bloquear a Sofia)
     this.sprite = scene.add
-      .sprite(this.toninhoX, this.topY, T.key, 0)
-      .setOrigin(T.origin[0], T.origin[1])
-      .setScale(T.scale)
+      .sprite(this.toninhoX, this.topY, key, initialFrame)
+      .setOrigin(origin[0], origin[1])
+      .setScale(scale)
       .setDepth(8.8)
       .setFlipX((def.ropeX ?? def.x) < this.toninhoX);
 
@@ -166,7 +172,16 @@ export class ToninhoHelper {
   }
 
   play(pose) {
-    const k = `${this.T.key}-${pose}`;
+    let k = `${this.T.key}-${pose}`;
+    if (this.useAtlas) {
+      const map = {
+        idle: "toninho.idle",
+        wave: "toninho.brace",
+        throwRope: "toninho.throw_rope",
+        thumbsUp: "toninho.confirm",
+      };
+      if (map[pose] && this.scene.anims.exists(map[pose])) k = map[pose];
+    }
     if (this.sprite.anims.currentAnim?.key !== k) this.sprite.play(k);
   }
 

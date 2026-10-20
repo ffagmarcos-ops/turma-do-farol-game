@@ -1,0 +1,385 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 443,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 443,
+        "y": 0,
+        "w": 444,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 444,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 887,
+        "y": 0,
+        "w": 443,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 443,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 1330,
+        "y": 0,
+        "w": 444,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 444,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 0,
+        "y": 443,
+        "w": 443,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 443,
+        "y": 443,
+        "w": 444,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 444,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 887,
+        "y": 443,
+        "w": 443,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 1330,
+        "y": 443,
+        "w": 444,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 444,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_28_crumble_platform.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 28,
+    "textureKey": "crumble_platform",
+    "title": "Plataforma que desaba",
+    "imageFile": "asset_28_crumble_platform.png",
+    "originalFilename": "exec-f788bf07-8555-4c96-a14d-7d7e00c0bca5.png",
+    "sourceSizePx": {
+      "width": 1774,
+      "height": 887
+    },
+    "sourceMode": "RGBA",
+    "sha256": "3bb7f9a4d5226534bc2bdb2a8ec2a3bb8fa89960393851ca3e127c0df16562df",
+    "kind": "animation_sheet",
+    "frameCount": 8,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "inteira",
+      "f001": "fissura_fina",
+      "f002": "rachada",
+      "f003": "partindo",
+      "f004": "separar",
+      "f005": "cair",
+      "f006": "descer",
+      "f007": "fragmentos"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "normalization": "canvas_comum_por_folha_alinhado_ao_centro_inferior",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            443
+          ],
+          "x": [
+            0,
+            443,
+            887,
+            1330,
+            1774
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            443,
+            887
+          ],
+          "x": [
+            0,
+            443,
+            887,
+            1330,
+            1774
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": []
+    },
+    "animationKeys": [
+      "crumble.idle",
+      "crumble.break"
+    ]
+  },
+  "phaserAnimations": {
+    "anims": [
+      {
+        "key": "crumble.idle",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "crumble_platform",
+            "frame": "f000",
+            "duration": 0
+          }
+        ],
+        "frameRate": 1,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "crumble.break",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "crumble_platform",
+            "frame": "f000",
+            "duration": 0
+          },
+          {
+            "key": "crumble_platform",
+            "frame": "f001",
+            "duration": 0
+          },
+          {
+            "key": "crumble_platform",
+            "frame": "f002",
+            "duration": 0
+          },
+          {
+            "key": "crumble_platform",
+            "frame": "f003",
+            "duration": 0
+          },
+          {
+            "key": "crumble_platform",
+            "frame": "f004",
+            "duration": 0
+          },
+          {
+            "key": "crumble_platform",
+            "frame": "f005",
+            "duration": 0
+          },
+          {
+            "key": "crumble_platform",
+            "frame": "f006",
+            "duration": 0
+          },
+          {
+            "key": "crumble_platform",
+            "frame": "f007",
+            "duration": 0
+          }
+        ],
+        "frameRate": 10,
+        "duration": 800.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      }
+    ],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [
+    {
+      "animationKey": "crumble.break",
+      "atFrameIndex": 4,
+      "action": "disable_platform_collider",
+      "parameters": {
+        "oneWayPlatform": true
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 400.0
+    }
+  ],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "platforms": {
+      "crumble": {
+        "texture": "crumble_platform",
+        "idleAnimation": "crumble.idle",
+        "breakAnimation": "crumble.break",
+        "trigger": "player_stands_on_top",
+        "warningDelayMs": 450,
+        "breakDurationMs": 800,
+        "colliderDisableAtBreakMs": 400,
+        "retriggerWhileBreaking": false,
+        "disableColliderByTimerEvenIfClipInterrupted": true,
+        "resetOnCheckpointRespawn": true,
+        "resetOnlyIfPlayerOutside": true,
+        "visualRule": "A queda dos fragmentos já está desenhada; manter origem e mover apenas partículas adicionais, não toda a folha."
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/platforms/crumble"
+  ],
+  "dependencies": [],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('crumble_platform', 'assets/ilha_farol/asset_28_crumble_platform/asset_28_crumble_platform.png', 'assets/ilha_farol/asset_28_crumble_platform/asset_28_crumble_platform.json');\nthis.load.json('config_asset_28', 'assets/ilha_farol/asset_28_crumble_platform/asset_28_crumble_platform.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_28');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência."
+  }
+}

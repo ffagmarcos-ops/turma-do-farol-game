@@ -23,10 +23,16 @@ export class JuliaHelper {
 
     const J = SPRITES.julia;
     this.J = J;
+    const useAtlas = scene.textures.exists("julia_camera");
+    this.useAtlas = useAtlas;
+    const key = useAtlas ? "julia_camera" : J.key;
+    const initialFrame = useAtlas ? "f000" : 0;
+    const scale = useAtlas ? 0.62 : J.scale;
+    const origin = useAtlas ? [0.5, 0.95] : J.origin;
     this.sprite = scene.add
-      .sprite(this.juliaX, this.juliaY - 2, J.key, 0)
-      .setOrigin(J.origin[0], J.origin[1])
-      .setScale(J.scale)
+      .sprite(this.juliaX, this.juliaY - 2, key, initialFrame)
+      .setOrigin(origin[0], origin[1])
+      .setScale(scale)
       .setDepth(7.6);
 
     // cone luminoso no mundo + clarão suave na tela
@@ -48,7 +54,16 @@ export class JuliaHelper {
   }
 
   play(pose) {
-    const k = `${this.J.key}-${pose}`;
+    let k = `${this.J.key}-${pose}`;
+    if (this.useAtlas) {
+      const map = {
+        idle: "julia.idle",
+        aimCamera: "julia.idle",
+        snap: "julia.flash",
+        cheer: "julia.idle",
+      };
+      if (map[pose] && this.scene.anims.exists(map[pose])) k = map[pose];
+    }
     if (this.scene.anims.exists(k) && this.sprite.anims.currentAnim?.key !== k) {
       this.sprite.play(k);
     }

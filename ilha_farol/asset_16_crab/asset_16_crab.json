@@ -1,0 +1,1285 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 218,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 0,
+        "w": 218,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 218,
+        "y": 0,
+        "w": 206,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21,
+        "y": 0,
+        "w": 206,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 424,
+        "y": 0,
+        "w": 203,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 0,
+        "w": 203,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 627,
+        "y": 0,
+        "w": 212,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 0,
+        "w": 212,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 839,
+        "y": 0,
+        "w": 206,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21,
+        "y": 0,
+        "w": 206,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 1045,
+        "y": 0,
+        "w": 209,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 0,
+        "w": 209,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 0,
+        "y": 209,
+        "w": 211,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 19,
+        "y": 0,
+        "w": 211,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 211,
+        "y": 209,
+        "w": 208,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 0,
+        "w": 208,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f008": {
+      "frame": {
+        "x": 419,
+        "y": 209,
+        "w": 208,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 0,
+        "w": 208,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f009": {
+      "frame": {
+        "x": 627,
+        "y": 209,
+        "w": 212,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 0,
+        "w": 212,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f010": {
+      "frame": {
+        "x": 839,
+        "y": 209,
+        "w": 206,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21,
+        "y": 0,
+        "w": 206,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f011": {
+      "frame": {
+        "x": 1045,
+        "y": 209,
+        "w": 209,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 0,
+        "w": 209,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f012": {
+      "frame": {
+        "x": 0,
+        "y": 418,
+        "w": 214,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 0,
+        "w": 214,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f013": {
+      "frame": {
+        "x": 214,
+        "y": 418,
+        "w": 218,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 0,
+        "w": 218,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f014": {
+      "frame": {
+        "x": 432,
+        "y": 418,
+        "w": 212,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 0,
+        "w": 212,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f015": {
+      "frame": {
+        "x": 644,
+        "y": 418,
+        "w": 198,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 0,
+        "w": 198,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f016": {
+      "frame": {
+        "x": 842,
+        "y": 418,
+        "w": 203,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 0,
+        "w": 203,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f017": {
+      "frame": {
+        "x": 1045,
+        "y": 418,
+        "w": 209,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 0,
+        "w": 209,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f018": {
+      "frame": {
+        "x": 0,
+        "y": 627,
+        "w": 223,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13,
+        "y": 0,
+        "w": 223,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f019": {
+      "frame": {
+        "x": 223,
+        "y": 627,
+        "w": 201,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 24,
+        "y": 0,
+        "w": 201,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f020": {
+      "frame": {
+        "x": 424,
+        "y": 627,
+        "w": 209,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 0,
+        "w": 209,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f021": {
+      "frame": {
+        "x": 633,
+        "y": 627,
+        "w": 169,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 0,
+        "w": 169,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f022": {
+      "frame": {
+        "x": 802,
+        "y": 627,
+        "w": 249,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 249,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f023": {
+      "frame": {
+        "x": 1051,
+        "y": 627,
+        "w": 203,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 0,
+        "w": 203,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f024": {
+      "frame": {
+        "x": 0,
+        "y": 836,
+        "w": 216,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 16,
+        "y": 0,
+        "w": 216,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f025": {
+      "frame": {
+        "x": 216,
+        "y": 836,
+        "w": 207,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21,
+        "y": 0,
+        "w": 207,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f026": {
+      "frame": {
+        "x": 423,
+        "y": 836,
+        "w": 204,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 22,
+        "y": 0,
+        "w": 204,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f027": {
+      "frame": {
+        "x": 627,
+        "y": 836,
+        "w": 209,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 0,
+        "w": 209,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f028": {
+      "frame": {
+        "x": 836,
+        "y": 836,
+        "w": 209,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 0,
+        "w": 209,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f029": {
+      "frame": {
+        "x": 1045,
+        "y": 836,
+        "w": 209,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 0,
+        "w": 209,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f030": {
+      "frame": {
+        "x": 0,
+        "y": 1045,
+        "w": 212,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 0,
+        "w": 212,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f031": {
+      "frame": {
+        "x": 212,
+        "y": 1045,
+        "w": 212,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 0,
+        "w": 212,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f032": {
+      "frame": {
+        "x": 424,
+        "y": 1045,
+        "w": 203,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 0,
+        "w": 203,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f033": {
+      "frame": {
+        "x": 627,
+        "y": 1045,
+        "w": 209,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 0,
+        "w": 209,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f034": {
+      "frame": {
+        "x": 836,
+        "y": 1045,
+        "w": 209,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 0,
+        "w": 209,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    },
+    "f035": {
+      "frame": {
+        "x": 1045,
+        "y": 1045,
+        "w": 209,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 0,
+        "w": 209,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 209
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_16_crab.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1254,
+      "h": 1254
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 16,
+    "textureKey": "crab",
+    "title": "Caranguejo inimigo",
+    "imageFile": "asset_16_crab.png",
+    "originalFilename": "exec-3cf2126f-6fe4-45bd-9358-dfe876e36216.png",
+    "sourceSizePx": {
+      "width": 1254,
+      "height": 1254
+    },
+    "sourceMode": "RGBA",
+    "sha256": "365812522b53207c6f86b66c1db7402b960f83d06d90f767f352eaa579813402",
+    "kind": "animation_sheet",
+    "frameCount": 36,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "parado_1",
+      "f001": "parado_2",
+      "f002": "parado_3",
+      "f003": "parado_4",
+      "f004": "parado_5",
+      "f005": "parado_6",
+      "f006": "andar_1",
+      "f007": "andar_2",
+      "f008": "andar_3",
+      "f009": "andar_4",
+      "f010": "andar_5",
+      "f011": "andar_6",
+      "f012": "alerta_1",
+      "f013": "alerta_2",
+      "f014": "alerta_3",
+      "f015": "alerta_4",
+      "f016": "alerta_5",
+      "f017": "alerta_6",
+      "f018": "ataque_1",
+      "f019": "ataque_2",
+      "f020": "ataque_3",
+      "f021": "ataque_4",
+      "f022": "ataque_5",
+      "f023": "ataque_6",
+      "f024": "atingido_1",
+      "f025": "atingido_2",
+      "f026": "atingido_3",
+      "f027": "atingido_4",
+      "f028": "atingido_5",
+      "f029": "atingido_6",
+      "f030": "derrota_1",
+      "f031": "derrota_2",
+      "f032": "derrota_3",
+      "f033": "derrota_4",
+      "f034": "derrota_5",
+      "f035": "derrota_6"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 1
+      },
+      "normalization": "canvas_comum_por_folha_alinhado_ao_centro_inferior",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "requires_frame_separation",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            209
+          ],
+          "x": [
+            0,
+            218,
+            424,
+            627,
+            839,
+            1045,
+            1254
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            209,
+            418
+          ],
+          "x": [
+            0,
+            211,
+            419,
+            627,
+            839,
+            1045,
+            1254
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 2,
+          "y": [
+            418,
+            627
+          ],
+          "x": [
+            0,
+            214,
+            432,
+            644,
+            842,
+            1045,
+            1254
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 3,
+          "y": [
+            627,
+            836
+          ],
+          "x": [
+            0,
+            223,
+            424,
+            633,
+            802,
+            1051,
+            1254
+          ],
+          "max_seam_pixels": 29
+        },
+        {
+          "row": 4,
+          "y": [
+            836,
+            1045
+          ],
+          "x": [
+            0,
+            216,
+            423,
+            627,
+            836,
+            1045,
+            1254
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 5,
+          "y": [
+            1045,
+            1254
+          ],
+          "x": [
+            0,
+            212,
+            424,
+            627,
+            836,
+            1045,
+            1254
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": [
+        "Quadros 18–23 de ataque têm conteúdo atravessando alguns limites de célula; recortes provisórios exigem separação/revisão visual."
+      ]
+    },
+    "animationKeys": [
+      "crab.idle",
+      "crab.walk",
+      "crab.alert",
+      "crab.attack",
+      "crab.hurt",
+      "crab.defeat"
+    ]
+  },
+  "phaserAnimations": {
+    "anims": [
+      {
+        "key": "crab.idle",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "crab",
+            "frame": "f000",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f001",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f002",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f003",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f004",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f005",
+            "duration": 0
+          }
+        ],
+        "frameRate": 6,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "crab.walk",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "crab",
+            "frame": "f006",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f007",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f008",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f009",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f010",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f011",
+            "duration": 0
+          }
+        ],
+        "frameRate": 10,
+        "duration": 600.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "crab.alert",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "crab",
+            "frame": "f012",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f013",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f014",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f015",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f016",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f017",
+            "duration": 0
+          }
+        ],
+        "frameRate": 10,
+        "duration": 600.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "crab.attack",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "crab",
+            "frame": "f018",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f019",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f020",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f021",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f022",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f023",
+            "duration": 0
+          }
+        ],
+        "frameRate": 12,
+        "duration": 500.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "crab.hurt",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "crab",
+            "frame": "f024",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f025",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f026",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f027",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f028",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f029",
+            "duration": 0
+          }
+        ],
+        "frameRate": 12,
+        "duration": 500.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "crab.defeat",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "crab",
+            "frame": "f030",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f031",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f032",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f033",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f034",
+            "duration": 0
+          },
+          {
+            "key": "crab",
+            "frame": "f035",
+            "duration": 0
+          }
+        ],
+        "frameRate": 10,
+        "duration": 600.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      }
+    ],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [
+    {
+      "animationKey": "crab.attack",
+      "atFrameIndex": 2,
+      "action": "enable_attack_hitbox",
+      "parameters": {
+        "hitbox": "claws",
+        "oncePerTargetPerAttack": true
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 166.666667
+    },
+    {
+      "animationKey": "crab.attack",
+      "atFrameIndex": 4,
+      "action": "disable_attack_hitbox",
+      "parameters": {
+        "hitbox": "claws"
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 333.333333
+    },
+    {
+      "animationKey": "crab.defeat",
+      "atFrameIndex": 0,
+      "action": "disable_enemy_damage",
+      "parameters": {
+        "immediateOnStateEnterAlso": true
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 0.0
+    }
+  ],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "crab": {
+      "animations": {
+        "idle": "crab.idle",
+        "patrol": "crab.walk",
+        "alert": "crab.alert",
+        "attack": "crab.attack",
+        "hurt": "crab.hurt",
+        "defeat": "crab.defeat"
+      },
+      "health": 2,
+      "patrolSpeed": 70,
+      "detectRange": 300,
+      "attackRange": 95,
+      "attackCooldownMs": 1100,
+      "turnAtLedge": true,
+      "turnAtWall": true,
+      "attackDamage": 1,
+      "onShellHit": "subtract_health_then_hurt_or_defeat",
+      "onBarkHit": "defeat_immediately",
+      "defeatPresentation": "comic_fall_no_gore",
+      "removeAfterDefeatMs": 900,
+      "stunCancelsAttackHitbox": true,
+      "attackClipQuality": "needs_frame_separation"
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/crab"
+  ],
+  "dependencies": [],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('crab', 'assets/ilha_farol/asset_16_crab/asset_16_crab.png', 'assets/ilha_farol/asset_16_crab/asset_16_crab.json');\nthis.load.json('config_asset_16', 'assets/ilha_farol/asset_16_crab/asset_16_crab.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_16');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência."
+  }
+}

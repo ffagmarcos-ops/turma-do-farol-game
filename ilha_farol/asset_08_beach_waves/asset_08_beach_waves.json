@@ -1,0 +1,473 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 483,
+        "h": 305
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 483,
+        "h": 305
+      },
+      "sourceSize": {
+        "w": 483,
+        "h": 305
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 483,
+        "y": 0,
+        "w": 482,
+        "h": 305
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 482,
+        "h": 305
+      },
+      "sourceSize": {
+        "w": 483,
+        "h": 305
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 965,
+        "y": 0,
+        "w": 483,
+        "h": 305
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 483,
+        "h": 305
+      },
+      "sourceSize": {
+        "w": 483,
+        "h": 305
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 0,
+        "y": 305,
+        "w": 483,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 26,
+        "w": 483,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 483,
+        "h": 305
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 483,
+        "y": 305,
+        "w": 482,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 26,
+        "w": 482,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 483,
+        "h": 305
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 965,
+        "y": 305,
+        "w": 483,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 26,
+        "w": 483,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 483,
+        "h": 305
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 0,
+        "y": 584,
+        "w": 483,
+        "h": 264
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 41,
+        "w": 483,
+        "h": 264
+      },
+      "sourceSize": {
+        "w": 483,
+        "h": 305
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 483,
+        "y": 584,
+        "w": 482,
+        "h": 264
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 41,
+        "w": 482,
+        "h": 264
+      },
+      "sourceSize": {
+        "w": 483,
+        "h": 305
+      }
+    },
+    "f008": {
+      "frame": {
+        "x": 965,
+        "y": 584,
+        "w": 483,
+        "h": 264
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 41,
+        "w": 483,
+        "h": 264
+      },
+      "sourceSize": {
+        "w": 483,
+        "h": 305
+      }
+    },
+    "f009": {
+      "frame": {
+        "x": 0,
+        "y": 848,
+        "w": 483,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 67,
+        "w": 483,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 483,
+        "h": 305
+      }
+    },
+    "f010": {
+      "frame": {
+        "x": 483,
+        "y": 848,
+        "w": 482,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 67,
+        "w": 482,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 483,
+        "h": 305
+      }
+    },
+    "f011": {
+      "frame": {
+        "x": 965,
+        "y": 848,
+        "w": 483,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 67,
+        "w": 483,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 483,
+        "h": 305
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_08_beach_waves.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1448,
+      "h": 1086
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 8,
+    "textureKey": "beach_waves",
+    "title": "Ondas da praia",
+    "imageFile": "asset_08_beach_waves.png",
+    "originalFilename": "exec-e0a56791-e483-4c5c-aba3-28c2f3b53f18.png",
+    "sourceSizePx": {
+      "width": 1448,
+      "height": 1086
+    },
+    "sourceMode": "RGBA",
+    "sha256": "c7bf36d4d8e4aa622e81863e7c5b040b81c12932c7489bccf25d851c0bf4aeae",
+    "kind": "animation_sheet",
+    "frameCount": 12,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "fase_01",
+      "f001": "fase_02",
+      "f002": "fase_03",
+      "f003": "fase_04",
+      "f004": "fase_05",
+      "f005": "fase_06",
+      "f006": "fase_07",
+      "f007": "fase_08",
+      "f008": "fase_09",
+      "f009": "fase_10",
+      "f010": "fase_11",
+      "f011": "fase_12"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "normalization": "canvas_comum_por_folha_alinhado_ao_centro_inferior",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            305
+          ],
+          "x": [
+            0,
+            483,
+            965,
+            1448
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            305,
+            584
+          ],
+          "x": [
+            0,
+            483,
+            965,
+            1448
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 2,
+          "y": [
+            584,
+            848
+          ],
+          "x": [
+            0,
+            483,
+            965,
+            1448
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 3,
+          "y": [
+            848,
+            1086
+          ],
+          "x": [
+            0,
+            483,
+            965,
+            1448
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": []
+    },
+    "animationKeys": [
+      "beach_waves.loop"
+    ]
+  },
+  "phaserAnimations": {
+    "anims": [
+      {
+        "key": "beach_waves.loop",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "beach_waves",
+            "frame": "f000",
+            "duration": 0
+          },
+          {
+            "key": "beach_waves",
+            "frame": "f001",
+            "duration": 0
+          },
+          {
+            "key": "beach_waves",
+            "frame": "f002",
+            "duration": 0
+          },
+          {
+            "key": "beach_waves",
+            "frame": "f003",
+            "duration": 0
+          },
+          {
+            "key": "beach_waves",
+            "frame": "f004",
+            "duration": 0
+          },
+          {
+            "key": "beach_waves",
+            "frame": "f005",
+            "duration": 0
+          },
+          {
+            "key": "beach_waves",
+            "frame": "f006",
+            "duration": 0
+          },
+          {
+            "key": "beach_waves",
+            "frame": "f007",
+            "duration": 0
+          },
+          {
+            "key": "beach_waves",
+            "frame": "f008",
+            "duration": 0
+          },
+          {
+            "key": "beach_waves",
+            "frame": "f009",
+            "duration": 0
+          },
+          {
+            "key": "beach_waves",
+            "frame": "f010",
+            "duration": 0
+          },
+          {
+            "key": "beach_waves",
+            "frame": "f011",
+            "duration": 0
+          }
+        ],
+        "frameRate": 12,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      }
+    ],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "scenery": {
+      "beachWaves": {
+        "texture": "beach_waves",
+        "animation": "beach_waves.loop",
+        "collider": false,
+        "fixedShorelineAnchor": true,
+        "horizontalRepeatRequiresSeamReview": true
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/scenery/beachWaves"
+  ],
+  "dependencies": [],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('beach_waves', 'assets/ilha_farol/asset_08_beach_waves/asset_08_beach_waves.png', 'assets/ilha_farol/asset_08_beach_waves/asset_08_beach_waves.json');\nthis.load.json('config_asset_08', 'assets/ilha_farol/asset_08_beach_waves/asset_08_beach_waves.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_08');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência."
+  }
+}

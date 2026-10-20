@@ -11,8 +11,11 @@ export class Faisca {
   constructor(scene, x, y, art) {
     const F = SPRITES.faisca;
     this.scene = scene; this.anim = art.faisca.anim;
-    const sp = scene.physics.add.sprite(x, y, art.faisca.key, 0).setOrigin(F.origin[0], F.origin[1]).setScale(F.scale).setDepth(9);
-    const [w, h, ox, oy] = F.body;
+    const key = art.faisca.key;
+    const scale = art.faisca.scale ?? F.scale;
+    const origin = art.faisca.origin ?? F.origin;
+    const sp = scene.physics.add.sprite(x, y, key, 0).setOrigin(origin[0], origin[1]).setScale(scale).setDepth(9);
+    const [w, h, ox, oy] = art.faisca.body ?? F.body;
     sp.body.setSize(w, h, false).setOffset(ox, oy);
     sp.body.setMaxVelocity(900, 1400);
     sp.body.setCollideWorldBounds(true);

@@ -1,0 +1,231 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 27,
+        "y": 197,
+        "w": 490,
+        "h": 176
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 490,
+        "h": 176
+      },
+      "sourceSize": {
+        "w": 490,
+        "h": 176
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 550,
+        "y": 171,
+        "w": 618,
+        "h": 208
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 618,
+        "h": 208
+      },
+      "sourceSize": {
+        "w": 618,
+        "h": 208
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 1185,
+        "y": 172,
+        "w": 577,
+        "h": 205
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 577,
+        "h": 205
+      },
+      "sourceSize": {
+        "w": 577,
+        "h": 205
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 194,
+        "y": 554,
+        "w": 619,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 619,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 619,
+        "h": 184
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 987,
+        "y": 557,
+        "w": 590,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 590,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 590,
+        "h": 186
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_26_floating_platforms.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 26,
+    "textureKey": "floating_platforms",
+    "title": "Cinco plataformas flutuantes",
+    "imageFile": "asset_26_floating_platforms.png",
+    "originalFilename": "exec-368d9bc8-f7fb-4972-a96d-b7beb4f359c4.png",
+    "sourceSizePx": {
+      "width": 1774,
+      "height": 887
+    },
+    "sourceMode": "RGBA",
+    "sha256": "dac305c514e10f5b3f78a18be23cfbfc5e405991e6d2b9e3f25d1eade89f399b",
+    "kind": "static_modules",
+    "frameCount": 5,
+    "indexing": "order_in_frameLabels",
+    "frameLabels": {
+      "f000": "plataforma_a",
+      "f001": "plataforma_b",
+      "f002": "plataforma_c",
+      "f003": "plataforma_d",
+      "f004": "plataforma_e"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "normalization": "tamanho_proprio_do_recorte",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "bounding_boxes_medidos_com_margem_3px",
+      "diagnostics": [],
+      "notes": [
+        "Cinco variantes estáticas independentes; não reproduzir os cinco recortes como uma animação."
+      ]
+    },
+    "animationKeys": []
+  },
+  "phaserAnimations": {
+    "anims": [],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [],
+  "incomingEvents": [
+    {
+      "animationKey": "lucas.assemble",
+      "atFrameIndex": 5,
+      "action": "activate_floating_platforms",
+      "parameters": {
+        "groupId": "lucas_stream",
+        "activationStaggerMs": 180,
+        "oncePerPuzzle": true
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 1000.0
+    }
+  ],
+  "behaviorConfig": {
+    "lucas": {
+      "platformGroup": {
+        "id": "lucas_stream",
+        "texture": "floating_platforms",
+        "frames": [
+          "f000",
+          "f001",
+          "f002",
+          "f003",
+          "f004"
+        ],
+        "count": 5,
+        "variantsAreAnimation": false,
+        "placeAt": "five_level_markers_over_stream",
+        "initialState": "inactive_below_water",
+        "activateStaggerMs": 180,
+        "riseDistance": 90,
+        "riseDurationMs": 650,
+        "riseEasing": "Sine.Out",
+        "bobAmplitude": 5,
+        "bobPeriodMs": 2200,
+        "phaseOffsetMs": 330,
+        "enableColliderWhen": "rise_complete",
+        "carryPlayerByPlatformDelta": true,
+        "canSinkAgain": false
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/lucas/platformGroup"
+  ],
+  "dependencies": [
+    {
+      "assetNumber": 25,
+      "textureKey": "lucas_device",
+      "imageFile": "../asset_25_lucas_device/asset_25_lucas_device.png",
+      "jsonFile": "../asset_25_lucas_device/asset_25_lucas_device.json"
+    }
+  ],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('floating_platforms', 'assets/ilha_farol/asset_26_floating_platforms/asset_26_floating_platforms.png', 'assets/ilha_farol/asset_26_floating_platforms/asset_26_floating_platforms.json');\nthis.load.json('config_asset_26', 'assets/ilha_farol/asset_26_floating_platforms/asset_26_floating_platforms.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_26');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência.",
+    "staticAssetNote": "Este asset não possui sequência temporal de quadros. O JSON configura módulos, estados, partículas ou movimentos procedurais conforme o tipo."
+  }
+}

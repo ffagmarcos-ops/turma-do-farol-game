@@ -18,6 +18,22 @@ function readFiles() {
 }
 const has = (url) => FILES.has(url);
 
+let ILHA_FAROL_MANIFEST = null;
+function readIlhaFarolManifest() {
+  if (ILHA_FAROL_MANIFEST) return ILHA_FAROL_MANIFEST;
+  try {
+    const x = new XMLHttpRequest();
+    x.open("GET", `assets/ilha_farol/ilha_farol_animacoes_assets_06_37.json?t=${Date.now()}`, false);
+    x.send();
+    if (x.status >= 200 && x.status < 300) {
+      ILHA_FAROL_MANIFEST = JSON.parse(x.responseText);
+    }
+  } catch {
+    ILHA_FAROL_MANIFEST = null;
+  }
+  return ILHA_FAROL_MANIFEST;
+}
+
 export const layerKey = (s, n) => `f3_${s}_L${n}`;
 export const tileKey = (s, name) => `f3_${s}_t_${name}`;
 export const propKey = (s, name) => `f3_${s}_p_${name}`;
@@ -27,12 +43,31 @@ export function preloadFase3(scene, sectors) {
   readFiles();
   let n = 0;
   const img = (key, url) => { if (!scene.textures.exists(key) && has(url)) { scene.load.image(key, url); n++; } };
+
+  // 1. Pacote de arte e animações da Ilha do Farol (32 assets com atlas embutido)
+  const ifm = readIlhaFarolManifest();
+  if (ifm) {
+    if (!scene.cache.json.exists("ilha_farol_manifest")) {
+      scene.cache.json.add("ilha_farol_manifest", ifm);
+    }
+    const basePath = ifm.integration?.assetBasePath || "assets/ilha_farol/";
+    for (const a of ifm.assets || []) {
+      const url = basePath + a.imageFile;
+      if (!scene.textures.exists(a.textureKey) && (has(url) || true)) {
+        scene.load.atlas(a.textureKey, url, a.atlas);
+        n++;
+      }
+    }
+  }
+
+  // 2. Camadas de cenário e tiles da Fase 3
   for (const s of sectors) {
     const art = SECTOR_ART[s]; if (!art) continue;
     for (const L of art.layers) img(layerKey(s, L.n), f3url(L.file, art.folder));
     for (const [name, t] of Object.entries(art.tiles)) img(tileKey(s, name), f3url(t.file, art.folder + art.tileset));
     for (const [name, p] of Object.entries(art.props || {})) img(propKey(s, name), f3url(p.file, art.folder + art.tileset));
   }
+  // 3. Sprites legados e imagens
   for (const sp of Object.values(SPRITES)) {
     const url = f3url(sp.file);
     if (!scene.textures.exists(sp.key) && has(url)) { scene.load.spritesheet(sp.key, url, { frameWidth: sp.frameWidth, frameHeight: sp.frameHeight }); n++; }
@@ -43,6 +78,16 @@ export function preloadFase3(scene, sectors) {
 
 /** Chamar no create(): gera os provisórios que faltam e as animações. Retorna o "resolvedor" de arte. */
 export function buildFase3Art(scene, sectors) {
+  // Registra as animações do pacote ilha_farol
+  const ifm = scene.cache.json.get("ilha_farol_manifest") || readIlhaFarolManifest();
+  if (ifm && ifm.phaserAnimations?.anims) {
+    for (const config of ifm.phaserAnimations.anims) {
+      if (!scene.anims.exists(config.key)) {
+        scene.anims.create(config);
+      }
+    }
+  }
+
   const info = { layers: {}, images: {}, faiscaFile: scene.textures.exists(SPRITES.faisca.key) };
   for (const s of sectors) {
     const art = SECTOR_ART[s]; if (!art) continue;
@@ -64,6 +109,7 @@ export function buildFase3Art(scene, sectors) {
     canvasTex(scene, im.key, im.w, im.h, PLACEHOLDER.image[im.key]);
     info.images[im.key] = { key: im.key, scale: 1 };
   }
+  // Sprites provisórios para o que não estiver carregado
   for (const sp of [SPRITES.sofia, SPRITES.toninho, SPRITES.marina, SPRITES.julia, SPRITES.lucas, SPRITES.crab, SPRITES.monkey, SPRITES.checkpoint]) {
     if (!scene.textures.exists(sp.key)) canvasSheet(scene, sp.key, sp.frameWidth, sp.frameHeight, PLACEHOLDER.sheetCount[sp.key], 8, PLACEHOLDER.sheet[sp.key]);
     for (const [pose, a] of Object.entries(sp.anims)) {
@@ -71,16 +117,56 @@ export function buildFase3Art(scene, sectors) {
       if (!scene.anims.exists(k)) scene.anims.create({ key: k, frames: a.frames.map((frame) => ({ key: sp.key, frame })), frameRate: a.frameRate, repeat: a.repeat });
     }
   }
-  // Faísca: sheet próprio da Fase 3 ou o oficial da Fase 1
+  // Faísca: prioriza o atlas faisca_run / faisca_bark da Ilha do Farol; fallback p/ sheet f3_faisca ou Fase 1
   const F = SPRITES.faisca;
-  info.faisca = { key: info.faiscaFile ? F.key : F.fallbackKey, anim: {} };
-  for (const [pose, a] of Object.entries(F.anims)) {
-    if (info.faiscaFile) {
-      const k = `${F.key}-${pose}`;
-      if (!scene.anims.exists(k)) scene.anims.create({ key: k, frames: a.frames.map((frame) => ({ key: F.key, frame })), frameRate: a.frameRate, repeat: a.repeat });
-      info.faisca.anim[pose] = k;
-    } else info.faisca.anim[pose] = `${F.fallbackKey}-${a.fallback}`;
+  const hasAtlasFaisca = scene.textures.exists("faisca_run");
+  if (hasAtlasFaisca) {
+    info.faisca = {
+      key: "faisca_run",
+      scale: 0.52,
+      origin: [0.5, 0.94],
+      body: [90, 70, 45, 120],
+      anim: {
+        idle: "faisca.idle",
+        walk: "faisca.run",
+        run: "faisca.run",
+        jump: "faisca.jump_placeholder",
+        fall: "faisca.jump_placeholder",
+        sniff: "faisca.idle",
+        bark: "faisca.bark",
+        attack: "faisca.charge",
+      },
+    };
+  } else {
+    info.faisca = { key: info.faiscaFile ? F.key : F.fallbackKey, anim: {} };
+    for (const [pose, a] of Object.entries(F.anims)) {
+      if (info.faiscaFile) {
+        const k = `${F.key}-${pose}`;
+        if (!scene.anims.exists(k)) scene.anims.create({ key: k, frames: a.frames.map((frame) => ({ key: F.key, frame })), frameRate: a.frameRate, repeat: a.repeat });
+        info.faisca.anim[pose] = k;
+      } else info.faisca.anim[pose] = `${F.fallbackKey}-${a.fallback}`;
+    }
   }
+
+  // Mapeamentos para efeitos e projéteis da ilha
+  if (scene.textures.exists("shell_projectile")) {
+    info.images["f3_concha_projetil"] = { key: "shell_projectile", frame: "f000", scale: 0.65 };
+  }
+  if (scene.textures.exists("stone_projectile")) {
+    info.images["f3_pedra_macaco"] = { key: "stone_projectile", frame: "f000", scale: 0.65 };
+  }
+  if (scene.textures.exists("bark_wave")) {
+    info.images["f3_onda_latido"] = { key: "bark_wave", frame: "f000", scale: 0.5 };
+  }
+  if (scene.textures.exists("checkpoint")) {
+    if (!scene.anims.exists("f3_checkpoint-off")) {
+      scene.anims.create({ key: "f3_checkpoint-off", frames: [{ key: "checkpoint", frame: "f000" }], frameRate: 1, repeat: 0 });
+    }
+    if (!scene.anims.exists("f3_checkpoint-on")) {
+      scene.anims.create({ key: "f3_checkpoint-on", frames: [{ key: "checkpoint", frame: "f001" }], frameRate: 1, repeat: 0 });
+    }
+  }
+
   info.img = (k) => info.images[k] || { key: k, scale: 1 };
   return info;
 }
