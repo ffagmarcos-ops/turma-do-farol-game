@@ -11,6 +11,7 @@
  */
 import { bindAtlasGeometry } from "./AtlasGeometry.js";
 import Phaser from "../phaser.js";
+import { AnimationEvents } from "./AnimationEvents.js";
 import { SPRITES } from "./Fase3Assets.js";
 
 export class NauticalRope {
@@ -168,6 +169,9 @@ export class ToninhoHelper {
       deployed: alreadyTriggered,
     });
 
+    this.actionEvents = new AnimationEvents(scene.cache.json.get("ilha_farol_manifest"), event => {
+      if (event.action === "deploy_rope") this.rope.deploy();
+    });
     this.state = alreadyTriggered ? "thumbsUp" : "idle";
     this.t = 0;
     this.cheeredTop = alreadyTriggered;
@@ -199,6 +203,7 @@ export class ToninhoHelper {
   }
 
   update(dt, sofia, wantClimb = false) {
+    if (this.state === "throwRope") this.actionEvents.advance(dt * 1000);
     this.t -= dt;
 
     // dispara quando a Sofia entra na zona helpZoneToninho
@@ -216,9 +221,10 @@ export class ToninhoHelper {
       this.play("wave");
       if (this.t <= 0) {
         this.state = "throwRope";
-        this.t = 0.55;
+        this.t = this.useAtlas ? this.scene.anims.get("toninho.throw_rope").duration / 1000 : 0.55;
         this.play("throwRope");
-        this.rope.deploy();
+        if (this.useAtlas) this.actionEvents.start("toninho.throw_rope");
+        else this.rope.deploy();
       }
     } else if (this.state === "throwRope") {
       this.play("throwRope");
@@ -248,6 +254,7 @@ export class ToninhoHelper {
   }
 
   destroy() {
+    this.actionEvents.cancel();
     this.rope?.destroy();
     this.sprite?.destroy();
   }

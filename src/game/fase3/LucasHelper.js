@@ -10,6 +10,7 @@
  * - Quando a Sofia chega ao outro lado (`celebrateX`), o Lucas comemora (`celebrate`).
  */
 import { bindAtlasGeometry } from "./AtlasGeometry.js";
+import { AnimationEvents } from "./AnimationEvents.js";
 import { SPRITES } from "./Fase3Assets.js";
 
 const SURF_Y = 8; // altura da superfície onde o pé da Sofia pisa no sprite f3_boia_lucas (168×58)
@@ -39,6 +40,9 @@ export class LucasHelper {
 
     if (useAtlas) bindAtlasGeometry(this.sprite);
 
+    this.actionEvents = new AnimationEvents(scene.cache.json.get("ilha_farol_manifest"), event => {
+      if (event.action === "activate_floating_platforms") this.activate();
+    });
     this.pulseGfx = scene.add.graphics().setDepth(12.6);
     this.foamGfx = scene.add.graphics().setDepth(12.2);
 
@@ -71,7 +75,7 @@ export class LucasHelper {
         sinkOffset: 0,
         emergeOffset: alreadyTriggered ? 0 : 46,
         active: alreadyTriggered,
-        delay: idx * 0.13,
+        delay: idx * 0.18,
         prevY: b.y,
         wasOnTop: false,
         spr,
@@ -135,9 +139,20 @@ export class LucasHelper {
     this.scene.puff?.(b.baseX + b.w / 2, b.baseY + 8, 0.55, 0xd8f8ff);
   }
 
+  activate() {
+    if (this.state !== "operateGadget") return;
+    this.state = "activate";
+    this.activationDuration = Math.max(0.68, this.buoys.length * 0.18);
+    this.t = this.activationDuration;
+    this.play("activate");
+    this.scene.sfx?.gadgetActivate?.();
+    this.scene.onLucasTriggered?.(this.id);
+  }
+
   update(dt, sofia, timeSec = 0) {
     if (!this.sprite?.active) return;
     const d = this.def;
+    if (this.state === "operateGadget") this.actionEvents.advance(dt * 1000);
 
     if (sofia.x < this.x - 40) this.sprite.setFlipX(true);
     else if (sofia.x > this.x + 40) this.sprite.setFlipX(false);
@@ -150,23 +165,20 @@ export class LucasHelper {
         sofia.y <= (d.y ?? 180) + (d.h ?? 820);
       if (inZone) {
         this.state = "operateGadget";
-        this.t = 0.42;
+        this.t = this.useAtlas ? this.scene.anims.get("lucas.assemble").duration / 1000 : 0.42;
         this.play("operateGadget");
+        if (this.useAtlas) this.actionEvents.start("lucas.assemble");
         this.scene.sfx?.gadgetBeep?.();
         this.scene.icon?.(this.x, this.y - 190);
       }
     } else if (this.state === "operateGadget") {
       this.t -= dt;
       if (this.t <= 0) {
-        this.state = "activate";
-        this.t = 0.68;
-        this.play("activate");
-        this.scene.sfx?.gadgetActivate?.();
-        this.scene.onLucasTriggered?.(this.id);
+        this.activate();
       }
     } else if (this.state === "activate") {
       this.t -= dt;
-      const elapsed = 0.68 - Math.max(0, this.t);
+      const elapsed = this.activationDuration - Math.max(0, this.t);
       for (const b of this.buoys) {
         if (!b.active && elapsed >= b.delay) this.popBuoy(b);
       }
@@ -242,6 +254,7 @@ export class LucasHelper {
   }
 
   destroy() {
+    this.actionEvents.cancel();
     this.pulseGfx?.destroy();
     this.foamGfx?.destroy();
     for (const b of this.buoys || []) {

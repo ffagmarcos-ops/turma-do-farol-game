@@ -8,6 +8,7 @@
  *  - cheer     (comemora quando a Sofia atravessa o trecho)
  */
 import { bindAtlasGeometry } from "./AtlasGeometry.js";
+import { AnimationEvents } from "./AnimationEvents.js";
 import { SPRITES } from "./Fase3Assets.js";
 
 export class JuliaHelper {
@@ -45,6 +46,10 @@ export class JuliaHelper {
       .setScrollFactor(0)
       .setDepth(140);
 
+    this.actionEvents = new AnimationEvents(scene.cache.json.get("ilha_farol_manifest"), event => {
+      if (event.action === "camera_flash") this.triggerFlash(true);
+    });
+    this.snapRemaining = 0;
     this.state = "idle";
     this.cycleT = this.interval - 0.85; // primeiro flash dispara ~0,85 s após a Sofia chegar perto
     this.flashT = 0;
@@ -134,20 +139,32 @@ export class JuliaHelper {
     }
 
     if (!inZone) {
+      this.actionEvents.cancel();
+      this.snapRemaining = 0;
       this.coneGfx.clear();
       this.play("idle");
       return;
     }
 
+    if (this.snapRemaining > 0) {
+      this.actionEvents.advance(dt * 1000);
+      this.snapRemaining = Math.max(0, this.snapRemaining - dt);
+    }
     this.cycleT += dt;
     const timeToFlash = this.interval - this.cycleT;
 
-    if (timeToFlash <= 0) {
+    if (this.snapRemaining > 0) {
+      this.state = "snap";
+      this.play("snap");
+    } else if (timeToFlash <= 0) {
       this.cycleT = 0;
       this.beeped = false;
       this.state = "snap";
       this.play("snap");
-      this.triggerFlash(true);
+      if (this.useAtlas) {
+        this.snapRemaining = this.scene.anims.get("julia.flash").duration / 1000;
+        this.actionEvents.start("julia.flash");
+      } else this.triggerFlash(true);
     } else if (timeToFlash <= 0.72) {
       if (!this.beeped) {
         this.beeped = true;
@@ -191,6 +208,7 @@ export class JuliaHelper {
   }
 
   destroy() {
+    this.actionEvents.cancel();
     this.coneGfx?.destroy();
     this.screenFlash?.destroy();
     this.sprite?.destroy();

@@ -21,6 +21,60 @@ try{
   }
  }
  p.setBody('crouch');p.body.updateFromGameObject();check(Math.abs(p.body.height-95.12)<0.01,'Agachar reduz a hitbox');p.setBody('stand');
+ // Usa o Phaser do próprio jogo para construir os ajudantes em um cenário de teste.
+ window.Phaser=frame.contentWindow.Phaser;
+ const {ToninhoHelper}=await import('../src/game/fase3/ToninhoHelper.js');
+ const {JuliaHelper}=await import('../src/game/fase3/JuliaHelper.js');
+ const {LucasHelper}=await import('../src/game/fase3/LucasHelper.js');
+ const {BiaHelper}=await import('../src/game/fase3/BiaHelper.js');
+ const {Macaco}=await import('../src/game/fase3/Macaco.js');
+ const {Crab}=await import('../src/game/fase3/Crab.js');
+ let shells=0;const spawn=s.spawnShell;s.spawnShell=()=>shells++;
+ p.cancelAction();p.locked=false;p.hurtT=0;p.crouching=false;p.onRope=null;
+ p.body.blocked.down=true;p.body.setVelocity(0,0);p.grounded=true;
+ check(p.startAction('throw'),'Aceita o primeiro arremesso');
+ check(!p.startAction('throw'),'Bloqueia arremesso duplicado durante a ação');
+ for(let i=0;i<6;i++)p.update(.05,{});
+ check(shells===0,'Concha aguarda o quadro de soltura');
+ p.update(.05,{});check(shells===1,'Concha lançada no evento de 333 ms');
+ for(let i=0;i<10;i++)p.update(.05,{});
+ check(shells===1,'Uma concha por ação');
+ p.startAction('throw');p.hurt(p.x+100);p.update(.5,{});
+ check(shells===1&&!p.action,'Dano cancela o arremesso pendente');
+ p.hurtT=0;p.invulnT=0;s.spawnShell=spawn;
+ const user={x:0,y:900,grounded:true,body:{velocity:{x:0},bottom:900},facing:1,ropeCooldown:1};
+ const t=new ToninhoHelper(s,{id:'teste_t',x:0,w:100,y:0,h:1080,topY:600,bottomY:900,toninhoX:100});
+ t.trigger();t.update(.7,user);check(!t.rope.deploying,'Corda aguarda a soltura');
+ t.update(.28,user);check(!t.rope.deploying,'Corda não é lançada antes de 285 ms');
+ t.update(.01,user);check(t.rope.deploying,'Corda lançada no evento');t.destroy();
+ const j=new JuliaHelper(s,{id:'teste_j',x:0,y:0,w:500,h:1080,juliaX:100,juliaY:900});
+ j.cycleT=j.interval;j.update(.01,user);check(j.flashCount===0,'Câmera aguarda o quadro do flash');
+ j.update(.37,user);check(j.flashCount===0,'Flash não dispara antes de 375 ms');
+ j.update(.01,user);check(j.flashCount===1,'Flash no evento de 375 ms');
+ j.update(.1,user);check(j.flashCount===1,'Flash não se duplica');j.destroy();
+ const l=new LucasHelper(s,{id:'teste_l',x:0,y:0,w:500,h:1080,lucasX:100,lucasY:900,buoys:[{x:250,y:850},{x:450,y:850}]});
+ l.update(.01,user);for(let i=0;i<19;i++)l.update(.05,user);
+ check(l.state==='operateGadget'&&!l.buoys.some(b=>b.active),'Lucas termina a montagem antes de ativar');
+ l.update(.05,user);check(l.state==='activate','Lucas ativa no evento de 1000 ms');
+ l.update(.5,user);check(l.buoys.every(b=>b.active),'Plataformas aparecem após a ativação');l.destroy();
+ let discoveries=0;
+ const helper=new BiaHelper(s,{id:'teste_b',x:0,y:0,w:2000,h:1080,biaX:500,biaY:900,secretPlatforms:[]});
+ check(!helper.sprite,'Investigação usa a Bia jogável, sem NPC duplicada');
+ p.cancelAction();p.locked=false;p.hurtT=0;p.body.blocked.down=true;p.body.setVelocity(0,0);p.grounded=true;
+ p.sprite.setPosition(500,900);helper.update(.01,p);
+ const oldReveal=helper.revealSecretPath.bind(helper);helper.revealSecretPath=()=>{discoveries++;oldReveal()};
+ for(let i=0;i<7;i++)p.update(.05,{});
+ check(discoveries===0,'Descoberta aguarda 400 ms');
+ p.update(.05,{});check(discoveries===1,'Pista revelada pela ação da própria Bia');helper.destroy();
+ let stones=0;const oldStone=s.spawnMonkeyRock;s.spawnMonkeyRock=()=>stones++;
+ const monkey=new Macaco(s,{uid:'teste_m',x:500,y:650});monkey.state='aim';monkey.t=0;
+ monkey.update(.01,user);monkey.update(.39,user);check(stones===0,'Pedra aguarda 400 ms da animação');
+ monkey.update(.01,user);check(stones===1,'Pedra lançada no evento');
+ monkey.update(.05,user);check(stones===1,'Uma pedra por ataque');monkey.destroy();s.spawnMonkeyRock=oldStone;
+ const crab=new Crab(s,{uid:'teste_c',x:500,y:900});crab.setActive(true);crab.state='raise';crab.t=0;crab.groundAhead=()=>true;
+ crab.update(.01,user);check(!crab.attackHitbox,'Garras aguardam o quadro de ataque');
+ crab.update(.17,user);check(crab.attackHitbox,'Garras ativam no evento');
+ crab.update(.17,user);check(!crab.attackHitbox,'Garras desativam ao terminar o golpe');crab.sprite.destroy();
  out.textContent='PASSOU — '+checks.length+' verificações\n'+checks.join('\n');
 }catch(error){out.textContent='FALHOU — '+error.stack+'\n'+checks.join('\n');console.error(error)}
 </script></html>

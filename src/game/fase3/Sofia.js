@@ -5,6 +5,7 @@
  * pulo de altura variável (soltar cedo = pulo baixo), correr, agachar (passa em vão de 120 px).
  */
 import { bindAtlasGeometry } from "./AtlasGeometry.js";
+import { AnimationEvents } from "./AnimationEvents.js";
 import { SPRITES } from "./Fase3Assets.js";
 
 export const SOFIA_TUNING = {
@@ -35,6 +36,10 @@ export class Sofia {
     this.hurtT = 0; this.invulnT = 0; this.throwT = 0; this.landT = 0; this.locked = false; this.pointing = false;
     this.wasGrounded = false; this.airVy = 0; this.cheering = false;
     this.onRope = null; this.ropeDist = 0; this.ropeCooldown = 0; this.climbingActive = false;
+    this.actionEvents = new AnimationEvents(scene.cache.json.get("ilha_farol_manifest"), event => {
+      if (event.action === "spawn_shell") scene.spawnShell();
+      if (event.action === "reveal_secret_hint") this.onDiscover?.();
+    });
     this.play("idle");
   }
   get x() { return this.sprite.x; }
@@ -65,6 +70,7 @@ export class Sofia {
   grabRope(rope, dist) {
     if (this.onRope === rope || this.ropeCooldown > 0 || this.hurtT > 0 || this.locked) return false;
     const vx = this.body.velocity.x || 0;
+    this.cancelAction();
     this.onRope = rope;
     this.ropeDist = Math.max(46, Math.min(rope.curLen - 16, dist));
     this.crouching = false;
@@ -101,6 +107,7 @@ export class Sofia {
   }
   hurt(fromX) {
     if (this.invulnT > 0) return false;
+    this.cancelAction();
     if (this.onRope) this.leaveRope(0, false);
     const dir = this.x < fromX ? -1 : 1;
     this.body.setVelocity(dir * 420, -440);
@@ -108,6 +115,7 @@ export class Sofia {
     return true;
   }
   respawn(x, y) {
+    this.cancelAction();
     if (this.onRope) this.leaveRope(0, false);
     this.sprite.setPosition(x, y); this.body.reset(x, y);
     this.hurtT = 0; this.invulnT = 0.8; this.coyoteT = 0; this.bufferT = 0; this.ropeCooldown = 0;
@@ -211,7 +219,39 @@ export class Sofia {
 
     sp.setFlipX(this.facing < 0);
     sp.setAlpha(this.invulnT > 0 && this.hurtT <= 0 ? (Math.floor(this.invulnT * 12) % 2 ? 0.45 : 1) : 1);
+    if (this.action) {
+      const interrupted = this.hurtT > 0 || this.locked || (this.action === "discover" &&
+        (!this.grounded || Math.abs(b.velocity.x) > 25 || a.jumpPressed));
+      if (interrupted) this.cancelAction();
+      else {
+        this.actionEvents.advance(dt * 1000);
+        this.actionTime -= dt;
+        if (this.actionTime <= 0) this.cancelAction();
+      }
+    }
     this.animate();
+  }
+  startAction(kind, onDiscover) {
+    if (this.action || this.locked || this.hurtT > 0 || this.onRope || this.crouching) return false;
+    const key = kind === "discover" ? "bia.discover" :
+      !this.grounded ? "bia.throw_air" : Math.abs(this.body.velocity.x) > 40 ? "bia.throw_run" : "bia.throw_stand";
+    if (!this.isBia || !this.scene.anims.exists(key)) {
+      if (kind === "discover") onDiscover?.(); else this.scene.spawnShell();
+      return true;
+    }
+    this.action = kind;
+    this.onDiscover = onDiscover;
+    this.actionKey = key;
+    this.actionTime = this.scene.anims.get(key).duration / 1000;
+    this.sprite.play(key);
+    this.actionEvents.start(key);
+    return true;
+  }
+  cancelAction() {
+    this.actionEvents?.cancel();
+    this.action = null;
+    this.actionKey = null;
+    this.onDiscover = null;
   }
   play(pose) {
     if (this.isBia) {
@@ -280,6 +320,7 @@ export class Sofia {
   animate() {
     const b = this.body, sp = this.sprite, speed = Math.abs(b.velocity.x);
     sp.anims.timeScale = 1;
+    if (this.action) return;
     if (this.cheering) return this.play("cheer");
     if (this.hurtT > 0) return this.play("hurt");
     if (this.onRope) return this.play(this.climbingActive ? "climb" : "climb_idle");

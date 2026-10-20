@@ -6,6 +6,7 @@
  * Derrota "cartoon": gira e voa para fora da tela (sem violência).
  */
 import { bindAtlasGeometry } from "./AtlasGeometry.js";
+import { AnimationEvents } from "./AnimationEvents.js";
 import { SPRITES } from "./Fase3Assets.js";
 
 export class Crab {
@@ -27,6 +28,11 @@ export class Crab {
     sp.setData("crab", this);
     this.sprite = sp; this.hp = 2; this.dir = Math.random() < 0.5 ? -1 : 1; this.state = "patrol"; this.t = 0; this.cool = 0; this.alive = true;
     this.minX = def.minX ?? def.x - 250; this.maxX = def.maxX ?? def.x + 250;
+    this.attackHitbox = false;
+    this.actionEvents = new AnimationEvents(scene.cache.json.get("ilha_farol_manifest"), event => {
+      if (event.action === "enable_attack_hitbox") this.attackHitbox = true;
+      if (event.action === "disable_attack_hitbox") this.attackHitbox = false;
+    });
     this.play("walk");
   }
   get x() { return this.sprite.x; }
@@ -56,9 +62,11 @@ export class Crab {
     if (on) this.sprite.anims.resume(); else this.sprite.anims.pause();
     this.active = on;
   }
-  dangerous() { return this.alive && this.state !== "hurt"; }
+  dangerous() { return this.alive && this.state !== "hurt" && (this.state !== "attack" || !this.useAtlas || this.attackHitbox); }
   hurt(fromX) {
     if (!this.alive || this.state === "hurt") return;
+    this.actionEvents.cancel();
+    this.attackHitbox = false;
     this.hp -= 1;
     if (this.hp <= 0) return this.defeat(fromX);
     this.state = "hurt"; this.t = 0.4;
@@ -68,6 +76,8 @@ export class Crab {
   }
   defeat(fromX) {
     if (!this.alive) return;
+    this.actionEvents.cancel();
+    this.attackHitbox = false;
     this.alive = false; this.state = "defeated";
     const sp = this.sprite, away = this.x < fromX ? -1 : 1;
     sp.body.checkCollision.none = true; sp.body.moves = true; sp.anims.resume();
@@ -79,6 +89,7 @@ export class Crab {
   update(dt, sofia) {
     if (!this.alive || !this.active) return;
     const b = this.sprite.body, grounded = b.blocked.down || b.touching.down;
+    if (this.state === "attack") this.actionEvents.advance(dt * 1000);
     this.t -= dt; this.cool = Math.max(0, this.cool - dt);
     const dx = sofia.x - this.x, near = Math.abs(dx) < 460 && Math.abs(sofia.y - this.y) < 170;
     switch (this.state) {
@@ -89,11 +100,11 @@ export class Crab {
         break;
       }
       case "notice": b.setVelocityX(0); this.play("idle"); if (this.t <= 0) { this.state = "raise"; this.t = 0.5; } break;
-      case "raise": b.setVelocityX(0); this.play("raise"); if (this.t <= 0) { this.state = "attack"; this.t = 0.45; this.dir = Math.sign(sofia.x - this.x) || this.dir; } break;
+      case "raise": b.setVelocityX(0); this.play("raise"); if (this.t <= 0) { this.state = "attack"; this.t = this.useAtlas ? this.scene.anims.get("crab.attack").duration / 1000 : 0.45; this.play("attack"); this.attackHitbox = false; if (this.useAtlas) this.actionEvents.start("crab.attack"); this.dir = Math.sign(sofia.x - this.x) || this.dir; } break;
       case "attack": {
         const edge = grounded && !this.groundAhead();
         b.setVelocityX(edge ? 0 : this.dir * 430); this.play("attack");
-        if (this.t <= 0 || edge) { this.state = "recover"; this.t = 0.7; }
+        if (this.t <= 0 || edge) { this.actionEvents.cancel(); this.attackHitbox = false; this.state = "recover"; this.t = 0.7; }
         break;
       }
       case "recover": b.setVelocityX(b.velocity.x * 0.85); this.play("idle"); if (this.t <= 0) { this.state = "patrol"; this.cool = 1.2; } break;

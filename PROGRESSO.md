@@ -54,3 +54,11 @@ O Marcos pediu uma nova implementação dos ajustes. Os arquivos antigos continu
 - Bia mantém a hitbox de 70,52 × 167,28 no mundo (95,12 de altura agachada) em todos os atlas; os pés ficam ancorados ao mudar de quadro. Faísca, inimigos e ajudantes usam a mesma rotina de alinhamento.
 - Teste em npm run dev: tools/testar_integracao_fase3.html passou 431 verificações de atlas, animações, quadros e hitbox. Quatro testes do relógio de eventos também passaram.
 - Próximo lote: conectar eventos do manifesto às ações e eliminar a segunda instância da Bia no setor L.
+
+### Lote 4 — eventos das ações
+- Lote anterior publicado: 892ab83ede636e4b51b6292e5abb6f4146c464a2.
+- Concha no evento de 333 ms, pedra no de 400 ms, corda em 285 ms, flash em 375 ms, plataformas do Lucas em 1000 ms e descoberta da Bia em 400 ms.
+- Golpe do caranguejo respeita a janela de garras; dano, respawn e troca de estado cancelam ações pendentes.
+- Setor L usa a protagonista para investigar, sem criar outra Bia; o final também não duplica a personagem.
+- Página de teste no dev passou 456 verificações, incluindo ações, cancelamentos e ausência de duplicação.
+- Próximo lote: aproveitar a arte do pacote existente em terrenos, objetos e efeitos; manter registrada a ausência das oito imagens extras antigas.

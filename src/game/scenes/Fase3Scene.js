@@ -181,6 +181,7 @@ export class Fase3Scene extends Phaser.Scene {
     else if (this.touchOld != null) b.innerHTML = this.touchOld;
   }
   cleanup() {
+    this.sofia?.cancelAction();
     window.removeEventListener("keydown", this.onKD);
     window.removeEventListener("keyup", this.onKU);
     this.stopCharge?.();
@@ -359,7 +360,8 @@ export class Fase3Scene extends Phaser.Scene {
       duration: 100,
     });
   }
-  throwShell() {
+  throwShell() { return this.sofia.startAction("throw"); }
+  spawnShell() {
     const s = this.sofia, im = this.art.img("f3_concha_projetil");
     const x0 = s.x + s.facing * 50, y0 = s.y - (s.crouching ? 50 : 80);
     const p = this.projectiles.create(x0, y0, im.key, im.frame || 0).setScale(im.scale).setDepth(11);
@@ -674,7 +676,6 @@ export class Fase3Scene extends Phaser.Scene {
       { key: SPRITES.marina.key, anim: "f3_marina-cheer", x: this.sofia.x - 175, scale: SPRITES.marina.scale, origin: SPRITES.marina.origin },
       { key: SPRITES.lucas.key, anim: "f3_lucas-celebrate", x: this.sofia.x - 260, scale: SPRITES.lucas.scale, origin: SPRITES.lucas.origin },
       { key: SPRITES.julia.key, anim: "f3_julia-cheer", x: this.sofia.x - 345, scale: SPRITES.julia.scale, origin: SPRITES.julia.origin },
-      { key: SPRITES.bia.key, anim: "f3_bia-cheer", x: this.sofia.x - 430, scale: SPRITES.bia.scale, origin: SPRITES.bia.origin },
     ];
     const friendSprites = [];
     friends.forEach((fDef, idx) => {
@@ -718,7 +719,7 @@ export class Fase3Scene extends Phaser.Scene {
         "A Turma do Farol alcançou a Entrada da Caverna Azul!\n\n" +
         `Conchas da Ilha: ${this.collected.size} coletadas\n` +
         `Relíquia Oculta: ${relTxt}\n` +
-        "Amigos Reunidos: 5 de 5 (Toninho, Marina, Júlia, Lucas e Bia)";
+        "Turma reunida: Bia, Faísca, Toninho, Marina, Júlia e Lucas";
 
       objs.push(this.add.text(W / 2, H / 2 - 20, statsMsg, {
         fontFamily: "Georgia, serif", fontSize: "28px", color: "#3a2412", align: "center", lineSpacing: 8
@@ -767,7 +768,7 @@ export class Fase3Scene extends Phaser.Scene {
 
     // ataque normal (concha) e especial (latido)
     this.throwCool = Math.max(0, this.throwCool - dt);
-    if (a.attackPressed && !this.ended && !this.charging && !s.locked && !s.onRope && s.hurtT <= 0 && this.throwCool <= 0 && this.projectiles.countActive() < 3) { this.throwShell(); this.throwCool = 0.3; }
+    if (a.attackPressed && !this.ended && !this.charging && !s.locked && !s.onRope && s.hurtT <= 0 && this.throwCool <= 0 && this.projectiles.countActive() < 3) { if (this.throwShell()) this.throwCool = 0.5; }
     if (!this.ended) this.updateSpecial(dt, a);
     for (const p of this.projectiles.getChildren().slice()) {
       for (const br of (this.chunks.breakables || []).slice()) {

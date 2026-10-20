@@ -14,6 +14,7 @@
  */
 import { bindAtlasGeometry } from "./AtlasGeometry.js";
 import Phaser from "../phaser.js";
+import { AnimationEvents } from "./AnimationEvents.js";
 import { SPRITES } from "./Fase3Assets.js";
 
 export class Macaco {
@@ -45,11 +46,20 @@ export class Macaco {
     this.aimX = def.x;
     this.aimGroundY = scene.levelGroundY(def.x);
     this.aimShadow = null;
+    this.actionEvents = new AnimationEvents(scene.cache.json.get("ilha_farol_manifest"), event => {
+      if (event.action === "spawn_stone" && this.state === "throw" && this.alive) this.throwStone();
+    });
     this.play("idle");
   }
   get x() { return this.sprite.x; }
   get y() { return this.sprite.y; }
   play(pose) {
+    if (this.useAtlas && pose === "aim") {
+      this.sprite.anims.stop();
+      this.sprite.setTexture("monkey", "f009");
+      this.sprite.refreshAtlasGeometry();
+      return;
+    }
     let k = `${this.M.key}-${pose}`;
     if (this.useAtlas) {
       const map = {
@@ -67,6 +77,11 @@ export class Macaco {
     }
     if (this.sprite.anims.currentAnim?.key !== k) this.sprite.play(k);
   }
+  throwStone() {
+    const shadow = this.aimShadow;
+    this.aimShadow = null;
+    this.scene.spawnMonkeyRock?.(this.x + this.dir * 24, this.y - 96, this.aimX, this.aimGroundY, shadow);
+  }
   setActive(on) {
     if (!this.alive) return;
     this.sprite.body.moves = on;
@@ -82,6 +97,7 @@ export class Macaco {
   /** Atordoa o macaco (usado após levar 1ª concha e também pelo flash da Júlia no Setor H). */
   stun(duration = 2.4) {
     if (!this.alive || this.state === "defeat") return;
+    this.actionEvents?.cancel();
     this.clearAimShadow();
     this.state = "stun";
     this.t = duration;
@@ -90,6 +106,7 @@ export class Macaco {
   }
   hurt(fromX) {
     if (!this.alive || this.state === "hurt" || this.state === "defeat") return;
+    this.actionEvents?.cancel();
     this.clearAimShadow();
     this.hp -= 1;
     if (this.hp <= 0 || this.state === "stun") return this.defeat(fromX);
@@ -102,6 +119,7 @@ export class Macaco {
   }
   defeat(fromX) {
     if (!this.alive) return;
+    this.actionEvents?.cancel();
     this.clearAimShadow();
     this.alive = false;
     this.state = "defeat";
@@ -117,12 +135,14 @@ export class Macaco {
     this.scene.time.delayedCall(1700, () => sp.destroy());
   }
   destroy() {
+    this.actionEvents?.cancel();
     this.clearAimShadow();
     if (this.sprite?.active) this.sprite.destroy();
   }
   update(dt, sofia) {
     if (!this.alive || !this.active) return;
     const b = this.sprite.body;
+    if (this.state === "throw") this.actionEvents.advance(dt * 1000);
     this.t -= dt;
     this.cool = Math.max(0, this.cool - dt);
     const dx = sofia.x - this.x, adx = Math.abs(dx);
@@ -167,7 +187,8 @@ export class Macaco {
           const targetOffset = Phaser.Math.Clamp(dx + lead, -660, 660);
           this.aimX = this.x + (Math.abs(targetOffset) < 90 ? (this.dir || 1) * 140 : targetOffset);
           this.aimGroundY = this.scene.levelGroundY(this.aimX);
-          this.clearAimShadow();
+          this.actionEvents?.cancel();
+    this.clearAimShadow();
           this.aimShadow = this.scene.createRockShadow?.(this.aimX, this.aimGroundY);
         }
         break;
@@ -180,10 +201,11 @@ export class Macaco {
         }
         if (this.t <= 0) {
           this.state = "throw";
-          this.t = 0.32;
-          const shadow = this.aimShadow;
-          this.aimShadow = null;
-          this.scene.spawnMonkeyRock?.(this.x + this.dir * 24, this.y - 96, this.aimX, this.aimGroundY, shadow);
+          this.t = this.useAtlas ? this.scene.anims.get("monkey.throw").duration / 1000 : 0.32;
+          this.sprite.anims.stop();
+          this.play("throw");
+          if (this.useAtlas) this.actionEvents.start("monkey.throw");
+          else this.throwStone();
         }
         break;
       }
