@@ -5,7 +5,7 @@ Atualizado em 20/10/2026 (America/Sao_Paulo).
 ## Estado atual
 
 - Repositório: `ffagmarcos-ops/turma-do-farol-game`.
-- Branch desta implementação: `retomar-integracao-fase3`. Base: `main` em `025d38bb334624f66ac2d84db8944c4f6deb8798`.
+- Branch de desenvolvimento: `retomar-integracao-fase3`. Base original: `025d38bb334624f66ac2d84db8944c4f6deb8798`. O Marcos solicitou a publicação desta integração na versão principal (`main`).
 - O Marcos autorizou recriar os ajustes da integração usando o código e os sprites disponíveis. Trata-se de implementação nova, não de recuperação exata do commit antigo.
 - O pacote de 32 sprites/atlas e 69 animações já estava no GitHub desde 19/10. A pasta indicada em Downloads contém 66 arquivos idênticos aos desse pacote.
 - A cópia original do Mac em `~/Documents/turma-do-farol-game` foi inspecionada e preservada. O trabalho está na cópia isolada desta conversa.
@@ -25,7 +25,8 @@ Atualizado em 20/10/2026 (America/Sao_Paulo).
 2. `2778a8286ea816042b845fac136a40a283b573d9`: recuperação exata de AnimationEvents.js e quatro testes. Push confirmado.
 3. `892ab83ede636e4b51b6292e5abb6f4146c464a2`: alinhamento dos atlas e colisões; 431 verificações no navegador. Push confirmado.
 4. `aa152db`: ações sincronizadas e Bia única; 456 verificações no navegador. Push confirmado.
-5. Este lote: arte existente aplicada em terrenos e efeitos, correções das plataformas e checkpoints, testes e documentação. Seu hash é consultado com `git log -1 --format='%H %s'`; o arquivo não pode incluir o hash do próprio commit que o contém.
+5. `67ecd8bf6ca4df32c8d705b6107e32c9eb9f22d5`: arte existente aplicada em terrenos e efeitos, correções das plataformas e checkpoints, testes e documentação. Push confirmado na branch de desenvolvimento.
+6. Publicação na versão principal solicitada pelo Marcos: integrar por fast-forward, preservando os commits acima. Consultar o commit deste registro com `git log -1 --format='%H %s' -- PROGRESSO.md` e confirmar que HEAD corresponde a `origin/main` após o push.
 
 ## Verificado
 
@@ -45,7 +46,7 @@ As oito imagens extras de cenário não foram localizadas. A reconstrução usa 
 
 1. Ler `AGENTS.md`, `GUIA_CONTINUIDADE.md` e `docs/fase3/INTEGRACAO_ASSETS.md`.
 2. Conferir branch, `git status --short`, `git log -5 --oneline` e referências remotas antes de editar. Não sobrescrever alterações, não usar force push.
-3. A publicação ocorre na branch `retomar-integracao-fase3`; a incorporação em `main` ainda é uma etapa separada de revisão.
+3. A integração desta retomada segue para `main` por pedido explícito do Marcos. Ao retomar, conferir `git ls-remote origin refs/heads/main` e `git log -1`; a igualdade dos hashes confirma a publicação. Novos ajustes devem começar em uma branch baseada na versão principal atual.
 4. Para conferir visualmente: `?fase3=novo`, D0 (corda), F0 (Marina), H0 (flash), I0 (Lucas), L0 (investigação) e O0 (caverna). Controles e expectativas estão no documento da integração.
 5. Após cada novo lote: revisar diff, testar, atualizar este documento, fazer commit em português e push; comparar `git rev-parse HEAD` com `git ls-remote origin refs/heads/retomar-integracao-fase3`.
 6. Alterações futuras na arte devem preservar identidade e originais. As oito imagens antigas só seriam necessárias para reproduzir exatamente aquele visual perdido, não para executar esta integração.
