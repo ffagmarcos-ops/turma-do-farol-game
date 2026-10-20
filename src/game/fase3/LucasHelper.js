@@ -9,6 +9,7 @@
  *   voltando à superfície quando ela sai.
  * - Quando a Sofia chega ao outro lado (`celebrateX`), o Lucas comemora (`celebrate`).
  */
+import { bindAtlasGeometry } from "./AtlasGeometry.js";
 import { SPRITES } from "./Fase3Assets.js";
 
 const SURF_Y = 8; // altura da superfície onde o pé da Sofia pisa no sprite f3_boia_lucas (168×58)
@@ -35,6 +36,8 @@ export class LucasHelper {
       .setScale(scale)
       .setFlipX(this.facing < 0)
       .setDepth(6.3);
+
+    if (useAtlas) bindAtlasGeometry(this.sprite);
 
     this.pulseGfx = scene.add.graphics().setDepth(12.6);
     this.foamGfx = scene.add.graphics().setDepth(12.2);

@@ -5,6 +5,7 @@
  * reage a inimigos (rosnado), fareja segredos (hook: sniffTarget) e, se ficar longe/preso,
  * reaparece discretamente num ponto seguro atrás dela.
  */
+import { bindAtlasGeometry } from "./AtlasGeometry.js";
 import { SPRITES } from "./Fase3Assets.js";
 
 export class Faisca {
@@ -14,9 +15,10 @@ export class Faisca {
     const key = art.faisca.key;
     const scale = art.faisca.scale ?? F.scale;
     const origin = art.faisca.origin ?? F.origin;
-    const sp = scene.physics.add.sprite(x, y, key, 0).setOrigin(origin[0], origin[1]).setScale(scale).setDepth(9);
+    const sp = scene.physics.add.sprite(x, y, key, key === "faisca_run" ? "f000" : 0).setOrigin(origin[0], origin[1]).setScale(scale).setDepth(9);
     const [w, h, ox, oy] = art.faisca.body ?? F.body;
     sp.body.setSize(w, h, false).setOffset(ox, oy);
+    if (key === "faisca_run") bindAtlasGeometry(sp, () => [46.8, 36.4]);
     sp.body.setMaxVelocity(900, 1400);
     sp.body.setCollideWorldBounds(true);
     this.sprite = sp; this.facing = 1; this.mode = "follow"; this.stuckT = 0; this.sniffT = 0; this.alertT = 0; this.sniffCooldown = 0;

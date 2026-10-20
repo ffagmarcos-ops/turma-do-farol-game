@@ -8,6 +8,7 @@
  *   que a Sofia suba na caixa e alcance o patamar superior.
  * - A Marina não tem corpo físico de colisão: nunca bloqueia a Sofia.
  */
+import { bindAtlasGeometry } from "./AtlasGeometry.js";
 import { SPRITES, IMAGES } from "./Fase3Assets.js";
 
 const CRATE_W = 128, CRATE_H = 128;
@@ -54,6 +55,8 @@ export class MarinaHelper {
       .setScale(scale)
       .setDepth(8.8)
       .setFlipX(this.pushDir < 0);
+
+    if (useAtlas) bindAtlasGeometry(this.sprite);
 
     // Imagem da caixa grande de madeira (origem na base central)
     const im = scene.art?.img(C.key) || { key: C.key, scale: 1 };

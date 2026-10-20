@@ -12,6 +12,7 @@
  *  - stun      (atordoado: fica tonto com estrelinhas; próxima concha derrota)
  *  - defeat    (derrota estilo desenho animado: gira e sai voando)
  */
+import { bindAtlasGeometry } from "./AtlasGeometry.js";
 import Phaser from "../phaser.js";
 import { SPRITES } from "./Fase3Assets.js";
 
@@ -29,6 +30,7 @@ export class Macaco {
     scene.monkeyGroup?.add(sp);
     const [w, h, ox, oy] = useAtlas ? [90, 116, 103, 172] : M.body;
     sp.body.setSize(w, h, false).setOffset(ox, oy);
+    if (useAtlas) bindAtlasGeometry(sp, () => [61.2, 78.88]);
     sp.body.setMaxVelocity(700, 1400);
     sp.setData("monkey", this);
     this.sprite = sp;

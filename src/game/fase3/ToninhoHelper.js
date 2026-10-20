@@ -9,6 +9,7 @@
  *    - thumbsUp  (faz sinal de positivo e acena quando a Sofia chega ao topo; a corda continua interativa)
  * - NauticalRope: corda náutica com nós, física de pêndulo (balança com ←/→), escalada (↑/↓) e salto.
  */
+import { bindAtlasGeometry } from "./AtlasGeometry.js";
 import Phaser from "../phaser.js";
 import { SPRITES } from "./Fase3Assets.js";
 
@@ -153,6 +154,8 @@ export class ToninhoHelper {
       .setScale(scale)
       .setDepth(8.8)
       .setFlipX((def.ropeX ?? def.x) < this.toninhoX);
+
+    if (useAtlas) bindAtlasGeometry(this.sprite);
 
     this.rope = new NauticalRope(scene, {
       id: `${def.id}_rope`,

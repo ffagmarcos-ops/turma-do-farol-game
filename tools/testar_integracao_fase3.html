@@ -1,0 +1,26 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Verificação da integração da Fase 3</title>
+<style>body{background:#132c3d;color:#fff;font:16px system-ui;padding:20px}iframe{width:960px;height:540px;border:0}pre{white-space:pre-wrap}</style>
+<h1>Verificação da integração da Fase 3</h1><pre id="resultado">Carregando o jogo…</pre><iframe id="jogo" src="/?fase3=novo"></iframe>
+<script type="module">
+const out=document.querySelector('#resultado'),frame=document.querySelector('#jogo');
+const checks=[];
+const check=(ok,message)=>{if(!ok)throw new Error(message);checks.push('OK — '+message)};
+try{
+ const deadline=Date.now()+60000;
+ while(!frame.contentWindow.__f3?.sofia?.sprite){if(Date.now()>deadline)throw new Error('Jogo não iniciou em 60 segundos');await new Promise(r=>setTimeout(r,100))}
+ const s=frame.contentWindow.__f3, manifest=s.cache.json.get('ilha_farol_manifest');
+ s.game.loop.stop();s.physics.world.pause();
+ for(const a of manifest.assets){check(s.textures.exists(a.textureKey),'Atlas carregado: '+a.textureKey)}
+ for(const a of manifest.phaserAnimations.anims){check(s.anims.exists(a.key),'Animação registrada: '+a.key);for(const f of a.frames)check(s.textures.get(f.key).has(f.frame),'Quadro existe: '+f.key+'/'+f.frame)}
+ const p=s.sofia,sp=p.sprite;
+ for(const key of ['bia_locomotion','bia_throw','bia_secret']){
+  for(const name of s.textures.get(key).getFrameNames()){
+   sp.setTexture(key,name);sp.refreshAtlasGeometry();p.body.updateFromGameObject();
+   check(Math.abs(p.body.width-70.52)<0.01&&Math.abs(p.body.height-167.28)<0.01,'Hitbox fixa: '+key+'/'+name);
+   check(Math.abs(p.body.bottom-sp.y)<0.01,'Pés alinhados: '+key+'/'+name);
+  }
+ }
+ p.setBody('crouch');p.body.updateFromGameObject();check(Math.abs(p.body.height-95.12)<0.01,'Agachar reduz a hitbox');p.setBody('stand');
+ out.textContent='PASSOU — '+checks.length+' verificações\n'+checks.join('\n');
+}catch(error){out.textContent='FALHOU — '+error.stack+'\n'+checks.join('\n');console.error(error)}
+</script></html>

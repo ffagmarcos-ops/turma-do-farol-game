@@ -1,0 +1,791 @@
+{
+  "bia_locomotion": {
+    "frames": {
+      "f000": {
+        "footX": 164.5,
+        "footY": 326,
+        "height": 235
+      },
+      "f001": {
+        "footX": 165.5,
+        "footY": 326,
+        "height": 234
+      },
+      "f002": {
+        "footX": 150.5,
+        "footY": 327,
+        "height": 234
+      },
+      "f003": {
+        "footX": 152.0,
+        "footY": 326,
+        "height": 233
+      },
+      "f004": {
+        "footX": 173.0,
+        "footY": 328,
+        "height": 222
+      },
+      "f005": {
+        "footX": 163.0,
+        "footY": 320,
+        "height": 212
+      },
+      "f006": {
+        "footX": 143.5,
+        "footY": 320,
+        "height": 214
+      },
+      "f007": {
+        "footX": 147.0,
+        "footY": 319,
+        "height": 210
+      },
+      "f008": {
+        "footX": 183.5,
+        "footY": 317,
+        "height": 203
+      },
+      "f009": {
+        "footX": 179.5,
+        "footY": 294,
+        "height": 207
+      },
+      "f010": {
+        "footX": 152.0,
+        "footY": 306,
+        "height": 196
+      },
+      "f011": {
+        "footX": 158.0,
+        "footY": 308,
+        "height": 186
+      },
+      "f012": {
+        "footX": 180.0,
+        "footY": 264,
+        "height": 168
+      },
+      "f013": {
+        "footX": 172.0,
+        "footY": 262,
+        "height": 154
+      },
+      "f014": {
+        "footX": 158.5,
+        "footY": 261,
+        "height": 151
+      },
+      "f015": {
+        "footX": 161.5,
+        "footY": 264,
+        "height": 199
+      }
+    }
+  },
+  "bia_throw": {
+    "frames": {
+      "f000": {
+        "footX": 185.0,
+        "footY": 340,
+        "height": 333
+      },
+      "f001": {
+        "footX": 190.5,
+        "footY": 339,
+        "height": 329
+      },
+      "f002": {
+        "footX": 181.5,
+        "footY": 337,
+        "height": 327
+      },
+      "f003": {
+        "footX": 203.0,
+        "footY": 337,
+        "height": 327
+      },
+      "f004": {
+        "footX": 199.0,
+        "footY": 338,
+        "height": 328
+      },
+      "f005": {
+        "footX": 172.0,
+        "footY": 338,
+        "height": 298
+      },
+      "f006": {
+        "footX": 185.0,
+        "footY": 339,
+        "height": 300
+      },
+      "f007": {
+        "footX": 179.0,
+        "footY": 336,
+        "height": 298
+      },
+      "f008": {
+        "footX": 187.5,
+        "footY": 337,
+        "height": 297
+      },
+      "f009": {
+        "footX": 193.5,
+        "footY": 340,
+        "height": 301
+      },
+      "f010": {
+        "footX": 160.0,
+        "footY": 320,
+        "height": 292
+      },
+      "f011": {
+        "footX": 182.5,
+        "footY": 329,
+        "height": 301
+      },
+      "f012": {
+        "footX": 201.5,
+        "footY": 318,
+        "height": 290
+      },
+      "f013": {
+        "footX": 195.0,
+        "footY": 325,
+        "height": 292
+      },
+      "f014": {
+        "footX": 188.5,
+        "footY": 329,
+        "height": 300
+      }
+    }
+  },
+  "faisca_run": {
+    "frames": {
+      "f000": {
+        "footX": 186.0,
+        "footY": 375,
+        "height": 307
+      },
+      "f001": {
+        "footX": 189.0,
+        "footY": 375,
+        "height": 302
+      },
+      "f002": {
+        "footX": 191.5,
+        "footY": 359,
+        "height": 290
+      },
+      "f003": {
+        "footX": 182.0,
+        "footY": 325,
+        "height": 241
+      },
+      "f004": {
+        "footX": 196.5,
+        "footY": 337,
+        "height": 273
+      },
+      "f005": {
+        "footX": 209.5,
+        "footY": 357,
+        "height": 288
+      },
+      "f006": {
+        "footX": 214.0,
+        "footY": 357,
+        "height": 278
+      },
+      "f007": {
+        "footX": 200.0,
+        "footY": 357,
+        "height": 260
+      },
+      "f008": {
+        "footX": 213.0,
+        "footY": 321,
+        "height": 280
+      },
+      "f009": {
+        "footX": 194.5,
+        "footY": 298,
+        "height": 259
+      },
+      "f010": {
+        "footX": 200.5,
+        "footY": 306,
+        "height": 271
+      },
+      "f011": {
+        "footX": 192.0,
+        "footY": 321,
+        "height": 284
+      }
+    }
+  },
+  "faisca_bark": {
+    "frames": {
+      "f000": {
+        "footX": 187.0,
+        "footY": 380,
+        "height": 310
+      },
+      "f001": {
+        "footX": 198.5,
+        "footY": 378,
+        "height": 313
+      },
+      "f002": {
+        "footX": 187.0,
+        "footY": 379,
+        "height": 311
+      },
+      "f003": {
+        "footX": 190.5,
+        "footY": 381,
+        "height": 266
+      },
+      "f004": {
+        "footX": 199.5,
+        "footY": 379,
+        "height": 272
+      },
+      "f005": {
+        "footX": 199.5,
+        "footY": 376,
+        "height": 274
+      },
+      "f006": {
+        "footX": 189.5,
+        "footY": 380,
+        "height": 308
+      },
+      "f007": {
+        "footX": 188.0,
+        "footY": 380,
+        "height": 285
+      },
+      "f008": {
+        "footX": 196.0,
+        "footY": 348,
+        "height": 311
+      },
+      "f009": {
+        "footX": 191.5,
+        "footY": 335,
+        "height": 293
+      },
+      "f010": {
+        "footX": 198.0,
+        "footY": 346,
+        "height": 296
+      },
+      "f011": {
+        "footX": 196.0,
+        "footY": 347,
+        "height": 302
+      }
+    }
+  },
+  "crab": {
+    "frames": {
+      "f000": {
+        "footX": 133.5,
+        "footY": 199,
+        "height": 111
+      },
+      "f001": {
+        "footX": 128.0,
+        "footY": 201,
+        "height": 113
+      },
+      "f002": {
+        "footX": 126.5,
+        "footY": 201,
+        "height": 113
+      },
+      "f003": {
+        "footX": 130.0,
+        "footY": 200,
+        "height": 111
+      },
+      "f004": {
+        "footX": 126.5,
+        "footY": 201,
+        "height": 112
+      },
+      "f005": {
+        "footX": 124.0,
+        "footY": 201,
+        "height": 113
+      },
+      "f006": {
+        "footX": 130.5,
+        "footY": 180,
+        "height": 116
+      },
+      "f007": {
+        "footX": 130.0,
+        "footY": 182,
+        "height": 117
+      },
+      "f008": {
+        "footX": 129.5,
+        "footY": 180,
+        "height": 117
+      },
+      "f009": {
+        "footX": 129.5,
+        "footY": 182,
+        "height": 118
+      },
+      "f010": {
+        "footX": 127.0,
+        "footY": 178,
+        "height": 116
+      },
+      "f011": {
+        "footX": 122.0,
+        "footY": 178,
+        "height": 115
+      },
+      "f012": {
+        "footX": 132.0,
+        "footY": 191,
+        "height": 119
+      },
+      "f013": {
+        "footX": 128.5,
+        "footY": 190,
+        "height": 117
+      },
+      "f014": {
+        "footX": 127.5,
+        "footY": 190,
+        "height": 118
+      },
+      "f015": {
+        "footX": 127.5,
+        "footY": 190,
+        "height": 127
+      },
+      "f016": {
+        "footX": 131.0,
+        "footY": 189,
+        "height": 143
+      },
+      "f017": {
+        "footX": 128.5,
+        "footY": 189,
+        "height": 151
+      },
+      "f018": {
+        "footX": 136.5,
+        "footY": 197,
+        "height": 132
+      },
+      "f019": {
+        "footX": 129.5,
+        "footY": 197,
+        "height": 172
+      },
+      "f020": {
+        "footX": 129.0,
+        "footY": 194,
+        "height": 106
+      },
+      "f021": {
+        "footX": 128.0,
+        "footY": 194,
+        "height": 108
+      },
+      "f022": {
+        "footX": 123.5,
+        "footY": 198,
+        "height": 121
+      },
+      "f023": {
+        "footX": 123.0,
+        "footY": 196,
+        "height": 112
+      },
+      "f024": {
+        "footX": 132.5,
+        "footY": 183,
+        "height": 134
+      },
+      "f025": {
+        "footX": 131.0,
+        "footY": 183,
+        "height": 94
+      },
+      "f026": {
+        "footX": 128.0,
+        "footY": 183,
+        "height": 88
+      },
+      "f027": {
+        "footX": 127.0,
+        "footY": 183,
+        "height": 142
+      },
+      "f028": {
+        "footX": 129.0,
+        "footY": 183,
+        "height": 120
+      },
+      "f029": {
+        "footX": 124.0,
+        "footY": 183,
+        "height": 111
+      },
+      "f030": {
+        "footX": 132.5,
+        "footY": 168,
+        "height": 154
+      },
+      "f031": {
+        "footX": 135.0,
+        "footY": 168,
+        "height": 156
+      },
+      "f032": {
+        "footX": 128.0,
+        "footY": 170,
+        "height": 137
+      },
+      "f033": {
+        "footX": 125.5,
+        "footY": 174,
+        "height": 120
+      },
+      "f034": {
+        "footX": 125.0,
+        "footY": 174,
+        "height": 111
+      },
+      "f035": {
+        "footX": 124.5,
+        "footY": 174,
+        "height": 104
+      }
+    }
+  },
+  "monkey": {
+    "frames": {
+      "f000": {
+        "footX": 163.0,
+        "footY": 300,
+        "height": 276
+      },
+      "f001": {
+        "footX": 161.5,
+        "footY": 302,
+        "height": 278
+      },
+      "f002": {
+        "footX": 161.0,
+        "footY": 306,
+        "height": 282
+      },
+      "f003": {
+        "footX": 165.5,
+        "footY": 299,
+        "height": 275
+      },
+      "f004": {
+        "footX": 164.0,
+        "footY": 299,
+        "height": 274
+      },
+      "f005": {
+        "footX": 152.0,
+        "footY": 304,
+        "height": 280
+      },
+      "f006": {
+        "footX": 163.5,
+        "footY": 308,
+        "height": 278
+      },
+      "f007": {
+        "footX": 161.0,
+        "footY": 303,
+        "height": 272
+      },
+      "f008": {
+        "footX": 160.5,
+        "footY": 305,
+        "height": 275
+      },
+      "f009": {
+        "footX": 164.0,
+        "footY": 306,
+        "height": 276
+      },
+      "f010": {
+        "footX": 163.0,
+        "footY": 308,
+        "height": 278
+      },
+      "f011": {
+        "footX": 149.5,
+        "footY": 308,
+        "height": 278
+      },
+      "f012": {
+        "footX": 162.5,
+        "footY": 289,
+        "height": 273
+      },
+      "f013": {
+        "footX": 169.0,
+        "footY": 283,
+        "height": 266
+      },
+      "f014": {
+        "footX": 160.0,
+        "footY": 286,
+        "height": 270
+      },
+      "f015": {
+        "footX": 152.0,
+        "footY": 288,
+        "height": 271
+      },
+      "f016": {
+        "footX": 152.5,
+        "footY": 294,
+        "height": 278
+      },
+      "f017": {
+        "footX": 154.0,
+        "footY": 283,
+        "height": 267
+      }
+    }
+  },
+  "toninho_rope": {
+    "frames": {
+      "f000": {
+        "footX": 186.0,
+        "footY": 489,
+        "height": 470
+      },
+      "f001": {
+        "footX": 210.5,
+        "footY": 488,
+        "height": 463
+      },
+      "f002": {
+        "footX": 209.0,
+        "footY": 489,
+        "height": 470
+      },
+      "f003": {
+        "footX": 204.0,
+        "footY": 490,
+        "height": 451
+      },
+      "f004": {
+        "footX": 223.0,
+        "footY": 482,
+        "height": 468
+      },
+      "f005": {
+        "footX": 210.0,
+        "footY": 483,
+        "height": 432
+      },
+      "f006": {
+        "footX": 208.5,
+        "footY": 480,
+        "height": 465
+      },
+      "f007": {
+        "footX": 206.0,
+        "footY": 481,
+        "height": 466
+      }
+    }
+  },
+  "marina_push": {
+    "frames": {
+      "f000": {
+        "footX": 227.0,
+        "footY": 419,
+        "height": 385
+      },
+      "f001": {
+        "footX": 240.5,
+        "footY": 421,
+        "height": 366
+      },
+      "f002": {
+        "footX": 230.5,
+        "footY": 421,
+        "height": 343
+      },
+      "f003": {
+        "footX": 227.0,
+        "footY": 422,
+        "height": 335
+      },
+      "f004": {
+        "footX": 226.5,
+        "footY": 403,
+        "height": 339
+      },
+      "f005": {
+        "footX": 233.0,
+        "footY": 398,
+        "height": 328
+      },
+      "f006": {
+        "footX": 254.0,
+        "footY": 405,
+        "height": 394
+      },
+      "f007": {
+        "footX": 240.5,
+        "footY": 407,
+        "height": 395
+      }
+    }
+  },
+  "julia_camera": {
+    "frames": {
+      "f000": {
+        "footX": 250.0,
+        "footY": 513,
+        "height": 492
+      },
+      "f001": {
+        "footX": 212.5,
+        "footY": 513,
+        "height": 492
+      },
+      "f002": {
+        "footX": 176.0,
+        "footY": 513,
+        "height": 483
+      },
+      "f003": {
+        "footX": 144.5,
+        "footY": 513,
+        "height": 487
+      },
+      "f004": {
+        "footX": 244.5,
+        "footY": 494,
+        "height": 489
+      },
+      "f005": {
+        "footX": 218.5,
+        "footY": 494,
+        "height": 489
+      },
+      "f006": {
+        "footX": 178.0,
+        "footY": 492,
+        "height": 488
+      },
+      "f007": {
+        "footX": 156.5,
+        "footY": 497,
+        "height": 493
+      }
+    }
+  },
+  "lucas_device": {
+    "frames": {
+      "f000": {
+        "footX": 217.0,
+        "footY": 427,
+        "height": 419
+      },
+      "f001": {
+        "footX": 224.5,
+        "footY": 428,
+        "height": 414
+      },
+      "f002": {
+        "footX": 224.0,
+        "footY": 428,
+        "height": 410
+      },
+      "f003": {
+        "footX": 224.0,
+        "footY": 428,
+        "height": 397
+      },
+      "f004": {
+        "footX": 224.0,
+        "footY": 423,
+        "height": 408
+      },
+      "f005": {
+        "footX": 224.0,
+        "footY": 423,
+        "height": 387
+      },
+      "f006": {
+        "footX": 222.5,
+        "footY": 423,
+        "height": 404
+      },
+      "f007": {
+        "footX": 223.0,
+        "footY": 423,
+        "height": 419
+      }
+    }
+  },
+  "bia_secret": {
+    "frames": {
+      "f000": {
+        "footX": 228.5,
+        "footY": 512,
+        "height": 503
+      },
+      "f001": {
+        "footX": 221.5,
+        "footY": 509,
+        "height": 453
+      },
+      "f002": {
+        "footX": 185.5,
+        "footY": 509,
+        "height": 370
+      },
+      "f003": {
+        "footX": 181.5,
+        "footY": 506,
+        "height": 362
+      },
+      "f004": {
+        "footX": 231.0,
+        "footY": 486,
+        "height": 408
+      },
+      "f005": {
+        "footX": 196.5,
+        "footY": 503,
+        "height": 496
+      },
+      "f006": {
+        "footX": 207.0,
+        "footY": 502,
+        "height": 490
+      },
+      "f007": {
+        "footX": 194.5,
+        "footY": 501,
+        "height": 497
+      }
+    }
+  }
+}

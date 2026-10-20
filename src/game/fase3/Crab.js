@@ -5,6 +5,7 @@
  * Leva 2 conchas (1ª = machucado, 2ª = derrotado). Latido especial derrota na hora.
  * Derrota "cartoon": gira e voa para fora da tela (sem violência).
  */
+import { bindAtlasGeometry } from "./AtlasGeometry.js";
 import { SPRITES } from "./Fase3Assets.js";
 
 export class Crab {
@@ -21,6 +22,7 @@ export class Crab {
     scene.crabGroup?.add(sp);
     const [w, h, ox, oy] = useAtlas ? [110, 80, 54, 110] : C.body;
     sp.body.setSize(w, h, false).setOffset(ox, oy);
+    if (useAtlas) bindAtlasGeometry(sp, () => [79.2, 57.6]);
     sp.body.setMaxVelocity(900, 1400);
     sp.setData("crab", this);
     this.sprite = sp; this.hp = 2; this.dir = Math.random() < 0.5 ? -1 : 1; this.state = "patrol"; this.t = 0; this.cool = 0; this.alive = true;

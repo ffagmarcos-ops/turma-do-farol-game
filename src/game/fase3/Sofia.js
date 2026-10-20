@@ -4,6 +4,7 @@
  * Aceleração suave, controle aéreo moderado, coyote time 120 ms, jump buffer 120 ms,
  * pulo de altura variável (soltar cedo = pulo baixo), correr, agachar (passa em vão de 120 px).
  */
+import { bindAtlasGeometry } from "./AtlasGeometry.js";
 import { SPRITES } from "./Fase3Assets.js";
 
 export const SOFIA_TUNING = {
@@ -28,6 +29,7 @@ export class Sofia {
     sp.body.setMaxVelocity(900, this.T.maxFall);
     sp.body.setCollideWorldBounds(true);
     this.setBody("stand");
+    if (isBia) bindAtlasGeometry(sp, () => [70.52, this.bodyKind === "crouch" ? 95.12 : 167.28]);
     this.facing = 1; this.coyoteT = 0; this.bufferT = 0; this.grounded = false; this.crouching = false;
     this.jumpsLeft = 2; this.isDoubleJump = false;
     this.hurtT = 0; this.invulnT = 0; this.throwT = 0; this.landT = 0; this.locked = false; this.pointing = false;
@@ -46,6 +48,7 @@ export class Sofia {
         this.sprite.body.setSize(86, 116, false).setOffset(113, 202);
       }
       this.bodyKind = kind;
+      this.sprite.refreshAtlasGeometry?.();
       return;
     }
     const [w, h, ox, oy] = this.S.body[kind];

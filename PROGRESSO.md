@@ -44,3 +44,13 @@ Atualizado em 20/10/2026 (America/Sao_Paulo).
 5. Após cada lote: revisar diff e `git diff --check`, executar verificações apropriadas e teste no dev, atualizar este registro, criar commit em português e enviar a branch.
 6. Confirmar `git ls-remote origin refs/heads/retomar-integracao-fase3` igual a `git rev-parse HEAD`. Se falhar, registrar a falha; não declarar envio concluído.
 7. Manter `main` preservada até revisão da integração. Não incluir credenciais, dependências, builds ou arquivos temporários nos commits.
+
+## Reconstrução autorizada em 20/10/2026
+
+O Marcos pediu uma nova implementação dos ajustes. Os arquivos antigos continuam indisponíveis; não confundir reconstrução com recuperação do commit 346cdad. A pasta fornecida em Downloads contém os mesmos 66 arquivos do pacote já publicado.
+
+### Lote 3 — alinhamento dos atlas
+- Criados AtlasGeometry.js e atlas_registration.json medindo a transparência das imagens existentes, com ferramenta reproduzível tools/medir_atlas_fase3.py. Nenhuma arte foi substituída.
+- Bia mantém a hitbox de 70,52 × 167,28 no mundo (95,12 de altura agachada) em todos os atlas; os pés ficam ancorados ao mudar de quadro. Faísca, inimigos e ajudantes usam a mesma rotina de alinhamento.
+- Teste em npm run dev: tools/testar_integracao_fase3.html passou 431 verificações de atlas, animações, quadros e hitbox. Quatro testes do relógio de eventos também passaram.
+- Próximo lote: conectar eventos do manifesto às ações e eliminar a segunda instância da Bia no setor L.

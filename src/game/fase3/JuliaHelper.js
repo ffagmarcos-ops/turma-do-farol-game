@@ -7,6 +7,7 @@
  *  - snap      (dispara o flash: clarão rápido que deixa os macacos da área tontos por ~2,2 s)
  *  - cheer     (comemora quando a Sofia atravessa o trecho)
  */
+import { bindAtlasGeometry } from "./AtlasGeometry.js";
 import { SPRITES } from "./Fase3Assets.js";
 
 export class JuliaHelper {
@@ -34,6 +35,8 @@ export class JuliaHelper {
       .setOrigin(origin[0], origin[1])
       .setScale(scale)
       .setDepth(7.6);
+
+    if (useAtlas) bindAtlasGeometry(this.sprite);
 
     // cone luminoso no mundo + clarão suave na tela
     this.coneGfx = scene.add.graphics().setDepth(14.5);
