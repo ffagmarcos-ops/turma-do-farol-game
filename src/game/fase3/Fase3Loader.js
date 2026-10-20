@@ -4,7 +4,8 @@
  * Depois de soltar arte nova em public/assets/farol/fase3_ilha/, rode `node list_assets.mjs`
  * (o `npm run build` já roda sozinho) para o arquivo entrar na lista.
  */
-import { SECTOR_ART, SPRITES, IMAGES, f3url } from "./Fase3Assets.js";
+import { SECTOR_ART, SPRITES, IMAGES, f3url, PACK_TILES, PACK_PROPS, PACK_IMAGES } from "./Fase3Assets.js";
+import { paintAtlasFrame } from "./SceneryTextures.js";
 import { PLACEHOLDER, canvasTex, canvasSheet } from "./Fase3Placeholders.js";
 
 let FILES;
@@ -53,7 +54,7 @@ export function preloadFase3(scene, sectors) {
     const basePath = ifm.integration?.assetBasePath || "assets/ilha_farol/";
     for (const a of ifm.assets || []) {
       const url = basePath + a.imageFile;
-      if (!scene.textures.exists(a.textureKey) && (has(url) || true)) {
+      if (!scene.textures.exists(a.textureKey) && has(url)) {
         scene.load.atlas(a.textureKey, url, a.atlas);
         n++;
       }
@@ -82,7 +83,7 @@ export function buildFase3Art(scene, sectors) {
   const ifm = scene.cache.json.get("ilha_farol_manifest") || readIlhaFarolManifest();
   if (ifm && ifm.phaserAnimations?.anims) {
     for (const config of ifm.phaserAnimations.anims) {
-      if (!scene.anims.exists(config.key)) {
+      if (config.frames.every(frame => scene.textures.exists(frame.key) && scene.textures.get(frame.key).has(frame.frame)) && !scene.anims.exists(config.key)) {
         scene.anims.create(config);
       }
     }
@@ -100,10 +101,19 @@ export function buildFase3Art(scene, sectors) {
       const src = scene.textures.get(useKey).getSourceImage();
       info.layers[key] = { key: useKey, placeholder: !scene.textures.exists(key) || !FILES.has(f3url(L.file, art.folder)), w: src.width, h: src.height, y: file ? 0 : L.placeholder.y, final: file && useKey === key };
     }
-    for (const [name, t] of Object.entries(art.tiles)) canvasTex(scene, tileKey(s, name), t.w, t.h, PLACEHOLDER.tile[`${s}_${name}`] || PLACEHOLDER.tile[name]);
-    for (const [name, p] of Object.entries(art.props || {})) canvasTex(scene, propKey(s, name), p.w, p.h, PLACEHOLDER.prop[`${s}_${name}`] || PLACEHOLDER.prop[name]);
+    for (const [name, t] of Object.entries(art.tiles)) {
+      const pack = PACK_TILES[["K", "N", "O"].includes(s) ? "cave" : "forest"];
+      if (s !== "A" && s !== "B") paintAtlasFrame(scene, tileKey(s, name), pack[name], t.w, t.h,
+        name.includes("fill") || name.includes("top") ? (pack === PACK_TILES.cave ? "#52626b" : "#72543a") : null);
+      canvasTex(scene, tileKey(s, name), t.w, t.h, PLACEHOLDER.tile[`${s}_${name}`] || PLACEHOLDER.tile[name]);
+    }
+    for (const [name, p] of Object.entries(art.props || {})) {
+      paintAtlasFrame(scene, propKey(s, name), PACK_PROPS[name], p.w, p.h);
+      canvasTex(scene, propKey(s, name), p.w, p.h, PLACEHOLDER.prop[`${s}_${name}`] || PLACEHOLDER.prop[name]);
+    }
   }
   for (const im of Object.values(IMAGES)) {
+    paintAtlasFrame(scene, im.key, PACK_IMAGES[im.key], im.w, im.h);
     if (scene.textures.exists(im.key)) { info.images[im.key] = { key: im.key, scale: 1 }; continue; }
     if (im.fallbackKey && scene.textures.exists(im.fallbackKey)) { info.images[im.key] = { key: im.fallbackKey, scale: im.fallbackScale || 1 }; continue; }
     canvasTex(scene, im.key, im.w, im.h, PLACEHOLDER.image[im.key]);
@@ -167,6 +177,20 @@ export function buildFase3Art(scene, sectors) {
     }
   }
 
+  // Texturas pequenas e compartilhadas permitem animar TileSprites sem redesenhar o atlas.
+  for (const [field, atlas, width, height] of [
+    ["waterfallFrames", "waterfall", 256, 256],
+    ["waveFrames", "beach_waves", 512, 96],
+    ["crumbleFrames", "crumble_platform", 128, 64],
+  ]) {
+    info[field] = [];
+    if (!scene.textures.exists(atlas)) continue;
+    for (const name of scene.textures.get(atlas).getFrameNames()) {
+      const key = `f3_pack_${atlas}_${name}`;
+      paintAtlasFrame(scene, key, [atlas, name], width, height);
+      if (scene.textures.exists(key)) info[field].push(key);
+    }
+  }
   info.img = (k) => info.images[k] || { key: k, scale: 1 };
   return info;
 }

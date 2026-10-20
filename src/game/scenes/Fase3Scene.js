@@ -5,6 +5,7 @@
  * Resolução lógica 1920×1080 (a mesma do jogo todo). Vida infinita: cair/levar dano nunca dá game over.
  * Dev: ?fase3 (último checkpoint) · ?fase3=A2 (checkpoint A2) · ?fase3=novo (do começo). H = hitboxes, 1-4 = checkpoints.
  */
+import { bindAtlasGeometry } from "../fase3/AtlasGeometry.js";
 import Phaser from "../phaser.js";
 import { keyDown, keyUp, clearInput } from "../input.js";
 import { AudioManager } from "../systems/AudioManager.js";
@@ -490,8 +491,10 @@ export class Fase3Scene extends Phaser.Scene {
     const ox = Math.abs(f.x - s.x) < 260 ? f.x : s.x + dir * 80, oy = (Math.abs(f.x - s.x) < 260 ? f.y : s.y) - 50;
     this.sfx.bark(true);
     this.camera3.shake(0.004, 180);
+    f.barkT = this.anims.exists("faisca.bark") ? this.anims.get("faisca.bark").duration / 1000 : 0.5;
+    f.play("bark");
     const imWave = this.art.img("f3_onda_latido");
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 1; i++) {
       const wv = this.add.sprite(ox + dir * 30, oy, imWave.key, imWave.frame || 0).setDepth(29).setFlipX(dir < 0).setScale(imWave.scale || 0.5).setAlpha(0.95).setBlendMode(Phaser.BlendModes.ADD);
       if (this.anims.exists("bark_wave.play")) wv.play("bark_wave.play");
       this.tweens.add({ targets: wv, x: ox + dir * WAVE_RANGE, scale: (imWave.scale || 0.5) * 4.2, alpha: 0, delay: i * 90, duration: 620, ease: "Quad.easeOut", onComplete: () => wv.destroy() });
@@ -571,7 +574,8 @@ export class Fase3Scene extends Phaser.Scene {
       if (this.cpReached.has(id) && this.cpActive !== id) continue;
       if (!this.cpReached.has(id) && this.sofia.x > e.def.x - 30 && Math.abs(this.sofia.y - e.sprite.y) < 300) {
         this.cpReached.add(id); this.cpActive = id;
-        e.sprite.play("f3_checkpoint-on");
+        if (e.sprite.texture.key === "checkpoint") e.sprite.setFrame("f001");
+        else e.sprite.play("f3_checkpoint-on");
         saveF3({ cp: id });
         this.stars(e.sprite.x + 20, e.sprite.y - 170);
         this.audio.play("bell", { volume: 0.4 });
@@ -677,13 +681,22 @@ export class Fase3Scene extends Phaser.Scene {
       { key: SPRITES.lucas.key, anim: "f3_lucas-celebrate", x: this.sofia.x - 260, scale: SPRITES.lucas.scale, origin: SPRITES.lucas.origin },
       { key: SPRITES.julia.key, anim: "f3_julia-cheer", x: this.sofia.x - 345, scale: SPRITES.julia.scale, origin: SPRITES.julia.origin },
     ];
+    const atlasFriends = [
+      ["toninho_rope", "toninho.confirm"], ["marina_push", "marina.finish"],
+      ["lucas_device", "lucas.ready"], ["julia_camera", "julia.idle"],
+    ];
+    friends.forEach((friend, i) => {
+      if (this.textures.exists(atlasFriends[i][0])) Object.assign(friend,
+        { key: atlasFriends[i][0], anim: atlasFriends[i][1], frame: "f000", atlas: true });
+    });
     const friendSprites = [];
     friends.forEach((fDef, idx) => {
-      const spr = this.add.sprite(fDef.x - 90, this.sofia.y, fDef.key, 0)
+      const spr = this.add.sprite(fDef.x - 90, this.sofia.y, fDef.key, fDef.frame ?? 0)
         .setOrigin(fDef.origin[0], fDef.origin[1])
         .setScale(fDef.scale)
         .setDepth(8.7 - idx * 0.05)
         .setAlpha(0);
+      if (fDef.atlas) bindAtlasGeometry(spr);
       this.tweens.add({
         targets: spr,
         x: fDef.x,
@@ -843,6 +856,11 @@ export class Fase3Scene extends Phaser.Scene {
     // água e queda: volta ao checkpoint / ponto seguro (vida infinita)
     for (const w of this.chunks.waters) {
       const d = w.def;
+      if (this.art.waveFrames?.length) {
+        const frame = this.art.waveFrames[Math.floor(time / 1000 * 12) % this.art.waveFrames.length];
+        w.crest.setTexture(frame);
+        w.refl?.setTexture(frame);
+      }
       w.crest.tilePositionX += dt * (d.stream ? 65 : 40);
       if (w.refl) w.refl.tilePositionX -= dt * 32;
       if (!this.respawning && s.x > d.x && s.x < d.x + d.w && s.y > d.y + 40) { this.splash(s.x, d.y); this.respawn(d.respawn); }

@@ -9,7 +9,7 @@ try{
  const deadline=Date.now()+60000;
  while(!frame.contentWindow.__f3?.sofia?.sprite){if(Date.now()>deadline)throw new Error('Jogo não iniciou em 60 segundos');await new Promise(r=>setTimeout(r,100))}
  const s=frame.contentWindow.__f3, manifest=s.cache.json.get('ilha_farol_manifest');
- s.game.loop.stop();s.physics.world.pause();
+ const resume=s.game.loop.callback;s.game.loop.stop();s.physics.world.pause();
  for(const a of manifest.assets){check(s.textures.exists(a.textureKey),'Atlas carregado: '+a.textureKey)}
  for(const a of manifest.phaserAnimations.anims){check(s.anims.exists(a.key),'Animação registrada: '+a.key);for(const f of a.frames)check(s.textures.get(f.key).has(f.frame),'Quadro existe: '+f.key+'/'+f.frame)}
  const p=s.sofia,sp=p.sprite;
@@ -75,6 +75,21 @@ try{
  crab.update(.01,user);check(!crab.attackHitbox,'Garras aguardam o quadro de ataque');
  crab.update(.17,user);check(crab.attackHitbox,'Garras ativam no evento');
  crab.update(.17,user);check(!crab.attackHitbox,'Garras desativam ao terminar o golpe');crab.sprite.destroy();
+ for(const field of ['waveFrames','waterfallFrames','crumbleFrames']){
+   check(s.art[field].length>0,'Quadros de cenário disponíveis: '+field);
+   for(const key of s.art[field])check(Boolean(s.textures.get(key).farolAtlasSource),'Recorte do pacote: '+key);
+ }
+ for(const key of ['f3_C_t_sand_top','f3_N_t_rock_top','f3_N_p_ruin_arch','f3_boia_lucas'])
+   check(Boolean(s.textures.get(key).farolAtlasSource),'Arte do pacote aplicada: '+key);
+ for(const cp of ['A0','B0','C0','D0','E0','F0','G0','H0','I0','J0','K0','L0','M0','N0','O0']){
+   const checkpoint=s.allCheckpoints.find(c=>c.id===cp);
+   check(Boolean(checkpoint),'Checkpoint registrado: '+cp);
+   s.chunks.update(checkpoint.x,checkpoint.x+1920);
+   check(s.chunks.built.size>0,'Chunks montados no checkpoint: '+cp);
+   check(!s.chunks.bias.some(helper=>helper.sprite),'Sem Bia duplicada: '+cp);
+   for(const helper of s.chunks.bias)for(const platform of helper.secretPlatforms)
+     check(platform.ts.texture.key!=='__MISSING','Textura da plataforma secreta: '+cp);
+ }
  out.textContent='PASSOU — '+checks.length+' verificações\n'+checks.join('\n');
 }catch(error){out.textContent='FALHOU — '+error.stack+'\n'+checks.join('\n');console.error(error)}
 </script></html>

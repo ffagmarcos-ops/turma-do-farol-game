@@ -1,5 +1,8 @@
 // @ts-nocheck
 /** Setor L: a própria Bia investiga a pista. Não cria uma segunda personagem. */
+import { SECTOR_ART } from "./Fase3Assets.js";
+import { tileKey } from "./Fase3Loader.js";
+
 export class BiaHelper {
   constructor(scene, def, alreadyTriggered = false) {
     this.scene = scene;
@@ -13,11 +16,11 @@ export class BiaHelper {
 
     // Plataformas secretas da rota superior que a Bia revela
     this.secretPlatforms = (def.secretPlatforms || []).map((p, idx) => {
-      const art = scene.art;
+      const art = SECTOR_ART[def.sector || "L"];
       const defPlat = art.tiles?.[p.kind] || { h: 64, surfaceY: 6 };
       const baseY = p.y - (defPlat.surfaceY || 0);
       const ts = scene.add
-        .tileSprite(p.x, baseY - (alreadyTriggered ? 0 : 36), p.w, defPlat.h, p.kind)
+        .tileSprite(p.x, baseY - (alreadyTriggered ? 0 : 36), p.w, defPlat.h, tileKey(def.sector || "L", p.kind))
         .setOrigin(0)
         .setTilePosition(p.x, 0)
         .setAlpha(alreadyTriggered ? 1 : 0)

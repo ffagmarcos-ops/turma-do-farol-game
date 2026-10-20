@@ -254,3 +254,7 @@ Cada chunk é um objeto dentro de `chunks: [...]` do setor. As coordenadas são 
   - **Pedra do Macaco (Asset 18):** atlas `stone_projectile`, animação `stone.spin`.
   - **Onda do Latido (Asset 15):** atlas `bark_wave`, animação de pulso sônico `bark_wave.play`.
 - **Robustez e Retrocompatibilidade:** Fallbacks preservados para todos os elementos, garantindo execução fluida sem erros visuais ou quebras de física.
+
+## Reconstrução da integração — 20/10/2026
+
+A implementação atual e seus testes estão em [INTEGRACAO_ASSETS.md](INTEGRACAO_ASSETS.md). As escalas fixas e a descrição antiga da Bia como NPC, acima, registram etapas anteriores; agora os atlas são alinhados pelas medidas reais e há uma única Bia jogável. Os arquivos e eventos do pacote 06–37 são usados diretamente, sem depender das oito imagens extras que ficaram indisponíveis.

@@ -129,3 +129,7 @@ O Setor A reaproveita os sons CC0 da Fase 1:
 - pulo, aterrissagem, concha, respingo
 
 O latido, a carga, o arremesso e o golpe são **sintetizados no código** (`src/game/fase3/Fase3Audio.js`). A música é **provisória** (`music_vila.mp3`) até chegar a trilha da Fase 3. Música nova precisa ser CC0, normalizada a -16 LUFS, e entrar no `LICENCAS.md`.
+
+## Integração reconstruída em 20/10/2026
+
+O pacote `public/assets/ilha_farol/` (assets 06–37) permanece intacto. Os mapeamentos `PACK_TILES`, `PACK_PROPS` e `PACK_IMAGES` de `Fase3Assets.js` aproveitam seus recortes quando falta arte solta. Os pontos de apoio são medidos em `atlas_registration.json`, e os detalhes e comandos de teste estão em [INTEGRACAO_ASSETS.md](INTEGRACAO_ASSETS.md). Não foram criadas cópias fictícias das oito imagens extras perdidas.

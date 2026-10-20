@@ -649,3 +649,25 @@ export const F3_AUDIO = {
 
 /** URL relativo de um arquivo do manifesto. */
 export const f3url = (file, folder = "") => `${F3_ROOT}${folder}${file}`;
+
+/** Recortes do pacote já publicado, usados quando falta a arte solta do setor. */
+export const PACK_TILES = {
+  forest: { sand_top: ['forest_tiles', 'f001'], sand_fill: ['forest_tiles', 'f004'],
+    rock_top: ['ruins_cave_tiles', 'f014'], rock_fill: ['ruins_cave_tiles', 'f010'],
+    log: ['forest_tiles', 'f012'], ledge: ['forest_tiles', 'f005'], crumble: ['crumble_platform', 'f000'] },
+  cave: { sand_top: ['ruins_cave_tiles', 'f014'], sand_fill: ['ruins_cave_tiles', 'f010'],
+    rock_top: ['ruins_cave_tiles', 'f001'], rock_fill: ['ruins_cave_tiles', 'f011'],
+    log: ['ruins_cave_tiles', 'f009'], ledge: ['ruins_cave_tiles', 'f009'], crumble: ['crumble_platform', 'f000'] },
+};
+export const PACK_PROPS = {
+  roots: ['forest_tiles', 'f013'], vine: ['forest_tiles', 'f014'],
+  hollow_log: ['forest_tiles', 'f011'], ancient_rune_stone: ['ruins_props', 'f004'],
+  ruin_arch: ['ruins_props', 'f000'], ruin_pillar: ['ruins_cave_tiles', 'f007'],
+  pebbles: ['ruins_cave_tiles', 'f015'],
+};
+export const PACK_IMAGES = {
+  f3_boia_lucas: ['floating_platforms', 'f000'],
+  f3_cortina_cachoeira: ['waterfall', 'f000'],
+  f3_espuma: ['water_particles', 'f008'], f3_brilho: ['water_particles', 'f000'],
+  f3_poeira: ['forest_particles', 'f012'],
+};

@@ -118,6 +118,10 @@ export class Faisca {
     }
 
     sp.setFlipX(this.facing < 0);
+    if (this.barkT > 0) {
+      this.barkT = Math.max(0, this.barkT - dt);
+      pose = "bark";
+    }
     if (!pose) {
       if (!grounded) pose = b.velocity.y < 0 ? "jump" : "fall";
       else if (Math.abs(b.velocity.x) > 380) pose = "run";

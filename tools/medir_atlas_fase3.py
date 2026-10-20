@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image
 root=Path(__file__).resolve().parents[1]
 m=json.loads((root/'public/assets/ilha_farol/ilha_farol_animacoes_assets_06_37.json').read_text())
-keys={'bia_locomotion','bia_throw','bia_secret','faisca_run','faisca_bark','crab','monkey','toninho_rope','marina_push','julia_camera','lucas_device'}
+keys={'beach_waves','forest_tiles','ruins_cave_tiles','ruins_props','floating_platforms','waterfall','water_particles','forest_particles','crumble_platform','flex_branch','bia_locomotion','bia_throw','bia_secret','faisca_run','faisca_bark','crab','monkey','toninho_rope','marina_push','julia_camera','lucas_device'}
 data={}
 for a in m['assets']:
  if a['textureKey'] not in keys:continue
@@ -15,7 +15,7 @@ for a in m['assets']:
   box=crop.getchannel('A').point(lambda x:255 if x>=100 else 0).getbbox()
   if not box:raise ValueError((a['textureKey'],name))
   ss=f['spriteSourceSize'];x0,y0,x1,y1=box
-  frames[name]={'footX':round(ss['x']+(x0+x1)/2,2),'footY':ss['y']+y1,'height':y1-y0}
+  frames[name]={'footX':round(ss['x']+(x0+x1)/2,2),'footY':ss['y']+y1,'height':y1-y0,'crop':[x0,y0,x1-x0,y1-y0]}
  data[a['textureKey']]={'frames':frames}
-print({k:v['frames']['f000'] for k,v in data.items()})
+print(f'Medidos {len(data)} atlas e {sum(len(v["frames"]) for v in data.values())} quadros; nenhuma imagem alterada.')
 (root/'src/game/fase3/atlas_registration.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')

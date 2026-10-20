@@ -201,7 +201,7 @@ export class ChunkManager {
       const frame = useAtlas ? (on ? "f001" : "f000") : (on ? 1 : 0);
       const scale = useAtlas ? 0.28 : 0.9;
       const spr = s.add.sprite(cp.x, s.levelGroundY(cp.x) + 4, key, frame).setOrigin(0.5, 1).setScale(scale).setDepth(DEPTH.checkpoint);
-      spr.play(on ? "f3_checkpoint-on" : "f3_checkpoint-off");
+      if (!useAtlas) spr.play(on ? "f3_checkpoint-on" : "f3_checkpoint-off");
       const entry = { def: cp, sprite: spr, chunk: c.id }; this.checkpoints.push(entry); objs.push(spr);
     }
     for (const tr of c.triggers || []) {
@@ -218,7 +218,7 @@ export class ChunkManager {
         const lh = new LucasHelper(s, tr, s.lucasTriggered?.has(tr.id));
         lucases.push(lh); this.lucases.push(lh);
       } else if (tr.event === "helpZoneBia") {
-        const bh = new BiaHelper(s, tr, s.biaTriggered?.has(tr.id));
+        const bh = new BiaHelper(s, { ...tr, sector: c.art }, s.biaTriggered?.has(tr.id));
         bias.push(bh); this.bias.push(bh);
       }
     }
@@ -315,14 +315,15 @@ export class ChunkManager {
         const b = sofia.body;
         const onTop = sofia.grounded && b.bottom >= p.y - 8 && b.bottom <= p.y + 18 && sofia.x >= p.x - 24 && sofia.x <= p.x + p.w + 24;
         if (onTop) {
-          cr.state = "shaking"; cr.t = 0.52; cr.puffT = 0;
+          cr.state = "shaking"; cr.duration = s.art.crumbleFrames?.length ? 0.4 : 0.52; cr.t = cr.duration; cr.puffT = 0;
           s.sfx?.crumble?.();
           s.puff?.(p.x + p.w / 2, p.y + 12, 0.45, 0xa38d74);
         }
       } else if (cr.state === "shaking") {
         cr.t -= dt; cr.puffT -= dt;
+        if (s.art.crumbleFrames?.length) cr.ts.setTexture(s.art.crumbleFrames[Math.min(4, Math.floor((cr.duration - Math.max(0, cr.t)) * 10))]);
         cr.ts.x = cr.baseX + Math.sin(timeSec * 65) * 4;
-        cr.ts.y = cr.baseY + (1 - Math.max(0, cr.t) / 0.52) * 4;
+        cr.ts.y = cr.baseY + (1 - Math.max(0, cr.t) / cr.duration) * 4;
         if (cr.puffT <= 0) { cr.puffT = 0.16; s.puff?.(p.x + Math.random() * p.w, p.y + 16, 0.3, 0xa38d74); }
         if (cr.t <= 0) {
           cr.state = "fallen"; cr.t = 2.6;
@@ -336,6 +337,7 @@ export class ChunkManager {
         cr.t -= dt;
         if (cr.t <= 0) {
           cr.state = "idle";
+          if (s.art.crumbleFrames?.length) cr.ts.setTexture(s.art.crumbleFrames[0]);
           s.tweens.killTweensOf(cr.ts);
           cr.ts.setPosition(cr.baseX, cr.baseY).setAlpha(0);
           s.tweens.add({ targets: cr.ts, alpha: 1, duration: 260 });
@@ -374,6 +376,10 @@ export class ChunkManager {
     // animação da cortina de água das cachoeiras e revelação de passagem secreta
     for (const wf of this.waterfalls) {
       if (!wf.ts.active) continue;
+      if (s.art.waterfallFrames?.length) {
+        const frames = s.art.waterfallFrames;
+        wf.ts.setTexture(frames[Math.floor(timeSec * 12) % frames.length]);
+      }
       wf.ts.tilePositionY -= dt * 380;
       if (wf.secretPassage) {
         const inside = sofia.x >= wf.x - 24 && sofia.x <= wf.x + wf.w + 24 && sofia.y >= wf.y && sofia.y <= wf.y + wf.h + 20;
