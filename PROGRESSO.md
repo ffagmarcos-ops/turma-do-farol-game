@@ -17,6 +17,7 @@ Atualizado em 20/10/2026 (America/Sao_Paulo).
 - Uma única Bia: o setor L usa a protagonista para investigar e o encerramento não cria outra Bia.
 - Terrenos, ruínas, plataformas, partículas, ondas e cachoeiras aproveitam recortes do pacote existente; nenhuma imagem original foi sobrescrita.
 - Corrigidas as texturas das plataformas secretas e a permanência da arte oficial dos checkpoints.
+- Proporção visual do Lucas calibrada: altura reduzida de 215 para 162 px (`AtlasGeometry.js` e `LucasHelper.js`), harmonizando a cabeça e o corpo com as demais crianças (Bia, Marina e Júlia).
 - Ferramenta reproduzível de medição, testes e documentação em `docs/fase3/INTEGRACAO_ASSETS.md`.
 
 ## Lotes e último commit

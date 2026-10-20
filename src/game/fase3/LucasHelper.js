@@ -29,7 +29,7 @@ export class LucasHelper {
     this.useAtlas = useAtlas;
     const key = useAtlas ? "lucas_device" : S.key;
     const initialFrame = useAtlas ? "f000" : 0;
-    const scale = useAtlas ? 0.62 : S.scale;
+    const scale = useAtlas ? 0.387 : S.scale;
     const origin = useAtlas ? [0.5, 0.95] : S.origin;
     this.sprite = scene.add
       .sprite(this.x, this.y, key, initialFrame)
@@ -169,7 +169,7 @@ export class LucasHelper {
         this.play("operateGadget");
         if (this.useAtlas) this.actionEvents.start("lucas.assemble");
         this.scene.sfx?.gadgetBeep?.();
-        this.scene.icon?.(this.x, this.y - 190);
+        this.scene.icon?.(this.x, this.y - (this.useAtlas ? 150 : 190));
       }
     } else if (this.state === "operateGadget") {
       this.t -= dt;
@@ -184,7 +184,7 @@ export class LucasHelper {
       }
       // desenha pulso de energia saindo da antena do aparelho do Lucas
       this.pulseGfx.clear();
-      const gx = this.x + (this.sprite.flipX ? -28 : 28), gy = this.y - 92;
+      const gx = this.x + (this.sprite.flipX ? -24 : 24), gy = this.y - (this.useAtlas ? 74 : 92);
       const r = 18 + elapsed * 240;
       const alpha = Math.max(0, 0.85 - elapsed * 1.1);
       this.pulseGfx.lineStyle(4, 0x7fe3f2, alpha).strokeCircle(gx, gy, r);
@@ -200,7 +200,7 @@ export class LucasHelper {
       if (d.celebrateX && sofia.x >= d.celebrateX) {
         this.state = "celebrate";
         this.play("celebrate");
-        this.scene.stars?.(this.x, this.y - 165);
+        this.scene.stars?.(this.x, this.y - (this.useAtlas ? 130 : 165));
         this.scene.sfx?.ready?.();
       }
     }

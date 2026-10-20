@@ -4,7 +4,7 @@ import registration from './atlas_registration.json' with { type: 'json' };
 const HEIGHTS = {
   bia_locomotion: 192.7, bia_throw: 192.7, bia_secret: 192.7,
   faisca_run: 95, faisca_bark: 95, crab: 79.92, monkey: 187.68,
-  toninho_rope: 240, marina_push: 215, julia_camera: 215, lucas_device: 215,
+  toninho_rope: 240, marina_push: 215, julia_camera: 215, lucas_device: 162,
 };
 
 /** Mantém os pés e a hitbox no mesmo lugar quando o atlas troca de tamanho. */
