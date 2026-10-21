@@ -56,6 +56,7 @@ namespace TurmaDoFarol.Editor
                 var path=paths[i];EditorUtility.DisplayProgressBar("Turma do Farol","Importando sprites: "+Path.GetFileName(path),(float)i/paths.Length);
                 var importer=AssetImporter.GetAtPath(path) as TextureImporter;
                 if(importer==null)throw new InvalidOperationException("Imagem não importada pelo Unity: "+path);
+                importer.textureShape=TextureImporterShape.Texture2D;
                 importer.textureType=TextureImporterType.Sprite;importer.mipmapEnabled=false;importer.alphaIsTransparency=true;
                 importer.maxTextureSize=8192;importer.textureCompression=TextureImporterCompression.Uncompressed;
                 importer.filterMode=FilterMode.Bilinear;importer.wrapMode=TextureWrapMode.Clamp;
