@@ -1,0 +1,2191 @@
+{
+  "schema": 1,
+  "sourceRepository": "ffagmarcos-ops/turma-do-farol-game",
+  "sourceCommit": "3079418e19fd59b584e609a4adc986f72cfdc949",
+  "sourceTree": "f8bfa3d649380ced230fc02ce4645a0a800d8ec7",
+  "assetCount": 363,
+  "bytes": 223478475,
+  "sectors": 15,
+  "chunks": 56,
+  "animations": 69,
+  "files": [
+    {
+      "source": "public/assets/audio/amb_birds.ogg",
+      "target": "Assets/Originais/audio/amb_birds.ogg",
+      "bytes": 5820112,
+      "sha256": "57f75e92e391b008997da2c3d0c0240620fc9a463d05313ac24214501c073313"
+    },
+    {
+      "source": "public/assets/audio/amb_market.ogg",
+      "target": "Assets/Originais/audio/amb_market.ogg",
+      "bytes": 376749,
+      "sha256": "2d61e4d24ed68c6a3e7944296910daad53336616e044f7557c6df8927bfb0070"
+    },
+    {
+      "source": "public/assets/audio/amb_waves.ogg",
+      "target": "Assets/Originais/audio/amb_waves.ogg",
+      "bytes": 68263,
+      "sha256": "3282f01456b16f753e6f7a88f831a7de4daf01a25c17c841e356c65c9e4284d2"
+    },
+    {
+      "source": "public/assets/audio/amb_wind.ogg",
+      "target": "Assets/Originais/audio/amb_wind.ogg",
+      "bytes": 89818,
+      "sha256": "8802862530708c0da57aebf684cdd912cd4394cf07daa6497a09afd7bfc0290a"
+    },
+    {
+      "source": "public/assets/audio/fase2/barco_pancada_01.mp3",
+      "target": "Assets/Originais/audio/fase2/barco_pancada_01.mp3",
+      "bytes": 69164,
+      "sha256": "faa51c5e07a6081a3cc2b820cf900335f43983de3a506ab2b35978a0f0a20cc2"
+    },
+    {
+      "source": "public/assets/audio/fase2/barco_pancada_02.mp3",
+      "target": "Assets/Originais/audio/fase2/barco_pancada_02.mp3",
+      "bytes": 105164,
+      "sha256": "ca30017e8453c859a4bb1a1f6a553d16d13432c9f48b288aad02a1d3cd8b85bd"
+    },
+    {
+      "source": "public/assets/audio/fase2/barco_pancada_03.mp3",
+      "target": "Assets/Originais/audio/fase2/barco_pancada_03.mp3",
+      "bytes": 227564,
+      "sha256": "8a55a4b3d5bdd175c25b497e95a486a69a5736cfcad2b25c558f79d8f1f0988a"
+    },
+    {
+      "source": "public/assets/audio/fase2/bgm_boss.mp3",
+      "target": "Assets/Originais/audio/fase2/bgm_boss.mp3",
+      "bytes": 636644,
+      "sha256": "ce91427e43b46a4a69bef367725fbcc8b18d93cc0b4f346e06a09103d17c2cb3"
+    },
+    {
+      "source": "public/assets/audio/fase2/bgm_boss_abertura.mp3",
+      "target": "Assets/Originais/audio/fase2/bgm_boss_abertura.mp3",
+      "bytes": 424745,
+      "sha256": "80e2f29d1843e84c925cef9ac743ec6d7950354146a33a59e3d0314c3d1c938c"
+    },
+    {
+      "source": "public/assets/audio/fase2/bgm_boss_tenso.mp3",
+      "target": "Assets/Originais/audio/fase2/bgm_boss_tenso.mp3",
+      "bytes": 2033832,
+      "sha256": "1d0193fdb87dcc3ac8671a3d5f697ef1220341596a8a65aced4b26aa4af9648a"
+    },
+    {
+      "source": "public/assets/audio/fase2/chuva_loop.mp3",
+      "target": "Assets/Originais/audio/fase2/chuva_loop.mp3",
+      "bytes": 1774124,
+      "sha256": "23abb3d540211fcf2baa52d4eb37e586a8ec8ab5d496d041244495c55db3a733"
+    },
+    {
+      "source": "public/assets/audio/fase2/madeira_impacto_01.mp3",
+      "target": "Assets/Originais/audio/fase2/madeira_impacto_01.mp3",
+      "bytes": 7358,
+      "sha256": "3126919658f15086b998e68cbd23573c0d1e6c4b20f077db87f49a599bc4db8b"
+    },
+    {
+      "source": "public/assets/audio/fase2/madeira_impacto_02.mp3",
+      "target": "Assets/Originais/audio/fase2/madeira_impacto_02.mp3",
+      "bytes": 7358,
+      "sha256": "4026f4d089963b2157b3b9b6b0272efac1786d244fe3f186cc4a447b863663e8"
+    },
+    {
+      "source": "public/assets/audio/fase2/madeira_rangido_01.mp3",
+      "target": "Assets/Originais/audio/fase2/madeira_rangido_01.mp3",
+      "bytes": 12044,
+      "sha256": "8016bb162b0644c61dec03d674b5d6ef0bdda6aff55a4f5f4eae17d8f75ababc"
+    },
+    {
+      "source": "public/assets/audio/fase2/mar_loop_01.mp3",
+      "target": "Assets/Originais/audio/fase2/mar_loop_01.mp3",
+      "bytes": 128684,
+      "sha256": "645b4347e15954a9d38a4aa2ad84f7f8506aa7a81fb1e6acec15c905a5897d6b"
+    },
+    {
+      "source": "public/assets/audio/fase2/mar_onda_01.mp3",
+      "target": "Assets/Originais/audio/fase2/mar_onda_01.mp3",
+      "bytes": 36093,
+      "sha256": "98ecf58ca535c38aaa5d23367443469e477e392448a7a324955966453ddf2323"
+    },
+    {
+      "source": "public/assets/audio/fase2/splash_01.mp3",
+      "target": "Assets/Originais/audio/fase2/splash_01.mp3",
+      "bytes": 28844,
+      "sha256": "83da8485110891c30101be0be468b855fd0e97d742c5ae95316578443d4ef7b3"
+    },
+    {
+      "source": "public/assets/audio/fase2/splash_02.mp3",
+      "target": "Assets/Originais/audio/fase2/splash_02.mp3",
+      "bytes": 15404,
+      "sha256": "b1f5c6430e4d426fe029eff178fed46803fd7d5179c7ebdd01101211a809fb3e"
+    },
+    {
+      "source": "public/assets/audio/fase2/splash_03.mp3",
+      "target": "Assets/Originais/audio/fase2/splash_03.mp3",
+      "bytes": 16844,
+      "sha256": "1d815bcb20d7de76072d087732e556635ee30e7e3114e0684637407ebdc2bcbe"
+    },
+    {
+      "source": "public/assets/audio/fase2/splash_04.mp3",
+      "target": "Assets/Originais/audio/fase2/splash_04.mp3",
+      "bytes": 21644,
+      "sha256": "f3660f5e8c80b14aae006f34cb9d5953f721e39e125deedc4e99e439b896e8ed"
+    },
+    {
+      "source": "public/assets/audio/fase2/trovao_estrondo.mp3",
+      "target": "Assets/Originais/audio/fase2/trovao_estrondo.mp3",
+      "bytes": 106604,
+      "sha256": "c6336291f3eab4c002de85e63f88cd8c90750782193c9d5cd66956cc24c9fe51"
+    },
+    {
+      "source": "public/assets/audio/fase2/trovao_longo.mp3",
+      "target": "Assets/Originais/audio/fase2/trovao_longo.mp3",
+      "bytes": 108817,
+      "sha256": "012f9d53c7905fb9a5bb882e0f43bf72e9fb3b651cf9e42bd89eadba12da2238"
+    },
+    {
+      "source": "public/assets/audio/menu/moedas_01.ogg",
+      "target": "Assets/Originais/audio/menu/moedas_01.ogg",
+      "bytes": 22631,
+      "sha256": "7a150d4e29569346a193f9b8595e85630d515a30df65acbbf68898d6fabf0f23"
+    },
+    {
+      "source": "public/assets/audio/menu/moedas_02.ogg",
+      "target": "Assets/Originais/audio/menu/moedas_02.ogg",
+      "bytes": 11900,
+      "sha256": "9ae2c369bf5950ee42fd6d7ed9c748eff15d528edeb40e508e9be8e39191f99f"
+    },
+    {
+      "source": "public/assets/audio/menu/musica_menu.ogg",
+      "target": "Assets/Originais/audio/menu/musica_menu.ogg",
+      "bytes": 699487,
+      "sha256": "128d11ce9a8e571dbff1ae8c1f6ecda62f8927c156e030f2840926ece1c153d7"
+    },
+    {
+      "source": "public/assets/audio/menu/musica_mistica.ogg",
+      "target": "Assets/Originais/audio/menu/musica_mistica.ogg",
+      "bytes": 1380150,
+      "sha256": "3ae581d350077331eaaa9a0891b8d2d4bfb129a46e14f8130f9b97ccb7db19d4"
+    },
+    {
+      "source": "public/assets/audio/menu/portal_zumbido.ogg",
+      "target": "Assets/Originais/audio/menu/portal_zumbido.ogg",
+      "bytes": 572225,
+      "sha256": "d3c33cad21938c30fde49c1913aa89c1fa2b6a913cbb3ddfa85760abf0da6811"
+    },
+    {
+      "source": "public/assets/audio/menu/sino_bong.ogg",
+      "target": "Assets/Originais/audio/menu/sino_bong.ogg",
+      "bytes": 4760,
+      "sha256": "b723d67990174c5bb101a3978680a6e3189fcf4182f8c9f94a27f3a89cacc992"
+    },
+    {
+      "source": "public/assets/audio/menu/sino_vidro_01.ogg",
+      "target": "Assets/Originais/audio/menu/sino_vidro_01.ogg",
+      "bytes": 5988,
+      "sha256": "5e556b2b8113cfa4fb00f8588852da253d99bd904455173ec6f1577a516702b8"
+    },
+    {
+      "source": "public/assets/audio/menu/sino_vidro_02.ogg",
+      "target": "Assets/Originais/audio/menu/sino_vidro_02.ogg",
+      "bytes": 4853,
+      "sha256": "0d0621244fddb64638bbc6bbdecaa0d98beaee2f783c5d40a1d81bcc6ae824fc"
+    },
+    {
+      "source": "public/assets/audio/menu/sino_vidro_03.ogg",
+      "target": "Assets/Originais/audio/menu/sino_vidro_03.ogg",
+      "bytes": 5657,
+      "sha256": "6c89c0586af304c13ede1865a636ef7aae8217b572314064d2d106c93a276882"
+    },
+    {
+      "source": "public/assets/audio/menu/sino_vidro_04.ogg",
+      "target": "Assets/Originais/audio/menu/sino_vidro_04.ogg",
+      "bytes": 8181,
+      "sha256": "dfc7ae3235e1663640aa3c078175ccaa996a75541dacf0c24e6f22eeaa022bef"
+    },
+    {
+      "source": "public/assets/audio/menu/sino_vidro_05.ogg",
+      "target": "Assets/Originais/audio/menu/sino_vidro_05.ogg",
+      "bytes": 4861,
+      "sha256": "9b361ec1346843973cee306f2f291edc4bebe1d27c45fedcf78a052b8590e9c9"
+    },
+    {
+      "source": "public/assets/audio/menu/sino_vidro_06.ogg",
+      "target": "Assets/Originais/audio/menu/sino_vidro_06.ogg",
+      "bytes": 5031,
+      "sha256": "0fb669ef48d78379bf65b4e629eedda63762fa3e24e01bc56995b5c975957051"
+    },
+    {
+      "source": "public/assets/audio/menu/whoosh.ogg",
+      "target": "Assets/Originais/audio/menu/whoosh.ogg",
+      "bytes": 105793,
+      "sha256": "089aba7b045cd139fccd9a82305b18b46344a427ee4579b039394e3d4a1e7e79"
+    },
+    {
+      "source": "public/assets/audio/music_vila.mp3",
+      "target": "Assets/Originais/audio/music_vila.mp3",
+      "bytes": 1160330,
+      "sha256": "9b64763a7aaf4bd701fa04103b04e8b17a1ea20591405d7f9dcbb2284b373e56"
+    },
+    {
+      "source": "public/assets/audio/sfx_bell.ogg",
+      "target": "Assets/Originais/audio/sfx_bell.ogg",
+      "bytes": 9264,
+      "sha256": "59e4ebcdcb1bab28a0ff074d28301b329c51ac4044e5f69a1218c13190be4963"
+    },
+    {
+      "source": "public/assets/audio/sfx_clinc.ogg",
+      "target": "Assets/Originais/audio/sfx_clinc.ogg",
+      "bytes": 5347,
+      "sha256": "55cef7e0bc579e8e9586f9ada8119e4a5ac64e1e7888eb16d21796e4d27c8276"
+    },
+    {
+      "source": "public/assets/audio/sfx_concha_brilho_01.ogg",
+      "target": "Assets/Originais/audio/sfx_concha_brilho_01.ogg",
+      "bytes": 7814,
+      "sha256": "2bd3038f4fe0ef7c53fabad872477de03e32caeaee71e2c0c4ef2e67f7f480fe"
+    },
+    {
+      "source": "public/assets/audio/sfx_concha_brilho_02.ogg",
+      "target": "Assets/Originais/audio/sfx_concha_brilho_02.ogg",
+      "bytes": 26973,
+      "sha256": "e891001e1d7062d53022f0ebe85cf08fb989ea568e1c8cb3688397b83d03e058"
+    },
+    {
+      "source": "public/assets/audio/sfx_concha_brilho_03.ogg",
+      "target": "Assets/Originais/audio/sfx_concha_brilho_03.ogg",
+      "bytes": 7351,
+      "sha256": "46b5989b496181ac1ee6b255d6621f22bef6ded1f8d397eabb070ec0e6d306f2"
+    },
+    {
+      "source": "public/assets/audio/sfx_jump.ogg",
+      "target": "Assets/Originais/audio/sfx_jump.ogg",
+      "bytes": 4235,
+      "sha256": "ee16844d1bc68ea24cb0f1c813279c5812164b09bcb59ad4764b9440aaf06482"
+    },
+    {
+      "source": "public/assets/audio/sfx_land.ogg",
+      "target": "Assets/Originais/audio/sfx_land.ogg",
+      "bytes": 4985,
+      "sha256": "c9f5ce5808f0dd3533408f8ceaa9daea6d2f1b3d63a1fb1fb03d35e5001dda08"
+    },
+    {
+      "source": "public/assets/audio/sfx_madeira_rangido_01.ogg",
+      "target": "Assets/Originais/audio/sfx_madeira_rangido_01.ogg",
+      "bytes": 11438,
+      "sha256": "a0085bb3f6fb72864cea68755e95323b4c046818aa1f082c72c0bdba0d2907e7"
+    },
+    {
+      "source": "public/assets/audio/sfx_madeira_rangido_02.ogg",
+      "target": "Assets/Originais/audio/sfx_madeira_rangido_02.ogg",
+      "bytes": 10764,
+      "sha256": "fd886a0b9efe79e8f9daa6bc6f3cdfb01d90a99c3f7d9262d7e82dbf9ae1bfc7"
+    },
+    {
+      "source": "public/assets/audio/sfx_madeira_rangido_03.ogg",
+      "target": "Assets/Originais/audio/sfx_madeira_rangido_03.ogg",
+      "bytes": 12667,
+      "sha256": "a3ab840a4723a7ed827bc7722ef71986cd0a7253c5efb11781bf1b7d70bdbdc9"
+    },
+    {
+      "source": "public/assets/audio/sfx_madeira_rangido_04.ogg",
+      "target": "Assets/Originais/audio/sfx_madeira_rangido_04.ogg",
+      "bytes": 6526,
+      "sha256": "9823725c17869ca6ea448015e9988a0ed5b452ca3eb97d452a3da818016eab16"
+    },
+    {
+      "source": "public/assets/audio/sfx_passo_madeira_01.ogg",
+      "target": "Assets/Originais/audio/sfx_passo_madeira_01.ogg",
+      "bytes": 5942,
+      "sha256": "b21c848d3200d5650f76b66a57ce5249862bd196398fa5ba5e5e7db157780e92"
+    },
+    {
+      "source": "public/assets/audio/sfx_passo_madeira_02.ogg",
+      "target": "Assets/Originais/audio/sfx_passo_madeira_02.ogg",
+      "bytes": 5895,
+      "sha256": "de1ade28cb2b42494abbf1640d61202e1b7bd9d07defe2e703d8eb49d79039be"
+    },
+    {
+      "source": "public/assets/audio/sfx_passo_madeira_03.ogg",
+      "target": "Assets/Originais/audio/sfx_passo_madeira_03.ogg",
+      "bytes": 5851,
+      "sha256": "f7757638c752fcca1eef6cb824a4e528d2da24443617725eaa79925ba9ee8c1a"
+    },
+    {
+      "source": "public/assets/audio/sfx_passo_madeira_04.ogg",
+      "target": "Assets/Originais/audio/sfx_passo_madeira_04.ogg",
+      "bytes": 6138,
+      "sha256": "9aaa243e69a880bdd85d9cee3439c9d07c2b70d66d345984f79a2fa3d0805c17"
+    },
+    {
+      "source": "public/assets/audio/sfx_passo_madeira_05.ogg",
+      "target": "Assets/Originais/audio/sfx_passo_madeira_05.ogg",
+      "bytes": 5824,
+      "sha256": "f325daeabc8ec1660d937c7021b19161f505d16cee1166dc00d2ff4cfbd5b41c"
+    },
+    {
+      "source": "public/assets/audio/sfx_plank.ogg",
+      "target": "Assets/Originais/audio/sfx_plank.ogg",
+      "bytes": 9172,
+      "sha256": "38f6f81c271fedcaca26f7555a34b43561e756693b509853ce75f750e537f083"
+    },
+    {
+      "source": "public/assets/audio/sfx_praia_onda_01.ogg",
+      "target": "Assets/Originais/audio/sfx_praia_onda_01.ogg",
+      "bytes": 65544,
+      "sha256": "1a901a7bb009a92e6496e38c25a3a3cb40e851cc82590fa45a5ee201b200f835"
+    },
+    {
+      "source": "public/assets/audio/sfx_praia_onda_02.ogg",
+      "target": "Assets/Originais/audio/sfx_praia_onda_02.ogg",
+      "bytes": 42790,
+      "sha256": "672083461396f3ca1f2d2a72274b9f6a6a6fe0507a26745d38158184221509a2"
+    },
+    {
+      "source": "public/assets/audio/sfx_praia_onda_03.ogg",
+      "target": "Assets/Originais/audio/sfx_praia_onda_03.ogg",
+      "bytes": 40308,
+      "sha256": "a5e77c9607cfa439d94447f83ace581a88e71727ae9b47c8de88576057ccced4"
+    },
+    {
+      "source": "public/assets/audio/sfx_praia_onda_04.ogg",
+      "target": "Assets/Originais/audio/sfx_praia_onda_04.ogg",
+      "bytes": 62132,
+      "sha256": "bdb44e495c4e5fd2a1752b235ff74e32dd6de88c0215958f732cb649dad5b2d4"
+    },
+    {
+      "source": "public/assets/audio/sfx_rangido_corda_01.ogg",
+      "target": "Assets/Originais/audio/sfx_rangido_corda_01.ogg",
+      "bytes": 14008,
+      "sha256": "b84c8dc537df3cd0a7998b64af9eb579382e665251fa1a54d2c313ecbb3cd919"
+    },
+    {
+      "source": "public/assets/audio/sfx_rangido_corda_02.ogg",
+      "target": "Assets/Originais/audio/sfx_rangido_corda_02.ogg",
+      "bytes": 17671,
+      "sha256": "481e99526057b5530f47bb56132ff0159d4cc5f0da89f9926f7036e56a7bdde4"
+    },
+    {
+      "source": "public/assets/audio/sfx_rangido_corda_03.ogg",
+      "target": "Assets/Originais/audio/sfx_rangido_corda_03.ogg",
+      "bytes": 10057,
+      "sha256": "ee8ac2dbe1f436188a1ccad29d494e6f866a577e5c6a29e0e51e9a7df37ea533"
+    },
+    {
+      "source": "public/assets/audio/sfx_shell.ogg",
+      "target": "Assets/Originais/audio/sfx_shell.ogg",
+      "bytes": 4484,
+      "sha256": "cf18d059b42fb591ce249c6a84085150c246695cce4f08354d0e466cb7e4f94d"
+    },
+    {
+      "source": "public/assets/audio/sfx_splash_02.ogg",
+      "target": "Assets/Originais/audio/sfx_splash_02.ogg",
+      "bytes": 14625,
+      "sha256": "53044c2d2d7065cc3115c3e6b4c524252e73e0c04373dcb78be9a86936dbb613"
+    },
+    {
+      "source": "public/assets/audio/sfx_splash_03.ogg",
+      "target": "Assets/Originais/audio/sfx_splash_03.ogg",
+      "bytes": 14013,
+      "sha256": "742aa96986f03b734e4bdb3c7b95e5cf6ffa3b7118273d93271696287fb82479"
+    },
+    {
+      "source": "public/assets/audio/sfx_splash_06.ogg",
+      "target": "Assets/Originais/audio/sfx_splash_06.ogg",
+      "bytes": 13604,
+      "sha256": "1ceba90eadd78f851ee83fd48bfd5b078f6ddb75d7c06e9e69c5613717a7655d"
+    },
+    {
+      "source": "public/assets/audio/sfx_splash_08.ogg",
+      "target": "Assets/Originais/audio/sfx_splash_08.ogg",
+      "bytes": 14543,
+      "sha256": "d9c313f5f3707aa30a8a3500e14ab627be5d38f6b692ec153fe3954c95413679"
+    },
+    {
+      "source": "public/assets/audio/sfx_step_grass_01.ogg",
+      "target": "Assets/Originais/audio/sfx_step_grass_01.ogg",
+      "bytes": 6537,
+      "sha256": "52cae34aa5bd356211b9a73076e35b11128ef970e6432412d25068faa2a1be6e"
+    },
+    {
+      "source": "public/assets/audio/sfx_step_grass_02.ogg",
+      "target": "Assets/Originais/audio/sfx_step_grass_02.ogg",
+      "bytes": 6253,
+      "sha256": "75353566d4d6c0e6b49f854d55a9e987c749e0d8ce1f1da79ea74796a9a8f3cc"
+    },
+    {
+      "source": "public/assets/audio/sfx_step_grass_03.ogg",
+      "target": "Assets/Originais/audio/sfx_step_grass_03.ogg",
+      "bytes": 6394,
+      "sha256": "34aa3bdb3a95513969f8ca8023da85b69a373bec2fbf1eb24c95f531c34543a6"
+    },
+    {
+      "source": "public/assets/audio/sfx_step_stone_01.ogg",
+      "target": "Assets/Originais/audio/sfx_step_stone_01.ogg",
+      "bytes": 4651,
+      "sha256": "e1c2199802a312586a6f9f707da644c2bcf35fe5d3b1b5f6d650cd6ab40092be"
+    },
+    {
+      "source": "public/assets/audio/sfx_step_stone_02.ogg",
+      "target": "Assets/Originais/audio/sfx_step_stone_02.ogg",
+      "bytes": 4776,
+      "sha256": "706c410079eb4fb991e9276f3282e4481f050da0d977d868f34ebc0a70b10cd8"
+    },
+    {
+      "source": "public/assets/audio/sfx_step_stone_03.ogg",
+      "target": "Assets/Originais/audio/sfx_step_stone_03.ogg",
+      "bytes": 4912,
+      "sha256": "84716e4213cf505b6a5bbd4a38541a7213463b170175c745b61fb8fe78a6d52d"
+    },
+    {
+      "source": "public/assets/audio/sfx_step_wood_01.ogg",
+      "target": "Assets/Originais/audio/sfx_step_wood_01.ogg",
+      "bytes": 4525,
+      "sha256": "6626f1e5f4bb5cd5a83233e0b8b6599664aa6741a42848cb56a54345c4df47a5"
+    },
+    {
+      "source": "public/assets/audio/sfx_step_wood_02.ogg",
+      "target": "Assets/Originais/audio/sfx_step_wood_02.ogg",
+      "bytes": 4565,
+      "sha256": "180c67325c3ccf124a3e0a19cc087245e56d615f78ad1d655e636163e648acc2"
+    },
+    {
+      "source": "public/assets/audio/sfx_step_wood_03.ogg",
+      "target": "Assets/Originais/audio/sfx_step_wood_03.ogg",
+      "bytes": 4500,
+      "sha256": "bd0c157e3fc46accda41ae3b0539878b586f34f591b5d2a75c9b8559981d8394"
+    },
+    {
+      "source": "public/assets/audio/sfx_ui_confirm.ogg",
+      "target": "Assets/Originais/audio/sfx_ui_confirm.ogg",
+      "bytes": 4772,
+      "sha256": "57312f4b599ee5d3ab8bf3d343b8b37cd83543ee35636bbcdcb2d915c9ed33a8"
+    },
+    {
+      "source": "public/assets/audio/sfx_ui_dialog_close.ogg",
+      "target": "Assets/Originais/audio/sfx_ui_dialog_close.ogg",
+      "bytes": 6381,
+      "sha256": "b01ce212e1cce416853db2ea82df4caeb9b96c7dcb2384cd60de76c15b3f1678"
+    },
+    {
+      "source": "public/assets/audio/sfx_ui_dialog_next.ogg",
+      "target": "Assets/Originais/audio/sfx_ui_dialog_next.ogg",
+      "bytes": 3942,
+      "sha256": "bb9912cc0b172e7a873f99f05b2ffe018fd437f4ecc0ef490d3491df2fb4db93"
+    },
+    {
+      "source": "public/assets/audio/sfx_ui_dialog_open.ogg",
+      "target": "Assets/Originais/audio/sfx_ui_dialog_open.ogg",
+      "bytes": 6484,
+      "sha256": "be7fcd7b7bc7acf45adf11ad135fcafdc8cc2df5541c88e1bf26ceb5485df2d1"
+    },
+    {
+      "source": "public/assets/audio/sfx_vento_01.ogg",
+      "target": "Assets/Originais/audio/sfx_vento_01.ogg",
+      "bytes": 488317,
+      "sha256": "afcbf71a7e72e800edaf92cb841173976609eb1cecee9a6a45f5e93e33df7291"
+    },
+    {
+      "source": "public/assets/audio/sfx_vento_02.ogg",
+      "target": "Assets/Originais/audio/sfx_vento_02.ogg",
+      "bytes": 488060,
+      "sha256": "84a0b76494ba7370a05cb82963f25052a3e53358a961cf32d8ceb3ac0a053d8d"
+    },
+    {
+      "source": "public/assets/audio/ui/back_001.ogg",
+      "target": "Assets/Originais/audio/ui/back_001.ogg",
+      "bytes": 6997,
+      "sha256": "07db973f79f6ae0f2edc34561e7592e24d0577455919fb602cb8ecc0da991dcf"
+    },
+    {
+      "source": "public/assets/audio/ui/back_002.ogg",
+      "target": "Assets/Originais/audio/ui/back_002.ogg",
+      "bytes": 7029,
+      "sha256": "61581c58194e3f19f531072edabbc344204c7e0a2887b8ededce4357bcf09195"
+    },
+    {
+      "source": "public/assets/audio/ui/click_001.ogg",
+      "target": "Assets/Originais/audio/ui/click_001.ogg",
+      "bytes": 4876,
+      "sha256": "ccfb7fa0cccdd9faec0eb16033c732b1e308d139d80f799161495d58f7adcdb9"
+    },
+    {
+      "source": "public/assets/audio/ui/click_002.ogg",
+      "target": "Assets/Originais/audio/ui/click_002.ogg",
+      "bytes": 4275,
+      "sha256": "adcd1f4adc35f1b41bc1b5bbefeff7aa44f2f3f0d96d3199b544140c7c1e761c"
+    },
+    {
+      "source": "public/assets/audio/ui/confirmation_001.ogg",
+      "target": "Assets/Originais/audio/ui/confirmation_001.ogg",
+      "bytes": 8968,
+      "sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a"
+    },
+    {
+      "source": "public/assets/audio/ui/confirmation_002.ogg",
+      "target": "Assets/Originais/audio/ui/confirmation_002.ogg",
+      "bytes": 14169,
+      "sha256": "33b17a9a9a2397c62b285c52c33a907fdffb476909c99e42dde603f6a7a8b12c"
+    },
+    {
+      "source": "public/assets/audio/ui/tick_001.ogg",
+      "target": "Assets/Originais/audio/ui/tick_001.ogg",
+      "bytes": 4497,
+      "sha256": "9d057b918024c787bbe6c00beed13a7ef72a3fa0c259add3cef36582792f4230"
+    },
+    {
+      "source": "public/assets/audio/ui/tick_002.ogg",
+      "target": "Assets/Originais/audio/ui/tick_002.ogg",
+      "bytes": 4514,
+      "sha256": "869442f54214be902ec7437f79e400dc91c1bfd90d18a6dd2d5b7e41ffbf457b"
+    },
+    {
+      "source": "public/assets/farol/bg/harbor_03_v2.png",
+      "target": "Assets/Originais/farol/bg/harbor_03_v2.png",
+      "bytes": 2596149,
+      "sha256": "4fac85fbc412bb1fce13318b0c33bde8a7b43cf84cc00d02b2df031214d6fa74"
+    },
+    {
+      "source": "public/assets/farol/bg/sea.png",
+      "target": "Assets/Originais/farol/bg/sea.png",
+      "bytes": 1506011,
+      "sha256": "26b0d5279b2746042c70fd1b0ea8dc0985c01f4b548568f8d1ca599dadf6ef72"
+    },
+    {
+      "source": "public/assets/farol/bg/sky_01_seamless.png",
+      "target": "Assets/Originais/farol/bg/sky_01_seamless.png",
+      "bytes": 1289222,
+      "sha256": "baf4434cb0260f355413931444917bc8d60493a1c246ca72d852840e45193d3f"
+    },
+    {
+      "source": "public/assets/farol/bg/village_far_pano.png",
+      "target": "Assets/Originais/farol/bg/village_far_pano.png",
+      "bytes": 1800771,
+      "sha256": "0c9fd7fe62c200c74d98e16c499b1d26ea204f29e50cd3d28a2f3d258d4f0605"
+    },
+    {
+      "source": "public/assets/farol/bg/village_mid_pano.png",
+      "target": "Assets/Originais/farol/bg/village_mid_pano.png",
+      "bytes": 2554334,
+      "sha256": "4c9e19dfa7542abdd1c08ba2ca35695e734b6cb43e6243003bd45eb6f5ab5e3b"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/fase1/bolhas1.png",
+      "target": "Assets/Originais/farol/cc0_f3/fase1/bolhas1.png",
+      "bytes": 408779,
+      "sha256": "607ab3c6c0031247989367db717ce8774eb3c2f5d2d3fbd2033508b942b5509a"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/fase1/bolhas2.png",
+      "target": "Assets/Originais/farol/cc0_f3/fase1/bolhas2.png",
+      "bytes": 591788,
+      "sha256": "4fb020e077fa6b0162ed878209c034f23adc3f255468afc5d2bd7dea3e3bcf1f"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/fase1/twirl_01.png",
+      "target": "Assets/Originais/farol/cc0_f3/fase1/twirl_01.png",
+      "bytes": 51060,
+      "sha256": "ba3f4996a5a91ea3cba6817a9b4770a385a82ef0b9350cbda5c0f140d182af7e"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/fase1/twirl_02.png",
+      "target": "Assets/Originais/farol/cc0_f3/fase1/twirl_02.png",
+      "bytes": 76886,
+      "sha256": "3963633f6b2395a3fa95b9f4f65f22a4d38a2c561d9312dfff4646b71c7aa6e2"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/fase1/twirl_03.png",
+      "target": "Assets/Originais/farol/cc0_f3/fase1/twirl_03.png",
+      "bytes": 81463,
+      "sha256": "69baaab4bc68473e9f926dc249a1d1b58f759c88906e10ac859bf43ac3cfbc8b"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/menu/Cosmic_21.png",
+      "target": "Assets/Originais/farol/cc0_f3/menu/Cosmic_21.png",
+      "bytes": 5732,
+      "sha256": "18b49689a30dbdebc974d6d45df5f192a9c347d10535d8cedc2ffdf812bb2918"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/menu/Cosmic_22.png",
+      "target": "Assets/Originais/farol/cc0_f3/menu/Cosmic_22.png",
+      "bytes": 6306,
+      "sha256": "fa9fbff894f3a893ce41bbbc583cc8fc209d09859a7f4ce5f49f7972639dd8f5"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/menu/Cosmic_23.png",
+      "target": "Assets/Originais/farol/cc0_f3/menu/Cosmic_23.png",
+      "bytes": 16692,
+      "sha256": "f970216a478bed4359e2e12747f07572b5c5e15eef093fe44a96910d8461fa25"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/menu/Cosmic_24.png",
+      "target": "Assets/Originais/farol/cc0_f3/menu/Cosmic_24.png",
+      "bytes": 17098,
+      "sha256": "66335ef69121b4e305209d0eb6d5e24b6e60eb7627baa4d89126b4869ac77e05"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/menu/Cosmic_25.png",
+      "target": "Assets/Originais/farol/cc0_f3/menu/Cosmic_25.png",
+      "bytes": 16884,
+      "sha256": "ba0d4eed14a14e5459bf1423f9e5fea5206fd14d543b537a452b65cfa60e8146"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/menu/magic_03.png",
+      "target": "Assets/Originais/farol/cc0_f3/menu/magic_03.png",
+      "bytes": 58093,
+      "sha256": "c2ef5fe86cd2fd08e5b9768389ab6580b346c391db3c7c09fc9b0a63e00ec4ce"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/menu/magic_04.png",
+      "target": "Assets/Originais/farol/cc0_f3/menu/magic_04.png",
+      "bytes": 50082,
+      "sha256": "8255a4a3bd9209a0d3a45f0636524ff0d2953adc7d6819041703107379ab63ba"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/menu/magic_05.png",
+      "target": "Assets/Originais/farol/cc0_f3/menu/magic_05.png",
+      "bytes": 74794,
+      "sha256": "92fb8c7a1d9bc14e052526c0505502c3e5b37d27502fa3d36d2c80b4565b62ef"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/menu/magic_flat_strip.png",
+      "target": "Assets/Originais/farol/cc0_f3/menu/magic_flat_strip.png",
+      "bytes": 111530,
+      "sha256": "b52a0aaaebb24524aa7b7dc876536d7111feda8bea9a0606d126574e245a3dbd"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/menu/ring_magic_strip.png",
+      "target": "Assets/Originais/farol/cc0_f3/menu/ring_magic_strip.png",
+      "bytes": 257013,
+      "sha256": "bf98e0f8cdef00076e15907e514a7dc68b545f17f340cab9d3e5361a10a3d99a"
+    },
+    {
+      "source": "public/assets/farol/cc0_f3/menu/shockwave_magic_strip.png",
+      "target": "Assets/Originais/farol/cc0_f3/menu/shockwave_magic_strip.png",
+      "bytes": 85695,
+      "sha256": "062afdb9df213416cd49b8c60ae59a262db951c65a6232ed9cc00041ef9fd3ab"
+    },
+    {
+      "source": "public/assets/farol/chars/bia_sheet_1536.png",
+      "target": "Assets/Originais/farol/chars/bia_sheet_1536.png",
+      "bytes": 1551383,
+      "sha256": "14f51f8928ad26d635144e46834b8c2c6351d7ff8d3db517afebb2f75ff1a0aa"
+    },
+    {
+      "source": "public/assets/farol/chars/faisca_sheet_1536.png",
+      "target": "Assets/Originais/farol/chars/faisca_sheet_1536.png",
+      "bytes": 371518,
+      "sha256": "cbbb2075736a6b1846abb064833dd1d65227f2d7247bcb0adebb94e88c908f12"
+    },
+    {
+      "source": "public/assets/farol/chars/julia_sheet_1536.png",
+      "target": "Assets/Originais/farol/chars/julia_sheet_1536.png",
+      "bytes": 1350650,
+      "sha256": "76de9ae11133b053d8cbd6050879367c38bda0d2b2b9f53caa3fc57b0a76fba1"
+    },
+    {
+      "source": "public/assets/farol/chars/lucas_sheet_1536.png",
+      "target": "Assets/Originais/farol/chars/lucas_sheet_1536.png",
+      "bytes": 1367927,
+      "sha256": "32db7081fe0f7b481da0ebd5073a8d515214b19b90dac8594bf1c4309c46684d"
+    },
+    {
+      "source": "public/assets/farol/chars/marina_jump_v2.png",
+      "target": "Assets/Originais/farol/chars/marina_jump_v2.png",
+      "bytes": 324299,
+      "sha256": "d738afe89b3a8027f6223dc4631d1ceb1d9b37db6a639eb70b048253d385b7fd"
+    },
+    {
+      "source": "public/assets/farol/chars/marina_run_v2.png",
+      "target": "Assets/Originais/farol/chars/marina_run_v2.png",
+      "bytes": 1092420,
+      "sha256": "c4f0bef4eed567598e3f9792e3d1d842fd6e27d9eee4d1aed67cb58322d948af"
+    },
+    {
+      "source": "public/assets/farol/chars/marina_sheet_1536.png",
+      "target": "Assets/Originais/farol/chars/marina_sheet_1536.png",
+      "bytes": 1446517,
+      "sha256": "186fcb0d18ba848240c0a703b0037c5aeb39bc7b20c5e804d4bb95f8a1fecb52"
+    },
+    {
+      "source": "public/assets/farol/chars/marina_walk_v2.png",
+      "target": "Assets/Originais/farol/chars/marina_walk_v2.png",
+      "bytes": 1040868,
+      "sha256": "a0a9881fe6c4c17a7002acb209926b9838bbeba5e8badede128746cbffd250f6"
+    },
+    {
+      "source": "public/assets/farol/chars/toninho_sheet_1536.png",
+      "target": "Assets/Originais/farol/chars/toninho_sheet_1536.png",
+      "bytes": 1436163,
+      "sha256": "f55f3e18aa06654825e4252ff721a1163b42e888f51d359d17c003d30d47eae2"
+    },
+    {
+      "source": "public/assets/farol/fase2/bg2/clouds_storm.png",
+      "target": "Assets/Originais/farol/fase2/bg2/clouds_storm.png",
+      "bytes": 1252657,
+      "sha256": "49a231c1765aa03abd07f9d9972a8d70b5d2144bd6f7206e8778bb6d2d6609de"
+    },
+    {
+      "source": "public/assets/farol/fase2/bg2/sea_far.png",
+      "target": "Assets/Originais/farol/fase2/bg2/sea_far.png",
+      "bytes": 294675,
+      "sha256": "c15a1f07b4651fccc819061483af49c7979aa1ebb5e382e46615f66ea6d94c2c"
+    },
+    {
+      "source": "public/assets/farol/fase2/bg2/sea_mid.png",
+      "target": "Assets/Originais/farol/fase2/bg2/sea_mid.png",
+      "bytes": 883163,
+      "sha256": "eb131f4f40264ba9514e3451ae8612375b2c96abded0816b123e862a8b1cd757"
+    },
+    {
+      "source": "public/assets/farol/fase2/bg2/sky_storm.png",
+      "target": "Assets/Originais/farol/fase2/bg2/sky_storm.png",
+      "bytes": 1540307,
+      "sha256": "dcc57c0549115fb18b85479f2500ed9a4db039714c4977da163bdce4dd76fd42"
+    },
+    {
+      "source": "public/assets/farol/fase2/bg2/waves_front.png",
+      "target": "Assets/Originais/farol/fase2/bg2/waves_front.png",
+      "bytes": 1033580,
+      "sha256": "dafb3c62c0c92189e7d28dbbf50d6a8a1754327c029cf588aa5355d1f3dd7424"
+    },
+    {
+      "source": "public/assets/farol/fase2/boat/esperanca_lateral_tempestade.png",
+      "target": "Assets/Originais/farol/fase2/boat/esperanca_lateral_tempestade.png",
+      "bytes": 2015770,
+      "sha256": "bd345694407f58796ca5e4a780df69f1f2dfff8a52c2af9db6d6d387f852672f"
+    },
+    {
+      "source": "public/assets/farol/fase2/boss/polvo_corpo_sheet.png",
+      "target": "Assets/Originais/farol/fase2/boss/polvo_corpo_sheet.png",
+      "bytes": 3600615,
+      "sha256": "774f94786a9cb605d9456210b277d8997f4ffc332de63401d2f00f8a1031a57b"
+    },
+    {
+      "source": "public/assets/farol/fase2/boss/polvo_olhos_sheet.png",
+      "target": "Assets/Originais/farol/fase2/boss/polvo_olhos_sheet.png",
+      "bytes": 1059179,
+      "sha256": "ded989784542a33b1ca3f390fe11f5cc23baa58520a1f8038f091c62b0c1a527"
+    },
+    {
+      "source": "public/assets/farol/fase2/boss/polvo_partes.png",
+      "target": "Assets/Originais/farol/fase2/boss/polvo_partes.png",
+      "bytes": 2487478,
+      "sha256": "6e2f795dc5c8ae853ce51cc86882a3a4433ca951dbb78a7a5970f6589ad9bfe5"
+    },
+    {
+      "source": "public/assets/farol/fase2/boss/tentaculo_estados.png",
+      "target": "Assets/Originais/farol/fase2/boss/tentaculo_estados.png",
+      "bytes": 2151810,
+      "sha256": "677eb962eff7a4d82c3013cffc9d16e1dc4f5f3b9f67a46b0a976b1cd5796941"
+    },
+    {
+      "source": "public/assets/farol/fase2/boss/tentaculo_segmentos.png",
+      "target": "Assets/Originais/farol/fase2/boss/tentaculo_segmentos.png",
+      "bytes": 2285400,
+      "sha256": "ebc99bd0c4f6a3b0a113e5fdeaef6c1cbad76cf85c8f1e4a77f19ebe43ec0ef3"
+    },
+    {
+      "source": "public/assets/farol/fase2/boss/tentaculo_varredura_sheet.png",
+      "target": "Assets/Originais/farol/fase2/boss/tentaculo_varredura_sheet.png",
+      "bytes": 1477611,
+      "sha256": "a322a2e21d7aeaaf4f89c526d6dd80de1b8c376b089039a9c969de544dbc1a61"
+    },
+    {
+      "source": "public/assets/farol/fase2/boss/tentaculo_vertical_sheet.png",
+      "target": "Assets/Originais/farol/fase2/boss/tentaculo_vertical_sheet.png",
+      "bytes": 2657112,
+      "sha256": "655dcc8967c74c483007830a2cd0fde6f7371c999c7e43d8da3cab46a772d624"
+    },
+    {
+      "source": "public/assets/farol/fase2/boss/tinta_projetil_sheet.png",
+      "target": "Assets/Originais/farol/fase2/boss/tinta_projetil_sheet.png",
+      "bytes": 899723,
+      "sha256": "7d454ee3074555513b2b6eaba82411021247261722f6ba39e83ff0e22009dbed"
+    },
+    {
+      "source": "public/assets/farol/fase2/fx/agua_spray_sheet.png",
+      "target": "Assets/Originais/farol/fase2/fx/agua_spray_sheet.png",
+      "bytes": 1288292,
+      "sha256": "d529a11423e30e27436d3d62fc20356a5508f79d8e344ae5ec686d628ddc5471"
+    },
+    {
+      "source": "public/assets/farol/fase2/fx/cc0_chuva_fundo.png",
+      "target": "Assets/Originais/farol/fase2/fx/cc0_chuva_fundo.png",
+      "bytes": 29229,
+      "sha256": "95fbc1f6f0eadc6db551a0e20903c3dabfcd618328cbc1f2a7dd925ea658129a"
+    },
+    {
+      "source": "public/assets/farol/fase2/fx/cc0_particulas.png",
+      "target": "Assets/Originais/farol/fase2/fx/cc0_particulas.png",
+      "bytes": 572790,
+      "sha256": "e43101a0bc5b77b38a86fd2a11e1d0a99f0b31910ef01dd91cd8bcb8dd2e0470"
+    },
+    {
+      "source": "public/assets/farol/fase2/fx/relampago_sheet.png",
+      "target": "Assets/Originais/farol/fase2/fx/relampago_sheet.png",
+      "bytes": 1009341,
+      "sha256": "c1c2c42f8600e571a05b77aa23625e071c5d1b073567d38d205d4ab042d72508"
+    },
+    {
+      "source": "public/assets/farol/fase2/fx/sonic_fx_sheet.png",
+      "target": "Assets/Originais/farol/fase2/fx/sonic_fx_sheet.png",
+      "bytes": 1211589,
+      "sha256": "4d8be2744aef7a04cb2352e409bb2db5746b5206faa675b94612974696775341"
+    },
+    {
+      "source": "public/assets/farol/fase2/fx/tinta_tela.png",
+      "target": "Assets/Originais/farol/fase2/fx/tinta_tela.png",
+      "bytes": 1376847,
+      "sha256": "21b60eb37f2003bdb72d1168a96a304023d4e7eb68819d13555f4da878aeb987"
+    },
+    {
+      "source": "public/assets/farol/fase2/sprites/bia_balde.png",
+      "target": "Assets/Originais/farol/fase2/sprites/bia_balde.png",
+      "bytes": 259763,
+      "sha256": "b9636b435904e543819c8934a3691e622823d52f15d2f96d6ecb4950b0461b6f"
+    },
+    {
+      "source": "public/assets/farol/fase2/sprites/faisca_latindo.png",
+      "target": "Assets/Originais/farol/fase2/sprites/faisca_latindo.png",
+      "bytes": 195652,
+      "sha256": "132d36cd35bf51e352e8a1725559ed7471497e893b86440ed2ce919c63699555"
+    },
+    {
+      "source": "public/assets/farol/fase2/sprites/julia_mastro.png",
+      "target": "Assets/Originais/farol/fase2/sprites/julia_mastro.png",
+      "bytes": 283548,
+      "sha256": "e79d7da978bce5dc6b8355a562665205d5f06055b204ae6bcf6d43848b0a7bc0"
+    },
+    {
+      "source": "public/assets/farol/fase2/sprites/lucas_hurt_sheet.png",
+      "target": "Assets/Originais/farol/fase2/sprites/lucas_hurt_sheet.png",
+      "bytes": 712512,
+      "sha256": "aa0f920bb0025f846ded12f71874cd3720705878b72d4069a731c57247ab9f74"
+    },
+    {
+      "source": "public/assets/farol/fase2/sprites/lucas_ko_sheet.png",
+      "target": "Assets/Originais/farol/fase2/sprites/lucas_ko_sheet.png",
+      "bytes": 599792,
+      "sha256": "91c8e7d37f10915ba3efdc2622f1a5d46b174c0389cc143793043025998f0a7b"
+    },
+    {
+      "source": "public/assets/farol/fase2/sprites/lucas_sonic_sheet.png",
+      "target": "Assets/Originais/farol/fase2/sprites/lucas_sonic_sheet.png",
+      "bytes": 2001317,
+      "sha256": "3d74ee35c948c0c35cbd22386a9318646538c3635061d5d6cde3cfbf8998d331"
+    },
+    {
+      "source": "public/assets/farol/fase2/sprites/marina_corda.png",
+      "target": "Assets/Originais/farol/fase2/sprites/marina_corda.png",
+      "bytes": 302289,
+      "sha256": "37c5c35735aaca0c63635c281f9d74d2dbe7a2e0c5ff037de4ce59967c70e259"
+    },
+    {
+      "source": "public/assets/farol/fase2/sprites/toninho_leme.png",
+      "target": "Assets/Originais/farol/fase2/sprites/toninho_leme.png",
+      "bytes": 374045,
+      "sha256": "d489688bb24badb206325d19fb94bd43305f1c35478ce3093197b6086d8f46e0"
+    },
+    {
+      "source": "public/assets/farol/fase2/ui/boss_bar_frame.png",
+      "target": "Assets/Originais/farol/fase2/ui/boss_bar_frame.png",
+      "bytes": 833944,
+      "sha256": "8ba6c7625555e0ecd0fd2edc41a3fb515cac7add2dfea0a984c0f24a08f7bb78"
+    },
+    {
+      "source": "public/assets/farol/fase2/ui/hq_p09.jpg",
+      "target": "Assets/Originais/farol/fase2/ui/hq_p09.jpg",
+      "bytes": 851165,
+      "sha256": "9441913f1829e5118f20491dfcdedc5b89c0fde398be280c624f43dc0a3a9d75"
+    },
+    {
+      "source": "public/assets/farol/fase2/ui/hud_sonico.png",
+      "target": "Assets/Originais/farol/fase2/ui/hud_sonico.png",
+      "bytes": 725134,
+      "sha256": "f6542cb5bf41a727111e599d508b6dbc9f1e3f9613faaaa90093b0305c19541a"
+    },
+    {
+      "source": "public/assets/farol/fase2/ui/portrait_bia_assustada.png",
+      "target": "Assets/Originais/farol/fase2/ui/portrait_bia_assustada.png",
+      "bytes": 1078479,
+      "sha256": "44b7c3b18b0fa395b26708d6416e47ef3513a5380d3093ef0307f511035f76c2"
+    },
+    {
+      "source": "public/assets/farol/fase2/ui/portrait_julia_camera.png",
+      "target": "Assets/Originais/farol/fase2/ui/portrait_julia_camera.png",
+      "bytes": 1153654,
+      "sha256": "07125461ebbfeeace87cebffbfd3f2d3ae5788bb2285b88b896d6578752f38e1"
+    },
+    {
+      "source": "public/assets/farol/fase2/ui/portrait_lucas_alerta.png",
+      "target": "Assets/Originais/farol/fase2/ui/portrait_lucas_alerta.png",
+      "bytes": 970354,
+      "sha256": "a89b7a3587cbea0bd4811fd1574138494522625e63a0648651926102d8a9f1cf"
+    },
+    {
+      "source": "public/assets/farol/fase2/ui/portrait_marina_comando.png",
+      "target": "Assets/Originais/farol/fase2/ui/portrait_marina_comando.png",
+      "bytes": 1287740,
+      "sha256": "827dca3121928a844545b71664d596f4e806a8cb5066e48651b3a45886090564"
+    },
+    {
+      "source": "public/assets/farol/fase2/ui/portrait_polvo.png",
+      "target": "Assets/Originais/farol/fase2/ui/portrait_polvo.png",
+      "bytes": 497164,
+      "sha256": "9638c4070cb1d2bc6607aaa01b610acb2853265cc8adf25d59671135d79e8515"
+    },
+    {
+      "source": "public/assets/farol/fase2/ui/portrait_toninho_leme.png",
+      "target": "Assets/Originais/farol/fase2/ui/portrait_toninho_leme.png",
+      "bytes": 1195513,
+      "sha256": "1fe1d769213cc54f3a51f6051e64098d9b7af840ecb1e21db304cb70cb821c0f"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/boat_night.png",
+      "target": "Assets/Originais/farol/fase2_reuse/boat_night.png",
+      "bytes": 1378004,
+      "sha256": "444c45d336f934e86c50f75b7d26b777e42ca8bf03bf56ccd82c1d793f02b442"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/cut_curva.jpg",
+      "target": "Assets/Originais/farol/fase2_reuse/cut_curva.jpg",
+      "bytes": 335455,
+      "sha256": "7647209d347e8c08642739010c5f8f6a64cb21f03427e954f9174ca34acd155d"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/cut_entrada.jpg",
+      "target": "Assets/Originais/farol/fase2_reuse/cut_entrada.jpg",
+      "bytes": 347240,
+      "sha256": "2db5a83ff294f85b40b61247fb0fa09c4056f165bdf4f858c55e1859789e52a6"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/cut_epilogo.jpg",
+      "target": "Assets/Originais/farol/fase2_reuse/cut_epilogo.jpg",
+      "bytes": 317516,
+      "sha256": "da7a53ce8187c95d949bf108544c7603e66015613e417d0077b8e3a9169575a0"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/cut_gancho.jpg",
+      "target": "Assets/Originais/farol/fase2_reuse/cut_gancho.jpg",
+      "bytes": 305717,
+      "sha256": "6ac7003faeacd8749e20a921dbb3613c3c01d18b254a2b5f68de1b58b76d1551"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/cut_intro1.jpg",
+      "target": "Assets/Originais/farol/fase2_reuse/cut_intro1.jpg",
+      "bytes": 427930,
+      "sha256": "ad4c0e9cd224d7d1d8e4cfd5bc62ae8a98febdb4fb20587b1a002a8c8e28628d"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/cut_intro3.jpg",
+      "target": "Assets/Originais/farol/fase2_reuse/cut_intro3.jpg",
+      "bytes": 371812,
+      "sha256": "9d2e7111389f3f8f8cfed493ee632a3365d55f64afac3063839336d9f179c9f4"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/cut_p0.jpg",
+      "target": "Assets/Originais/farol/fase2_reuse/cut_p0.jpg",
+      "bytes": 522886,
+      "sha256": "1512d2b6df35aeaabd3b7b95f4ae5f77c2effabbb914ffb8c5cd491076d6daec"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/cut_p25.jpg",
+      "target": "Assets/Originais/farol/fase2_reuse/cut_p25.jpg",
+      "bytes": 376392,
+      "sha256": "5440ac5c6321c05ca3545ac27ccac555046d7ea75afd1e377c58fea1f03379e4"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/cut_p50.jpg",
+      "target": "Assets/Originais/farol/fase2_reuse/cut_p50.jpg",
+      "bytes": 522993,
+      "sha256": "2423f22fd22b406bf268b10e7aeb9b620f18d3676eebcb0f3173c35d0c7e6f86"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/cut_p75.jpg",
+      "target": "Assets/Originais/farol/fase2_reuse/cut_p75.jpg",
+      "bytes": 163909,
+      "sha256": "56c3cf20dd9d1928bb85528af388dac16ab0d81707e0c2f51430a5d989dd2750"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/farol_ilha.png",
+      "target": "Assets/Originais/farol/fase2_reuse/farol_ilha.png",
+      "bytes": 347322,
+      "sha256": "8f714ea5d0ccd6f41c054c8e9b0c131e6cf06fab36b2da9445f4184ebd9dbb40"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/sea_band.png",
+      "target": "Assets/Originais/farol/fase2_reuse/sea_band.png",
+      "bytes": 1133186,
+      "sha256": "95da14bafb3f4a02ce58a14a7f5dd2205c3b4365f548d8bd9e0d97234daaf01b"
+    },
+    {
+      "source": "public/assets/farol/fase2_reuse/sky_storm.jpg",
+      "target": "Assets/Originais/farol/fase2_reuse/sky_storm.jpg",
+      "bytes": 91220,
+      "sha256": "fdb73672e4cd33a931eb887489f898e8cdfcf5804640ccf4e4fcc621627fd54a"
+    },
+    {
+      "source": "public/assets/farol/fase3/curio/carta_moldura.png",
+      "target": "Assets/Originais/farol/fase3/curio/carta_moldura.png",
+      "bytes": 1647409,
+      "sha256": "312b2da680bd8b4a59d37ea2f19c847e9c6a7518dbd5efab1044e88c2c719c43"
+    },
+    {
+      "source": "public/assets/farol/fase3/curio/esperanca_planta.png",
+      "target": "Assets/Originais/farol/fase3/curio/esperanca_planta.png",
+      "bytes": 3616011,
+      "sha256": "35167d1331f566c770eb59580eaef663df544cfed7a39752e433fa3903be6834"
+    },
+    {
+      "source": "public/assets/farol/fase3/curio/lucas_aparelho_explodido.png",
+      "target": "Assets/Originais/farol/fase3/curio/lucas_aparelho_explodido.png",
+      "bytes": 2038817,
+      "sha256": "6777b720bdfcf4b646635d924d5c03e27d12fd79bb2d6cbe27fb764d60b6d930"
+    },
+    {
+      "source": "public/assets/farol/fase3/curio/polaroid_moldura.png",
+      "target": "Assets/Originais/farol/fase3/curio/polaroid_moldura.png",
+      "bytes": 193239,
+      "sha256": "4435205879742ecaaf076a3ba5fd03a345f6dc09e4ff68e8781467dcbe64f068"
+    },
+    {
+      "source": "public/assets/farol/fase3/curio/polvo_dossie.png",
+      "target": "Assets/Originais/farol/fase3/curio/polvo_dossie.png",
+      "bytes": 3927100,
+      "sha256": "7c132bb84f45d1133bc5a9eb5afcfb339fe674927877a0c65cd70eec813d7ef1"
+    },
+    {
+      "source": "public/assets/farol/fase3/curio/toninho_nos_sheet.png",
+      "target": "Assets/Originais/farol/fase3/curio/toninho_nos_sheet.png",
+      "bytes": 993989,
+      "sha256": "e510df8e9c8e66b33cab12046b623824cb57238fe3a3b70733c648d35b9ad856"
+    },
+    {
+      "source": "public/assets/farol/fase3/curio/vila_mapa_ilustrado.png",
+      "target": "Assets/Originais/farol/fase3/curio/vila_mapa_ilustrado.png",
+      "bytes": 4392664,
+      "sha256": "8a61ce0c1bd58c398eb812753e9fc8172e78f33bb2be108cf27c01c5adc1de68"
+    },
+    {
+      "source": "public/assets/farol/fase3/hub/hub_bg_ceu_mar.png",
+      "target": "Assets/Originais/farol/fase3/hub/hub_bg_ceu_mar.png",
+      "bytes": 1582803,
+      "sha256": "6ea7a5b53564cc9de4431553614dd185f3746071437f87807ec9e88b24b24620"
+    },
+    {
+      "source": "public/assets/farol/fase3/hub/hub_bg_parede.png",
+      "target": "Assets/Originais/farol/fase3/hub/hub_bg_parede.png",
+      "bytes": 5976616,
+      "sha256": "88cacc81a7f56ab33d1676fbc97fb2f8c7a9b261e7d9545a5ea1f7588905a0ab"
+    },
+    {
+      "source": "public/assets/farol/fase3/hub/hub_chao_mezanino.png",
+      "target": "Assets/Originais/farol/fase3/hub/hub_chao_mezanino.png",
+      "bytes": 4956415,
+      "sha256": "54830cbd2371d625cb1339b885eaf39dadd9db2654898d01051e5a42221a2f84"
+    },
+    {
+      "source": "public/assets/farol/fase3/hub/hub_frente_cordas.png",
+      "target": "Assets/Originais/farol/fase3/hub/hub_frente_cordas.png",
+      "bytes": 483650,
+      "sha256": "b723aa54a279badec829dc3052c21b6aca11eae267328f0b8765258067006dd6"
+    },
+    {
+      "source": "public/assets/farol/fase3/hub/hub_lente_farol.png",
+      "target": "Assets/Originais/farol/fase3/hub/hub_lente_farol.png",
+      "bytes": 446773,
+      "sha256": "d76152ffcf498c51b6e9d9afc2fb2928bfb843ca899a58897667b6967ac04e74"
+    },
+    {
+      "source": "public/assets/farol/fase3/hub/hub_raios_luz.png",
+      "target": "Assets/Originais/farol/fase3/hub/hub_raios_luz.png",
+      "bytes": 620271,
+      "sha256": "6bdc5d34af44edda663b29520109f77010c7e62fc98b444645192f8258632400"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cadeado_concha_sheet.png",
+      "target": "Assets/Originais/farol/fase3/portais/cadeado_concha_sheet.png",
+      "bytes": 192735,
+      "sha256": "b89193a3c5b7cc2647b61028e2664092164271d63e6dd803cef337ab74893d89"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_bastidores.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_bastidores.png",
+      "bytes": 282106,
+      "sha256": "cc24c52298f491e16d130411b68bbdea2275ef49d88b04bfa802cbba5d693e03"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_bia.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_bia.png",
+      "bytes": 359248,
+      "sha256": "24c66b2df6c7630100aef81f6b9382f61502871158cbddbdd5ac8ad936ac31e4"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_cavernas.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_cavernas.png",
+      "bytes": 363974,
+      "sha256": "5165ce38733c4022f17dacc19fdeac96a37a101104b85346be3afcf594794669"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_esperanca.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_esperanca.png",
+      "bytes": 348529,
+      "sha256": "9be42ce10766f762540722f9e9a9fa7f4a8edc23305c15338072549a6b0884a3"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_faisca.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_faisca.png",
+      "bytes": 306228,
+      "sha256": "4912d7a4270a709626bedf36a48ed3d4c6eaeca6f5594923813ea62bf3f64d6c"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_faisca_rabo.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_faisca_rabo.png",
+      "bytes": 101764,
+      "sha256": "e472dd346802f2c2b463261752538f99322ab5d4a6a0769ed801a1acc6d0e68a"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_farol.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_farol.png",
+      "bytes": 349160,
+      "sha256": "e19eed47376ce1faa663f35f90d377b528e5334ce64d09fa62fee5960963c91e"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_julia.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_julia.png",
+      "bytes": 338371,
+      "sha256": "a5884aeb8b53d83140ace154caa6b5957e98e2eedeead3ea71e53be797174bfb"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_lucas.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_lucas.png",
+      "bytes": 342379,
+      "sha256": "ddf5df2f244a548b256af9d6dad63783fe4b4824ecf9f40df19ee972e02d90e0"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_mar_bg.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_mar_bg.png",
+      "bytes": 326730,
+      "sha256": "6e9b84414ae6960369a6aa409b9ddeb108f04326fd2d1bf5a9ef7443c0f39208"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_mar_fg.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_mar_fg.png",
+      "bytes": 176374,
+      "sha256": "ac6b7d8f83034735c52e73b25ff57a360b66c271ed399bd5d5e29952797628b1"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_marina.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_marina.png",
+      "bytes": 356488,
+      "sha256": "5c248ada3212ecab261835a1764a7e77140f7113b48ccc7e79400f6f4d46760a"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_polvo.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_polvo.png",
+      "bytes": 327013,
+      "sha256": "a3db44aa2abe49a2d45832372e49d7cd0c574d6e829893a186c7ec74f2898d80"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_toninho.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_toninho.png",
+      "bytes": 350206,
+      "sha256": "1ffe0742e5c50064c629c054ebca4bf9c8b25ac95dd0cfbea63fddd26439bf6e"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_vila_bg.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_vila_bg.png",
+      "bytes": 369396,
+      "sha256": "416b50acf1091a7327509d5445def0f51ba6888aeba67aeca3b9c1ec3239253c"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/cena_vila_fg.png",
+      "target": "Assets/Originais/farol/fase3/portais/cena_vila_fg.png",
+      "bytes": 161611,
+      "sha256": "576cc074a5bf240191fdadeb61a007c038f868acc9f880274c21e01e469da96b"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/placa_bronze.png",
+      "target": "Assets/Originais/farol/fase3/portais/placa_bronze.png",
+      "bytes": 647,
+      "sha256": "3ce13657370fd9f6ab5d43382cccf126c810fedfecf850cc95d7a348c126a478"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/placa_preco_cinza.png",
+      "target": "Assets/Originais/farol/fase3/portais/placa_preco_cinza.png",
+      "bytes": 92564,
+      "sha256": "f508ea8a3c300c3169860060687b25a40d4b6d4267b5cb0011a31608c3d61828"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/placa_preco_dourada.png",
+      "target": "Assets/Originais/farol/fase3/portais/placa_preco_dourada.png",
+      "bytes": 100543,
+      "sha256": "59305dcfb08c0775a190b0e9b63cbf24b77e0a8923039744f66decb1793f695c"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/portal_anel_energia.png",
+      "target": "Assets/Originais/farol/fase3/portais/portal_anel_energia.png",
+      "bytes": 994159,
+      "sha256": "53d10b498e068f7255228102171b7f1b693dcb196436bb555cb602c2ea88b195"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/portal_fase3_correntes.png",
+      "target": "Assets/Originais/farol/fase3/portais/portal_fase3_correntes.png",
+      "bytes": 584918,
+      "sha256": "76dabcbc5a88c1d54a5ff7ec177d4a64a7c2d1a1cb90c043dec2d9fc153dbedf"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/portal_moldura.png",
+      "target": "Assets/Originais/farol/fase3/portais/portal_moldura.png",
+      "bytes": 952868,
+      "sha256": "7f1cb14ef42931108536f35e02f4b5a14ab420dcc1bde6a764ef4a65ca533043"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/portal_vitral_fechado.png",
+      "target": "Assets/Originais/farol/fase3/portais/portal_vitral_fechado.png",
+      "bytes": 318872,
+      "sha256": "bd175eb7bb961bf99eff9a04b1bf3a38768b816c3a834f94bd453e2242559eed"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/portal_vitral_rachaduras_sheet.png",
+      "target": "Assets/Originais/farol/fase3/portais/portal_vitral_rachaduras_sheet.png",
+      "bytes": 395656,
+      "sha256": "29afcc4cc3b1f2ffe5f0810ffe505f950efd4ce6e0ea0395d1e753da67325c88"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/thumbs/cena_bastidores_blur.png",
+      "target": "Assets/Originais/farol/fase3/portais/thumbs/cena_bastidores_blur.png",
+      "bytes": 57849,
+      "sha256": "014d816637da917195b737d75e51e1d6210b4388c98de33b007225fbb1e63a7f"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/thumbs/cena_bia_blur.png",
+      "target": "Assets/Originais/farol/fase3/portais/thumbs/cena_bia_blur.png",
+      "bytes": 50828,
+      "sha256": "6af4c17f9c40293b784346dac7794e9941ee8ab9cfc23f5bc345bd099ec8f0be"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/thumbs/cena_cavernas_blur.png",
+      "target": "Assets/Originais/farol/fase3/portais/thumbs/cena_cavernas_blur.png",
+      "bytes": 47790,
+      "sha256": "8f1d68d0d3356443d9a3191b9123ddd10942820ec74cf5abbafeff21d39555dd"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/thumbs/cena_esperanca_blur.png",
+      "target": "Assets/Originais/farol/fase3/portais/thumbs/cena_esperanca_blur.png",
+      "bytes": 50727,
+      "sha256": "d77893893baba4a5e2bd5ba31ca2a52643b513a7884cef10471d7d0d084a95cd"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/thumbs/cena_faisca_blur.png",
+      "target": "Assets/Originais/farol/fase3/portais/thumbs/cena_faisca_blur.png",
+      "bytes": 50262,
+      "sha256": "907c318674f43c22587e98e0f3e0c49e58ae305c09dbb46eb236af440664e1ee"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/thumbs/cena_farol_blur.png",
+      "target": "Assets/Originais/farol/fase3/portais/thumbs/cena_farol_blur.png",
+      "bytes": 49985,
+      "sha256": "9889a1882a672c88e82ba3deb3ee7f43975d47b57c391e55559706b8262b2410"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/thumbs/cena_julia_blur.png",
+      "target": "Assets/Originais/farol/fase3/portais/thumbs/cena_julia_blur.png",
+      "bytes": 50599,
+      "sha256": "90ffcd4bdd08f0233aec665ad7c88a52568f24fdbdb5697bfc1bf5f9db1a5b55"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/thumbs/cena_lucas_blur.png",
+      "target": "Assets/Originais/farol/fase3/portais/thumbs/cena_lucas_blur.png",
+      "bytes": 53049,
+      "sha256": "5d32b51e7a457278f98af680611b13bb0b0dc28c8755d8facd3ffc9a6883ebbc"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/thumbs/cena_mar_bg_blur.png",
+      "target": "Assets/Originais/farol/fase3/portais/thumbs/cena_mar_bg_blur.png",
+      "bytes": 48716,
+      "sha256": "c6564699ab0b86b4863ff1d7b1abf460051675a4aa26c96769bfb114672d6b49"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/thumbs/cena_marina_blur.png",
+      "target": "Assets/Originais/farol/fase3/portais/thumbs/cena_marina_blur.png",
+      "bytes": 53152,
+      "sha256": "bb65b06469cba63f5c7b6c20ca85d3c20b61595f5dad205ebec31d6d3c33c3c2"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/thumbs/cena_polvo_blur.png",
+      "target": "Assets/Originais/farol/fase3/portais/thumbs/cena_polvo_blur.png",
+      "bytes": 50918,
+      "sha256": "60f363a4d259c1adc6effa46740e00a9405af5fcac54b05566debbbdc4894ca7"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/thumbs/cena_toninho_blur.png",
+      "target": "Assets/Originais/farol/fase3/portais/thumbs/cena_toninho_blur.png",
+      "bytes": 53712,
+      "sha256": "d44605671d17441095bbb5e76d51003af97e1436526fec5d1d973040433018cc"
+    },
+    {
+      "source": "public/assets/farol/fase3/portais/thumbs/cena_vila_bg_blur.png",
+      "target": "Assets/Originais/farol/fase3/portais/thumbs/cena_vila_bg_blur.png",
+      "bytes": 51425,
+      "sha256": "1dd051036d80c6a92c6538404350d6c91a624db0a554e00c867709dbc4c9dfff"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botao_portais_normal.png",
+      "target": "Assets/Originais/farol/fase3/ui/botao_portais_normal.png",
+      "bytes": 28950,
+      "sha256": "34a4d36b643978391b73a6335f90bb49ed0136cc5ff43ad1f491db662a2f5e3f"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botao_portais_realce.png",
+      "target": "Assets/Originais/farol/fase3/ui/botao_portais_realce.png",
+      "bytes": 31576,
+      "sha256": "2641228fda330e23576a65cb3f6e4519241f4006ef22410ef33296b03d2ce759"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_continuar_hover.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_continuar_hover.png",
+      "bytes": 47551,
+      "sha256": "7b83190c90b0d8778b88f258c86af374610ed335e79b685849273526d1cc6370"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_continuar_normal.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_continuar_normal.png",
+      "bytes": 43017,
+      "sha256": "571bd79beb6e5409b88db97c5b64b2af96d9a8b5c94c1a37a7059a3e3f4b9b8e"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_continuar_pressed.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_continuar_pressed.png",
+      "bytes": 37442,
+      "sha256": "787c6ed233cea343cc4cb4dc503573f5954ac08f797085d1e9d515a71b6bf04a"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_jogar_de_novo_hover.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_jogar_de_novo_hover.png",
+      "bytes": 49225,
+      "sha256": "1d0cd50bb1f6bb18778d98203eb3980c682231050f7743dca48ad3d928c1223e"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_jogar_de_novo_normal.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_jogar_de_novo_normal.png",
+      "bytes": 44490,
+      "sha256": "e6609e29e7a3d7157516c982c1f8f3f91d12e1f7ace469775e60ebf4e3c6142a"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_jogar_de_novo_pressed.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_jogar_de_novo_pressed.png",
+      "bytes": 36434,
+      "sha256": "c2e1df5af0f4688169a58d1c6612c8184732010548ec94d1631d01e71074da8e"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_jogar_hover.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_jogar_hover.png",
+      "bytes": 45175,
+      "sha256": "abdfda8c85d4b7997c6bd4974d498233696902895d0993bbd363a05027a44530"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_jogar_normal.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_jogar_normal.png",
+      "bytes": 39629,
+      "sha256": "bac410fef99839f988015f9a437b2d254adabf07dd6459d44b54b844701be257"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_jogar_pressed.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_jogar_pressed.png",
+      "bytes": 34307,
+      "sha256": "cda82e8bd85137fe64370f094ce3fd6201151c83c3c12a7b886b1bb7d871d80e"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_menu_hover.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_menu_hover.png",
+      "bytes": 48335,
+      "sha256": "087b17ff7f1104b57fbd8ae2abf6271c16d37ed3d31b6431a0eee611d8d3b623"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_menu_normal.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_menu_normal.png",
+      "bytes": 43864,
+      "sha256": "c376102f3b6c62424ec8674a7cf62d7214a70fd0364398d6252629ea1192eb03"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_menu_pressed.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_menu_pressed.png",
+      "bytes": 38175,
+      "sha256": "093769244ebf1bb74f359d1cab4095cedbd1df64bcd89fa1d8f87dabb60d9f5d"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_portais_hover.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_portais_hover.png",
+      "bytes": 49101,
+      "sha256": "af368c49e79ae371830c1fd25e451521be91ef5d20ad64b8e703bd421c4cb3bb"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_portais_normal.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_portais_normal.png",
+      "bytes": 44440,
+      "sha256": "ae8c1962f71e6757911c6ad97d16af614f5378e40448a9bcdaa4d12e2918a40a"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes/btn_portais_pressed.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes/btn_portais_pressed.png",
+      "bytes": 36440,
+      "sha256": "73df7cb99e7ee54bb8f8b68b1e0753d8199fb69d705c66a7189860f6a83b7b31"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/botoes_hub_sheet.png",
+      "target": "Assets/Originais/farol/fase3/ui/botoes_hub_sheet.png",
+      "bytes": 116647,
+      "sha256": "c9e9eeb538596f2ac6939f4a4a990b411e99935269ab9194a48178878cfca012"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/caixa_fala_hq.png",
+      "target": "Assets/Originais/farol/fase3/ui/caixa_fala_hq.png",
+      "bytes": 215913,
+      "sha256": "5924acccc909c949cae34727f6f2628432dfa9744170a0c3710b7c5c8500b9ed"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/carteira_hud.png",
+      "target": "Assets/Originais/farol/fase3/ui/carteira_hud.png",
+      "bytes": 60475,
+      "sha256": "90bc1ed41e888982629d11b46cd2680cb412c94297505be45a55eeea731dbf19"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/icone_concha_dourada.png",
+      "target": "Assets/Originais/farol/fase3/ui/icone_concha_dourada.png",
+      "bytes": 23254,
+      "sha256": "d537754ab05c21facc2dc5105082be4ab9904457032a5d40d85c90a32d7c52b6"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/icone_concha_hud.png",
+      "target": "Assets/Originais/farol/fase3/ui/icone_concha_hud.png",
+      "bytes": 23099,
+      "sha256": "97eb3eb4125acb8dc80ab9189ff646fbb1cb80a5793ced4cd309640f17e6f310"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/onomatopeias_sheet.png",
+      "target": "Assets/Originais/farol/fase3/ui/onomatopeias_sheet.png",
+      "bytes": 199249,
+      "sha256": "05ad5991b2a0d8065a37be3e2fe72a4b9a169d957ae4c494416eab0dc7940350"
+    },
+    {
+      "source": "public/assets/farol/fase3/ui/pergaminho_confirma.png",
+      "target": "Assets/Originais/farol/fase3/ui/pergaminho_confirma.png",
+      "bytes": 1039653,
+      "sha256": "ee45c9ab54c40bc3bfc1adfec087910dd09d0c01e33c2697ef3ed87dce02ddd3"
+    },
+    {
+      "source": "public/assets/farol/fase3_ilha/setorA/cenarioA_1_ilhas.png",
+      "target": "Assets/Originais/farol/fase3_ilha/setorA/cenarioA_1_ilhas.png",
+      "bytes": 173077,
+      "sha256": "f9d0eecccfec41478df73f301e8246179fff906d3f12d47c782b3af71a28b2cc"
+    },
+    {
+      "source": "public/assets/farol/fase3_ilha/setorA/cenarioA_2_oceano.png",
+      "target": "Assets/Originais/farol/fase3_ilha/setorA/cenarioA_2_oceano.png",
+      "bytes": 2290992,
+      "sha256": "31718fac239688fb3baaa6dbe25d2cd967b66610aa6b0f98b9e9bd3a22ddedd3"
+    },
+    {
+      "source": "public/assets/farol/fase3_ilha/setorA/cenarioA_3_arvores.png",
+      "target": "Assets/Originais/farol/fase3_ilha/setorA/cenarioA_3_arvores.png",
+      "bytes": 3749459,
+      "sha256": "7d71658f9cae3f99cba382289ebe6aa0eb202ac28a1e06237e91f0083d9d827d"
+    },
+    {
+      "source": "public/assets/farol/fase3_ilha/setorA/cenarioA_5_folhagem.png",
+      "target": "Assets/Originais/farol/fase3_ilha/setorA/cenarioA_5_folhagem.png",
+      "bytes": 809084,
+      "sha256": "f2175ed4323b12e2737814fdc14b45bbbb1a144c0c80c8a3ad1f9d920c7f5b96"
+    },
+    {
+      "source": "public/assets/farol/fase3_ilha/setorA/cenarioA_6_folhas_desfocadas.png",
+      "target": "Assets/Originais/farol/fase3_ilha/setorA/cenarioA_6_folhas_desfocadas.png",
+      "bytes": 972094,
+      "sha256": "83389701b2b8581c175fc9344cb5d7d6dae27fb1c089d0e33301e83ee156d376"
+    },
+    {
+      "source": "public/assets/farol/fase3_ilha/setorA/tileset_praia/areia_meio.png",
+      "target": "Assets/Originais/farol/fase3_ilha/setorA/tileset_praia/areia_meio.png",
+      "bytes": 26818,
+      "sha256": "4dc012c6302395bcc81335cd7b5728a57eb15a2d8b29a65279abc93e10a9145a"
+    },
+    {
+      "source": "public/assets/farol/fase3_ilha/setorA/tileset_praia/areia_topo.png",
+      "target": "Assets/Originais/farol/fase3_ilha/setorA/tileset_praia/areia_topo.png",
+      "bytes": 30376,
+      "sha256": "4a1655448a333911e052e58a5a1e396b2ba6a95c58dd3892f3695e5234795d5c"
+    },
+    {
+      "source": "public/assets/farol/fase3_ilha/setorA/tileset_praia/rocha_meio.png",
+      "target": "Assets/Originais/farol/fase3_ilha/setorA/tileset_praia/rocha_meio.png",
+      "bytes": 41077,
+      "sha256": "910a82d7a9110c7e714b12bf88b9ba753a897ff7a0abf1e54cc968ee39532c33"
+    },
+    {
+      "source": "public/assets/farol/fase3_ilha/setorA/tileset_praia/rocha_topo.png",
+      "target": "Assets/Originais/farol/fase3_ilha/setorA/tileset_praia/rocha_topo.png",
+      "bytes": 38002,
+      "sha256": "9bb31554f5fa2a920975ec602aa25392a5075fa356a71a111ee6ac42a4d826ec"
+    },
+    {
+      "source": "public/assets/farol/hq/P01_Q01.jpg",
+      "target": "Assets/Originais/farol/hq/P01_Q01.jpg",
+      "bytes": 556461,
+      "sha256": "ed0b763ad83c0ed6098c4997c5b40e7e5d8bce374db30eb8fb0323687d692b63"
+    },
+    {
+      "source": "public/assets/farol/hq/P02_Q01.jpg",
+      "target": "Assets/Originais/farol/hq/P02_Q01.jpg",
+      "bytes": 467707,
+      "sha256": "7c893db37295abedebb2ccfc7c446f9d6ef02e0a020d0a99ce8ee1479b438a2e"
+    },
+    {
+      "source": "public/assets/farol/hq/P02_Q02.jpg",
+      "target": "Assets/Originais/farol/hq/P02_Q02.jpg",
+      "bytes": 438130,
+      "sha256": "b4f6b060b7c4d5274856eb665099a697399834bd567aaa31ce9af664b74a5a5e"
+    },
+    {
+      "source": "public/assets/farol/hq/P02_Q03.jpg",
+      "target": "Assets/Originais/farol/hq/P02_Q03.jpg",
+      "bytes": 446306,
+      "sha256": "8e71a24750955c42d4a46be5bde54ef799a3e4515d0a029bc9025d4dc777fddd"
+    },
+    {
+      "source": "public/assets/farol/hq/P02_Q04.jpg",
+      "target": "Assets/Originais/farol/hq/P02_Q04.jpg",
+      "bytes": 424659,
+      "sha256": "4e9e9c728b177c654f10e76e8bcde782d48adb4a8a2419e0512e9019abc919c8"
+    },
+    {
+      "source": "public/assets/farol/hq/P02_Q05.jpg",
+      "target": "Assets/Originais/farol/hq/P02_Q05.jpg",
+      "bytes": 270712,
+      "sha256": "e7f826def9143e7263e45ef110659bfb899596c5de0d40207a7a70e994dbf3ab"
+    },
+    {
+      "source": "public/assets/farol/hq/P03_Q01.jpg",
+      "target": "Assets/Originais/farol/hq/P03_Q01.jpg",
+      "bytes": 423568,
+      "sha256": "cedcdc73d6f407b73f10a70b579437af09b79f2909757a3730bfd86fb72978dc"
+    },
+    {
+      "source": "public/assets/farol/hq/P03_Q02.jpg",
+      "target": "Assets/Originais/farol/hq/P03_Q02.jpg",
+      "bytes": 419499,
+      "sha256": "c286fde259c9c7b44454767708795cdfb46f4bb4a68e85726dad8980d6b5896e"
+    },
+    {
+      "source": "public/assets/farol/hq/P03_Q03.jpg",
+      "target": "Assets/Originais/farol/hq/P03_Q03.jpg",
+      "bytes": 461039,
+      "sha256": "adac10c6567a29ec34b531bd08f2a2883c6b553bea5fea35a2f08f8412720b3e"
+    },
+    {
+      "source": "public/assets/farol/hq/P03_Q04.jpg",
+      "target": "Assets/Originais/farol/hq/P03_Q04.jpg",
+      "bytes": 510007,
+      "sha256": "e7d6494827f66db59edfe3a36e8b7d7c946e977f20e644b0ea93cb2b107e4989"
+    },
+    {
+      "source": "public/assets/farol/hq/P04_Q01.jpg",
+      "target": "Assets/Originais/farol/hq/P04_Q01.jpg",
+      "bytes": 517813,
+      "sha256": "9f41eea8ca84f6b36fb9efa537e0fad996f9fcdb22ca85b837036674a0cdb96f"
+    },
+    {
+      "source": "public/assets/farol/hq/P04_Q02.jpg",
+      "target": "Assets/Originais/farol/hq/P04_Q02.jpg",
+      "bytes": 531618,
+      "sha256": "decd1797d66279522e65471722e5ed7b7a206253bce67ae6ae683d1c3668a96f"
+    },
+    {
+      "source": "public/assets/farol/hq/P04_Q03.jpg",
+      "target": "Assets/Originais/farol/hq/P04_Q03.jpg",
+      "bytes": 495835,
+      "sha256": "34609f36cdb9bc22bf9b29549d61f45759c32dc8bed4c914b75d8aa913c5dc91"
+    },
+    {
+      "source": "public/assets/farol/hq/P04_Q04.jpg",
+      "target": "Assets/Originais/farol/hq/P04_Q04.jpg",
+      "bytes": 444795,
+      "sha256": "4ef9365f7edd56b0d4c268aada723e01c19b84563ba1128df3033049abb655bf"
+    },
+    {
+      "source": "public/assets/farol/hq/P04_Q05.jpg",
+      "target": "Assets/Originais/farol/hq/P04_Q05.jpg",
+      "bytes": 507791,
+      "sha256": "0976eae4a4dac40dcaa7021155d4592b4e35ead7b022fb3c34290d86eb04098e"
+    },
+    {
+      "source": "public/assets/farol/hq/P05_Q01.jpg",
+      "target": "Assets/Originais/farol/hq/P05_Q01.jpg",
+      "bytes": 373539,
+      "sha256": "94af94d55ba66640c36f4b2e07bec7318d756866d3c86166ea167cede4fe76e3"
+    },
+    {
+      "source": "public/assets/farol/hq/P05_Q04.jpg",
+      "target": "Assets/Originais/farol/hq/P05_Q04.jpg",
+      "bytes": 444782,
+      "sha256": "6c8650ceb79cf0f036a55b8df1de06184728dab2685e0815c029b278486c3854"
+    },
+    {
+      "source": "public/assets/farol/hq/P05_Q05.jpg",
+      "target": "Assets/Originais/farol/hq/P05_Q05.jpg",
+      "bytes": 617348,
+      "sha256": "f8602a0336b0aa94fc74b2aec94286304f8d9860e8540a9b9fcd2a2108f703b6"
+    },
+    {
+      "source": "public/assets/farol/hq/P06_Q01.jpg",
+      "target": "Assets/Originais/farol/hq/P06_Q01.jpg",
+      "bytes": 403362,
+      "sha256": "147a04a2bb26c1517f0c6b154befbe695bdb478e02e21984db286cd575e9f89c"
+    },
+    {
+      "source": "public/assets/farol/hq/P07_Q01.jpg",
+      "target": "Assets/Originais/farol/hq/P07_Q01.jpg",
+      "bytes": 263596,
+      "sha256": "b23f730a8185a898adeff0eb4038cf1eae64461bc627bd4e7e08f93b980855f3"
+    },
+    {
+      "source": "public/assets/farol/hq/P07_Q05.jpg",
+      "target": "Assets/Originais/farol/hq/P07_Q05.jpg",
+      "bytes": 381733,
+      "sha256": "61a17a34a4d86fdd8aafb416218568617b862c2e3d8a0cbb54fbef99d1667778"
+    },
+    {
+      "source": "public/assets/farol/hq/P08_Q03.jpg",
+      "target": "Assets/Originais/farol/hq/P08_Q03.jpg",
+      "bytes": 346037,
+      "sha256": "d290044a24b075cbe93e5ec26b7b0663cfaa4787a55255ba394a45dc6d8d242f"
+    },
+    {
+      "source": "public/assets/farol/hq/P08_Q05.jpg",
+      "target": "Assets/Originais/farol/hq/P08_Q05.jpg",
+      "bytes": 478159,
+      "sha256": "1916fc77fa1d667eac223bd1959b04803ce22a6413eecf992d5921f5653c19d0"
+    },
+    {
+      "source": "public/assets/farol/hq/P09_polvo.jpg",
+      "target": "Assets/Originais/farol/hq/P09_polvo.jpg",
+      "bytes": 851165,
+      "sha256": "9441913f1829e5118f20491dfcdedc5b89c0fde398be280c624f43dc0a3a9d75"
+    },
+    {
+      "source": "public/assets/farol/props/artifact.png",
+      "target": "Assets/Originais/farol/props/artifact.png",
+      "bytes": 867050,
+      "sha256": "c7c0273a6d379cf63782eb243815e80959e18270dbc1d79bc9c57cae05e1d1cd"
+    },
+    {
+      "source": "public/assets/farol/props/boat_esperanca.png",
+      "target": "Assets/Originais/farol/props/boat_esperanca.png",
+      "bytes": 1716268,
+      "sha256": "be934aefd77c418b294560125ef81b9df7f4d4df15b58f21a6c472f5e0612836"
+    },
+    {
+      "source": "public/assets/farol/props/crate.png",
+      "target": "Assets/Originais/farol/props/crate.png",
+      "bytes": 2364498,
+      "sha256": "2232dd7c2b049b9e964547fa3dceab2995a1859290fc2e903cf84be39d32a8d3"
+    },
+    {
+      "source": "public/assets/farol/props/fountain.png",
+      "target": "Assets/Originais/farol/props/fountain.png",
+      "bytes": 1816487,
+      "sha256": "c2f5a7a0579599e7bc4938d5fe7b6d068450e520f56b89d6043d130630178a21"
+    },
+    {
+      "source": "public/assets/farol/props/market_stall.png",
+      "target": "Assets/Originais/farol/props/market_stall.png",
+      "bytes": 1883550,
+      "sha256": "b5f16127cc14fd3969571f2c7fd74f50b26ddcb3f9d9d6b1440a121ba10b6983"
+    },
+    {
+      "source": "public/assets/farol/props/nets.png",
+      "target": "Assets/Originais/farol/props/nets.png",
+      "bytes": 1847383,
+      "sha256": "9a0dec2c87d1eeed07cbc8c3b1faf62b3a6fd9fc93c5563fe57c53db66a94c22"
+    },
+    {
+      "source": "public/assets/farol/props/pier_tile.png",
+      "target": "Assets/Originais/farol/props/pier_tile.png",
+      "bytes": 327185,
+      "sha256": "1d3ab3515bd5d737db1fc455d1a6df56c6ab94f5003f653d12c9d30415c44a9e"
+    },
+    {
+      "source": "public/assets/farol/props/seagull_sheet.png",
+      "target": "Assets/Originais/farol/props/seagull_sheet.png",
+      "bytes": 342983,
+      "sha256": "e328e16d8269cbe8eb74aade4b64b59b04101cf1fa9f53a7506f81ec48de6037"
+    },
+    {
+      "source": "public/assets/farol/props/shell.png",
+      "target": "Assets/Originais/farol/props/shell.png",
+      "bytes": 93944,
+      "sha256": "1ddb5eb947279446668b4c8ba709bb296822f5305b65f6cd17818648fb449f5e"
+    },
+    {
+      "source": "public/assets/farol/ui/loading_bg.jpg",
+      "target": "Assets/Originais/farol/ui/loading_bg.jpg",
+      "bytes": 119425,
+      "sha256": "e9c5d55e27401fe2fc901252e3772096308428d2d6058999cef1923137338222"
+    },
+    {
+      "source": "public/assets/farol/ui/menu_capa.png",
+      "target": "Assets/Originais/farol/ui/menu_capa.png",
+      "bytes": 3098505,
+      "sha256": "f74e4dd1f29b97d8db717d5ba4a0dbf3c86953d8dfef3c4a1f532396da12e43c"
+    },
+    {
+      "source": "public/assets/farol/ui/portrait_bia.png",
+      "target": "Assets/Originais/farol/ui/portrait_bia.png",
+      "bytes": 741131,
+      "sha256": "db19ae2d999d69ea52b550c3fd7028e99a778fd69cec18595b773599c98d5d68"
+    },
+    {
+      "source": "public/assets/farol/ui/portrait_faisca.png",
+      "target": "Assets/Originais/farol/ui/portrait_faisca.png",
+      "bytes": 595248,
+      "sha256": "8e66f9846b9e74bed84b29f6cee5b65b44af75c9289f9d9897013bf51bfc306f"
+    },
+    {
+      "source": "public/assets/farol/ui/portrait_julia.png",
+      "target": "Assets/Originais/farol/ui/portrait_julia.png",
+      "bytes": 327300,
+      "sha256": "9369a24136b1280d0fe8359439837beabd6714feb2f1c96aba1ed4487b191a17"
+    },
+    {
+      "source": "public/assets/farol/ui/portrait_lucas.png",
+      "target": "Assets/Originais/farol/ui/portrait_lucas.png",
+      "bytes": 290662,
+      "sha256": "e02ff208afb27e468447f88a64f0f1438e22d4b935eac8601f1dca078dc9c741"
+    },
+    {
+      "source": "public/assets/farol/ui/portrait_marina.png",
+      "target": "Assets/Originais/farol/ui/portrait_marina.png",
+      "bytes": 703777,
+      "sha256": "3a12a9825cea910d070794d765077e3228d9065950970b055a3a2d8082ee215b"
+    },
+    {
+      "source": "public/assets/farol/ui/portrait_toninho.png",
+      "target": "Assets/Originais/farol/ui/portrait_toninho.png",
+      "bytes": 557549,
+      "sha256": "7a48d5f4466491e67f6e7ae3c86014dd3608822395196ffea57b4f0fb41a819b"
+    },
+    {
+      "source": "public/assets/files.json",
+      "target": "Assets/Originais/files.json",
+      "bytes": 16952,
+      "sha256": "02a06ea692172cc6502c2fdceedf88b20ec1d1b3d8bad72d79e20833886047c5"
+    },
+    {
+      "source": "public/assets/fonts/LICENSE_LuckiestGuy_Apache2.txt",
+      "target": "Assets/Originais/fonts/LICENSE_LuckiestGuy_Apache2.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "source": "public/assets/fonts/LuckiestGuy-Regular.ttf",
+      "target": "Assets/Originais/fonts/LuckiestGuy-Regular.ttf",
+      "bytes": 73320,
+      "sha256": "cfbdd68a039f92df51cf3721506af6242e64594c6325fe0bedbeff3fe385d980"
+    },
+    {
+      "source": "public/assets/ilha_farol/LEIA_ME.txt",
+      "target": "Assets/Originais/ilha_farol/LEIA_ME.txt",
+      "bytes": 3669,
+      "sha256": "3666495dd9927ecde8c56e8ed328b4dc1559153d745d6e3abea40a8b512a13da"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_06_forest_tiles/asset_06_forest_tiles.json",
+      "target": "Assets/Originais/ilha_farol/asset_06_forest_tiles/asset_06_forest_tiles.json",
+      "bytes": 9569,
+      "sha256": "732fe4f298b4872ccada9610e37168529b42cad4aeeec6b0f7ac89e300f976ab"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_06_forest_tiles/asset_06_forest_tiles.png",
+      "target": "Assets/Originais/ilha_farol/asset_06_forest_tiles/asset_06_forest_tiles.png",
+      "bytes": 2507695,
+      "sha256": "6b25bdf050ee858894ff9c2a721e6327d039f6085851b99135fa120bd9d147ed"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_07_ruins_cave_tiles/asset_07_ruins_cave_tiles.json",
+      "target": "Assets/Originais/ilha_farol/asset_07_ruins_cave_tiles/asset_07_ruins_cave_tiles.json",
+      "bytes": 9565,
+      "sha256": "7a76dbaa8f20280671847ace075acc849350e510886d1dc51393e129373ac457"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_07_ruins_cave_tiles/asset_07_ruins_cave_tiles.png",
+      "target": "Assets/Originais/ilha_farol/asset_07_ruins_cave_tiles/asset_07_ruins_cave_tiles.png",
+      "bytes": 2185527,
+      "sha256": "1e6daa3b02b4eeae17c044085d00f0918ce92b064b6dd985cd6b1ee3f56b07f1"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_08_beach_waves/asset_08_beach_waves.json",
+      "target": "Assets/Originais/ilha_farol/asset_08_beach_waves/asset_08_beach_waves.json",
+      "bytes": 10552,
+      "sha256": "696c191b1b015028d2295bc98ef06d10526e1104c1e8c0930378020c58be8044"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_08_beach_waves/asset_08_beach_waves.png",
+      "target": "Assets/Originais/ilha_farol/asset_08_beach_waves/asset_08_beach_waves.png",
+      "bytes": 1500071,
+      "sha256": "c7bf36d4d8e4aa622e81863e7c5b040b81c12932c7489bccf25d851c0bf4aeae"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_09_waterfall/asset_09_waterfall.json",
+      "target": "Assets/Originais/ilha_farol/asset_09_waterfall/asset_09_waterfall.json",
+      "bytes": 10364,
+      "sha256": "0b81fc5b0321339d630025d49dee4b1114107d9cda6c33d02c65bbc316325e21"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_09_waterfall/asset_09_waterfall.png",
+      "target": "Assets/Originais/ilha_farol/asset_09_waterfall/asset_09_waterfall.png",
+      "bytes": 2126686,
+      "sha256": "28d645f88dedd614fbc430181737766a6b0045ef41265e36359431b55a14ea4d"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_10_bia_locomotion/asset_10_bia_locomotion.json",
+      "target": "Assets/Originais/ilha_farol/asset_10_bia_locomotion/asset_10_bia_locomotion.json",
+      "bytes": 24191,
+      "sha256": "95b5fff426a53a9acae54b08b655cb65b2498a5285107a579b9e42fcefb799be"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_10_bia_locomotion/asset_10_bia_locomotion.png",
+      "target": "Assets/Originais/ilha_farol/asset_10_bia_locomotion/asset_10_bia_locomotion.png",
+      "bytes": 1034242,
+      "sha256": "f484455e8ddce385051d94dafb88358583242855690c6efdc5e3de02da46f110"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_11_bia_throw/asset_11_bia_throw.json",
+      "target": "Assets/Originais/ilha_farol/asset_11_bia_throw/asset_11_bia_throw.json",
+      "bytes": 16043,
+      "sha256": "e0aabc8c3e0faa4cae598a4672830e9fe246b060af334db92277a50f514864b2"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_11_bia_throw/asset_11_bia_throw.png",
+      "target": "Assets/Originais/ilha_farol/asset_11_bia_throw/asset_11_bia_throw.png",
+      "bytes": 1816537,
+      "sha256": "da45f2e4748ab88299b074dd8da357fb6f7debfee758fbc21804d422c01cf647"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_12_shell_projectile/asset_12_shell_projectile.json",
+      "target": "Assets/Originais/ilha_farol/asset_12_shell_projectile/asset_12_shell_projectile.json",
+      "bytes": 10313,
+      "sha256": "e69efd2eb7eb25eaf13de72c4d5629492dbb994b28660f2e3d29e0211154ca94"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_12_shell_projectile/asset_12_shell_projectile.png",
+      "target": "Assets/Originais/ilha_farol/asset_12_shell_projectile/asset_12_shell_projectile.png",
+      "bytes": 559861,
+      "sha256": "883fe0aca495d06e5ada1f691eea82fe405584fb48fcac07eec428211952bd56"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_13_faisca_run/asset_13_faisca_run.json",
+      "target": "Assets/Originais/ilha_farol/asset_13_faisca_run/asset_13_faisca_run.json",
+      "bytes": 12016,
+      "sha256": "e3a98bdf1d53465c230c9ab2dfd81d12fcffd03685ed1666a76fc50866b1e8d1"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_13_faisca_run/asset_13_faisca_run.png",
+      "target": "Assets/Originais/ilha_farol/asset_13_faisca_run/asset_13_faisca_run.png",
+      "bytes": 1652008,
+      "sha256": "01a536c0b02c66c5d628c9222ceacfa9bf61847cea4f48fb0a978b91668a8135"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_14_faisca_bark/asset_14_faisca_bark.json",
+      "target": "Assets/Originais/ilha_farol/asset_14_faisca_bark/asset_14_faisca_bark.json",
+      "bytes": 17446,
+      "sha256": "5e88926a94d06e8e9cd49c6bddb1a25d5a8efc548d41a8bd1f9a4f25e7f5e1a8"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_14_faisca_bark/asset_14_faisca_bark.png",
+      "target": "Assets/Originais/ilha_farol/asset_14_faisca_bark/asset_14_faisca_bark.png",
+      "bytes": 1866874,
+      "sha256": "d88fe6f4a14e2dec0cbfe392a62680e70fc9a5e2372e7f79248eb25ad9def10a"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_15_bark_wave/asset_15_bark_wave.json",
+      "target": "Assets/Originais/ilha_farol/asset_15_bark_wave/asset_15_bark_wave.json",
+      "bytes": 9395,
+      "sha256": "3358b7d4c8a81029746453478bb77d3a517c0de7bec6348c2e0ec55617edc6f2"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_15_bark_wave/asset_15_bark_wave.png",
+      "target": "Assets/Originais/ilha_farol/asset_15_bark_wave/asset_15_bark_wave.png",
+      "bytes": 1040556,
+      "sha256": "fcc29967a1eca3e2f2f297f0803fd3b65a30c90c331f3eff3baba30ea0d24ca4"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_16_crab/asset_16_crab.json",
+      "target": "Assets/Originais/ilha_farol/asset_16_crab/asset_16_crab.json",
+      "bytes": 26407,
+      "sha256": "9fccb049636516188a1bc6c8a173dd41878a24d39cab5d64bcd71b877a377251"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_16_crab/asset_16_crab.png",
+      "target": "Assets/Originais/ilha_farol/asset_16_crab/asset_16_crab.png",
+      "bytes": 1672205,
+      "sha256": "365812522b53207c6f86b66c1db7402b960f83d06d90f767f352eaa579813402"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_17_monkey/asset_17_monkey.json",
+      "target": "Assets/Originais/ilha_farol/asset_17_monkey/asset_17_monkey.json",
+      "bytes": 20059,
+      "sha256": "00ce66234122764afa2f4590dd1ad47185bfadd150f716f2ea9621bedcdfeb02"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_17_monkey/asset_17_monkey.png",
+      "target": "Assets/Originais/ilha_farol/asset_17_monkey/asset_17_monkey.png",
+      "bytes": 1801250,
+      "sha256": "bb6fb26969ceccfa6c786cbccaf2ef1c59a900ec92978f03971768484a9a8a8d"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_18_stone_projectile/asset_18_stone_projectile.json",
+      "target": "Assets/Originais/ilha_farol/asset_18_stone_projectile/asset_18_stone_projectile.json",
+      "bytes": 9315,
+      "sha256": "83f9de5ac3cf9ce74cdf61cc110619140db6ae24daaf84e7580ead887ae9d668"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_18_stone_projectile/asset_18_stone_projectile.png",
+      "target": "Assets/Originais/ilha_farol/asset_18_stone_projectile/asset_18_stone_projectile.png",
+      "bytes": 529694,
+      "sha256": "d69d570223b89c3027bc31ac6fa91b24e6e9c0f67d451695d4f66b2b91c27ece"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_19_toninho_rope/asset_19_toninho_rope.json",
+      "target": "Assets/Originais/ilha_farol/asset_19_toninho_rope/asset_19_toninho_rope.json",
+      "bytes": 13053,
+      "sha256": "6b528253dffff91403d9761bd1648315763802b0c2d0fc609803bd672b0b8dd6"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_19_toninho_rope/asset_19_toninho_rope.png",
+      "target": "Assets/Originais/ilha_farol/asset_19_toninho_rope/asset_19_toninho_rope.png",
+      "bytes": 2241459,
+      "sha256": "1632885b5cda5ceb2218face2835e820a259a75d3e51fc24a0b9dd2bd7619c22"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_20_rope/asset_20_rope.json",
+      "target": "Assets/Originais/ilha_farol/asset_20_rope/asset_20_rope.json",
+      "bytes": 10305,
+      "sha256": "7fca8af23865666dc5eb3f64555c27b7435c637ef5a0084b51f00c97c2b6b8ee"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_20_rope/asset_20_rope.png",
+      "target": "Assets/Originais/ilha_farol/asset_20_rope/asset_20_rope.png",
+      "bytes": 676910,
+      "sha256": "79b4c019ff169fe7669db3139cf5e4f8233e233db9a2ebf29adc171440656d02"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_21_marina_push/asset_21_marina_push.json",
+      "target": "Assets/Originais/ilha_farol/asset_21_marina_push/asset_21_marina_push.json",
+      "bytes": 10637,
+      "sha256": "a567fb5914218d29f4b944bd14111a4d8d4461aa9c1f351c8f6978241dac0f6e"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_21_marina_push/asset_21_marina_push.png",
+      "target": "Assets/Originais/ilha_farol/asset_21_marina_push/asset_21_marina_push.png",
+      "bytes": 1541494,
+      "sha256": "2aaeb591ecda70a6d1d7ddd0273d089288ee3d84fc8b1492a5734ce2fc84da74"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_22_julia_camera/asset_22_julia_camera.json",
+      "target": "Assets/Originais/ilha_farol/asset_22_julia_camera/asset_22_julia_camera.json",
+      "bytes": 10268,
+      "sha256": "e7648bf51927c787c84c362d8fd2927c970a86fe85ebc677ef4c5ac2a67335dc"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_22_julia_camera/asset_22_julia_camera.png",
+      "target": "Assets/Originais/ilha_farol/asset_22_julia_camera/asset_22_julia_camera.png",
+      "bytes": 2128489,
+      "sha256": "36c0a4cbdfd624ac491a831d313dd1f8dbc36984f9a1437194f124bec1391b9e"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_23_camera_flash/asset_23_camera_flash.json",
+      "target": "Assets/Originais/ilha_farol/asset_23_camera_flash/asset_23_camera_flash.json",
+      "bytes": 8567,
+      "sha256": "0fbd7c4b064c6fcee608e8eda695f058a6254693d624416f94edcc92f905d557"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_23_camera_flash/asset_23_camera_flash.png",
+      "target": "Assets/Originais/ilha_farol/asset_23_camera_flash/asset_23_camera_flash.png",
+      "bytes": 1447152,
+      "sha256": "66d8745c3f1b0a6dbc844a1790b033b85714c97ab6afc4d24915151fbc54f2f4"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_24_monkey_stun/asset_24_monkey_stun.json",
+      "target": "Assets/Originais/ilha_farol/asset_24_monkey_stun/asset_24_monkey_stun.json",
+      "bytes": 9193,
+      "sha256": "4aa56c8ed2ddfc72b646ce9be5123e18cb2b58c389b30877160ab04b2a3756e1"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_24_monkey_stun/asset_24_monkey_stun.png",
+      "target": "Assets/Originais/ilha_farol/asset_24_monkey_stun/asset_24_monkey_stun.png",
+      "bytes": 1969182,
+      "sha256": "0ffc0dd9f19f139e8fd2174d0e8fc70939344f43ba3efc9c23bf526ab1b43372"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_25_lucas_device/asset_25_lucas_device.json",
+      "target": "Assets/Originais/ilha_farol/asset_25_lucas_device/asset_25_lucas_device.json",
+      "bytes": 10832,
+      "sha256": "b3c116ebb1b81aaa732cebc5abd3bed3edda6d0b85d46802e9f110cba83857e3"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_25_lucas_device/asset_25_lucas_device.png",
+      "target": "Assets/Originais/ilha_farol/asset_25_lucas_device/asset_25_lucas_device.png",
+      "bytes": 1932212,
+      "sha256": "9f7dc18be244750031696dc52120290f8945934f4b2b8b4b3faad46c8fc6080c"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_26_floating_platforms/asset_26_floating_platforms.json",
+      "target": "Assets/Originais/ilha_farol/asset_26_floating_platforms/asset_26_floating_platforms.json",
+      "bytes": 6867,
+      "sha256": "570d6824db76f5b6fb92e0a8190738d7cc15abdf5538fc7027def23b1fb34f11"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_26_floating_platforms/asset_26_floating_platforms.png",
+      "target": "Assets/Originais/ilha_farol/asset_26_floating_platforms/asset_26_floating_platforms.png",
+      "bytes": 987841,
+      "sha256": "dac305c514e10f5b3f78a18be23cfbfc5e405991e6d2b9e3f25d1eade89f399b"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_27_bia_secret/asset_27_bia_secret.json",
+      "target": "Assets/Originais/ilha_farol/asset_27_bia_secret/asset_27_bia_secret.json",
+      "bytes": 12000,
+      "sha256": "24f5b72482fc68ae686b4063c3d4f57016ec50c94c9e0e44dca113a8bd281105"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_27_bia_secret/asset_27_bia_secret.png",
+      "target": "Assets/Originais/ilha_farol/asset_27_bia_secret/asset_27_bia_secret.png",
+      "bytes": 2299584,
+      "sha256": "07e9633f6e21aa9204466bc5db36f1886b8f6a7003dfa4e8e64e65b650d3118b"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_28_crumble_platform/asset_28_crumble_platform.json",
+      "target": "Assets/Originais/ilha_farol/asset_28_crumble_platform/asset_28_crumble_platform.json",
+      "bytes": 9683,
+      "sha256": "96f6278e28ea860fca9c8029e285f12d6dd08c1cacd2953a63209b601623e2a2"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_28_crumble_platform/asset_28_crumble_platform.png",
+      "target": "Assets/Originais/ilha_farol/asset_28_crumble_platform/asset_28_crumble_platform.png",
+      "bytes": 1214818,
+      "sha256": "3bb7f9a4d5226534bc2bdb2a8ec2a3bb8fa89960393851ca3e127c0df16562df"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_29_flex_branch/asset_29_flex_branch.json",
+      "target": "Assets/Originais/ilha_farol/asset_29_flex_branch/asset_29_flex_branch.json",
+      "bytes": 9090,
+      "sha256": "6b1c9337c4ad9cadc19f02ac0d9706e661d131c7b2cdb597c1d62dad88bd0785"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_29_flex_branch/asset_29_flex_branch.png",
+      "target": "Assets/Originais/ilha_farol/asset_29_flex_branch/asset_29_flex_branch.png",
+      "bytes": 1894364,
+      "sha256": "c8aff061d6a66ba436ca5b662fed879069b325a75d5921daaba09b638d07606f"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_30_secret_entrance/asset_30_secret_entrance.json",
+      "target": "Assets/Originais/ilha_farol/asset_30_secret_entrance/asset_30_secret_entrance.json",
+      "bytes": 4665,
+      "sha256": "7958e1190ac787a6c638a549e4eb505ae444263aecd96fed0a12a9c1be878ccd"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_30_secret_entrance/asset_30_secret_entrance.png",
+      "target": "Assets/Originais/ilha_farol/asset_30_secret_entrance/asset_30_secret_entrance.png",
+      "bytes": 2776717,
+      "sha256": "1a431df0f714152d5ced3df1ca581f8def1435b189ca9fd2e35ccae84f526677"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_31_secret_grotto/asset_31_secret_grotto.json",
+      "target": "Assets/Originais/ilha_farol/asset_31_secret_grotto/asset_31_secret_grotto.json",
+      "bytes": 4127,
+      "sha256": "2d6be22b52b23e0f21cf6e612d6a24b68801419d1ed88163aa122523bb79825d"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_31_secret_grotto/asset_31_secret_grotto.png",
+      "target": "Assets/Originais/ilha_farol/asset_31_secret_grotto/asset_31_secret_grotto.png",
+      "bytes": 2973865,
+      "sha256": "146fdd3c4bbffabec1afa4139ae2c2cd38c3546fae1a6198f2cca82a61174fa4"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_32_ruins_props/asset_32_ruins_props.json",
+      "target": "Assets/Originais/ilha_farol/asset_32_ruins_props/asset_32_ruins_props.json",
+      "bytes": 5733,
+      "sha256": "d3f28f08ca8c2ae55856595e2470895c25af648701238e22c2b3698bcff4e4e8"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_32_ruins_props/asset_32_ruins_props.png",
+      "target": "Assets/Originais/ilha_farol/asset_32_ruins_props/asset_32_ruins_props.png",
+      "bytes": 2636237,
+      "sha256": "f73d3b8abea52972a50ae5c59a362b281980822bdcfe54c629244fd1550da812"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_33_blue_cave_entrance/asset_33_blue_cave_entrance.json",
+      "target": "Assets/Originais/ilha_farol/asset_33_blue_cave_entrance/asset_33_blue_cave_entrance.json",
+      "bytes": 4321,
+      "sha256": "53e3993ef562cc0b688e8f0d025a04900fb31159ccd988c921c9b6d4b8ca28cc"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_33_blue_cave_entrance/asset_33_blue_cave_entrance.png",
+      "target": "Assets/Originais/ilha_farol/asset_33_blue_cave_entrance/asset_33_blue_cave_entrance.png",
+      "bytes": 2925945,
+      "sha256": "d672c8e6f61027d93276097a22b9c7ddff9bcace3f7435b199c6d719c408e31f"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_34_forest_particles/asset_34_forest_particles.json",
+      "target": "Assets/Originais/ilha_farol/asset_34_forest_particles/asset_34_forest_particles.json",
+      "bytes": 14541,
+      "sha256": "c0acd5b11729b32b507b659bccc297993391f7f1dc0d270dee40ef767dce2d8c"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_34_forest_particles/asset_34_forest_particles.png",
+      "target": "Assets/Originais/ilha_farol/asset_34_forest_particles/asset_34_forest_particles.png",
+      "bytes": 828347,
+      "sha256": "50176a80d56160f034e6be6ee1024523a6d236cd9e046827c4a381debb3e6045"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_35_water_particles/asset_35_water_particles.json",
+      "target": "Assets/Originais/ilha_farol/asset_35_water_particles/asset_35_water_particles.json",
+      "bytes": 13313,
+      "sha256": "d1bd73dbdd062c93915044b5b10bc538f359cbc46a3671a67c5716242d972e38"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_35_water_particles/asset_35_water_particles.png",
+      "target": "Assets/Originais/ilha_farol/asset_35_water_particles/asset_35_water_particles.png",
+      "bytes": 1853585,
+      "sha256": "1ef594aa53f2e46728aadf53892948ceff0d82b495e04bbca4fc781a57626b3d"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_36_checkpoint/asset_36_checkpoint.json",
+      "target": "Assets/Originais/ilha_farol/asset_36_checkpoint/asset_36_checkpoint.json",
+      "bytes": 5169,
+      "sha256": "9e7048d933b2e7b9c9c359559b1b64ec083d4108eae072be040b21ecc085c10b"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_36_checkpoint/asset_36_checkpoint.png",
+      "target": "Assets/Originais/ilha_farol/asset_36_checkpoint/asset_36_checkpoint.png",
+      "bytes": 911235,
+      "sha256": "a05947ad4ea0faafd994e18a335269e003260f49393e4e81ec40cd84d77b51e6"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_37_secret_collectible/asset_37_secret_collectible.json",
+      "target": "Assets/Originais/ilha_farol/asset_37_secret_collectible/asset_37_secret_collectible.json",
+      "bytes": 4534,
+      "sha256": "a61ca712dc1da8936043cf969b5efdf1a425554df16d489b4319e70b7ddeb69a"
+    },
+    {
+      "source": "public/assets/ilha_farol/asset_37_secret_collectible/asset_37_secret_collectible.png",
+      "target": "Assets/Originais/ilha_farol/asset_37_secret_collectible/asset_37_secret_collectible.png",
+      "bytes": 1435517,
+      "sha256": "2b41173471fa8df15e2e38149e4e9d471f6893b61211007d75eb7ee8248289b8"
+    },
+    {
+      "source": "public/assets/ilha_farol/ilha_farol_animacoes_assets_06_37.json",
+      "target": "Assets/Originais/ilha_farol/ilha_farol_animacoes_assets_06_37.json",
+      "bytes": 342529,
+      "sha256": "10dcc6645d1b1639450515840000d9947812f44ac36061bcc7aa9fb1c413caf7"
+    }
+  ]
+}

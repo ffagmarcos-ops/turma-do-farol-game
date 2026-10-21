@@ -1,0 +1,703 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 383
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 0,
+        "w": 362,
+        "h": 383
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 383
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 362,
+        "y": 0,
+        "w": 362,
+        "h": 383
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 0,
+        "w": 362,
+        "h": 383
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 383
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 724,
+        "y": 0,
+        "w": 362,
+        "h": 383
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 0,
+        "w": 362,
+        "h": 383
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 383
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 1086,
+        "y": 0,
+        "w": 362,
+        "h": 383
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 0,
+        "w": 362,
+        "h": 383
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 383
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 0,
+        "y": 383,
+        "w": 374,
+        "h": 343
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 40,
+        "w": 374,
+        "h": 343
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 383
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 374,
+        "y": 383,
+        "w": 350,
+        "h": 343
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 14,
+        "y": 40,
+        "w": 350,
+        "h": 343
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 383
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 724,
+        "y": 383,
+        "w": 362,
+        "h": 343
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 40,
+        "w": 362,
+        "h": 343
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 383
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 1086,
+        "y": 383,
+        "w": 362,
+        "h": 343
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 40,
+        "w": 362,
+        "h": 343
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 383
+      }
+    },
+    "f008": {
+      "frame": {
+        "x": 0,
+        "y": 726,
+        "w": 379,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 23,
+        "w": 379,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 383
+      }
+    },
+    "f009": {
+      "frame": {
+        "x": 379,
+        "y": 726,
+        "w": 353,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13,
+        "y": 23,
+        "w": 353,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 383
+      }
+    },
+    "f010": {
+      "frame": {
+        "x": 732,
+        "y": 726,
+        "w": 354,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 23,
+        "w": 354,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 383
+      }
+    },
+    "f011": {
+      "frame": {
+        "x": 1086,
+        "y": 726,
+        "w": 362,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 23,
+        "w": 362,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 379,
+        "h": 383
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_14_faisca_bark.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1448,
+      "h": 1086
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 14,
+    "textureKey": "faisca_bark",
+    "title": "Faísca: latido especial",
+    "imageFile": "asset_14_faisca_bark.png",
+    "originalFilename": "exec-43e1b737-d355-440c-b2d9-cf1c63955b11.png",
+    "sourceSizePx": {
+      "width": 1448,
+      "height": 1086
+    },
+    "sourceMode": "RGBA",
+    "sha256": "d88fe6f4a14e2dec0cbfe392a62680e70fc9a5e2372e7f79248eb25ad9def10a",
+    "kind": "animation_sheet",
+    "frameCount": 12,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "frear",
+      "f001": "apoiar",
+      "f002": "firmar",
+      "f003": "baixar_ombros",
+      "f004": "inclinar",
+      "f005": "rosnar",
+      "f006": "inspirar",
+      "f007": "carga_maxima",
+      "f008": "latir",
+      "f009": "recuo",
+      "f010": "expirar",
+      "f011": "neutro"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 1
+      },
+      "normalization": "canvas_comum_por_folha_alinhado_ao_centro_inferior",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            383
+          ],
+          "x": [
+            0,
+            362,
+            724,
+            1086,
+            1448
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            383,
+            726
+          ],
+          "x": [
+            0,
+            374,
+            724,
+            1086,
+            1448
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 2,
+          "y": [
+            726,
+            1086
+          ],
+          "x": [
+            0,
+            379,
+            732,
+            1086,
+            1448
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": []
+    },
+    "animationKeys": [
+      "faisca.idle",
+      "faisca.brake",
+      "faisca.charge",
+      "faisca.charged",
+      "faisca.bark",
+      "faisca.cancel_charge"
+    ]
+  },
+  "phaserAnimations": {
+    "anims": [
+      {
+        "key": "faisca.idle",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "faisca_bark",
+            "frame": "f011",
+            "duration": 0
+          }
+        ],
+        "frameRate": 1,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "faisca.brake",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "faisca_bark",
+            "frame": "f000",
+            "duration": 0
+          },
+          {
+            "key": "faisca_bark",
+            "frame": "f001",
+            "duration": 0
+          }
+        ],
+        "frameRate": 10,
+        "duration": 200.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "faisca.charge",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "faisca_bark",
+            "frame": "f002",
+            "duration": 0
+          },
+          {
+            "key": "faisca_bark",
+            "frame": "f003",
+            "duration": 0
+          },
+          {
+            "key": "faisca_bark",
+            "frame": "f004",
+            "duration": 0
+          },
+          {
+            "key": "faisca_bark",
+            "frame": "f005",
+            "duration": 0
+          },
+          {
+            "key": "faisca_bark",
+            "frame": "f006",
+            "duration": 0
+          },
+          {
+            "key": "faisca_bark",
+            "frame": "f007",
+            "duration": 0
+          }
+        ],
+        "frameRate": 4,
+        "duration": 1500.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "faisca.charged",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "faisca_bark",
+            "frame": "f007",
+            "duration": 0
+          }
+        ],
+        "frameRate": 1,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "faisca.bark",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "faisca_bark",
+            "frame": "f008",
+            "duration": 0
+          },
+          {
+            "key": "faisca_bark",
+            "frame": "f009",
+            "duration": 0
+          },
+          {
+            "key": "faisca_bark",
+            "frame": "f010",
+            "duration": 0
+          },
+          {
+            "key": "faisca_bark",
+            "frame": "f011",
+            "duration": 0
+          }
+        ],
+        "frameRate": 10,
+        "duration": 400.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "faisca.cancel_charge",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "faisca_bark",
+            "frame": "f010",
+            "duration": 0
+          },
+          {
+            "key": "faisca_bark",
+            "frame": "f011",
+            "duration": 0
+          }
+        ],
+        "frameRate": 10,
+        "duration": 200.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      }
+    ],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [
+    {
+      "animationKey": "faisca.bark",
+      "atFrameIndex": 0,
+      "action": "spawn_bark_wave",
+      "parameters": {
+        "socket": "faisca_mouth",
+        "perCastLimit": 1
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 0.0
+    }
+  ],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "faisca": {
+      "stateAnimations": {
+        "follow": "faisca.run",
+        "idle": "faisca.idle",
+        "jump_placeholder": "faisca.jump_placeholder",
+        "brake": "faisca.brake",
+        "charge": "faisca.charge",
+        "full_charge": "faisca.charged",
+        "bark": "faisca.bark",
+        "cancel": "faisca.cancel_charge"
+      },
+      "follow": {
+        "target": "bia",
+        "preferredDistance": 110,
+        "stopDistance": 75,
+        "resumeDistance": 145,
+        "maxSpeed": 370,
+        "catchUpDistance": 600,
+        "teleportDistance": 1400,
+        "teleportOnlyOffCamera": true,
+        "teleportDestination": "last_safe_ground_behind_bia",
+        "collidesWithPlayer": false,
+        "collidesWithWorld": true,
+        "jumpObstacles": true,
+        "jumpVelocityY": -570,
+        "neverTeleportIntoHazards": true
+      },
+      "special": {
+        "activation": "hold_then_release",
+        "chargeMs": 1500,
+        "maxHoldMs": null,
+        "cooldownMs": 6000,
+        "chargeAnimation": "faisca.charge",
+        "fullAnimation": "faisca.charged",
+        "releaseAnimation": "faisca.bark",
+        "cancelAnimation": "faisca.cancel_charge",
+        "requireGrounded": true,
+        "requireDogWithinDistance": 240,
+        "onHoldStart": [
+          "stop_dog_near_bia",
+          "set_charge_zero",
+          "play_charge"
+        ],
+        "onChargeFull": [
+          "hold_last_charge_pose",
+          "show_charge_ready_effect"
+        ],
+        "onReleaseBeforeFull": [
+          "cancel_without_wave",
+          "resume_follow"
+        ],
+        "onReleaseAfterFull": [
+          "play_bark",
+          "start_cooldown"
+        ],
+        "cancelWhen": [
+          "bia_hurt",
+          "bia_respawn",
+          "dog_path_blocked_away_from_player",
+          "scene_change"
+        ],
+        "biaPointingPose": {
+          "texture": "bia_secret",
+          "frame": "f007",
+          "animation": "bia.point"
+        },
+        "biaPointingStatus": "available_in_asset_27",
+        "singleWavePerActivation": true,
+        "chargeAnimationDurationMustEqualChargeMs": true,
+        "pointingRule": "Usar somente a pose bia.point na própria entidade Bia durante o comando do especial. Isso não dispara bia.discover nem revela segredos."
+      },
+      "sniffHint": {
+        "trigger": "near_unfound_secret",
+        "radius": 220,
+        "intervalMs": 8000,
+        "animation": null,
+        "placeholderAnimation": "faisca.idle",
+        "placeholderEffect": "small_question_or_scent_particle",
+        "missingArt": true
+      }
+    },
+    "projectiles": {
+      "barkWave": {
+        "texture": "bark_wave",
+        "animation": "bark_wave.play",
+        "durationMs": 444.444444,
+        "maxRange": 620,
+        "originSocket": "faisca_mouth",
+        "direction": "bia_facing_at_release",
+        "damageMode": "instant_comic_defeat_common_enemies",
+        "targetTags": [
+          "common_enemy"
+        ],
+        "bossBehavior": "requires_separate_design",
+        "hitEachEnemyOncePerCast": true,
+        "geometry": "Expanding forward sector; sweep radius from 0 to maxRange during durationMs, mirrored with facing.",
+        "angleDegrees": 70,
+        "blockBySolidWalls": true,
+        "visualRule": "A arte já cresce entre os quadros. Não duplicar esse crescimento com uma segunda escala exponencial."
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/faisca",
+    "/behaviors/projectiles/barkWave"
+  ],
+  "dependencies": [
+    {
+      "assetNumber": 10,
+      "textureKey": "bia_locomotion",
+      "imageFile": "../asset_10_bia_locomotion/asset_10_bia_locomotion.png",
+      "jsonFile": "../asset_10_bia_locomotion/asset_10_bia_locomotion.json"
+    },
+    {
+      "assetNumber": 13,
+      "textureKey": "faisca_run",
+      "imageFile": "../asset_13_faisca_run/asset_13_faisca_run.png",
+      "jsonFile": "../asset_13_faisca_run/asset_13_faisca_run.json"
+    },
+    {
+      "assetNumber": 15,
+      "textureKey": "bark_wave",
+      "imageFile": "../asset_15_bark_wave/asset_15_bark_wave.png",
+      "jsonFile": "../asset_15_bark_wave/asset_15_bark_wave.json"
+    },
+    {
+      "assetNumber": 27,
+      "textureKey": "bia_secret",
+      "imageFile": "../asset_27_bia_secret/asset_27_bia_secret.png",
+      "jsonFile": "../asset_27_bia_secret/asset_27_bia_secret.json"
+    }
+  ],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('faisca_bark', 'assets/ilha_farol/asset_14_faisca_bark/asset_14_faisca_bark.png', 'assets/ilha_farol/asset_14_faisca_bark/asset_14_faisca_bark.json');\nthis.load.json('config_asset_14', 'assets/ilha_farol/asset_14_faisca_bark/asset_14_faisca_bark.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_14');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência."
+  }
+}

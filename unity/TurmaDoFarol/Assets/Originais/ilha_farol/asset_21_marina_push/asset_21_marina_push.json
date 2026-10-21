@@ -1,0 +1,428 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 443,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 443,
+        "y": 0,
+        "w": 444,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 444,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 887,
+        "y": 0,
+        "w": 443,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 443,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 1330,
+        "y": 0,
+        "w": 444,
+        "h": 443
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 444,
+        "h": 443
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 0,
+        "y": 443,
+        "w": 443,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 443,
+        "y": 443,
+        "w": 444,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 444,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 887,
+        "y": 443,
+        "w": 443,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 1330,
+        "y": 443,
+        "w": 444,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 444,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 444,
+        "h": 444
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_21_marina_push.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 21,
+    "textureKey": "marina_push",
+    "title": "Marina: plataforma",
+    "imageFile": "asset_21_marina_push.png",
+    "originalFilename": "exec-f7399963-c7d8-4452-a068-8e4be31ec607.png",
+    "sourceSizePx": {
+      "width": 1774,
+      "height": 887
+    },
+    "sourceMode": "RGBA",
+    "sha256": "2aaeb591ecda70a6d1d7ddd0273d089288ee3d84fc8b1492a5734ce2fc84da74",
+    "kind": "animation_sheet",
+    "frameCount": 8,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "aproximar_caixa",
+      "f001": "apoiar_maos",
+      "f002": "inclinar",
+      "f003": "empurrar_a",
+      "f004": "empurrar_b",
+      "f005": "finalizar",
+      "f006": "soltar",
+      "f007": "gesto"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 1
+      },
+      "normalization": "canvas_comum_por_folha_alinhado_ao_centro_inferior",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            443
+          ],
+          "x": [
+            0,
+            443,
+            887,
+            1330,
+            1774
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            443,
+            887
+          ],
+          "x": [
+            0,
+            443,
+            887,
+            1330,
+            1774
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": [
+        "Marina e a caixa estão compostas na mesma imagem. Usar uma única imagem e um colisor invisível para a caixa; não desenhar outra caixa por cima."
+      ]
+    },
+    "animationKeys": [
+      "marina.idle",
+      "marina.prepare",
+      "marina.push",
+      "marina.finish"
+    ]
+  },
+  "phaserAnimations": {
+    "anims": [
+      {
+        "key": "marina.idle",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "marina_push",
+            "frame": "f000",
+            "duration": 0
+          }
+        ],
+        "frameRate": 1,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "marina.prepare",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "marina_push",
+            "frame": "f001",
+            "duration": 0
+          },
+          {
+            "key": "marina_push",
+            "frame": "f002",
+            "duration": 0
+          }
+        ],
+        "frameRate": 6,
+        "duration": 333.333333,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "marina.push",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "marina_push",
+            "frame": "f003",
+            "duration": 0
+          },
+          {
+            "key": "marina_push",
+            "frame": "f004",
+            "duration": 0
+          }
+        ],
+        "frameRate": 8,
+        "duration": 250.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "marina.finish",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "marina_push",
+            "frame": "f005",
+            "duration": 0
+          },
+          {
+            "key": "marina_push",
+            "frame": "f006",
+            "duration": 0
+          },
+          {
+            "key": "marina_push",
+            "frame": "f007",
+            "duration": 0
+          }
+        ],
+        "frameRate": 6,
+        "duration": 500.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      }
+    ],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "marina": {
+      "trigger": "interact_in_crate_zone",
+      "animations": {
+        "idle": "marina.idle",
+        "prepare": "marina.prepare",
+        "push": "marina.push",
+        "finish": "marina.finish"
+      },
+      "pushDistance": 320,
+      "pushSpeed": 60,
+      "movementDurationMs": 5333.333333,
+      "stopAtLevelMarker": "marina_crate_final",
+      "compositeImageContainsCrate": true,
+      "renderSeparateCrate": false,
+      "collider": {
+        "renderVisible": false,
+        "kind": "moving_one_way_platform",
+        "topSource": "calibrated_crate_top_socket",
+        "moveWithCompositeEntity": true,
+        "carryPlayerByPlatformDelta": true,
+        "preventCrushingAgainstCeiling": true
+      },
+      "sequence": [
+        "prepare",
+        "move_composite_and_crate_collider_with_push_loop",
+        "finish_at_marker",
+        "hold_final_pose"
+      ],
+      "repeatAfterComplete": false,
+      "persistCompletionAtCheckpoint": true
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/marina"
+  ],
+  "dependencies": [
+    {
+      "assetNumber": 10,
+      "textureKey": "bia_locomotion",
+      "imageFile": "../asset_10_bia_locomotion/asset_10_bia_locomotion.png",
+      "jsonFile": "../asset_10_bia_locomotion/asset_10_bia_locomotion.json"
+    }
+  ],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('marina_push', 'assets/ilha_farol/asset_21_marina_push/asset_21_marina_push.png', 'assets/ilha_farol/asset_21_marina_push/asset_21_marina_push.json');\nthis.load.json('config_asset_21', 'assets/ilha_farol/asset_21_marina_push/asset_21_marina_push.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_21');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência."
+  }
+}

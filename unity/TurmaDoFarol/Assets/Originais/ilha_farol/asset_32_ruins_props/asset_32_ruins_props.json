@@ -1,0 +1,209 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 16,
+        "y": 37,
+        "w": 558,
+        "h": 493
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 558,
+        "h": 493
+      },
+      "sourceSize": {
+        "w": 558,
+        "h": 493
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 590,
+        "y": 244,
+        "w": 484,
+        "h": 285
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 484,
+        "h": 285
+      },
+      "sourceSize": {
+        "w": 484,
+        "h": 285
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 1084,
+        "y": 104,
+        "w": 433,
+        "h": 430
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 433,
+        "h": 430
+      },
+      "sourceSize": {
+        "w": 433,
+        "h": 430
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 24,
+        "y": 643,
+        "w": 617,
+        "h": 320
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 617,
+        "h": 320
+      },
+      "sourceSize": {
+        "w": 617,
+        "h": 320
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 677,
+        "y": 560,
+        "w": 287,
+        "h": 411
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 287,
+        "h": 411
+      },
+      "sourceSize": {
+        "w": 287,
+        "h": 411
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 1000,
+        "y": 645,
+        "w": 519,
+        "h": 321
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 519,
+        "h": 321
+      },
+      "sourceSize": {
+        "w": 519,
+        "h": 321
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_32_ruins_props.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1536,
+      "h": 1024
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 32,
+    "textureKey": "ruins_props",
+    "title": "Ruínas antigas",
+    "imageFile": "asset_32_ruins_props.png",
+    "originalFilename": "exec-dd2c28ed-e813-4449-a30f-9eee17ead351.png",
+    "sourceSizePx": {
+      "width": 1536,
+      "height": 1024
+    },
+    "sourceMode": "RGBA",
+    "sha256": "f73d3b8abea52972a50ae5c59a362b281980822bdcfe54c629244fd1550da812",
+    "kind": "static_modules",
+    "frameCount": 6,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "arco_em_pe",
+      "f001": "parede",
+      "f002": "colunas",
+      "f003": "escadaria",
+      "f004": "pedra_espiral",
+      "f005": "arco_caido"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "normalization": "tamanho_proprio_do_recorte",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "bounding_boxes_medidos_com_margem_3px",
+      "diagnostics": [],
+      "notes": []
+    },
+    "animationKeys": []
+  },
+  "phaserAnimations": {
+    "anims": [],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "scenery": {
+      "ruinsProps": {
+        "texture": "ruins_props",
+        "animation": null,
+        "frameSelection": "one_variant_per_prop"
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/scenery/ruinsProps"
+  ],
+  "dependencies": [],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('ruins_props', 'assets/ilha_farol/asset_32_ruins_props/asset_32_ruins_props.png', 'assets/ilha_farol/asset_32_ruins_props/asset_32_ruins_props.json');\nthis.load.json('config_asset_32', 'assets/ilha_farol/asset_32_ruins_props/asset_32_ruins_props.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_32');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência.",
+    "staticAssetNote": "Este asset não possui sequência temporal de quadros. O JSON configura módulos, estados, partículas ou movimentos procedurais conforme o tipo."
+  }
+}

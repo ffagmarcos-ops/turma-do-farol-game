@@ -1,0 +1,617 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 363
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 363
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 363
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 313,
+        "y": 0,
+        "w": 314,
+        "h": 363
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 363
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 363
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 627,
+        "y": 0,
+        "w": 313,
+        "h": 363
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 363
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 363
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 940,
+        "y": 0,
+        "w": 314,
+        "h": 363
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 363
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 363
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 0,
+        "y": 363,
+        "w": 313,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 214
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 313,
+        "y": 363,
+        "w": 314,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 214
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 627,
+        "y": 363,
+        "w": 313,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 214
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 940,
+        "y": 363,
+        "w": 314,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 214
+      }
+    },
+    "f008": {
+      "frame": {
+        "x": 0,
+        "y": 577,
+        "w": 316,
+        "h": 363
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 316,
+        "h": 363
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 363
+      }
+    },
+    "f009": {
+      "frame": {
+        "x": 316,
+        "y": 577,
+        "w": 311,
+        "h": 363
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 311,
+        "h": 363
+      },
+      "sourceSize": {
+        "w": 311,
+        "h": 363
+      }
+    },
+    "f010": {
+      "frame": {
+        "x": 627,
+        "y": 577,
+        "w": 313,
+        "h": 363
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 363
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 363
+      }
+    },
+    "f011": {
+      "frame": {
+        "x": 940,
+        "y": 577,
+        "w": 314,
+        "h": 363
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 363
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 363
+      }
+    },
+    "f012": {
+      "frame": {
+        "x": 0,
+        "y": 940,
+        "w": 313,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 314
+      }
+    },
+    "f013": {
+      "frame": {
+        "x": 313,
+        "y": 940,
+        "w": 314,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "f014": {
+      "frame": {
+        "x": 627,
+        "y": 940,
+        "w": 313,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 314
+      }
+    },
+    "f015": {
+      "frame": {
+        "x": 940,
+        "y": 940,
+        "w": 314,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_35_water_particles.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1254,
+      "h": 1254
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 35,
+    "textureKey": "water_particles",
+    "title": "Partículas de água",
+    "imageFile": "asset_35_water_particles.png",
+    "originalFilename": "exec-ecc23b36-6841-4b08-8856-b42c5e205b92.png",
+    "sourceSizePx": {
+      "width": 1254,
+      "height": 1254
+    },
+    "sourceMode": "RGBA",
+    "sha256": "1ef594aa53f2e46728aadf53892948ceff0d82b495e04bbca4fc781a57626b3d",
+    "kind": "particle_shapes",
+    "frameCount": 16,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "gota_a",
+      "f001": "gota_b",
+      "f002": "gota_c",
+      "f003": "gota_d",
+      "f004": "respingo_a",
+      "f005": "respingo_b",
+      "f006": "respingo_c",
+      "f007": "respingo_d",
+      "f008": "espuma_a",
+      "f009": "espuma_b",
+      "f010": "espuma_c",
+      "f011": "espuma_d",
+      "f012": "nevoa_a",
+      "f013": "nevoa_b",
+      "f014": "nevoa_c",
+      "f015": "nevoa_d"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "normalization": "tamanho_proprio_do_recorte",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            363
+          ],
+          "x": [
+            0,
+            313,
+            627,
+            940,
+            1254
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            363,
+            577
+          ],
+          "x": [
+            0,
+            313,
+            627,
+            940,
+            1254
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 2,
+          "y": [
+            577,
+            940
+          ],
+          "x": [
+            0,
+            316,
+            627,
+            940,
+            1254
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 3,
+          "y": [
+            940,
+            1254
+          ],
+          "x": [
+            0,
+            313,
+            627,
+            940,
+            1254
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": [
+        "São formas de partículas, não uma sequência temporal. Selecionar quadros por categoria no emissor."
+      ]
+    },
+    "animationKeys": []
+  },
+  "phaserAnimations": {
+    "anims": [],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "particles": {
+      "contract": "Campos abaixo descrevem emissores do controlador; traduzir para o sistema de partículas Phaser. Selecionar uma forma por partícula, sem ciclar entre categorias.",
+      "water": [
+        {
+          "id": "fall_drops",
+          "texture": "water_particles",
+          "frames": [
+            "f000",
+            "f001",
+            "f002",
+            "f003"
+          ],
+          "frequencyMs": 90,
+          "lifespanMs": [
+            350,
+            750
+          ],
+          "velocityX": [
+            -35,
+            35
+          ],
+          "velocityY": [
+            130,
+            260
+          ],
+          "worldScale": [
+            0.04,
+            0.1
+          ],
+          "alpha": [
+            0.7,
+            0
+          ],
+          "zone": "waterfall_base"
+        },
+        {
+          "id": "splashes",
+          "texture": "water_particles",
+          "frames": [
+            "f004",
+            "f005",
+            "f006",
+            "f007"
+          ],
+          "frequencyMs": 180,
+          "lifespanMs": [
+            250,
+            600
+          ],
+          "velocityX": [
+            -90,
+            90
+          ],
+          "velocityY": [
+            -160,
+            -40
+          ],
+          "gravity": 500,
+          "worldScale": [
+            0.09,
+            0.18
+          ],
+          "alpha": [
+            0.7,
+            0
+          ],
+          "zone": "waterfall_impact"
+        },
+        {
+          "id": "foam",
+          "texture": "water_particles",
+          "frames": [
+            "f008",
+            "f009",
+            "f010",
+            "f011"
+          ],
+          "frequencyMs": 280,
+          "lifespanMs": [
+            700,
+            1400
+          ],
+          "velocityX": [
+            -25,
+            25
+          ],
+          "velocityY": [
+            -3,
+            3
+          ],
+          "worldScale": [
+            0.12,
+            0.25
+          ],
+          "alpha": [
+            0.45,
+            0
+          ],
+          "zone": "water_surface"
+        },
+        {
+          "id": "mist",
+          "texture": "water_particles",
+          "frames": [
+            "f012",
+            "f013",
+            "f014",
+            "f015"
+          ],
+          "frequencyMs": 450,
+          "lifespanMs": [
+            1500,
+            2600
+          ],
+          "velocityX": [
+            -18,
+            18
+          ],
+          "velocityY": [
+            -18,
+            -6
+          ],
+          "worldScale": [
+            0.2,
+            0.45
+          ],
+          "alpha": [
+            0.22,
+            0
+          ],
+          "zone": "waterfall_base"
+        }
+      ],
+      "budgets": {
+        "maxVisibleParticles": 140,
+        "offCameraEmitters": "pause",
+        "pauseWhenGamePaused": true,
+        "reducedEffectsMultiplier": 0.35
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/particles/contract",
+    "/behaviors/particles/water",
+    "/behaviors/particles/budgets"
+  ],
+  "dependencies": [],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('water_particles', 'assets/ilha_farol/asset_35_water_particles/asset_35_water_particles.png', 'assets/ilha_farol/asset_35_water_particles/asset_35_water_particles.json');\nthis.load.json('config_asset_35', 'assets/ilha_farol/asset_35_water_particles/asset_35_water_particles.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_35');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência.",
+    "staticAssetNote": "Este asset não possui sequência temporal de quadros. O JSON configura módulos, estados, partículas ou movimentos procedurais conforme o tipo."
+  }
+}

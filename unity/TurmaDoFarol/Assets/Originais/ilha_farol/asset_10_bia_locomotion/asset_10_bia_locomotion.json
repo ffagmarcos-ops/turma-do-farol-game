@@ -1,0 +1,995 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 330
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 330
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 313,
+        "y": 0,
+        "w": 314,
+        "h": 330
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 330
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 627,
+        "y": 0,
+        "w": 313,
+        "h": 330
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 330
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 940,
+        "y": 0,
+        "w": 314,
+        "h": 330
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 330
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 0,
+        "y": 330,
+        "w": 313,
+        "h": 299
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 31,
+        "w": 313,
+        "h": 299
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 313,
+        "y": 330,
+        "w": 314,
+        "h": 299
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 31,
+        "w": 314,
+        "h": 299
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 627,
+        "y": 330,
+        "w": 313,
+        "h": 299
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 31,
+        "w": 313,
+        "h": 299
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 940,
+        "y": 330,
+        "w": 314,
+        "h": 299
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 31,
+        "w": 314,
+        "h": 299
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f008": {
+      "frame": {
+        "x": 0,
+        "y": 629,
+        "w": 313,
+        "h": 311
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 19,
+        "w": 313,
+        "h": 311
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f009": {
+      "frame": {
+        "x": 313,
+        "y": 629,
+        "w": 314,
+        "h": 311
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 19,
+        "w": 314,
+        "h": 311
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f010": {
+      "frame": {
+        "x": 627,
+        "y": 629,
+        "w": 313,
+        "h": 311
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 19,
+        "w": 313,
+        "h": 311
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f011": {
+      "frame": {
+        "x": 940,
+        "y": 629,
+        "w": 314,
+        "h": 311
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 19,
+        "w": 314,
+        "h": 311
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f012": {
+      "frame": {
+        "x": 0,
+        "y": 940,
+        "w": 313,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 16,
+        "w": 313,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f013": {
+      "frame": {
+        "x": 313,
+        "y": 940,
+        "w": 314,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 16,
+        "w": 314,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f014": {
+      "frame": {
+        "x": 627,
+        "y": 940,
+        "w": 313,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 16,
+        "w": 313,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    },
+    "f015": {
+      "frame": {
+        "x": 940,
+        "y": 940,
+        "w": 314,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 16,
+        "w": 314,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 330
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_10_bia_locomotion.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1254,
+      "h": 1254
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 10,
+    "textureKey": "bia_locomotion",
+    "title": "Bia: locomoção",
+    "imageFile": "asset_10_bia_locomotion.png",
+    "originalFilename": "exec-923012f5-087e-47cb-99b5-478b83af55b4.png",
+    "sourceSizePx": {
+      "width": 1254,
+      "height": 1254
+    },
+    "sourceMode": "RGBA",
+    "sha256": "f484455e8ddce385051d94dafb88358583242855690c6efdc5e3de02da46f110",
+    "kind": "animation_sheet",
+    "frameCount": 16,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "parada",
+      "f001": "passo_contato_a",
+      "f002": "passo_passagem",
+      "f003": "passo_contato_b",
+      "f004": "corrida_a",
+      "f005": "corrida_b",
+      "f006": "corrida_c",
+      "f007": "corrida_d",
+      "f008": "salto_impulso",
+      "f009": "salto_apice",
+      "f010": "queda",
+      "f011": "pouso",
+      "f012": "abaixar",
+      "f013": "agachada",
+      "f014": "passo_baixo",
+      "f015": "levantar"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 1
+      },
+      "normalization": "canvas_comum_por_folha_alinhado_ao_centro_inferior",
+      "scaleRule": "Calibrar a escala corporal da Bia entre os assets 10, 11 e 27 usando uma pose neutra. A folha 10 tem margens maiores; não usar a altura inteira da célula como altura da personagem.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo.",
+      "sharedActorTextures": [
+        "bia_locomotion",
+        "bia_throw",
+        "bia_secret"
+      ]
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            330
+          ],
+          "x": [
+            0,
+            313,
+            627,
+            940,
+            1254
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            330,
+            629
+          ],
+          "x": [
+            0,
+            313,
+            627,
+            940,
+            1254
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 2,
+          "y": [
+            629,
+            940
+          ],
+          "x": [
+            0,
+            313,
+            627,
+            940,
+            1254
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 3,
+          "y": [
+            940,
+            1254
+          ],
+          "x": [
+            0,
+            313,
+            627,
+            940,
+            1254
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": [
+        "Ciclo de caminhada tem somente três poses distintas. Respiração, braços na corda e transições completas ainda não foram desenhados.",
+        "Versão final desta correção: poses menores com separação transparente maior; manter esta imagem, não a primeira tentativa de Bia com linhas muito próximas."
+      ]
+    },
+    "animationKeys": [
+      "bia.idle",
+      "bia.walk",
+      "bia.run",
+      "bia.jump",
+      "bia.apex",
+      "bia.fall",
+      "bia.land",
+      "bia.crouch_enter",
+      "bia.crouch_hold",
+      "bia.crawl",
+      "bia.stand"
+    ],
+    "characterId": "bia",
+    "characterRole": "player"
+  },
+  "phaserAnimations": {
+    "anims": [
+      {
+        "key": "bia.idle",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_locomotion",
+            "frame": "f000",
+            "duration": 0
+          }
+        ],
+        "frameRate": 1,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "bia.walk",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_locomotion",
+            "frame": "f001",
+            "duration": 0
+          },
+          {
+            "key": "bia_locomotion",
+            "frame": "f002",
+            "duration": 0
+          },
+          {
+            "key": "bia_locomotion",
+            "frame": "f003",
+            "duration": 0
+          },
+          {
+            "key": "bia_locomotion",
+            "frame": "f002",
+            "duration": 0
+          }
+        ],
+        "frameRate": 8,
+        "duration": 500.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "bia.run",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_locomotion",
+            "frame": "f004",
+            "duration": 0
+          },
+          {
+            "key": "bia_locomotion",
+            "frame": "f005",
+            "duration": 0
+          },
+          {
+            "key": "bia_locomotion",
+            "frame": "f006",
+            "duration": 0
+          },
+          {
+            "key": "bia_locomotion",
+            "frame": "f007",
+            "duration": 0
+          }
+        ],
+        "frameRate": 12,
+        "duration": 333.333333,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "bia.jump",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_locomotion",
+            "frame": "f008",
+            "duration": 0
+          }
+        ],
+        "frameRate": 12,
+        "duration": 83.333333,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "bia.apex",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_locomotion",
+            "frame": "f009",
+            "duration": 0
+          }
+        ],
+        "frameRate": 8,
+        "duration": 125.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "bia.fall",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_locomotion",
+            "frame": "f010",
+            "duration": 0
+          }
+        ],
+        "frameRate": 8,
+        "duration": 125.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "bia.land",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_locomotion",
+            "frame": "f011",
+            "duration": 0
+          },
+          {
+            "key": "bia_locomotion",
+            "frame": "f000",
+            "duration": 0
+          }
+        ],
+        "frameRate": 14,
+        "duration": 142.857143,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "bia.crouch_enter",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_locomotion",
+            "frame": "f012",
+            "duration": 0
+          },
+          {
+            "key": "bia_locomotion",
+            "frame": "f013",
+            "duration": 0
+          }
+        ],
+        "frameRate": 12,
+        "duration": 166.666667,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "bia.crouch_hold",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_locomotion",
+            "frame": "f013",
+            "duration": 0
+          }
+        ],
+        "frameRate": 1,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "bia.crawl",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_locomotion",
+            "frame": "f013",
+            "duration": 0
+          },
+          {
+            "key": "bia_locomotion",
+            "frame": "f014",
+            "duration": 0
+          }
+        ],
+        "frameRate": 6,
+        "duration": 333.333333,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "bia.stand",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "bia_locomotion",
+            "frame": "f015",
+            "duration": 0
+          },
+          {
+            "key": "bia_locomotion",
+            "frame": "f000",
+            "duration": 0
+          }
+        ],
+        "frameRate": 12,
+        "duration": 166.666667,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      }
+    ],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "bia": {
+      "textures": [
+        "bia_locomotion",
+        "bia_throw",
+        "bia_secret"
+      ],
+      "physics": {
+        "walkSpeed": 180,
+        "runSpeed": 320,
+        "groundAcceleration": 1600,
+        "groundDeceleration": 1900,
+        "airAcceleration": 700,
+        "gravity": 1500,
+        "maxFallSpeed": 850,
+        "jumpVelocityY": -570,
+        "jumpCutVelocityY": -260,
+        "coyoteMs": 120,
+        "jumpBufferMs": 120,
+        "invulnerabilityAfterHurtMs": 1100
+      },
+      "body": {
+        "shape": "rectangle",
+        "standingRelativeToNeutralBody": {
+          "width": 0.42,
+          "height": 0.84
+        },
+        "crouchHeightRatio": 0.55,
+        "feetFixedOnResize": true,
+        "standOnlyIfHeadroomClear": true,
+        "finalCalibrationRequired": true
+      },
+      "stateAnimations": {
+        "idle": "bia.idle",
+        "walk": "bia.walk",
+        "run": "bia.run",
+        "jump_takeoff": "bia.jump",
+        "jump_apex": "bia.apex",
+        "fall": "bia.fall",
+        "land": "bia.land",
+        "crouch_enter": "bia.crouch_enter",
+        "crouch": "bia.crouch_hold",
+        "crawl": "bia.crawl",
+        "stand": "bia.stand"
+      },
+      "transitions": [
+        {
+          "from": "grounded",
+          "when": "jump_pressed_and_coyote_or_grounded",
+          "to": "jump_takeoff",
+          "actions": [
+            "consume_jump_buffer",
+            "set_jump_velocity"
+          ]
+        },
+        {
+          "from": "jump_takeoff",
+          "when": "velocity_y_greater_than_minus_60",
+          "to": "jump_apex"
+        },
+        {
+          "from": "jump_apex",
+          "when": "velocity_y_greater_than_60",
+          "to": "fall"
+        },
+        {
+          "from": "airborne",
+          "when": "landed",
+          "to": "land",
+          "actions": [
+            "reset_jump_resources"
+          ]
+        },
+        {
+          "from": "land",
+          "when": "animation_complete_or_new_movement_input",
+          "to": "locomotion"
+        },
+        {
+          "from": "crouch",
+          "when": "crouch_released_and_headroom_clear",
+          "to": "stand"
+        }
+      ],
+      "variableJump": "Ao soltar o salto durante a subida, limitar velocityY a jumpCutVelocityY; nunca aplicar impulso novo a cada frame.",
+      "longJump": "Usar o mesmo conjunto de salto; maior alcance vem da velocidade horizontal de corrida, sem criar quadros inexistentes.",
+      "airborneVisualSelection": "Durante throw_air manter física de salto/queda; ao terminar o lançamento selecionar apex/fall pela velocidade atual.",
+      "throw": {
+        "standingAnimation": "bia.throw_stand",
+        "runningAnimation": "bia.throw_run",
+        "airAnimation": "bia.throw_air",
+        "cooldownMs": 480,
+        "maximumQueuedAttacks": 1,
+        "lockHorizontalMotion": false,
+        "cancelOnHurt": true,
+        "facingLockUntilProjectileSpawn": true
+      },
+      "hurtPlaceholder": {
+        "animation": null,
+        "keepCurrentPose": true,
+        "tintHex": "#ffffff",
+        "blinkIntervalMs": 90,
+        "knockback": {
+          "x": 180,
+          "y": -180
+        },
+        "note": "Reação corporal desenhada está pendente."
+      },
+      "ropePlaceholder": {
+        "animation": null,
+        "poseTexture": "bia_locomotion",
+        "poseFrame": "f009",
+        "note": "Pose aérea provisória; mãos não estão agarradas à corda. Precisa de arte própria."
+      },
+      "vaultPlaceholder": {
+        "animation": "bia.jump",
+        "condition": "low_obstacle_and_clear_landing",
+        "note": "Usar um pequeno salto físico; não fingir uma animação de apoiar as mãos."
+      },
+      "observeInteractCelebratePlaceholder": {
+        "observeAnimation": "bia.observe",
+        "discoverAnimation": "bia.discover",
+        "pointAnimation": "bia.point",
+        "interactFallback": "bia.idle",
+        "celebrateFallback": "bia.idle",
+        "note": "Observação e indicação usam o asset 27. Manipular objetos e comemorar ainda precisam de poses próprias."
+      },
+      "entityId": "bia",
+      "role": "player",
+      "investigationBehavior": "biaInvestigation",
+      "appearanceConstraint": "Chapéu de palha com fita preta, duas tranças castanhas, vestido verde sobre camiseta creme, sandálias marrons, bolsa transversal e pingente de concha espiral."
+    },
+    "input": {
+      "keyboard": {
+        "moveLeft": [
+          "ArrowLeft",
+          "KeyA"
+        ],
+        "moveRight": [
+          "ArrowRight",
+          "KeyD"
+        ],
+        "jump": [
+          "Space",
+          "KeyW",
+          "ArrowUp"
+        ],
+        "crouch": [
+          "KeyS",
+          "ArrowDown"
+        ],
+        "run": [
+          "ShiftLeft",
+          "ShiftRight"
+        ],
+        "throw": [
+          "KeyJ"
+        ],
+        "specialHoldRelease": [
+          "KeyK"
+        ],
+        "interact": [
+          "KeyE"
+        ]
+      },
+      "gamepad": {
+        "horizontal": "left_stick_x_or_dpad",
+        "jump": "south_button",
+        "throw": "west_button",
+        "specialHoldRelease": "east_button",
+        "interact": "north_button",
+        "run": "right_trigger",
+        "crouch": "dpad_down"
+      },
+      "deadZone": 0.18,
+      "note": "Mapeamento sugerido e remapeável; índices concretos do gamepad dependem do navegador/dispositivo."
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/bia",
+    "/behaviors/input"
+  ],
+  "dependencies": [
+    {
+      "assetNumber": 11,
+      "textureKey": "bia_throw",
+      "imageFile": "../asset_11_bia_throw/asset_11_bia_throw.png",
+      "jsonFile": "../asset_11_bia_throw/asset_11_bia_throw.json"
+    },
+    {
+      "assetNumber": 12,
+      "textureKey": "shell_projectile",
+      "imageFile": "../asset_12_shell_projectile/asset_12_shell_projectile.png",
+      "jsonFile": "../asset_12_shell_projectile/asset_12_shell_projectile.json"
+    },
+    {
+      "assetNumber": 13,
+      "textureKey": "faisca_run",
+      "imageFile": "../asset_13_faisca_run/asset_13_faisca_run.png",
+      "jsonFile": "../asset_13_faisca_run/asset_13_faisca_run.json"
+    },
+    {
+      "assetNumber": 14,
+      "textureKey": "faisca_bark",
+      "imageFile": "../asset_14_faisca_bark/asset_14_faisca_bark.png",
+      "jsonFile": "../asset_14_faisca_bark/asset_14_faisca_bark.json"
+    },
+    {
+      "assetNumber": 27,
+      "textureKey": "bia_secret",
+      "imageFile": "../asset_27_bia_secret/asset_27_bia_secret.png",
+      "jsonFile": "../asset_27_bia_secret/asset_27_bia_secret.json"
+    }
+  ],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('bia_locomotion', 'assets/ilha_farol/asset_10_bia_locomotion/asset_10_bia_locomotion.png', 'assets/ilha_farol/asset_10_bia_locomotion/asset_10_bia_locomotion.json');\nthis.load.json('config_asset_10', 'assets/ilha_farol/asset_10_bia_locomotion/asset_10_bia_locomotion.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_10');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência."
+  }
+}

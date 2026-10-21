@@ -1,0 +1,677 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 319
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 319
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 319
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 313,
+        "y": 0,
+        "w": 314,
+        "h": 319
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 319
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 319
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 627,
+        "y": 0,
+        "w": 313,
+        "h": 319
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 319
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 319
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 940,
+        "y": 0,
+        "w": 314,
+        "h": 319
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 319
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 319
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 0,
+        "y": 319,
+        "w": 313,
+        "h": 308
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 308
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 308
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 313,
+        "y": 319,
+        "w": 314,
+        "h": 308
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 308
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 308
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 627,
+        "y": 319,
+        "w": 313,
+        "h": 308
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 308
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 308
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 940,
+        "y": 319,
+        "w": 314,
+        "h": 308
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 308
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 308
+      }
+    },
+    "f008": {
+      "frame": {
+        "x": 0,
+        "y": 627,
+        "w": 313,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 313
+      }
+    },
+    "f009": {
+      "frame": {
+        "x": 313,
+        "y": 627,
+        "w": 314,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 313
+      }
+    },
+    "f010": {
+      "frame": {
+        "x": 627,
+        "y": 627,
+        "w": 313,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 313
+      }
+    },
+    "f011": {
+      "frame": {
+        "x": 940,
+        "y": 627,
+        "w": 314,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 313
+      }
+    },
+    "f012": {
+      "frame": {
+        "x": 0,
+        "y": 940,
+        "w": 313,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 314
+      }
+    },
+    "f013": {
+      "frame": {
+        "x": 313,
+        "y": 940,
+        "w": 314,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "f014": {
+      "frame": {
+        "x": 627,
+        "y": 940,
+        "w": 313,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 314
+      }
+    },
+    "f015": {
+      "frame": {
+        "x": 940,
+        "y": 940,
+        "w": 314,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_34_forest_particles.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1254,
+      "h": 1254
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 34,
+    "textureKey": "forest_particles",
+    "title": "Partículas de floresta",
+    "imageFile": "asset_34_forest_particles.png",
+    "originalFilename": "exec-0c1246f5-9285-47ad-8873-9db2beaf1f69.png",
+    "sourceSizePx": {
+      "width": 1254,
+      "height": 1254
+    },
+    "sourceMode": "RGBA",
+    "sha256": "50176a80d56160f034e6be6ee1024523a6d236cd9e046827c4a381debb3e6045",
+    "kind": "particle_shapes",
+    "frameCount": 16,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "folha_a",
+      "f001": "folha_b",
+      "f002": "folha_c",
+      "f003": "folha_d",
+      "f004": "semente_a",
+      "f005": "semente_b",
+      "f006": "fragmento_folha_a",
+      "f007": "fragmento_folha_b",
+      "f008": "polen_a",
+      "f009": "polen_b",
+      "f010": "inseto_a",
+      "f011": "inseto_b",
+      "f012": "poeira_a",
+      "f013": "poeira_b",
+      "f014": "gota_a",
+      "f015": "gota_b"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "normalization": "tamanho_proprio_do_recorte",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            319
+          ],
+          "x": [
+            0,
+            313,
+            627,
+            940,
+            1254
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            319,
+            627
+          ],
+          "x": [
+            0,
+            313,
+            627,
+            940,
+            1254
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 2,
+          "y": [
+            627,
+            940
+          ],
+          "x": [
+            0,
+            313,
+            627,
+            940,
+            1254
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 3,
+          "y": [
+            940,
+            1254
+          ],
+          "x": [
+            0,
+            313,
+            627,
+            940,
+            1254
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": [
+        "São formas de partículas, não uma sequência temporal. Selecionar quadros por categoria no emissor."
+      ]
+    },
+    "animationKeys": []
+  },
+  "phaserAnimations": {
+    "anims": [],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "particles": {
+      "contract": "Campos abaixo descrevem emissores do controlador; traduzir para o sistema de partículas Phaser. Selecionar uma forma por partícula, sem ciclar entre categorias.",
+      "forest": [
+        {
+          "id": "leaves",
+          "texture": "forest_particles",
+          "frames": [
+            "f000",
+            "f001",
+            "f002",
+            "f003",
+            "f006",
+            "f007"
+          ],
+          "frequencyMs": 500,
+          "lifespanMs": [
+            3000,
+            5500
+          ],
+          "velocityX": [
+            -20,
+            30
+          ],
+          "velocityY": [
+            18,
+            50
+          ],
+          "rotationSpeed": [
+            -45,
+            45
+          ],
+          "worldScale": [
+            0.07,
+            0.15
+          ],
+          "alpha": [
+            0.75,
+            0
+          ],
+          "depthLayer": "foreground"
+        },
+        {
+          "id": "seeds",
+          "texture": "forest_particles",
+          "frames": [
+            "f004",
+            "f005"
+          ],
+          "frequencyMs": 1100,
+          "lifespanMs": [
+            2500,
+            4200
+          ],
+          "velocityX": [
+            8,
+            25
+          ],
+          "velocityY": [
+            8,
+            20
+          ],
+          "worldScale": [
+            0.05,
+            0.1
+          ],
+          "alpha": [
+            0.65,
+            0
+          ],
+          "depthLayer": "midground"
+        },
+        {
+          "id": "pollen",
+          "texture": "forest_particles",
+          "frames": [
+            "f008",
+            "f009"
+          ],
+          "frequencyMs": 420,
+          "lifespanMs": [
+            2000,
+            4000
+          ],
+          "velocityX": [
+            -10,
+            12
+          ],
+          "velocityY": [
+            -8,
+            8
+          ],
+          "worldScale": [
+            0.025,
+            0.06
+          ],
+          "alpha": [
+            0.35,
+            0
+          ],
+          "depthLayer": "foreground"
+        },
+        {
+          "id": "insects",
+          "texture": "forest_particles",
+          "frames": [
+            "f010",
+            "f011"
+          ],
+          "frequencyMs": 1800,
+          "lifespanMs": [
+            1700,
+            3000
+          ],
+          "velocityX": [
+            10,
+            35
+          ],
+          "velocityY": [
+            -8,
+            8
+          ],
+          "worldScale": [
+            0.045,
+            0.08
+          ],
+          "alpha": [
+            0.6,
+            0
+          ],
+          "depthLayer": "midground"
+        },
+        {
+          "id": "step_dust",
+          "texture": "forest_particles",
+          "frames": [
+            "f012",
+            "f013"
+          ],
+          "trigger": "grounded_footstep_on_dry_surface",
+          "burstCount": 2,
+          "lifespanMs": [
+            180,
+            350
+          ],
+          "velocityX": [
+            -15,
+            15
+          ],
+          "velocityY": [
+            -25,
+            -8
+          ],
+          "worldScale": [
+            0.08,
+            0.16
+          ],
+          "alpha": [
+            0.4,
+            0
+          ],
+          "depthLayer": "playable"
+        },
+        {
+          "id": "canopy_drops",
+          "texture": "forest_particles",
+          "frames": [
+            "f014",
+            "f015"
+          ],
+          "frequencyMs": 1400,
+          "lifespanMs": [
+            600,
+            1200
+          ],
+          "velocityX": [
+            -3,
+            3
+          ],
+          "velocityY": [
+            120,
+            200
+          ],
+          "worldScale": [
+            0.045,
+            0.09
+          ],
+          "alpha": [
+            0.6,
+            0
+          ],
+          "depthLayer": "foreground"
+        }
+      ],
+      "budgets": {
+        "maxVisibleParticles": 140,
+        "offCameraEmitters": "pause",
+        "pauseWhenGamePaused": true,
+        "reducedEffectsMultiplier": 0.35
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/particles/contract",
+    "/behaviors/particles/forest",
+    "/behaviors/particles/budgets"
+  ],
+  "dependencies": [],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('forest_particles', 'assets/ilha_farol/asset_34_forest_particles/asset_34_forest_particles.png', 'assets/ilha_farol/asset_34_forest_particles/asset_34_forest_particles.json');\nthis.load.json('config_asset_34', 'assets/ilha_farol/asset_34_forest_particles/asset_34_forest_particles.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_34');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência.",
+    "staticAssetNote": "Este asset não possui sequência temporal de quadros. O JSON configura módulos, estados, partículas ou movimentos procedurais conforme o tipo."
+  }
+}

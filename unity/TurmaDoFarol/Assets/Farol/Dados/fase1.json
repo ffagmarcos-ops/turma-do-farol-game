@@ -1,0 +1,1222 @@
+{
+  "id": "vila-das-conchas",
+  "name": "Vila das Conchas",
+  "nextLevel": "mar-aberto",
+  "width": 14336,
+  "height": 1080,
+  "groundY": 968,
+  "spawn": {
+    "x": 420,
+    "y": 968
+  },
+  "note": "Beats das págs. 1–5. O texto de cada fala fica aqui para colar o balão literal da HQ.",
+  "physics": {
+    "walkSpeed": 210,
+    "runSpeed": 360,
+    "acceleration": 1800,
+    "deceleration": 2200,
+    "gravity": 1800,
+    "jumpVelocity": -820,
+    "coyoteTime": 0.12,
+    "jumpBuffer": 0.14,
+    "airControl": 0.78,
+    "jumpCut": 0.42,
+    "targetHeight": 275
+  },
+  "camera": {
+    "rightFocus": 0.36,
+    "leftFocus": 0.64,
+    "deadzone": [
+      0.28,
+      0.62
+    ],
+    "lookAhead": 0.36,
+    "lerp": 5.2
+  },
+  "seam": {
+    "segmentWidth": 2048,
+    "overlap": 256
+  },
+  "layers": [
+    {
+      "id": "sky",
+      "key": "bg_sky",
+      "factor": 0.02,
+      "mode": "tile",
+      "y": 0,
+      "h": 1080,
+      "depth": -50,
+      "drift": 4
+    },
+    {
+      "id": "horizon",
+      "key": "bg_sea",
+      "factor": 0.08,
+      "mode": "segments",
+      "y": 760,
+      "depth": -47,
+      "overlap": 256
+    },
+    {
+      "id": "village_far",
+      "key": "bg_village_far",
+      "factor": 0.28,
+      "mode": "tile",
+      "y": 0,
+      "h": 1080,
+      "depth": -38
+    },
+    {
+      "id": "village_mid",
+      "key": "bg_village_mid",
+      "factor": 0.48,
+      "mode": "tile",
+      "bottom": 1000,
+      "h": 640,
+      "depth": -32
+    },
+    {
+      "id": "harbor",
+      "key": "bg_harbor",
+      "factor": 0.7,
+      "mode": "strip",
+      "bottom": 1010,
+      "h": 620,
+      "startScroll": 8600,
+      "count": 2,
+      "depth": -26
+    },
+    {
+      "id": "gameplay",
+      "key": "pier_tile",
+      "factor": 1,
+      "mode": "ground",
+      "depth": 6
+    }
+  ],
+  "waves": {
+    "key": "bg_sea",
+    "y": 980,
+    "h": 120,
+    "speed": 22,
+    "amp": 5,
+    "factor": 1,
+    "depth": -16
+  },
+  "lighthouse": {
+    "x": 13120,
+    "y": 430,
+    "w": 420,
+    "h": 560
+  },
+  "segments": [
+    {
+      "key": "gameplay_0",
+      "x": 0
+    },
+    {
+      "key": "gameplay_1",
+      "x": 2048
+    },
+    {
+      "key": "gameplay_2",
+      "x": 4096
+    },
+    {
+      "key": "gameplay_3",
+      "x": 6144
+    },
+    {
+      "key": "gameplay_4",
+      "x": 8192
+    },
+    {
+      "key": "gameplay_5",
+      "x": 10240
+    },
+    {
+      "key": "gameplay_6",
+      "x": 12288
+    }
+  ],
+  "colliders": [
+    {
+      "id": "chao",
+      "x": 0,
+      "y": 968,
+      "w": 14336,
+      "h": 240
+    }
+  ],
+  "obstacles": [
+    {
+      "id": "rede-baixa",
+      "kind": "low-beam",
+      "x": 8780,
+      "y": 690,
+      "w": 220,
+      "h": 98,
+      "note": "Rede pendurada: base em y=788 = topo da Marina agachada (escala 1.32). Arte desenhada exatamente sobre a colisão."
+    }
+  ],
+  "hazards": [
+    {
+      "id": "tabua-molhada",
+      "kind": "slippery",
+      "x": 2480,
+      "y": 930,
+      "w": 720,
+      "h": 80
+    }
+  ],
+  "gaps": [],
+  "killY": 1200,
+  "checkpoints": [
+    {
+      "id": "cp-rua",
+      "x": 4200
+    },
+    {
+      "id": "cp-cais",
+      "x": 8700
+    },
+    {
+      "id": "cp-pier",
+      "x": 12300
+    }
+  ],
+  "shells": [
+    {
+      "id": "s01",
+      "x": 3570,
+      "y": 900
+    },
+    {
+      "id": "s02",
+      "x": 4100,
+      "y": 660
+    },
+    {
+      "id": "s03",
+      "x": 4680,
+      "y": 900
+    },
+    {
+      "id": "s04",
+      "x": 5300,
+      "y": 710
+    },
+    {
+      "id": "s05",
+      "x": 5900,
+      "y": 900
+    },
+    {
+      "id": "s06",
+      "x": 6500,
+      "y": 660
+    },
+    {
+      "id": "s07",
+      "x": 7000,
+      "y": 900
+    },
+    {
+      "id": "s08",
+      "x": 5120,
+      "y": 820,
+      "secret": true,
+      "gold": true
+    },
+    {
+      "id": "s09",
+      "x": 8120,
+      "y": 900
+    },
+    {
+      "id": "s10",
+      "x": 8680,
+      "y": 710
+    },
+    {
+      "id": "s11",
+      "x": 9240,
+      "y": 900
+    },
+    {
+      "id": "s12",
+      "x": 9800,
+      "y": 660
+    },
+    {
+      "id": "s13",
+      "x": 10400,
+      "y": 900
+    },
+    {
+      "id": "s14",
+      "x": 11380,
+      "y": 710
+    },
+    {
+      "id": "s15",
+      "x": 11440,
+      "y": 900
+    },
+    {
+      "id": "s16",
+      "x": 11940,
+      "y": 660
+    },
+    {
+      "id": "s17",
+      "x": 12460,
+      "y": 900
+    },
+    {
+      "id": "s18",
+      "x": 12900,
+      "y": 710
+    },
+    {
+      "id": "s19",
+      "x": 13340,
+      "y": 900
+    },
+    {
+      "id": "s20",
+      "x": 13740,
+      "y": 660
+    },
+    {
+      "id": "s2-001",
+      "x": 541,
+      "y": 900
+    },
+    {
+      "id": "s2-002",
+      "x": 662,
+      "y": 900
+    },
+    {
+      "id": "s2-003",
+      "x": 784,
+      "y": 900
+    },
+    {
+      "id": "s2-004",
+      "x": 906,
+      "y": 820
+    },
+    {
+      "id": "s2-005",
+      "x": 1028,
+      "y": 760
+    },
+    {
+      "id": "s2-006",
+      "x": 1149,
+      "y": 820
+    },
+    {
+      "id": "s2-007",
+      "x": 1271,
+      "y": 900
+    },
+    {
+      "id": "s2-008",
+      "x": 1392,
+      "y": 900
+    },
+    {
+      "id": "s2-009",
+      "x": 1514,
+      "y": 900
+    },
+    {
+      "id": "s2-010",
+      "x": 1636,
+      "y": 820
+    },
+    {
+      "id": "s2-011",
+      "x": 1758,
+      "y": 760
+    },
+    {
+      "id": "s2-012",
+      "x": 1879,
+      "y": 820
+    },
+    {
+      "id": "gold-01",
+      "x": 1600,
+      "y": 660,
+      "gold": true
+    },
+    {
+      "id": "s2-013",
+      "x": 2134,
+      "y": 900
+    },
+    {
+      "id": "s2-014",
+      "x": 2283,
+      "y": 900
+    },
+    {
+      "id": "s2-015",
+      "x": 2431,
+      "y": 900
+    },
+    {
+      "id": "s2-016",
+      "x": 2580,
+      "y": 820
+    },
+    {
+      "id": "s2-017",
+      "x": 2729,
+      "y": 760
+    },
+    {
+      "id": "s2-018",
+      "x": 2877,
+      "y": 820
+    },
+    {
+      "id": "s2-019",
+      "x": 3026,
+      "y": 900
+    },
+    {
+      "id": "s2-020",
+      "x": 3174,
+      "y": 900
+    },
+    {
+      "id": "s2-021",
+      "x": 3323,
+      "y": 900
+    },
+    {
+      "id": "s2-022",
+      "x": 3471,
+      "y": 820
+    },
+    {
+      "id": "s2-023",
+      "x": 3620,
+      "y": 760
+    },
+    {
+      "id": "s2-024",
+      "x": 3769,
+      "y": 820
+    },
+    {
+      "id": "s2-025",
+      "x": 3917,
+      "y": 900
+    },
+    {
+      "id": "s2-026",
+      "x": 4126,
+      "y": 900
+    },
+    {
+      "id": "gold-02",
+      "x": 2840,
+      "y": 700,
+      "gold": true
+    },
+    {
+      "id": "gold-03",
+      "x": 3900,
+      "y": 680,
+      "gold": true
+    },
+    {
+      "id": "s2-027",
+      "x": 4329,
+      "y": 900
+    },
+    {
+      "id": "s2-028",
+      "x": 4468,
+      "y": 900
+    },
+    {
+      "id": "s2-029",
+      "x": 4607,
+      "y": 900
+    },
+    {
+      "id": "s2-030",
+      "x": 4745,
+      "y": 820
+    },
+    {
+      "id": "s2-031",
+      "x": 4884,
+      "y": 760
+    },
+    {
+      "id": "s2-032",
+      "x": 5023,
+      "y": 820
+    },
+    {
+      "id": "s2-033",
+      "x": 5221,
+      "y": 900
+    },
+    {
+      "id": "s2-034",
+      "x": 5360,
+      "y": 900
+    },
+    {
+      "id": "s2-035",
+      "x": 5439,
+      "y": 900
+    },
+    {
+      "id": "s2-036",
+      "x": 5577,
+      "y": 820
+    },
+    {
+      "id": "s2-037",
+      "x": 5716,
+      "y": 760
+    },
+    {
+      "id": "s2-038",
+      "x": 5915,
+      "y": 820
+    },
+    {
+      "id": "s2-039",
+      "x": 5993,
+      "y": 900
+    },
+    {
+      "id": "s2-040",
+      "x": 6132,
+      "y": 900
+    },
+    {
+      "id": "s2-041",
+      "x": 6271,
+      "y": 900
+    },
+    {
+      "id": "gold-04",
+      "x": 5080,
+      "y": 690,
+      "gold": true
+    },
+    {
+      "id": "s2-042",
+      "x": 6600,
+      "y": 900
+    },
+    {
+      "id": "s2-043",
+      "x": 6700,
+      "y": 900
+    },
+    {
+      "id": "s2-044",
+      "x": 6860,
+      "y": 900
+    },
+    {
+      "id": "s2-045",
+      "x": 7080,
+      "y": 820
+    },
+    {
+      "id": "s2-046",
+      "x": 7180,
+      "y": 760
+    },
+    {
+      "id": "s2-047",
+      "x": 7340,
+      "y": 820
+    },
+    {
+      "id": "s2-048",
+      "x": 7500,
+      "y": 900
+    },
+    {
+      "id": "s2-049",
+      "x": 7660,
+      "y": 900
+    },
+    {
+      "id": "s2-050",
+      "x": 7820,
+      "y": 900
+    },
+    {
+      "id": "s2-051",
+      "x": 7980,
+      "y": 820
+    },
+    {
+      "id": "s2-052",
+      "x": 8200,
+      "y": 760
+    },
+    {
+      "id": "s2-053",
+      "x": 8300,
+      "y": 820
+    },
+    {
+      "id": "s2-054",
+      "x": 8460,
+      "y": 900
+    },
+    {
+      "id": "gold-05",
+      "x": 7000,
+      "y": 660,
+      "gold": true
+    },
+    {
+      "id": "gold-06",
+      "x": 6100,
+      "y": 670,
+      "gold": true
+    },
+    {
+      "id": "s2-055",
+      "x": 8734,
+      "y": 900
+    },
+    {
+      "id": "s2-056",
+      "x": 8883,
+      "y": 930
+    },
+    {
+      "id": "s2-057",
+      "x": 9031,
+      "y": 930
+    },
+    {
+      "id": "s2-058",
+      "x": 9180,
+      "y": 820
+    },
+    {
+      "id": "s2-059",
+      "x": 9329,
+      "y": 760
+    },
+    {
+      "id": "s2-060",
+      "x": 9477,
+      "y": 820
+    },
+    {
+      "id": "s2-061",
+      "x": 9626,
+      "y": 900
+    },
+    {
+      "id": "s2-062",
+      "x": 9834,
+      "y": 900
+    },
+    {
+      "id": "s2-063",
+      "x": 9923,
+      "y": 900
+    },
+    {
+      "id": "s2-064",
+      "x": 10071,
+      "y": 820
+    },
+    {
+      "id": "s2-065",
+      "x": 10220,
+      "y": 760
+    },
+    {
+      "id": "s2-066",
+      "x": 10429,
+      "y": 820
+    },
+    {
+      "id": "s2-067",
+      "x": 10517,
+      "y": 900
+    },
+    {
+      "id": "s2-068",
+      "x": 10666,
+      "y": 900
+    },
+    {
+      "id": "gold-07",
+      "x": 8900,
+      "y": 930,
+      "gold": true
+    },
+    {
+      "id": "gold-08",
+      "x": 10200,
+      "y": 680,
+      "gold": true
+    },
+    {
+      "id": "s2-069",
+      "x": 10938,
+      "y": 900
+    },
+    {
+      "id": "s2-070",
+      "x": 11095,
+      "y": 900
+    },
+    {
+      "id": "s2-071",
+      "x": 11252,
+      "y": 900
+    },
+    {
+      "id": "s2-072",
+      "x": 11468,
+      "y": 820
+    },
+    {
+      "id": "s2-073",
+      "x": 11565,
+      "y": 760
+    },
+    {
+      "id": "s2-074",
+      "x": 11722,
+      "y": 820
+    },
+    {
+      "id": "s2-075",
+      "x": 11878,
+      "y": 900
+    },
+    {
+      "id": "s2-076",
+      "x": 12035,
+      "y": 900
+    },
+    {
+      "id": "s2-077",
+      "x": 12192,
+      "y": 900
+    },
+    {
+      "id": "s2-078",
+      "x": 12348,
+      "y": 820
+    },
+    {
+      "id": "s2-079",
+      "x": 12565,
+      "y": 760
+    },
+    {
+      "id": "s2-080",
+      "x": 12662,
+      "y": 820
+    },
+    {
+      "id": "gold-09",
+      "x": 11200,
+      "y": 660,
+      "gold": true
+    },
+    {
+      "id": "gold-10",
+      "x": 12700,
+      "y": 700,
+      "gold": true
+    },
+    {
+      "id": "s2-081",
+      "x": 12969,
+      "y": 900
+    },
+    {
+      "id": "s2-082",
+      "x": 13007,
+      "y": 900
+    },
+    {
+      "id": "s2-083",
+      "x": 13104,
+      "y": 900
+    },
+    {
+      "id": "s2-084",
+      "x": 13202,
+      "y": 820
+    },
+    {
+      "id": "s2-085",
+      "x": 13360,
+      "y": 760
+    },
+    {
+      "id": "s2-086",
+      "x": 13398,
+      "y": 820
+    },
+    {
+      "id": "s2-087",
+      "x": 13496,
+      "y": 900
+    },
+    {
+      "id": "s2-088",
+      "x": 13593,
+      "y": 900
+    },
+    {
+      "id": "s2-089",
+      "x": 13751,
+      "y": 900
+    },
+    {
+      "id": "gold-11",
+      "x": 13560,
+      "y": 660,
+      "gold": true
+    }
+  ],
+  "zones": [
+    {
+      "x": 0,
+      "name": "Entrada da Vila",
+      "objective": "A manhã da Vila das Conchas"
+    },
+    {
+      "x": 2000,
+      "name": "Rua dos Pescadores",
+      "objective": "Siga a Faísca até o cais"
+    },
+    {
+      "x": 4200,
+      "name": "Mercado",
+      "objective": "Siga a Faísca até o cais"
+    },
+    {
+      "x": 6400,
+      "name": "Praça",
+      "objective": "Siga a Faísca até o cais"
+    },
+    {
+      "x": 8600,
+      "name": "Cais de Pesca",
+      "objective": "Veja o que a Faísca puxa da rede"
+    },
+    {
+      "x": 10800,
+      "name": "Grande Píer",
+      "objective": "Fale com Seu Toninho"
+    },
+    {
+      "x": 12800,
+      "name": "Barco Esperança",
+      "objective": "Suba no Esperança"
+    }
+  ],
+  "props": [
+    {
+      "id": "crate-a",
+      "key": "crate",
+      "x": 2280,
+      "w": 150,
+      "h": 150
+    },
+    {
+      "id": "crate-b",
+      "key": "crate",
+      "x": 2620,
+      "w": 130,
+      "h": 130
+    },
+    {
+      "id": "stall",
+      "key": "market_stall",
+      "x": 5240,
+      "w": 380,
+      "h": 340
+    },
+    {
+      "id": "fountain",
+      "key": "fountain",
+      "x": 7000,
+      "w": 300,
+      "h": 280
+    },
+    {
+      "id": "nets",
+      "key": "nets",
+      "x": 9680,
+      "w": 460,
+      "h": 240
+    },
+    {
+      "id": "artifact",
+      "key": "artifact",
+      "x": 9780,
+      "y": 520,
+      "w": 86,
+      "h": 150
+    }
+  ],
+  "boats": [
+    {
+      "key": "boat_esperanca",
+      "x": 1860,
+      "w": 720,
+      "h": 460,
+      "rock": 1.8,
+      "bob": 7,
+      "period": 2000,
+      "depth": 18
+    },
+    {
+      "key": "boat_esperanca",
+      "x": 10940,
+      "w": 720,
+      "h": 460,
+      "rock": 2.1,
+      "bob": 6,
+      "period": 2100,
+      "depth": 18
+    },
+    {
+      "key": "boat_esperanca",
+      "x": 13640,
+      "w": 720,
+      "h": 460,
+      "rock": 1.4,
+      "bob": 8,
+      "period": 1800,
+      "depth": 18
+    }
+  ],
+  "actors": {
+    "faisca": {
+      "x": 640,
+      "runTo": 9580,
+      "gatherX": 11380,
+      "speed": 320
+    },
+    "julia": {
+      "who": "julia",
+      "x": 4980,
+      "gatherX": 11460
+    },
+    "lucas": {
+      "who": "lucas",
+      "x": 7180,
+      "gatherX": 11640
+    },
+    "bia": {
+      "who": "bia",
+      "x": 9180,
+      "gatherX": 11880,
+      "radius": 190
+    },
+    "toninho": {
+      "who": "toninho",
+      "x": 12240,
+      "radius": 190
+    }
+  },
+  "goal": {
+    "x": 13640,
+    "label": "Esperança"
+  },
+  "audio": [
+    {
+      "id": "mar-entrada",
+      "kind": "sea",
+      "x": 800,
+      "radius": 2600
+    },
+    {
+      "id": "mar-meio",
+      "kind": "sea",
+      "x": 5200,
+      "radius": 2800
+    },
+    {
+      "id": "mar-pier",
+      "kind": "sea",
+      "x": 11800,
+      "radius": 3400
+    },
+    {
+      "id": "gaivotas-rua",
+      "kind": "gulls",
+      "x": 2400,
+      "radius": 1800
+    },
+    {
+      "id": "gaivotas-pier",
+      "kind": "gulls",
+      "x": 12000,
+      "radius": 2200
+    },
+    {
+      "id": "madeira",
+      "kind": "wood",
+      "x": 7000,
+      "radius": 1600
+    },
+    {
+      "id": "porto",
+      "kind": "harbor",
+      "x": 9600,
+      "radius": 2200
+    },
+    {
+      "id": "barcos",
+      "kind": "boats",
+      "x": 13400,
+      "radius": 1800
+    },
+    {
+      "id": "passaros-vila",
+      "kind": "birds",
+      "x": 1800,
+      "radius": 3200
+    },
+    {
+      "id": "mercado-vozes",
+      "kind": "villagers",
+      "x": 5300,
+      "radius": 1700
+    },
+    {
+      "id": "vento-pier",
+      "kind": "wind",
+      "x": 11800,
+      "radius": 3200
+    }
+  ],
+  "music": {
+    "file": "assets/audio/music_vila.mp3",
+    "volume": 1,
+    "duck": 0.35
+  },
+  "buses": {
+    "music": 0.6,
+    "ambience": 0.45,
+    "sfx": 0.8,
+    "ui": 0.5
+  },
+  "surfaces": [
+    {
+      "from": 0,
+      "to": 2000,
+      "kind": "grass"
+    },
+    {
+      "from": 2000,
+      "to": 8600,
+      "kind": "stone"
+    },
+    {
+      "from": 8600,
+      "to": 14336,
+      "kind": "wood"
+    }
+  ],
+  "life": {
+    "windDeg": 2.6,
+    "leaves": 5,
+    "awnings": [],
+    "pennants": [],
+    "chimneys": [],
+    "fish": {
+      "waterY": 1040,
+      "every": [
+        4.5,
+        8
+      ]
+    },
+    "_removidos_v31": "bandeirolas (4), toldos desenhados no código (3) e fumaça de chaminé (4) flutuavam fora da arte; removidos na v3.1"
+  },
+  "zoomZones": [
+    {
+      "id": "praca",
+      "x": 6400,
+      "w": 2000,
+      "zoom": 1
+    }
+  ],
+  "reveal": {
+    "x": 11500,
+    "zoom": 1,
+    "seconds": 2.2,
+    "caption": "O Esperança está à frente, no fim do píer."
+  },
+  "testWarps": [
+    {
+      "key": "Digit1",
+      "x": 420,
+      "label": "Entrada"
+    },
+    {
+      "key": "Digit2",
+      "x": 4980,
+      "label": "Júlia"
+    },
+    {
+      "key": "Digit3",
+      "x": 7180,
+      "label": "Lucas"
+    },
+    {
+      "key": "Digit4",
+      "x": 9180,
+      "label": "Bia"
+    },
+    {
+      "key": "Digit5",
+      "x": 12240,
+      "label": "Toninho"
+    }
+  ],
+  "seagulls": {
+    "count": 5,
+    "y": 120,
+    "speed": 90,
+    "amp": 28,
+    "scale": 0.2,
+    "depth": -42
+  },
+  "script": {
+    "opening": [
+      {
+        "page": 1,
+        "text": "Na Vila das Conchas, o mar amanheceu quieto demais."
+      },
+      {
+        "page": 1,
+        "text": "Marina chegou com a turma. O farol, lá no fim da costa, passou a noite aceso."
+      },
+      {
+        "page": 1,
+        "text": "No porto, alguma coisa não combinava com a calma da manhã."
+      }
+    ],
+    "run": {
+      "page": 2,
+      "text": "A Faísca dispara em quatro patas, rumo ao cais."
+    },
+    "net": [
+      {
+        "kind": "caption",
+        "page": 4,
+        "text": "No Cais de Pesca, a Faísca morde a rede e puxa.",
+        "action": "pull"
+      },
+      {
+        "kind": "caption",
+        "page": 4,
+        "text": "CLINC!",
+        "action": "clinc"
+      },
+      {
+        "kind": "caption",
+        "page": 4,
+        "text": "Um artefato se solta da rede e cai no cais.",
+        "action": "drop"
+      },
+      {
+        "kind": "line",
+        "page": 4,
+        "speaker": "Bia",
+        "portrait": "portrait_bia",
+        "text": "Faísca! Isso saiu da rede. Não é anzol."
+      },
+      {
+        "kind": "line",
+        "page": 4,
+        "speaker": "Bia",
+        "portrait": "portrait_bia",
+        "text": "Tem um símbolo na peça. O Seu Toninho conhece essas marcas. Ele está no Grande Píer."
+      }
+    ],
+    "gather": {
+      "page": 5,
+      "text": "A turma se reúne no Grande Píer."
+    },
+    "toninho": [
+      {
+        "page": 5,
+        "speaker": "Seu Toninho",
+        "portrait": "portrait_toninho",
+        "text": "Esse símbolo... eu já vi no mapa da ilha."
+      },
+      {
+        "page": 5,
+        "speaker": "Seu Toninho",
+        "portrait": "portrait_toninho",
+        "text": "Não é enfeite de pescador. É a marca das Cavernas Azuis."
+      },
+      {
+        "page": 5,
+        "speaker": "Seu Toninho",
+        "portrait": "portrait_toninho",
+        "text": "O Esperança aguenta o mar. Se o mapa aponta para lá, a gente parte."
+      }
+    ],
+    "ending": {
+      "page": 5,
+      "text": "Destino: Ilha das Cavernas Azuis."
+    },
+    "julia": [
+      {
+        "page": 3,
+        "speaker": "Júlia",
+        "portrait": "portrait_julia",
+        "text": "Marina, olha esta concha. Não é da nossa praia."
+      },
+      {
+        "page": 3,
+        "speaker": "Júlia",
+        "portrait": "portrait_julia",
+        "text": "O Lucas está na praça, com o aparelho no ouvido. Diz que o cais faz um som de metal."
+      }
+    ],
+    "lucas": [
+      {
+        "page": 3,
+        "speaker": "Lucas",
+        "portrait": "portrait_lucas",
+        "text": "O aparelho pegou um tinido fino, lá no cais. Não é gaivota."
+      },
+      {
+        "page": 3,
+        "speaker": "Lucas",
+        "portrait": "portrait_lucas",
+        "text": "A Faísca já foi na frente. Quatro patas, sem olhar para trás."
+      }
+    ]
+  },
+  "pierScale": 0.6,
+  "pierTopY": 970
+}

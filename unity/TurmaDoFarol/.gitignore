@@ -1,0 +1,20 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+*.apk
+*.aab
+*.zip
+*.keystore
+*.jks
+.DS_Store
+# Arquivos temporários de transferência; os PNGs originais permanecem rastreados.
+Assets/**/.*

@@ -1,0 +1,115 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 1774,
+        "h": 887
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1774,
+        "h": 887
+      },
+      "sourceSize": {
+        "w": 1774,
+        "h": 887
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_33_blue_cave_entrance.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 33,
+    "textureKey": "blue_cave_entrance",
+    "title": "Entrada da Caverna Azul",
+    "imageFile": "asset_33_blue_cave_entrance.png",
+    "originalFilename": "exec-4b6d43da-6af1-4fd2-b10b-d09c673a1cec.png",
+    "sourceSizePx": {
+      "width": 1774,
+      "height": 887
+    },
+    "sourceMode": "RGBA",
+    "sha256": "d672c8e6f61027d93276097a22b9c7ddff9bcace3f7435b199c6d719c408e31f",
+    "kind": "single_image",
+    "frameCount": 1,
+    "indexing": "order_in_frameLabels",
+    "frameLabels": {
+      "f000": "fase_01"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "normalization": "tamanho_proprio_do_recorte",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "imagem_inteira",
+      "diagnostics": [],
+      "notes": [
+        "Cenário composto estático; brilho azul pode ser uma camada procedural independente."
+      ]
+    },
+    "animationKeys": []
+  },
+  "phaserAnimations": {
+    "anims": [],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "scenery": {
+      "blueCave": {
+        "texture": "blue_cave_entrance",
+        "frame": "f000",
+        "animation": null,
+        "glow": {
+          "color": "#69caff",
+          "minAlpha": 0.2,
+          "maxAlpha": 0.4,
+          "periodMs": 2400,
+          "easing": "Sine.InOut"
+        },
+        "finishTrigger": "player_enters_blue_cave_exit",
+        "saveBeforeTransition": true
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/scenery/blueCave"
+  ],
+  "dependencies": [],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('blue_cave_entrance', 'assets/ilha_farol/asset_33_blue_cave_entrance/asset_33_blue_cave_entrance.png', 'assets/ilha_farol/asset_33_blue_cave_entrance/asset_33_blue_cave_entrance.json');\nthis.load.json('config_asset_33', 'assets/ilha_farol/asset_33_blue_cave_entrance/asset_33_blue_cave_entrance.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_33');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência.",
+    "staticAssetNote": "Este asset não possui sequência temporal de quadros. O JSON configura módulos, estados, partículas ou movimentos procedurais conforme o tipo."
+  }
+}

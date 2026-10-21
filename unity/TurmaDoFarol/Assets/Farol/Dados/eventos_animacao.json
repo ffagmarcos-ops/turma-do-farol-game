@@ -1,0 +1,171 @@
+[
+  {
+    "animationKey": "bia.throw_stand",
+    "atFrameIndex": 4,
+    "action": "spawn_shell",
+    "parameters": {
+      "socket": "shell_painted_release_end",
+      "perAttackLimit": 1,
+      "note": "O quadro anterior já contém a concha pintada."
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 333.333333
+  },
+  {
+    "animationKey": "bia.throw_run",
+    "atFrameIndex": 4,
+    "action": "spawn_shell",
+    "parameters": {
+      "socket": "shell_painted_release_end",
+      "perAttackLimit": 1,
+      "note": "O quadro anterior já contém a concha pintada."
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 333.333333
+  },
+  {
+    "animationKey": "bia.throw_air",
+    "atFrameIndex": 4,
+    "action": "spawn_shell",
+    "parameters": {
+      "socket": "shell_painted_release_end",
+      "perAttackLimit": 1,
+      "note": "O quadro anterior já contém a concha pintada."
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 333.333333
+  },
+  {
+    "animationKey": "faisca.bark",
+    "atFrameIndex": 0,
+    "action": "spawn_bark_wave",
+    "parameters": {
+      "socket": "faisca_mouth",
+      "perCastLimit": 1
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 0
+  },
+  {
+    "animationKey": "crab.attack",
+    "atFrameIndex": 2,
+    "action": "enable_attack_hitbox",
+    "parameters": {
+      "hitbox": "claws",
+      "oncePerTargetPerAttack": true
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 166.666667
+  },
+  {
+    "animationKey": "crab.attack",
+    "atFrameIndex": 4,
+    "action": "disable_attack_hitbox",
+    "parameters": {
+      "hitbox": "claws"
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 333.333333
+  },
+  {
+    "animationKey": "crab.defeat",
+    "atFrameIndex": 0,
+    "action": "disable_enemy_damage",
+    "parameters": {
+      "immediateOnStateEnterAlso": true
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 0
+  },
+  {
+    "animationKey": "monkey.throw",
+    "atFrameIndex": 2,
+    "action": "lock_stone_aim",
+    "parameters": {
+      "showLandingMarker": true
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 200
+  },
+  {
+    "animationKey": "monkey.throw",
+    "atFrameIndex": 4,
+    "action": "spawn_stone",
+    "parameters": {
+      "socket": "stone_painted_release_end",
+      "perAttackLimit": 1
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 400
+  },
+  {
+    "animationKey": "toninho.throw_rope",
+    "atFrameIndex": 2,
+    "action": "deploy_rope",
+    "parameters": {
+      "ropeId": "toninho_rope_01",
+      "oncePerPuzzle": true
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 285.714286
+  },
+  {
+    "animationKey": "julia.flash",
+    "atFrameIndex": 3,
+    "action": "camera_flash",
+    "parameters": {
+      "socket": "camera_lens",
+      "stunDurationMs": 2000,
+      "perFlashLimit": 1
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 375
+  },
+  {
+    "animationKey": "lucas.assemble",
+    "atFrameIndex": 5,
+    "action": "activate_floating_platforms",
+    "parameters": {
+      "groupId": "lucas_stream",
+      "activationStaggerMs": 180,
+      "oncePerPuzzle": true
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 1000
+  },
+  {
+    "animationKey": "bia.discover",
+    "atFrameIndex": 2,
+    "action": "reveal_secret_hint",
+    "parameters": {
+      "secretId": "bia_hidden_path",
+      "revealEntranceOnly": true
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 400
+  },
+  {
+    "animationKey": "crumble.break",
+    "atFrameIndex": 4,
+    "action": "disable_platform_collider",
+    "parameters": {
+      "oneWayPlatform": true
+    },
+    "oncePerPlay": true,
+    "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+    "atMs": 400
+  }
+]

@@ -1,0 +1,421 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 13,
+        "y": 69,
+        "w": 370,
+        "h": 290
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 370,
+        "h": 290
+      },
+      "sourceSize": {
+        "w": 370,
+        "h": 290
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 389,
+        "y": 174,
+        "w": 335,
+        "h": 183
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 335,
+        "h": 183
+      },
+      "sourceSize": {
+        "w": 335,
+        "h": 183
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 728,
+        "y": 173,
+        "w": 331,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 331,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 331,
+        "h": 184
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 1065,
+        "y": 114,
+        "w": 370,
+        "h": 244
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 370,
+        "h": 244
+      },
+      "sourceSize": {
+        "w": 370,
+        "h": 244
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 13,
+        "y": 443,
+        "w": 214,
+        "h": 240
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 214,
+        "h": 240
+      },
+      "sourceSize": {
+        "w": 214,
+        "h": 240
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 237,
+        "y": 447,
+        "w": 188,
+        "h": 232
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 188,
+        "h": 232
+      },
+      "sourceSize": {
+        "w": 188,
+        "h": 232
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 423,
+        "y": 437,
+        "w": 398,
+        "h": 244
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 398,
+        "h": 244
+      },
+      "sourceSize": {
+        "w": 398,
+        "h": 244
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 829,
+        "y": 419,
+        "w": 159,
+        "h": 261
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 159,
+        "h": 261
+      },
+      "sourceSize": {
+        "w": 159,
+        "h": 261
+      }
+    },
+    "f008": {
+      "frame": {
+        "x": 992,
+        "y": 427,
+        "w": 216,
+        "h": 258
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 216,
+        "h": 258
+      },
+      "sourceSize": {
+        "w": 216,
+        "h": 258
+      }
+    },
+    "f009": {
+      "frame": {
+        "x": 1236,
+        "y": 429,
+        "w": 201,
+        "h": 251
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 201,
+        "h": 251
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 251
+      }
+    },
+    "f010": {
+      "frame": {
+        "x": 17,
+        "y": 727,
+        "w": 363,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 363,
+        "h": 313
+      }
+    },
+    "f011": {
+      "frame": {
+        "x": 391,
+        "y": 726,
+        "w": 331,
+        "h": 312
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 331,
+        "h": 312
+      },
+      "sourceSize": {
+        "w": 331,
+        "h": 312
+      }
+    },
+    "f012": {
+      "frame": {
+        "x": 726,
+        "y": 733,
+        "w": 164,
+        "h": 177
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 164,
+        "h": 177
+      },
+      "sourceSize": {
+        "w": 164,
+        "h": 177
+      }
+    },
+    "f013": {
+      "frame": {
+        "x": 916,
+        "y": 721,
+        "w": 125,
+        "h": 196
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 125,
+        "h": 196
+      },
+      "sourceSize": {
+        "w": 125,
+        "h": 196
+      }
+    },
+    "f014": {
+      "frame": {
+        "x": 726,
+        "y": 890,
+        "w": 474,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 474,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 474,
+        "h": 170
+      }
+    },
+    "f015": {
+      "frame": {
+        "x": 1217,
+        "y": 906,
+        "w": 221,
+        "h": 135
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 221,
+        "h": 135
+      },
+      "sourceSize": {
+        "w": 221,
+        "h": 135
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_07_ruins_cave_tiles.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1448,
+      "h": 1086
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 7,
+    "textureKey": "ruins_cave_tiles",
+    "title": "Tileset ruínas e caverna",
+    "imageFile": "asset_07_ruins_cave_tiles.png",
+    "originalFilename": "exec-a9c47cbe-a05f-4677-8658-27770f1c2d56.png",
+    "sourceSizePx": {
+      "width": 1448,
+      "height": 1086
+    },
+    "sourceMode": "RGBA",
+    "sha256": "1e6daa3b02b4eeae17c044085d00f0918ce92b064b6dd985cd6b1ee3f56b07f1",
+    "kind": "static_modules",
+    "frameCount": 16,
+    "indexing": "order_in_frameLabels",
+    "frameLabels": {
+      "f000": "solo_esquerda",
+      "f001": "solo_centro_a",
+      "f002": "solo_centro_b",
+      "f003": "solo_direita",
+      "f004": "ruina_a",
+      "f005": "ruina_b",
+      "f006": "arco",
+      "f007": "coluna_a",
+      "f008": "coluna_b",
+      "f009": "bloco",
+      "f010": "parede_a",
+      "f011": "parede_b",
+      "f012": "estalactite_a",
+      "f013": "estalactite_b",
+      "f014": "piso_caverna",
+      "f015": "pedras"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "normalization": "tamanho_proprio_do_recorte",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "prototype_needs_visual_alignment",
+      "cutMethod": "bounding_boxes_medidos_com_margem_3px",
+      "diagnostics": [],
+      "notes": [
+        "Módulos decorativos irregulares; colisão deve ser construída separadamente do desenho."
+      ]
+    },
+    "animationKeys": []
+  },
+  "phaserAnimations": {
+    "anims": [],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "scenery": {
+      "ruinsCaveTiles": {
+        "texture": "ruins_cave_tiles",
+        "animation": null,
+        "use": "Decoração modular de ruínas/caverna; colisão separada."
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/scenery/ruinsCaveTiles"
+  ],
+  "dependencies": [],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('ruins_cave_tiles', 'assets/ilha_farol/asset_07_ruins_cave_tiles/asset_07_ruins_cave_tiles.png', 'assets/ilha_farol/asset_07_ruins_cave_tiles/asset_07_ruins_cave_tiles.json');\nthis.load.json('config_asset_07', 'assets/ilha_farol/asset_07_ruins_cave_tiles/asset_07_ruins_cave_tiles.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_07');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência.",
+    "staticAssetNote": "Este asset não possui sequência temporal de quadros. O JSON configura módulos, estados, partículas ou movimentos procedurais conforme o tipo."
+  }
+}

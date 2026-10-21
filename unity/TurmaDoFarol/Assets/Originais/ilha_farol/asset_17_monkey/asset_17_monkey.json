@@ -1,0 +1,851 @@
+{
+  "frames": {
+    "f000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 296,
+        "h": 308
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 0,
+        "w": 296,
+        "h": 308
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f001": {
+      "frame": {
+        "x": 296,
+        "y": 0,
+        "w": 295,
+        "h": 308
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 0,
+        "w": 295,
+        "h": 308
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f002": {
+      "frame": {
+        "x": 591,
+        "y": 0,
+        "w": 296,
+        "h": 308
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 0,
+        "w": 296,
+        "h": 308
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f003": {
+      "frame": {
+        "x": 887,
+        "y": 0,
+        "w": 296,
+        "h": 308
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 0,
+        "w": 296,
+        "h": 308
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f004": {
+      "frame": {
+        "x": 1183,
+        "y": 0,
+        "w": 306,
+        "h": 308
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 306,
+        "h": 308
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f005": {
+      "frame": {
+        "x": 1489,
+        "y": 0,
+        "w": 285,
+        "h": 308
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 0,
+        "w": 285,
+        "h": 308
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f006": {
+      "frame": {
+        "x": 0,
+        "y": 308,
+        "w": 296,
+        "h": 287
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 21,
+        "w": 296,
+        "h": 287
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f007": {
+      "frame": {
+        "x": 296,
+        "y": 308,
+        "w": 295,
+        "h": 287
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 21,
+        "w": 295,
+        "h": 287
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f008": {
+      "frame": {
+        "x": 591,
+        "y": 308,
+        "w": 296,
+        "h": 287
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 21,
+        "w": 296,
+        "h": 287
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f009": {
+      "frame": {
+        "x": 887,
+        "y": 308,
+        "w": 296,
+        "h": 287
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 21,
+        "w": 296,
+        "h": 287
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f010": {
+      "frame": {
+        "x": 1183,
+        "y": 308,
+        "w": 275,
+        "h": 287
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 21,
+        "w": 275,
+        "h": 287
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f011": {
+      "frame": {
+        "x": 1458,
+        "y": 308,
+        "w": 316,
+        "h": 287
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 21,
+        "w": 316,
+        "h": 287
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f012": {
+      "frame": {
+        "x": 0,
+        "y": 595,
+        "w": 296,
+        "h": 292
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 16,
+        "w": 296,
+        "h": 292
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f013": {
+      "frame": {
+        "x": 296,
+        "y": 595,
+        "w": 302,
+        "h": 292
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 16,
+        "w": 302,
+        "h": 292
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f014": {
+      "frame": {
+        "x": 598,
+        "y": 595,
+        "w": 289,
+        "h": 292
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13,
+        "y": 16,
+        "w": 289,
+        "h": 292
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f015": {
+      "frame": {
+        "x": 887,
+        "y": 595,
+        "w": 296,
+        "h": 292
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 16,
+        "w": 296,
+        "h": 292
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f016": {
+      "frame": {
+        "x": 1183,
+        "y": 595,
+        "w": 295,
+        "h": 292
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 16,
+        "w": 295,
+        "h": 292
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    },
+    "f017": {
+      "frame": {
+        "x": 1478,
+        "y": 595,
+        "w": 296,
+        "h": 292
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 16,
+        "w": 296,
+        "h": 292
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 308
+      }
+    }
+  },
+  "meta": {
+    "app": "Ilha do Farol — manifesto de animações",
+    "version": "1.0",
+    "image": "asset_17_monkey.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  },
+  "schemaVersion": "1.1.0",
+  "fileType": "phaser_atlas_with_asset_configuration",
+  "project": "O Mistério da Ilha do Farol",
+  "asset": {
+    "number": 17,
+    "textureKey": "monkey",
+    "title": "Macaco inimigo: versão corrigida",
+    "imageFile": "asset_17_monkey.png",
+    "originalFilename": "exec-94e27369-1ced-4a16-b4ca-83126ed333fc.png",
+    "sourceSizePx": {
+      "width": 1774,
+      "height": 887
+    },
+    "sourceMode": "RGBA",
+    "sha256": "bb6fb26969ceccfa6c786cbccaf2ef1c59a900ec92978f03971768484a9a8a8d",
+    "kind": "animation_sheet",
+    "frameCount": 18,
+    "indexing": "zero_based_row_major",
+    "frameLabels": {
+      "f000": "parado",
+      "f001": "piscar",
+      "f002": "perceber",
+      "f003": "olhar",
+      "f004": "alcancar_pedra",
+      "f005": "pegar_pedra",
+      "f006": "segurar_pedra",
+      "f007": "puxar_braco",
+      "f008": "erguer",
+      "f009": "mirar",
+      "f010": "soltar_pedra_pintada",
+      "f011": "acompanhar",
+      "f012": "sorrir",
+      "f013": "rir",
+      "f014": "atingido",
+      "f015": "recuo",
+      "f016": "tonto",
+      "f017": "recuperado"
+    },
+    "registration": {
+      "origin": {
+        "x": 0.5,
+        "y": 1
+      },
+      "normalization": "canvas_comum_por_folha_alinhado_ao_centro_inferior",
+      "scaleRule": "Fixar a escala por personagem usando a altura corporal de uma pose neutra; manter a mesma escala corporal ao trocar de folha. Não recalcular pela altura total de cada quadro.",
+      "physicsRule": "Manter corpo físico separado da imagem; âncoras dos pés, mãos e boca precisam de calibração visual no jogo."
+    },
+    "quality": {
+      "status": "requires_frame_separation",
+      "cutMethod": "limites_entre_celulas_estimados_por_transparencia",
+      "diagnostics": [
+        {
+          "row": 0,
+          "y": [
+            0,
+            308
+          ],
+          "x": [
+            0,
+            296,
+            591,
+            887,
+            1183,
+            1489,
+            1774
+          ],
+          "max_seam_pixels": 0
+        },
+        {
+          "row": 1,
+          "y": [
+            308,
+            595
+          ],
+          "x": [
+            0,
+            296,
+            591,
+            887,
+            1183,
+            1458,
+            1774
+          ],
+          "max_seam_pixels": 32
+        },
+        {
+          "row": 2,
+          "y": [
+            595,
+            887
+          ],
+          "x": [
+            0,
+            296,
+            598,
+            887,
+            1183,
+            1478,
+            1774
+          ],
+          "max_seam_pixels": 0
+        }
+      ],
+      "notes": [
+        "O galho faz parte de cada quadro: manter o personagem preso à mesma âncora; não adicionar outro galho idêntico.",
+        "Quadros 6–11 de lançamento exigem revisão: pedra/trilha invade célula vizinha. O braço livre está parcialmente ocluso em algumas poses.",
+        "Não trocar diretamente para o asset 24: aquele macaco está sentado sobre o galho, este está pendurado."
+      ]
+    },
+    "animationKeys": [
+      "monkey.idle",
+      "monkey.notice",
+      "monkey.pickup",
+      "monkey.throw",
+      "monkey.taunt",
+      "monkey.hurt",
+      "monkey.stun_hanging",
+      "monkey.recover"
+    ]
+  },
+  "phaserAnimations": {
+    "anims": [
+      {
+        "key": "monkey.idle",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "monkey",
+            "frame": "f000",
+            "duration": 0
+          },
+          {
+            "key": "monkey",
+            "frame": "f001",
+            "duration": 0
+          },
+          {
+            "key": "monkey",
+            "frame": "f000",
+            "duration": 0
+          },
+          {
+            "key": "monkey",
+            "frame": "f003",
+            "duration": 0
+          }
+        ],
+        "frameRate": 4,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "monkey.notice",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "monkey",
+            "frame": "f002",
+            "duration": 0
+          },
+          {
+            "key": "monkey",
+            "frame": "f003",
+            "duration": 0
+          }
+        ],
+        "frameRate": 6,
+        "duration": 333.333333,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "monkey.pickup",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "monkey",
+            "frame": "f004",
+            "duration": 0
+          },
+          {
+            "key": "monkey",
+            "frame": "f005",
+            "duration": 0
+          },
+          {
+            "key": "monkey",
+            "frame": "f006",
+            "duration": 0
+          }
+        ],
+        "frameRate": 8,
+        "duration": 375.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "monkey.throw",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "monkey",
+            "frame": "f007",
+            "duration": 0
+          },
+          {
+            "key": "monkey",
+            "frame": "f008",
+            "duration": 0
+          },
+          {
+            "key": "monkey",
+            "frame": "f009",
+            "duration": 0
+          },
+          {
+            "key": "monkey",
+            "frame": "f010",
+            "duration": 0
+          },
+          {
+            "key": "monkey",
+            "frame": "f011",
+            "duration": 0
+          }
+        ],
+        "frameRate": 10,
+        "duration": 500.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "monkey.taunt",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "monkey",
+            "frame": "f012",
+            "duration": 0
+          },
+          {
+            "key": "monkey",
+            "frame": "f013",
+            "duration": 0
+          }
+        ],
+        "frameRate": 4,
+        "duration": 500.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "monkey.hurt",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "monkey",
+            "frame": "f014",
+            "duration": 0
+          },
+          {
+            "key": "monkey",
+            "frame": "f015",
+            "duration": 0
+          }
+        ],
+        "frameRate": 10,
+        "duration": 200.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "monkey.stun_hanging",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "monkey",
+            "frame": "f016",
+            "duration": 0
+          }
+        ],
+        "frameRate": 1,
+        "duration": 1000.0,
+        "delay": 0,
+        "repeat": -1,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      },
+      {
+        "key": "monkey.recover",
+        "type": "frame",
+        "frames": [
+          {
+            "key": "monkey",
+            "frame": "f017",
+            "duration": 0
+          },
+          {
+            "key": "monkey",
+            "frame": "f000",
+            "duration": 0
+          }
+        ],
+        "frameRate": 8,
+        "duration": 250.0,
+        "delay": 0,
+        "repeat": 0,
+        "repeatDelay": 0,
+        "yoyo": false,
+        "showBeforeDelay": false,
+        "showOnStart": true,
+        "hideOnComplete": false,
+        "skipMissedFrames": true,
+        "randomFrame": false
+      }
+    ],
+    "globalTimeScale": 1
+  },
+  "animationEvents": [
+    {
+      "animationKey": "monkey.throw",
+      "atFrameIndex": 2,
+      "action": "lock_stone_aim",
+      "parameters": {
+        "showLandingMarker": true
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 200.0
+    },
+    {
+      "animationKey": "monkey.throw",
+      "atFrameIndex": 4,
+      "action": "spawn_stone",
+      "parameters": {
+        "socket": "stone_painted_release_end",
+        "perAttackLimit": 1
+      },
+      "oncePerPlay": true,
+      "dispatchRule": "Disparar ao atravessar o instante do quadro, inclusive se o delta de atualização pular esse quadro; deduplicar por entityId + playId + índice do evento.",
+      "atMs": 400.0
+    }
+  ],
+  "incomingEvents": [],
+  "behaviorConfig": {
+    "monkeys": {
+      "hanging": {
+        "texture": "monkey",
+        "animations": {
+          "idle": "monkey.idle",
+          "notice": "monkey.notice",
+          "pickup": "monkey.pickup",
+          "throw": "monkey.throw",
+          "taunt": "monkey.taunt",
+          "hurt": "monkey.hurt",
+          "stun": "monkey.stun_hanging",
+          "recover": "monkey.recover"
+        },
+        "branchAnchorFixed": true,
+        "health": 2,
+        "detectionRange": 740,
+        "throwCooldownMs": 2600,
+        "throwCooldownJitterMs": 500,
+        "onCameraFlash": "cancel_throw_then_hold_stun_for_2000ms",
+        "stunDurationMs": 2000,
+        "onBarkHit": "comic_defeat",
+        "defeatAnimation": null,
+        "defeatPlaceholder": "disable_damage_then_small_rotation_and_fade_450ms",
+        "throwClipQuality": "needs_frame_separation"
+      },
+      "groupRule": "Escalonar arremessos de macacos próximos para não criar impactos simultâneos inevitáveis.",
+      "stunRule": "Cancelar pedra ainda não lançada e seu marcador. Pedras já lançadas continuam sua trajetória."
+    },
+    "projectiles": {
+      "stone": {
+        "texture": "stone_projectile",
+        "animation": "stone.spin",
+        "flightTimeMs": 850,
+        "gravity": 900,
+        "trajectory": "Capture target at lock_stone_aim, then solve vx=(targetX-startX)/T and vy=(targetY-startY-0.5*g*T*T)/T, with T in seconds.",
+        "lifeMs": 1800,
+        "damage": 1,
+        "destroyOnFirstCollision": true,
+        "showLandingShadow": true,
+        "removeShadowOnCancelOrImpact": true,
+        "ignoreOwner": true,
+        "spawnSocket": "stone_painted_release_end",
+        "socketCalibrationRequired": true
+      }
+    }
+  },
+  "behaviorSources": [
+    "/behaviors/monkeys/hanging",
+    "/behaviors/monkeys/groupRule",
+    "/behaviors/monkeys/stunRule",
+    "/behaviors/projectiles/stone"
+  ],
+  "dependencies": [
+    {
+      "assetNumber": 18,
+      "textureKey": "stone_projectile",
+      "imageFile": "../asset_18_stone_projectile/asset_18_stone_projectile.png",
+      "jsonFile": "../asset_18_stone_projectile/asset_18_stone_projectile.json"
+    },
+    {
+      "assetNumber": 22,
+      "textureKey": "julia_camera",
+      "imageFile": "../asset_22_julia_camera/asset_22_julia_camera.png",
+      "jsonFile": "../asset_22_julia_camera/asset_22_julia_camera.json"
+    },
+    {
+      "assetNumber": 23,
+      "textureKey": "camera_flash",
+      "imageFile": "../asset_23_camera_flash/asset_23_camera_flash.png",
+      "jsonFile": "../asset_23_camera_flash/asset_23_camera_flash.json"
+    }
+  ],
+  "masterManifestFile": "../ilha_farol_animacoes_assets_06_37.json",
+  "integration": {
+    "nativeAtlas": "frames e meta formam um atlas JSON Hash. Este mesmo JSON pode ser usado como arquivo de atlas no Phaser.",
+    "customFields": "phaserAnimations deve ser registrado no AnimationManager; eventos e behaviorConfig exigem implementação no controlador do jogo.",
+    "dependencyScope": "As dependências representam integração de movimentos e interações. Não é necessário carregar todas para apenas visualizar uma sequência isolada.",
+    "preloadExampleJs": "this.load.atlas('monkey', 'assets/ilha_farol/asset_17_monkey/asset_17_monkey.png', 'assets/ilha_farol/asset_17_monkey/asset_17_monkey.json');\nthis.load.json('config_asset_17', 'assets/ilha_farol/asset_17_monkey/asset_17_monkey.json');",
+    "createExampleJs": "const cfg = this.cache.json.get('config_asset_17');\nfor (const anim of cfg.phaserAnimations.anims) {\n  if (!this.anims.exists(anim.key)) this.anims.create(anim);\n}",
+    "exampleBasePath": "assets/ilha_farol/",
+    "pathRule": "Os exemplos assumem que a pasta ilha_farol está disponível em assets/ilha_farol/. Ajustar apenas esse prefixo à estrutura do projeto.",
+    "avoidDoubleRegistration": "Escolher carregamento pelo JSON geral OU pelos JSONs individuais. Não duplicar entidades e eventos ao usar os dois como referência."
+  }
+}
