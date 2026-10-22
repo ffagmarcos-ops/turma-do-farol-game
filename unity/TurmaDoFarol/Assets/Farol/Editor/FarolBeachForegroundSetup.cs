@@ -17,15 +17,17 @@ namespace TurmaDoFarol.Editor
         {
             if(EditorApplication.isPlaying||UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty)throw new InvalidOperationException("A cena deve estar salva e fora do Play.");
             string materialPath=Folder+"Materiais/VegetacaoProximaDesfocada.mat";var material=AssetDatabase.LoadAssetAtPath<Material>(materialPath);
-            if(!material){material=new Material(Shader.Find("Farol/Visual/VegetacaoProximaDesfocada"));AssetDatabase.CreateAsset(material,materialPath);}material.SetFloat("_BlurPixels",18);EditorUtility.SetDirty(material);
+            if(!material){material=new Material(Shader.Find("Farol/Visual/VegetacaoProximaDesfocada"));AssetDatabase.CreateAsset(material,materialPath);}material.SetFloat("_BlurPixels",4);EditorUtility.SetDirty(material);
             foreach(var path in new[]{"Assets/Farol/Campanha_20261021_215901/Fase3_Ilha.unity","Assets/Farol/Visual/Bloco01/Fase3_Referencia.unity"})
             {
                 var scene=EditorSceneManager.OpenScene(path);var old=GameObject.Find("Praia — primeiro plano");if(old)UnityEngine.Object.DestroyImmediate(old);
                 var root=new GameObject("Praia — primeiro plano");var layer=root.AddComponent<FarolBeachForeground>();layer.lens=Camera.main;layer.player=UnityEngine.Object.FindFirstObjectByType<FarolPlayerController>().transform;
-                layer.left=Plant(root.transform,"samambaia-costeira",4.8f,false,material);layer.right=Plant(root.transform,"palmeira-jovem",5.1f,true,material);
+                string[] files={"samambaia-costeira","palmeira-jovem","capim-costeiro","arbusto-costeiro"};
+                layer.variations=System.Array.ConvertAll(files,f=>AssetDatabase.LoadAssetAtPath<Sprite>(Folder+"pecas/"+f+".png"));
+                layer.plants=new SpriteRenderer[8];for(int i=0;i<layer.plants.Length;i++)layer.plants[i]=Plant(root.transform,files[i%files.Length],6,false,material);
                 EditorSceneManager.MarkSceneDirty(scene);EditorSceneManager.SaveScene(scene);
             }
-            TurmaDoFarol.Editor.FarolVisualBlockOne.OpenCampaign();AssetDatabase.SaveAssets();return "Samambaia e palmeira jovem em primeiro plano desfocado, com centro livre.";
+            TurmaDoFarol.Editor.FarolVisualBlockOne.OpenCampaign();AssetDatabase.SaveAssets();return "Vegetação próxima com parallax de 1,24, grupos variados e desfoque reduzido.";
         }
     }
 }

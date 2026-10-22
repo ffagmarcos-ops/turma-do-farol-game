@@ -40,8 +40,12 @@ A comparação final de todos os colisores da campanha permaneceu idêntica. Os 
 
 O novo atalho foi testado: inicia na praia e, ao encerrar o Play, restaura os registros da campanha/ilha e a execução em segundo plano. Avisos de nome interno das malhas foram corrigidos nos assets e na ferramenta de montagem.
 
-## Vegetação próxima da câmera
+## Vegetação próxima da câmera — parallax revisado
 
-Samambaia costeira à esquerda e palmeira jovem à direita, reaproveitando os PNGs aprovados. A camada fica nas bordas inferiores, com desfoque local por material, opacidade moderada e deslocamento suave conforme a câmera avança. A faixa central e a parte superior ficam protegidas por máscara de tela. O desfoque não é aplicado à cena inteira nem à interface. Há redução gradual da camada ao terminar a praia. Nenhuma colisão ou imagem original foi modificada.
+A moldura fixa das bordas foi substituída por oito grupos reciclados em coordenadas de parallax. Samambaia, palmeira jovem, capim e arbusto costeiro reutilizam as artes aprovadas. Cada grupo conserva a própria aparência e posição de referência durante a rolagem; a reciclagem ocorre fora da área visível.
 
-Conferência em Play do primeiro plano: shader sem erro, zero colisores adicionados, quadros avançando (685→3033), ocultação após o setor A e restauração dos dois registros de progresso ao sair do teste. Captura inspecionada com personagem e interface legíveis.
+Para avanço de1unidade da câmera, a vegetação desloca-se1,24unidade no sentido oposto na tela. Isso cria movimento relativo de primeiro plano, em vez de acompanhar a personagem. Os grupos têm espaçamento de7,2unidades, pequenas variações de tamanho/posição e cobrem parte da faixa baixa do cenário. O centro recebe opacidade menor para manter leitura da ação, sem eliminar a vegetação nessa faixa.
+
+O desfoque do material caiu de18para4pixels da arte. Os PNGs originais permanecem intactos; não há desfoque global, alteração de colisão, personagens ou inimigos. A camada desaparece progressivamente ao sair da praia.
+
+Conferência da revisão: movimento medido em LateUpdate com câmera controlada, deslocamento de mundo −0,240 e deslocamento relativo na tela −1,240 para avanço de1unidade da câmera. Material com desfoque4, shader sem erro e nenhum colisor na camada. Quadros avançando e captura inspecionada.
