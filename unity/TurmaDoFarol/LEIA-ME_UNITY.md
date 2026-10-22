@@ -1,3 +1,24 @@
+# Jogar a campanha no Unity
+
+A campanha nativa atual fica em `Assets/Farol/Campanha_20261021_212822/`.
+Abra `Menu_Campanha.unity`, pressione Play e clique na aba Game.
+
+- **Jogar · Vila das Conchas:** introdução em HQ, Marina, Faísca, 120 conchas (12 douradas), conversas, checkpoints e embarque.
+- **Continuar aventura:** retoma o checkpoint da Vila ou a etapa salva do polvo.
+- **Testar Fase 2 · O Polvo Gigante:** abre diretamente a batalha para teste, sem percorrer a Vila.
+- **Som:** volumes de música/efeitos, mudo e redução de flashes.
+- **Abrir base da ilha:** preserva o acesso à cena anterior; essa base ainda tem as pendências de portabilidade descritas abaixo.
+
+Na Vila: A/D ou setas para andar, Shift para correr, Espaço/W para pular, S para agachar e E para conversar/embarcar. Na batalha: A/D para andar, W/seta acima para pular, S para agachar e J/E/Espaço para o sônico. Segure o sônico por cerca de 1,5 s e solte para disparar a carga. Esc pausa e M alterna o mudo.
+
+O progresso da campanha usa `farol.unity.campanha.v1` no PlayerPrefs e não apaga nem migra o save do Phaser/APK. Começar uma nova aventura pede confirmação. Os testes de desenvolvimento usam controles próprios não serializados e não ficam ativos ao sair do Play.
+
+A campanha acrescenta uma implementação nativa das fases 1 e 2. Ainda não representa paridade integral com a versão Phaser: o hub de portais/curiosidades e os sistemas avançados da ilha permanecem pendentes. A apresentação e o comportamento do combate foram adaptados para o Unity, sem equivalência quadro a quadro de todos os efeitos e eventos da versão original.
+
+Para reproduzir a geração: execute `python3 tools/exportar_campanha_unity.py` na raiz e, com o Editor fora do Play e a cena salva, invoque `TurmaDoFarol.Editor.FarolCampaignBuilder.Build()` pelo Pipeline. A preparação gera uma pasta nova, preservando cenas anteriores. Os arquivos PNG/JPG e áudios originais não são sobrescritos.
+
+---
+
 # Turma do Farol — base de migração para Unity
 
 Esta pasta é o projeto Unity. A raiz do repositório continua sendo o projeto Phaser.

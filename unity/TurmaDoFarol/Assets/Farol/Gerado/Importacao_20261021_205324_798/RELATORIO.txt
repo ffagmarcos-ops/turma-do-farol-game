@@ -1,0 +1,4 @@
+Origem: 3079418e19fd59b584e609a4adc986f72cfdc949
+Cenas geradas: Assets/Farol/Gerado/Importacao_20261021_205324_798/Fase3_Ilha.unity, Assets/Farol/Gerado/Importacao_20261021_205324_798/Fase1_Vila_Base.unity
+Elementos com arte provisoria: 231
+Consulte LEIA-ME_UNITY.md. Mecânicas ainda não portadas estão marcadas no Inspector.

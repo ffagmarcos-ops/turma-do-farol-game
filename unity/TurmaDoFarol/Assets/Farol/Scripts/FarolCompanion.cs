@@ -19,7 +19,7 @@ namespace TurmaDoFarol
             if(Vector2.Distance(transform.position,player.transform.position)>12||transform.position.y< -4){body.position=(Vector2)player.transform.position+Vector2.left*player.facing;body.linearVelocity=Vector2.zero;}
             if(visual&&Mathf.Abs(dx)>.2f)visual.flipX=dx<0;
             string next=Mathf.Abs(velocity.x)>.2f?"faisca.run":"faisca.idle";
-            if(animator&&next!=pose){pose=next;animator.Play(next);}
+            if(animator&&next!=pose){pose=next;animator.Play(Animator.StringToHash("Base Layer."+next),0,0);}
         }
     }
 }
