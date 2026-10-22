@@ -80,3 +80,4 @@ PASS Inimigo derrotado e ajudas persistem ao reabrir a ilha
 PASS Botão Explorar a ilha novamente
 
 Versão web original: 8 testes de dados/eventos e 554 verificações no navegador passaram.
+PASS Faísca segue a rota alternativa e volta a acompanhar Bia quando ela retorna

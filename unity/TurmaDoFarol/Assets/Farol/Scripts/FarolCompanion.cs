@@ -4,13 +4,14 @@ namespace TurmaDoFarol
     [RequireComponent(typeof(Rigidbody2D),typeof(BoxCollider2D))]
     public sealed class FarolCompanion : MonoBehaviour
     {
-        public FarolPlayerController player; Rigidbody2D body; Animator animator; SpriteRenderer visual;string pose;float actionUntil;bool detouring;Vector2 detourPath,reunion;
+        public FarolPlayerController player; Rigidbody2D body; Animator animator; SpriteRenderer visual;string pose;float actionUntil;bool detouring;float detourStartX;Vector2 detourPath,reunion;
         void Awake(){body=GetComponent<Rigidbody2D>();body.gravityScale=18f/9.81f;body.freezeRotation=true;body.interpolation=RigidbodyInterpolation2D.Interpolate;animator=GetComponent<Animator>();visual=GetComponent<SpriteRenderer>();}
-        public void Detour(Vector2 path,Vector2 destination){detouring=true;detourPath=path;reunion=destination;}
+        public void Detour(Vector2 path,Vector2 destination){detouring=true;detourStartX=player?player.transform.position.x:path.x;detourPath=path;reunion=destination;}
         public void Action(string name,float duration){actionUntil=Time.time+duration;if(pose!=name){pose=name;FarolIslandArt.Play(animator,name);}}
         void FixedUpdate()
         {
             if(!player)return;
+            if(detouring&&player.transform.position.x<detourStartX-1)detouring=false;
             float targetX=player.transform.position.x-player.facing*1.2f;
             if(detouring){if(player.transform.position.x<reunion.x-.6f)targetX=detourPath.x;else{body.position=reunion;body.linearVelocity=Vector2.zero;detouring=false;}}
             float dx=targetX-transform.position.x;
