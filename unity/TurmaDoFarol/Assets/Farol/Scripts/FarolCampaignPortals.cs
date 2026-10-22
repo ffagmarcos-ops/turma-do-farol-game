@@ -92,7 +92,9 @@ namespace TurmaDoFarol
             if(progress.arriveIsland&&session&&session.player){session.player.Teleport(new Vector2(1.5f,1.84f));session.Checkpoint(new Vector2(1.5f,1.84f));progress.arriveIsland=false;Store();}
             progress.islandStarted=true;progress.resumeStage="island";Store();UpdateIsland();
         }
-        void UpdateIsland(){Label("stage","Fase 3 · Ilha das Cavernas Azuis");Label("objective","Explore a praia e avance pela ilha");Label("shells",$"Carteira: {progress.wallet} conchas");Label("controls","A/D: andar · Shift: correr · Espaço: pular · S: agachar · Z: concha · X: carregar latido · Esc: pausa e portais");}
+        void UpdateIsland(){var island=GetComponent<FarolIslandMechanics>();Label("stage","Fase 3 · "+(island?island.SectorName:"Ilha das Cavernas Azuis"));Label("objective",island&&Time.time<island.hintUntil?island.hint:"Explore a ilha · Latido: "+(island&&island.Cooldown>0?Mathf.CeilToInt(island.Cooldown)+" s para recarregar":"pronto"));Label("shells",$"Carteira: {progress.wallet} conchas");Label("controls","A/D: andar · Shift: correr · Espaço: pular (duplo) · S: agachar · Z/J: concha · X/K: segurar 1,5 s e soltar latido · ↑: corda · Esc: pausa");}
+        public void ShowIslandVictory(){Label("victoryTitle","Expedição concluída!");Label("victoryText",$"Você chegou à Caverna Azul. Conchas da ilha: {progress.islandShells.Count} · Carteira: {progress.wallet}");ui.Q<Button>("replayBoss").text="Explorar a ilha novamente";Show("victory",true);ui.Q<Button>("victoryMenu").Focus();}
+        void ReplayIsland(){var session=FindFirstObjectByType<FarolGameSession>();session.progress.hasCheckpoint=false;session.progress.events.Remove("fase3-concluida");session.SaveProgress();Load(islandScene);}
         public void CollectIsland(string id,int value){if(progress.islandShells.Contains(id))return;progress.islandShells.Add(id);progress.wallet+=value;Store();}
     }
 }

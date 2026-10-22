@@ -1,0 +1,82 @@
+PASS Frames do jogo avançam
+PASS Todos os SpriteRenderers possuem sprite
+PASS NPCs mantêm seus próprios atlas
+PASS Setor A: cena e protagonista carregados
+PASS Setor B: cena e protagonista carregados
+PASS Setor C: cena e protagonista carregados
+PASS Setor D: cena e protagonista carregados
+PASS Setor E: cena e protagonista carregados
+PASS Setor F: cena e protagonista carregados
+PASS Setor G: cena e protagonista carregados
+PASS Setor H: cena e protagonista carregados
+PASS Setor I: cena e protagonista carregados
+PASS Setor J: cena e protagonista carregados
+PASS Setor K: cena e protagonista carregados
+PASS Setor L: cena e protagonista carregados
+PASS Setor M: cena e protagonista carregados
+PASS Setor N: cena e protagonista carregados
+PASS Setor O: cena e protagonista carregados
+PASS Ajuda concluída marinaF0
+PASS Caixa posicionada marinaF0
+PASS Ajuda concluída marinaF2
+PASS Caixa posicionada marinaF2
+PASS Ajuda concluída marinaF3
+PASS Caixa posicionada marinaF3
+PASS Flash da Júlia juliaH0
+PASS Flash da Júlia juliaH1
+PASS Flash da Júlia juliaH2
+PASS Flash da Júlia juliaH3
+PASS Ajuda concluída lucasI0
+PASS Plataformas visíveis e sólidas lucasI0
+PASS Ajuda concluída lucasI1
+PASS Plataformas visíveis e sólidas lucasI1
+PASS Ajuda concluída lucasI2
+PASS Plataformas visíveis e sólidas lucasI2
+PASS Ajuda concluída lucasI3
+PASS Plataformas visíveis e sólidas lucasI3
+PASS Ajuda concluída biaL0
+PASS Plataformas visíveis e sólidas biaL0
+PASS Ajuda concluída biaL2
+PASS Plataformas visíveis e sólidas biaL2
+PASS Plataforma instável quebra ao pisar
+PASS Plataforma instável reaparece
+PASS Plataforma móvel carrega a personagem
+PASS Macaco mira e arremessa pedra
+PASS Macaco atordoa e cancela ataque
+PASS Primeira concha acerta o caranguejo e retira uma vida
+PASS Segunda concha derrota o caranguejo
+PASS Latido dispara
+PASS Recarga impede latidos duplicados
+PASS Latido quebra parede e salva abertura
+PASS Orbe recarrega o latido
+PASS Relíquia coletada e salva
+PASS Agarrar corda
+PASS Soltar corda restaura física
+PASS Respawn retorna ao checkpoint sem game over
+PASS Encerramento na Caverna Azul e conclusão salva
+PASS Nenhum sprite ausente após ativar as mecânicas
+
+Verificações adicionais:
+PASS Segredo toca-rochas (agachado)
+PASS Segredo fenda-costao (agachado)
+PASS Segredo raizes-floresta
+PASS Segredo gruta-toninho
+PASS Segredo tronco-secreto-e
+PASS Segredo pedra-marina
+PASS Segredo fenda-desfiladeiro
+PASS Segredo moita-julia
+PASS Segredo margem-lucas
+PASS Segredo atras-da-cachoeira
+PASS Segredo ninho-copas
+PASS Segredo ninho-copas-altas
+PASS Segredo camara-ruinas-n
+PASS Boia afunda com o peso
+PASS Boia retorna sem o peso
+PASS Arremesso aguarda a soltura
+PASS Uma concha após 333 ms
+PASS Dano cancela arremesso pendente
+PASS Projétil não aplica dano durante a pausa
+PASS Inimigo derrotado e ajudas persistem ao reabrir a ilha
+PASS Botão Explorar a ilha novamente
+
+Versão web original: 8 testes de dados/eventos e 554 verificações no navegador passaram.

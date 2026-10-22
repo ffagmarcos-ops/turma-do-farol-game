@@ -31,6 +31,7 @@ namespace TurmaDoFarol
         public bool Collected(string id)=>progress.collected.Contains(id);
         public void Collect(string id,int value){if(Collected(id))return;progress.collected.Add(id);progress.shells+=value;if(campaign)campaign.CollectIsland(id,value);Store();}
         public void Checkpoint(Vector2 p){progress.hasCheckpoint=true;progress.x=p.x;progress.y=p.y;if(player)player.respawnPosition=p;Store();}
+        public void SaveProgress(){Store();}
         void Store(){PlayerPrefs.SetString(Key,JsonUtility.ToJson(progress));PlayerPrefs.Save();}
         void Update(){if(campaign)return;if(Input.GetKeyDown(KeyCode.Escape))Time.timeScale=Time.timeScale==0?1:0;}
         void OnDestroy(){if(Instance==this)Instance=null;Time.timeScale=1;}

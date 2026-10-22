@@ -59,7 +59,7 @@ namespace TurmaDoFarol
             Click("island",()=>Load(portalsScene));Click("pausePortals",()=>Load(portalsScene));
             Click("sound",()=>OpenSound(true));Click("pauseSound",()=>OpenSound(false));Click("closeSound",CloseSound);
             Click("pauseButton",TogglePause);Click("resume",TogglePause);Click("mainMenu",()=>Load(menuScene));
-            Click("next",AdvanceDialogue);Click("skip",EndDialogue);Click("replayBoss",()=>{progress.bossPhase=0;Store();Load(bossScene);});Click("victoryMenu",()=>Load(menuScene));
+            Click("next",AdvanceDialogue);Click("skip",EndDialogue);Click("replayBoss",()=>{if(stage=="island"){ReplayIsland();return;}progress.bossPhase=0;Store();Load(bossScene);});Click("victoryMenu",()=>Load(menuScene));
             Click("cancelNew",()=>{Show("confirm",false);ui.Q<Button>("play").Focus();});Click("acceptNew",StartNew);
             var mv=ui.Q<Slider>("musicVolume");mv.SetValueWithoutNotify(musicVolume);mv.RegisterValueChangedCallback(e=>{musicVolume=e.newValue;PlayerPrefs.SetFloat("farol.unity.music",musicVolume);});
             var ev=ui.Q<Slider>("effectsVolume");ev.SetValueWithoutNotify(effectsVolume);ev.RegisterValueChangedCallback(e=>{effectsVolume=e.newValue;PlayerPrefs.SetFloat("farol.unity.effects",effectsVolume);});
