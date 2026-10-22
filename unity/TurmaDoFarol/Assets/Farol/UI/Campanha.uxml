@@ -4,49 +4,50 @@
   <ui:VisualElement name="hud" class="hud hidden" picking-mode="Ignore">
    <ui:VisualElement class="hud-box" picking-mode="Ignore"><ui:Label name="stage" class="stage"/><ui:Label name="objective" class="small"/><ui:Label name="shells" class="small"/></ui:VisualElement>
    <ui:VisualElement name="bossHud" class="hud-box hidden" picking-mode="Ignore"><ui:Label name="bossLabel"/><ui:ProgressBar name="bossLife"/><ui:Label name="lucasLabel"/><ui:ProgressBar name="lucasLife"/><ui:ProgressBar name="heat"/><ui:Label name="charge" class="small"/></ui:VisualElement>
-   <ui:Button name="portalsList" text="Lista de portais" class="hidden"/><ui:Button name="pauseButton" text="Pausa"/>
+   <ui:Button name="portalsList" text="Lista de portais" class="hidden art-button btn-portais"/><ui:Button name="pauseButton" text="Pausa" class="art-button btn-menu"/>
   </ui:VisualElement>
   <ui:Label name="prompt" class="prompt hidden" picking-mode="Ignore"/>
   <ui:Label name="controls" class="controls hidden" picking-mode="Ignore"/>
   <ui:VisualElement name="menu" class="overlay hidden"><ui:VisualElement class="card">
    <ui:Label text="TURMA DO FAROL" class="title"/><ui:Label text="O Mistério da Ilha do Farol" class="subtitle"/>
-   <ui:Button name="play" text="Jogar · Vila das Conchas" class="primary"/>
-   <ui:Button name="continue" text="Continuar aventura"/>
-   <ui:Button name="bossTest" text="Testar Fase 2 · O Polvo Gigante"/>
-   <ui:Button name="island" text="Portais do Farol"/>
-   <ui:Button name="sound" text="Som"/>
+   <ui:Button name="play" text="Jogar · Vila das Conchas" class="primary art-button btn-jogar"/>
+   <ui:Button name="continue" text="Continuar aventura" class="art-button btn-continuar"/>
+   <ui:Button name="bossTest" text="Testar Fase 2 · O Polvo Gigante" class="art-button btn-menu"/>
+   <ui:Button name="island" text="Portais do Farol" class="art-button btn-portais"/>
+   <ui:Button name="menuList" text="Lista de portais" class="art-button btn-portais"/><ui:Button name="sound" text="Som" class="art-button btn-menu"/><ui:Button name="creditsButton" text="Créditos" class="art-button btn-menu"/>
   </ui:VisualElement></ui:VisualElement>
   <ui:VisualElement name="pause" class="overlay hidden"><ui:VisualElement class="card">
-   <ui:Label text="Pausado" class="title"/><ui:Button name="resume" text="Continuar" class="primary"/>
-   <ui:Button name="pausePortals" text="Portais do Farol"/><ui:Button name="pauseSound" text="Som"/><ui:Button name="mainMenu" text="Menu principal"/>
+   <ui:Label text="Pausado" class="title"/><ui:Button name="resume" text="Continuar" class="primary art-button btn-continuar"/>
+   <ui:Button name="pausePortals" text="Portais do Farol" class="art-button btn-portais"/><ui:Button name="pauseSound" text="Som" class="art-button btn-menu"/><ui:Button name="mainMenu" text="Menu principal" class="art-button btn-menu"/>
   </ui:VisualElement></ui:VisualElement>
   <ui:VisualElement name="settings" class="overlay hidden"><ui:VisualElement class="card">
    <ui:Label text="Som" class="title"/><ui:Slider name="musicVolume" label="Música" low-value="0" high-value="1"/>
    <ui:Slider name="effectsVolume" label="Efeitos" low-value="0" high-value="1"/>
    <ui:Toggle name="mute" label="Mudo"/><ui:Toggle name="reduceFlashes" label="Reduzir flashes"/>
-   <ui:Button name="closeSound" text="Voltar" class="primary"/>
+   <ui:Button name="closeSound" text="Voltar" class="primary art-button btn-menu"/>
   </ui:VisualElement></ui:VisualElement>
   <ui:VisualElement name="hq" class="hq hidden">
-   <ui:Image name="panelArt" class="panel-art" picking-mode="Ignore"/>
+   <ui:Image name="hqBackdrop" class="hq-backdrop" picking-mode="Ignore"/><ui:Image name="hqFrame" class="hq-frame" picking-mode="Ignore"/><ui:VisualElement class="hq-window" picking-mode="Ignore"><ui:Image name="panelArt" class="panel-art" picking-mode="Ignore"/></ui:VisualElement>
    <ui:VisualElement class="dialogue"><ui:Label name="speaker" class="speaker"/><ui:Label name="speech" class="speech"/></ui:VisualElement>
-   <ui:VisualElement class="dialogue-actions"><ui:Button name="skip" text="Pular sequência"/><ui:Button name="next" text="Continuar  →" class="primary"/></ui:VisualElement>
+   <ui:VisualElement class="dialogue-actions"><ui:Button name="skip" text="Pular sequência" class="art-button btn-menu"/><ui:Button name="next" text="Continuar  →" class="primary art-button btn-continuar"/></ui:VisualElement>
   </ui:VisualElement>
-  <ui:VisualElement name="victory" class="overlay hidden"><ui:VisualElement class="card"><ui:Label text="O Esperança está a salvo!" class="title"/><ui:Label name="victoryText" class="notice"/><ui:Button name="replayBoss" text="Jogar a batalha novamente" class="primary"/><ui:Button name="victoryMenu" text="Menu principal"/></ui:VisualElement></ui:VisualElement>
-  <ui:VisualElement name="confirm" class="overlay hidden"><ui:VisualElement class="card"><ui:Label text="Começar uma nova aventura?" class="title"/><ui:Label text="As etapas serão reiniciadas. Sua carteira e os portais abertos serão preservados." class="notice"/><ui:Button name="cancelNew" text="Agora não" class="primary"/><ui:Button name="acceptNew" text="Começar"/></ui:VisualElement></ui:VisualElement>
+  <ui:VisualElement name="victory" class="overlay hidden"><ui:VisualElement class="card"><ui:Label text="O Esperança está a salvo!" class="title"/><ui:Label name="victoryText" class="notice"/><ui:Button name="replayBoss" text="Jogar a batalha novamente" class="primary art-button btn-jogar_de_novo"/><ui:Button name="victoryMenu" text="Menu principal" class="art-button btn-menu"/></ui:VisualElement></ui:VisualElement>
+  <ui:VisualElement name="confirm" class="overlay hidden"><ui:VisualElement class="card"><ui:Label text="Começar uma nova aventura?" class="title"/><ui:Label text="As etapas serão reiniciadas. Sua carteira e os portais abertos serão preservados." class="notice"/><ui:Button name="cancelNew" text="Agora não" class="primary art-button btn-menu"/><ui:Button name="acceptNew" text="Começar" class="art-button btn-jogar_de_novo"/></ui:VisualElement></ui:VisualElement>
   <ui:VisualElement name="portals" class="overlay hidden"><ui:VisualElement class="portal-hall">
    <ui:Label text="PORTAIS DO FAROL" class="title"/><ui:Label name="portalWallet" class="subtitle"/>
    <ui:ScrollView class="portal-scroll"><ui:VisualElement name="portalGrid" class="portal-grid"/></ui:ScrollView>
-   <ui:Label name="portalNotice" class="notice"/><ui:Button name="closePortals" text="Voltar"/>
+   <ui:Label name="portalNotice" class="notice"/><ui:Button name="closePortals" text="Voltar" class="art-button btn-menu"/>
   </ui:VisualElement></ui:VisualElement>
   <ui:VisualElement name="portalPurchase" class="overlay hidden"><ui:VisualElement class="card">
    <ui:Label name="purchaseTitle" class="title"/><ui:Label name="purchaseText" class="notice"/>
-   <ui:Button name="cancelPurchase" text="Agora não" class="primary"/><ui:Button name="openPurchase" text="Segure para abrir · 0,6 s"/><ui:ProgressBar name="purchaseHold"/>
+   <ui:Button name="cancelPurchase" text="Agora não" class="primary art-button btn-menu"/><ui:Button name="openPurchase" text="Segure para abrir · 0,6 s" class="art-button btn-menu"/><ui:ProgressBar name="purchaseHold"/>
   </ui:VisualElement></ui:VisualElement>
   <ui:VisualElement name="curiosity" class="hq hidden">
-   <ui:Image name="curiosityArt" class="panel-art"/>
+   <ui:Image name="curiosityBackdrop" class="hq-backdrop" picking-mode="Ignore"/><ui:Image name="curiosityFrame" class="hq-frame" picking-mode="Ignore"/><ui:VisualElement class="hq-window" picking-mode="Ignore"><ui:Image name="curiosityArt" class="panel-art"/></ui:VisualElement>
    <ui:VisualElement class="dialogue"><ui:Label name="curiosityTitle" class="speaker"/><ui:Label name="curiosityText" class="speech"/></ui:VisualElement>
    <ui:VisualElement name="extraImages" class="extra-images"/>
-   <ui:VisualElement class="dialogue-actions"><ui:Button name="closeCuriosity" text="Voltar aos portais"/><ui:Button name="previousCard" text="← Anterior"/><ui:Button name="nextCard" text="Próxima →" class="primary"/></ui:VisualElement>
+   <ui:VisualElement class="dialogue-actions"><ui:Button name="closeCuriosity" text="Voltar aos portais" class="art-button btn-menu"/><ui:Button name="previousCard" text="← Anterior" class="art-button btn-menu"/><ui:Button name="nextCard" text="Próxima →" class="primary art-button btn-continuar"/></ui:VisualElement>
   </ui:VisualElement>
+  <ui:VisualElement name="credits" class="overlay hidden"><ui:VisualElement class="card credits-card"><ui:Label text="Créditos" class="title"/><ui:ScrollView name="creditsScroll" class="credits-scroll"><ui:VisualElement name="creditsContent"/></ui:ScrollView><ui:Button name="closeCredits" text="Voltar" class="art-button btn-menu"/></ui:VisualElement></ui:VisualElement>
  </ui:VisualElement>
 </ui:UXML>

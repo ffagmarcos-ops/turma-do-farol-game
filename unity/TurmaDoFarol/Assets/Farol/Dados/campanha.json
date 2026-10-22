@@ -1,4 +1,325 @@
 {
+  "credits": [
+    {
+      "autor": "wuxiascrub",
+      "obras": [
+        "rain long thunder"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "rubberduck",
+      "obras": [
+        "100 cc0 sfx 2",
+        "40 cc0 water splash slime sfx",
+        "25 special effects rendered with blender"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "kresiek-the-furry",
+      "obras": [
+        "amb rain loop 1"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "qubodup",
+      "obras": [
+        "water waves",
+        "beach ocean waves",
+        "6 short water splashes"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "rango-mango",
+      "obras": [
+        "solo seagull sound effects"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "Kenney",
+      "obras": [
+        "impact sounds",
+        "particle pack",
+        "smoke particles",
+        "rpg audio",
+        "interface sounds",
+        "ui pack rpg expansion",
+        "ui pack adventure",
+        "fantasy ui borders"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "thimras",
+      "obras": [
+        "battle at sea",
+        "park ambiences"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "nene",
+      "obras": [
+        "boss battle 2 symphonic metal"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "pro-sensory",
+      "obras": [
+        "boss battle 3"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "polygondan",
+      "obras": [
+        "cc0 mystery"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "beardalaxy",
+      "obras": [
+        "dark woods loop"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "railkill",
+      "obras": [
+        "mystery sting"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "Martin Jelinek (mikodrak)",
+      "obras": [
+        "2d spell effects"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "13rice",
+      "obras": [
+        "radial lightning effect"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "kurohina",
+      "obras": [
+        "spark effect"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "puccigames",
+      "obras": [
+        "backgrounds effects sprite pack"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "antumdeluge",
+      "obras": [
+        "chimney smoke animation"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "starninjas",
+      "obras": [
+        "crowd shoutingspeaking ambience"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "lukerustltd",
+      "obras": [
+        "wind1"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "sketchman3",
+      "obras": [
+        "wind whoosh loop"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "bobjt",
+      "obras": [
+        "gem collect sfx"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "fupi",
+      "obras": [
+        "plingy coin"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "spring-spring",
+      "obras": [
+        "oh gully"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "para",
+      "obras": [
+        "animated particle effects 2"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "jcpmcdonald",
+      "obras": [
+        "splash"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "cethiel",
+      "obras": [
+        "cosmic time magic effect"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "nocturnalvanguard",
+      "obras": [
+        "ghostly humming"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "écrivain",
+      "obras": [
+        "4 space portal sounds"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "pyranostudios",
+      "obras": [
+        "air whoosh"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "cleytonkauffman",
+      "obras": [
+        "mystical enigmatic background music"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "yoiyami",
+      "obras": [
+        "yoiyami core theme – deep blue ambient piano"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "OpenGameArt (CC0)",
+      "obras": [],
+      "lic": "CC0"
+    },
+    {
+      "autor": "Kenney (RPG Audio / Interface Sounds) e OpenGameArt (CC0)",
+      "obras": [],
+      "lic": "CC0"
+    },
+    {
+      "autor": "OpenGameArt (bolhas) / Kenney Particle Pack (twirl)",
+      "obras": [],
+      "lic": "CC0"
+    },
+    {
+      "autor": "OpenGameArt / Kenney (CC0)",
+      "obras": [],
+      "lic": "CC0"
+    },
+    {
+      "autor": "\"Cosmic Time\" (OpenGameArt, CC0)",
+      "obras": [],
+      "lic": "CC0"
+    },
+    {
+      "autor": "Efeitos mágicos Blender (OpenGameArt, CC0)",
+      "obras": [],
+      "lic": "CC0"
+    },
+    {
+      "autor": "Kenney Particle Pack",
+      "obras": [],
+      "lic": "CC0"
+    },
+    {
+      "autor": "pzuh",
+      "obras": [
+        "medieval game button pack"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "melle",
+      "obras": [
+        "fantasy parchment set",
+        "epic collection parchment"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "oglsdl",
+      "obras": [
+        "gold frame"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "icarito",
+      "obras": [
+        "golden dialog"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "Kenney (Interface Sounds)",
+      "obras": [],
+      "lic": "CC0"
+    },
+    {
+      "autor": "TAD",
+      "obras": [
+        "treasure hunter"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "Dizzy Crow",
+      "obras": [
+        "pirates orchestra 208"
+      ],
+      "lic": "CC0"
+    },
+    {
+      "autor": "Fonte Luckiest Guy — Astigmatic",
+      "obras": [
+        "Google Fonts"
+      ],
+      "lic": "Apache License 2.0"
+    }
+  ],
   "portals": [
     {
       "id": "vila",

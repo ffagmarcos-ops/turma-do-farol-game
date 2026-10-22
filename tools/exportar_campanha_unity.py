@@ -44,6 +44,6 @@ ending=[]
 bossLines=read('src/game/data/falas_hq_fase2_polvo.json')
 for key,img in [('p0','cut_p0'),('curva','cut_curva'),('epilogo','cut_epilogo'),('gancho','cut_gancho')]:
  for line in bossLines.get(key,[dict(text='')]):ending.append(dict(line,img=img))
-data=dict(portals=portals,curiosities=read('src/game/data/curiosidades.json')['itens'],bossEnding=ending,textures=list(textures.values()),animations=anims,village=read('src/game/data/fase1-vila.json'),boss=read('src/game/data/boss_polvo.json'),dialogues=read('src/game/data/falas_hq_vila_das_conchas.json'),bossDialogues=read('src/game/data/falas_hq_fase2_polvo.json'),hq=read('src/game/data/intro_hq.json'))
+data=dict(credits=read('src/game/data/creditos.json'),portals=portals,curiosities=read('src/game/data/curiosidades.json')['itens'],bossEnding=ending,textures=list(textures.values()),animations=anims,village=read('src/game/data/fase1-vila.json'),boss=read('src/game/data/boss_polvo.json'),dialogues=read('src/game/data/falas_hq_vila_das_conchas.json'),bossDialogues=read('src/game/data/falas_hq_fase2_polvo.json'),hq=read('src/game/data/intro_hq.json'))
 OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 print(f'Exportados {len(textures)} conjuntos de imagens e {len(anims)} animacoes.')

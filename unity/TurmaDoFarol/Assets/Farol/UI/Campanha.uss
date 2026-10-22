@@ -45,3 +45,37 @@ ProgressBar { height: 30px; margin-top: 8px; }
 .lens-5 { rotate: 225deg; }
 .lens-6 { rotate: 270deg; }
 .lens-7 { rotate: 315deg; }
+
+.hq-backdrop, .hq-frame { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
+.hq-window { position: absolute; left: 11.71875%; right: 11.19792%; top: 14.35185%; bottom: 14.35185%; overflow: hidden; }
+.hq-window > .panel-art { top: 0; left: 0; right: 0; bottom: 0; }
+.art-button { background-color: rgba(0,0,0,0); border-width: 0; border-radius: 0; color: rgb(255,243,214); -unity-font-style: bold; -unity-text-align: middle-center; -unity-slice-left: 144; -unity-slice-right: 67; -unity-slice-top: 0; -unity-slice-bottom: 0; -unity-slice-scale: 0.8; padding-left: 125px; padding-right: 60px; min-height: 70px; flex-shrink: 0; }
+.art-button:hover, .art-button:focus, .art-button:active { background-color: rgba(0,0,0,0); border-width: 0; }
+.art-button:disabled { opacity: 0.45; }
+#bossTest { font-size: 22px; }
+.dialogue-actions .art-button { font-size: 23px; }
+.card { max-height: 94%; }
+.credits-card { width: 1200px; height: 920px; }
+.credits-scroll { flex-grow: 1; }
+.credits-author { font-size: 30px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; margin-top: 18px; }
+.credits-work { font-size: 24px; -unity-text-align: middle-center; white-space: normal; margin: 8px 14px 18px 14px; }
+.btn-menu { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_menu_normal.png"); }
+.btn-menu:hover { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_menu_hover.png"); }
+.btn-menu:focus { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_menu_hover.png"); }
+.btn-menu:active { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_menu_pressed.png"); }
+.btn-jogar { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_jogar_normal.png"); }
+.btn-jogar:hover { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_jogar_hover.png"); }
+.btn-jogar:focus { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_jogar_hover.png"); }
+.btn-jogar:active { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_jogar_pressed.png"); }
+.btn-continuar { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_continuar_normal.png"); }
+.btn-continuar:hover { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_continuar_hover.png"); }
+.btn-continuar:focus { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_continuar_hover.png"); }
+.btn-continuar:active { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_continuar_pressed.png"); }
+.btn-portais { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_portais_normal.png"); }
+.btn-portais:hover { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_portais_hover.png"); }
+.btn-portais:focus { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_portais_hover.png"); }
+.btn-portais:active { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_portais_pressed.png"); }
+.btn-jogar_de_novo { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_jogar_de_novo_normal.png"); }
+.btn-jogar_de_novo:hover { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_jogar_de_novo_hover.png"); }
+.btn-jogar_de_novo:focus { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_jogar_de_novo_hover.png"); }
+.btn-jogar_de_novo:active { background-image: url("../../Originais/farol/fase3/ui/botoes/btn_jogar_de_novo_pressed.png"); }

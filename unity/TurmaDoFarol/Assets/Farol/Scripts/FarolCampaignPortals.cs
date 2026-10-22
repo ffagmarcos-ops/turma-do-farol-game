@@ -26,7 +26,7 @@ namespace TurmaDoFarol
         public void OpenPortals(){ShowPortals(true);RenderPortals();}
         public bool PortalOverlayOpen=>portalsOpen||curiosityOpen||purchaseOpen;
         public void TogglePortalList(){if(purchaseOpen||curiosityOpen)return;ShowPortals(!portalsOpen);if(portalsOpen)RenderPortals();}
-        void ShowPortals(bool visible){portalsOpen=visible;Show("portals",visible);if(stage=="portals"&&player)player.locked=visible;}
+        void ShowPortals(bool visible){portalsOpen=visible;Show("portals",visible);if(stage=="portals"&&player)player.locked=visible;if(!visible)ui.focusController?.focusedElement?.Blur();}
         bool MeetsRequirement(JToken p)=>p==null?false:(string)p["requer"]=="f1"?(progress.boarded||progress.doors.Contains("mar")):(string)p["requer"]=="f2"?(progress.bossDone||progress.doors.Contains("ilha")):true;
         JToken Portal(string id)=>assets.Data["portals"].FirstOrDefault(p=>(string)p["id"]==id);
         public string PortalStatus(string id){var p=Portal(id);if(!MeetsRequirement(p))return (string)p["requer"]=="f1"?"Conclua a Vila":"Vença o Polvo";return PortalOpen(id)?"Entrar":p["preco"]+" conchas";}
@@ -79,7 +79,7 @@ namespace TurmaDoFarol
             if(extra=="nos"){knotRow=0;knotUntil=Time.unscaledTime+2;string[] names={"Lais de guia","Escota","Oito"};for(int i=0;i<3;i++){int row=i;extras.Add(new Button(()=>{knotRow=row;knotUntil=Time.unscaledTime+2;}){text=names[i]});}}
             ui.Q<Button>("previousCard").SetEnabled(cardIndex>0);ui.Q<Button>("nextCard").text=cardIndex==cards.Count-1?"Voltar aos portais":"Próxima →";
         }
-        void SetCuriosityArt(string key){var image=ui.Q<UnityEngine.UIElements.Image>("curiosityArt");image.image=assets.Find(key)?.texture;image.scaleMode=ScaleMode.ScaleToFit;}
+        void SetCuriosityArt(string key){var image=ui.Q<UnityEngine.UIElements.Image>("curiosityArt");image.image=assets.Find(key)?.texture;image.scaleMode=ScaleMode.ScaleToFit;SetFramedBackdrop("curiosityBackdrop",image.image);}
         void StopPurchaseHold(){holdingPurchase=false;ui.Q<ProgressBar>("purchaseHold").value=0;var b=ui.Q<Button>("openPurchase");if(holdPointer>=0&&b.HasPointerCapture(holdPointer))b.ReleasePointer(holdPointer);holdPointer=-1;}
         void CancelPurchase(){StopPurchaseHold();purchaseOpen=false;pendingPortal=null;Show("portalPurchase",false);}
         void InteractExtra(){if(activeExtra=="lente"){var image=ui.Q("curiosityArt");image.RemoveFromClassList("lens-"+lensStep);lensStep=(lensStep+1)%8;image.AddToClassList("lens-"+lensStep);}else if(activeExtra=="zoom"||activeExtra=="explodido"){artExpanded=!artExpanded;ui.Q("curiosityArt").EnableInClassList("art-expanded",artExpanded);}}
