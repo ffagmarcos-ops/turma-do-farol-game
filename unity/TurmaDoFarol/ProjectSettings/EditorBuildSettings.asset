@@ -6,16 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Farol/Campanha_20261021_212822/Menu_Campanha.unity
-    guid: ae047391b679d424d8d222f863eb2eb1
+    path: Assets/Farol/Campanha_20261021_215901/Menu_Campanha.unity
+    guid: 0e4510706e14e453498db1403bcc53ce
   - enabled: 1
-    path: Assets/Farol/Campanha_20261021_212822/Fase1_Vila.unity
-    guid: b7443149875484d5d82ba9fa3e0fe113
+    path: Assets/Farol/Campanha_20261021_215901/Fase1_Vila.unity
+    guid: 690aecfade8a14de98de68b082521468
   - enabled: 1
-    path: Assets/Farol/Campanha_20261021_212822/Fase2_Polvo.unity
-    guid: 59635799f9706469380de3565aaa65a7
+    path: Assets/Farol/Campanha_20261021_215901/Fase2_Polvo.unity
+    guid: 414204c5c2ad349369779d088492df53
   - enabled: 1
-    path: Assets/Farol/Preservado_20261021_211633/Fase3_Ilha.unity
-    guid: 2976e49afbefe46b2970b17657b5be65
+    path: Assets/Farol/Campanha_20261021_215901/Portais_Farol.unity
+    guid: d32fd867b682a4287a0ed8c5f207fb48
+  - enabled: 1
+    path: Assets/Farol/Campanha_20261021_215901/Fase3_Ilha.unity
+    guid: 21a03cd44422b4f80a78c0b7e019be1e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

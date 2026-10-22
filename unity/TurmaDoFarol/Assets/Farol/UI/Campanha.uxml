@@ -13,12 +13,12 @@
    <ui:Button name="play" text="Jogar · Vila das Conchas" class="primary"/>
    <ui:Button name="continue" text="Continuar aventura"/>
    <ui:Button name="bossTest" text="Testar Fase 2 · O Polvo Gigante"/>
-   <ui:Button name="island" text="Abrir base da ilha"/>
+   <ui:Button name="island" text="Portais do Farol"/>
    <ui:Button name="sound" text="Som"/>
   </ui:VisualElement></ui:VisualElement>
   <ui:VisualElement name="pause" class="overlay hidden"><ui:VisualElement class="card">
    <ui:Label text="Pausado" class="title"/><ui:Button name="resume" text="Continuar" class="primary"/>
-   <ui:Button name="pauseSound" text="Som"/><ui:Button name="mainMenu" text="Menu principal"/>
+   <ui:Button name="pausePortals" text="Portais do Farol"/><ui:Button name="pauseSound" text="Som"/><ui:Button name="mainMenu" text="Menu principal"/>
   </ui:VisualElement></ui:VisualElement>
   <ui:VisualElement name="settings" class="overlay hidden"><ui:VisualElement class="card">
    <ui:Label text="Som" class="title"/><ui:Slider name="musicVolume" label="Música" low-value="0" high-value="1"/>
@@ -32,6 +32,21 @@
    <ui:VisualElement class="dialogue-actions"><ui:Button name="skip" text="Pular sequência"/><ui:Button name="next" text="Continuar  →" class="primary"/></ui:VisualElement>
   </ui:VisualElement>
   <ui:VisualElement name="victory" class="overlay hidden"><ui:VisualElement class="card"><ui:Label text="O Esperança está a salvo!" class="title"/><ui:Label name="victoryText" class="notice"/><ui:Button name="replayBoss" text="Jogar a batalha novamente" class="primary"/><ui:Button name="victoryMenu" text="Menu principal"/></ui:VisualElement></ui:VisualElement>
-  <ui:VisualElement name="confirm" class="overlay hidden"><ui:VisualElement class="card"><ui:Label text="Começar uma nova aventura?" class="title"/><ui:Label text="O progresso desta campanha será reiniciado." class="notice"/><ui:Button name="cancelNew" text="Agora não" class="primary"/><ui:Button name="acceptNew" text="Começar"/></ui:VisualElement></ui:VisualElement>
+  <ui:VisualElement name="confirm" class="overlay hidden"><ui:VisualElement class="card"><ui:Label text="Começar uma nova aventura?" class="title"/><ui:Label text="As etapas serão reiniciadas. Sua carteira e os portais abertos serão preservados." class="notice"/><ui:Button name="cancelNew" text="Agora não" class="primary"/><ui:Button name="acceptNew" text="Começar"/></ui:VisualElement></ui:VisualElement>
+  <ui:VisualElement name="portals" class="overlay hidden"><ui:VisualElement class="portal-hall">
+   <ui:Label text="PORTAIS DO FAROL" class="title"/><ui:Label name="portalWallet" class="subtitle"/>
+   <ui:ScrollView class="portal-scroll"><ui:VisualElement name="portalGrid" class="portal-grid"/></ui:ScrollView>
+   <ui:Label name="portalNotice" class="notice"/><ui:Button name="closePortals" text="Voltar"/>
+  </ui:VisualElement></ui:VisualElement>
+  <ui:VisualElement name="portalPurchase" class="overlay hidden"><ui:VisualElement class="card">
+   <ui:Label name="purchaseTitle" class="title"/><ui:Label name="purchaseText" class="notice"/>
+   <ui:Button name="cancelPurchase" text="Agora não" class="primary"/><ui:Button name="openPurchase" text="Segure para abrir · 0,6 s"/><ui:ProgressBar name="purchaseHold"/>
+  </ui:VisualElement></ui:VisualElement>
+  <ui:VisualElement name="curiosity" class="hq hidden">
+   <ui:Image name="curiosityArt" class="panel-art"/>
+   <ui:VisualElement class="dialogue"><ui:Label name="curiosityTitle" class="speaker"/><ui:Label name="curiosityText" class="speech"/></ui:VisualElement>
+   <ui:VisualElement name="extraImages" class="extra-images"/>
+   <ui:VisualElement class="dialogue-actions"><ui:Button name="closeCuriosity" text="Voltar aos portais"/><ui:Button name="previousCard" text="← Anterior"/><ui:Button name="nextCard" text="Próxima →" class="primary"/></ui:VisualElement>
+  </ui:VisualElement>
  </ui:VisualElement>
 </ui:UXML>

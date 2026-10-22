@@ -1,4 +1,460 @@
 {
+  "portals": [
+    {
+      "id": "vila",
+      "nome": "Vila das Conchas",
+      "tipo": "Fase",
+      "preco": 0
+    },
+    {
+      "id": "mar",
+      "nome": "Mar Aberto: o Polvo",
+      "tipo": "Fase",
+      "preco": 0,
+      "requer": "f1"
+    },
+    {
+      "id": "marina",
+      "nome": "Marina Torres",
+      "tipo": "Curiosidade",
+      "preco": 15
+    },
+    {
+      "id": "faisca",
+      "nome": "Faísca",
+      "tipo": "Curiosidade",
+      "preco": 25
+    },
+    {
+      "id": "bia",
+      "nome": "Bia Oliveira",
+      "tipo": "Curiosidade",
+      "preco": 35
+    },
+    {
+      "id": "julia",
+      "nome": "Júlia Costa",
+      "tipo": "Curiosidade",
+      "preco": 45
+    },
+    {
+      "id": "lucas",
+      "nome": "Lucas Nogueira",
+      "tipo": "Curiosidade",
+      "preco": 55
+    },
+    {
+      "id": "toninho",
+      "nome": "Seu Toninho Marinho",
+      "tipo": "Curiosidade",
+      "preco": 65
+    },
+    {
+      "id": "vila-ilha",
+      "nome": "A Vila das Conchas",
+      "tipo": "Ilha",
+      "preco": 75
+    },
+    {
+      "id": "esperanca",
+      "nome": "O Barco Esperança",
+      "tipo": "Universo",
+      "preco": 85
+    },
+    {
+      "id": "farol",
+      "nome": "O Farol",
+      "tipo": "Ilha",
+      "preco": 95
+    },
+    {
+      "id": "polvo",
+      "nome": "O Polvo Gigante",
+      "tipo": "Universo",
+      "preco": 110,
+      "requer": "f2"
+    },
+    {
+      "id": "cavernas",
+      "nome": "As Cavernas Azuis e o Artefato",
+      "tipo": "Universo",
+      "preco": 125
+    },
+    {
+      "id": "bastidores",
+      "nome": "Bastidores da HQ",
+      "tipo": "Extra",
+      "preco": 130
+    },
+    {
+      "id": "ilha",
+      "nome": "Ilha das Cavernas Azuis",
+      "tipo": "Fase 3",
+      "preco": 0,
+      "requer": "f2"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "marina",
+      "portal": "marina",
+      "custo": 15,
+      "cena": "cena_marina",
+      "cartas": [
+        {
+          "img": "hq_P04_Q05",
+          "titulo": "Marina Torres",
+          "texto": "A líder da turma. Foi ela quem decidiu:\n“Então a gente vai descobrir.”"
+        },
+        {
+          "titulo": "Você sabia?",
+          "texto": "• Na mochila: lanterna, caderno de anotações e corda.\n• Ela sempre olha o mapa antes de todo mundo."
+        },
+        {
+          "img": "hq_P01_Q01",
+          "titulo": "Extra",
+          "texto": "De onde vem a ligação da Marina com o farol?\nUm dia a gente descobre…",
+          "extra": "zoom"
+        }
+      ]
+    },
+    {
+      "id": "faisca",
+      "portal": "faisca",
+      "custo": 25,
+      "cena": "cena_faisca",
+      "cartas": [
+        {
+          "img": "hq_P02_Q02",
+          "titulo": "Faísca",
+          "texto": "Sempre em quatro patas, coleira azul com estrela dourada."
+        },
+        {
+          "titulo": "Você sabia?",
+          "texto": "• Foi a Faísca quem achou o artefato puxando a rede.\n• Faro e corrida são os poderes dela no jogo."
+        },
+        {
+          "img": "hq_P02_Q03",
+          "titulo": "Extra",
+          "texto": "O achado: no meio das algas,\num objeto que não era do mar.",
+          "extra": "zoom"
+        }
+      ]
+    },
+    {
+      "id": "bia",
+      "portal": "bia",
+      "custo": 35,
+      "cena": "cena_bia",
+      "cartas": [
+        {
+          "img": "hq_P02_Q01",
+          "titulo": "Bia Oliveira",
+          "texto": "Guia da ilha: conhece cada rede e cada pescador."
+        },
+        {
+          "titulo": "Você sabia?",
+          "texto": "• Chapéu e balde são as marcas dela.\n• Na tempestade, ela tira água do convés."
+        },
+        {
+          "img": "hq_P05_Q04",
+          "titulo": "Extra",
+          "texto": "Antes de partir, todo mundo ajuda a preparar o barco.",
+          "extra": "zoom"
+        }
+      ]
+    },
+    {
+      "id": "julia",
+      "portal": "julia",
+      "custo": 45,
+      "cena": "cena_julia",
+      "cartas": [
+        {
+          "img": "hq_P07_Q05",
+          "titulo": "Júlia Costa",
+          "texto": "A fotógrafa da turma. Percebeu as ondulações estranhas no mar."
+        },
+        {
+          "titulo": "Você sabia?",
+          "texto": "• A câmera da Júlia vai com ela para todo lado.\n• Foi ela quem viu a sombra embaixo do barco."
+        },
+        {
+          "titulo": "Álbum da Júlia",
+          "texto": "Seis fotos da viagem.",
+          "extra": "album",
+          "fotos": [
+            "hq_P01_Q01",
+            "hq_P02_Q01",
+            "hq_P03_Q02",
+            "hq_P05_Q05",
+            "hq_P06_Q01",
+            "hq_P07_Q05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lucas",
+      "portal": "lucas",
+      "custo": 55,
+      "cena": "cena_lucas",
+      "cartas": [
+        {
+          "img": "hq_P03_Q02",
+          "titulo": "Lucas Nogueira",
+          "texto": "O inventor. O aparelho sônico ouve sons que ninguém ouve."
+        },
+        {
+          "titulo": "Você sabia?",
+          "texto": "• Na Fase 2, o aparelho atordoa o polvo.\n• Se esquentar demais, precisa esfriar!"
+        },
+        {
+          "img": "lucas_aparelho_explodido",
+          "titulo": "O aparelho sônico",
+          "texto": "Peças separadas: toque para montar.",
+          "extra": "explodido"
+        }
+      ]
+    },
+    {
+      "id": "toninho",
+      "portal": "toninho",
+      "custo": 65,
+      "cena": "cena_toninho",
+      "cartas": [
+        {
+          "img": "hq_P02_Q05",
+          "titulo": "Seu Toninho Marinho",
+          "texto": "Dono do Esperança, lenço vermelho-alaranjado."
+        },
+        {
+          "titulo": "Você sabia?",
+          "texto": "• Ele reconheceu o símbolo das Cavernas Azuis.\n• Conhece o mar da ilha como ninguém."
+        },
+        {
+          "img": "toninho_nos_sheet",
+          "titulo": "Nós de marinheiro",
+          "texto": "Lais de guia, escota e oito.",
+          "extra": "nos"
+        }
+      ]
+    },
+    {
+      "id": "vila-ilha",
+      "portal": "vila-ilha",
+      "custo": 75,
+      "cena": "cena_vila_bg",
+      "cartas": [
+        {
+          "img": "hq_P01_Q01",
+          "titulo": "A Vila das Conchas",
+          "texto": "Porto, Rua dos Pescadores, Mercado, Praça, Cais de Pesca e Grande Píer."
+        },
+        {
+          "titulo": "Você sabia?",
+          "texto": "• A vila tem 120 conchas escondidas.\n• 12 delas são douradas e valem 5."
+        },
+        {
+          "img": "vila_mapa_ilustrado",
+          "titulo": "Mapa da vila",
+          "texto": "Conchas que você pegou nesta run, por zona.",
+          "extra": "mapa"
+        }
+      ]
+    },
+    {
+      "id": "esperanca",
+      "portal": "esperanca",
+      "custo": 85,
+      "cena": "cena_esperanca",
+      "cartas": [
+        {
+          "img": "hq_P05_Q05",
+          "titulo": "O Barco Esperança",
+          "texto": "O barco de pesca do Seu Toninho. “Aguenta o mar.”"
+        },
+        {
+          "titulo": "Você sabia?",
+          "texto": "• Proa, cabine, mastro, leme e porão.\n• Foi nele que a turma enfrentou o polvo."
+        },
+        {
+          "img": "esperanca_planta",
+          "titulo": "Planta do barco",
+          "texto": "Corte lateral do Esperança.",
+          "extra": "zoom"
+        }
+      ]
+    },
+    {
+      "id": "farol",
+      "portal": "farol",
+      "custo": 95,
+      "cena": "cena_farol",
+      "cartas": [
+        {
+          "img": "hq_P01_Q01",
+          "titulo": "O Farol",
+          "texto": "Passou a noite aceso sem ninguém saber por quê."
+        },
+        {
+          "titulo": "Você sabia?",
+          "texto": "• A grande lente do farol junta a luz num feixe só.\n• Este salão dos portais fica lá no alto da torre."
+        },
+        {
+          "img": "hub_lente_farol",
+          "titulo": "A lente",
+          "texto": "Toque para girar a lente.",
+          "extra": "lente"
+        }
+      ]
+    },
+    {
+      "id": "polvo",
+      "portal": "polvo",
+      "custo": 110,
+      "cena": "cena_polvo",
+      "cartas": [
+        {
+          "img": "hq_p09",
+          "titulo": "O Polvo Gigante",
+          "texto": "Tentáculos enormes e tinta roxa."
+        },
+        {
+          "titulo": "Você sabia?",
+          "texto": "• A ventosa dourada é o ponto fraco dele.\n• Por que atacou o barco? Ninguém sabe… ainda."
+        },
+        {
+          "img": "polvo_dossie",
+          "titulo": "Dossiê",
+          "texto": "Tamanho comparado ao Esperança.",
+          "extra": "zoom"
+        }
+      ]
+    },
+    {
+      "id": "cavernas",
+      "portal": "cavernas",
+      "custo": 125,
+      "cena": "cena_cavernas",
+      "cartas": [
+        {
+          "img": "hq_P04_Q01",
+          "titulo": "As Cavernas Azuis",
+          "texto": "Um mapa antigo aponta para a ilha."
+        },
+        {
+          "titulo": "Você sabia?",
+          "texto": "• O artefato tem um símbolo em espiral.\n• Ele faz um tinido metálico… CLINC!"
+        },
+        {
+          "img": "hq_P02_Q03",
+          "titulo": "O artefato",
+          "texto": "Continua na Fase 3…",
+          "extra": "zoom"
+        }
+      ]
+    },
+    {
+      "id": "bastidores",
+      "portal": "bastidores",
+      "custo": 130,
+      "cena": "cena_bastidores",
+      "cartas": [
+        {
+          "img": "hq_P03_Q01",
+          "titulo": "Bastidores da HQ",
+          "texto": "Do roteiro aos quadros: como a HQ foi feita."
+        },
+        {
+          "titulo": "Você sabia?",
+          "texto": "• Cada quadro começa como um roteiro escrito.\n• Depois vira esboço, cor e balões."
+        },
+        {
+          "titulo": "Galeria",
+          "texto": "Páginas 1 a 9.",
+          "extra": "album",
+          "fotos": [
+            "hq_P01_Q01",
+            "hq_P02_Q02",
+            "hq_P03_Q03",
+            "hq_P04_Q01",
+            "hq_P05_Q01",
+            "hq_p09"
+          ]
+        }
+      ]
+    }
+  ],
+  "bossEnding": [
+    {
+      "who": "lucas",
+      "text": "Funcionou!",
+      "hq": true,
+      "page": 11,
+      "img": "cut_p0"
+    },
+    {
+      "who": "marina",
+      "text": "Seu Toninho, agora!",
+      "hq": true,
+      "page": 11,
+      "img": "cut_p0"
+    },
+    {
+      "text": "",
+      "img": "cut_curva"
+    },
+    {
+      "who": "bia",
+      "text": "Ele desistiu?",
+      "hq": true,
+      "page": 12,
+      "img": "cut_epilogo"
+    },
+    {
+      "who": "toninho",
+      "text": "Prefiro dizer que chegamos a um acordo.",
+      "hq": true,
+      "page": 12,
+      "img": "cut_epilogo"
+    },
+    {
+      "who": "lucas",
+      "text": "Obrigado. Eu precisava exatamente disso.",
+      "hq": true,
+      "page": 12,
+      "img": "cut_epilogo"
+    },
+    {
+      "who": "julia",
+      "text": "E agora?",
+      "hq": true,
+      "page": 12,
+      "img": "cut_gancho"
+    },
+    {
+      "who": "toninho",
+      "text": "Agora entramos onde os mapas param de ajudar.",
+      "hq": true,
+      "page": 12,
+      "img": "cut_gancho"
+    },
+    {
+      "who": "bia",
+      "text": "Uau...",
+      "hq": true,
+      "page": 12,
+      "img": "cut_gancho"
+    },
+    {
+      "who": "marina",
+      "text": "Encontramos.",
+      "hq": true,
+      "page": 12,
+      "img": "cut_gancho"
+    }
+  ],
   "textures": [
     {
       "key": "bg_sky",
@@ -1077,6 +1533,469 @@
     {
       "key": "portrait_marina",
       "path": "Assets/Originais/farol/ui/portrait_marina.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cut_p25",
+      "path": "Assets/Originais/farol/fase2_reuse/cut_p25.jpg",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "sky_storm",
+      "path": "Assets/Originais/farol/fase2_reuse/sky_storm.jpg",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cut_p50",
+      "path": "Assets/Originais/farol/fase2_reuse/cut_p50.jpg",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cut_curva",
+      "path": "Assets/Originais/farol/fase2_reuse/cut_curva.jpg",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cut_epilogo",
+      "path": "Assets/Originais/farol/fase2_reuse/cut_epilogo.jpg",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cut_gancho",
+      "path": "Assets/Originais/farol/fase2_reuse/cut_gancho.jpg",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cut_intro3",
+      "path": "Assets/Originais/farol/fase2_reuse/cut_intro3.jpg",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cut_p75",
+      "path": "Assets/Originais/farol/fase2_reuse/cut_p75.jpg",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cut_intro1",
+      "path": "Assets/Originais/farol/fase2_reuse/cut_intro1.jpg",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cut_entrada",
+      "path": "Assets/Originais/farol/fase2_reuse/cut_entrada.jpg",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cut_p0",
+      "path": "Assets/Originais/farol/fase2_reuse/cut_p0.jpg",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "hub_bg_ceu_mar",
+      "path": "Assets/Originais/farol/fase3/hub/hub_bg_ceu_mar.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "hub_lente_farol",
+      "path": "Assets/Originais/farol/fase3/hub/hub_lente_farol.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "hub_chao_mezanino",
+      "path": "Assets/Originais/farol/fase3/hub/hub_chao_mezanino.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "hub_bg_parede",
+      "path": "Assets/Originais/farol/fase3/hub/hub_bg_parede.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_julia",
+      "path": "Assets/Originais/farol/fase3/portais/cena_julia.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_farol",
+      "path": "Assets/Originais/farol/fase3/portais/cena_farol.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_polvo",
+      "path": "Assets/Originais/farol/fase3/portais/cena_polvo.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_bastidores",
+      "path": "Assets/Originais/farol/fase3/portais/cena_bastidores.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_marina",
+      "path": "Assets/Originais/farol/fase3/portais/cena_marina.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_cavernas",
+      "path": "Assets/Originais/farol/fase3/portais/cena_cavernas.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_toninho",
+      "path": "Assets/Originais/farol/fase3/portais/cena_toninho.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_mar_fg",
+      "path": "Assets/Originais/farol/fase3/portais/cena_mar_fg.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_bia",
+      "path": "Assets/Originais/farol/fase3/portais/cena_bia.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "portal_vitral_fechado",
+      "path": "Assets/Originais/farol/fase3/portais/portal_vitral_fechado.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_vila_fg",
+      "path": "Assets/Originais/farol/fase3/portais/cena_vila_fg.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cadeado_concha_sheet",
+      "path": "Assets/Originais/farol/fase3/portais/cadeado_concha_sheet.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_faisca",
+      "path": "Assets/Originais/farol/fase3/portais/cena_faisca.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_lucas",
+      "path": "Assets/Originais/farol/fase3/portais/cena_lucas.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_esperanca",
+      "path": "Assets/Originais/farol/fase3/portais/cena_esperanca.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "portal_fase3_correntes",
+      "path": "Assets/Originais/farol/fase3/portais/portal_fase3_correntes.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_mar_bg",
+      "path": "Assets/Originais/farol/fase3/portais/cena_mar_bg.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "portal_moldura",
+      "path": "Assets/Originais/farol/fase3/portais/portal_moldura.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_faisca_rabo",
+      "path": "Assets/Originais/farol/fase3/portais/cena_faisca_rabo.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "cena_vila_bg",
+      "path": "Assets/Originais/farol/fase3/portais/cena_vila_bg.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "polvo_dossie",
+      "path": "Assets/Originais/farol/fase3/curio/polvo_dossie.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "lucas_aparelho_explodido",
+      "path": "Assets/Originais/farol/fase3/curio/lucas_aparelho_explodido.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "toninho_nos_sheet",
+      "path": "Assets/Originais/farol/fase3/curio/toninho_nos_sheet.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": [
+        {
+          "name": "0",
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "1",
+          "x": 256,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "2",
+          "x": 512,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "3",
+          "x": 768,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "4",
+          "x": 0,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "5",
+          "x": 256,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "6",
+          "x": 512,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "7",
+          "x": 768,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "8",
+          "x": 0,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "9",
+          "x": 256,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "10",
+          "x": 512,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "11",
+          "x": 768,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    {
+      "key": "esperanca_planta",
+      "path": "Assets/Originais/farol/fase3/curio/esperanca_planta.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "polaroid_moldura",
+      "path": "Assets/Originais/farol/fase3/curio/polaroid_moldura.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "carta_moldura",
+      "path": "Assets/Originais/farol/fase3/curio/carta_moldura.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "vila_mapa_ilustrado",
+      "path": "Assets/Originais/farol/fase3/curio/vila_mapa_ilustrado.png",
       "fw": 0,
       "fh": 0,
       "scale": 1,

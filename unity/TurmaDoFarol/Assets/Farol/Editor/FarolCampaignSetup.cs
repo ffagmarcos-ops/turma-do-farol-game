@@ -40,9 +40,9 @@ namespace TurmaDoFarol.Editor
                 if(!assets.interfaceTree)throw new InvalidOperationException("Interface da campanha nao foi importada.");
                 assets.panel=ScriptableObject.CreateInstance<PanelSettings>();assets.panel.scaleMode=PanelScaleMode.ScaleWithScreenSize;assets.panel.referenceResolution=new Vector2Int(1920,1080);assets.panel.match=.5f;
                 AssetDatabase.CreateAsset(assets.panel,output+"/Painel.asset");EditorUtility.SetDirty(assets);AssetDatabase.SaveAssets();
-                string menu=BuildMenu();string village=BuildVillage();string boss=BuildBoss();
-                var scenes=new List<EditorBuildSettingsScene>{new EditorBuildSettingsScene(menu,true),new EditorBuildSettingsScene(village,true),new EditorBuildSettingsScene(boss,true)};
-                if(!string.IsNullOrEmpty(island))scenes.Add(new EditorBuildSettingsScene(island,true));EditorBuildSettings.scenes=scenes.ToArray();
+                string menu=BuildMenu();string village=BuildVillage();string boss=BuildBoss();string portals=BuildPortals();string connectedIsland=BuildIsland();
+                var scenes=new List<EditorBuildSettingsScene>{new EditorBuildSettingsScene(menu,true),new EditorBuildSettingsScene(village,true),new EditorBuildSettingsScene(boss,true),new EditorBuildSettingsScene(portals,true)};
+                if(!string.IsNullOrEmpty(island))scenes.Add(new EditorBuildSettingsScene(connectedIsland,true));EditorBuildSettings.scenes=scenes.ToArray();
                 AssetDatabase.SaveAssets();EditorSceneManager.OpenScene(menu);return output;
             }finally{EditorUtility.ClearProgressBar();}
         }
@@ -66,6 +66,16 @@ namespace TurmaDoFarol.Editor
         {var go=new GameObject(name);go.transform.SetParent(root,false);go.transform.position=FarolCoordinates.RectCenter(x,y,w,h);go.AddComponent<BoxCollider2D>().size=new Vector2(w/100,h/100);}
         static string Save(string name){string path=output+"/"+name+".unity";EditorSceneManager.SaveScene(SceneManager.GetActiveScene(),path);return path;}
         static string BuildMenu(){var c=Scene("menu");Art(c.world,"Quadro da pagina 09","menu_capa",960,540,-10,1920,1080);return Save("Menu_Campanha");}
+        static string BuildPortals(){var c=Scene("portals");Art(c.world,"Interior do Farol","hub_bg_parede",960,540,-10,1920,1080);return Save("Portais_Farol");}
+        static string BuildIsland()
+        {
+            if(string.IsNullOrEmpty(island))throw new InvalidOperationException("Fase 3 ausente.");
+            EditorSceneManager.OpenScene(island);var c=UnityEngine.Object.FindFirstObjectByType<FarolCampaign>();
+            if(!c)c=new GameObject("Campanha · chegada e portais").AddComponent<FarolCampaign>();
+            c.stage="island";c.assets=assets;c.islandScene="Fase3_Ilha";
+            var doc=c.GetComponent<UIDocument>();if(!doc)doc=c.gameObject.AddComponent<UIDocument>();doc.panelSettings=assets.panel;doc.visualTreeAsset=assets.interfaceTree;doc.sortingOrder=100;
+            return Save("Fase3_Ilha");
+        }
         static void Band(Transform root,string key,float factor,float top,float height,int order,float width=14336,float start=0)
         {
             var sprite=assets.Sprite(key);float scale=height/100/sprite.bounds.size.y;float span=1920+(width-1920)*factor;float sw=sprite.bounds.size.x*100*scale;

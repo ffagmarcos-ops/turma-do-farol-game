@@ -1,5 +1,5 @@
 """Exporta a campanha existente para o Unity sem alterar as artes originais."""
-import json,re
+import json,re,subprocess,struct
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'unity/TurmaDoFarol/Assets/Farol/Dados/campanha.json'
@@ -30,6 +30,20 @@ for key,section in [('f2_polvo_partes','partes'),('f2_tent_seg','segmentos'),('f
 textures['f2_tentaculo_v']['rects']=[dict(name=str(i),x=r[0],y=r[1],w=r[2],h=r[3]) for i,r in enumerate(read('src/game/data/tentaculo_frames.json'))]
 for p in (ROOT/'unity/TurmaDoFarol/Assets/Originais/farol/hq').glob('*.jpg'):add('hq_'+p.stem,'farol/hq/'+p.name)
 for p in (ROOT/'unity/TurmaDoFarol/Assets/Originais/farol/ui').glob('portrait_*.png'):add(p.stem,'farol/ui/'+p.name)
-data=dict(textures=list(textures.values()),animations=anims,village=read('src/game/data/fase1-vila.json'),boss=read('src/game/data/boss_polvo.json'),dialogues=read('src/game/data/falas_hq_vila_das_conchas.json'),bossDialogues=read('src/game/data/falas_hq_fase2_polvo.json'),hq=read('src/game/data/intro_hq.json'))
+for p in (ROOT/'unity/TurmaDoFarol/Assets/Originais/farol/fase2_reuse').glob('*.jpg'):add(p.stem,'farol/fase2_reuse/'+p.name)
+for folder in ['hub','portais','curio']:
+ for p in (ROOT/'unity/TurmaDoFarol/Assets/Originais/farol/fase3'/folder).glob('*.png'):
+  if p.stem.startswith('cena_') or p.stem in ['hub_bg_ceu_mar','hub_bg_parede','hub_chao_mezanino','hub_lente_farol','portal_moldura','portal_vitral_fechado','portal_fase3_correntes','cadeado_concha_sheet','lucas_aparelho_explodido','vila_mapa_ilustrado','esperanca_planta','polvo_dossie','toninho_nos_sheet','carta_moldura','polaroid_moldura']:
+   add(p.stem,'farol/fase3/'+folder+'/'+p.name)
+if 'toninho_nos_sheet' in textures:
+ p=ROOT/'unity/TurmaDoFarol'/textures['toninho_nos_sheet']['path']; w,h=struct.unpack('>II',p.read_bytes()[16:24]);fw,fh=w//4,h//3
+ textures['toninho_nos_sheet']['rects']=[dict(name=str(r*4+c),x=c*fw,y=r*fh,w=fw,h=fh) for r in range(3) for c in range(4)]
+portals=json.loads(subprocess.check_output(['node','--input-type=module','-e','import {PORTAIS} from "./src/game/systems/Wallet.js";console.log(JSON.stringify(PORTAIS));'],cwd=ROOT,text=True))
+portals.append(dict(id='ilha',nome='Ilha das Cavernas Azuis',tipo='Fase 3',preco=0,requer='f2'))
+ending=[]
+bossLines=read('src/game/data/falas_hq_fase2_polvo.json')
+for key,img in [('p0','cut_p0'),('curva','cut_curva'),('epilogo','cut_epilogo'),('gancho','cut_gancho')]:
+ for line in bossLines.get(key,[dict(text='')]):ending.append(dict(line,img=img))
+data=dict(portals=portals,curiosities=read('src/game/data/curiosidades.json')['itens'],bossEnding=ending,textures=list(textures.values()),animations=anims,village=read('src/game/data/fase1-vila.json'),boss=read('src/game/data/boss_polvo.json'),dialogues=read('src/game/data/falas_hq_vila_das_conchas.json'),bossDialogues=read('src/game/data/falas_hq_fase2_polvo.json'),hq=read('src/game/data/intro_hq.json'))
 OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 print(f'Exportados {len(textures)} conjuntos de imagens e {len(anims)} animacoes.')

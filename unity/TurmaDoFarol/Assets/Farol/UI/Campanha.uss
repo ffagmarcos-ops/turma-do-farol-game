@@ -25,3 +25,23 @@ ProgressBar { height: 30px; margin-top: 8px; }
 .unity-progress-bar__background { background-color: rgb(25,49,60); border-radius: 8px; }
 .unity-progress-bar__progress { background-color: rgb(224,177,78); border-radius: 8px; }
 .notice { font-size: 25px; white-space: normal; margin: 16px 0; }
+
+.portal-hall { width: 1700px; max-width: 96%; height: 94%; background-color: rgba(8,28,45,0.94); padding: 24px; border-radius: 18px; }
+.portal-scroll { flex-grow: 1; }
+.portal-grid { flex-direction: row; flex-wrap: wrap; justify-content: center; }
+.portal-card { width: 295px; height: 240px; margin: 9px; padding: 9px; background-color: rgba(36,69,80,0.95); border-radius: 12px; }
+.portal-thumbnail { height: 125px; width: 260px; }
+.portal-card Label { font-size: 19px; white-space: normal; color: rgb(255,242,212); }
+.portal-card Button { font-size: 18px; min-height: 35px; margin-top: 4px; }
+.extra-images { position: absolute; bottom: 130px; left: 10%; right: 10%; flex-direction: row; justify-content: center; flex-wrap: wrap; }
+.extra-images Button { min-width: 140px; font-size: 20px; }
+
+.art-expanded { scale: 1.25 1.25; }
+.lens-0 { rotate: 0deg; }
+.lens-1 { rotate: 45deg; }
+.lens-2 { rotate: 90deg; }
+.lens-3 { rotate: 135deg; }
+.lens-4 { rotate: 180deg; }
+.lens-5 { rotate: 225deg; }
+.lens-6 { rotate: 270deg; }
+.lens-7 { rotate: 315deg; }

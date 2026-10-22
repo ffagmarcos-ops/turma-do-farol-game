@@ -7,7 +7,7 @@ using UnityEngine.UIElements;
 using Newtonsoft.Json.Linq;
 namespace TurmaDoFarol
 {
-    public sealed class FarolCampaign : MonoBehaviour
+    public sealed partial class FarolCampaign : MonoBehaviour
     {
         public FarolCampaignAssets assets;
         public string stage="menu";
@@ -16,8 +16,8 @@ namespace TurmaDoFarol
         public FarolOctopusBattle battle;
         public Transform dog;
         public Vector2 checkpoint=new Vector2(4.2f,1.12f);
-        public string menuScene="Menu_Campanha",villageScene="Fase1_Vila",bossScene="Fase2_Polvo",islandScene;
-        [Serializable] public class Progress {public List<string> shells=new List<string>();public int wallet;public float checkpoint=4.2f;public bool artifact,toninho,boarded,bossDone,introSeen;public int bossPhase;}
+        public string menuScene="Menu_Campanha",villageScene="Fase1_Vila",bossScene="Fase2_Polvo",islandScene,portalsScene="Portais_Farol";
+        [Serializable] public class Progress {public List<string> shells=new List<string>();public int wallet;public float checkpoint=4.2f;public bool artifact,toninho,boarded,bossDone,introSeen;public int bossPhase;public bool bonusF2,islandStarted,arriveIsland;public string resumeStage="village";public List<string> doors=new List<string>(),seen=new List<string>(),islandShells=new List<string>();}
         public Progress progress;
         public bool paused,dialogueOpen;
         public string Objective=>!progress.artifact?"Siga a Faísca até o Cais de Pesca":!progress.toninho?"Mostre o artefato ao Seu Toninho":"Suba no Esperança";
@@ -32,11 +32,12 @@ namespace TurmaDoFarol
             Time.timeScale=1;Physics2D.IgnoreLayerCollision(8,8,true);
             try{progress=JsonUtility.FromJson<Progress>(PlayerPrefs.GetString(SaveKey,""));}catch{progress=null;}
             if(progress==null)progress=new Progress();if(progress.shells==null)progress.shells=new List<string>();
+            NormalizeProgress();
             musicVolume=PlayerPrefs.GetFloat("farol.unity.music",.6f);effectsVolume=PlayerPrefs.GetFloat("farol.unity.effects",.8f);
             AudioListener.volume=PlayerPrefs.GetInt("farol.unity.mute",0)==1?0:1;
             music=gameObject.AddComponent<AudioSource>();music.loop=true;effects=gameObject.AddComponent<AudioSource>();ambience=gameObject.AddComponent<AudioSource>();ambience.loop=true;tense=gameObject.AddComponent<AudioSource>();tense.loop=true;
             var doc=GetComponent<UIDocument>();ui=doc.rootVisualElement;
-            BindUI();
+            BindUI();BindPortals();
             if(stage=="menu"){Show("menu",true);Music("menu/musica_menu");}
             else {
                 Show("hud",true);Show("controls",true);Show("bossHud",stage=="boss");
@@ -46,14 +47,16 @@ namespace TurmaDoFarol
                     foreach(var f in world.GetComponentsInChildren<FarolFlipbook>())characters[f.character]=f.transform;
                     Music("music_vila");LoopAmbience("amb_waves",.12f);RefreshShells();
                     if(!progress.introSeen)Dialogue((JArray)assets.Data["hq"]["intro"],()=>{progress.introSeen=true;Store();});
-                }else {battle.campaign=this;battle.Begin(progress.bossDone?0:progress.bossPhase);Music("fase2/bgm_boss");LoopAmbience("fase2/chuva_loop",.10f);}
+                }else if(stage=="portals"){OpenPortals();Music("music_vila");}
+                else if(stage=="island"){StartIsland();Music("music_vila");}
+                else {battle.campaign=this;battle.Begin(progress.bossDone?0:progress.bossPhase);Music("fase2/bgm_boss");LoopAmbience("fase2/chuva_loop",.10f);if(progress.bossDone&&!progress.islandStarted)Won();}
             }
         }
         void BindUI()
         {
             Click("play",()=>{if(progress.shells.Count>0||progress.artifact||progress.bossPhase>0||progress.bossDone)Show("confirm",true);else StartNew();});
-            Click("continue",()=>Load(progress.boarded?bossScene:villageScene));Click("bossTest",()=>Load(bossScene));
-            Click("island",()=>{if(!string.IsNullOrEmpty(islandScene))Load(islandScene);});
+            Click("continue",ContinueAdventure);Click("bossTest",()=>Load(bossScene));
+            Click("island",()=>Load(portalsScene));Click("pausePortals",()=>Load(portalsScene));
             Click("sound",()=>OpenSound(true));Click("pauseSound",()=>OpenSound(false));Click("closeSound",()=>Show("settings",false));
             Click("pauseButton",TogglePause);Click("resume",TogglePause);Click("mainMenu",()=>Load(menuScene));
             Click("next",AdvanceDialogue);Click("skip",EndDialogue);Click("replayBoss",()=>{progress.bossPhase=0;Store();Load(bossScene);});Click("victoryMenu",()=>Load(menuScene));
@@ -66,8 +69,8 @@ namespace TurmaDoFarol
         void Click(string id,Action action){ui.Q<Button>(id).clicked+=()=>{Sfx("sfx_ui_confirm",.4f);action();ui.focusController?.focusedElement?.Blur();};}
         void Show(string id,bool visible){ui.Q(id).EnableInClassList("hidden",!visible);}
         void OpenSound(bool menu){Show("settings",true);}
-        public void Load(string scene){Store();Time.timeScale=1;SceneManager.LoadScene(scene);}
-        void StartNew(){progress=new Progress();Store();Load(villageScene);}
+        public void Load(string scene){if(scene==villageScene)progress.resumeStage="village";else if(scene==bossScene)progress.resumeStage="boss";else if(scene==islandScene)progress.resumeStage="island";Store();Time.timeScale=1;SceneManager.LoadScene(scene);}
+        void StartNew(){progress=new Progress{wallet=progress.wallet,doors=progress.doors,seen=progress.seen};Store();Load(villageScene);}
         public void Store(){PlayerPrefs.SetString(SaveKey,JsonUtility.ToJson(progress));PlayerPrefs.Save();}
         public void TogglePause(){if(stage=="menu"||dialogueOpen)return;paused=!paused;Time.timeScale=paused?0:1;Show("pause",paused);if(!paused)ui.focusController?.focusedElement?.Blur();}
         public void Music(string key){var c=assets.Audio(key);if(c){music.clip=c;music.Play();}}
@@ -80,10 +83,11 @@ namespace TurmaDoFarol
             if(Input.GetKeyDown(KeyCode.M)){AudioListener.volume=AudioListener.volume==0?1:0;PlayerPrefs.SetInt("farol.unity.mute",AudioListener.volume==0?1:0);ui.Q<Toggle>("mute").SetValueWithoutNotify(AudioListener.volume==0);}
             music.volume=Mathf.MoveTowards(music.volume,musicVolume*(dialogueOpen?.35f:stage=="boss"?.28f:1)*(tenseOn?0:1),Time.unscaledDeltaTime*.2f);
             tense.volume=Mathf.MoveTowards(tense.volume,tenseOn?musicVolume*.28f:0,Time.unscaledDeltaTime*.2f);
-            if(Input.GetKeyDown(KeyCode.Escape)){if(!ui.Q("settings").ClassListContains("hidden"))Show("settings",false);else TogglePause();}
+            UpdatePortalHold();
+            if(Input.GetKeyDown(KeyCode.Escape)){if(ClosePortalOverlay())return;if(!ui.Q("settings").ClassListContains("hidden"))Show("settings",false);else TogglePause();}
             if(dialogueOpen){dialogueElapsed+=Time.unscaledDeltaTime;if(dialogueElapsed>.2f&&(Input.GetKeyDown(KeyCode.E)||Input.GetKeyDown(KeyCode.Return)||Input.GetKeyDown(KeyCode.Space)))AdvanceDialogue();return;}
             if(paused||stage=="menu")return;
-            if(stage=="village")UpdateVillage();else if(stage=="boss")UpdateBossHud();
+            if(stage=="village")UpdateVillage();else if(stage=="boss")UpdateBossHud();else if(stage=="island")UpdateIsland();
         }
         void UpdateVillage()
         {
@@ -110,7 +114,7 @@ namespace TurmaDoFarol
             var copied=new JArray();for(int i=0;i<data.Count;i++){var line=(JObject)data[i].DeepClone();line["img"]="hq_"+panels[Mathf.Min(i,panels.Length-1)];copied.Add(line);}
             Dialogue(copied,()=>{if(id=="bia_redes"){progress.artifact=true;Sfx("sfx_clinc");}if(id=="toninho_artefato")progress.toninho=true;Store();});
         }
-        public void Board(){if(!progress.toninho)return;progress.boarded=true;Store();Dialogue((JArray)assets.Data["hq"]["transicao"],()=>Load(bossScene));}
+        public void Board(){if(!progress.toninho)return;progress.boarded=true;if(!progress.doors.Contains("mar"))progress.doors.Add("mar");Store();Dialogue((JArray)assets.Data["hq"]["transicao"],()=>Load(bossScene));}
         public void Collect(FarolCampaignShell shell){if(progress.shells.Contains(shell.id))return;progress.shells.Add(shell.id);progress.wallet+=shell.gold?5:1;shell.gameObject.SetActive(false);Sfx("sfx_shell",.7f);Store();}
         void RefreshShells(){foreach(var s in world.GetComponentsInChildren<FarolCampaignShell>(true))s.gameObject.SetActive(!progress.shells.Contains(s.id));}
         public void Dialogue(JArray sequence,Action onDone){lines=sequence;lineIndex=0;finished=onDone;dialogueOpen=true;if(player){player.locked=true;player.GetComponent<Rigidbody2D>().linearVelocity=Vector2.zero;}if(battle)battle.suspended=true;Prompt("");Show("hq",true);PresentLine();}
@@ -118,9 +122,11 @@ namespace TurmaDoFarol
         public void AdvanceDialogue(){if(!dialogueOpen)return;lineIndex++;PresentLine();}
         public void EndDialogue(){if(!dialogueOpen)return;dialogueOpen=false;Show("hq",false);if(player)player.locked=false;if(battle)battle.suspended=false;var cb=finished;finished=null;cb?.Invoke();}
         static string Name(string s){switch(s){case "marina":return "Marina";case "bia":return "Bia";case "julia":return "Júlia";case "lucas":return "Lucas";case "toninho":return "Seu Toninho";case "faisca":return "Faísca";case "narrador":return "";default:return s;}}
-        public void BossDialogue(string key,Action callback=null){var sequence=assets.Data["bossDialogues"][key] as JArray;if(sequence==null){callback?.Invoke();return;}Dialogue(sequence,callback);}
+        public void BossDialogue(string key,Action callback=null){var sequence=assets.Data["bossDialogues"][key] as JArray;if(sequence==null){callback?.Invoke();return;}var copy=(JArray)sequence.DeepClone();foreach(var l in copy)l["img"]="cut_"+key;Dialogue(copy,callback);}
         void UpdateBossHud(){Label("stage","Mar aberto · O Polvo Gigante");Label("objective",battle.Objective);Label("shells",$"Carteira: {progress.wallet} conchas");Label("controls","A/D: andar   ·   W ou ↑: pular   ·   S: agachar   ·   J/E/Espaço: sônico (segure e solte para carregar)   ·   Esc: pausa");Label("bossLabel",$"Polvo · Etapa {"ABCD"[battle.phase]} · {Mathf.CeilToInt(battle.hp)}/2400");ui.Q<ProgressBar>("bossLife").value=battle.hp/24;ui.Q<ProgressBar>("lucasLife").value=battle.playerHP;Label("lucasLabel",$"Lucas · {Mathf.CeilToInt(battle.playerHP)}/100");ui.Q<ProgressBar>("heat").value=battle.heat;ui.Q<ProgressBar>("heat").title="Aquecimento";Label("charge",battle.overheat>0?"Superaquecido · aguarde":battle.Charge>=1.2f?"Carga pronta · solte para disparar":$"Carga: {Mathf.RoundToInt(battle.Charge/1.2f*100)}%");}
-        public void Won(){progress.bossDone=true;progress.bossPhase=0;Store();Show("victory",true);Label("victoryText","A turma venceu o polvo. O progresso foi salvo. Você pode repetir a batalha ou voltar ao menu.");}
+        public void Won(){progress.bossDone=true;if(!progress.doors.Contains("ilha"))progress.doors.Add("ilha");progress.bossPhase=0;if(!progress.bonusF2){progress.wallet+=30;progress.bonusF2=true;}Store();Dialogue((JArray)assets.Data["bossEnding"],GoIsland);}
+        void GoIsland(){progress.islandStarted=true;progress.arriveIsland=true;Load(islandScene);}
+        void ContinueAdventure(){if(progress.bossDone&&!progress.islandStarted){Load(bossScene);return;}Load(progress.resumeStage=="island"?islandScene:progress.resumeStage=="boss"||progress.boarded?bossScene:villageScene);}
         public void Prompt(string text){if(ui==null)return;Label("prompt",text);Show("prompt",!string.IsNullOrEmpty(text));}
         void Label(string id,string text){var l=ui.Q<Label>(id);if(l.text!=text)l.text=text;}
         void OnDestroy(){Time.timeScale=1;}

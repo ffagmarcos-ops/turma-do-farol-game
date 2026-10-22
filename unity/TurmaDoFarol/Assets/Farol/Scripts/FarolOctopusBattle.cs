@@ -174,6 +174,6 @@ namespace TurmaDoFarol
         void RemoveInk(int index,bool puddle){var ink=inks[index];Destroy(ink.image.gameObject);Destroy(ink.mark.gameObject);inks.RemoveAt(index);if(puddle){var image=MakeImage("Poça escorregadia",assets.Sprite("f2_tinta",0),21);image.transform.localScale=new Vector3(1.1f,.12f,1);puddles.Add(new Puddle{x=ink.target,life=6,image=image});campaign.Sfx("fase2/splash_01",.4f);}}
         SpriteRenderer MakeImage(string name,Sprite sprite,int order){var go=new GameObject(name);go.transform.SetParent(transform,false);var sr=go.AddComponent<SpriteRenderer>();sr.sprite=sprite;sr.sortingOrder=order;return sr;}
         void RetractAll(){if(tentacles!=null)foreach(var t in tentacles){t.state="retract";t.t=0;}waveTimer=-1;inkWind=-1;for(int i=inks.Count-1;i>=0;i--)RemoveInk(i,false);}
-        void Win(){won=true;RetractAll();campaign.Sfx("sfx_bell");campaign.BossDialogue("vitoria",()=>campaign.Won());}
+        void Win(){won=true;RetractAll();campaign.Sfx("sfx_bell");campaign.Won();}
     }
 }
