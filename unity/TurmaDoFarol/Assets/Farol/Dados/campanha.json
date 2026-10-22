@@ -1666,6 +1666,24 @@
       "rects": null
     },
     {
+      "key": "hub_frente_cordas",
+      "path": "Assets/Originais/farol/fase3/hub/hub_frente_cordas.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "hub_raios_luz",
+      "path": "Assets/Originais/farol/fase3/hub/hub_raios_luz.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
       "key": "hub_bg_parede",
       "path": "Assets/Originais/farol/fase3/hub/hub_bg_parede.png",
       "fw": 0,
@@ -1713,6 +1731,15 @@
     {
       "key": "cena_marina",
       "path": "Assets/Originais/farol/fase3/portais/cena_marina.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "portal_vitral_rachaduras_sheet",
+      "path": "Assets/Originais/farol/fase3/portais/portal_vitral_rachaduras_sheet.png",
       "fw": 0,
       "fh": 0,
       "scale": 1,
@@ -1792,6 +1819,33 @@
       "rects": null
     },
     {
+      "key": "placa_preco_dourada",
+      "path": "Assets/Originais/farol/fase3/portais/placa_preco_dourada.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "placa_bronze",
+      "path": "Assets/Originais/farol/fase3/portais/placa_bronze.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "portal_anel_energia",
+      "path": "Assets/Originais/farol/fase3/portais/portal_anel_energia.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
       "key": "cena_lucas",
       "path": "Assets/Originais/farol/fase3/portais/cena_lucas.png",
       "fw": 0,
@@ -1839,6 +1893,15 @@
     {
       "key": "cena_faisca_rabo",
       "path": "Assets/Originais/farol/fase3/portais/cena_faisca_rabo.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "placa_preco_cinza",
+      "path": "Assets/Originais/farol/fase3/portais/placa_preco_cinza.png",
       "fw": 0,
       "fh": 0,
       "scale": 1,
@@ -1996,6 +2059,51 @@
     {
       "key": "vila_mapa_ilustrado",
       "path": "Assets/Originais/farol/fase3/curio/vila_mapa_ilustrado.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "pergaminho_confirma",
+      "path": "Assets/Originais/farol/fase3/ui/pergaminho_confirma.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "icone_concha_dourada",
+      "path": "Assets/Originais/farol/fase3/ui/icone_concha_dourada.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "botoes_hub_sheet",
+      "path": "Assets/Originais/farol/fase3/ui/botoes_hub_sheet.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "icone_concha_hud",
+      "path": "Assets/Originais/farol/fase3/ui/icone_concha_hud.png",
+      "fw": 0,
+      "fh": 0,
+      "scale": 1,
+      "pivot": 0.5,
+      "rects": null
+    },
+    {
+      "key": "carteira_hud",
+      "path": "Assets/Originais/farol/fase3/ui/carteira_hud.png",
       "fw": 0,
       "fh": 0,
       "scale": 1,

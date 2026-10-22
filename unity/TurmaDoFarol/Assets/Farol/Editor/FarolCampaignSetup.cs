@@ -66,7 +66,7 @@ namespace TurmaDoFarol.Editor
         {var go=new GameObject(name);go.transform.SetParent(root,false);go.transform.position=FarolCoordinates.RectCenter(x,y,w,h);go.AddComponent<BoxCollider2D>().size=new Vector2(w/100,h/100);}
         static string Save(string name){string path=output+"/"+name+".unity";EditorSceneManager.SaveScene(SceneManager.GetActiveScene(),path);return path;}
         static string BuildMenu(){var c=Scene("menu");Art(c.world,"Quadro da pagina 09","menu_capa",960,540,-10,1920,1080);return Save("Menu_Campanha");}
-        static string BuildPortals(){var c=Scene("portals");Art(c.world,"Interior do Farol","hub_bg_parede",960,540,-10,1920,1080);return Save("Portais_Farol");}
+        static string BuildPortals(){var c=Scene("portals");FarolPortalHallSetup.Populate(c);return Save("Portais_Farol");}
         static string BuildIsland()
         {
             if(string.IsNullOrEmpty(island))throw new InvalidOperationException("Fase 3 ausente.");

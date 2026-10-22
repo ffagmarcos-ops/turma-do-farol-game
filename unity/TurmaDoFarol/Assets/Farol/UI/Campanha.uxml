@@ -4,7 +4,7 @@
   <ui:VisualElement name="hud" class="hud hidden" picking-mode="Ignore">
    <ui:VisualElement class="hud-box" picking-mode="Ignore"><ui:Label name="stage" class="stage"/><ui:Label name="objective" class="small"/><ui:Label name="shells" class="small"/></ui:VisualElement>
    <ui:VisualElement name="bossHud" class="hud-box hidden" picking-mode="Ignore"><ui:Label name="bossLabel"/><ui:ProgressBar name="bossLife"/><ui:Label name="lucasLabel"/><ui:ProgressBar name="lucasLife"/><ui:ProgressBar name="heat"/><ui:Label name="charge" class="small"/></ui:VisualElement>
-   <ui:Button name="pauseButton" text="Pausa"/>
+   <ui:Button name="portalsList" text="Lista de portais" class="hidden"/><ui:Button name="pauseButton" text="Pausa"/>
   </ui:VisualElement>
   <ui:Label name="prompt" class="prompt hidden" picking-mode="Ignore"/>
   <ui:Label name="controls" class="controls hidden" picking-mode="Ignore"/>

@@ -47,7 +47,7 @@ namespace TurmaDoFarol
                     foreach(var f in world.GetComponentsInChildren<FarolFlipbook>())characters[f.character]=f.transform;
                     Music("music_vila");LoopAmbience("amb_waves",.12f);RefreshShells();
                     if(!progress.introSeen)Dialogue((JArray)assets.Data["hq"]["intro"],()=>{progress.introSeen=true;Store();});
-                }else if(stage=="portals"){OpenPortals();Music("music_vila");}
+                }else if(stage=="portals"){if(GetComponent<FarolPortalHall>()){Show("portalsList",true);Label("stage","Portais do Farol");Label("objective","Explore o salão e o mezanino");Label("controls","A/D: andar · Espaço: pular · E: portal · Tab: lista · Esc: pausa");}else OpenPortals();Music("menu/musica_mistica");}
                 else if(stage=="island"){StartIsland();Music("music_vila");}
                 else {battle.campaign=this;battle.Begin(progress.bossDone?0:progress.bossPhase);Music("fase2/bgm_boss");LoopAmbience("fase2/chuva_loop",.10f);if(progress.bossDone&&!progress.islandStarted)Won();}
             }
@@ -87,7 +87,7 @@ namespace TurmaDoFarol
             if(Input.GetKeyDown(KeyCode.Escape)){if(ClosePortalOverlay())return;if(!ui.Q("settings").ClassListContains("hidden"))Show("settings",false);else TogglePause();}
             if(dialogueOpen){dialogueElapsed+=Time.unscaledDeltaTime;if(dialogueElapsed>.2f&&(Input.GetKeyDown(KeyCode.E)||Input.GetKeyDown(KeyCode.Return)||Input.GetKeyDown(KeyCode.Space)))AdvanceDialogue();return;}
             if(paused||stage=="menu")return;
-            if(stage=="village")UpdateVillage();else if(stage=="boss")UpdateBossHud();else if(stage=="island")UpdateIsland();
+            if(stage=="village")UpdateVillage();else if(stage=="boss")UpdateBossHud();else if(stage=="island")UpdateIsland();else if(stage=="portals")Label("shells",$"Carteira: {progress.wallet} conchas");
         }
         void UpdateVillage()
         {

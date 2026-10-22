@@ -13,7 +13,7 @@ namespace TurmaDoFarol
         void NormalizeProgress(){progress.doors??=new List<string>();progress.seen??=new List<string>();progress.islandShells??=new List<string>();if(progress.boarded&&!progress.doors.Contains("mar"))progress.doors.Add("mar");if(progress.bossDone&&!progress.doors.Contains("ilha"))progress.doors.Add("ilha");}
         void BindPortals()
         {
-            Click("closePortals",()=>{if(stage=="portals")Load(menuScene);else ShowPortals(false);});
+            Click("closePortals",()=>{if(stage=="portals"&&!GetComponent<FarolPortalHall>())Load(menuScene);else ShowPortals(false);});Click("portalsList",TogglePortalList);
             Click("cancelPurchase",CancelPurchase);Click("closeCuriosity",()=>{curiosityOpen=false;Show("curiosity",false);});
             Click("nextCard",()=>{cardIndex++;PresentCard();});Click("previousCard",()=>{cardIndex=Mathf.Max(0,cardIndex-1);PresentCard();});
             ui.Q<UnityEngine.UIElements.Image>("curiosityArt").RegisterCallback<PointerDownEvent>(e=>InteractExtra());
@@ -24,9 +24,12 @@ namespace TurmaDoFarol
             button.RegisterCallback<PointerCaptureOutEvent>(e=>StopPurchaseHold(),TrickleDown.TrickleDown);
         }
         public void OpenPortals(){ShowPortals(true);RenderPortals();}
-        void ShowPortals(bool visible){portalsOpen=visible;Show("portals",visible);}
+        public bool PortalOverlayOpen=>portalsOpen||curiosityOpen||purchaseOpen;
+        public void TogglePortalList(){if(purchaseOpen||curiosityOpen)return;ShowPortals(!portalsOpen);if(portalsOpen)RenderPortals();}
+        void ShowPortals(bool visible){portalsOpen=visible;Show("portals",visible);if(stage=="portals"&&player)player.locked=visible;}
         bool MeetsRequirement(JToken p)=>p==null?false:(string)p["requer"]=="f1"?(progress.boarded||progress.doors.Contains("mar")):(string)p["requer"]=="f2"?(progress.bossDone||progress.doors.Contains("ilha")):true;
         JToken Portal(string id)=>assets.Data["portals"].FirstOrDefault(p=>(string)p["id"]==id);
+        public string PortalStatus(string id){var p=Portal(id);if(!MeetsRequirement(p))return (string)p["requer"]=="f1"?"Conclua a Vila":"Vença o Polvo";return PortalOpen(id)?"Entrar":p["preco"]+" conchas";}
         public bool PortalOpen(string id){var p=Portal(id);return MeetsRequirement(p)&&((int)p["preco"]==0||progress.doors.Contains(id));}
         public bool PurchasePortal(string id)
         {
@@ -81,7 +84,7 @@ namespace TurmaDoFarol
         void CancelPurchase(){StopPurchaseHold();purchaseOpen=false;pendingPortal=null;Show("portalPurchase",false);}
         void InteractExtra(){if(activeExtra=="lente"){var image=ui.Q("curiosityArt");image.RemoveFromClassList("lens-"+lensStep);lensStep=(lensStep+1)%8;image.AddToClassList("lens-"+lensStep);}else if(activeExtra=="zoom"||activeExtra=="explodido"){artExpanded=!artExpanded;ui.Q("curiosityArt").EnableInClassList("art-expanded",artExpanded);}}
         void UpdatePortalHold(){if(curiosityOpen&&activeExtra=="nos"){var image=ui.Q<UnityEngine.UIElements.Image>("curiosityArt");image.image=null;image.sprite=assets.Sprite("toninho_nos_sheet",knotRow*4+(Time.unscaledTime<knotUntil?(int)(Time.unscaledTime*7)%4:3));}if(!holdingPurchase)return;float elapsed=Time.unscaledTime-holdStart;ui.Q<ProgressBar>("purchaseHold").value=Mathf.Clamp01(elapsed/.6f)*100;if(elapsed<.6f)return;string id=pendingPortal;CancelPurchase();if(PurchasePortal(id)){Sfx("sfx_bell");RenderPortals();EnterPortal(id);}}
-        bool ClosePortalOverlay(){if(purchaseOpen){CancelPurchase();return true;}if(curiosityOpen){curiosityOpen=false;Show("curiosity",false);return true;}if(portalsOpen){if(stage=="portals")Load(menuScene);else ShowPortals(false);return true;}return false;}
+        bool ClosePortalOverlay(){if(purchaseOpen){CancelPurchase();return true;}if(curiosityOpen){curiosityOpen=false;Show("curiosity",false);return true;}if(portalsOpen){if(stage=="portals"&&!GetComponent<FarolPortalHall>())Load(menuScene);else ShowPortals(false);return true;}return false;}
         void OnApplicationFocus(bool focus){if(!focus&&ui!=null)StopPurchaseHold();}
         void StartIsland()
         {

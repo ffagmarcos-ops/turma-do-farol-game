@@ -13,6 +13,7 @@ namespace TurmaDoFarol
         public UnityEngine.UIElements.VisualTreeAsset interfaceTree;
         public UnityEngine.UIElements.PanelSettings panel;
         JObject parsed; Dictionary<string,Art> lookup;
+        public void InvalidateCache(){parsed=null;lookup=null;}
         public JObject Data=>parsed??(parsed=JObject.Parse(data.text));
         public Art Find(string key){if(lookup==null){lookup=new Dictionary<string,Art>();foreach(var a in art)lookup[a.key]=a;}return lookup.TryGetValue(key,out var v)?v:null;}
         public Sprite Sprite(string key,int frame=0){var a=Find(key);return a!=null&&a.frames.Length>0?a.frames[Mathf.Clamp(frame,0,a.frames.Length-1)]:null;}

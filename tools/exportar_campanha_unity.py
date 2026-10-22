@@ -31,9 +31,9 @@ textures['f2_tentaculo_v']['rects']=[dict(name=str(i),x=r[0],y=r[1],w=r[2],h=r[3
 for p in (ROOT/'unity/TurmaDoFarol/Assets/Originais/farol/hq').glob('*.jpg'):add('hq_'+p.stem,'farol/hq/'+p.name)
 for p in (ROOT/'unity/TurmaDoFarol/Assets/Originais/farol/ui').glob('portrait_*.png'):add(p.stem,'farol/ui/'+p.name)
 for p in (ROOT/'unity/TurmaDoFarol/Assets/Originais/farol/fase2_reuse').glob('*.jpg'):add(p.stem,'farol/fase2_reuse/'+p.name)
-for folder in ['hub','portais','curio']:
+for folder in ['hub','portais','curio','ui']:
  for p in (ROOT/'unity/TurmaDoFarol/Assets/Originais/farol/fase3'/folder).glob('*.png'):
-  if p.stem.startswith('cena_') or p.stem in ['hub_bg_ceu_mar','hub_bg_parede','hub_chao_mezanino','hub_lente_farol','portal_moldura','portal_vitral_fechado','portal_fase3_correntes','cadeado_concha_sheet','lucas_aparelho_explodido','vila_mapa_ilustrado','esperanca_planta','polvo_dossie','toninho_nos_sheet','carta_moldura','polaroid_moldura']:
+  if p.stem.startswith('cena_') or p.stem in ['icone_concha_hud','icone_concha_dourada','carteira_hud','pergaminho_confirma','botoes_hub_sheet','hub_bg_ceu_mar','hub_bg_parede','hub_chao_mezanino','hub_lente_farol','hub_raios_luz','hub_frente_cordas','portal_vitral_rachaduras_sheet','portal_anel_energia','placa_bronze','placa_preco_dourada','placa_preco_cinza','portal_moldura','portal_vitral_fechado','portal_fase3_correntes','cadeado_concha_sheet','lucas_aparelho_explodido','vila_mapa_ilustrado','esperanca_planta','polvo_dossie','toninho_nos_sheet','carta_moldura','polaroid_moldura']:
    add(p.stem,'farol/fase3/'+folder+'/'+p.name)
 if 'toninho_nos_sheet' in textures:
  p=ROOT/'unity/TurmaDoFarol'/textures['toninho_nos_sheet']['path']; w,h=struct.unpack('>II',p.read_bytes()[16:24]);fw,fh=w//4,h//3
