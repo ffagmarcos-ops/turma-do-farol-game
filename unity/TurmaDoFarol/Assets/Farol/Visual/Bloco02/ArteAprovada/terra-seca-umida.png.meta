@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 2df532fd1aa9346e89b6bb0cf05274ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6546050507184538299
+    second: terra-seca-umida_0
+  - first:
+      213: 8548865472247203310
+    second: terra-seca-umida_1
+  - first:
+      213: 5848652528038863514
+    second: terra-seca-umida_2
+  - first:
+      213: -2130903023961014782
+    second: terra-seca-umida_3
+  - first:
+      213: 5276364710318479106
+    second: terra-seca-umida_4
+  - first:
+      213: 7440408791106559839
+    second: terra-seca-umida_5
+  - first:
+      213: -509987201430181755
+    second: terra-seca-umida_6
+  - first:
+      213: -5256889126030345705
+    second: terra-seca-umida_7
+  - first:
+      213: 2507062045098642858
+    second: terra-seca-umida_8
+  - first:
+      213: -3835074146721452295
+    second: terra-seca-umida_9
+  - first:
+      213: 2920040021457407595
+    second: terra-seca-umida_10
+  - first:
+      213: -6854907064187000170
+    second: terra-seca-umida_11
+  - first:
+      213: -2630719809383205787
+    second: terra-seca-umida_12
+  - first:
+      213: -3566136968452127480
+    second: terra-seca-umida_13
+  - first:
+      213: -2553033409020779425
+    second: terra-seca-umida_14
+  - first:
+      213: 4951463985421718773
+    second: terra-seca-umida_15
+  - first:
+      213: 5876052730709588494
+    second: terra-seca-umida_16
+  - first:
+      213: -8539926735997450152
+    second: terra-seca-umida_17
+  - first:
+      213: -4697091601450063684
+    second: terra-seca-umida_18
+  - first:
+      213: 1981776111000037895
+    second: terra-seca-umida_19
+  - first:
+      213: -5214183470529966529
+    second: terra-seca-umida_20
+  - first:
+      213: 6178507632708457355
+    second: terra-seca-umida_21
+  - first:
+      213: 5207588101344449022
+    second: terra-seca-umida_22
+  - first:
+      213: -8361857735196792775
+    second: terra-seca-umida_23
+  - first:
+      213: 1140706445360627922
+    second: terra-seca-umida_24
+  - first:
+      213: -9002540671037308370
+    second: terra-seca-umida_25
+  - first:
+      213: 379482748180779276
+    second: terra-seca-umida_26
+  - first:
+      213: 1890660137571898907
+    second: terra-seca-umida_27
+  - first:
+      213: 2695229761770869342
+    second: terra-seca-umida_28
+  - first:
+      213: -4715431795908281251
+    second: terra-seca-umida_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: terra-seca-umida_0
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 375
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54dff750fb1c725a0800000000000000
+      internalID: -6546050507184538299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_1
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 353
+        width: 118
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee585e96adba3a670800000000000000
+      internalID: 8548865472247203310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_2
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 424
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92627c9c769a2150800000000000000
+      internalID: 5848652528038863514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_3
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 432
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e7ffd5df28d62e0800000000000000
+      internalID: -2130903023961014782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 254
+        width: 148
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20790f7afb9693940800000000000000
+      internalID: 5276364710318479106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 878
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f9991ef54a14760800000000000000
+      internalID: 7440408791106559839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 393
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58822c2a7592ce8f0800000000000000
+      internalID: -509987201430181755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 359
+        width: 84
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71af85b2137cb07b0800000000000000
+      internalID: -5256889126030345705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_8
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 398
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad08f3a5afdac220800000000000000
+      internalID: 2507062045098642858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_9
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 375
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe2265f16417cac0800000000000000
+      internalID: -3835074146721452295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_10
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 392
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e84e0bde0168820800000000000000
+      internalID: 2920040021457407595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_11
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 383
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a61de085a7ed0a0800000000000000
+      internalID: -6854907064187000170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_12
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 373
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5647122854ecd7bd0800000000000000
+      internalID: -2630719809383205787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_13
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 363
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805c5074259828ec0800000000000000
+      internalID: -3566136968452127480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 365
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54ac9b14adc19cd0800000000000000
+      internalID: -2553033409020779425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_15
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 378
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f49331c24227b440800000000000000
+      internalID: 4951463985421718773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_16
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 380
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ab86f63deeb8150800000000000000
+      internalID: 5876052730709588494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_17
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 381
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858c20d41e51c7980800000000000000
+      internalID: -8539926735997450152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_18
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 371
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb82912231490deb0800000000000000
+      internalID: -4697091601450063684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_19
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 359
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a23808fdea08b10800000000000000
+      internalID: 1981776111000037895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_20
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 369
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e095d62cf73a7b0800000000000000
+      internalID: -5214183470529966529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_21
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 353
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8390a1f4f77eb550800000000000000
+      internalID: 6178507632708457355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_22
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 347
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1df2589c1154840800000000000000
+      internalID: 5207588101344449022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_23
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 349
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9382e3f51b6b4fb80800000000000000
+      internalID: -8361857735196792775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_24
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 343
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d008b4e77a94df00800000000000000
+      internalID: 1140706445360627922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_25
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 347
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2280da05fc801380800000000000000
+      internalID: -9002540671037308370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_26
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 319
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0154b38c81344500800000000000000
+      internalID: 379482748180779276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_27
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 293
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16d6f2c069fc3a10800000000000000
+      internalID: 1890660137571898907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_28
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 236
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52d96a3031676520800000000000000
+      internalID: 2695229761770869342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terra-seca-umida_29
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cfd4ad3cb6f8eb0800000000000000
+      internalID: -4715431795908281251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      terra-seca-umida_0: -6546050507184538299
+      terra-seca-umida_1: 8548865472247203310
+      terra-seca-umida_10: 2920040021457407595
+      terra-seca-umida_11: -6854907064187000170
+      terra-seca-umida_12: -2630719809383205787
+      terra-seca-umida_13: -3566136968452127480
+      terra-seca-umida_14: -2553033409020779425
+      terra-seca-umida_15: 4951463985421718773
+      terra-seca-umida_16: 5876052730709588494
+      terra-seca-umida_17: -8539926735997450152
+      terra-seca-umida_18: -4697091601450063684
+      terra-seca-umida_19: 1981776111000037895
+      terra-seca-umida_2: 5848652528038863514
+      terra-seca-umida_20: -5214183470529966529
+      terra-seca-umida_21: 6178507632708457355
+      terra-seca-umida_22: 5207588101344449022
+      terra-seca-umida_23: -8361857735196792775
+      terra-seca-umida_24: 1140706445360627922
+      terra-seca-umida_25: -9002540671037308370
+      terra-seca-umida_26: 379482748180779276
+      terra-seca-umida_27: 1890660137571898907
+      terra-seca-umida_28: 2695229761770869342
+      terra-seca-umida_29: -4715431795908281251
+      terra-seca-umida_3: -2130903023961014782
+      terra-seca-umida_4: 5276364710318479106
+      terra-seca-umida_5: 7440408791106559839
+      terra-seca-umida_6: -509987201430181755
+      terra-seca-umida_7: -5256889126030345705
+      terra-seca-umida_8: 2507062045098642858
+      terra-seca-umida_9: -3835074146721452295
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1612 @@
+fileFormatVersion: 2
+guid: ef125a36bc3d246d1b0bf88a780307b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4966752963145419833
+    second: pedras-molhadas_0
+  - first:
+      213: 8087766124807805440
+    second: pedras-molhadas_1
+  - first:
+      213: 7021899782757488075
+    second: pedras-molhadas_2
+  - first:
+      213: -8885863551654956351
+    second: pedras-molhadas_3
+  - first:
+      213: 5154924072910083508
+    second: pedras-molhadas_4
+  - first:
+      213: 964600019218624296
+    second: pedras-molhadas_5
+  - first:
+      213: -6744962685643360625
+    second: pedras-molhadas_6
+  - first:
+      213: -6910025556475928752
+    second: pedras-molhadas_7
+  - first:
+      213: 3854040949921500917
+    second: pedras-molhadas_8
+  - first:
+      213: -7098870035312739931
+    second: pedras-molhadas_9
+  - first:
+      213: 369480960159451751
+    second: pedras-molhadas_10
+  - first:
+      213: -6436530830554458408
+    second: pedras-molhadas_11
+  - first:
+      213: -1332942828256342607
+    second: pedras-molhadas_12
+  - first:
+      213: -4194358319594837356
+    second: pedras-molhadas_13
+  - first:
+      213: 4769578126792496449
+    second: pedras-molhadas_14
+  - first:
+      213: -8132756142644735764
+    second: pedras-molhadas_15
+  - first:
+      213: -2736340077751880756
+    second: pedras-molhadas_16
+  - first:
+      213: -7831233170226826282
+    second: pedras-molhadas_17
+  - first:
+      213: 3213112570909616536
+    second: pedras-molhadas_18
+  - first:
+      213: 7794179583392729596
+    second: pedras-molhadas_19
+  - first:
+      213: -9171681242121020901
+    second: pedras-molhadas_20
+  - first:
+      213: 6920552696471539139
+    second: pedras-molhadas_21
+  - first:
+      213: 6780554414420539438
+    second: pedras-molhadas_22
+  - first:
+      213: -8838221882147406844
+    second: pedras-molhadas_23
+  - first:
+      213: 9131524767192563099
+    second: pedras-molhadas_24
+  - first:
+      213: 1528499448699622617
+    second: pedras-molhadas_25
+  - first:
+      213: 4728136423463917007
+    second: pedras-molhadas_26
+  - first:
+      213: 6967541538695952479
+    second: pedras-molhadas_27
+  - first:
+      213: -5633777800495155808
+    second: pedras-molhadas_28
+  - first:
+      213: 7362600954835345362
+    second: pedras-molhadas_29
+  - first:
+      213: 6140005832295228944
+    second: pedras-molhadas_30
+  - first:
+      213: 4821148985850965914
+    second: pedras-molhadas_31
+  - first:
+      213: -3218425002153858188
+    second: pedras-molhadas_32
+  - first:
+      213: -6899684671458209095
+    second: pedras-molhadas_33
+  - first:
+      213: -1478189083683865786
+    second: pedras-molhadas_34
+  - first:
+      213: -6403996024324813911
+    second: pedras-molhadas_35
+  - first:
+      213: -8555512217910029479
+    second: pedras-molhadas_36
+  - first:
+      213: 1549895759993603055
+    second: pedras-molhadas_37
+  - first:
+      213: -8681768173130550289
+    second: pedras-molhadas_38
+  - first:
+      213: 8487437668933971245
+    second: pedras-molhadas_39
+  - first:
+      213: -3945554860897035046
+    second: pedras-molhadas_40
+  - first:
+      213: 1787876988139810962
+    second: pedras-molhadas_41
+  - first:
+      213: 954919479270159420
+    second: pedras-molhadas_42
+  - first:
+      213: 3676236573591388033
+    second: pedras-molhadas_43
+  - first:
+      213: 7727294711424810043
+    second: pedras-molhadas_44
+  - first:
+      213: 3637453286729298825
+    second: pedras-molhadas_45
+  - first:
+      213: 1388379609141778029
+    second: pedras-molhadas_46
+  - first:
+      213: 6326631557057129939
+    second: pedras-molhadas_47
+  - first:
+      213: -8070150707177763003
+    second: pedras-molhadas_48
+  - first:
+      213: 235041622730600167
+    second: pedras-molhadas_49
+  - first:
+      213: 5406428757748495187
+    second: pedras-molhadas_50
+  - first:
+      213: 1964170745022713482
+    second: pedras-molhadas_51
+  - first:
+      213: -7033021864828595070
+    second: pedras-molhadas_52
+  - first:
+      213: -5074068023432768709
+    second: pedras-molhadas_53
+  - first:
+      213: -5833414396248094302
+    second: pedras-molhadas_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pedras-molhadas_0
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 394
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c33998be7c821bb0800000000000000
+      internalID: -4966752963145419833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 436
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a5b9f80748d3070800000000000000
+      internalID: 8087766124807805440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_2
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 436
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc517a716acc27160800000000000000
+      internalID: 7021899782757488075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 279
+        width: 146
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2f309dd221fa480800000000000000
+      internalID: -8885863551654956351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 267
+        width: 341
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b55ae1e128f98740800000000000000
+      internalID: 5154924072910083508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_5
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 438
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f6cd75b92f26d00800000000000000
+      internalID: 964600019218624296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 344
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8676fa7c241562a0800000000000000
+      internalID: -6744962685643360625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 386
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f91650e58aa10a0800000000000000
+      internalID: -6910025556475928752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 267
+        width: 53
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe41e903dd4c7530800000000000000
+      internalID: 3854040949921500917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_9
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 410
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9f486705fbb7d90800000000000000
+      internalID: -7098870035312739931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 388
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a0395c9f8a02500800000000000000
+      internalID: 369480960159451751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 384
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d693f2df49dca6a0800000000000000
+      internalID: -6436530830554458408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_12
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 370
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd40e75f8f608de0800000000000000
+      internalID: -1332942828256342607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_13
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 373
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a68dbb455aac5c0800000000000000
+      internalID: -4194358319594837356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_14
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 370
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14590f73902f03240800000000000000
+      internalID: 4769578126792496449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 338
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0d8c0a065a22f80800000000000000
+      internalID: -8132756142644735764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 369
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc33fe07231960ad0800000000000000
+      internalID: -2736340077751880756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_17
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 305
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3bf5f5ceed15390800000000000000
+      internalID: -7831233170226826282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_18
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 372
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899e8640cd4479c20800000000000000
+      internalID: 3213112570909616536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_19
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 362
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9c9b7290d7a2c60800000000000000
+      internalID: 7794179583392729596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 327
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a53420184a7b080800000000000000
+      internalID: -9171681242121020901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_21
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 330
+        width: 52
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdce82c20eba0060800000000000000
+      internalID: 6920552696471539139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_22
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 352
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e283eb3a05e591e50800000000000000
+      internalID: 6780554414420539438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_23
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 362
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cf48c6604585580800000000000000
+      internalID: -8838221882147406844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_24
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 351
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9db1361561b9be70800000000000000
+      internalID: 9131524767192563099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_25
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 348
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d41f177622563510800000000000000
+      internalID: 1528499448699622617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_26
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 342
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc51722c607bd9140800000000000000
+      internalID: 4728136423463917007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_27
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 319
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5830c32d1ea1b060800000000000000
+      internalID: 6967541538695952479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_28
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 328
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5310280fcc0d1b0800000000000000
+      internalID: -5633777800495155808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_29
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 277
+        width: 27
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df99e74f863d2660800000000000000
+      internalID: 7362600954835345362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_30
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 324
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016a8c8f5cea53550800000000000000
+      internalID: 6140005832295228944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_31
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 338
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fa1e6857928e240800000000000000
+      internalID: 4821148985850965914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_32
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 338
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b2262338bd553d0800000000000000
+      internalID: -3218425002153858188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_33
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 327
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2968fe8556f30a0800000000000000
+      internalID: -6899684671458209095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_34
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 327
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bb9243cda6c7be0800000000000000
+      internalID: -1478189083683865786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_35
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 323
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab0b13bb8f6027a0800000000000000
+      internalID: -6403996024324813911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243
+        width: 29
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95355f387f6b44980800000000000000
+      internalID: -8555512217910029479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_37
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 291
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe38d456bf5528510800000000000000
+      internalID: 1549895759993603055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 305
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3f24238d9248780800000000000000
+      internalID: -8681768173130550289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_39
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 325
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d241e679f69c570800000000000000
+      internalID: 8487437668933971245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_40
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 321
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc9a6a22c29e39c0800000000000000
+      internalID: -3945554860897035046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_41
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 269
+        width: 119
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2903b2ce5a0dfc810800000000000000
+      internalID: 1787876988139810962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_42
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 307
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34bffef43e804d00800000000000000
+      internalID: 954919479270159420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_43
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 304
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fb637afad940330800000000000000
+      internalID: 3676236573591388033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_44
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 283
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cfa3d599ddc3b60800000000000000
+      internalID: 7727294711424810043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_45
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 305
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983b3920e74da7230800000000000000
+      internalID: 3637453286729298825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_46
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 291
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d669a4806e3844310800000000000000
+      internalID: 1388379609141778029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_47
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 273
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddaa2791e5bcc750800000000000000
+      internalID: 6326631557057129939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_48
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 265
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f4dc670b0110090800000000000000
+      internalID: -8070150707177763003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_49
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 275
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eee94e4c19034300800000000000000
+      internalID: 235041622730600167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_50
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 279
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3533e098f4e770b40800000000000000
+      internalID: 5406428757748495187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 872
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e0b4fc2e2224b10800000000000000
+      internalID: 1964170745022713482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_52
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 264
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284165160efa56e90800000000000000
+      internalID: -7033021864828595070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_53
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 255
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b331f19240a4599b0800000000000000
+      internalID: -5074068023432768709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras-molhadas_54
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a98bfb638c8b0fa0800000000000000
+      internalID: -5833414396248094302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pedras-molhadas_0: -4966752963145419833
+      pedras-molhadas_1: 8087766124807805440
+      pedras-molhadas_10: 369480960159451751
+      pedras-molhadas_11: -6436530830554458408
+      pedras-molhadas_12: -1332942828256342607
+      pedras-molhadas_13: -4194358319594837356
+      pedras-molhadas_14: 4769578126792496449
+      pedras-molhadas_15: -8132756142644735764
+      pedras-molhadas_16: -2736340077751880756
+      pedras-molhadas_17: -7831233170226826282
+      pedras-molhadas_18: 3213112570909616536
+      pedras-molhadas_19: 7794179583392729596
+      pedras-molhadas_2: 7021899782757488075
+      pedras-molhadas_20: -9171681242121020901
+      pedras-molhadas_21: 6920552696471539139
+      pedras-molhadas_22: 6780554414420539438
+      pedras-molhadas_23: -8838221882147406844
+      pedras-molhadas_24: 9131524767192563099
+      pedras-molhadas_25: 1528499448699622617
+      pedras-molhadas_26: 4728136423463917007
+      pedras-molhadas_27: 6967541538695952479
+      pedras-molhadas_28: -5633777800495155808
+      pedras-molhadas_29: 7362600954835345362
+      pedras-molhadas_3: -8885863551654956351
+      pedras-molhadas_30: 6140005832295228944
+      pedras-molhadas_31: 4821148985850965914
+      pedras-molhadas_32: -3218425002153858188
+      pedras-molhadas_33: -6899684671458209095
+      pedras-molhadas_34: -1478189083683865786
+      pedras-molhadas_35: -6403996024324813911
+      pedras-molhadas_36: -8555512217910029479
+      pedras-molhadas_37: 1549895759993603055
+      pedras-molhadas_38: -8681768173130550289
+      pedras-molhadas_39: 8487437668933971245
+      pedras-molhadas_4: 5154924072910083508
+      pedras-molhadas_40: -3945554860897035046
+      pedras-molhadas_41: 1787876988139810962
+      pedras-molhadas_42: 954919479270159420
+      pedras-molhadas_43: 3676236573591388033
+      pedras-molhadas_44: 7727294711424810043
+      pedras-molhadas_45: 3637453286729298825
+      pedras-molhadas_46: 1388379609141778029
+      pedras-molhadas_47: 6326631557057129939
+      pedras-molhadas_48: -8070150707177763003
+      pedras-molhadas_49: 235041622730600167
+      pedras-molhadas_5: 964600019218624296
+      pedras-molhadas_50: 5406428757748495187
+      pedras-molhadas_51: 1964170745022713482
+      pedras-molhadas_52: -7033021864828595070
+      pedras-molhadas_53: -5074068023432768709
+      pedras-molhadas_54: -5833414396248094302
+      pedras-molhadas_6: -6744962685643360625
+      pedras-molhadas_7: -6910025556475928752
+      pedras-molhadas_8: 3854040949921500917
+      pedras-molhadas_9: -7098870035312739931
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

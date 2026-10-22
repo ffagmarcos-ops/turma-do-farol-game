@@ -1,0 +1,144 @@
+{
+  "geracao": "imagegen integrado",
+  "referencia_hq": "ed0c6fd9-2fbf-4ef6-90a6-ff49e936dea7.png",
+  "artes": [
+    {
+      "arquivo": "aclive.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/aclive.png",
+      "sha256": "2ea58bd947ce2f72260a003bf1308a249c14389381fff61b8bf067b6d8be3ecf",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "arbusto.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/arbusto.png",
+      "sha256": "d8d1321146e666b94baef74bdcd26908866dc54c6bc10aae9384bfb3b4ab539e",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "canto-rochoso.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/canto-rochoso.png",
+      "sha256": "3a0d8ae35ba4fd52f0ab3924a997000a8c48393305646aca89fb01ef8beb09d3",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "capim.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/capim.png",
+      "sha256": "dec244d6800fb68d3f606b87af8dc3d15da47b783b4bffdcab66dc905e3063a3",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "concavidade.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/concavidade.png",
+      "sha256": "7d17f0901754871c46a63d79f44d99ad26112f2bec5647ddb6403b4ae125776a",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "declive.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/declive.png",
+      "sha256": "66d8a9d220fa17d5f5ec43c225e6549f5c787bf06dac04b4ee7a39f96ae66c3f",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "folhas-baixas.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/folhas-baixas.png",
+      "sha256": "3d12ea86042e84ae55efb140deaba39ce3c36d60caf9f0e40b1ea4785ad6fbe8",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "juncos.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/juncos.png",
+      "sha256": "6872736b63b53e48f55a82cf433ac0c3e4272427420fa93e3328ce15e88643f9",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "leito-pedregoso.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/leito-pedregoso.png",
+      "sha256": "db1feee0320cc1673bb6ada70a13a2a17eeacc269f0983592202584da2103b35",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "margem-pedra-direita.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/margem-pedra-direita.png",
+      "sha256": "ea466d6e21e73a1e67a22f5d35b1c2e13df5fc06e64037b840d73d13fdc0a278",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "margem-pedra-esquerda.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/margem-pedra-esquerda.png",
+      "sha256": "f9a3593f49884ca8dcbda97f58deb99ab1acaa14a50feb470c8763b035eeabc6",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "mata-intermediaria.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/03-mata-intermediaria.png",
+      "sha256": "64f9f54b697feb6f6b3147fa93205d45b231eaf2215518e981b8622ea8fca637",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "pedra-musgo-grande.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/pedra-musgo-grande.png",
+      "sha256": "d2c5269a75e2b6d57bc60f7352c807c39621117c09d39bc9f8288ff29ba43251",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "pedra-musgo-pequena.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/pedra-musgo-pequena.png",
+      "sha256": "dffb5c7c9e1c6f4764b2eb7b09da2c2d9aaedf8ccd7f1c1023e799709e3e6ff3",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "pedras-molhadas.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/pedras-molhadas.png",
+      "sha256": "7cd3095f70165c862141b6e03dfbe31804f8be257a4c739f9c716ad0fe2f838a",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "pedras-submersas.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/pedras-submersas.png",
+      "sha256": "116eff63b1e99a117e9d29ac834465253359dd066c1f2740f6bd1a74a3958862",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "raizes.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/raizes.png",
+      "sha256": "cd1e83e6497c66848643c6bcf6142cf02a28910724d4add1f1bcc1b0c0263d97",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "samambaia.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/samambaia.png",
+      "sha256": "8bd031eb115b35246bb1d3f837c422eead4087c7c16496392a1cec1a00ec53c4",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "terra-extremidade-direita.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/terra-extremidade-direita.png",
+      "sha256": "1b8ce01aa0577697e782a9b7c1b6e0e422eacd776f9f233d38811e20b6efdaed",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "terra-extremidade-esquerda.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/terra-extremidade-esquerda.png",
+      "sha256": "469ae38d7aeefb63f7c9e7a7a5d417fc0ca959ba1d199262d492bcc56ec63d9c",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "terra-seca-umida.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/terra-seca-umida.png",
+      "sha256": "b510d0975c2eea18f09fe7115c47ef86aafb4559040efa53016cff94a9a065f3",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "terra-topo.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/terra-topo.png",
+      "sha256": "bcf11f8dfd308f38790de389e6036809b4e97b42cfb6ddaa290e49abd12cbb79",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    },
+    {
+      "arquivo": "terra-variante.png",
+      "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/riacho-lucas-v01/pecas/terra-variante.png",
+      "sha256": "16ea050f46bdfbe6bb74ddd3552b7c9d9f42284d462de838c10e95e861d9b229",
+      "status": "aprovado visualmente; encaixe técnico conforme relatório"
+    }
+  ]
+}
