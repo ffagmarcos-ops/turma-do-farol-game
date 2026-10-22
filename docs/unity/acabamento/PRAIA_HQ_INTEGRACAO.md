@@ -39,3 +39,9 @@ O menu web existente também foi aberto pelo servidor de desenvolvimento. Nenhum
 A comparação final de todos os colisores da campanha permaneceu idêntica. Os registros de progresso da campanha e da ilha foram restaurados e comparados ao backup feito antes da inspeção.
 
 O novo atalho foi testado: inicia na praia e, ao encerrar o Play, restaura os registros da campanha/ilha e a execução em segundo plano. Avisos de nome interno das malhas foram corrigidos nos assets e na ferramenta de montagem.
+
+## Vegetação próxima da câmera
+
+Samambaia costeira à esquerda e palmeira jovem à direita, reaproveitando os PNGs aprovados. A camada fica nas bordas inferiores, com desfoque local por material, opacidade moderada e deslocamento suave conforme a câmera avança. A faixa central e a parte superior ficam protegidas por máscara de tela. O desfoque não é aplicado à cena inteira nem à interface. Há redução gradual da camada ao terminar a praia. Nenhuma colisão ou imagem original foi modificada.
+
+Conferência em Play do primeiro plano: shader sem erro, zero colisores adicionados, quadros avançando (685→3033), ocultação após o setor A e restauração dos dois registros de progresso ao sair do teste. Captura inspecionada com personagem e interface legíveis.
