@@ -97,7 +97,7 @@ namespace TurmaDoFarol.Editor
                 AnimationUtility.SetObjectReferenceCurve(clip,new EditorCurveBinding{path="",type=typeof(SpriteRenderer),propertyName="m_Sprite"},curve.ToArray());
                 var settings=AnimationUtility.GetAnimationClipSettings(clip);settings.loopTime=data.loop;AnimationUtility.SetAnimationClipSettings(clip,settings);
                 AssetDatabase.CreateAsset(clip,dir+"/"+data.key+".anim");
-                var state=machine.AddState(data.key);state.motion=clip;if(data.key=="bia.idle")machine.defaultState=state;
+                var state=machine.AddState(data.key.Replace('.','_'));state.motion=clip;if(data.key=="bia.idle")machine.defaultState=state;
             }
         }
 

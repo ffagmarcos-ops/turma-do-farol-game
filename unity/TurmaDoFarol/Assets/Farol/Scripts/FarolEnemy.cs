@@ -5,7 +5,7 @@ namespace TurmaDoFarol
     {
         public bool monkey; public float minX,maxX,speed=1.3f;public FarolPlayerController player;
         Rigidbody2D body; int direction=1; float stunUntil;
-        void Awake(){body=GetComponent<Rigidbody2D>();var anim=GetComponent<Animator>();if(anim)anim.Play(Animator.StringToHash("Base Layer."+(monkey?"monkey.idle":"crab.walk")),0,0);}
+        void Awake(){body=GetComponent<Rigidbody2D>();var anim=GetComponent<Animator>();if(anim)anim.Play(Animator.StringToHash("Base Layer."+(monkey?"monkey_idle":"crab_walk")),0,0);}
         void FixedUpdate()
         {
             if(monkey||!body)return;

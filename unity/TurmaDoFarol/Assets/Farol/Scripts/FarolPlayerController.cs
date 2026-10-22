@@ -64,7 +64,7 @@ namespace TurmaDoFarol
             jumpReleased=false;velocity.y=Mathf.Max(velocity.y,-14);body.linearVelocity=velocity;
         }
         void SetHeight(float height){box.size=new Vector2(bodyWidth,height);box.offset=Vector2.up*height/2;}
-        void Play(string name){if(!animator||pose==name||!animator.HasState(0,Animator.StringToHash("Base Layer."+name)))return;pose=name;animator.Play(Animator.StringToHash("Base Layer."+name),0,0);}
+        void Play(string name){if(!animator||pose==name||!animator.HasState(0,Animator.StringToHash("Base Layer."+name.Replace('.','_'))))return;pose=name;animator.Play(Animator.StringToHash("Base Layer."+name.Replace('.','_')),0,0);}
         void ThrowShell()
         {
             lastThrow=Time.time;Play(grounded?"bia.throw_stand":"bia.throw_air");

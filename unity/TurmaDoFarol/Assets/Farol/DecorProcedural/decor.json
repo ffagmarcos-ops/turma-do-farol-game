@@ -1,0 +1,1921 @@
+{
+  "source": "src/game/fase3/Fase3Placeholders.js",
+  "entries": [
+    {
+      "sector": "A",
+      "key": "palm",
+      "w": 360,
+      "h": 620,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/palm_360x620.png"
+    },
+    {
+      "sector": "A",
+      "key": "bush",
+      "w": 260,
+      "h": 160,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/bush_260x160.png"
+    },
+    {
+      "sector": "A",
+      "key": "driftwood",
+      "w": 300,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/driftwood_300x110.png"
+    },
+    {
+      "sector": "A",
+      "key": "starfish",
+      "w": 64,
+      "h": 64,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/starfish_64x64.png"
+    },
+    {
+      "sector": "A",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "B",
+      "key": "palm",
+      "w": 360,
+      "h": 620,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/palm_360x620.png"
+    },
+    {
+      "sector": "B",
+      "key": "bush",
+      "w": 260,
+      "h": 160,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/bush_260x160.png"
+    },
+    {
+      "sector": "B",
+      "key": "boulder",
+      "w": 240,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/boulder_240x180.png"
+    },
+    {
+      "sector": "B",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "B",
+      "key": "starfish",
+      "w": 64,
+      "h": 64,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/starfish_64x64.png"
+    },
+    {
+      "sector": "B",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "C",
+      "key": "tree",
+      "w": 420,
+      "h": 720,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/tree_420x720.png"
+    },
+    {
+      "sector": "C",
+      "key": "palm",
+      "w": 360,
+      "h": 620,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/palm_360x620.png"
+    },
+    {
+      "sector": "C",
+      "key": "bush",
+      "w": 260,
+      "h": 160,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/bush_260x160.png"
+    },
+    {
+      "sector": "C",
+      "key": "fern",
+      "w": 220,
+      "h": 140,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/fern_220x140.png"
+    },
+    {
+      "sector": "C",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "C",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "D",
+      "key": "tree",
+      "w": 420,
+      "h": 720,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/tree_420x720.png"
+    },
+    {
+      "sector": "D",
+      "key": "bush",
+      "w": 260,
+      "h": 160,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/bush_260x160.png"
+    },
+    {
+      "sector": "D",
+      "key": "fern",
+      "w": 220,
+      "h": 140,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/fern_220x140.png"
+    },
+    {
+      "sector": "D",
+      "key": "boulder",
+      "w": 240,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/boulder_240x180.png"
+    },
+    {
+      "sector": "D",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "D",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "E",
+      "key": "tree",
+      "w": 420,
+      "h": 720,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/tree_420x720.png"
+    },
+    {
+      "sector": "E",
+      "key": "bush",
+      "w": 260,
+      "h": 160,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/bush_260x160.png"
+    },
+    {
+      "sector": "E",
+      "key": "fern",
+      "w": 220,
+      "h": 140,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/fern_220x140.png"
+    },
+    {
+      "sector": "E",
+      "key": "boulder",
+      "w": 240,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/boulder_240x180.png"
+    },
+    {
+      "sector": "E",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "E",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "F",
+      "key": "tree",
+      "w": 420,
+      "h": 720,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/tree_420x720.png"
+    },
+    {
+      "sector": "F",
+      "key": "bush",
+      "w": 260,
+      "h": 160,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/bush_260x160.png"
+    },
+    {
+      "sector": "F",
+      "key": "fern",
+      "w": 220,
+      "h": 140,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/fern_220x140.png"
+    },
+    {
+      "sector": "F",
+      "key": "boulder",
+      "w": 240,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/boulder_240x180.png"
+    },
+    {
+      "sector": "F",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "F",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "G",
+      "key": "tree",
+      "w": 420,
+      "h": 720,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/tree_420x720.png"
+    },
+    {
+      "sector": "G",
+      "key": "bush",
+      "w": 260,
+      "h": 160,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/bush_260x160.png"
+    },
+    {
+      "sector": "G",
+      "key": "fern",
+      "w": 220,
+      "h": 140,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/fern_220x140.png"
+    },
+    {
+      "sector": "G",
+      "key": "boulder",
+      "w": 240,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/boulder_240x180.png"
+    },
+    {
+      "sector": "G",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "G",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "H",
+      "key": "tree",
+      "w": 420,
+      "h": 720,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/tree_420x720.png"
+    },
+    {
+      "sector": "H",
+      "key": "bush",
+      "w": 260,
+      "h": 160,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/bush_260x160.png"
+    },
+    {
+      "sector": "H",
+      "key": "fern",
+      "w": 220,
+      "h": 140,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/fern_220x140.png"
+    },
+    {
+      "sector": "H",
+      "key": "boulder",
+      "w": 240,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/boulder_240x180.png"
+    },
+    {
+      "sector": "H",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "H",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "I",
+      "key": "tree",
+      "w": 420,
+      "h": 720,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/tree_420x720.png"
+    },
+    {
+      "sector": "I",
+      "key": "bush",
+      "w": 260,
+      "h": 160,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/bush_260x160.png"
+    },
+    {
+      "sector": "I",
+      "key": "fern",
+      "w": 220,
+      "h": 140,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/fern_220x140.png"
+    },
+    {
+      "sector": "I",
+      "key": "boulder",
+      "w": 240,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/boulder_240x180.png"
+    },
+    {
+      "sector": "I",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "I",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "J",
+      "key": "tree",
+      "w": 420,
+      "h": 720,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/tree_420x720.png"
+    },
+    {
+      "sector": "J",
+      "key": "bush",
+      "w": 260,
+      "h": 160,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/bush_260x160.png"
+    },
+    {
+      "sector": "J",
+      "key": "fern",
+      "w": 220,
+      "h": 140,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/fern_220x140.png"
+    },
+    {
+      "sector": "J",
+      "key": "boulder",
+      "w": 240,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/boulder_240x180.png"
+    },
+    {
+      "sector": "J",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "J",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "K",
+      "key": "crystal",
+      "w": 140,
+      "h": 190,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/crystal_140x190.png"
+    },
+    {
+      "sector": "K",
+      "key": "boulder",
+      "w": 240,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/boulder_240x180.png"
+    },
+    {
+      "sector": "K",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "K",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "L",
+      "key": "tree",
+      "w": 420,
+      "h": 720,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/tree_420x720.png"
+    },
+    {
+      "sector": "L",
+      "key": "bush",
+      "w": 260,
+      "h": 160,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/bush_260x160.png"
+    },
+    {
+      "sector": "L",
+      "key": "fern",
+      "w": 220,
+      "h": 140,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/fern_220x140.png"
+    },
+    {
+      "sector": "L",
+      "key": "boulder",
+      "w": 240,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/boulder_240x180.png"
+    },
+    {
+      "sector": "L",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "L",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "M",
+      "key": "tree",
+      "w": 420,
+      "h": 720,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/tree_420x720.png"
+    },
+    {
+      "sector": "M",
+      "key": "bush",
+      "w": 260,
+      "h": 160,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/bush_260x160.png"
+    },
+    {
+      "sector": "M",
+      "key": "fern",
+      "w": 220,
+      "h": 140,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/fern_220x140.png"
+    },
+    {
+      "sector": "M",
+      "key": "boulder",
+      "w": 240,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/boulder_240x180.png"
+    },
+    {
+      "sector": "M",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "M",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "N",
+      "key": "ancient_pedestal",
+      "w": 220,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/ancient_pedestal_220x180.png"
+    },
+    {
+      "sector": "N",
+      "key": "fern",
+      "w": 220,
+      "h": 140,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/fern_220x140.png"
+    },
+    {
+      "sector": "N",
+      "key": "boulder",
+      "w": 240,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/boulder_240x180.png"
+    },
+    {
+      "sector": "N",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "N",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    },
+    {
+      "sector": "O",
+      "key": "ancient_pedestal",
+      "w": 220,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/ancient_pedestal_220x180.png"
+    },
+    {
+      "sector": "O",
+      "key": "crystal",
+      "w": 140,
+      "h": 190,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/crystal_140x190.png"
+    },
+    {
+      "sector": "O",
+      "key": "boulder",
+      "w": 240,
+      "h": 180,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/boulder_240x180.png"
+    },
+    {
+      "sector": "O",
+      "key": "moss_rock",
+      "w": 180,
+      "h": 110,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/moss_rock_180x110.png"
+    },
+    {
+      "sector": "O",
+      "key": "sign_end",
+      "w": 200,
+      "h": 220,
+      "sprite": "",
+      "path": "Assets/Farol/DecorProcedural/sign_end_200x220.png"
+    }
+  ],
+  "layers": [
+    {
+      "n": 1,
+      "file": "cenarioB_1_ilhas.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 320,
+        "y": 395,
+        "draw": 1
+      },
+      "sprite": "",
+      "sector": "B",
+      "x0": 7680,
+      "x1": 15360,
+      "path": "Assets/Farol/DecorProcedural/layer_1_2048x320.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioB_2_oceano.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": 2
+      },
+      "animatedWater": true,
+      "sprite": "",
+      "sector": "B",
+      "x0": 7680,
+      "x1": 15360,
+      "path": "Assets/Farol/DecorProcedural/layer_2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioB_3_costao.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 760,
+        "y": 210,
+        "draw": "B3"
+      },
+      "sprite": "",
+      "sector": "B",
+      "x0": 7680,
+      "x1": 15360,
+      "path": "Assets/Farol/DecorProcedural/layer_B3_2048x760.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioB_5_rochas.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "B5"
+      },
+      "sprite": "",
+      "sector": "B",
+      "x0": 7680,
+      "x1": 15360,
+      "path": "Assets/Farol/DecorProcedural/layer_B5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioB_6_folhas_desfocadas.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.85,
+      "sprite": "",
+      "sector": "B",
+      "x0": 7680,
+      "x1": 15360,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    },
+    {
+      "n": 1,
+      "file": "cenarioC_1_ilhas.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 320,
+        "y": 395,
+        "draw": 1
+      },
+      "sprite": "",
+      "sector": "C",
+      "x0": 15360,
+      "x1": 23040,
+      "path": "Assets/Farol/DecorProcedural/layer_1_2048x320.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioC_2_oceano.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": 2
+      },
+      "animatedWater": true,
+      "sprite": "",
+      "sector": "C",
+      "x0": 15360,
+      "x1": 23040,
+      "path": "Assets/Farol/DecorProcedural/layer_2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioC_3_floresta.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 860,
+        "y": 110,
+        "draw": "C3"
+      },
+      "sprite": "",
+      "sector": "C",
+      "x0": 15360,
+      "x1": 23040,
+      "path": "Assets/Farol/DecorProcedural/layer_C3_2048x860.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioC_5_folhagem.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "C5"
+      },
+      "sprite": "",
+      "sector": "C",
+      "x0": 15360,
+      "x1": 23040,
+      "path": "Assets/Farol/DecorProcedural/layer_C5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioC_6_folhas_desfocadas.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.85,
+      "sprite": "",
+      "sector": "C",
+      "x0": 15360,
+      "x1": 23040,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    },
+    {
+      "n": 1,
+      "file": "cenarioD_1_ilhas.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 320,
+        "y": 395,
+        "draw": 1
+      },
+      "sprite": "",
+      "sector": "D",
+      "x0": 23040,
+      "x1": 30720,
+      "path": "Assets/Farol/DecorProcedural/layer_1_2048x320.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioD_2_oceano.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": 2
+      },
+      "animatedWater": true,
+      "sprite": "",
+      "sector": "D",
+      "x0": 23040,
+      "x1": 30720,
+      "path": "Assets/Farol/DecorProcedural/layer_2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioD_3_encosta.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 860,
+        "y": 110,
+        "draw": "C3"
+      },
+      "sprite": "",
+      "sector": "D",
+      "x0": 23040,
+      "x1": 30720,
+      "path": "Assets/Farol/DecorProcedural/layer_C3_2048x860.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioD_5_folhagem.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "C5"
+      },
+      "sprite": "",
+      "sector": "D",
+      "x0": 23040,
+      "x1": 30720,
+      "path": "Assets/Farol/DecorProcedural/layer_C5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioD_6_folhas_desfocadas.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.85,
+      "sprite": "",
+      "sector": "D",
+      "x0": 23040,
+      "x1": 30720,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    },
+    {
+      "n": 1,
+      "file": "cenarioE_1_ilhas.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 320,
+        "y": 395,
+        "draw": 1
+      },
+      "sprite": "",
+      "sector": "E",
+      "x0": 30720,
+      "x1": 38400,
+      "path": "Assets/Farol/DecorProcedural/layer_1_2048x320.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioE_2_oceano.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": 2
+      },
+      "animatedWater": true,
+      "sprite": "",
+      "sector": "E",
+      "x0": 30720,
+      "x1": 38400,
+      "path": "Assets/Farol/DecorProcedural/layer_2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioE_3_mata_densa.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 900,
+        "y": 70,
+        "draw": "E3"
+      },
+      "sprite": "",
+      "sector": "E",
+      "x0": 30720,
+      "x1": 38400,
+      "path": "Assets/Farol/DecorProcedural/layer_E3_2048x900.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioE_5_folhagem.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "C5"
+      },
+      "sprite": "",
+      "sector": "E",
+      "x0": 30720,
+      "x1": 38400,
+      "path": "Assets/Farol/DecorProcedural/layer_C5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioE_6_folhas_desfocadas.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.85,
+      "sprite": "",
+      "sector": "E",
+      "x0": 30720,
+      "x1": 38400,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    },
+    {
+      "n": 1,
+      "file": "cenarioF_1_ilhas.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 320,
+        "y": 395,
+        "draw": 1
+      },
+      "sprite": "",
+      "sector": "F",
+      "x0": 38400,
+      "x1": 46080,
+      "path": "Assets/Farol/DecorProcedural/layer_1_2048x320.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioF_2_oceano.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": 2
+      },
+      "animatedWater": true,
+      "sprite": "",
+      "sector": "F",
+      "x0": 38400,
+      "x1": 46080,
+      "path": "Assets/Farol/DecorProcedural/layer_2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioF_3_clareira.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 900,
+        "y": 70,
+        "draw": "E3"
+      },
+      "sprite": "",
+      "sector": "F",
+      "x0": 38400,
+      "x1": 46080,
+      "path": "Assets/Farol/DecorProcedural/layer_E3_2048x900.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioF_5_folhagem.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "C5"
+      },
+      "sprite": "",
+      "sector": "F",
+      "x0": 38400,
+      "x1": 46080,
+      "path": "Assets/Farol/DecorProcedural/layer_C5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioF_6_folhas_desfocadas.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.85,
+      "sprite": "",
+      "sector": "F",
+      "x0": 38400,
+      "x1": 46080,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    },
+    {
+      "n": 1,
+      "file": "cenarioG_1_ilhas.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 320,
+        "y": 395,
+        "draw": 1
+      },
+      "sprite": "",
+      "sector": "G",
+      "x0": 46080,
+      "x1": 53760,
+      "path": "Assets/Farol/DecorProcedural/layer_1_2048x320.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioG_2_oceano.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": 2
+      },
+      "animatedWater": true,
+      "sprite": "",
+      "sector": "G",
+      "x0": 46080,
+      "x1": 53760,
+      "path": "Assets/Farol/DecorProcedural/layer_2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioG_3_desfiladeiro.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 900,
+        "y": 70,
+        "draw": "G3"
+      },
+      "sprite": "",
+      "sector": "G",
+      "x0": 46080,
+      "x1": 53760,
+      "path": "Assets/Farol/DecorProcedural/layer_G3_2048x900.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioG_5_rochas.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "B5"
+      },
+      "sprite": "",
+      "sector": "G",
+      "x0": 46080,
+      "x1": 53760,
+      "path": "Assets/Farol/DecorProcedural/layer_B5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioG_6_folhas_desfocadas.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.85,
+      "sprite": "",
+      "sector": "G",
+      "x0": 46080,
+      "x1": 53760,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    },
+    {
+      "n": 1,
+      "file": "cenarioH_1_ilhas.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 320,
+        "y": 395,
+        "draw": 1
+      },
+      "sprite": "",
+      "sector": "H",
+      "x0": 53760,
+      "x1": 61440,
+      "path": "Assets/Farol/DecorProcedural/layer_1_2048x320.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioH_2_oceano.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": 2
+      },
+      "animatedWater": true,
+      "sprite": "",
+      "sector": "H",
+      "x0": 53760,
+      "x1": 61440,
+      "path": "Assets/Farol/DecorProcedural/layer_2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioH_3_mata_macacos.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 900,
+        "y": 70,
+        "draw": "E3"
+      },
+      "sprite": "",
+      "sector": "H",
+      "x0": 53760,
+      "x1": 61440,
+      "path": "Assets/Farol/DecorProcedural/layer_E3_2048x900.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioH_5_folhagem.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "C5"
+      },
+      "sprite": "",
+      "sector": "H",
+      "x0": 53760,
+      "x1": 61440,
+      "path": "Assets/Farol/DecorProcedural/layer_C5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioH_6_folhas_desfocadas.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.85,
+      "sprite": "",
+      "sector": "H",
+      "x0": 53760,
+      "x1": 61440,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    },
+    {
+      "n": 1,
+      "file": "cenarioI_1_ilhas.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 320,
+        "y": 395,
+        "draw": 1
+      },
+      "sprite": "",
+      "sector": "I",
+      "x0": 61440,
+      "x1": 69120,
+      "path": "Assets/Farol/DecorProcedural/layer_1_2048x320.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioI_2_oceano.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": 2
+      },
+      "animatedWater": true,
+      "sprite": "",
+      "sector": "I",
+      "x0": 61440,
+      "x1": 69120,
+      "path": "Assets/Farol/DecorProcedural/layer_2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioI_3_arvores.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 900,
+        "y": 70,
+        "draw": "C3"
+      },
+      "sprite": "",
+      "sector": "I",
+      "x0": 61440,
+      "x1": 69120,
+      "path": "Assets/Farol/DecorProcedural/layer_C3_2048x900.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioI_5_folhagem.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "C5"
+      },
+      "sprite": "",
+      "sector": "I",
+      "x0": 61440,
+      "x1": 69120,
+      "path": "Assets/Farol/DecorProcedural/layer_C5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioI_6_folhas_desfocadas.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.85,
+      "sprite": "",
+      "sector": "I",
+      "x0": 61440,
+      "x1": 69120,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    },
+    {
+      "n": 1,
+      "file": "cenarioJ_1_ilhas.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 320,
+        "y": 395,
+        "draw": 1
+      },
+      "sprite": "",
+      "sector": "J",
+      "x0": 69120,
+      "x1": 76800,
+      "path": "Assets/Farol/DecorProcedural/layer_1_2048x320.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioJ_2_oceano.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": 2
+      },
+      "animatedWater": true,
+      "sprite": "",
+      "sector": "J",
+      "x0": 69120,
+      "x1": 76800,
+      "path": "Assets/Farol/DecorProcedural/layer_2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioJ_3_cachoeira.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 900,
+        "y": 70,
+        "draw": "J3"
+      },
+      "sprite": "",
+      "sector": "J",
+      "x0": 69120,
+      "x1": 76800,
+      "path": "Assets/Farol/DecorProcedural/layer_J3_2048x900.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioJ_5_folhagem.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "B5"
+      },
+      "sprite": "",
+      "sector": "J",
+      "x0": 69120,
+      "x1": 76800,
+      "path": "Assets/Farol/DecorProcedural/layer_B5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioJ_6_folhas_desfocadas.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.85,
+      "sprite": "",
+      "sector": "J",
+      "x0": 69120,
+      "x1": 76800,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    },
+    {
+      "n": 0,
+      "file": "cenarioK_0_fundo_gruta.png",
+      "factor": 0,
+      "transparent": false,
+      "placeholder": {
+        "w": 512,
+        "h": 1080,
+        "y": 0,
+        "draw": "K0"
+      },
+      "sprite": "",
+      "sector": "K",
+      "x0": 76800,
+      "x1": 80640,
+      "path": "Assets/Farol/DecorProcedural/layer_K0_512x1080.png"
+    },
+    {
+      "n": 1,
+      "file": "cenarioK_1_abobada.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 380,
+        "y": 0,
+        "draw": "K1"
+      },
+      "sprite": "",
+      "sector": "K",
+      "x0": 76800,
+      "x1": 80640,
+      "path": "Assets/Farol/DecorProcedural/layer_K1_2048x380.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioK_2_reflexo_azul.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": "K2"
+      },
+      "sprite": "",
+      "sector": "K",
+      "x0": 76800,
+      "x1": 80640,
+      "path": "Assets/Farol/DecorProcedural/layer_K2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioK_3_paredes_cristal.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 900,
+        "y": 70,
+        "draw": "K3"
+      },
+      "sprite": "",
+      "sector": "K",
+      "x0": 76800,
+      "x1": 80640,
+      "path": "Assets/Farol/DecorProcedural/layer_K3_2048x900.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioK_5_estalagmites.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "K5"
+      },
+      "sprite": "",
+      "sector": "K",
+      "x0": 76800,
+      "x1": 80640,
+      "path": "Assets/Farol/DecorProcedural/layer_K5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioK_6_brilho_frente.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.7,
+      "sprite": "",
+      "sector": "K",
+      "x0": 76800,
+      "x1": 80640,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    },
+    {
+      "n": 1,
+      "file": "cenarioL_1_ilhas.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 320,
+        "y": 395,
+        "draw": 1
+      },
+      "sprite": "",
+      "sector": "L",
+      "x0": 80640,
+      "x1": 88320,
+      "path": "Assets/Farol/DecorProcedural/layer_1_2048x320.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioL_2_oceano.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": 2
+      },
+      "animatedWater": true,
+      "sprite": "",
+      "sector": "L",
+      "x0": 80640,
+      "x1": 88320,
+      "path": "Assets/Farol/DecorProcedural/layer_2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioL_3_copas_arvores.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 900,
+        "y": 60,
+        "draw": "L3"
+      },
+      "sprite": "",
+      "sector": "L",
+      "x0": 80640,
+      "x1": 88320,
+      "path": "Assets/Farol/DecorProcedural/layer_L3_2048x900.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioL_5_folhagem.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "C5"
+      },
+      "sprite": "",
+      "sector": "L",
+      "x0": 80640,
+      "x1": 88320,
+      "path": "Assets/Farol/DecorProcedural/layer_C5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioL_6_folhas_desfocadas.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.85,
+      "sprite": "",
+      "sector": "L",
+      "x0": 80640,
+      "x1": 88320,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    },
+    {
+      "n": 1,
+      "file": "cenarioM_1_ilhas.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 320,
+        "y": 395,
+        "draw": 1
+      },
+      "sprite": "",
+      "sector": "M",
+      "x0": 88320,
+      "x1": 96000,
+      "path": "Assets/Farol/DecorProcedural/layer_1_2048x320.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioM_2_oceano.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": 2
+      },
+      "animatedWater": true,
+      "sprite": "",
+      "sector": "M",
+      "x0": 88320,
+      "x1": 96000,
+      "path": "Assets/Farol/DecorProcedural/layer_2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioM_3_floresta_alta.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 900,
+        "y": 60,
+        "draw": "M3"
+      },
+      "sprite": "",
+      "sector": "M",
+      "x0": 88320,
+      "x1": 96000,
+      "path": "Assets/Farol/DecorProcedural/layer_M3_2048x900.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioM_5_folhagem.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "C5"
+      },
+      "sprite": "",
+      "sector": "M",
+      "x0": 88320,
+      "x1": 96000,
+      "path": "Assets/Farol/DecorProcedural/layer_C5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioM_6_folhas_desfocadas.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.85,
+      "sprite": "",
+      "sector": "M",
+      "x0": 88320,
+      "x1": 96000,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    },
+    {
+      "n": 1,
+      "file": "cenarioN_1_ilhas.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 320,
+        "y": 395,
+        "draw": 1
+      },
+      "sprite": "",
+      "sector": "N",
+      "x0": 96000,
+      "x1": 103680,
+      "path": "Assets/Farol/DecorProcedural/layer_1_2048x320.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioN_2_oceano.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": 2
+      },
+      "animatedWater": true,
+      "sprite": "",
+      "sector": "N",
+      "x0": 96000,
+      "x1": 103680,
+      "path": "Assets/Farol/DecorProcedural/layer_2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioN_3_ruinas.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 900,
+        "y": 60,
+        "draw": "N3"
+      },
+      "sprite": "",
+      "sector": "N",
+      "x0": 96000,
+      "x1": 103680,
+      "path": "Assets/Farol/DecorProcedural/layer_N3_2048x900.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioN_5_folhagem.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "B5"
+      },
+      "sprite": "",
+      "sector": "N",
+      "x0": 96000,
+      "x1": 103680,
+      "path": "Assets/Farol/DecorProcedural/layer_B5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioN_6_folhas_desfocadas.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.75,
+      "sprite": "",
+      "sector": "N",
+      "x0": 96000,
+      "x1": 103680,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    },
+    {
+      "n": 1,
+      "file": "cenarioO_1_montanhas_caverna.png",
+      "factor": 0.07,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 320,
+        "y": 395,
+        "draw": 1
+      },
+      "sprite": "",
+      "sector": "O",
+      "x0": 103680,
+      "x1": 107520,
+      "path": "Assets/Farol/DecorProcedural/layer_1_2048x320.png"
+    },
+    {
+      "n": 2,
+      "file": "cenarioO_2_reflexo_azul.png",
+      "factor": 0.2,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 380,
+        "y": 695,
+        "draw": 2
+      },
+      "animatedWater": true,
+      "sprite": "",
+      "sector": "O",
+      "x0": 103680,
+      "x1": 107520,
+      "path": "Assets/Farol/DecorProcedural/layer_2_1024x380.png"
+    },
+    {
+      "n": 3,
+      "file": "cenarioO_3_boca_caverna.png",
+      "factor": 0.42,
+      "transparent": true,
+      "placeholder": {
+        "w": 2048,
+        "h": 900,
+        "y": 60,
+        "draw": "O3"
+      },
+      "sprite": "",
+      "sector": "O",
+      "x0": 103680,
+      "x1": 107520,
+      "path": "Assets/Farol/DecorProcedural/layer_O3_2048x900.png"
+    },
+    {
+      "n": 5,
+      "file": "cenarioO_5_cristais_frente.png",
+      "factor": 1.15,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 280,
+        "y": 860,
+        "draw": "K5"
+      },
+      "sprite": "",
+      "sector": "O",
+      "x0": 103680,
+      "x1": 107520,
+      "path": "Assets/Farol/DecorProcedural/layer_K5_1024x280.png"
+    },
+    {
+      "n": 6,
+      "file": "cenarioO_6_particulas_luz.png",
+      "factor": 1.38,
+      "transparent": true,
+      "placeholder": {
+        "w": 1024,
+        "h": 1080,
+        "y": 0,
+        "draw": 6
+      },
+      "alpha": 0.8,
+      "sprite": "",
+      "sector": "O",
+      "x0": 103680,
+      "x1": 107520,
+      "path": "Assets/Farol/DecorProcedural/layer_6_1024x1080.png"
+    }
+  ]
+}
