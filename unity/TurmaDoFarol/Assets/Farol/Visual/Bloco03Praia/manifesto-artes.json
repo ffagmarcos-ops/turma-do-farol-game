@@ -1,0 +1,127 @@
+{
+  "origem": "praia-pacote-v01 do chat Artes dos cenários — Turma do Farol",
+  "geracao": "imagegen integrado, direção da HQ aprovada pelo usuário",
+  "tratamento": "fontes preservadas; repetição espelhada e mistura de topo/preenchimento na geometria Unity",
+  "arquivos": [
+    {
+      "arquivo": "camadas/cenarioA_0_ceu.png",
+      "sha256": "45fe448cd59248bf7c7cf3ae3efe1099709b901c311d4a0c774e573cc473b5d8"
+    },
+    {
+      "arquivo": "camadas/cenarioA_1_relevo.png",
+      "sha256": "1d4385d8a4c41d6bf4e16e3c3a87f7ea149e61c4c1a524fdd04b95b8ceb1921b"
+    },
+    {
+      "arquivo": "camadas/cenarioA_2_mar_distante.png",
+      "sha256": "8b5ccc5cc53cf7f1169001bcf2fc0304f3e6d2f809eec136189e6c504797e007"
+    },
+    {
+      "arquivo": "camadas/cenarioA_3_vegetacao.png",
+      "sha256": "64b5b7a7529f06c5c3a212a096d7517cc9271bd56ab2c17aaa995e994483f583"
+    },
+    {
+      "arquivo": "pecas/arbusto-costeiro.png",
+      "sha256": "d46a228a4a73e3049a3dce1b501a0ded9bae9de3f8b73d14bcb2684b15593fb4"
+    },
+    {
+      "arquivo": "pecas/areia-canto-externo-direito.png",
+      "sha256": "d0dbfa47838f6243c0083b3aff65223799e74d272aa0dfca6fc98d3e7903a7d2"
+    },
+    {
+      "arquivo": "pecas/areia-canto-externo-esquerdo.png",
+      "sha256": "c0451db4eefc08ded157e3faa9f0660e8d3e9b6cd4318230863e420e8debb28a"
+    },
+    {
+      "arquivo": "pecas/areia-canto-interno-direito.png",
+      "sha256": "339a30baa7e362014b6fa0d6a178a13dee88dd7ca8cd6d4133446863de831b9e"
+    },
+    {
+      "arquivo": "pecas/areia-canto-interno-esquerdo.png",
+      "sha256": "6310a1880e42d9e48e17ebef9d9b36ab7b2e4b2997bf9352621a2164e1601a7a"
+    },
+    {
+      "arquivo": "pecas/areia-lateral-direita.png",
+      "sha256": "e87f3f5cdc050e6ed08bc12ac75481e9153e048d34e0d90e82ca6ac139afeb61"
+    },
+    {
+      "arquivo": "pecas/areia-lateral-esquerda.png",
+      "sha256": "673417a58be75e65e48a14e1069863e78d638ba23aa1c6e3d2a839be1e2434e3"
+    },
+    {
+      "arquivo": "pecas/areia-pedra-submersa.png",
+      "sha256": "364549611169274f2884cf21b5770da949b93171b8c5652cf2f7ebab752cfec1"
+    },
+    {
+      "arquivo": "pecas/areia-rocha.png",
+      "sha256": "1cd887e7cd1a17f4cd36296bc109a8cf7511328fee78f6797ae5d369674d7706"
+    },
+    {
+      "arquivo": "pecas/areia-seca-molhada.png",
+      "sha256": "c0f6e1e10515e3ae68df0f45e024b6dc76874e6693e321ad6cf95bf843e979a3"
+    },
+    {
+      "arquivo": "pecas/arvore-costeira.png",
+      "sha256": "57c47f800ba3b7f8c91955bb20dbe2615242c4c72b0f9c555eaf51f05d0d5adf"
+    },
+    {
+      "arquivo": "pecas/capim-costeiro.png",
+      "sha256": "bdd098e7dbf6b0dff6d8134b59dfddd6ceeb856a3f3031d663ac895580b449ae"
+    },
+    {
+      "arquivo": "pecas/palmeira-costeira.png",
+      "sha256": "69239613534499b497394887b9be2c6362244f6bff1cde3ce46c0792574e4e36"
+    },
+    {
+      "arquivo": "pecas/palmeira-jovem.png",
+      "sha256": "2fde7208b55442defccf769e920a83edcf8e3afd729b9a1cd07bd0885a0f653b"
+    },
+    {
+      "arquivo": "pecas/pedras-molhadas.png",
+      "sha256": "16dd5e3a4c1baf6d43d3a7bbcd062f58866901b61d120d11ae2a82af62602652"
+    },
+    {
+      "arquivo": "pecas/pedras-secas.png",
+      "sha256": "9835331c48a8e671ae02b557be6aff09bd75026af99983ddb4aee2d47fb6ca21"
+    },
+    {
+      "arquivo": "pecas/praia-mata.png",
+      "sha256": "f45165e7ef82bb2089064ae191b92037a76adba4e9a53505f9f5b989fed1e747"
+    },
+    {
+      "arquivo": "pecas/rocha-alta.png",
+      "sha256": "88612859308eae36808a4fe0fadee4b26c31271023ddba254280c4422d4540dc"
+    },
+    {
+      "arquivo": "pecas/rocha-baixa.png",
+      "sha256": "4acde5652e04f08d516fab7472758b96c44f7ca8ef6402ee42d9cc812fe982e2"
+    },
+    {
+      "arquivo": "pecas/samambaia-costeira.png",
+      "sha256": "478e784e7c73046a02d4b6771677af9c5dfa45c77c7f97859a786c928d70c489"
+    },
+    {
+      "arquivo": "tiles-candidatos/areia_meio.png",
+      "sha256": "ea666c3ce5f5257f2de36004cce61bea980f82507420b98d9ee28471db1bcf6a"
+    },
+    {
+      "arquivo": "tiles-candidatos/areia_molhada_meio.png",
+      "sha256": "43548c4e4d0e0acce95a8fdaaf6e218d2c485a9543378673519099f9c4b39c60"
+    },
+    {
+      "arquivo": "tiles-candidatos/areia_molhada_topo.png",
+      "sha256": "c70fd9d0964dd625fd175b152da33337344a3d02a7c10ce2a96cf13661eba5ed"
+    },
+    {
+      "arquivo": "tiles-candidatos/areia_topo.png",
+      "sha256": "db35920c34e27c3cc519d06a939d9b501e50d21ffb7bf1d27c5d87b0866a3abb"
+    },
+    {
+      "arquivo": "tiles-candidatos/rocha_meio.png",
+      "sha256": "b2d537c61973aeff9bd100cbbd348bdfc26818063ac0417f607ab962a96228da"
+    },
+    {
+      "arquivo": "tiles-candidatos/rocha_topo.png",
+      "sha256": "bf3463184224c4b86d48a2f401c3fbfbf0336609a1b3704b970aae44075d656a"
+    }
+  ]
+}

@@ -1,0 +1,1690 @@
+fileFormatVersion: 2
+guid: 2db5ccf5b2c264d5e952fa13369cf424
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6817453737778947452
+    second: areia-seca-molhada_0
+  - first:
+      213: -2204138103707034788
+    second: areia-seca-molhada_1
+  - first:
+      213: 231842544664189779
+    second: areia-seca-molhada_2
+  - first:
+      213: 652859038235355846
+    second: areia-seca-molhada_3
+  - first:
+      213: 354068374280291697
+    second: areia-seca-molhada_4
+  - first:
+      213: -1888272684717748922
+    second: areia-seca-molhada_5
+  - first:
+      213: 6373192579479308586
+    second: areia-seca-molhada_6
+  - first:
+      213: 5223569406254447788
+    second: areia-seca-molhada_7
+  - first:
+      213: 5562141112944364804
+    second: areia-seca-molhada_8
+  - first:
+      213: 8156951935537524153
+    second: areia-seca-molhada_9
+  - first:
+      213: 6356752407662810771
+    second: areia-seca-molhada_10
+  - first:
+      213: -2723249249726181517
+    second: areia-seca-molhada_11
+  - first:
+      213: 9084659662627373526
+    second: areia-seca-molhada_12
+  - first:
+      213: -2500602796754799389
+    second: areia-seca-molhada_13
+  - first:
+      213: -3553011167514969004
+    second: areia-seca-molhada_14
+  - first:
+      213: -2463998723121811960
+    second: areia-seca-molhada_15
+  - first:
+      213: -5261687011316391611
+    second: areia-seca-molhada_16
+  - first:
+      213: 8910302837075241876
+    second: areia-seca-molhada_17
+  - first:
+      213: 2593767217266876039
+    second: areia-seca-molhada_18
+  - first:
+      213: 7254971903576475739
+    second: areia-seca-molhada_19
+  - first:
+      213: 3700058149570372360
+    second: areia-seca-molhada_20
+  - first:
+      213: 893859590385644927
+    second: areia-seca-molhada_21
+  - first:
+      213: 1733137276422980098
+    second: areia-seca-molhada_22
+  - first:
+      213: -3258025009505264279
+    second: areia-seca-molhada_23
+  - first:
+      213: -8777372820564492450
+    second: areia-seca-molhada_24
+  - first:
+      213: -3923312269688848038
+    second: areia-seca-molhada_25
+  - first:
+      213: 3406046941602230745
+    second: areia-seca-molhada_26
+  - first:
+      213: -1743605616722044455
+    second: areia-seca-molhada_27
+  - first:
+      213: 7585523241654978304
+    second: areia-seca-molhada_28
+  - first:
+      213: -6572203619646163332
+    second: areia-seca-molhada_29
+  - first:
+      213: -1380659868043753312
+    second: areia-seca-molhada_30
+  - first:
+      213: -1512225482264301833
+    second: areia-seca-molhada_31
+  - first:
+      213: 6749264879873643696
+    second: areia-seca-molhada_32
+  - first:
+      213: 622910850620902662
+    second: areia-seca-molhada_33
+  - first:
+      213: 414502024148287161
+    second: areia-seca-molhada_34
+  - first:
+      213: 7844793985337358345
+    second: areia-seca-molhada_35
+  - first:
+      213: 8058634343016145681
+    second: areia-seca-molhada_36
+  - first:
+      213: -75959718446127799
+    second: areia-seca-molhada_37
+  - first:
+      213: -5469559043975156006
+    second: areia-seca-molhada_38
+  - first:
+      213: -2090265456622009775
+    second: areia-seca-molhada_39
+  - first:
+      213: -8831001977068219124
+    second: areia-seca-molhada_40
+  - first:
+      213: 3662317024853795799
+    second: areia-seca-molhada_41
+  - first:
+      213: 8368425764022104957
+    second: areia-seca-molhada_42
+  - first:
+      213: 7406693147464981557
+    second: areia-seca-molhada_43
+  - first:
+      213: 7126536035772408319
+    second: areia-seca-molhada_44
+  - first:
+      213: 255508096065949553
+    second: areia-seca-molhada_45
+  - first:
+      213: 3013878954862834526
+    second: areia-seca-molhada_46
+  - first:
+      213: -2016975880183212797
+    second: areia-seca-molhada_47
+  - first:
+      213: 8149332985834872369
+    second: areia-seca-molhada_48
+  - first:
+      213: 2589400319085777683
+    second: areia-seca-molhada_49
+  - first:
+      213: 1950525329674998289
+    second: areia-seca-molhada_50
+  - first:
+      213: 362979789939250897
+    second: areia-seca-molhada_51
+  - first:
+      213: 4602168472897404640
+    second: areia-seca-molhada_52
+  - first:
+      213: 6714376656927850768
+    second: areia-seca-molhada_53
+  - first:
+      213: -6669702516329539285
+    second: areia-seca-molhada_54
+  - first:
+      213: 1657140877788015573
+    second: areia-seca-molhada_55
+  - first:
+      213: -399532451796812093
+    second: areia-seca-molhada_56
+  - first:
+      213: 2549162106078774552
+    second: areia-seca-molhada_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: areia-seca-molhada_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 323
+        width: 136
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ad60722f98361a0800000000000000
+      internalID: -6817453737778947452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 504
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b93ac92145961e0800000000000000
+      internalID: -2204138103707034788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 377
+        width: 130
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b1886e09ba73300800000000000000
+      internalID: 231842544664189779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 463
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6caeb6616db6f0900800000000000000
+      internalID: 652859038235355846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 455
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1754d2b7f47e9e400800000000000000
+      internalID: 354068374280291697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_5
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 496
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d435c6ff18bc5e0800000000000000
+      internalID: -1888272684717748922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 490
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29050962e0227850800000000000000
+      internalID: 6373192579479308586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_7
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 445
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacf46703b8dd7840800000000000000
+      internalID: 5223569406254447788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_8
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 490
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d05ab6fd1b03d40800000000000000
+      internalID: 5562141112944364804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_9
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 382
+        width: 108
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd26a76190533170800000000000000
+      internalID: 8156951935537524153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_10
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 492
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396d9df92a8b73850800000000000000
+      internalID: 6356752407662810771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 483
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fc83b5c33153ad0800000000000000
+      internalID: -2723249249726181517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_12
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 490
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d18930a4d1331e70800000000000000
+      internalID: 9084659662627373526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_13
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 441
+        width: 92
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4f41f41031c4dd0800000000000000
+      internalID: -2500602796754799389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_14
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 508
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c3645fa2b21bec0800000000000000
+      internalID: -3553011167514969004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_15
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 469
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80eee45573e1ecdd0800000000000000
+      internalID: -2463998723121811960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_16
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 477
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54123337a8bbaf6b0800000000000000
+      internalID: -5261687011316391611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_17
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 439
+        width: 58
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b6605b831c7ab70800000000000000
+      internalID: 8910302837075241876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_18
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 433
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ede3faa89eef320800000000000000
+      internalID: 2593767217266876039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_19
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 441
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b588d100286dea460800000000000000
+      internalID: 7254971903576475739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_20
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 439
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8036e65884f395330800000000000000
+      internalID: 3700058149570372360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_21
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 431
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f753304cf80a76c00800000000000000
+      internalID: 893859590385644927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_22
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 431
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2020e2c9b275d0810800000000000000
+      internalID: 1733137276422980098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_23
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 369
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d991ff38b29c2d0800000000000000
+      internalID: -3258025009505264279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_24
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 425
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fb5199ce1803680800000000000000
+      internalID: -8777372820564492450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_25
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 425
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51c34ef6489d89c0800000000000000
+      internalID: -3923312269688848038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_26
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 425
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1b18ab5a5b44f20800000000000000
+      internalID: 3406046941602230745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_27
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 439
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d918eafde77dc7e0800000000000000
+      internalID: -1743605616722044455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_28
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 421
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007805ec231354960800000000000000
+      internalID: 7585523241654978304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_29
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 425
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76347301a7dac4a0800000000000000
+      internalID: -6572203619646163332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_30
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 447
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a84d914a29e6dce0800000000000000
+      internalID: -1380659868043753312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_31
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 440
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fea75d9fee730be0800000000000000
+      internalID: -1512225482264301833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_32
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 412
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b453eb26a43aad50800000000000000
+      internalID: 6749264879873643696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_33
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 409
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60dcef94e1605a800800000000000000
+      internalID: 622910850620902662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_34
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 336
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bef904156b90c500800000000000000
+      internalID: 414502024148287161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_35
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 409
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9087720f09e4edc60800000000000000
+      internalID: 7844793985337358345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_36
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 407
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113ad3e0d3506df60800000000000000
+      internalID: 8058634343016145681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_37
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 407
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945a7ccd90322fef0800000000000000
+      internalID: -75959718446127799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_38
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 415
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adee5d947093814b0800000000000000
+      internalID: -5469559043975156006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_39
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 415
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15286c354a2edf2e0800000000000000
+      internalID: -2090265456622009775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_40
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 411
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0593129d7af17580800000000000000
+      internalID: -8831001977068219124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_41
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 407
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3a6492ee923d230800000000000000
+      internalID: 3662317024853795799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_42
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 373
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73b3c105ee922470800000000000000
+      internalID: 8368425764022104957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_43
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 411
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c58fedc2cd9c660800000000000000
+      internalID: 7406693147464981557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_44
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 385
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff12c3b34ca86e260800000000000000
+      internalID: 7126536035772408319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_45
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 377
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f4f37724fbb8300800000000000000
+      internalID: 255508096065949553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_46
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 393
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53ff94f0f273d920800000000000000
+      internalID: 3013878954862834526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_47
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 385
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30516259f134204e0800000000000000
+      internalID: -2016975880183212797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_48
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 340
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e9f017c2f381170800000000000000
+      internalID: 8149332985834872369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_49
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 384
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3131468fed56fe320800000000000000
+      internalID: 2589400319085777683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_50
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 369
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1121ea8f378a11b10800000000000000
+      internalID: 1950525329674998289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_51
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 369
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d699ff1230990500800000000000000
+      internalID: 362979789939250897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_52
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 340
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee3d8fb7df2edf30800000000000000
+      internalID: 4602168472897404640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_53
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 345
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0110c54cef14e2d50800000000000000
+      internalID: 6714376656927850768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_54
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 326
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2916a426e47073a0800000000000000
+      internalID: -6669702516329539285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_55
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 345
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db655339d85ff610800000000000000
+      internalID: 1657140877788015573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_56
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 78
+        width: 871
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cef8661a53947af0800000000000000
+      internalID: -399532451796812093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: areia-seca-molhada_57
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 224
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81546bfed61706320800000000000000
+      internalID: 2549162106078774552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      areia-seca-molhada_0: -6817453737778947452
+      areia-seca-molhada_1: -2204138103707034788
+      areia-seca-molhada_10: 6356752407662810771
+      areia-seca-molhada_11: -2723249249726181517
+      areia-seca-molhada_12: 9084659662627373526
+      areia-seca-molhada_13: -2500602796754799389
+      areia-seca-molhada_14: -3553011167514969004
+      areia-seca-molhada_15: -2463998723121811960
+      areia-seca-molhada_16: -5261687011316391611
+      areia-seca-molhada_17: 8910302837075241876
+      areia-seca-molhada_18: 2593767217266876039
+      areia-seca-molhada_19: 7254971903576475739
+      areia-seca-molhada_2: 231842544664189779
+      areia-seca-molhada_20: 3700058149570372360
+      areia-seca-molhada_21: 893859590385644927
+      areia-seca-molhada_22: 1733137276422980098
+      areia-seca-molhada_23: -3258025009505264279
+      areia-seca-molhada_24: -8777372820564492450
+      areia-seca-molhada_25: -3923312269688848038
+      areia-seca-molhada_26: 3406046941602230745
+      areia-seca-molhada_27: -1743605616722044455
+      areia-seca-molhada_28: 7585523241654978304
+      areia-seca-molhada_29: -6572203619646163332
+      areia-seca-molhada_3: 652859038235355846
+      areia-seca-molhada_30: -1380659868043753312
+      areia-seca-molhada_31: -1512225482264301833
+      areia-seca-molhada_32: 6749264879873643696
+      areia-seca-molhada_33: 622910850620902662
+      areia-seca-molhada_34: 414502024148287161
+      areia-seca-molhada_35: 7844793985337358345
+      areia-seca-molhada_36: 8058634343016145681
+      areia-seca-molhada_37: -75959718446127799
+      areia-seca-molhada_38: -5469559043975156006
+      areia-seca-molhada_39: -2090265456622009775
+      areia-seca-molhada_4: 354068374280291697
+      areia-seca-molhada_40: -8831001977068219124
+      areia-seca-molhada_41: 3662317024853795799
+      areia-seca-molhada_42: 8368425764022104957
+      areia-seca-molhada_43: 7406693147464981557
+      areia-seca-molhada_44: 7126536035772408319
+      areia-seca-molhada_45: 255508096065949553
+      areia-seca-molhada_46: 3013878954862834526
+      areia-seca-molhada_47: -2016975880183212797
+      areia-seca-molhada_48: 8149332985834872369
+      areia-seca-molhada_49: 2589400319085777683
+      areia-seca-molhada_5: -1888272684717748922
+      areia-seca-molhada_50: 1950525329674998289
+      areia-seca-molhada_51: 362979789939250897
+      areia-seca-molhada_52: 4602168472897404640
+      areia-seca-molhada_53: 6714376656927850768
+      areia-seca-molhada_54: -6669702516329539285
+      areia-seca-molhada_55: 1657140877788015573
+      areia-seca-molhada_56: -399532451796812093
+      areia-seca-molhada_57: 2549162106078774552
+      areia-seca-molhada_6: 6373192579479308586
+      areia-seca-molhada_7: 5223569406254447788
+      areia-seca-molhada_8: 5562141112944364804
+      areia-seca-molhada_9: 8156951935537524153
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

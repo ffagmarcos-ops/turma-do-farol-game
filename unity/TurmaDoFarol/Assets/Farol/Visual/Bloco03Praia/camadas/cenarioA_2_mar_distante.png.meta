@@ -1,0 +1,5824 @@
+fileFormatVersion: 2
+guid: d4be68345b9b4493db7fdd492228994e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4976742772076219083
+    second: cenarioA_2_mar_distante_0
+  - first:
+      213: 6351357446255752372
+    second: cenarioA_2_mar_distante_1
+  - first:
+      213: 232792052538496939
+    second: cenarioA_2_mar_distante_2
+  - first:
+      213: -894757557802876607
+    second: cenarioA_2_mar_distante_3
+  - first:
+      213: 6858717878143132619
+    second: cenarioA_2_mar_distante_4
+  - first:
+      213: 2553097208110222568
+    second: cenarioA_2_mar_distante_5
+  - first:
+      213: -1027339960022336547
+    second: cenarioA_2_mar_distante_6
+  - first:
+      213: 2368847712342851545
+    second: cenarioA_2_mar_distante_7
+  - first:
+      213: -5696039278049404434
+    second: cenarioA_2_mar_distante_8
+  - first:
+      213: -5978447982440072499
+    second: cenarioA_2_mar_distante_9
+  - first:
+      213: -9047051154940366715
+    second: cenarioA_2_mar_distante_10
+  - first:
+      213: -3502366661696809274
+    second: cenarioA_2_mar_distante_11
+  - first:
+      213: -2913055652867344072
+    second: cenarioA_2_mar_distante_12
+  - first:
+      213: -7598325746139109592
+    second: cenarioA_2_mar_distante_13
+  - first:
+      213: -4438518298868242749
+    second: cenarioA_2_mar_distante_14
+  - first:
+      213: -3648258218549902022
+    second: cenarioA_2_mar_distante_15
+  - first:
+      213: 568179917912333921
+    second: cenarioA_2_mar_distante_16
+  - first:
+      213: 2925178445213974778
+    second: cenarioA_2_mar_distante_17
+  - first:
+      213: 3556776163649937672
+    second: cenarioA_2_mar_distante_18
+  - first:
+      213: -6125344658222938113
+    second: cenarioA_2_mar_distante_19
+  - first:
+      213: 322083518122131454
+    second: cenarioA_2_mar_distante_20
+  - first:
+      213: -996413352786201028
+    second: cenarioA_2_mar_distante_21
+  - first:
+      213: -3071774632768035224
+    second: cenarioA_2_mar_distante_22
+  - first:
+      213: 4860117753203208142
+    second: cenarioA_2_mar_distante_23
+  - first:
+      213: -7635215356699347771
+    second: cenarioA_2_mar_distante_24
+  - first:
+      213: -8584976012391728721
+    second: cenarioA_2_mar_distante_25
+  - first:
+      213: 4802874599523106024
+    second: cenarioA_2_mar_distante_26
+  - first:
+      213: 7749596234049172875
+    second: cenarioA_2_mar_distante_27
+  - first:
+      213: -3467324576631721179
+    second: cenarioA_2_mar_distante_28
+  - first:
+      213: -589109323662819115
+    second: cenarioA_2_mar_distante_29
+  - first:
+      213: 4373399335226000741
+    second: cenarioA_2_mar_distante_30
+  - first:
+      213: -2430453409956620473
+    second: cenarioA_2_mar_distante_31
+  - first:
+      213: 6479860196730523839
+    second: cenarioA_2_mar_distante_32
+  - first:
+      213: 7487314554824053837
+    second: cenarioA_2_mar_distante_33
+  - first:
+      213: -4369247283942150343
+    second: cenarioA_2_mar_distante_34
+  - first:
+      213: 7175739853334925367
+    second: cenarioA_2_mar_distante_35
+  - first:
+      213: 34507308600912846
+    second: cenarioA_2_mar_distante_36
+  - first:
+      213: -1702748595705226100
+    second: cenarioA_2_mar_distante_37
+  - first:
+      213: -4898942221557030601
+    second: cenarioA_2_mar_distante_38
+  - first:
+      213: -3841919268333589309
+    second: cenarioA_2_mar_distante_39
+  - first:
+      213: -2127145681308138437
+    second: cenarioA_2_mar_distante_40
+  - first:
+      213: 9049124091107584984
+    second: cenarioA_2_mar_distante_41
+  - first:
+      213: 4951437319242574289
+    second: cenarioA_2_mar_distante_42
+  - first:
+      213: -639465231604152569
+    second: cenarioA_2_mar_distante_43
+  - first:
+      213: -5572548042270829755
+    second: cenarioA_2_mar_distante_44
+  - first:
+      213: -6459793598006328502
+    second: cenarioA_2_mar_distante_45
+  - first:
+      213: -5882397862918379834
+    second: cenarioA_2_mar_distante_46
+  - first:
+      213: 4920771366622272907
+    second: cenarioA_2_mar_distante_47
+  - first:
+      213: -4076399529525991849
+    second: cenarioA_2_mar_distante_48
+  - first:
+      213: 8897439366469144201
+    second: cenarioA_2_mar_distante_49
+  - first:
+      213: 1224446629968737307
+    second: cenarioA_2_mar_distante_50
+  - first:
+      213: 2836531553119170730
+    second: cenarioA_2_mar_distante_51
+  - first:
+      213: 6172006534540399279
+    second: cenarioA_2_mar_distante_52
+  - first:
+      213: -3105517238805920697
+    second: cenarioA_2_mar_distante_53
+  - first:
+      213: -6585280865889172684
+    second: cenarioA_2_mar_distante_54
+  - first:
+      213: -3430347316289895561
+    second: cenarioA_2_mar_distante_55
+  - first:
+      213: 6853799642399793239
+    second: cenarioA_2_mar_distante_56
+  - first:
+      213: -2069287862989484269
+    second: cenarioA_2_mar_distante_57
+  - first:
+      213: 3407512598303174703
+    second: cenarioA_2_mar_distante_58
+  - first:
+      213: -406238228104981423
+    second: cenarioA_2_mar_distante_59
+  - first:
+      213: 4989222507765808659
+    second: cenarioA_2_mar_distante_60
+  - first:
+      213: -3217329713620087153
+    second: cenarioA_2_mar_distante_61
+  - first:
+      213: 3067111397717893873
+    second: cenarioA_2_mar_distante_62
+  - first:
+      213: 7660442516022706184
+    second: cenarioA_2_mar_distante_63
+  - first:
+      213: -6662914735190671214
+    second: cenarioA_2_mar_distante_64
+  - first:
+      213: 7340900787480256432
+    second: cenarioA_2_mar_distante_65
+  - first:
+      213: -9078627647554370437
+    second: cenarioA_2_mar_distante_66
+  - first:
+      213: 4862004976784113001
+    second: cenarioA_2_mar_distante_67
+  - first:
+      213: -6034045193250210507
+    second: cenarioA_2_mar_distante_68
+  - first:
+      213: -4706545677979755596
+    second: cenarioA_2_mar_distante_69
+  - first:
+      213: 6224748073321055613
+    second: cenarioA_2_mar_distante_70
+  - first:
+      213: 1887039543583727122
+    second: cenarioA_2_mar_distante_71
+  - first:
+      213: -4059615714725717370
+    second: cenarioA_2_mar_distante_72
+  - first:
+      213: -8415046894183993801
+    second: cenarioA_2_mar_distante_73
+  - first:
+      213: 1024830132574743540
+    second: cenarioA_2_mar_distante_74
+  - first:
+      213: 1601922893082915872
+    second: cenarioA_2_mar_distante_75
+  - first:
+      213: -7360459210823011741
+    second: cenarioA_2_mar_distante_76
+  - first:
+      213: 798048815939177689
+    second: cenarioA_2_mar_distante_77
+  - first:
+      213: 1997926042185049406
+    second: cenarioA_2_mar_distante_78
+  - first:
+      213: -7782981303196586112
+    second: cenarioA_2_mar_distante_79
+  - first:
+      213: -5024212628301828626
+    second: cenarioA_2_mar_distante_80
+  - first:
+      213: 3413123115728782080
+    second: cenarioA_2_mar_distante_81
+  - first:
+      213: -7374332165616910878
+    second: cenarioA_2_mar_distante_82
+  - first:
+      213: 2170695880072917187
+    second: cenarioA_2_mar_distante_83
+  - first:
+      213: -1206939975199418564
+    second: cenarioA_2_mar_distante_84
+  - first:
+      213: -8881579069403843923
+    second: cenarioA_2_mar_distante_85
+  - first:
+      213: 1848521044872442900
+    second: cenarioA_2_mar_distante_86
+  - first:
+      213: 9144739956448016486
+    second: cenarioA_2_mar_distante_87
+  - first:
+      213: 7544084461844501598
+    second: cenarioA_2_mar_distante_88
+  - first:
+      213: 8947828432524689494
+    second: cenarioA_2_mar_distante_89
+  - first:
+      213: 1205570783475200140
+    second: cenarioA_2_mar_distante_90
+  - first:
+      213: 7094811230253642326
+    second: cenarioA_2_mar_distante_91
+  - first:
+      213: 2803620614934284350
+    second: cenarioA_2_mar_distante_92
+  - first:
+      213: -8157134574100719253
+    second: cenarioA_2_mar_distante_93
+  - first:
+      213: -3206339378290582064
+    second: cenarioA_2_mar_distante_94
+  - first:
+      213: 1939013270561229387
+    second: cenarioA_2_mar_distante_95
+  - first:
+      213: 9125343656058984438
+    second: cenarioA_2_mar_distante_96
+  - first:
+      213: -4940085849070003994
+    second: cenarioA_2_mar_distante_97
+  - first:
+      213: -7004970152473949271
+    second: cenarioA_2_mar_distante_98
+  - first:
+      213: -7534563138580139004
+    second: cenarioA_2_mar_distante_99
+  - first:
+      213: 6218348386190922084
+    second: cenarioA_2_mar_distante_100
+  - first:
+      213: 3590454659065265551
+    second: cenarioA_2_mar_distante_101
+  - first:
+      213: 3231148056385062358
+    second: cenarioA_2_mar_distante_102
+  - first:
+      213: 8160286451190364282
+    second: cenarioA_2_mar_distante_103
+  - first:
+      213: -1621380994667508620
+    second: cenarioA_2_mar_distante_104
+  - first:
+      213: 6788511855240675550
+    second: cenarioA_2_mar_distante_105
+  - first:
+      213: 3448118700896299590
+    second: cenarioA_2_mar_distante_106
+  - first:
+      213: 7881682296827080238
+    second: cenarioA_2_mar_distante_107
+  - first:
+      213: 6720167868498345903
+    second: cenarioA_2_mar_distante_108
+  - first:
+      213: -2654918095499225131
+    second: cenarioA_2_mar_distante_109
+  - first:
+      213: 6375795524242258743
+    second: cenarioA_2_mar_distante_110
+  - first:
+      213: -4668987076147579348
+    second: cenarioA_2_mar_distante_111
+  - first:
+      213: -3858335542274211731
+    second: cenarioA_2_mar_distante_112
+  - first:
+      213: 5461010914941803978
+    second: cenarioA_2_mar_distante_113
+  - first:
+      213: 7629953891145256678
+    second: cenarioA_2_mar_distante_114
+  - first:
+      213: -8936867984259649426
+    second: cenarioA_2_mar_distante_115
+  - first:
+      213: 7146296132043285024
+    second: cenarioA_2_mar_distante_116
+  - first:
+      213: -335327830663939180
+    second: cenarioA_2_mar_distante_117
+  - first:
+      213: -4101378507533148133
+    second: cenarioA_2_mar_distante_118
+  - first:
+      213: -4700448402856074162
+    second: cenarioA_2_mar_distante_119
+  - first:
+      213: 5735025909764289750
+    second: cenarioA_2_mar_distante_120
+  - first:
+      213: 1264744878031524910
+    second: cenarioA_2_mar_distante_121
+  - first:
+      213: -7012339018642330839
+    second: cenarioA_2_mar_distante_122
+  - first:
+      213: -5215952012539935104
+    second: cenarioA_2_mar_distante_123
+  - first:
+      213: 7571970452930806167
+    second: cenarioA_2_mar_distante_124
+  - first:
+      213: -6059191204751547238
+    second: cenarioA_2_mar_distante_125
+  - first:
+      213: 2922494102796555436
+    second: cenarioA_2_mar_distante_126
+  - first:
+      213: -5993277865278865871
+    second: cenarioA_2_mar_distante_127
+  - first:
+      213: 8512393728935006787
+    second: cenarioA_2_mar_distante_128
+  - first:
+      213: 5598853734806576086
+    second: cenarioA_2_mar_distante_129
+  - first:
+      213: -4143172549482724267
+    second: cenarioA_2_mar_distante_130
+  - first:
+      213: 4657656623927132270
+    second: cenarioA_2_mar_distante_131
+  - first:
+      213: -3220312396080976998
+    second: cenarioA_2_mar_distante_132
+  - first:
+      213: 7866163394212132556
+    second: cenarioA_2_mar_distante_133
+  - first:
+      213: -4625230093754918804
+    second: cenarioA_2_mar_distante_134
+  - first:
+      213: 5370115440995620524
+    second: cenarioA_2_mar_distante_135
+  - first:
+      213: -7550366921270443949
+    second: cenarioA_2_mar_distante_136
+  - first:
+      213: -1409820369427397547
+    second: cenarioA_2_mar_distante_137
+  - first:
+      213: 5795474197816939178
+    second: cenarioA_2_mar_distante_138
+  - first:
+      213: -5943521365891648523
+    second: cenarioA_2_mar_distante_139
+  - first:
+      213: 1320835212885588199
+    second: cenarioA_2_mar_distante_140
+  - first:
+      213: -6601435658723603520
+    second: cenarioA_2_mar_distante_141
+  - first:
+      213: -1344189337084457795
+    second: cenarioA_2_mar_distante_142
+  - first:
+      213: -8795660265132238648
+    second: cenarioA_2_mar_distante_143
+  - first:
+      213: 5169387944677296158
+    second: cenarioA_2_mar_distante_144
+  - first:
+      213: -5415276563313458286
+    second: cenarioA_2_mar_distante_145
+  - first:
+      213: 7146296598605735235
+    second: cenarioA_2_mar_distante_146
+  - first:
+      213: -5484762241575875164
+    second: cenarioA_2_mar_distante_147
+  - first:
+      213: 2357987223179603437
+    second: cenarioA_2_mar_distante_148
+  - first:
+      213: -5975505955407330651
+    second: cenarioA_2_mar_distante_149
+  - first:
+      213: 6493162914589565763
+    second: cenarioA_2_mar_distante_150
+  - first:
+      213: 1189889302242754182
+    second: cenarioA_2_mar_distante_151
+  - first:
+      213: 4557233552690966066
+    second: cenarioA_2_mar_distante_152
+  - first:
+      213: -8847416131609605170
+    second: cenarioA_2_mar_distante_153
+  - first:
+      213: 7892427860254125396
+    second: cenarioA_2_mar_distante_154
+  - first:
+      213: -1765741996912733687
+    second: cenarioA_2_mar_distante_155
+  - first:
+      213: -1875828070997882376
+    second: cenarioA_2_mar_distante_156
+  - first:
+      213: 8740200370048655905
+    second: cenarioA_2_mar_distante_157
+  - first:
+      213: -8377280765683335224
+    second: cenarioA_2_mar_distante_158
+  - first:
+      213: -109894169032581513
+    second: cenarioA_2_mar_distante_159
+  - first:
+      213: -2220172334028455390
+    second: cenarioA_2_mar_distante_160
+  - first:
+      213: -4471501054022495690
+    second: cenarioA_2_mar_distante_161
+  - first:
+      213: -3736183808402504920
+    second: cenarioA_2_mar_distante_162
+  - first:
+      213: -6728672818156819503
+    second: cenarioA_2_mar_distante_163
+  - first:
+      213: 510800918235890967
+    second: cenarioA_2_mar_distante_164
+  - first:
+      213: -8913002861258031959
+    second: cenarioA_2_mar_distante_165
+  - first:
+      213: 402627249213814857
+    second: cenarioA_2_mar_distante_166
+  - first:
+      213: 5655973257807910707
+    second: cenarioA_2_mar_distante_167
+  - first:
+      213: -6601495501845363115
+    second: cenarioA_2_mar_distante_168
+  - first:
+      213: -6671573077029243843
+    second: cenarioA_2_mar_distante_169
+  - first:
+      213: 5643425895765490251
+    second: cenarioA_2_mar_distante_170
+  - first:
+      213: 6167119115346816611
+    second: cenarioA_2_mar_distante_171
+  - first:
+      213: -5369726172465012115
+    second: cenarioA_2_mar_distante_172
+  - first:
+      213: -4560651608520156872
+    second: cenarioA_2_mar_distante_173
+  - first:
+      213: 5534203198623719440
+    second: cenarioA_2_mar_distante_174
+  - first:
+      213: -4173424666643251337
+    second: cenarioA_2_mar_distante_175
+  - first:
+      213: 1572956262904918893
+    second: cenarioA_2_mar_distante_176
+  - first:
+      213: 4230310211507695842
+    second: cenarioA_2_mar_distante_177
+  - first:
+      213: 58593449074197261
+    second: cenarioA_2_mar_distante_178
+  - first:
+      213: -4328176358697026118
+    second: cenarioA_2_mar_distante_179
+  - first:
+      213: 2558424843316502101
+    second: cenarioA_2_mar_distante_180
+  - first:
+      213: 3306735148140146295
+    second: cenarioA_2_mar_distante_181
+  - first:
+      213: 1505364342425914991
+    second: cenarioA_2_mar_distante_182
+  - first:
+      213: 692837191337293051
+    second: cenarioA_2_mar_distante_183
+  - first:
+      213: 8462861846722966981
+    second: cenarioA_2_mar_distante_184
+  - first:
+      213: -3960727625286791628
+    second: cenarioA_2_mar_distante_185
+  - first:
+      213: 3082469760475128813
+    second: cenarioA_2_mar_distante_186
+  - first:
+      213: 2759527711750522441
+    second: cenarioA_2_mar_distante_187
+  - first:
+      213: -4010320593968760324
+    second: cenarioA_2_mar_distante_188
+  - first:
+      213: 6230651300708001338
+    second: cenarioA_2_mar_distante_189
+  - first:
+      213: 6913178887394493297
+    second: cenarioA_2_mar_distante_190
+  - first:
+      213: -8830363355712678225
+    second: cenarioA_2_mar_distante_191
+  - first:
+      213: -7620458327883746357
+    second: cenarioA_2_mar_distante_192
+  - first:
+      213: 5513634414335504914
+    second: cenarioA_2_mar_distante_193
+  - first:
+      213: 6056484013627407842
+    second: cenarioA_2_mar_distante_194
+  - first:
+      213: 3620383359632571346
+    second: cenarioA_2_mar_distante_195
+  - first:
+      213: 8463873063897073083
+    second: cenarioA_2_mar_distante_196
+  - first:
+      213: 1495888762236839466
+    second: cenarioA_2_mar_distante_197
+  - first:
+      213: -4382781486560084180
+    second: cenarioA_2_mar_distante_198
+  - first:
+      213: -8654839433622434409
+    second: cenarioA_2_mar_distante_199
+  - first:
+      213: -6349834331764839463
+    second: cenarioA_2_mar_distante_200
+  - first:
+      213: 4101025516266145805
+    second: cenarioA_2_mar_distante_201
+  - first:
+      213: 7183971750854412159
+    second: cenarioA_2_mar_distante_202
+  - first:
+      213: -1823735078440026230
+    second: cenarioA_2_mar_distante_203
+  - first:
+      213: 2738465050335408130
+    second: cenarioA_2_mar_distante_204
+  - first:
+      213: -1096404473563658177
+    second: cenarioA_2_mar_distante_205
+  - first:
+      213: 2580638220607413358
+    second: cenarioA_2_mar_distante_206
+  - first:
+      213: -1584664832675239779
+    second: cenarioA_2_mar_distante_207
+  - first:
+      213: 5413529952504577048
+    second: cenarioA_2_mar_distante_208
+  - first:
+      213: 4018060169537520521
+    second: cenarioA_2_mar_distante_209
+  - first:
+      213: -6435690051680916883
+    second: cenarioA_2_mar_distante_210
+  - first:
+      213: 5963740503967696960
+    second: cenarioA_2_mar_distante_211
+  - first:
+      213: 611808060661693506
+    second: cenarioA_2_mar_distante_212
+  - first:
+      213: -5109087831179673245
+    second: cenarioA_2_mar_distante_213
+  - first:
+      213: -5205462637434049015
+    second: cenarioA_2_mar_distante_214
+  - first:
+      213: 615063839886267583
+    second: cenarioA_2_mar_distante_215
+  - first:
+      213: 8261579799129182206
+    second: cenarioA_2_mar_distante_216
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_0
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 487
+        width: 191
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca881cee21f01540800000000000000
+      internalID: 4976742772076219083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_1
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 476
+        width: 302
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b43b9942fd842850800000000000000
+      internalID: 6351357446255752372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_2
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 687
+        width: 36
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7571e632b0b3300800000000000000
+      internalID: 232792052538496939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_3
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 646
+        width: 35
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1414017edbe2593f0800000000000000
+      internalID: -894757557802876607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_4
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 614
+        width: 46
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3a755329f0f2f50800000000000000
+      internalID: 6858717878143132619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_5
+      rect:
+        serializedVersion: 2
+        x: 3713
+        y: 771
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec8376426c6e6320800000000000000
+      internalID: 2553097208110222568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_6
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 768
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbfd4bdfb72eb1f0800000000000000
+      internalID: -1027339960022336547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 628
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df31359176dfd020800000000000000
+      internalID: 2368847712342851545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_8
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 628
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9513d947a93f0b0800000000000000
+      internalID: -5696039278049404434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_9
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 621
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca32823c39480da0800000000000000
+      internalID: -5978447982440072499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_10
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 586
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580fdfc68ea627280800000000000000
+      internalID: -9047051154940366715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_11
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 639
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c61468d318156fc0800000000000000
+      internalID: -3502366661696809274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_12
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 568
+        width: 41
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839f5e7515fb297d0800000000000000
+      internalID: -2913055652867344072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_13
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 632
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8276ca5ddf25d8690800000000000000
+      internalID: -7598325746139109592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_14
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 609
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c623ea9f173762c0800000000000000
+      internalID: -4438518298868242749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_15
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 639
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a350f62ca78ce5dc0800000000000000
+      internalID: -3648258218549902022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_16
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 558
+        width: 67
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16edcafff9492e700800000000000000
+      internalID: 568179917912333921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_17
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 512
+        width: 194
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0cb933c42589820800000000000000
+      internalID: 2925178445213974778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_18
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 614
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8016ee383153c5130800000000000000
+      internalID: 3556776163649937672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_19
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 628
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff709cf9c776efaa0800000000000000
+      internalID: -6125344658222938113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_20
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 639
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff7da5d045487400800000000000000
+      internalID: 322083518122131454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_21
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 504
+        width: 103
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36f8b9b5570c22f0800000000000000
+      internalID: -996413352786201028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_22
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 625
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8662ec71f3dde55d0800000000000000
+      internalID: -3071774632768035224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_23
+      rect:
+        serializedVersion: 2
+        x: 3275
+        y: 550
+        width: 87
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf2f36b85b927340800000000000000
+      internalID: 4860117753203208142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_24
+      rect:
+        serializedVersion: 2
+        x: 3367
+        y: 603
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4f35016144a0690800000000000000
+      internalID: -7635215356699347771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_25
+      rect:
+        serializedVersion: 2
+        x: 3370
+        y: 643
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa934284dc90cd880800000000000000
+      internalID: -8584976012391728721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_26
+      rect:
+        serializedVersion: 2
+        x: 3637
+        y: 494
+        width: 202
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec3255600d37a240800000000000000
+      internalID: 4802874599523106024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_27
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 625
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85b43b37b81c8b60800000000000000
+      internalID: 7749596234049172875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_28
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 471
+        width: 140
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52372e01ba691efc0800000000000000
+      internalID: -3467324576631721179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_29
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 628
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0053df03013d7f0800000000000000
+      internalID: -589109323662819115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_30
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 628
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565431d268f61bc30800000000000000
+      internalID: 4373399335226000741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_31
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 609
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7471660308b454ed0800000000000000
+      internalID: -2430453409956620473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_32
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 501
+        width: 169
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0d05464861de950800000000000000
+      internalID: 6479860196730523839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_33
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 632
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4456e90be848e760800000000000000
+      internalID: 7487314554824053837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_34
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 586
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93fa9c89eb05d53c0800000000000000
+      internalID: -4369247283942150343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_35
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 542
+        width: 105
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73054aeb069559360800000000000000
+      internalID: 7175739853334925367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_36
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 628
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbef4fd6389a7000800000000000000
+      internalID: 34507308600912846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_37
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 625
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cd13b7c2f9e58e0800000000000000
+      internalID: -1702748595705226100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_38
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 611
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7312ee45106730cb0800000000000000
+      internalID: -4898942221557030601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_39
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 625
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc6f33e7c2ceaac0800000000000000
+      internalID: -3841919268333589309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_40
+      rect:
+        serializedVersion: 2
+        x: 3367
+        y: 621
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b344f10e54cda72e0800000000000000
+      internalID: -2127145681308138437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_41
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 527
+        width: 94
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dba5e2aa62f49d70800000000000000
+      internalID: 9049124091107584984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_42
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 611
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9e01d020a07b440800000000000000
+      internalID: 4951437319242574289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_43
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 618
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707850882c92027f0800000000000000
+      internalID: -639465231604152569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_44
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 572
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54316a684155aa2b0800000000000000
+      internalID: -5572548042270829755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_45
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 469
+        width: 125
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a438d74b2f33a56a0800000000000000
+      internalID: -6459793598006328502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_46
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 497
+        width: 175
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6ab395f468d5ea0800000000000000
+      internalID: -5882397862918379834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_47
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 614
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d1f609c771a4440800000000000000
+      internalID: 4920771366622272907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_48
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 543
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756a800c938bd67c0800000000000000
+      internalID: -4076399529525991849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_49
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 579
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e48f096fd0a7b70800000000000000
+      internalID: 8897439366469144201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_50
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 612
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14f5b9f8bb1ef010800000000000000
+      internalID: 1224446629968737307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_51
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 618
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0fad14b626d5720800000000000000
+      internalID: 2836531553119170730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_52
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 604
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa29ba21e3f57a550800000000000000
+      internalID: 6172006534540399279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_53
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 494
+        width: 182
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7440f19668cf6e4d0800000000000000
+      internalID: -3105517238805920697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_54
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 593
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433cf7a51f16c94a0800000000000000
+      internalID: -6585280865889172684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_55
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 508
+        width: 82
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77383546a45f460d0800000000000000
+      internalID: -3430347316289895561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_56
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 554
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75060f636769d1f50800000000000000
+      internalID: 6853799642399793239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_57
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 618
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f0c74f6a96843e0800000000000000
+      internalID: -2069287862989484269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_58
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 618
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20778587aae94f20800000000000000
+      internalID: 3407512598303174703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_59
+      rect:
+        serializedVersion: 2
+        x: 3148
+        y: 582
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1545e9fdb70cc5af0800000000000000
+      internalID: -406238228104981423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_60
+      rect:
+        serializedVersion: 2
+        x: 3407
+        y: 529
+        width: 79
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31eb3c0df674d3540800000000000000
+      internalID: 4989222507765808659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_61
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 589
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e8d5eebafb953d0800000000000000
+      internalID: -3217329713620087153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_62
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 448
+        width: 100
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2e683e091909a20800000000000000
+      internalID: 3067111397717893873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_63
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 483
+        width: 80
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80045dda1eb5f4a60800000000000000
+      internalID: 7660442516022706184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_64
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 600
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2908e3899529883a0800000000000000
+      internalID: -6662914735190671214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_65
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 604
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf55295f5e10e560800000000000000
+      internalID: 7340900787480256432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_66
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 593
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b744b73514c320280800000000000000
+      internalID: -9078627647554370437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_67
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 596
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96df56134cf497340800000000000000
+      internalID: 4862004976784113001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_68
+      rect:
+        serializedVersion: 2
+        x: 3506
+        y: 547
+        width: 75
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53dfaa1ddd3c24ca0800000000000000
+      internalID: -6034045193250210507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_69
+      rect:
+        serializedVersion: 2
+        x: 3567
+        y: 596
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbddd864adfeaeb0800000000000000
+      internalID: -4706545677979755596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_70
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 586
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75499e746fb26650800000000000000
+      internalID: 6224748073321055613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_71
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 589
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e5c68877c103a10800000000000000
+      internalID: 1887039543583727122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_72
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 588
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a1e27240959a7c0800000000000000
+      internalID: -4059615714725717370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_73
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 586
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ea8ef3f6fb73b80800000000000000
+      internalID: -8415046894183993801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_74
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 589
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbeb37639de83e00800000000000000
+      internalID: 1024830132574743540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_75
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 593
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024f5c7426c2b3610800000000000000
+      internalID: 1601922893082915872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_76
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 586
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362742b58556ad990800000000000000
+      internalID: -7360459210823011741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_77
+      rect:
+        serializedVersion: 2
+        x: 2980
+        y: 480
+        width: 62
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcc97b7b2d331b00800000000000000
+      internalID: 798048815939177689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_78
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 596
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3521ff562f0abb10800000000000000
+      internalID: 1997926042185049406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_79
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 596
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fe571adbb4df390800000000000000
+      internalID: -7782981303196586112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 583
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeda906eb39664ab0800000000000000
+      internalID: -5024212628301828626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_81
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 572
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00340b7e369dd5f20800000000000000
+      internalID: 3413123115728782080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_82
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 554
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edbaac57fb19a990800000000000000
+      internalID: -7374332165616910878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_83
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 519
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0762fe66cdf1e10800000000000000
+      internalID: 2170695880072917187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_84
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 575
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c371509bc76104fe0800000000000000
+      internalID: -1206939975199418564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_85
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 579
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2b3ab94ea4eb480800000000000000
+      internalID: -8881579069403843923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_86
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 540
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414b47fa81447a910800000000000000
+      internalID: 1848521044872442900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_87
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 586
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668b76b1a84a8ee70800000000000000
+      internalID: 9144739956448016486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_88
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 476
+        width: 75
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5419c709d8f1b860800000000000000
+      internalID: 7544084461844501598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_89
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 540
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65046cf3d821d2c70800000000000000
+      internalID: 8947828432524689494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_90
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 527
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80f0ac7d3c0bb010800000000000000
+      internalID: 1205570783475200140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_91
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 561
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65278b75935d57260800000000000000
+      internalID: 7094811230253642326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_92
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 554
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38ce16581678e620800000000000000
+      internalID: 2803620614934284350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_93
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 584
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b695badb2590cce80800000000000000
+      internalID: -8157134574100719253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_94
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 476
+        width: 232
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd94a7c25bc083d0800000000000000
+      internalID: -3206339378290582064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_95
+      rect:
+        serializedVersion: 2
+        x: 3609
+        y: 568
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a0296db42c8ea10800000000000000
+      internalID: 1939013270561229387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_96
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 469
+        width: 84
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f792c005bbb3ae70800000000000000
+      internalID: 9125343656058984438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_97
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 568
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e89f3e081a417bb0800000000000000
+      internalID: -4940085849070003994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_98
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 568
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab839f92c859ce90800000000000000
+      internalID: -7004970152473949271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_99
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 526
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404bd2bcebadf6790800000000000000
+      internalID: -7534563138580139004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_100
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 568
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461988839e20c4650800000000000000
+      internalID: 6218348386190922084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_101
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 558
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d3bb74d7bd3d130800000000000000
+      internalID: 3590454659065265551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_102
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 575
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d58685b90857dc20800000000000000
+      internalID: 3231148056385062358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_103
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 572
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7872a4da492f3170800000000000000
+      internalID: 8160286451190364282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_104
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 543
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c06476392bf79e0800000000000000
+      internalID: -1621380994667508620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_105
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 550
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed00625b093a53e50800000000000000
+      internalID: 6788511855240675550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_106
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 568
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a2e4680bd2adf20800000000000000
+      internalID: 3448118700896299590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_107
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 538
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2eecde3a4c516d60800000000000000
+      internalID: 7881682296827080238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_108
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 568
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf76d84215d24d50800000000000000
+      internalID: 6720167868498345903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_109
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 565
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7130afe06d72bd0800000000000000
+      internalID: -2654918095499225131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b3cf6bf306b7850800000000000000
+      internalID: 6375795524242258743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_111
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 529
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c267559ddfc643fb0800000000000000
+      internalID: -4668987076147579348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_112
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 561
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d604b724440747ac0800000000000000
+      internalID: -3858335542274211731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_113
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 531
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd13a35e7869cb40800000000000000
+      internalID: 5461010914941803978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_114
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 550
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee825683aa03e960800000000000000
+      internalID: 7629953891145256678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_115
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 563
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6074a9faedd9f380800000000000000
+      internalID: -8936867984259649426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_116
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 557
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022203a287ebc2360800000000000000
+      internalID: 7146296132043285024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_117
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 561
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b39f95d1da85bf0800000000000000
+      internalID: -335327830663939180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_118
+      rect:
+        serializedVersion: 2
+        x: 2866
+        y: 566
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10a0193af9f417c0800000000000000
+      internalID: -4101378507533148133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_119
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 536
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4426b6e417a4ceb0800000000000000
+      internalID: -4700448402856074162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_120
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 568
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d47921fda7e69f40800000000000000
+      internalID: 5735025909764289750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_121
+      rect:
+        serializedVersion: 2
+        x: 3728
+        y: 561
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24509204c64d8110800000000000000
+      internalID: 1264744878031524910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_122
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 568
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b6635c0da2fae90800000000000000
+      internalID: -7012339018642330839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_123
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 554
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086c217a7473d97b0800000000000000
+      internalID: -5215952012539935104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_124
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 529
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791c1b8420b051960800000000000000
+      internalID: 7571970452930806167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_125
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 547
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94ec96c3bd69eba0800000000000000
+      internalID: -6059191204751547238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_126
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 554
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4dc5707e8ce8820800000000000000
+      internalID: 2922494102796555436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_127
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 554
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e77d7098993dca0800000000000000
+      internalID: -5993277865278865871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_128
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 542
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3421f61fef8122670800000000000000
+      internalID: 8512393728935006787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_129
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 554
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbd38ccecf13bd40800000000000000
+      internalID: 5598853734806576086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_130
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 504
+        width: 92
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554cee8848e7086c0800000000000000
+      internalID: -4143172549482724267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_131
+      rect:
+        serializedVersion: 2
+        x: 3634
+        y: 554
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e600ceaa50253a040800000000000000
+      internalID: 4657656623927132270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_132
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 533
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b6ecd00f62f43d0800000000000000
+      internalID: -3220312396080976998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_133
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 540
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6f1392ee93a2d60800000000000000
+      internalID: 7866163394212132556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_134
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 497
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c689a493cb1efcfb0800000000000000
+      internalID: -4625230093754918804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_135
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 540
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6526f9a8b768a40800000000000000
+      internalID: 5370115440995620524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_136
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 487
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350c0d5e945b73790800000000000000
+      internalID: -7550366921270443949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_137
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 508
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5548b23f7df4f6ce0800000000000000
+      internalID: -1409820369427397547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_138
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 526
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa212d1c319ad6050800000000000000
+      internalID: 5795474197816939178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_139
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 536
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3751fcece548da0800000000000000
+      internalID: -5943521365891648523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_140
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 526
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e87fd6c0ac845210800000000000000
+      internalID: 1320835212885588199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_141
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 512
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbce2a8e3df264a0800000000000000
+      internalID: -6601435658723603520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_142
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 533
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc86347bea785de0800000000000000
+      internalID: -1344189337084457795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_143
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 536
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c856cb17998fe580800000000000000
+      internalID: -8795660265132238648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_144
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 533
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e184da472fa5db740800000000000000
+      internalID: 5169387944677296158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_145
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 533
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293043338a219d4b0800000000000000
+      internalID: -5415276563313458286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_146
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 540
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3452a7bc4eebc2360800000000000000
+      internalID: 7146296598605735235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_147
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 533
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad05610dc532e3b0800000000000000
+      internalID: -5484762241575875164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_148
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 533
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deda786e2e049b020800000000000000
+      internalID: 2357987223179603437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_149
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 531
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a207be3efcb21da0800000000000000
+      internalID: -5975505955407330651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_150
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 526
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343e9d0c4495c1a50800000000000000
+      internalID: 6493162914589565763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_151
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 526
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e773e1406538010800000000000000
+      internalID: 1189889302242754182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_152
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 497
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ee2aa55cb8e3f30800000000000000
+      internalID: 4557233552690966066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_153
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 529
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb495767e9a73580800000000000000
+      internalID: -8847416131609605170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_154
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 501
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45de7d1b259878d60800000000000000
+      internalID: 7892427860254125396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_155
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 501
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90217055203de77e0800000000000000
+      internalID: -1765741996912733687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_156
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 526
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f90778de48b7f5e0800000000000000
+      internalID: -1875828070997882376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_157
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 526
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122ec72dded6b4970800000000000000
+      internalID: 8740200370048655905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_158
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 504
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf7bb1478bedbb80800000000000000
+      internalID: -8377280765683335224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_159
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 526
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e1de3e5d3997ef0800000000000000
+      internalID: -109894169032581513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_160
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 515
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2228512760d5031e0800000000000000
+      internalID: -2220172334028455390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_161
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 515
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632543e7b7902f1c0800000000000000
+      internalID: -4471501054022495690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_162
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 519
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8234a941f98662cc0800000000000000
+      internalID: -3736183808402504920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_163
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 519
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbafefc8b3fe92a0800000000000000
+      internalID: -6728672818156819503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_164
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 526
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715c4629abab61700800000000000000
+      internalID: 510800918235890967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_165
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 506
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acbcacee17ae4480800000000000000
+      internalID: -8913002861258031959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_166
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 508
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9483846995b669500800000000000000
+      internalID: 402627249213814857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_167
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 515
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337dfba16bd0e7e40800000000000000
+      internalID: 5655973257807910707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_168
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 515
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5560b2a31d6c264a0800000000000000
+      internalID: -6601495501845363115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_169
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 510
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34bc9a42afc963a0800000000000000
+      internalID: -6671573077029243843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_170
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ab759b3f9715e40800000000000000
+      internalID: 5643425895765490251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_171
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 501
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ea4cd1922069550800000000000000
+      internalID: 6167119115346816611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_172
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 508
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62ea150f76ea75b0800000000000000
+      internalID: -5369726172465012115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_173
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 501
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83997d1868f45b0c0800000000000000
+      internalID: -4560651608520156872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_174
+      rect:
+        serializedVersion: 2
+        x: 3194
+        y: 501
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0102cc8dc707dcc40800000000000000
+      internalID: 5534203198623719440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_175
+      rect:
+        serializedVersion: 2
+        x: 3314
+        y: 508
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f30ef90640516c0800000000000000
+      internalID: -4173424666643251337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_176
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 504
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d637ca1236344d510800000000000000
+      internalID: 1572956262904918893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_177
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 504
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0bf9669b415ba30800000000000000
+      internalID: 4230310211507695842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_178
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 491
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d038b367e6a20d000800000000000000
+      internalID: 58593449074197261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_179
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 504
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdbe9e888a3fe3c0800000000000000
+      internalID: -4328176358697026118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_180
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 497
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e1a6207d9518320800000000000000
+      internalID: 2558424843316502101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_181
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 504
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e213fe812e3ed20800000000000000
+      internalID: 3306735148140146295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_182
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 480
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e06d7c4e024e410800000000000000
+      internalID: 1505364342425914991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_183
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 497
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4b6d431c37d9900800000000000000
+      internalID: 692837191337293051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_184
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 494
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5f02de200227570800000000000000
+      internalID: 8462861846722966981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_185
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 506
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e44baa53ba809c0800000000000000
+      internalID: -3960727625286791628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_186
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 483
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3e0006ae127ca20800000000000000
+      internalID: 3082469760475128813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_187
+      rect:
+        serializedVersion: 2
+        x: 3317
+        y: 504
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9468cbe45dfcb4620800000000000000
+      internalID: 2759527711750522441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_188
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 483
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9fe09daaa7858c0800000000000000
+      internalID: -4010320593968760324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_189
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 491
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36a60ab858b77650800000000000000
+      internalID: 6230651300708001338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_190
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 476
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17301eb029b80ff50800000000000000
+      internalID: 6913178887394493297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_191
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 494
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa69e11305f347580800000000000000
+      internalID: -8830363355712678225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_192
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 487
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc372d49681be3690800000000000000
+      internalID: -7620458327883746357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_193
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 487
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21236df894d548c40800000000000000
+      internalID: 5513634414335504914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_194
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 483
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edf71c2f14fc0450800000000000000
+      internalID: 6056484013627407842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_195
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 473
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db72a5eb7f2e3230800000000000000
+      internalID: 3620383359632571346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_196
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 469
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5059545b7b57570800000000000000
+      internalID: 8463873063897073083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_197
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 473
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2620a857e672c410800000000000000
+      internalID: 1495888762236839466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_198
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 497
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f7d6d757b3d23c0800000000000000
+      internalID: -4382781486560084180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_199
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 448
+        width: 80
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d44e2f365d3e780800000000000000
+      internalID: -8654839433622434409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_200
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 473
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dba390715bd0e7a0800000000000000
+      internalID: -6349834331764839463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_201
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 469
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d084bd79af4c9e830800000000000000
+      internalID: 4101025516266145805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_202
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 491
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f774e1ebe3892b360800000000000000
+      internalID: 7183971750854412159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_203
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 497
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fb925db9ac0b6e0800000000000000
+      internalID: -1823735078440026230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_204
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 487
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200701b447bf00620800000000000000
+      internalID: 2738465050335408130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_205
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 497
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38c617b0f9c8c0f0800000000000000
+      internalID: -1096404473563658177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_206
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 483
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6cd911f9c440d320800000000000000
+      internalID: 2580638220607413358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_207
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 476
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98a6580bb3220ae0800000000000000
+      internalID: -1584664832675239779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_208
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 469
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cf8f74fc8b02b40800000000000000
+      internalID: 5413529952504577048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_209
+      rect:
+        serializedVersion: 2
+        x: 3022
+        y: 469
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9830e638f6403c730800000000000000
+      internalID: 4018060169537520521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_210
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 469
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a2b09eef5dfa6a0800000000000000
+      internalID: -6435690051680916883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_211
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 483
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0488a9f146673c250800000000000000
+      internalID: 5963740503967696960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_212
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 474
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cf57e80349d7800800000000000000
+      internalID: 611808060661693506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_213
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 455
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361c348cfafd819b0800000000000000
+      internalID: -5109087831179673245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_214
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 457
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90eec2c9f4b72c7b0800000000000000
+      internalID: -5205462637434049015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_215
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 451
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4db9abd45298800800000000000000
+      internalID: 615063839886267583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioA_2_mar_distante_216
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff43aa3e0707a270800000000000000
+      internalID: 8261579799129182206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cenarioA_2_mar_distante_0: 4976742772076219083
+      cenarioA_2_mar_distante_1: 6351357446255752372
+      cenarioA_2_mar_distante_10: -9047051154940366715
+      cenarioA_2_mar_distante_100: 6218348386190922084
+      cenarioA_2_mar_distante_101: 3590454659065265551
+      cenarioA_2_mar_distante_102: 3231148056385062358
+      cenarioA_2_mar_distante_103: 8160286451190364282
+      cenarioA_2_mar_distante_104: -1621380994667508620
+      cenarioA_2_mar_distante_105: 6788511855240675550
+      cenarioA_2_mar_distante_106: 3448118700896299590
+      cenarioA_2_mar_distante_107: 7881682296827080238
+      cenarioA_2_mar_distante_108: 6720167868498345903
+      cenarioA_2_mar_distante_109: -2654918095499225131
+      cenarioA_2_mar_distante_11: -3502366661696809274
+      cenarioA_2_mar_distante_110: 6375795524242258743
+      cenarioA_2_mar_distante_111: -4668987076147579348
+      cenarioA_2_mar_distante_112: -3858335542274211731
+      cenarioA_2_mar_distante_113: 5461010914941803978
+      cenarioA_2_mar_distante_114: 7629953891145256678
+      cenarioA_2_mar_distante_115: -8936867984259649426
+      cenarioA_2_mar_distante_116: 7146296132043285024
+      cenarioA_2_mar_distante_117: -335327830663939180
+      cenarioA_2_mar_distante_118: -4101378507533148133
+      cenarioA_2_mar_distante_119: -4700448402856074162
+      cenarioA_2_mar_distante_12: -2913055652867344072
+      cenarioA_2_mar_distante_120: 5735025909764289750
+      cenarioA_2_mar_distante_121: 1264744878031524910
+      cenarioA_2_mar_distante_122: -7012339018642330839
+      cenarioA_2_mar_distante_123: -5215952012539935104
+      cenarioA_2_mar_distante_124: 7571970452930806167
+      cenarioA_2_mar_distante_125: -6059191204751547238
+      cenarioA_2_mar_distante_126: 2922494102796555436
+      cenarioA_2_mar_distante_127: -5993277865278865871
+      cenarioA_2_mar_distante_128: 8512393728935006787
+      cenarioA_2_mar_distante_129: 5598853734806576086
+      cenarioA_2_mar_distante_13: -7598325746139109592
+      cenarioA_2_mar_distante_130: -4143172549482724267
+      cenarioA_2_mar_distante_131: 4657656623927132270
+      cenarioA_2_mar_distante_132: -3220312396080976998
+      cenarioA_2_mar_distante_133: 7866163394212132556
+      cenarioA_2_mar_distante_134: -4625230093754918804
+      cenarioA_2_mar_distante_135: 5370115440995620524
+      cenarioA_2_mar_distante_136: -7550366921270443949
+      cenarioA_2_mar_distante_137: -1409820369427397547
+      cenarioA_2_mar_distante_138: 5795474197816939178
+      cenarioA_2_mar_distante_139: -5943521365891648523
+      cenarioA_2_mar_distante_14: -4438518298868242749
+      cenarioA_2_mar_distante_140: 1320835212885588199
+      cenarioA_2_mar_distante_141: -6601435658723603520
+      cenarioA_2_mar_distante_142: -1344189337084457795
+      cenarioA_2_mar_distante_143: -8795660265132238648
+      cenarioA_2_mar_distante_144: 5169387944677296158
+      cenarioA_2_mar_distante_145: -5415276563313458286
+      cenarioA_2_mar_distante_146: 7146296598605735235
+      cenarioA_2_mar_distante_147: -5484762241575875164
+      cenarioA_2_mar_distante_148: 2357987223179603437
+      cenarioA_2_mar_distante_149: -5975505955407330651
+      cenarioA_2_mar_distante_15: -3648258218549902022
+      cenarioA_2_mar_distante_150: 6493162914589565763
+      cenarioA_2_mar_distante_151: 1189889302242754182
+      cenarioA_2_mar_distante_152: 4557233552690966066
+      cenarioA_2_mar_distante_153: -8847416131609605170
+      cenarioA_2_mar_distante_154: 7892427860254125396
+      cenarioA_2_mar_distante_155: -1765741996912733687
+      cenarioA_2_mar_distante_156: -1875828070997882376
+      cenarioA_2_mar_distante_157: 8740200370048655905
+      cenarioA_2_mar_distante_158: -8377280765683335224
+      cenarioA_2_mar_distante_159: -109894169032581513
+      cenarioA_2_mar_distante_16: 568179917912333921
+      cenarioA_2_mar_distante_160: -2220172334028455390
+      cenarioA_2_mar_distante_161: -4471501054022495690
+      cenarioA_2_mar_distante_162: -3736183808402504920
+      cenarioA_2_mar_distante_163: -6728672818156819503
+      cenarioA_2_mar_distante_164: 510800918235890967
+      cenarioA_2_mar_distante_165: -8913002861258031959
+      cenarioA_2_mar_distante_166: 402627249213814857
+      cenarioA_2_mar_distante_167: 5655973257807910707
+      cenarioA_2_mar_distante_168: -6601495501845363115
+      cenarioA_2_mar_distante_169: -6671573077029243843
+      cenarioA_2_mar_distante_17: 2925178445213974778
+      cenarioA_2_mar_distante_170: 5643425895765490251
+      cenarioA_2_mar_distante_171: 6167119115346816611
+      cenarioA_2_mar_distante_172: -5369726172465012115
+      cenarioA_2_mar_distante_173: -4560651608520156872
+      cenarioA_2_mar_distante_174: 5534203198623719440
+      cenarioA_2_mar_distante_175: -4173424666643251337
+      cenarioA_2_mar_distante_176: 1572956262904918893
+      cenarioA_2_mar_distante_177: 4230310211507695842
+      cenarioA_2_mar_distante_178: 58593449074197261
+      cenarioA_2_mar_distante_179: -4328176358697026118
+      cenarioA_2_mar_distante_18: 3556776163649937672
+      cenarioA_2_mar_distante_180: 2558424843316502101
+      cenarioA_2_mar_distante_181: 3306735148140146295
+      cenarioA_2_mar_distante_182: 1505364342425914991
+      cenarioA_2_mar_distante_183: 692837191337293051
+      cenarioA_2_mar_distante_184: 8462861846722966981
+      cenarioA_2_mar_distante_185: -3960727625286791628
+      cenarioA_2_mar_distante_186: 3082469760475128813
+      cenarioA_2_mar_distante_187: 2759527711750522441
+      cenarioA_2_mar_distante_188: -4010320593968760324
+      cenarioA_2_mar_distante_189: 6230651300708001338
+      cenarioA_2_mar_distante_19: -6125344658222938113
+      cenarioA_2_mar_distante_190: 6913178887394493297
+      cenarioA_2_mar_distante_191: -8830363355712678225
+      cenarioA_2_mar_distante_192: -7620458327883746357
+      cenarioA_2_mar_distante_193: 5513634414335504914
+      cenarioA_2_mar_distante_194: 6056484013627407842
+      cenarioA_2_mar_distante_195: 3620383359632571346
+      cenarioA_2_mar_distante_196: 8463873063897073083
+      cenarioA_2_mar_distante_197: 1495888762236839466
+      cenarioA_2_mar_distante_198: -4382781486560084180
+      cenarioA_2_mar_distante_199: -8654839433622434409
+      cenarioA_2_mar_distante_2: 232792052538496939
+      cenarioA_2_mar_distante_20: 322083518122131454
+      cenarioA_2_mar_distante_200: -6349834331764839463
+      cenarioA_2_mar_distante_201: 4101025516266145805
+      cenarioA_2_mar_distante_202: 7183971750854412159
+      cenarioA_2_mar_distante_203: -1823735078440026230
+      cenarioA_2_mar_distante_204: 2738465050335408130
+      cenarioA_2_mar_distante_205: -1096404473563658177
+      cenarioA_2_mar_distante_206: 2580638220607413358
+      cenarioA_2_mar_distante_207: -1584664832675239779
+      cenarioA_2_mar_distante_208: 5413529952504577048
+      cenarioA_2_mar_distante_209: 4018060169537520521
+      cenarioA_2_mar_distante_21: -996413352786201028
+      cenarioA_2_mar_distante_210: -6435690051680916883
+      cenarioA_2_mar_distante_211: 5963740503967696960
+      cenarioA_2_mar_distante_212: 611808060661693506
+      cenarioA_2_mar_distante_213: -5109087831179673245
+      cenarioA_2_mar_distante_214: -5205462637434049015
+      cenarioA_2_mar_distante_215: 615063839886267583
+      cenarioA_2_mar_distante_216: 8261579799129182206
+      cenarioA_2_mar_distante_22: -3071774632768035224
+      cenarioA_2_mar_distante_23: 4860117753203208142
+      cenarioA_2_mar_distante_24: -7635215356699347771
+      cenarioA_2_mar_distante_25: -8584976012391728721
+      cenarioA_2_mar_distante_26: 4802874599523106024
+      cenarioA_2_mar_distante_27: 7749596234049172875
+      cenarioA_2_mar_distante_28: -3467324576631721179
+      cenarioA_2_mar_distante_29: -589109323662819115
+      cenarioA_2_mar_distante_3: -894757557802876607
+      cenarioA_2_mar_distante_30: 4373399335226000741
+      cenarioA_2_mar_distante_31: -2430453409956620473
+      cenarioA_2_mar_distante_32: 6479860196730523839
+      cenarioA_2_mar_distante_33: 7487314554824053837
+      cenarioA_2_mar_distante_34: -4369247283942150343
+      cenarioA_2_mar_distante_35: 7175739853334925367
+      cenarioA_2_mar_distante_36: 34507308600912846
+      cenarioA_2_mar_distante_37: -1702748595705226100
+      cenarioA_2_mar_distante_38: -4898942221557030601
+      cenarioA_2_mar_distante_39: -3841919268333589309
+      cenarioA_2_mar_distante_4: 6858717878143132619
+      cenarioA_2_mar_distante_40: -2127145681308138437
+      cenarioA_2_mar_distante_41: 9049124091107584984
+      cenarioA_2_mar_distante_42: 4951437319242574289
+      cenarioA_2_mar_distante_43: -639465231604152569
+      cenarioA_2_mar_distante_44: -5572548042270829755
+      cenarioA_2_mar_distante_45: -6459793598006328502
+      cenarioA_2_mar_distante_46: -5882397862918379834
+      cenarioA_2_mar_distante_47: 4920771366622272907
+      cenarioA_2_mar_distante_48: -4076399529525991849
+      cenarioA_2_mar_distante_49: 8897439366469144201
+      cenarioA_2_mar_distante_5: 2553097208110222568
+      cenarioA_2_mar_distante_50: 1224446629968737307
+      cenarioA_2_mar_distante_51: 2836531553119170730
+      cenarioA_2_mar_distante_52: 6172006534540399279
+      cenarioA_2_mar_distante_53: -3105517238805920697
+      cenarioA_2_mar_distante_54: -6585280865889172684
+      cenarioA_2_mar_distante_55: -3430347316289895561
+      cenarioA_2_mar_distante_56: 6853799642399793239
+      cenarioA_2_mar_distante_57: -2069287862989484269
+      cenarioA_2_mar_distante_58: 3407512598303174703
+      cenarioA_2_mar_distante_59: -406238228104981423
+      cenarioA_2_mar_distante_6: -1027339960022336547
+      cenarioA_2_mar_distante_60: 4989222507765808659
+      cenarioA_2_mar_distante_61: -3217329713620087153
+      cenarioA_2_mar_distante_62: 3067111397717893873
+      cenarioA_2_mar_distante_63: 7660442516022706184
+      cenarioA_2_mar_distante_64: -6662914735190671214
+      cenarioA_2_mar_distante_65: 7340900787480256432
+      cenarioA_2_mar_distante_66: -9078627647554370437
+      cenarioA_2_mar_distante_67: 4862004976784113001
+      cenarioA_2_mar_distante_68: -6034045193250210507
+      cenarioA_2_mar_distante_69: -4706545677979755596
+      cenarioA_2_mar_distante_7: 2368847712342851545
+      cenarioA_2_mar_distante_70: 6224748073321055613
+      cenarioA_2_mar_distante_71: 1887039543583727122
+      cenarioA_2_mar_distante_72: -4059615714725717370
+      cenarioA_2_mar_distante_73: -8415046894183993801
+      cenarioA_2_mar_distante_74: 1024830132574743540
+      cenarioA_2_mar_distante_75: 1601922893082915872
+      cenarioA_2_mar_distante_76: -7360459210823011741
+      cenarioA_2_mar_distante_77: 798048815939177689
+      cenarioA_2_mar_distante_78: 1997926042185049406
+      cenarioA_2_mar_distante_79: -7782981303196586112
+      cenarioA_2_mar_distante_8: -5696039278049404434
+      cenarioA_2_mar_distante_80: -5024212628301828626
+      cenarioA_2_mar_distante_81: 3413123115728782080
+      cenarioA_2_mar_distante_82: -7374332165616910878
+      cenarioA_2_mar_distante_83: 2170695880072917187
+      cenarioA_2_mar_distante_84: -1206939975199418564
+      cenarioA_2_mar_distante_85: -8881579069403843923
+      cenarioA_2_mar_distante_86: 1848521044872442900
+      cenarioA_2_mar_distante_87: 9144739956448016486
+      cenarioA_2_mar_distante_88: 7544084461844501598
+      cenarioA_2_mar_distante_89: 8947828432524689494
+      cenarioA_2_mar_distante_9: -5978447982440072499
+      cenarioA_2_mar_distante_90: 1205570783475200140
+      cenarioA_2_mar_distante_91: 7094811230253642326
+      cenarioA_2_mar_distante_92: 2803620614934284350
+      cenarioA_2_mar_distante_93: -8157134574100719253
+      cenarioA_2_mar_distante_94: -3206339378290582064
+      cenarioA_2_mar_distante_95: 1939013270561229387
+      cenarioA_2_mar_distante_96: 9125343656058984438
+      cenarioA_2_mar_distante_97: -4940085849070003994
+      cenarioA_2_mar_distante_98: -7004970152473949271
+      cenarioA_2_mar_distante_99: -7534563138580139004
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

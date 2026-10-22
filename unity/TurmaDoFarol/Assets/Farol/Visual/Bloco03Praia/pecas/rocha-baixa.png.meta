@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 00238400a642546488eeb67d5834568e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -938904024716975571
+    second: rocha-baixa_0
+  - first:
+      213: -2471832605964086652
+    second: rocha-baixa_1
+  - first:
+      213: 234419113375930052
+    second: rocha-baixa_2
+  - first:
+      213: -2232019688722934022
+    second: rocha-baixa_3
+  - first:
+      213: 4025174573086604369
+    second: rocha-baixa_4
+  - first:
+      213: 4245780260887756776
+    second: rocha-baixa_5
+  - first:
+      213: -9002649502032422940
+    second: rocha-baixa_6
+  - first:
+      213: -2078188373087496178
+    second: rocha-baixa_7
+  - first:
+      213: -6835905361191165434
+    second: rocha-baixa_8
+  - first:
+      213: -3335459001277757100
+    second: rocha-baixa_9
+  - first:
+      213: 8951314004770040286
+    second: rocha-baixa_10
+  - first:
+      213: -5958613293069221394
+    second: rocha-baixa_11
+  - first:
+      213: -1765716850388555381
+    second: rocha-baixa_12
+  - first:
+      213: -588858413443958731
+    second: rocha-baixa_13
+  - first:
+      213: 5416334039144350342
+    second: rocha-baixa_14
+  - first:
+      213: 3729846776657793741
+    second: rocha-baixa_15
+  - first:
+      213: 1846076892056199530
+    second: rocha-baixa_16
+  - first:
+      213: -4827594103141556704
+    second: rocha-baixa_17
+  - first:
+      213: 1592690272081492380
+    second: rocha-baixa_18
+  - first:
+      213: 7017100120415707901
+    second: rocha-baixa_19
+  - first:
+      213: -8799221987277630094
+    second: rocha-baixa_20
+  - first:
+      213: 4557758342070010982
+    second: rocha-baixa_21
+  - first:
+      213: 5643525527981773723
+    second: rocha-baixa_22
+  - first:
+      213: 8660026668443271694
+    second: rocha-baixa_23
+  - first:
+      213: 1077674740532475765
+    second: rocha-baixa_24
+  - first:
+      213: 774244840774829254
+    second: rocha-baixa_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rocha-baixa_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 577
+        width: 155
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d226f8893c758f2f0800000000000000
+      internalID: -938904024716975571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 611
+        width: 95
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4825849575942bdd0800000000000000
+      internalID: -2471832605964086652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_2
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 603
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6955d01f2d04300800000000000000
+      internalID: 234419113375930052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_3
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 577
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6ddf93be54601e0800000000000000
+      internalID: -2232019688722934022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_4
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 583
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cf2cba2fa4cd730800000000000000
+      internalID: 4025174573086604369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_5
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 422
+        width: 154
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef7494f6aa0cea30800000000000000
+      internalID: 4245780260887756776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_6
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 567
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7920ad9f9201380800000000000000
+      internalID: -9002649502032422940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_7
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 601
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08d5c57faac823e0800000000000000
+      internalID: -2078188373087496178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_8
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 550
+        width: 50
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602230cca4cf121a0800000000000000
+      internalID: -6835905361191165434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_9
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 408
+        width: 141
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459c5f9d5b116b1d0800000000000000
+      internalID: -3335459001277757100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_10
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 579
+        width: 72
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed92c4749a4793c70800000000000000
+      internalID: 8951314004770040286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_11
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 576
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee140b0b7c0ce4da0800000000000000
+      internalID: -5958613293069221394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_12
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 424
+        width: 122
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b892ba631e9ee77e0800000000000000
+      internalID: -1765716850388555381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 454
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5383ca39464f3d7f0800000000000000
+      internalID: -588858413443958731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_14
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 461
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6824e049c1faa2b40800000000000000
+      internalID: 5416334039144350342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_15
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 408
+        width: 146
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2d25db1e313c330800000000000000
+      internalID: 3729846776657793741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_16
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 455
+        width: 53
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61211307259e9910800000000000000
+      internalID: 1846076892056199530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 511
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e1a7aadb0f00db0800000000000000
+      internalID: -4827594103141556704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 451
+        width: 38
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9933a03d5f5a1610800000000000000
+      internalID: 1592690272081492380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_19
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 451
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2aabe916fb16160800000000000000
+      internalID: 7017100120415707901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_20
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 447
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275928c0932e2e580800000000000000
+      internalID: -8799221987277630094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_21
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 420
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66408276019604f30800000000000000
+      internalID: 4557758342070010982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_22
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 426
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93d3382194d15e40800000000000000
+      internalID: 5643525527981773723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_23
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 421
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0288f54f589e2870800000000000000
+      internalID: 8660026668443271694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_24
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 420
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57779dc777ba4fe00800000000000000
+      internalID: 1077674740532475765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocha-baixa_25
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 74
+        width: 813
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4009f949baeba00800000000000000
+      internalID: 774244840774829254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rocha-baixa_0: -938904024716975571
+      rocha-baixa_1: -2471832605964086652
+      rocha-baixa_10: 8951314004770040286
+      rocha-baixa_11: -5958613293069221394
+      rocha-baixa_12: -1765716850388555381
+      rocha-baixa_13: -588858413443958731
+      rocha-baixa_14: 5416334039144350342
+      rocha-baixa_15: 3729846776657793741
+      rocha-baixa_16: 1846076892056199530
+      rocha-baixa_17: -4827594103141556704
+      rocha-baixa_18: 1592690272081492380
+      rocha-baixa_19: 7017100120415707901
+      rocha-baixa_2: 234419113375930052
+      rocha-baixa_20: -8799221987277630094
+      rocha-baixa_21: 4557758342070010982
+      rocha-baixa_22: 5643525527981773723
+      rocha-baixa_23: 8660026668443271694
+      rocha-baixa_24: 1077674740532475765
+      rocha-baixa_25: 774244840774829254
+      rocha-baixa_3: -2232019688722934022
+      rocha-baixa_4: 4025174573086604369
+      rocha-baixa_5: 4245780260887756776
+      rocha-baixa_6: -9002649502032422940
+      rocha-baixa_7: -2078188373087496178
+      rocha-baixa_8: -6835905361191165434
+      rocha-baixa_9: -3335459001277757100
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
