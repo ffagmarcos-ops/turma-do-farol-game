@@ -7,13 +7,14 @@ namespace TurmaDoFarol
     [DefaultExecutionOrder(-200)]
     public sealed class FarolGameSession : MonoBehaviour
     {
-        [Serializable] public class Save { public int shells;public List<string> collected=new List<string>();public bool hasCheckpoint;public float x,y; }
+        [Serializable] public class Save { public List<string> events=new List<string>();public int shells;public List<string> collected=new List<string>();public bool hasCheckpoint;public float x,y; }
         public string stage="fase3";
         public FarolPlayerController player;
         public static FarolGameSession Instance {get;private set;}
         public Save progress=new Save();
         FarolCampaign campaign;
         string Key=>"farol.unity.migracao.v1."+stage;
+        void OnEnable(){Instance=this;}
         void Awake()
         {
             Instance=this;Time.timeScale=1;Physics2D.gravity=new Vector2(0,-9.81f);
@@ -21,9 +22,12 @@ namespace TurmaDoFarol
             Physics2D.IgnoreLayerCollision(8,8,true);
             string json=PlayerPrefs.GetString(Key,"");
             try{if(json.Length>0)progress=JsonUtility.FromJson<Save>(json)??new Save();}catch{progress=new Save();}
+            if(progress.events==null)progress.events=new List<string>();
             if(progress.collected==null)progress.collected=new List<string>();
         }
         void Start(){campaign=FindFirstObjectByType<FarolCampaign>();if(player&&progress.hasCheckpoint)player.Teleport(new Vector2(progress.x,progress.y));}
+        public bool EventSeen(string id)=>progress.events.Contains(id);
+        public void RememberEvent(string id){if(EventSeen(id))return;progress.events.Add(id);Store();}
         public bool Collected(string id)=>progress.collected.Contains(id);
         public void Collect(string id,int value){if(Collected(id))return;progress.collected.Add(id);progress.shells+=value;if(campaign)campaign.CollectIsland(id,value);Store();}
         public void Checkpoint(Vector2 p){progress.hasCheckpoint=true;progress.x=p.x;progress.y=p.y;if(player)player.respawnPosition=p;Store();}

@@ -73,6 +73,7 @@ namespace TurmaDoFarol.Editor
             EditorSceneManager.OpenScene(island);var c=UnityEngine.Object.FindFirstObjectByType<FarolCampaign>();
             if(!c)c=new GameObject("Campanha · chegada e portais").AddComponent<FarolCampaign>();
             c.stage="island";c.assets=assets;c.islandScene="Fase3_Ilha";
+            var ropes=c.GetComponent<FarolIslandRopes>();if(!ropes)ropes=c.gameObject.AddComponent<FarolIslandRopes>();ropes.map=AssetDatabase.LoadAssetAtPath<TextAsset>("Assets/Farol/Dados/fase3.json");
             var doc=c.GetComponent<UIDocument>();if(!doc)doc=c.gameObject.AddComponent<UIDocument>();doc.panelSettings=assets.panel;doc.visualTreeAsset=assets.interfaceTree;doc.sortingOrder=100;
             return Save("Fase3_Ilha");
         }

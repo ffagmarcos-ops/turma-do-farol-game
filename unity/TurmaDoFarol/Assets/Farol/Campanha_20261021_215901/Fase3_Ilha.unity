@@ -20000,7 +20000,7 @@ MonoBehaviour:
   sector: E
   category: ropes
   sourceId: ropeE3
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeE3\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -20017,7 +20017,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &121222111
 SpriteRenderer:
   serializedVersion: 2
@@ -32816,7 +32817,7 @@ MonoBehaviour:
   sector: D
   category: triggers
   sourceId: toninhoD0
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"toninhoD0\",\n    \"kind\": \"\",\n    \"type\":
     \"\",\n    \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"helpZoneToninho\",\n   
     \"x\": 23640.0,\n    \"y\": 380.0,\n    \"w\": 360.0,\n    \"h\": 540.0,\n   
@@ -32833,7 +32834,8 @@ MonoBehaviour:
     0.0,\n        \"y\": 0.0\n    },\n    \"move\": {\n        \"axis\": \"\",\n       
     \"range\": 0.0,\n        \"period\": 0.0,\n        \"phase\": 0.0\n    },\n   
     \"buoys\": [],\n    \"secretPlatforms\": []\n}"
-  nextStep: "Portar evento helpZoneToninho usando a refer\xEAncia JavaScript preservada."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!1 &215554864
 GameObject:
   m_ObjectHideFlags: 0
@@ -32882,7 +32884,7 @@ MonoBehaviour:
   sector: M
   category: ropes
   sourceId: ropeM0
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeM0\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -32899,7 +32901,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &215554867
 SpriteRenderer:
   serializedVersion: 2
@@ -51203,7 +51206,7 @@ MonoBehaviour:
   sector: H
   category: ropes
   sourceId: ropeH3
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeH3\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -51220,7 +51223,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &337847572
 SpriteRenderer:
   serializedVersion: 2
@@ -58698,7 +58702,7 @@ MonoBehaviour:
   sector: G
   category: ropes
   sourceId: ropeG0
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeG0\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -58715,7 +58719,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &378295396
 SpriteRenderer:
   serializedVersion: 2
@@ -70658,7 +70663,7 @@ MonoBehaviour:
   sector: D
   category: ropes
   sourceId: toninhoD3
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"toninhoD3\",\n    \"kind\": \"\",\n    \"type\":
     \"\",\n    \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"helpZoneToninho\",\n   
     \"x\": 29140.0,\n    \"y\": 400.0,\n    \"w\": 340.0,\n    \"h\": 520.0,\n   
@@ -70675,7 +70680,8 @@ MonoBehaviour:
     0.0,\n        \"y\": 0.0\n    },\n    \"move\": {\n        \"axis\": \"\",\n       
     \"range\": 0.0,\n        \"period\": 0.0,\n        \"phase\": 0.0\n    },\n   
     \"buoys\": [],\n    \"secretPlatforms\": []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &469050863
 SpriteRenderer:
   serializedVersion: 2
@@ -91852,7 +91858,7 @@ MonoBehaviour:
   sector: D
   category: helper
   sourceId: toninhoD0
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"toninhoD0\",\n    \"kind\": \"\",\n    \"type\":
     \"\",\n    \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"helpZoneToninho\",\n   
     \"x\": 23640.0,\n    \"y\": 380.0,\n    \"w\": 360.0,\n    \"h\": 540.0,\n   
@@ -91869,7 +91875,8 @@ MonoBehaviour:
     0.0,\n        \"y\": 0.0\n    },\n    \"move\": {\n        \"axis\": \"\",\n       
     \"range\": 0.0,\n        \"period\": 0.0,\n        \"phase\": 0.0\n    },\n   
     \"buoys\": [],\n    \"secretPlatforms\": []\n}"
-  nextStep: "Anima\xE7\xE3o de repouso dispon\xEDvel; intera\xE7\xE3o narrativa pendente."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!114 &612348504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100165,7 +100172,7 @@ MonoBehaviour:
   sector: D
   category: ropes
   sourceId: ropeD1
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeD1\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -100182,7 +100189,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &676626826
 SpriteRenderer:
   serializedVersion: 2
@@ -117813,7 +117821,7 @@ MonoBehaviour:
   sector: G
   category: ropes
   sourceId: ropeG1
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeG1\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -117830,7 +117838,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &826041217
 SpriteRenderer:
   serializedVersion: 2
@@ -132663,7 +132672,7 @@ MonoBehaviour:
   sector: G
   category: ropes
   sourceId: ropeG2
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeG2\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -132680,7 +132689,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &936036093
 SpriteRenderer:
   serializedVersion: 2
@@ -137182,7 +137192,7 @@ MonoBehaviour:
   sector: I
   category: ropes
   sourceId: ropeI2
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeI2\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -137199,7 +137209,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &957980563
 SpriteRenderer:
   serializedVersion: 2
@@ -137270,6 +137281,7 @@ GameObject:
   - component: {fileID: 959093540}
   - component: {fileID: 959093539}
   - component: {fileID: 959093538}
+  - component: {fileID: 959093541}
   m_Layer: 0
   m_Name: "Campanha \xB7 chegada e portais"
   m_TagString: Untagged
@@ -137358,6 +137370,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &959093541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959093537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c6e9b0cbbf1843e7a4eecc6b23b257d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TurmaDoFarol.FarolIslandRopes
+  map: {fileID: 4900000, guid: c91a289a2f5d0794f18d29e25b2a3d45, type: 3}
+  ropes: []
+  attachedIndex: -1
+  <distance>k__BackingField: 0
 --- !u!1 &960155960
 GameObject:
   m_ObjectHideFlags: 0
@@ -140256,7 +140284,7 @@ MonoBehaviour:
   sector: D
   category: helper
   sourceId: toninhoD3
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"toninhoD3\",\n    \"kind\": \"\",\n    \"type\":
     \"\",\n    \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"helpZoneToninho\",\n   
     \"x\": 29140.0,\n    \"y\": 400.0,\n    \"w\": 340.0,\n    \"h\": 520.0,\n   
@@ -140273,7 +140301,8 @@ MonoBehaviour:
     0.0,\n        \"y\": 0.0\n    },\n    \"move\": {\n        \"axis\": \"\",\n       
     \"range\": 0.0,\n        \"period\": 0.0,\n        \"phase\": 0.0\n    },\n   
     \"buoys\": [],\n    \"secretPlatforms\": []\n}"
-  nextStep: "Anima\xE7\xE3o de repouso dispon\xEDvel; intera\xE7\xE3o narrativa pendente."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!114 &988225625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145789,7 +145818,7 @@ MonoBehaviour:
   sector: F
   category: ropes
   sourceId: ropeF1
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeF1\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -145806,7 +145835,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &1034323762
 SpriteRenderer:
   serializedVersion: 2
@@ -155186,7 +155216,7 @@ MonoBehaviour:
   sector: G
   category: ropes
   sourceId: ropeG3
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeG3\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -155203,7 +155233,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &1098373510
 SpriteRenderer:
   serializedVersion: 2
@@ -158213,7 +158244,7 @@ MonoBehaviour:
   sector: D
   category: triggers
   sourceId: toninhoD3
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"toninhoD3\",\n    \"kind\": \"\",\n    \"type\":
     \"\",\n    \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"helpZoneToninho\",\n   
     \"x\": 29140.0,\n    \"y\": 400.0,\n    \"w\": 340.0,\n    \"h\": 520.0,\n   
@@ -158230,7 +158261,8 @@ MonoBehaviour:
     0.0,\n        \"y\": 0.0\n    },\n    \"move\": {\n        \"axis\": \"\",\n       
     \"range\": 0.0,\n        \"period\": 0.0,\n        \"phase\": 0.0\n    },\n   
     \"buoys\": [],\n    \"secretPlatforms\": []\n}"
-  nextStep: "Portar evento helpZoneToninho usando a refer\xEAncia JavaScript preservada."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!1 &1120308448
 GameObject:
   m_ObjectHideFlags: 0
@@ -176074,7 +176106,7 @@ MonoBehaviour:
   sector: H
   category: ropes
   sourceId: ropeH2
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeH2\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -176091,7 +176123,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &1240185524
 SpriteRenderer:
   serializedVersion: 2
@@ -199599,7 +199632,7 @@ MonoBehaviour:
   sector: E
   category: ropes
   sourceId: ropeE1
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeE1\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -199616,7 +199649,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &1411174398
 SpriteRenderer:
   serializedVersion: 2
@@ -228010,7 +228044,7 @@ MonoBehaviour:
   sector: D
   category: ropes
   sourceId: toninhoD0
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"toninhoD0\",\n    \"kind\": \"\",\n    \"type\":
     \"\",\n    \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"helpZoneToninho\",\n   
     \"x\": 23640.0,\n    \"y\": 380.0,\n    \"w\": 360.0,\n    \"h\": 540.0,\n   
@@ -228027,7 +228061,8 @@ MonoBehaviour:
     0.0,\n        \"y\": 0.0\n    },\n    \"move\": {\n        \"axis\": \"\",\n       
     \"range\": 0.0,\n        \"period\": 0.0,\n        \"phase\": 0.0\n    },\n   
     \"buoys\": [],\n    \"secretPlatforms\": []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &1603353879
 SpriteRenderer:
   serializedVersion: 2
@@ -240476,7 +240511,7 @@ MonoBehaviour:
   sector: M
   category: ropes
   sourceId: ropeM3
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeM3\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -240493,7 +240528,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &1689123873
 SpriteRenderer:
   serializedVersion: 2
@@ -243201,7 +243237,7 @@ MonoBehaviour:
   sector: M
   category: ropes
   sourceId: ropeM1
-  requiresPort: 1
+  requiresPort: 0
   originalJson: "{\n    \"id\": \"ropeM1\",\n    \"kind\": \"\",\n    \"type\": \"\",\n   
     \"tiles\": \"\",\n    \"text\": \"\",\n    \"event\": \"\",\n    \"x\": 0.0,\n   
     \"y\": 0.0,\n    \"w\": 0.0,\n    \"h\": 0.0,\n    \"scale\": 1.0,\n    \"minX\":
@@ -243218,7 +243254,8 @@ MonoBehaviour:
     \"move\": {\n        \"axis\": \"\",\n        \"range\": 0.0,\n        \"period\":
     0.0,\n        \"phase\": 0.0\n    },\n    \"buoys\": [],\n    \"secretPlatforms\":
     []\n}"
-  nextStep: "Portar agarrar, subir, balan\xE7o e salto de sa\xEDda."
+  nextStep: "Corda nativa: lan\xE7amento, escalada, balan\xE7o, salto e progresso
+    pelo FarolIslandRopes."
 --- !u!212 &1704065746
 SpriteRenderer:
   serializedVersion: 2
@@ -243401,6 +243438,7 @@ MonoBehaviour:
   stage: fase3
   player: {fileID: 1752529342}
   progress:
+    events: []
     shells: 0
     collected: []
     hasCheckpoint: 0

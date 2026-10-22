@@ -16,6 +16,7 @@ namespace TurmaDoFarol
         float horizontal,jumpBufferUntil=-10,groundedAt=-10,lastThrow=-10,specialStarted=-1,invulnerableUntil;
         int jumps; bool crouching,jumpReleased,running; string pose;
         public Sprite projectileSprite;
+        public bool externallyDriven {get;private set;}public event System.Action Interrupted;
 
         void Awake()
         {
@@ -27,7 +28,7 @@ namespace TurmaDoFarol
         }
         void Update()
         {
-            if(Time.timeScale==0)return;
+            if(Time.timeScale==0||externallyDriven)return;
             horizontal=(Input.GetKey(KeyCode.D)||Input.GetKey(KeyCode.RightArrow)?1:0)-(Input.GetKey(KeyCode.A)||Input.GetKey(KeyCode.LeftArrow)?1:0);
             running=Input.GetKey(KeyCode.LeftShift)||Input.GetKey(KeyCode.RightShift);
             bool low=Input.GetKey(KeyCode.S)||Input.GetKey(KeyCode.DownArrow);
@@ -51,6 +52,7 @@ namespace TurmaDoFarol
         }
         void FixedUpdate()
         {
+            if(externallyDriven)return;
             var hit=Physics2D.BoxCast((Vector2)transform.position+Vector2.up*.09f,new Vector2(bodyWidth*.85f,.08f),0,Vector2.down,.15f,1);
             grounded=hit.collider!=null&&body.linearVelocity.y<=.5f;
             if(grounded){groundedAt=Time.time;jumps=0;}
@@ -73,8 +75,10 @@ namespace TurmaDoFarol
             if(sr.sprite)go.transform.localScale=Vector3.one*(.35f/Mathf.Max(.01f,sr.sprite.bounds.size.x));
             var shot=go.AddComponent<FarolProjectile>();shot.direction=facing;
         }
-        public void Hurt(float fromX){if(Time.time<invulnerableUntil)return;invulnerableUntil=Time.time+1.4f;body.linearVelocity=new Vector2(transform.position.x<fromX?-4.2f:4.2f,4.4f);}
-        public void Respawn(){body.position=respawnPosition;body.linearVelocity=Vector2.zero;invulnerableUntil=Time.time+1.4f;jumps=0;}
+        public void BeginRopeControl(){externallyDriven=true;body.gravityScale=0;body.linearVelocity=Vector2.zero;jumpBufferUntil=-10;crouching=false;SetHeight(standingHeight);Play("bia.jump");}
+        public void EndRopeControl(Vector2 velocity){externallyDriven=false;body.gravityScale=18f/9.81f;body.linearVelocity=velocity;jumps=1;groundedAt=-10;grounded=false;jumpBufferUntil=-10;}
+        public void Hurt(float fromX){if(Time.time<invulnerableUntil)return;Interrupted?.Invoke();invulnerableUntil=Time.time+1.4f;body.linearVelocity=new Vector2(transform.position.x<fromX?-4.2f:4.2f,4.4f);}
+        public void Respawn(){Interrupted?.Invoke();body.position=respawnPosition;body.linearVelocity=Vector2.zero;invulnerableUntil=Time.time+1.4f;jumps=0;}
         public void Teleport(Vector2 position){respawnPosition=position;Respawn();}
     }
 }
