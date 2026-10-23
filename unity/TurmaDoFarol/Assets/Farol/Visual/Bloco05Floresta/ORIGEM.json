@@ -1,0 +1,85 @@
+{
+  "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/revisao-artistica-fase3/floresta-inicial-pacote-v01",
+  "arquivos": [
+    {
+      "arquivo": "camadas/cenarioC_3_floresta.png",
+      "sha256": "0bb3ce1e78a9034994264deab221fb624449b4264e62df648ff65536f574dcab"
+    },
+    {
+      "arquivo": "camadas/mata_distante_revisada.png",
+      "sha256": "7c93c5ea0a1640e071b6a12f137477eb2ef9662103b02ca53ead34b22c0f1109"
+    },
+    {
+      "arquivo": "pecas/arvore_floresta.png",
+      "sha256": "3c16f25227d56baebc9b18857d8e6902a67b0380dff24ed2e1a319cdb14e66ad"
+    },
+    {
+      "arquivo": "pecas/arvore_floresta_420x720.png",
+      "sha256": "c55011e82f1941de940ebfdb0083231261f95920e618be012f804978d12bd570"
+    },
+    {
+      "arquivo": "pecas/galho.png",
+      "sha256": "8a4061efd6e46deff008fa6ad1dfa659850a8c21d6fe5bc092af2ce9b5c668dc"
+    },
+    {
+      "arquivo": "pecas/raizes.png",
+      "sha256": "8c186399ac94d665d46743ddda83f745ed6bb7bf10527ec9eccfdc9c8d295dea"
+    },
+    {
+      "arquivo": "pecas/raizes_280x130.png",
+      "sha256": "7cd040af3b09608dd97ed93a0a99669718f666bc70c9c7dcea40e36a7098543e"
+    },
+    {
+      "arquivo": "pecas/transicao_costao_floresta.png",
+      "sha256": "319e24b509727fd46f14ecd297d0c64ee4899de474418ed035ae2d65f8ab1c4b"
+    },
+    {
+      "arquivo": "tiles-candidatos/plataforma_galho_128.png",
+      "sha256": "ff3bdcabfb04f3bf73d5d7c3907da189d36c7c4b0bd609d9acbbb01812fd5dee"
+    },
+    {
+      "arquivo": "tiles-candidatos/plataforma_galho_192.png",
+      "sha256": "3142d74e4d446b896bd32ae88bc68295df1129c71858abf9c3b553cf96298d6f"
+    },
+    {
+      "arquivo": "tiles-candidatos/plataforma_galho_220.png",
+      "sha256": "f2b1c05c856cda841fb4d2ccfd30242ab483a01482dc2ea55a4ff08d61debbc2"
+    },
+    {
+      "arquivo": "tiles-candidatos/plataforma_galho_256.png",
+      "sha256": "9d6b7a707e675962bd0173e0a0db53d3c4ef0cbd2c55fabf2f575f5410e6f269"
+    },
+    {
+      "arquivo": "tiles-candidatos/terra_canto_externo_direito.png",
+      "sha256": "967d6448117912a60f2f24f83a8e3cdf49db92d51a4a0f1f4ba6da12edb8d95c"
+    },
+    {
+      "arquivo": "tiles-candidatos/terra_canto_externo_esquerdo.png",
+      "sha256": "9de5544886206ec24721d3c631b1e6f9cd9685acbebc9484a7b3b57114a92078"
+    },
+    {
+      "arquivo": "tiles-candidatos/terra_canto_interno_direito.png",
+      "sha256": "18bfe33cf124b73a85926238fb2f52340179f29b3307a3eb728c5384dd430f44"
+    },
+    {
+      "arquivo": "tiles-candidatos/terra_canto_interno_esquerdo.png",
+      "sha256": "4246f1d776aa145154274e8a17801b4d488911eaf2535786a2d9e0c23d76cfcc"
+    },
+    {
+      "arquivo": "tiles-candidatos/terra_grama_topo.png",
+      "sha256": "09f6090fb3161d2edcad1487e4cb37b5ff1a1149d0b64450cf70a05d6815be08"
+    },
+    {
+      "arquivo": "tiles-candidatos/terra_lateral_direito.png",
+      "sha256": "cbe9ab43c78db692e74799482e5583651ae4caebb990eff715d16d6f14626683"
+    },
+    {
+      "arquivo": "tiles-candidatos/terra_lateral_esquerdo.png",
+      "sha256": "de0145d4f0b6fdfe29943c6e4f8de5428f4a56c4324939b8c67f9fa55777fee1"
+    },
+    {
+      "arquivo": "tiles-candidatos/terra_meio.png",
+      "sha256": "8929ae246ad622763682fed8439cd3150e0f3efe86adb77c27281b6c46ebf314"
+    }
+  ]
+}

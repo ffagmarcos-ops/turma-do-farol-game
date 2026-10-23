@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: fab6cd66876f541d99604c541ca329d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1600756588973473202
+    second: mata_distante_revisada_0
+  - first:
+      213: 8284094132068135574
+    second: mata_distante_revisada_1
+  - first:
+      213: -6575260405615497893
+    second: mata_distante_revisada_2
+  - first:
+      213: -2476564356016433352
+    second: mata_distante_revisada_3
+  - first:
+      213: 7007748195184820303
+    second: mata_distante_revisada_4
+  - first:
+      213: -1273513055816225249
+    second: mata_distante_revisada_5
+  - first:
+      213: -3598828045642443249
+    second: mata_distante_revisada_6
+  - first:
+      213: 5488853129452431693
+    second: mata_distante_revisada_7
+  - first:
+      213: -3067163434828813204
+    second: mata_distante_revisada_8
+  - first:
+      213: 2767126875183956002
+    second: mata_distante_revisada_9
+  - first:
+      213: 9046419477306335087
+    second: mata_distante_revisada_10
+  - first:
+      213: 3499353631530025577
+    second: mata_distante_revisada_11
+  - first:
+      213: 8040463918618051153
+    second: mata_distante_revisada_12
+  - first:
+      213: -7671060780933667901
+    second: mata_distante_revisada_13
+  - first:
+      213: -4269256241939584424
+    second: mata_distante_revisada_14
+  - first:
+      213: 131091131961345049
+    second: mata_distante_revisada_15
+  - first:
+      213: 4652696462138560765
+    second: mata_distante_revisada_16
+  - first:
+      213: 3539958506083041155
+    second: mata_distante_revisada_17
+  - first:
+      213: 3312648289647250001
+    second: mata_distante_revisada_18
+  - first:
+      213: 5016924297954921168
+    second: mata_distante_revisada_19
+  - first:
+      213: 4271072876558964232
+    second: mata_distante_revisada_20
+  - first:
+      213: -5965509208484983474
+    second: mata_distante_revisada_21
+  - first:
+      213: 4827260977392676872
+    second: mata_distante_revisada_22
+  - first:
+      213: -6486373749059105994
+    second: mata_distante_revisada_23
+  - first:
+      213: -272009154325136931
+    second: mata_distante_revisada_24
+  - first:
+      213: -7241625353326571551
+    second: mata_distante_revisada_25
+  - first:
+      213: -4036693444030935916
+    second: mata_distante_revisada_26
+  - first:
+      213: -5341815025976535613
+    second: mata_distante_revisada_27
+  - first:
+      213: -442137705779169905
+    second: mata_distante_revisada_28
+  - first:
+      213: -828131569171447127
+    second: mata_distante_revisada_29
+  - first:
+      213: -6017233642674899394
+    second: mata_distante_revisada_30
+  - first:
+      213: -2820542322571198859
+    second: mata_distante_revisada_31
+  - first:
+      213: 8556339180591410513
+    second: mata_distante_revisada_32
+  - first:
+      213: -484166903795573112
+    second: mata_distante_revisada_33
+  - first:
+      213: 2973206487519929278
+    second: mata_distante_revisada_34
+  - first:
+      213: 3330109426025685423
+    second: mata_distante_revisada_35
+  - first:
+      213: -2421729629799430552
+    second: mata_distante_revisada_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mata_distante_revisada_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 2172
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd31a1f2a7073610800000000000000
+      internalID: 1600756588973473202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_1
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 757
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692b1dbd8b307f270800000000000000
+      internalID: 8284094132068135574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_2
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 749
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5de8919f7bffb4a0800000000000000
+      internalID: -6575260405615497893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_3
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 765
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8371f30f6d971add0800000000000000
+      internalID: -2476564356016433352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_4
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 759
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f404069dad5804160800000000000000
+      internalID: 7007748195184820303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_5
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 743
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e60438f92935ee0800000000000000
+      internalID: -1273513055816225249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_6
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 750
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06d4cbb5f46e0ec0800000000000000
+      internalID: -3598828045642443249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_7
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 753
+        width: 89
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49ad4d07d25c2c40800000000000000
+      internalID: 5488853129452431693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_8
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 755
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c26f64b1f3f65d0800000000000000
+      internalID: -3067163434828813204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_9
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 742
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220c6cb6b3fc66620800000000000000
+      internalID: 2767126875183956002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_10
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 753
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fd40aa5965b8d70800000000000000
+      internalID: 9046419477306335087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_11
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 753
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96202d66693309030800000000000000
+      internalID: 3499353631530025577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_12
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 737
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15203927557759f60800000000000000
+      internalID: 8040463918618051153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_13
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 727
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3a40edcdaea8590800000000000000
+      internalID: -7671060780933667901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_14
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 735
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a6214411e80c4c0800000000000000
+      internalID: -4269256241939584424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_15
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 719
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91482c1a0bab1d100800000000000000
+      internalID: 131091131961345049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_16
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 719
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df05c7108c2b19040800000000000000
+      internalID: 4652696462138560765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_17
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 704
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fb3ba7185702130800000000000000
+      internalID: 3539958506083041155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_18
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 700
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15aca3a7114e8fd20800000000000000
+      internalID: 3312648289647250001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_19
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 705
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da01a47112bf9540800000000000000
+      internalID: 5016924297954921168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_20
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 704
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8065a11f626e54b30800000000000000
+      internalID: 4271072876558964232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_21
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 702
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d4ee34bf0463da0800000000000000
+      internalID: -5965509208484983474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_22
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 689
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80078937840edf240800000000000000
+      internalID: 4827260977392676872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_23
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 684
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bc9e60175cbf5a0800000000000000
+      internalID: -6486373749059105994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_24
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 671
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9bbc48d11a93cf0800000000000000
+      internalID: -272009154325136931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_25
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 686
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efc182eb14908b90800000000000000
+      internalID: -7241625353326571551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_26
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 684
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c436133b8caf7c0800000000000000
+      internalID: -4036693444030935916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_27
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 670
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c513d8398f0ed5b0800000000000000
+      internalID: -5341815025976535613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_28
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 681
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85f93169163dd9f0800000000000000
+      internalID: -442137705779169905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_29
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 674
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2cf38b9b2e184f0800000000000000
+      internalID: -828131569171447127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_30
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 644
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3635d5f1ed7e7ca0800000000000000
+      internalID: -6017233642674899394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_31
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 652
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e303593bb6bd8d0800000000000000
+      internalID: -2820542322571198859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_32
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 655
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d68ecb6293eb670800000000000000
+      internalID: 8556339180591410513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_33
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 654
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e934724c4e749f0800000000000000
+      internalID: -484166903795573112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_34
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 654
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb323843c83f24920800000000000000
+      internalID: 2973206487519929278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_35
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 661
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1e07911ece63e20800000000000000
+      internalID: 3330109426025685423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mata_distante_revisada_36
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 655
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86644c98bb9446ed0800000000000000
+      internalID: -2421729629799430552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mata_distante_revisada_0: 1600756588973473202
+      mata_distante_revisada_1: 8284094132068135574
+      mata_distante_revisada_10: 9046419477306335087
+      mata_distante_revisada_11: 3499353631530025577
+      mata_distante_revisada_12: 8040463918618051153
+      mata_distante_revisada_13: -7671060780933667901
+      mata_distante_revisada_14: -4269256241939584424
+      mata_distante_revisada_15: 131091131961345049
+      mata_distante_revisada_16: 4652696462138560765
+      mata_distante_revisada_17: 3539958506083041155
+      mata_distante_revisada_18: 3312648289647250001
+      mata_distante_revisada_19: 5016924297954921168
+      mata_distante_revisada_2: -6575260405615497893
+      mata_distante_revisada_20: 4271072876558964232
+      mata_distante_revisada_21: -5965509208484983474
+      mata_distante_revisada_22: 4827260977392676872
+      mata_distante_revisada_23: -6486373749059105994
+      mata_distante_revisada_24: -272009154325136931
+      mata_distante_revisada_25: -7241625353326571551
+      mata_distante_revisada_26: -4036693444030935916
+      mata_distante_revisada_27: -5341815025976535613
+      mata_distante_revisada_28: -442137705779169905
+      mata_distante_revisada_29: -828131569171447127
+      mata_distante_revisada_3: -2476564356016433352
+      mata_distante_revisada_30: -6017233642674899394
+      mata_distante_revisada_31: -2820542322571198859
+      mata_distante_revisada_32: 8556339180591410513
+      mata_distante_revisada_33: -484166903795573112
+      mata_distante_revisada_34: 2973206487519929278
+      mata_distante_revisada_35: 3330109426025685423
+      mata_distante_revisada_36: -2421729629799430552
+      mata_distante_revisada_4: 7007748195184820303
+      mata_distante_revisada_5: -1273513055816225249
+      mata_distante_revisada_6: -3598828045642443249
+      mata_distante_revisada_7: 5488853129452431693
+      mata_distante_revisada_8: -3067163434828813204
+      mata_distante_revisada_9: 2767126875183956002
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

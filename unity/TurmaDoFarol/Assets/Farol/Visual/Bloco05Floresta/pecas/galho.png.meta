@@ -1,0 +1,3848 @@
+fileFormatVersion: 2
+guid: 204dd81219c61411d8676fb7264d904c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4363298203205399639
+    second: galho_0
+  - first:
+      213: -3182391371652961846
+    second: galho_1
+  - first:
+      213: 5691298962348267595
+    second: galho_2
+  - first:
+      213: -5918723010329661614
+    second: galho_3
+  - first:
+      213: 7626729342388334522
+    second: galho_4
+  - first:
+      213: -4165624021504097252
+    second: galho_5
+  - first:
+      213: 3736605406768083197
+    second: galho_6
+  - first:
+      213: -4589691433848673833
+    second: galho_7
+  - first:
+      213: -370388348102225567
+    second: galho_8
+  - first:
+      213: -6342597557255428207
+    second: galho_9
+  - first:
+      213: -7088065288151681928
+    second: galho_10
+  - first:
+      213: -5711028498814505267
+    second: galho_11
+  - first:
+      213: 2721075828600975483
+    second: galho_12
+  - first:
+      213: -6447931996693898989
+    second: galho_13
+  - first:
+      213: -1409772844274243543
+    second: galho_14
+  - first:
+      213: -3619651763681966402
+    second: galho_15
+  - first:
+      213: -6356582491379556408
+    second: galho_16
+  - first:
+      213: -1140656622596345040
+    second: galho_17
+  - first:
+      213: -3513467569866390425
+    second: galho_18
+  - first:
+      213: 686482789489379313
+    second: galho_19
+  - first:
+      213: -8323410138890463946
+    second: galho_20
+  - first:
+      213: -296025844760049503
+    second: galho_21
+  - first:
+      213: -35847040420322161
+    second: galho_22
+  - first:
+      213: 5517627764170570099
+    second: galho_23
+  - first:
+      213: 4597402052626101044
+    second: galho_24
+  - first:
+      213: -91483584668643750
+    second: galho_25
+  - first:
+      213: -1548158006695420946
+    second: galho_26
+  - first:
+      213: 5491902342122939635
+    second: galho_27
+  - first:
+      213: -1580189678196624188
+    second: galho_28
+  - first:
+      213: -5928283811847013426
+    second: galho_29
+  - first:
+      213: 351376887846477234
+    second: galho_30
+  - first:
+      213: 1220312465840798370
+    second: galho_31
+  - first:
+      213: -6532755793478281333
+    second: galho_32
+  - first:
+      213: 3916762482190996143
+    second: galho_33
+  - first:
+      213: -5590733362143538327
+    second: galho_34
+  - first:
+      213: 1498990496539750422
+    second: galho_35
+  - first:
+      213: -6081019561227211855
+    second: galho_36
+  - first:
+      213: 5538320160659116249
+    second: galho_37
+  - first:
+      213: 3554089928497858923
+    second: galho_38
+  - first:
+      213: 3681634021372600216
+    second: galho_39
+  - first:
+      213: -7178189204948011259
+    second: galho_40
+  - first:
+      213: -1938689657033002
+    second: galho_41
+  - first:
+      213: 2093989645411834077
+    second: galho_42
+  - first:
+      213: 2670055894304339259
+    second: galho_43
+  - first:
+      213: -8207571115678461104
+    second: galho_44
+  - first:
+      213: 9217959054535331233
+    second: galho_45
+  - first:
+      213: 3038230511932493330
+    second: galho_46
+  - first:
+      213: -6765349631377310066
+    second: galho_47
+  - first:
+      213: -5111469861646976237
+    second: galho_48
+  - first:
+      213: -4598422521043307257
+    second: galho_49
+  - first:
+      213: 2515965409677893985
+    second: galho_50
+  - first:
+      213: -8220415534849854544
+    second: galho_51
+  - first:
+      213: -3414418149183693378
+    second: galho_52
+  - first:
+      213: -4903642623448308654
+    second: galho_53
+  - first:
+      213: 1516467287477426732
+    second: galho_54
+  - first:
+      213: -7167527125668307790
+    second: galho_55
+  - first:
+      213: 1530003887758542569
+    second: galho_56
+  - first:
+      213: 6060573315841998418
+    second: galho_57
+  - first:
+      213: -856757718448875149
+    second: galho_58
+  - first:
+      213: 8526501228250682979
+    second: galho_59
+  - first:
+      213: 817478855185596620
+    second: galho_60
+  - first:
+      213: -3665787717843166660
+    second: galho_61
+  - first:
+      213: -282218171429604272
+    second: galho_62
+  - first:
+      213: -4636437724826874000
+    second: galho_63
+  - first:
+      213: 9146090627369687511
+    second: galho_64
+  - first:
+      213: 8876553139278351766
+    second: galho_65
+  - first:
+      213: 1355913186641888468
+    second: galho_66
+  - first:
+      213: 143588264732227676
+    second: galho_67
+  - first:
+      213: -396690062419139817
+    second: galho_68
+  - first:
+      213: 3787626910356017751
+    second: galho_69
+  - first:
+      213: 1076075193587368646
+    second: galho_70
+  - first:
+      213: 2950571577568445384
+    second: galho_71
+  - first:
+      213: 6370671728394624852
+    second: galho_72
+  - first:
+      213: -7038008683434641972
+    second: galho_73
+  - first:
+      213: 7552006682613415467
+    second: galho_74
+  - first:
+      213: -8654721355944686294
+    second: galho_75
+  - first:
+      213: 7728732071043314263
+    second: galho_76
+  - first:
+      213: 3588802347847036740
+    second: galho_77
+  - first:
+      213: 6721156637961505146
+    second: galho_78
+  - first:
+      213: -2247991237439281485
+    second: galho_79
+  - first:
+      213: -6657903785688902755
+    second: galho_80
+  - first:
+      213: -8370747409351925413
+    second: galho_81
+  - first:
+      213: 6236146477439646534
+    second: galho_82
+  - first:
+      213: -4856146584931209255
+    second: galho_83
+  - first:
+      213: 7173362288477634979
+    second: galho_84
+  - first:
+      213: -2521813241144337675
+    second: galho_85
+  - first:
+      213: -2902373035675770563
+    second: galho_86
+  - first:
+      213: -7963213390916777405
+    second: galho_87
+  - first:
+      213: 7951480821826384445
+    second: galho_88
+  - first:
+      213: 7858683654042454142
+    second: galho_89
+  - first:
+      213: -1807478976970038940
+    second: galho_90
+  - first:
+      213: 6208773829639386242
+    second: galho_91
+  - first:
+      213: 3340502826539851672
+    second: galho_92
+  - first:
+      213: -6526242464151370222
+    second: galho_93
+  - first:
+      213: 6177454110433758376
+    second: galho_94
+  - first:
+      213: 5197144658479725548
+    second: galho_95
+  - first:
+      213: 3813755687025505739
+    second: galho_96
+  - first:
+      213: 7981760114463493318
+    second: galho_97
+  - first:
+      213: 4493434900919768075
+    second: galho_98
+  - first:
+      213: -3220314769789280250
+    second: galho_99
+  - first:
+      213: 3745000825513841410
+    second: galho_100
+  - first:
+      213: -7257000068731348624
+    second: galho_101
+  - first:
+      213: -6962782619647264909
+    second: galho_102
+  - first:
+      213: 501199887249936121
+    second: galho_103
+  - first:
+      213: 6482767140702779410
+    second: galho_104
+  - first:
+      213: 2009569851668121821
+    second: galho_105
+  - first:
+      213: -4330826914873778096
+    second: galho_106
+  - first:
+      213: -7857782231942241244
+    second: galho_107
+  - first:
+      213: -5929511324638666580
+    second: galho_108
+  - first:
+      213: -5518717808930023967
+    second: galho_109
+  - first:
+      213: -4311923349765054850
+    second: galho_110
+  - first:
+      213: 1406233936024608060
+    second: galho_111
+  - first:
+      213: 4323723211516914194
+    second: galho_112
+  - first:
+      213: -1457274468752854636
+    second: galho_113
+  - first:
+      213: 6613228102967202812
+    second: galho_114
+  - first:
+      213: -8762142949630281071
+    second: galho_115
+  - first:
+      213: 68372600738192527
+    second: galho_116
+  - first:
+      213: 7419120508404553356
+    second: galho_117
+  - first:
+      213: -3313122865892321200
+    second: galho_118
+  - first:
+      213: 5942836699029717193
+    second: galho_119
+  - first:
+      213: 8113517385072327870
+    second: galho_120
+  - first:
+      213: 8160491756381001841
+    second: galho_121
+  - first:
+      213: -9009388216423833684
+    second: galho_122
+  - first:
+      213: 3077047856264942095
+    second: galho_123
+  - first:
+      213: -9732928362246395
+    second: galho_124
+  - first:
+      213: 5236798538960378729
+    second: galho_125
+  - first:
+      213: -1195264435887405366
+    second: galho_126
+  - first:
+      213: -5686738272978950441
+    second: galho_127
+  - first:
+      213: 3862099769016681123
+    second: galho_128
+  - first:
+      213: -240911285996045372
+    second: galho_129
+  - first:
+      213: 3887350005935264290
+    second: galho_130
+  - first:
+      213: 7156740470110707144
+    second: galho_131
+  - first:
+      213: 1790140120565739777
+    second: galho_132
+  - first:
+      213: 4069435591957503147
+    second: galho_133
+  - first:
+      213: -338722004114376154
+    second: galho_134
+  - first:
+      213: -7490659781520096351
+    second: galho_135
+  - first:
+      213: 3347879807155007940
+    second: galho_136
+  - first:
+      213: -7243888106566771287
+    second: galho_137
+  - first:
+      213: 5790654205524491710
+    second: galho_138
+  - first:
+      213: -1477564934608171041
+    second: galho_139
+  - first:
+      213: -871539855240867411
+    second: galho_140
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: galho_0
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 135
+        width: 2131
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab87d4e6637273c0800000000000000
+      internalID: -4363298203205399639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 720
+        width: 214
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac96b5498efd5d3d0800000000000000
+      internalID: -3182391371652961846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 738
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b485151a04e8bfe40800000000000000
+      internalID: 5691298962348267595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 730
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fae55e7c87cdda0800000000000000
+      internalID: -5918723010329661614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_4
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 728
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfea13cde597d960800000000000000
+      internalID: 7626729342388334522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_5
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 722
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c140a6ad50bb036c0800000000000000
+      internalID: -4165624021504097252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_6
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 735
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df03730f1d61bd330800000000000000
+      internalID: 3736605406768083197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_7
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 718
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9ebc845f32e40c0800000000000000
+      internalID: -4589691433848673833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_8
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 703
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1615c6282cd1cdaf0800000000000000
+      internalID: -370388348102225567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_9
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 673
+        width: 19
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197a78e40219af7a0800000000000000
+      internalID: -6342597557255428207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_10
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 674
+        width: 140
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87431f2bc2222ad90800000000000000
+      internalID: -7088065288151681928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_11
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 650
+        width: 73
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce6702b6d95eb0b0800000000000000
+      internalID: -5711028498814505267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_12
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 712
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70b9aa9c0433c520800000000000000
+      internalID: 2721075828600975483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_13
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 704
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3195f29f2085486a0800000000000000
+      internalID: -6447931996693898989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_14
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 718
+        width: 137
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928aa03411b7f6ce0800000000000000
+      internalID: -1409772844274243543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_15
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 672
+        width: 17
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6ce1f06e964cdc0800000000000000
+      internalID: -3619651763681966402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_16
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 728
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf9ad717e1e8c7a0800000000000000
+      internalID: -6356582491379556408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_17
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 687
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033b27f58d29b20f0800000000000000
+      internalID: -1140656622596345040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_18
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 706
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76442404cd7ad3fc0800000000000000
+      internalID: -3513467569866390425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_19
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 658
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f70febb570e68900800000000000000
+      internalID: 686482789489379313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_20
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 712
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6359c87f39e4d7c80800000000000000
+      internalID: -8323410138890463946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_21
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 683
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a80eb6001e44ebf0800000000000000
+      internalID: -296025844760049503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_22
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 690
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f846f718e45a08ff0800000000000000
+      internalID: -35847040420322161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_23
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 690
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3793836c73d829c40800000000000000
+      internalID: 5517627764170570099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_24
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 686
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4333e6c0fc04dcf30800000000000000
+      internalID: 4597402052626101044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_25
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 690
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ecb091a2cfabef0800000000000000
+      internalID: -91483584668643750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_26
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 689
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb1eb2de76d38ae0800000000000000
+      internalID: -1548158006695420946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_27
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 688
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4af533518273c40800000000000000
+      internalID: 5491902342122939635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_28
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 696
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4f9512cd9021ae0800000000000000
+      internalID: -1580189678196624188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_29
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 656
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbf82358418abda0800000000000000
+      internalID: -5928283811847013426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_30
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 624
+        width: 89
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd1f56fa6750e400800000000000000
+      internalID: 351376887846477234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_31
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 622
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aafb61e8bb6fe010800000000000000
+      internalID: 1220312465840798370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_32
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 644
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b871a55c73df655a0800000000000000
+      internalID: -6532755793478281333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_33
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 646
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa25294c9b22b5630800000000000000
+      internalID: 3916762482190996143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_34
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 672
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963528bc0a9b962b0800000000000000
+      internalID: -5590733362143538327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_35
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 674
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61030f32aeb7dc410800000000000000
+      internalID: 1498990496539750422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_36
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 669
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bba9dc7de0eb9ba0800000000000000
+      internalID: -6081019561227211855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_37
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 648
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d09874c7d01cdc40800000000000000
+      internalID: 5538320160659116249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_38
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 654
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6988e7a5f9a25130800000000000000
+      internalID: 3554089928497858923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_39
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 650
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f18e4e2aac71330800000000000000
+      internalID: 3681634021372600216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_40
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 655
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507b78423f2f16c90800000000000000
+      internalID: -7178189204948011259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_41
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 666
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dea9a3a5cc19fff0800000000000000
+      internalID: -1938689657033002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_42
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 672
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd85e12fc785f0d10800000000000000
+      internalID: 2093989645411834077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_43
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 656
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35b27670b1fd0520800000000000000
+      internalID: 2670055894304339259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_44
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 656
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0539a3d4e89d81e80800000000000000
+      internalID: -8207571115678461104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_45
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 639
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad8ca7dbe4ccef70800000000000000
+      internalID: 9217959054535331233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_46
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 664
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e4d79ad86f92a20800000000000000
+      internalID: 3038230511932493330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_47
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 646
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e7f68ca56ac12a0800000000000000
+      internalID: -6765349631377310066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_48
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 647
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bba681e396019b0800000000000000
+      internalID: -5111469861646976237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_49
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 649
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705be02a41f1f20c0800000000000000
+      internalID: -4598422521043307257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_50
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 652
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161650fb5318ae220800000000000000
+      internalID: 2515965409677893985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_51
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 662
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3fb2bef973bed80800000000000000
+      internalID: -8220415534849854544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_52
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 648
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd524f98cc8d90d0800000000000000
+      internalID: -3414418149183693378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_53
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 662
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25426ebb303c2fbb0800000000000000
+      internalID: -4903642623448308654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_54
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 650
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a979f96f29b0510800000000000000
+      internalID: 1516467287477426732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_55
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 662
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc509ced04d78c90800000000000000
+      internalID: -7167527125668307790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_56
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 648
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e680dafd6aab3510800000000000000
+      internalID: 1530003887758542569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_57
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 651
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e39f9025b7b1450800000000000000
+      internalID: 6060573315841998418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_58
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 640
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379d745f46f2c14f0800000000000000
+      internalID: -856757718448875149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_59
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 664
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36650d611b7345670800000000000000
+      internalID: 8526501228250682979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_60
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 658
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc00bb600b4485b00800000000000000
+      internalID: 817478855185596620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_61
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 642
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ad7f72e71802dc0800000000000000
+      internalID: -3665787717843166660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_62
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 642
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05437ce711c551cf0800000000000000
+      internalID: -282218171429604272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_63
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 654
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f4974447018afb0800000000000000
+      internalID: -4636437724826874000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_64
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 652
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d956efa7f07dee70800000000000000
+      internalID: 9146090627369687511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_65
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 631
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d8098dc0adf2b70800000000000000
+      internalID: 8876553139278351766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_66
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 645
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4ce0cfbdb21d210800000000000000
+      internalID: 1355913186641888468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_67
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 642
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58774914c02ef100800000000000000
+      internalID: 143588264732227676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_68
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 638
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713649f6d7cae7af0800000000000000
+      internalID: -396690062419139817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_69
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 642
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7521b757b9a509430800000000000000
+      internalID: 3787626910356017751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_70
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 640
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c28261ffacfeee00800000000000000
+      internalID: 1076075193587368646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_71
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 632
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3c45d873982f820800000000000000
+      internalID: 2950571577568445384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_72
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 644
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fd5970f2c296850800000000000000
+      internalID: 6370671728394624852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_73
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 642
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc573c13468f35e90800000000000000
+      internalID: -7038008683434641972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_74
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 632
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e7c8ac01e1ec860800000000000000
+      internalID: 7552006682613415467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_75
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 630
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d0eec08c044e780800000000000000
+      internalID: -8654721355944686294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_76
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 624
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752b4babed8f14b60800000000000000
+      internalID: 7728732071043314263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_77
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 634
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fa28898bcfdc130800000000000000
+      internalID: 3588802347847036740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_78
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 626
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79447d1a58564d50800000000000000
+      internalID: 6721156637961505146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_79
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 632
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6ad3241e78dc0e0800000000000000
+      internalID: -2247991237439281485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_80
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 630
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93d84138cf5a93a0800000000000000
+      internalID: -6657903785688902755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_81
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 610
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51ae01d49125db80800000000000000
+      internalID: -8370747409351925413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_82
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 622
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bf7134e2e3b8650800000000000000
+      internalID: 6236146477439646534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_83
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 618
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfe2f3f8608b9cb0800000000000000
+      internalID: -4856146584931209255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_84
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 618
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a184e9cef6ec8360800000000000000
+      internalID: 7173362288477634979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_85
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 606
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa17b3e738b00dd0800000000000000
+      internalID: -2521813241144337675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_86
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 624
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31afdaf913b8b7d0800000000000000
+      internalID: -2902373035675770563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_87
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 599
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a85c3ac9bfc7190800000000000000
+      internalID: -7963213390916777405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_88
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 594
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32fa4fbda5595e60800000000000000
+      internalID: 7951480821826384445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_89
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 608
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e788e517527af0d60800000000000000
+      internalID: 7858683654042454142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_90
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 600
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461e6b6627b8ae6e0800000000000000
+      internalID: -1807478976970038940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_91
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 600
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284b56e07eef92650800000000000000
+      internalID: 6208773829639386242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_92
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 586
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f981b3f99db5e20800000000000000
+      internalID: 3340502826539851672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_93
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 582
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216003e6e012e65a0800000000000000
+      internalID: -6526242464151370222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_94
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 264
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac4eaca8c9bab550800000000000000
+      internalID: 6177454110433758376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_95
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 270
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebb00ff787ff1840800000000000000
+      internalID: 5197144658479725548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_96
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 262
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5f749579e2de430800000000000000
+      internalID: 3813755687025505739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_97
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 276
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc4af0f888e4ce60800000000000000
+      internalID: 7981760114463493318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_98
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 285
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b045aa23c33eb5e30800000000000000
+      internalID: 4493434900919768075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_99
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 280
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60024c167c42f43d0800000000000000
+      internalID: -3220314769789280250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_100
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 252
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2031c40b86ae8f330800000000000000
+      internalID: 3745000825513841410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_101
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 240
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079584003e4f94b90800000000000000
+      internalID: -7257000068731348624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_102
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 256
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37739ab091a3f5f90800000000000000
+      internalID: -6962782619647264909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_103
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 242
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe8ff854ae94f600800000000000000
+      internalID: 501199887249936121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_104
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 252
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218f9270e5a67f950800000000000000
+      internalID: 6482767140702779410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_105
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 244
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd84308022d63eb10800000000000000
+      internalID: 2009569851668121821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_106
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 257
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0506f3bdddfc5e3c0800000000000000
+      internalID: -4330826914873778096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_107
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 246
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424e4be31bc83f290800000000000000
+      internalID: -7857782231942241244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_108
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 237
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0a14bbdd426bda0800000000000000
+      internalID: -5929511324638666580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_109
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 228
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e59a1764639963b0800000000000000
+      internalID: -5518717808930023967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_110
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 237
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e9a861f88f824c0800000000000000
+      internalID: -4311923349765054850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_111
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 240
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d98d37052f38310800000000000000
+      internalID: 1406233936024608060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_112
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 240
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21aa3915a53f00c30800000000000000
+      internalID: 4323723211516914194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_113
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 243
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4917db57798b6cbe0800000000000000
+      internalID: -1457274468752854636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_114
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 214
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf39df7dbe7e6cb50800000000000000
+      internalID: 6613228102967202812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_115
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 222
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19af710496d966680800000000000000
+      internalID: -8762142949630281071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_116
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 222
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c9e53a488e2f000800000000000000
+      internalID: 68372600738192527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_117
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 223
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86d4415bc206f660800000000000000
+      internalID: 7419120508404553356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_118
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 212
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0589341ae4c6502d0800000000000000
+      internalID: -3313122865892321200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_119
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 224
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c042d3cd72397250800000000000000
+      internalID: 5942836699029717193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_120
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 213
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc31301311099070800000000000000
+      internalID: 8113517385072327870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_121
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 205
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178d79b2404ef3170800000000000000
+      internalID: 8160491756381001841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_122
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 222
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf9774a62938f280800000000000000
+      internalID: -9009388216423833684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_123
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 222
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f029c8de8bed3ba20800000000000000
+      internalID: 3077047856264942095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_124
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 222
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f085604fb6ddff0800000000000000
+      internalID: -9732928362246395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_125
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 224
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b94038688dca840800000000000000
+      internalID: 5236798538960378729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_126
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 205
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6064e0451996fe0800000000000000
+      internalID: -1195264435887405366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_127
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 201
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6a87c9ba5a411b0800000000000000
+      internalID: -5686738272978950441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_128
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 205
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a28b53174fe89530800000000000000
+      internalID: 3862099769016681123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_129
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 206
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbb2d7367c18acf0800000000000000
+      internalID: -240911285996045372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_130
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 203
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222526dfb34a2f530800000000000000
+      internalID: 3887350005935264290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_131
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 206
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd5c9e1a89d15360800000000000000
+      internalID: 7156740470110707144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_132
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 205
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101fe7084fad7d810800000000000000
+      internalID: 1790140120565739777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_133
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 197
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac55fe2c1a897830800000000000000
+      internalID: 4069435591957503147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_134
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 175
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a7723c12e9c4bf0800000000000000
+      internalID: -338722004114376154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_135
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 186
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3803dad94db0890800000000000000
+      internalID: -7490659781520096351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_136
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 175
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c17d2062fe067e20800000000000000
+      internalID: 3347879807155007940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_137
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 172
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad1967952a887b90800000000000000
+      internalID: -7243888106566771287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_138
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 168
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdb869d1598c5050800000000000000
+      internalID: 5790654205524491710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_139
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 175
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf4b1c3582ae7be0800000000000000
+      internalID: -1477564934608171041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galho_140
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 173
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1d5c88e1ba7e3f0800000000000000
+      internalID: -871539855240867411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      galho_0: -4363298203205399639
+      galho_1: -3182391371652961846
+      galho_10: -7088065288151681928
+      galho_100: 3745000825513841410
+      galho_101: -7257000068731348624
+      galho_102: -6962782619647264909
+      galho_103: 501199887249936121
+      galho_104: 6482767140702779410
+      galho_105: 2009569851668121821
+      galho_106: -4330826914873778096
+      galho_107: -7857782231942241244
+      galho_108: -5929511324638666580
+      galho_109: -5518717808930023967
+      galho_11: -5711028498814505267
+      galho_110: -4311923349765054850
+      galho_111: 1406233936024608060
+      galho_112: 4323723211516914194
+      galho_113: -1457274468752854636
+      galho_114: 6613228102967202812
+      galho_115: -8762142949630281071
+      galho_116: 68372600738192527
+      galho_117: 7419120508404553356
+      galho_118: -3313122865892321200
+      galho_119: 5942836699029717193
+      galho_12: 2721075828600975483
+      galho_120: 8113517385072327870
+      galho_121: 8160491756381001841
+      galho_122: -9009388216423833684
+      galho_123: 3077047856264942095
+      galho_124: -9732928362246395
+      galho_125: 5236798538960378729
+      galho_126: -1195264435887405366
+      galho_127: -5686738272978950441
+      galho_128: 3862099769016681123
+      galho_129: -240911285996045372
+      galho_13: -6447931996693898989
+      galho_130: 3887350005935264290
+      galho_131: 7156740470110707144
+      galho_132: 1790140120565739777
+      galho_133: 4069435591957503147
+      galho_134: -338722004114376154
+      galho_135: -7490659781520096351
+      galho_136: 3347879807155007940
+      galho_137: -7243888106566771287
+      galho_138: 5790654205524491710
+      galho_139: -1477564934608171041
+      galho_14: -1409772844274243543
+      galho_140: -871539855240867411
+      galho_15: -3619651763681966402
+      galho_16: -6356582491379556408
+      galho_17: -1140656622596345040
+      galho_18: -3513467569866390425
+      galho_19: 686482789489379313
+      galho_2: 5691298962348267595
+      galho_20: -8323410138890463946
+      galho_21: -296025844760049503
+      galho_22: -35847040420322161
+      galho_23: 5517627764170570099
+      galho_24: 4597402052626101044
+      galho_25: -91483584668643750
+      galho_26: -1548158006695420946
+      galho_27: 5491902342122939635
+      galho_28: -1580189678196624188
+      galho_29: -5928283811847013426
+      galho_3: -5918723010329661614
+      galho_30: 351376887846477234
+      galho_31: 1220312465840798370
+      galho_32: -6532755793478281333
+      galho_33: 3916762482190996143
+      galho_34: -5590733362143538327
+      galho_35: 1498990496539750422
+      galho_36: -6081019561227211855
+      galho_37: 5538320160659116249
+      galho_38: 3554089928497858923
+      galho_39: 3681634021372600216
+      galho_4: 7626729342388334522
+      galho_40: -7178189204948011259
+      galho_41: -1938689657033002
+      galho_42: 2093989645411834077
+      galho_43: 2670055894304339259
+      galho_44: -8207571115678461104
+      galho_45: 9217959054535331233
+      galho_46: 3038230511932493330
+      galho_47: -6765349631377310066
+      galho_48: -5111469861646976237
+      galho_49: -4598422521043307257
+      galho_5: -4165624021504097252
+      galho_50: 2515965409677893985
+      galho_51: -8220415534849854544
+      galho_52: -3414418149183693378
+      galho_53: -4903642623448308654
+      galho_54: 1516467287477426732
+      galho_55: -7167527125668307790
+      galho_56: 1530003887758542569
+      galho_57: 6060573315841998418
+      galho_58: -856757718448875149
+      galho_59: 8526501228250682979
+      galho_6: 3736605406768083197
+      galho_60: 817478855185596620
+      galho_61: -3665787717843166660
+      galho_62: -282218171429604272
+      galho_63: -4636437724826874000
+      galho_64: 9146090627369687511
+      galho_65: 8876553139278351766
+      galho_66: 1355913186641888468
+      galho_67: 143588264732227676
+      galho_68: -396690062419139817
+      galho_69: 3787626910356017751
+      galho_7: -4589691433848673833
+      galho_70: 1076075193587368646
+      galho_71: 2950571577568445384
+      galho_72: 6370671728394624852
+      galho_73: -7038008683434641972
+      galho_74: 7552006682613415467
+      galho_75: -8654721355944686294
+      galho_76: 7728732071043314263
+      galho_77: 3588802347847036740
+      galho_78: 6721156637961505146
+      galho_79: -2247991237439281485
+      galho_8: -370388348102225567
+      galho_80: -6657903785688902755
+      galho_81: -8370747409351925413
+      galho_82: 6236146477439646534
+      galho_83: -4856146584931209255
+      galho_84: 7173362288477634979
+      galho_85: -2521813241144337675
+      galho_86: -2902373035675770563
+      galho_87: -7963213390916777405
+      galho_88: 7951480821826384445
+      galho_89: 7858683654042454142
+      galho_9: -6342597557255428207
+      galho_90: -1807478976970038940
+      galho_91: 6208773829639386242
+      galho_92: 3340502826539851672
+      galho_93: -6526242464151370222
+      galho_94: 6177454110433758376
+      galho_95: 5197144658479725548
+      galho_96: 3813755687025505739
+      galho_97: 7981760114463493318
+      galho_98: 4493434900919768075
+      galho_99: -3220314769789280250
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

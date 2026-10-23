@@ -1,0 +1,2496 @@
+fileFormatVersion: 2
+guid: a8ac3e0882af14879a56f8ebe7d622e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5269986115123197775
+    second: transicao_costao_floresta_0
+  - first:
+      213: 6722697842444738272
+    second: transicao_costao_floresta_1
+  - first:
+      213: 4182527374889226522
+    second: transicao_costao_floresta_2
+  - first:
+      213: 1566337224688761327
+    second: transicao_costao_floresta_3
+  - first:
+      213: 3178404943152570965
+    second: transicao_costao_floresta_4
+  - first:
+      213: 4937665719940606364
+    second: transicao_costao_floresta_5
+  - first:
+      213: -6953180477609288723
+    second: transicao_costao_floresta_6
+  - first:
+      213: -2400090167672495707
+    second: transicao_costao_floresta_7
+  - first:
+      213: 4371403460003208472
+    second: transicao_costao_floresta_8
+  - first:
+      213: -890216882343014282
+    second: transicao_costao_floresta_9
+  - first:
+      213: -933644823919316254
+    second: transicao_costao_floresta_10
+  - first:
+      213: -8470723661432291691
+    second: transicao_costao_floresta_11
+  - first:
+      213: 9017421801918171097
+    second: transicao_costao_floresta_12
+  - first:
+      213: -2755116687550547263
+    second: transicao_costao_floresta_13
+  - first:
+      213: 1596804058650392219
+    second: transicao_costao_floresta_14
+  - first:
+      213: -6953928694502994999
+    second: transicao_costao_floresta_15
+  - first:
+      213: -1703569727759565837
+    second: transicao_costao_floresta_16
+  - first:
+      213: 5501678295498647786
+    second: transicao_costao_floresta_17
+  - first:
+      213: 1584213637313999080
+    second: transicao_costao_floresta_18
+  - first:
+      213: -1638570002788688694
+    second: transicao_costao_floresta_19
+  - first:
+      213: -4113031321690732806
+    second: transicao_costao_floresta_20
+  - first:
+      213: -7690620099562605417
+    second: transicao_costao_floresta_21
+  - first:
+      213: -7306560955767002012
+    second: transicao_costao_floresta_22
+  - first:
+      213: 5477715431522952029
+    second: transicao_costao_floresta_23
+  - first:
+      213: -4427315836735950371
+    second: transicao_costao_floresta_24
+  - first:
+      213: -8435531694814018356
+    second: transicao_costao_floresta_25
+  - first:
+      213: -2438034951395117829
+    second: transicao_costao_floresta_26
+  - first:
+      213: 716873216885434904
+    second: transicao_costao_floresta_27
+  - first:
+      213: 3321477111174700596
+    second: transicao_costao_floresta_28
+  - first:
+      213: 1429330903993788872
+    second: transicao_costao_floresta_29
+  - first:
+      213: 3259242759804973475
+    second: transicao_costao_floresta_30
+  - first:
+      213: 3560905043022944263
+    second: transicao_costao_floresta_31
+  - first:
+      213: 7436226716793754608
+    second: transicao_costao_floresta_32
+  - first:
+      213: 6194257604970595279
+    second: transicao_costao_floresta_33
+  - first:
+      213: -2785489075437926453
+    second: transicao_costao_floresta_34
+  - first:
+      213: 5585963755364116227
+    second: transicao_costao_floresta_35
+  - first:
+      213: -7131805952501019427
+    second: transicao_costao_floresta_36
+  - first:
+      213: -8341363012830728936
+    second: transicao_costao_floresta_37
+  - first:
+      213: -8688453469435154935
+    second: transicao_costao_floresta_38
+  - first:
+      213: -8697662630782680034
+    second: transicao_costao_floresta_39
+  - first:
+      213: 5252851593463293649
+    second: transicao_costao_floresta_40
+  - first:
+      213: -9117962310255356008
+    second: transicao_costao_floresta_41
+  - first:
+      213: -3232297905958644158
+    second: transicao_costao_floresta_42
+  - first:
+      213: -243358987015377448
+    second: transicao_costao_floresta_43
+  - first:
+      213: -5996113677423616808
+    second: transicao_costao_floresta_44
+  - first:
+      213: -1180061781533027660
+    second: transicao_costao_floresta_45
+  - first:
+      213: 3109442918288154011
+    second: transicao_costao_floresta_46
+  - first:
+      213: -1151033685784105696
+    second: transicao_costao_floresta_47
+  - first:
+      213: 2429295802406127444
+    second: transicao_costao_floresta_48
+  - first:
+      213: 8782311698034618097
+    second: transicao_costao_floresta_49
+  - first:
+      213: 4220264410017058140
+    second: transicao_costao_floresta_50
+  - first:
+      213: -7260687329188728164
+    second: transicao_costao_floresta_51
+  - first:
+      213: 8290473189233496641
+    second: transicao_costao_floresta_52
+  - first:
+      213: -607934775321099793
+    second: transicao_costao_floresta_53
+  - first:
+      213: -9106779957980549229
+    second: transicao_costao_floresta_54
+  - first:
+      213: 4600245505428148602
+    second: transicao_costao_floresta_55
+  - first:
+      213: -6842650763778008269
+    second: transicao_costao_floresta_56
+  - first:
+      213: 9215633231601397384
+    second: transicao_costao_floresta_57
+  - first:
+      213: 6858687722724015932
+    second: transicao_costao_floresta_58
+  - first:
+      213: 4119257277297577826
+    second: transicao_costao_floresta_59
+  - first:
+      213: -7551616614203454596
+    second: transicao_costao_floresta_60
+  - first:
+      213: 3623709951955481448
+    second: transicao_costao_floresta_61
+  - first:
+      213: 7057484551114401998
+    second: transicao_costao_floresta_62
+  - first:
+      213: -3810727545768741086
+    second: transicao_costao_floresta_63
+  - first:
+      213: -6125383165925005624
+    second: transicao_costao_floresta_64
+  - first:
+      213: -2432885995193097976
+    second: transicao_costao_floresta_65
+  - first:
+      213: 7472425696875204147
+    second: transicao_costao_floresta_66
+  - first:
+      213: -3789847051163525087
+    second: transicao_costao_floresta_67
+  - first:
+      213: -987746954431737507
+    second: transicao_costao_floresta_68
+  - first:
+      213: 6560690512511922882
+    second: transicao_costao_floresta_69
+  - first:
+      213: 6403486600611381256
+    second: transicao_costao_floresta_70
+  - first:
+      213: 3418476239561209948
+    second: transicao_costao_floresta_71
+  - first:
+      213: 130021631203314778
+    second: transicao_costao_floresta_72
+  - first:
+      213: -8373999428472662904
+    second: transicao_costao_floresta_73
+  - first:
+      213: -6762149274108148365
+    second: transicao_costao_floresta_74
+  - first:
+      213: 735395854083041154
+    second: transicao_costao_floresta_75
+  - first:
+      213: -4175597609746853458
+    second: transicao_costao_floresta_76
+  - first:
+      213: -5084668817145742685
+    second: transicao_costao_floresta_77
+  - first:
+      213: -702964817510307915
+    second: transicao_costao_floresta_78
+  - first:
+      213: 1213078454028216918
+    second: transicao_costao_floresta_79
+  - first:
+      213: 7924881047309212016
+    second: transicao_costao_floresta_80
+  - first:
+      213: 4344820061252058049
+    second: transicao_costao_floresta_81
+  - first:
+      213: -7445339872100249982
+    second: transicao_costao_floresta_82
+  - first:
+      213: 3671380530455827508
+    second: transicao_costao_floresta_83
+  - first:
+      213: 4331702744784962432
+    second: transicao_costao_floresta_84
+  - first:
+      213: 740018201336046702
+    second: transicao_costao_floresta_85
+  - first:
+      213: -296692705668357474
+    second: transicao_costao_floresta_86
+  - first:
+      213: 7468627409150521608
+    second: transicao_costao_floresta_87
+  - first:
+      213: 6017379825802867868
+    second: transicao_costao_floresta_88
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: transicao_costao_floresta_0
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 788
+        width: 80
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b847d4cc8f3dd6b0800000000000000
+      internalID: -5269986115123197775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 675
+        width: 108
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee143fb112db4d50800000000000000
+      internalID: 6722697842444738272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 833
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a119e9bcc725b0a30800000000000000
+      internalID: 4182527374889226522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_3
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 659
+        width: 214
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe97b04386fbcb510800000000000000
+      internalID: 1566337224688761327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 803
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55264f4b476fb1c20800000000000000
+      internalID: 3178404943152570965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_5
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 804
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99eea8bfcc168440800000000000000
+      internalID: 4937665719940606364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_6
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 659
+        width: 215
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debdae4f137518f90800000000000000
+      internalID: -6953180477609288723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_7
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 788
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a129fe65ba21bed0800000000000000
+      internalID: -2400090167672495707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_8
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 814
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d976349485aac30800000000000000
+      internalID: 4371403460003208472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_9
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 657
+        width: 275
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67093ea467055a3f0800000000000000
+      internalID: -890216882343014282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 775
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e238e3baf60b03f0800000000000000
+      internalID: -933644823919316254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_11
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 769
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ef4d1b5b1f17a80800000000000000
+      internalID: -8470723661432291691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_12
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 777
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7023d3a51542d70800000000000000
+      internalID: 9017421801918171097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_13
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 794
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca7ccb48fbd3c9d0800000000000000
+      internalID: -2755116687550547263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_14
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 769
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9632c3c4dcf82610800000000000000
+      internalID: 1596804058650392219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_15
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 657
+        width: 97
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbc0c222beae7f90800000000000000
+      internalID: -6953928694502994999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_16
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 657
+        width: 154
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb38c6cb54bb58e0800000000000000
+      internalID: -1703569727759565837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_17
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 779
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae86ca7b243e95c40800000000000000
+      internalID: 5501678295498647786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_18
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 717
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e03e6cd8e14cf510800000000000000
+      internalID: 1584213637313999080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_19
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 779
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc5b249341a249e0800000000000000
+      internalID: -1638570002788688694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_20
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 763
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af681900ec39be6c0800000000000000
+      internalID: -4113031321690732806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_21
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 776
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794771f14cd654590800000000000000
+      internalID: -7690620099562605417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_22
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 772
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ce4c5c581e99a90800000000000000
+      internalID: -7306560955767002012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_23
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 769
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53e99ca921c40c40800000000000000
+      internalID: 5477715431522952029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_24
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 658
+        width: 82
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd174e214b30f82c0800000000000000
+      internalID: -4427315836735950371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_25
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 769
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4cf0fed98feea80800000000000000
+      internalID: -8435531694814018356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_26
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 771
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf47b14012c5a2ed0800000000000000
+      internalID: -2438034951395117829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_27
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 657
+        width: 144
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81aa2718468d2f900800000000000000
+      internalID: 716873216885434904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 707
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e982da5d1481e20800000000000000
+      internalID: 3321477111174700596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_29
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 709
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9a90f52e006d310800000000000000
+      internalID: 1429330903993788872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_30
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 755
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a170f695082b3d20800000000000000
+      internalID: 3259242759804973475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_31
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 747
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70897482540ea6130800000000000000
+      internalID: 3560905043022944263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_32
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 747
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3d2c3dcc8c23760800000000000000
+      internalID: 7436226716793754608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_33
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 723
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3c88f197c66f550800000000000000
+      internalID: 6194257604970595279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_34
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 683
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc78acca174f759d0800000000000000
+      internalID: -2785489075437926453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_35
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 717
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3076fa69074558d40800000000000000
+      internalID: 5585963755364116227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_36
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 648
+        width: 49
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc092aa54cb60d90800000000000000
+      internalID: -7131805952501019427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_37
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 667
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d64a5c8868d3c80800000000000000
+      internalID: -8341363012830728936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_38
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 689
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90eaeca5a996c6780800000000000000
+      internalID: -8688453469435154935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_39
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 691
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1442046be1bb4780800000000000000
+      internalID: -8697662630782680034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_40
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 689
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6693681b0e5e840800000000000000
+      internalID: 5252851593463293649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_41
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 686
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89754dd769d767180800000000000000
+      internalID: -9117962310255356008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_42
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 657
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24698131e229423d0800000000000000
+      internalID: -3232297905958644158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_43
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 666
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddac0a6a4a6f9cf0800000000000000
+      internalID: -243358987015377448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_44
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 675
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcdd40116689cca0800000000000000
+      internalID: -5996113677423616808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_45
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 675
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b295badf049f9fe0800000000000000
+      internalID: -1180061781533027660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_46
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 668
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d5be11cd5f62b20800000000000000
+      internalID: 3109442918288154011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_47
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 637
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d645216f4b600f0800000000000000
+      internalID: -1151033685784105696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_48
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 136
+        width: 2158
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457c3cc49a796b120800000000000000
+      internalID: 2429295802406127444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_49
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 655
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe6c1c65f901e970800000000000000
+      internalID: 8782311698034618097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_50
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 651
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d4a49fe14619a30800000000000000
+      internalID: 4220264410017058140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_51
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 635
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92b686c75bdc3b90800000000000000
+      internalID: -7260687329188728164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_52
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 647
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1429928d07dad0370800000000000000
+      internalID: 8290473189233496641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_53
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 649
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe10166fa8e2097f0800000000000000
+      internalID: -607934775321099793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_54
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 653
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f2ce4c0e73e9180800000000000000
+      internalID: -9106779957980549229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_55
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 629
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71d1aef9ea57df30800000000000000
+      internalID: 4600245505428148602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_56
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 586
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bd4fe52650a01a0800000000000000
+      internalID: -6842650763778008269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_57
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 637
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ee2edf89184ef70800000000000000
+      internalID: 9215633231601397384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_58
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 637
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f3c4a1524fe2f50800000000000000
+      internalID: 6858687722724015932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_59
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 635
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fc3cf3baa8a2930800000000000000
+      internalID: 4119257277297577826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_60
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 634
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b077613b4433790800000000000000
+      internalID: -7551616614203454596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_61
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 633
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863ba5780010a4230800000000000000
+      internalID: 3623709951955481448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_62
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 638
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec82bfc9ec831f160800000000000000
+      internalID: 7057484551114401998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_63
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 637
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22778aabc739d1bc0800000000000000
+      internalID: -3810727545768741086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_64
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 627
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6e1e9d6744efaa0800000000000000
+      internalID: -6125383165925005624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_65
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 627
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8012e7dc317ac3ed0800000000000000
+      internalID: -2432885995193097976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_66
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 615
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e4fb8a49363b760800000000000000
+      internalID: 7472425696875204147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_67
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 635
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120265abf22c76bc0800000000000000
+      internalID: -3789847051163525087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_68
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 637
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d515f15d061da42f0800000000000000
+      internalID: -987746954431737507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_69
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 625
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c27c87d2414c0b50800000000000000
+      internalID: 6560690512511922882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_70
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 610
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8004a69d221cdd850800000000000000
+      internalID: 6403486600611381256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_71
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 619
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58b82c270ed07f20800000000000000
+      internalID: 3418476239561209948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_72
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 617
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c8df41cfdedc100800000000000000
+      internalID: 130021631203314778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_73
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 619
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884109c13e399cb80800000000000000
+      internalID: -8373999428472662904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_74
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 625
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3754e9600150822a0800000000000000
+      internalID: -6762149274108148365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_75
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 625
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2872aeb02a6a43a00800000000000000
+      internalID: 735395854083041154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_76
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 619
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea19112e81c4d06c0800000000000000
+      internalID: -4175597609746853458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_77
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 611
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aab58986a0af69b0800000000000000
+      internalID: -5084668817145742685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_78
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 621
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b763b219319e36f0800000000000000
+      internalID: -702964817510307915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_79
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 617
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a28014d68b5d010800000000000000
+      internalID: 1213078454028216918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_80
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 588
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07957102355dafd60800000000000000
+      internalID: 7924881047309212016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_81
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 600
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb7beb63d6eb4c30800000000000000
+      internalID: 4344820061252058049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_82
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 602
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e896b55d6dca890800000000000000
+      internalID: -7445339872100249982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_83
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 593
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434da11042d53f230800000000000000
+      internalID: 3671380530455827508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_84
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 474
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0830e7f22bc4d1c30800000000000000
+      internalID: 4331702744784962432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_85
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 238
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6465f122a2154a00800000000000000
+      internalID: 740018201336046702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_86
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 216
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92203f5e8fe1ebf0800000000000000
+      internalID: -296692705668357474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_87
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 168
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801b922ee05e5a760800000000000000
+      internalID: 7468627409150521608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao_costao_floresta_88
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 162
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94f493f117028350800000000000000
+      internalID: 6017379825802867868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      transicao_costao_floresta_0: -5269986115123197775
+      transicao_costao_floresta_1: 6722697842444738272
+      transicao_costao_floresta_10: -933644823919316254
+      transicao_costao_floresta_11: -8470723661432291691
+      transicao_costao_floresta_12: 9017421801918171097
+      transicao_costao_floresta_13: -2755116687550547263
+      transicao_costao_floresta_14: 1596804058650392219
+      transicao_costao_floresta_15: -6953928694502994999
+      transicao_costao_floresta_16: -1703569727759565837
+      transicao_costao_floresta_17: 5501678295498647786
+      transicao_costao_floresta_18: 1584213637313999080
+      transicao_costao_floresta_19: -1638570002788688694
+      transicao_costao_floresta_2: 4182527374889226522
+      transicao_costao_floresta_20: -4113031321690732806
+      transicao_costao_floresta_21: -7690620099562605417
+      transicao_costao_floresta_22: -7306560955767002012
+      transicao_costao_floresta_23: 5477715431522952029
+      transicao_costao_floresta_24: -4427315836735950371
+      transicao_costao_floresta_25: -8435531694814018356
+      transicao_costao_floresta_26: -2438034951395117829
+      transicao_costao_floresta_27: 716873216885434904
+      transicao_costao_floresta_28: 3321477111174700596
+      transicao_costao_floresta_29: 1429330903993788872
+      transicao_costao_floresta_3: 1566337224688761327
+      transicao_costao_floresta_30: 3259242759804973475
+      transicao_costao_floresta_31: 3560905043022944263
+      transicao_costao_floresta_32: 7436226716793754608
+      transicao_costao_floresta_33: 6194257604970595279
+      transicao_costao_floresta_34: -2785489075437926453
+      transicao_costao_floresta_35: 5585963755364116227
+      transicao_costao_floresta_36: -7131805952501019427
+      transicao_costao_floresta_37: -8341363012830728936
+      transicao_costao_floresta_38: -8688453469435154935
+      transicao_costao_floresta_39: -8697662630782680034
+      transicao_costao_floresta_4: 3178404943152570965
+      transicao_costao_floresta_40: 5252851593463293649
+      transicao_costao_floresta_41: -9117962310255356008
+      transicao_costao_floresta_42: -3232297905958644158
+      transicao_costao_floresta_43: -243358987015377448
+      transicao_costao_floresta_44: -5996113677423616808
+      transicao_costao_floresta_45: -1180061781533027660
+      transicao_costao_floresta_46: 3109442918288154011
+      transicao_costao_floresta_47: -1151033685784105696
+      transicao_costao_floresta_48: 2429295802406127444
+      transicao_costao_floresta_49: 8782311698034618097
+      transicao_costao_floresta_5: 4937665719940606364
+      transicao_costao_floresta_50: 4220264410017058140
+      transicao_costao_floresta_51: -7260687329188728164
+      transicao_costao_floresta_52: 8290473189233496641
+      transicao_costao_floresta_53: -607934775321099793
+      transicao_costao_floresta_54: -9106779957980549229
+      transicao_costao_floresta_55: 4600245505428148602
+      transicao_costao_floresta_56: -6842650763778008269
+      transicao_costao_floresta_57: 9215633231601397384
+      transicao_costao_floresta_58: 6858687722724015932
+      transicao_costao_floresta_59: 4119257277297577826
+      transicao_costao_floresta_6: -6953180477609288723
+      transicao_costao_floresta_60: -7551616614203454596
+      transicao_costao_floresta_61: 3623709951955481448
+      transicao_costao_floresta_62: 7057484551114401998
+      transicao_costao_floresta_63: -3810727545768741086
+      transicao_costao_floresta_64: -6125383165925005624
+      transicao_costao_floresta_65: -2432885995193097976
+      transicao_costao_floresta_66: 7472425696875204147
+      transicao_costao_floresta_67: -3789847051163525087
+      transicao_costao_floresta_68: -987746954431737507
+      transicao_costao_floresta_69: 6560690512511922882
+      transicao_costao_floresta_7: -2400090167672495707
+      transicao_costao_floresta_70: 6403486600611381256
+      transicao_costao_floresta_71: 3418476239561209948
+      transicao_costao_floresta_72: 130021631203314778
+      transicao_costao_floresta_73: -8373999428472662904
+      transicao_costao_floresta_74: -6762149274108148365
+      transicao_costao_floresta_75: 735395854083041154
+      transicao_costao_floresta_76: -4175597609746853458
+      transicao_costao_floresta_77: -5084668817145742685
+      transicao_costao_floresta_78: -702964817510307915
+      transicao_costao_floresta_79: 1213078454028216918
+      transicao_costao_floresta_8: 4371403460003208472
+      transicao_costao_floresta_80: 7924881047309212016
+      transicao_costao_floresta_81: 4344820061252058049
+      transicao_costao_floresta_82: -7445339872100249982
+      transicao_costao_floresta_83: 3671380530455827508
+      transicao_costao_floresta_84: 4331702744784962432
+      transicao_costao_floresta_85: 740018201336046702
+      transicao_costao_floresta_86: -296692705668357474
+      transicao_costao_floresta_87: 7468627409150521608
+      transicao_costao_floresta_88: 6017379825802867868
+      transicao_costao_floresta_9: -890216882343014282
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

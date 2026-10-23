@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 187fc1c6e83814847b00d3e2f3fc4574
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9124169387302575219
+    second: raizes_0
+  - first:
+      213: -6007160672759470283
+    second: raizes_1
+  - first:
+      213: 8163040310503474842
+    second: raizes_2
+  - first:
+      213: -6629332104037901977
+    second: raizes_3
+  - first:
+      213: -6853988060478127056
+    second: raizes_4
+  - first:
+      213: 2939183601872063347
+    second: raizes_5
+  - first:
+      213: 3402621161957103949
+    second: raizes_6
+  - first:
+      213: 1807098903600358368
+    second: raizes_7
+  - first:
+      213: -2145496645846557882
+    second: raizes_8
+  - first:
+      213: 2851548563357883423
+    second: raizes_9
+  - first:
+      213: -8393293984029406942
+    second: raizes_10
+  - first:
+      213: 5654255339744926763
+    second: raizes_11
+  - first:
+      213: -3924545124099583129
+    second: raizes_12
+  - first:
+      213: -4347324558729264004
+    second: raizes_13
+  - first:
+      213: 8372810360168109789
+    second: raizes_14
+  - first:
+      213: 4740563739246708421
+    second: raizes_15
+  - first:
+      213: -8459416217034340193
+    second: raizes_16
+  - first:
+      213: 8628052792746716819
+    second: raizes_17
+  - first:
+      213: 7555878915793808337
+    second: raizes_18
+  - first:
+      213: -3692169494277802415
+    second: raizes_19
+  - first:
+      213: -8462023161608087092
+    second: raizes_20
+  - first:
+      213: 3866833059002660198
+    second: raizes_21
+  - first:
+      213: 1034908847638528558
+    second: raizes_22
+  - first:
+      213: 4357758695825917449
+    second: raizes_23
+  - first:
+      213: 7703649955317987596
+    second: raizes_24
+  - first:
+      213: -186543417108438682
+    second: raizes_25
+  - first:
+      213: -1901009124318549415
+    second: raizes_26
+  - first:
+      213: -2797092283437427742
+    second: raizes_27
+  - first:
+      213: 8268551277044915831
+    second: raizes_28
+  - first:
+      213: -7606464663369415036
+    second: raizes_29
+  - first:
+      213: -745073286866226094
+    second: raizes_30
+  - first:
+      213: 3382329845734080248
+    second: raizes_31
+  - first:
+      213: 7573308784602422263
+    second: raizes_32
+  - first:
+      213: -242781161422293588
+    second: raizes_33
+  - first:
+      213: 422263662623354062
+    second: raizes_34
+  - first:
+      213: -7724154392056316050
+    second: raizes_35
+  - first:
+      213: 4048866015087501895
+    second: raizes_36
+  - first:
+      213: 6103076501209861058
+    second: raizes_37
+  - first:
+      213: -2715117576873654149
+    second: raizes_38
+  - first:
+      213: -5695156096026385997
+    second: raizes_39
+  - first:
+      213: -217565612421071530
+    second: raizes_40
+  - first:
+      213: 1690063977825399031
+    second: raizes_41
+  - first:
+      213: -6989580342126557834
+    second: raizes_42
+  - first:
+      213: -1252863572667672430
+    second: raizes_43
+  - first:
+      213: 322817339812979504
+    second: raizes_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: raizes_0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 113
+        width: 1776
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83265fb840706180800000000000000
+      internalID: -9124169387302575219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_1
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 887
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537a977023742aca0800000000000000
+      internalID: -6007160672759470283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_2
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 810
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9601caa9e1f84170800000000000000
+      internalID: 8163040310503474842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_3
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 785
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7695ab83391eff3a0800000000000000
+      internalID: -6629332104037901977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_4
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 782
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034ce684c2eb1e0a0800000000000000
+      internalID: -6853988060478127056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 212
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bcc37d9e31ac820800000000000000
+      internalID: 2939183601872063347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_6
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 216
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d491eaf3be9883f20800000000000000
+      internalID: 3402621161957103949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_7
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 177
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3e81fd0ea141910800000000000000
+      internalID: 1807098903600358368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_8
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 196
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b168dfa2aa932e0800000000000000
+      internalID: -2145496645846557882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_9
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 191
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cd8ba6f4cb29720800000000000000
+      internalID: 2851548563357883423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_10
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 167
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22901825797058b80800000000000000
+      internalID: -8393293984029406942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_11
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 179
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c1ad22643f77e40800000000000000
+      internalID: 5654255339744926763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 181
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7639d05b0073989c0800000000000000
+      internalID: -3924545124099583129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_13
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 184
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c744c91d8533ba3c0800000000000000
+      internalID: -4347324558729264004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_14
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 175
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6d78959a2323470800000000000000
+      internalID: 8372810360168109789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 185
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6c5e0ba9dd9c140800000000000000
+      internalID: 4740563739246708421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_16
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 185
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f984d7045cd1a9a80800000000000000
+      internalID: -8459416217034340193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_17
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 178
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e2cf63d400db770800000000000000
+      internalID: 8628052792746716819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_18
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 153
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbe0c557dfdbd860800000000000000
+      internalID: 7555878915793808337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_19
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 162
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156b90b2867c2ccc0800000000000000
+      internalID: -3692169494277802415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_20
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 163
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9d83ba4cad09a80800000000000000
+      internalID: -8462023161608087092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_21
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 169
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66537970e20c9a530800000000000000
+      internalID: 3866833059002660198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_22
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 147
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22476e1d1cbc5e00800000000000000
+      internalID: 1034908847638528558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_23
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 159
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906c299027ed97c30800000000000000
+      internalID: 4357758695825917449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_24
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 161
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09bea491dcd8ea60800000000000000
+      internalID: 7703649955317987596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_25
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 160
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661601020c3496df0800000000000000
+      internalID: -186543417108438682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_26
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 169
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a673ef5424e95e0800000000000000
+      internalID: -1901009124318549415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_27
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 150
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3d9b9436bbe29d0800000000000000
+      internalID: -2797092283437427742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_28
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 158
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e5d5be39bcfb270800000000000000
+      internalID: 8268551277044915831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_29
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 165
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4860e4f70b8607690800000000000000
+      internalID: -7606464663369415036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_30
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254b4bc0bc7f8a5f0800000000000000
+      internalID: -745073286866226094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_31
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 145
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe7e28031370fe20800000000000000
+      internalID: 3382329845734080248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_32
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 145
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb9298e63cc91960800000000000000
+      internalID: 7573308784602422263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_33
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 145
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5744be1d771acf0800000000000000
+      internalID: -242781161422293588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_34
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 147
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc683c509e2cd500800000000000000
+      internalID: 422263662623354062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_35
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 129
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fb537318a4ec490800000000000000
+      internalID: -7724154392056316050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_36
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 131
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742217c5036703830800000000000000
+      internalID: 4048866015087501895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_37
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 131
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbc5ab0ebb72b450800000000000000
+      internalID: 6103076501209861058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_38
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78c60bf2f6f15ad0800000000000000
+      internalID: -2715117576873654149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_39
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 113
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b162f374bdb6f0b0800000000000000
+      internalID: -5695156096026385997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_40
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 135
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d3d4c6a3d0bfcf0800000000000000
+      internalID: -217565612421071530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_41
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 128
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f077f5cb30547710800000000000000
+      internalID: 1690063977825399031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_42
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 131
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6754e7216b5000f90800000000000000
+      internalID: -6989580342126557834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_43
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 131
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298dd17f73fec9ee0800000000000000
+      internalID: -1252863572667672430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raizes_44
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 131
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033a3e209a0ea7400800000000000000
+      internalID: 322817339812979504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      raizes_0: -9124169387302575219
+      raizes_1: -6007160672759470283
+      raizes_10: -8393293984029406942
+      raizes_11: 5654255339744926763
+      raizes_12: -3924545124099583129
+      raizes_13: -4347324558729264004
+      raizes_14: 8372810360168109789
+      raizes_15: 4740563739246708421
+      raizes_16: -8459416217034340193
+      raizes_17: 8628052792746716819
+      raizes_18: 7555878915793808337
+      raizes_19: -3692169494277802415
+      raizes_2: 8163040310503474842
+      raizes_20: -8462023161608087092
+      raizes_21: 3866833059002660198
+      raizes_22: 1034908847638528558
+      raizes_23: 4357758695825917449
+      raizes_24: 7703649955317987596
+      raizes_25: -186543417108438682
+      raizes_26: -1901009124318549415
+      raizes_27: -2797092283437427742
+      raizes_28: 8268551277044915831
+      raizes_29: -7606464663369415036
+      raizes_3: -6629332104037901977
+      raizes_30: -745073286866226094
+      raizes_31: 3382329845734080248
+      raizes_32: 7573308784602422263
+      raizes_33: -242781161422293588
+      raizes_34: 422263662623354062
+      raizes_35: -7724154392056316050
+      raizes_36: 4048866015087501895
+      raizes_37: 6103076501209861058
+      raizes_38: -2715117576873654149
+      raizes_39: -5695156096026385997
+      raizes_4: -6853988060478127056
+      raizes_40: -217565612421071530
+      raizes_41: 1690063977825399031
+      raizes_42: -6989580342126557834
+      raizes_43: -1252863572667672430
+      raizes_44: 322817339812979504
+      raizes_5: 2939183601872063347
+      raizes_6: 3402621161957103949
+      raizes_7: 1807098903600358368
+      raizes_8: -2145496645846557882
+      raizes_9: 2851548563357883423
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

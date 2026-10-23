@@ -1,0 +1,36 @@
+using System;
+using System.Linq;
+using UnityEditor;
+using UnityEditor.SceneManagement;
+using UnityEngine;
+namespace TurmaDoFarol.Editor
+{
+    public static class FarolForestArtIntegration
+    {
+        public const string Folder="Assets/Farol/Visual/Bloco05Floresta/";
+        static Sprite Load(string path){var s=AssetDatabase.LoadAssetAtPath<Sprite>(path+".png");if(!s)throw new InvalidOperationException(path);return s;}
+        public static void Import(){foreach(var path in AssetDatabase.FindAssets("t:Texture2D",new[]{Folder.TrimEnd('/')}).Select(AssetDatabase.GUIDToAssetPath)){var i=(TextureImporter)AssetImporter.GetAtPath(path);i.textureType=TextureImporterType.Sprite;i.spriteImportMode=SpriteImportMode.Single;i.spritePixelsPerUnit=100;i.alphaIsTransparency=true;i.mipmapEnabled=false;i.filterMode=FilterMode.Bilinear;i.wrapMode=TextureWrapMode.Clamp;i.maxTextureSize=4096;i.textureCompression=TextureImporterCompression.Uncompressed;i.SaveAndReimport();}}
+        static void Decor(SpriteRenderer sr,string path,int order){var b=sr.bounds;var s=Load(path);float scale=b.size.y/s.bounds.size.y;sr.sprite=s;sr.transform.localScale=Vector3.one*scale;sr.transform.position=new Vector3(b.center.x,b.min.y+s.bounds.size.y*scale*.5f,0);sr.color=Color.white;sr.sortingOrder=order;}
+        static void Platform(FarolSourceMarker m){var source=m.GetComponent<SpriteRenderer>();var collider=m.GetComponent<Collider2D>();if(!source||!collider)return;var surface=m.GetComponent<FarolIslandSurface>();bool log=m.name.Contains("log");int pixels=Mathf.RoundToInt(collider.bounds.size.x*100);string path=log?Folder+"tiles-candidatos/plataforma_galho_"+pixels:FarolCoastArtIntegration.Folder+"tiles-candidatos/"+(surface&&surface.crumble?"plataforma_pedra_instavel_intacta":"plataforma_pedra_molhada");var s=Load(path);float scale=collider.bounds.size.x/(s.rect.width/100-.04f);var old=m.transform.Find("Laje HQ — visual");if(old)UnityEngine.Object.DestroyImmediate(old.gameObject);var child=new GameObject("Laje HQ — visual");child.transform.position=new Vector3(collider.bounds.center.x,collider.bounds.max.y+(.06f-s.bounds.size.y*.5f)*scale,0);child.transform.localScale=Vector3.one*scale;child.transform.SetParent(m.transform,true);var visual=child.AddComponent<SpriteRenderer>();visual.sprite=s;visual.sharedMaterial=source.sharedMaterial;visual.sortingOrder=source.sortingOrder+1;visual.sortingLayerID=source.sortingLayerID;var proxy=m.GetComponent<FarolPlatformArt>();if(!proxy)proxy=m.gameObject.AddComponent<FarolPlatformArt>();proxy.source=source;proxy.visual=visual;proxy.surface=surface;proxy.animator=surface?surface.animator:m.GetComponent<Animator>();source.forceRenderingOff=true;}
+        public static string Apply(){if(EditorApplication.isPlaying||UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty)throw new InvalidOperationException("Salve a cena e saia do Play.");foreach(var path in new[]{"Assets/Farol/Campanha_20261021_215901/Fase3_Ilha.unity","Assets/Farol/Visual/Bloco01/Fase3_Referencia.unity"}){
+            var scene=EditorSceneManager.OpenScene(path);bool pilot=path.Contains("Referencia");var old=GameObject.Find("Floresta — identidade HQ");if(old)UnityEngine.Object.DestroyImmediate(old);var root=new GameObject("Floresta — identidade HQ");
+            foreach(var l in UnityEngine.Object.FindObjectsByType<FarolParallaxLayer>(FindObjectsSortMode.None)){
+                if(l.x0==0&&l.name=="Fundo camada 0")l.x1=230.4f;
+                if(l.x0==0&&l.name=="Fundo camada 2"){l.fadeDistance=5;l.fadeOut=true;}
+                if(Mathf.Abs(l.x0-76.8f)<.01f){l.fadeDistance=5;l.fadeOut=true;}
+                if(Mathf.Abs(l.x0-153.6f)>.01f)continue;
+                bool distant=l.name=="Fundo camada 1",middle=l.name=="Fundo camada 3";if(!distant&&!middle){l.gameObject.SetActive(false);continue;}
+                var s=Load(Folder+"camadas/"+(distant?"mata_distante_revisada":"cenarioC_3_floresta"));float scale=distant?1.3f:.9f;l.width=s.bounds.size.x*scale*(middle?.88f:1);l.verticalCenter=1.8f+4.8f*scale;l.mirrorRepeat=true;l.fadeDistance=5;l.fadeIn=true;l.fadeOut=false;
+                foreach(var panel in l.panels){panel.sprite=s;panel.transform.localScale=Vector3.one*scale;panel.color=distant?new Color(.82f,.9f,.9f,1):new Color(.68f,.78f,.72f,1);panel.sortingOrder=distant?-43:-33;}
+            }
+            var markers=UnityEngine.Object.FindObjectsByType<FarolSourceMarker>(FindObjectsSortMode.None);int index=0;
+            foreach(var m in markers.Where(m=>m.sector=="C"&&m.category=="ground").OrderBy(m=>m.transform.position.x).ThenBy(m=>m.transform.position.y)){var c=m.GetComponent<Collider2D>();if(!c)continue;foreach(var sr in m.GetComponentsInChildren<SpriteRenderer>())sr.enabled=false;bool rock=m.name.Contains("rock");FarolBeachArtIntegration.Ground(root.transform,c.bounds,rock,index++,pilot,rock?FarolCoastArtIntegration.Folder:Folder,rock?"rocha_umida_topo":"terra_grama_topo",rock?"rocha_umida_meio":"terra_meio",meshFolder:Folder);}
+            var end=markers.Where(m=>m.sector=="B"&&m.category=="ground").OrderByDescending(m=>m.GetComponent<Collider2D>().bounds.max.x).First().GetComponent<Collider2D>().bounds;end.SetMinMax(new Vector3(149.6f,end.min.y),new Vector3(153.6f,end.max.y));FarolBeachArtIntegration.Ground(root.transform,end,false,1000,pilot,Folder,"terra_grama_topo","terra_meio",149.6f,153.6f);
+            foreach(var m in markers.Where(m=>m.sector=="C"&&m.category=="platforms"))Platform(m);
+            foreach(var m in markers.Where(m=>m.sector=="C"&&m.category=="decor")){var sr=m.GetComponent<SpriteRenderer>();if(!sr)continue;string file=m.name.Contains("tree")?Folder+"pecas/arvore_floresta_420x720":m.name.Contains("roots")?Folder+"pecas/raizes_280x130":m.name.Contains("fern")?FarolBeachArtIntegration.Folder+"pecas/samambaia-costeira":m.name.Contains("bush")?FarolBeachArtIntegration.Folder+"pecas/arbusto-costeiro":m.name.Contains("moss_rock")?FarolCoastArtIntegration.Folder+"pecas/pedra-costao-musgo":null;if(file!=null)Decor(sr,file,m.name.Contains("tree")?-4:12);if(m.transform.position.x>194&&m.transform.position.x<198&&(m.name.Contains("tree")||m.name.Contains("roots"))){var fade=m.GetComponent<FarolSecretSceneryFade>();if(!fade)fade=m.gameObject.AddComponent<FarolSecretSceneryFade>();fade.visual=sr;}}
+            var transition=new GameObject("Banco costão–floresta");transition.transform.SetParent(root.transform);var tr=transition.AddComponent<SpriteRenderer>();tr.sprite=Load(Folder+"pecas/transicao_costao_floresta");float ts=6/tr.sprite.bounds.size.x;transition.transform.localScale=Vector3.one*ts;transition.transform.position=new Vector3(153.6f,1.8f+(tr.sprite.bounds.size.y*.5f-(tr.sprite.rect.height-846)/100)*ts,0);tr.sortingOrder=-3;
+            var fg=UnityEngine.Object.FindFirstObjectByType<FarolBeachForeground>();if(fg)fg.sectorEnd=230.4f;
+            EditorSceneManager.MarkSceneDirty(scene);EditorSceneManager.SaveScene(scene);
+        }FarolVisualBlockOne.OpenCampaign();AssetDatabase.SaveAssets();return "Floresta C aplicada, continuidade B–C e reuso de vegetação/rochas/lajes.";}
+    }
+}

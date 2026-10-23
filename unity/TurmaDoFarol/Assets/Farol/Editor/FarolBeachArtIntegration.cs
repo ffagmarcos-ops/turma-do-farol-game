@@ -38,7 +38,7 @@ namespace TurmaDoFarol.Editor
         {
             folder=folder??Folder;string path=folder+"Meshes/"+name+".asset";var mesh=geometry.Mesh();mesh.name=name;var saved=AssetDatabase.LoadAssetAtPath<Mesh>(path);if(saved){EditorUtility.CopySerialized(mesh,saved);UnityEngine.Object.DestroyImmediate(mesh);}else{saved=mesh;AssetDatabase.CreateAsset(saved,path);}var go=new GameObject(name);go.transform.SetParent(root,false);go.AddComponent<MeshFilter>().sharedMesh=saved;var r=go.AddComponent<MeshRenderer>();r.sharedMaterial=material;r.sortingOrder=order;r.sortingLayerName="Default";EditorUtility.SetDirty(saved);
         }
-        public static void Ground(Transform root,Bounds b,bool rock,int index,bool pilot,string folder=null,string top=null,string filling=null,float fadeFrom=float.NaN,float fadeTo=float.NaN)
+        public static void Ground(Transform root,Bounds b,bool rock,int index,bool pilot,string folder=null,string top=null,string filling=null,float fadeFrom=float.NaN,float fadeTo=float.NaN,string meshFolder=null)
         {
             const float unit=1.28f;float surface=rock?.08f:.12f,ceiling=b.max.y+surface;var cap=new Geometry();var fill=new Geometry();
             int first=Mathf.FloorToInt(b.min.x/unit),last=Mathf.CeilToInt(b.max.x/unit);
@@ -61,8 +61,8 @@ namespace TurmaDoFarol.Editor
                 }
             }
             int extra=0;if(!float.IsNaN(fadeFrom)){extra=2;foreach(var geometry in new[]{fill,cap})for(int i=0;i<geometry.colors.Count;i++){var color=geometry.colors[i];color.a*=Mathf.InverseLerp(fadeFrom,fadeTo,geometry.vertices[i].x);geometry.colors[i]=color;}}
-            if(fill.vertices.Count>0)Render(root,"Solo_"+index+"_Base",fill,Material(filling??(rock?"rocha_meio":"areia_meio"),pilot,folder),4+extra,folder);
-            Render(root,"Solo_"+index+"_Topo",cap,Material(top??(rock?"rocha_topo":"areia_topo"),pilot,folder),5+extra,folder);
+            if(fill.vertices.Count>0)Render(root,"Solo_"+index+"_Base",fill,Material(filling??(rock?"rocha_meio":"areia_meio"),pilot,folder),4+extra,meshFolder??folder);
+            Render(root,"Solo_"+index+"_Topo",cap,Material(top??(rock?"rocha_topo":"areia_topo"),pilot,folder),5+extra,meshFolder??folder);
         }
         static void Decor(SpriteRenderer sr,string file)
         {
