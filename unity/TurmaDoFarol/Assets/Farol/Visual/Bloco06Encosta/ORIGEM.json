@@ -1,0 +1,33 @@
+{
+  "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/revisao-artistica-fase3/encosta-pacote-v01",
+  "arquivos": [
+    {
+      "arquivo": "camadas/cenarioD_3_encosta.png",
+      "sha256": "5a5c2caa1069c5f8477013eb4ef0ab784a1d982e467c481198a2e8d97e4cb1a7"
+    },
+    {
+      "arquivo": "pecas/parede_D0.png",
+      "sha256": "07876a40fe4e369169b1259e302fdaffd06af03a0bde7eaa9d82893a96496f85"
+    },
+    {
+      "arquivo": "pecas/parede_D3.png",
+      "sha256": "916fd5108e880bee5bfa19218fa7ba5056fb4d2d2819cf68e5eaed910e0b3cc8"
+    },
+    {
+      "arquivo": "pecas/pilar_D2.png",
+      "sha256": "3b690f11088985481158b55f97a8bfd229a6f28d65cc74c9ea222ab1e8899eb7"
+    },
+    {
+      "arquivo": "pecas/teto_D2.png",
+      "sha256": "2efb7cdffa0bf88142321973fbcac3de6476a368c70b4b01ad62da565220690e"
+    },
+    {
+      "arquivo": "tiles-adaptados/instavel_intacta_192.png",
+      "sha256": "b90d7ed31c2e19556086b570ad58a03f301d04c7ca31b70624bd8b743522a6f9"
+    },
+    {
+      "arquivo": "tiles-adaptados/laje_192.png",
+      "sha256": "e8c750af88655b52c033a297553702837d520c39a6674fcf27e41397c1aa7d0a"
+    }
+  ]
+}

@@ -1,0 +1,6344 @@
+fileFormatVersion: 2
+guid: 3f37335e539f346edb4666356114d91d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3010991713174972701
+    second: tronco_teto_0
+  - first:
+      213: 3730170529138142162
+    second: tronco_teto_1
+  - first:
+      213: -1311029533283654076
+    second: tronco_teto_2
+  - first:
+      213: 8958642818296738697
+    second: tronco_teto_3
+  - first:
+      213: -2733076325113388454
+    second: tronco_teto_4
+  - first:
+      213: 4320282596670162234
+    second: tronco_teto_5
+  - first:
+      213: 5188530030963015820
+    second: tronco_teto_6
+  - first:
+      213: 6511404889615990132
+    second: tronco_teto_7
+  - first:
+      213: 4581280021139050357
+    second: tronco_teto_8
+  - first:
+      213: 5585493529437584211
+    second: tronco_teto_9
+  - first:
+      213: 2676795728934113233
+    second: tronco_teto_10
+  - first:
+      213: 1578234418456290658
+    second: tronco_teto_11
+  - first:
+      213: -2106993481235791279
+    second: tronco_teto_12
+  - first:
+      213: 5032332201285460223
+    second: tronco_teto_13
+  - first:
+      213: -6929294356979624296
+    second: tronco_teto_14
+  - first:
+      213: 6309940993316944859
+    second: tronco_teto_15
+  - first:
+      213: 66159281152108009
+    second: tronco_teto_16
+  - first:
+      213: -6590438648423882069
+    second: tronco_teto_17
+  - first:
+      213: 5502045260099729679
+    second: tronco_teto_18
+  - first:
+      213: -4025408557884613232
+    second: tronco_teto_19
+  - first:
+      213: -4246604502731030952
+    second: tronco_teto_20
+  - first:
+      213: 3145276616146642482
+    second: tronco_teto_21
+  - first:
+      213: 2386795192296947634
+    second: tronco_teto_22
+  - first:
+      213: 6050889750844881934
+    second: tronco_teto_23
+  - first:
+      213: -2223119205130697944
+    second: tronco_teto_24
+  - first:
+      213: 2795293815051023620
+    second: tronco_teto_25
+  - first:
+      213: -7528895290100143006
+    second: tronco_teto_26
+  - first:
+      213: 4696571464132588676
+    second: tronco_teto_27
+  - first:
+      213: 7417030210862421738
+    second: tronco_teto_28
+  - first:
+      213: 828887430947489161
+    second: tronco_teto_29
+  - first:
+      213: 1082037866552679893
+    second: tronco_teto_30
+  - first:
+      213: -1018180189348546461
+    second: tronco_teto_31
+  - first:
+      213: 684466369455235910
+    second: tronco_teto_32
+  - first:
+      213: 900822230712427998
+    second: tronco_teto_33
+  - first:
+      213: 3735637332399688524
+    second: tronco_teto_34
+  - first:
+      213: 9151617086965057599
+    second: tronco_teto_35
+  - first:
+      213: 5004944715662398180
+    second: tronco_teto_36
+  - first:
+      213: -6682807432025313123
+    second: tronco_teto_37
+  - first:
+      213: 1608504536279488443
+    second: tronco_teto_38
+  - first:
+      213: 4710205695334419145
+    second: tronco_teto_39
+  - first:
+      213: -6974202010914123327
+    second: tronco_teto_40
+  - first:
+      213: 887743384475123556
+    second: tronco_teto_41
+  - first:
+      213: 1250575021770549079
+    second: tronco_teto_42
+  - first:
+      213: 5668258127516580958
+    second: tronco_teto_43
+  - first:
+      213: 5218269200926425362
+    second: tronco_teto_44
+  - first:
+      213: 1334139947675784919
+    second: tronco_teto_45
+  - first:
+      213: -4166446052855515994
+    second: tronco_teto_46
+  - first:
+      213: 9101719998596125315
+    second: tronco_teto_47
+  - first:
+      213: -1688713267066421185
+    second: tronco_teto_48
+  - first:
+      213: -9074048806245732330
+    second: tronco_teto_49
+  - first:
+      213: -1447618506944564512
+    second: tronco_teto_50
+  - first:
+      213: 7539815799792749678
+    second: tronco_teto_51
+  - first:
+      213: 1978505276086434920
+    second: tronco_teto_52
+  - first:
+      213: 864608697589349922
+    second: tronco_teto_53
+  - first:
+      213: -8123462547823934520
+    second: tronco_teto_54
+  - first:
+      213: 2619622427244186435
+    second: tronco_teto_55
+  - first:
+      213: -1299348581820533182
+    second: tronco_teto_56
+  - first:
+      213: 8300774098671123504
+    second: tronco_teto_57
+  - first:
+      213: 6829406217213335463
+    second: tronco_teto_58
+  - first:
+      213: 9180092020921690315
+    second: tronco_teto_59
+  - first:
+      213: 773728791845196749
+    second: tronco_teto_60
+  - first:
+      213: -588691223069034669
+    second: tronco_teto_61
+  - first:
+      213: -1194051281581876178
+    second: tronco_teto_62
+  - first:
+      213: 5225844374726806624
+    second: tronco_teto_63
+  - first:
+      213: -3496739407000080544
+    second: tronco_teto_64
+  - first:
+      213: 5430943902602589299
+    second: tronco_teto_65
+  - first:
+      213: -5438560523822964205
+    second: tronco_teto_66
+  - first:
+      213: -5318081778497925205
+    second: tronco_teto_67
+  - first:
+      213: -8645810799595447136
+    second: tronco_teto_68
+  - first:
+      213: 8395511904848129634
+    second: tronco_teto_69
+  - first:
+      213: -3255283607049199207
+    second: tronco_teto_70
+  - first:
+      213: 1858858665014420453
+    second: tronco_teto_71
+  - first:
+      213: -3253426579596783213
+    second: tronco_teto_72
+  - first:
+      213: 4716790192835608430
+    second: tronco_teto_73
+  - first:
+      213: -122946106764655023
+    second: tronco_teto_74
+  - first:
+      213: 5894701915333583775
+    second: tronco_teto_75
+  - first:
+      213: -5796428120794857353
+    second: tronco_teto_76
+  - first:
+      213: 4776934631416417216
+    second: tronco_teto_77
+  - first:
+      213: -6896221771778628315
+    second: tronco_teto_78
+  - first:
+      213: 3847489147382609228
+    second: tronco_teto_79
+  - first:
+      213: -3873130010778550388
+    second: tronco_teto_80
+  - first:
+      213: 2459854884008976589
+    second: tronco_teto_81
+  - first:
+      213: 3717204892610525605
+    second: tronco_teto_82
+  - first:
+      213: -2261122391157451206
+    second: tronco_teto_83
+  - first:
+      213: -3349614257048997707
+    second: tronco_teto_84
+  - first:
+      213: -7950015452931782682
+    second: tronco_teto_85
+  - first:
+      213: 4585467545316446187
+    second: tronco_teto_86
+  - first:
+      213: 7070143027614732030
+    second: tronco_teto_87
+  - first:
+      213: 1644937596472231452
+    second: tronco_teto_88
+  - first:
+      213: -6204696826816752018
+    second: tronco_teto_89
+  - first:
+      213: 6456127871891554833
+    second: tronco_teto_90
+  - first:
+      213: 9085055151094288116
+    second: tronco_teto_91
+  - first:
+      213: 8733394440186520866
+    second: tronco_teto_92
+  - first:
+      213: 6097438532948495296
+    second: tronco_teto_93
+  - first:
+      213: -849274230454243521
+    second: tronco_teto_94
+  - first:
+      213: -4324025985989631819
+    second: tronco_teto_95
+  - first:
+      213: 3626286590161079709
+    second: tronco_teto_96
+  - first:
+      213: 7912009441830860283
+    second: tronco_teto_97
+  - first:
+      213: 5036155356777194269
+    second: tronco_teto_98
+  - first:
+      213: -3190994951151138785
+    second: tronco_teto_99
+  - first:
+      213: 5254178743954070270
+    second: tronco_teto_100
+  - first:
+      213: -615467113681942295
+    second: tronco_teto_101
+  - first:
+      213: -5706660915753336714
+    second: tronco_teto_102
+  - first:
+      213: -7065595399555020144
+    second: tronco_teto_103
+  - first:
+      213: 6207895873229526755
+    second: tronco_teto_104
+  - first:
+      213: 1382915175457955747
+    second: tronco_teto_105
+  - first:
+      213: -6331692949560669324
+    second: tronco_teto_106
+  - first:
+      213: -930000648354818497
+    second: tronco_teto_107
+  - first:
+      213: -7409671819945509650
+    second: tronco_teto_108
+  - first:
+      213: 6636376888270615326
+    second: tronco_teto_109
+  - first:
+      213: -6996573993311424727
+    second: tronco_teto_110
+  - first:
+      213: -7245614481920782056
+    second: tronco_teto_111
+  - first:
+      213: -7271130117425805453
+    second: tronco_teto_112
+  - first:
+      213: 513693907508374610
+    second: tronco_teto_113
+  - first:
+      213: -6378296934934631231
+    second: tronco_teto_114
+  - first:
+      213: 5550691796088877617
+    second: tronco_teto_115
+  - first:
+      213: 5208229302374367278
+    second: tronco_teto_116
+  - first:
+      213: 8102273245460892883
+    second: tronco_teto_117
+  - first:
+      213: 5001298333058020317
+    second: tronco_teto_118
+  - first:
+      213: -4803752340374302670
+    second: tronco_teto_119
+  - first:
+      213: 1315339753771912357
+    second: tronco_teto_120
+  - first:
+      213: -3304085876526748057
+    second: tronco_teto_121
+  - first:
+      213: 8415535214681461873
+    second: tronco_teto_122
+  - first:
+      213: -631206216460963810
+    second: tronco_teto_123
+  - first:
+      213: -4122677110000524683
+    second: tronco_teto_124
+  - first:
+      213: -1789900234665469568
+    second: tronco_teto_125
+  - first:
+      213: -3076444809200659629
+    second: tronco_teto_126
+  - first:
+      213: 8797263075740500736
+    second: tronco_teto_127
+  - first:
+      213: -3619045547422246431
+    second: tronco_teto_128
+  - first:
+      213: 7492850499559547784
+    second: tronco_teto_129
+  - first:
+      213: 8612862079821140187
+    second: tronco_teto_130
+  - first:
+      213: 6948555428381461470
+    second: tronco_teto_131
+  - first:
+      213: -4986667000146110409
+    second: tronco_teto_132
+  - first:
+      213: -2814836829188268271
+    second: tronco_teto_133
+  - first:
+      213: 7960197783429636453
+    second: tronco_teto_134
+  - first:
+      213: -3574259462868760830
+    second: tronco_teto_135
+  - first:
+      213: -8011871553783327489
+    second: tronco_teto_136
+  - first:
+      213: 7582567735794098962
+    second: tronco_teto_137
+  - first:
+      213: 7036282111563987792
+    second: tronco_teto_138
+  - first:
+      213: -5866948290774016714
+    second: tronco_teto_139
+  - first:
+      213: -5220071139984362195
+    second: tronco_teto_140
+  - first:
+      213: 4510125425901926198
+    second: tronco_teto_141
+  - first:
+      213: -1674118548867185197
+    second: tronco_teto_142
+  - first:
+      213: -8039886939571015587
+    second: tronco_teto_143
+  - first:
+      213: -8118286366425723042
+    second: tronco_teto_144
+  - first:
+      213: 864862010654418386
+    second: tronco_teto_145
+  - first:
+      213: -2383476948845981268
+    second: tronco_teto_146
+  - first:
+      213: -8036041726202459631
+    second: tronco_teto_147
+  - first:
+      213: 1179323839521188882
+    second: tronco_teto_148
+  - first:
+      213: 5987078459619233600
+    second: tronco_teto_149
+  - first:
+      213: -7993571531675898939
+    second: tronco_teto_150
+  - first:
+      213: 6722346278676515884
+    second: tronco_teto_151
+  - first:
+      213: 4152825318894900440
+    second: tronco_teto_152
+  - first:
+      213: 8198821174720145295
+    second: tronco_teto_153
+  - first:
+      213: 5387270369360973432
+    second: tronco_teto_154
+  - first:
+      213: 5351388914084603304
+    second: tronco_teto_155
+  - first:
+      213: -9048451132848196091
+    second: tronco_teto_156
+  - first:
+      213: -3518072490682652204
+    second: tronco_teto_157
+  - first:
+      213: -2241409222281336183
+    second: tronco_teto_158
+  - first:
+      213: 4970177518733207138
+    second: tronco_teto_159
+  - first:
+      213: -3802190452260150376
+    second: tronco_teto_160
+  - first:
+      213: -4880072553836774283
+    second: tronco_teto_161
+  - first:
+      213: 3343754694364276620
+    second: tronco_teto_162
+  - first:
+      213: 1538394465381002867
+    second: tronco_teto_163
+  - first:
+      213: -124857910923652308
+    second: tronco_teto_164
+  - first:
+      213: -4489506126033215504
+    second: tronco_teto_165
+  - first:
+      213: -8927959218403030846
+    second: tronco_teto_166
+  - first:
+      213: 8643204206648916361
+    second: tronco_teto_167
+  - first:
+      213: -5142957150455248096
+    second: tronco_teto_168
+  - first:
+      213: 241000167266303973
+    second: tronco_teto_169
+  - first:
+      213: 928103852681407359
+    second: tronco_teto_170
+  - first:
+      213: 4656601465171949745
+    second: tronco_teto_171
+  - first:
+      213: 4863821845826714436
+    second: tronco_teto_172
+  - first:
+      213: 7585041689371133350
+    second: tronco_teto_173
+  - first:
+      213: -6584332243982774467
+    second: tronco_teto_174
+  - first:
+      213: -3567067414975852105
+    second: tronco_teto_175
+  - first:
+      213: -4231896168725932920
+    second: tronco_teto_176
+  - first:
+      213: -5312961823447077115
+    second: tronco_teto_177
+  - first:
+      213: 6717954471858725441
+    second: tronco_teto_178
+  - first:
+      213: -6551698417935027148
+    second: tronco_teto_179
+  - first:
+      213: 7708266726451546011
+    second: tronco_teto_180
+  - first:
+      213: 4161455250737785019
+    second: tronco_teto_181
+  - first:
+      213: 3272660965664536948
+    second: tronco_teto_182
+  - first:
+      213: 3068811240868731667
+    second: tronco_teto_183
+  - first:
+      213: -7850838764774426512
+    second: tronco_teto_184
+  - first:
+      213: 1392702648683291148
+    second: tronco_teto_185
+  - first:
+      213: 281139706736384885
+    second: tronco_teto_186
+  - first:
+      213: -280577482489642815
+    second: tronco_teto_187
+  - first:
+      213: 3031410674782144386
+    second: tronco_teto_188
+  - first:
+      213: 4288966648234913155
+    second: tronco_teto_189
+  - first:
+      213: 7581306778477810281
+    second: tronco_teto_190
+  - first:
+      213: 7364870090423948834
+    second: tronco_teto_191
+  - first:
+      213: -8989756490731889091
+    second: tronco_teto_192
+  - first:
+      213: -8036799999102517736
+    second: tronco_teto_193
+  - first:
+      213: -6657246267162750139
+    second: tronco_teto_194
+  - first:
+      213: 3239884971760047961
+    second: tronco_teto_195
+  - first:
+      213: 3676936764148470654
+    second: tronco_teto_196
+  - first:
+      213: 8084551655407669360
+    second: tronco_teto_197
+  - first:
+      213: 2033564287205150431
+    second: tronco_teto_198
+  - first:
+      213: -532239065806454420
+    second: tronco_teto_199
+  - first:
+      213: -4631555393583283770
+    second: tronco_teto_200
+  - first:
+      213: -9030134700090577489
+    second: tronco_teto_201
+  - first:
+      213: -3148883188339352847
+    second: tronco_teto_202
+  - first:
+      213: -8419864993230906682
+    second: tronco_teto_203
+  - first:
+      213: -3587576581132144431
+    second: tronco_teto_204
+  - first:
+      213: -6966132093973847651
+    second: tronco_teto_205
+  - first:
+      213: 595524401828686771
+    second: tronco_teto_206
+  - first:
+      213: 9069716019393116486
+    second: tronco_teto_207
+  - first:
+      213: -7764566000832201541
+    second: tronco_teto_208
+  - first:
+      213: 4500897316738262253
+    second: tronco_teto_209
+  - first:
+      213: 2760682828937177640
+    second: tronco_teto_210
+  - first:
+      213: -5389244250904916690
+    second: tronco_teto_211
+  - first:
+      213: 1317627472363488438
+    second: tronco_teto_212
+  - first:
+      213: 6507279390332310203
+    second: tronco_teto_213
+  - first:
+      213: 7499139037660665690
+    second: tronco_teto_214
+  - first:
+      213: 603796336692891983
+    second: tronco_teto_215
+  - first:
+      213: 7726837526870311388
+    second: tronco_teto_216
+  - first:
+      213: 7621943112341294272
+    second: tronco_teto_217
+  - first:
+      213: -4757634618368585950
+    second: tronco_teto_218
+  - first:
+      213: 5542815751666673816
+    second: tronco_teto_219
+  - first:
+      213: -5335814938208282350
+    second: tronco_teto_220
+  - first:
+      213: 3890672114768352188
+    second: tronco_teto_221
+  - first:
+      213: 8423125852807454731
+    second: tronco_teto_222
+  - first:
+      213: -8437094133629644864
+    second: tronco_teto_223
+  - first:
+      213: -7316894933300845036
+    second: tronco_teto_224
+  - first:
+      213: -840962329394894097
+    second: tronco_teto_225
+  - first:
+      213: -5983752629526201781
+    second: tronco_teto_226
+  - first:
+      213: 1388067068549274370
+    second: tronco_teto_227
+  - first:
+      213: 8503581205386198430
+    second: tronco_teto_228
+  - first:
+      213: -6152683549367583509
+    second: tronco_teto_229
+  - first:
+      213: -6230524463498536787
+    second: tronco_teto_230
+  - first:
+      213: 5700212468226313484
+    second: tronco_teto_231
+  - first:
+      213: 9129512592550300880
+    second: tronco_teto_232
+  - first:
+      213: -66940705431014250
+    second: tronco_teto_233
+  - first:
+      213: -6741672963224331811
+    second: tronco_teto_234
+  - first:
+      213: 3599648539422223345
+    second: tronco_teto_235
+  - first:
+      213: 838861235687989780
+    second: tronco_teto_236
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tronco_teto_0
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 732
+        width: 76
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e69f826dfec636d0800000000000000
+      internalID: -3010991713174972701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 762
+        width: 105
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbe8ec355a34c330800000000000000
+      internalID: 3730170529138142162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 791
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446e49ae5994ecde0800000000000000
+      internalID: -1311029533283654076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_3
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 794
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9837e26ad2e735c70800000000000000
+      internalID: 8958642818296738697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_4
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 732
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5226911099221ad0800000000000000
+      internalID: -2733076325113388454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_5
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 763
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35c3dfb12ab4fb30800000000000000
+      internalID: 4320282596670162234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_6
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 752
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c804ff9b29c510840800000000000000
+      internalID: 5188530030963015820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_7
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 718
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d7d4a8f382d5a50800000000000000
+      internalID: 6511404889615990132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_8
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 817
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f469418e9f39f30800000000000000
+      internalID: 4581280021139050357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_9
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 718
+        width: 150
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bbe5595c8a38d40800000000000000
+      internalID: 5585493529437584211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_10
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 813
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df866f7883e52520800000000000000
+      internalID: 2676795728934113233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_11
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 762
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265e16c77d307e510800000000000000
+      internalID: 1578234418456290658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_12
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 722
+        width: 69
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15280e6979472c2e0800000000000000
+      internalID: -2106993481235791279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_13
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 762
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff02161897f66d540800000000000000
+      internalID: 5032332201285460223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_14
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 827
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8965c1cce7336df90800000000000000
+      internalID: -6929294356979624296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_15
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 819
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbf454e6e9619750800000000000000
+      internalID: 6309940993316944859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_16
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 718
+        width: 80
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5aaa3048b0be000800000000000000
+      internalID: 66159281152108009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_17
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 774
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba260b687fe0a84a0800000000000000
+      internalID: -6590438648423882069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_18
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 772
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09bd5253013b5c40800000000000000
+      internalID: 5502045260099729679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_19
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 798
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d587f7e30e228c0800000000000000
+      internalID: -4025408557884613232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_20
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 718
+        width: 120
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e742944b70115c0800000000000000
+      internalID: -4246604502731030952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_21
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 811
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23663c10b6446ab20800000000000000
+      internalID: 3145276616146642482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_22
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 776
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf3874e4999f1120800000000000000
+      internalID: 2386795192296947634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_23
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 744
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c392e5b2419f350800000000000000
+      internalID: 6050889750844881934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_24
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 726
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82306dc8cd4e521e0800000000000000
+      internalID: -2223119205130697944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_25
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 750
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40576f82ae0eac620800000000000000
+      internalID: 2795293815051023620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_26
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 803
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c287a9f9df38790800000000000000
+      internalID: -7528895290100143006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_27
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 762
+        width: 13
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484fbd5fcd29d2140800000000000000
+      internalID: 4696571464132588676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_28
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 754
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae69bcefda59ee660800000000000000
+      internalID: 7417030210862421738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_29
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 746
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98549601abcc08b00800000000000000
+      internalID: 828887430947489161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_30
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 829
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddd46de4bb240f00800000000000000
+      internalID: 1082037866552679893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_31
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 732
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3683a882382bed1f0800000000000000
+      internalID: -1018180189348546461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_32
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 722
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643a41c5986bf7900800000000000000
+      internalID: 684466369455235910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_33
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 829
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5a36bcb0d508c00800000000000000
+      internalID: 900822230712427998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_34
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 760
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b0f5f8c56a7d330800000000000000
+      internalID: 3735637332399688524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_35
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 780
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3882f4d043110f70800000000000000
+      internalID: 9151617086965057599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_36
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 829
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2968993b2257540800000000000000
+      internalID: 5004944715662398180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_37
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 782
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d907acf2c06e143a0800000000000000
+      internalID: -6682807432025313123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_38
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 758
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb71b808a5e825610800000000000000
+      internalID: 1608504536279488443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_39
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 784
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca0e69cf130e5140800000000000000
+      internalID: 4710205695334419145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_40
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 780
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c116a3d838a63f90800000000000000
+      internalID: -6974202010914123327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_41
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 732
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fb75b97e5e15c00800000000000000
+      internalID: 887743384475123556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_42
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 724
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7572c914b5fea5110800000000000000
+      internalID: 1250575021770549079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_43
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 780
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cb8d93cb2b9ae40800000000000000
+      internalID: 5668258127516580958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_44
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 744
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211c49fc0340b6840800000000000000
+      internalID: 5218269200926425362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_45
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 731
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d69fddb631d38210800000000000000
+      internalID: 1334139947675784919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_46
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 718
+        width: 120
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4f7b3c36fcd26c0800000000000000
+      internalID: -4166446052855515994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_47
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 770
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3821461ad1ecf4e70800000000000000
+      internalID: 9101719998596125315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_48
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 763
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3044051b3c7098e0800000000000000
+      internalID: -1688713267066421185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_49
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 734
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6107a25efa0821280800000000000000
+      internalID: -9074048806245732330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_50
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 763
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2b94343a609ebe0800000000000000
+      internalID: -1447618506944564512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_51
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 718
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c4682b58ec2a860800000000000000
+      internalID: 7539815799792749678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_52
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 825
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c3e57e010157b10800000000000000
+      internalID: 1978505276086434920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_53
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 819
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22eb6819705bffb00800000000000000
+      internalID: 864608697589349922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_54
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 805
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3c3ca4ad9a34f80800000000000000
+      internalID: -8123462547823934520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_55
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 825
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b498dd7b4ca5420800000000000000
+      internalID: 2619622427244186435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_56
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 829
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246fd2d5959c7fde0800000000000000
+      internalID: -1299348581820533182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_57
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 718
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c3e083016423370800000000000000
+      internalID: 8300774098671123504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_58
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 768
+        width: 93
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a758d355cce6ce50800000000000000
+      internalID: 6829406217213335463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_59
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 782
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc86f680e0d366f70800000000000000
+      internalID: 9180092020921690315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_60
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 732
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3dc6e9c36dcba00800000000000000
+      internalID: 773728791845196749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_61
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 732
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357749e937c84d7f0800000000000000
+      internalID: -588691223069034669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_62
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 742
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c56bd8fa0ed6fe0800000000000000
+      internalID: -1194051281581876178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_63
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 823
+        width: 50
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c801765cde58840800000000000000
+      internalID: 5225844374726806624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_64
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 780
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f66ad2906197fc0800000000000000
+      internalID: -3496739407000080544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_65
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 764
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37473bd74b69e5b40800000000000000
+      internalID: 5430943902602589299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_66
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 748
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312e110b40a5684b0800000000000000
+      internalID: -5438560523822964205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_67
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 796
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf47228cc06236b0800000000000000
+      internalID: -5318081778497925205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_68
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 786
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac90ee92e8e30880800000000000000
+      internalID: -8645810799595447136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_69
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 780
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e290c9899d28470800000000000000
+      internalID: 8395511904848129634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_70
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 764
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9912eae7ec8e2d2d0800000000000000
+      internalID: -3255283607049199207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_71
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 822
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e367df6b1efbc910800000000000000
+      internalID: 1858858665014420453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_72
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 756
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391d15463c189d2d0800000000000000
+      internalID: -3253426579596783213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_73
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 708
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f330490b7657140800000000000000
+      internalID: 4716790192835608430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_74
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 748
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15686c3da253b4ef0800000000000000
+      internalID: -122946106764655023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_75
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 762
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93e54819203ec150800000000000000
+      internalID: 5894701915333583775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_76
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 718
+        width: 84
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77000fdb553fe8fa0800000000000000
+      internalID: -5796428120794857353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_77
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 788
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb46dcecb41b4240800000000000000
+      internalID: 4776934631416417216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_78
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 750
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525e1d816d2bb40a0800000000000000
+      internalID: -6896221771778628315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_79
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 750
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4539e2aef6056530800000000000000
+      internalID: 3847489147382609228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_80
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 807
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fb3a2a6c0ef3ac0800000000000000
+      internalID: -3873130010778550388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_81
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 768
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc06d50fbf8232220800000000000000
+      internalID: 2459854884008976589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_82
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 718
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9f46db72a269330800000000000000
+      internalID: 3717204892610525605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_83
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 817
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36d0694a21ee90e0800000000000000
+      internalID: -2261122391157451206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_84
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 776
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0b20a8497c381d0800000000000000
+      internalID: -3349614257048997707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_85
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 784
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e78229011fdba190800000000000000
+      internalID: -7950015452931782682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_86
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 780
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef4ba7007ad2af30800000000000000
+      internalID: 4585467545316446187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_87
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 837
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe4e28df913e1260800000000000000
+      internalID: 7070143027614732030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_88
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 750
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16896b570ef3d610800000000000000
+      internalID: 1644937596472231452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_89
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 718
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6618922c1d74e9a0800000000000000
+      internalID: -6204696826816752018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_90
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 768
+        width: 29
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112489ce716c89950800000000000000
+      internalID: 6456127871891554833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_91
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 756
+        width: 82
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fecec57689941e70800000000000000
+      internalID: 9085055151094288116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_92
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 779
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22560bac8ff333970800000000000000
+      internalID: 8733394440186520866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_93
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 716
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb8c244a047e9450800000000000000
+      internalID: 6097438532948495296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_94
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 824
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fa1e84695c634f0800000000000000
+      internalID: -849274230454243521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_95
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 829
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0a7818649fdf3c0800000000000000
+      internalID: -4324025985989631819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_96
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 750
+        width: 31
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d405cd078235230800000000000000
+      internalID: 3626286590161079709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_97
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 716
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf57ddfeaaa1dcd60800000000000000
+      internalID: 7912009441830860283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_98
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 780
+        width: 51
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13a2624d9404e540800000000000000
+      internalID: 5036155356777194269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_99
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 723
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f184290affe47b3d0800000000000000
+      internalID: -3190994951151138785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_100
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 829
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa5ac3dab79ae840800000000000000
+      internalID: 5254178743954070270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_101
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 716
+        width: 96
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e88d06cbeb6577f0800000000000000
+      internalID: -615467113681942295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_102
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 136
+        width: 2154
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670caeed12eddc0b0800000000000000
+      internalID: -5706660915753336714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_103
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 718
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a83e25b66f1fd90800000000000000
+      internalID: -7065595399555020144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_104
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 718
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e69576e760e62650800000000000000
+      internalID: 6207895873229526755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_105
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 712
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af1bab660a113310800000000000000
+      internalID: 1382915175457955747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_106
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 687
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b47922fce4128a0800000000000000
+      internalID: -6331692949560669324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_107
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 680
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f369de17659f713f0800000000000000
+      internalID: -930000648354818497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_108
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 700
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecfce5ecbe8b2990800000000000000
+      internalID: -7409671819945509650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_109
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 700
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e137bfc6e95291c50800000000000000
+      internalID: 6636376888270615326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 283
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fafe3c50d27ee90800000000000000
+      internalID: -6996573993311424727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_111
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 287
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8119fa18408627b90800000000000000
+      internalID: -7245614481920782056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_112
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 289
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377c03baea1c71b90800000000000000
+      internalID: -7271130117425805453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_113
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 287
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ca15023e1012700800000000000000
+      internalID: 513693907508374610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_114
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 277
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc22493bbcbb77a0800000000000000
+      internalID: -6378296934934631231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_115
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 253
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1327d8b97c4080d40800000000000000
+      internalID: 5550691796088877617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_116
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 257
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e200ec4c4f8574840800000000000000
+      internalID: 5208229302374367278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_117
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 257
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc09dcc69e017070800000000000000
+      internalID: 8102273245460892883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_118
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 225
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd33dadf55e286540800000000000000
+      internalID: 5001298333058020317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_119
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 267
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230d903a2b4a55db0800000000000000
+      internalID: -4803752340374302670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_120
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 263
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac468e7986014210800000000000000
+      internalID: 1315339753771912357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_121
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 257
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76eec3ea6678522d0800000000000000
+      internalID: -3304085876526748057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_122
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 257
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17411e9b0bcf9c470800000000000000
+      internalID: 8415535214681461873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_123
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 247
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1073d75a418d37f0800000000000000
+      internalID: -631206216460963810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_124
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 231
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572e8c6e20f49c6c0800000000000000
+      internalID: -4122677110000524683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_125
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 228
+        width: 54
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0895069483ff827e0800000000000000
+      internalID: -1789900234665469568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_126
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 239
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3531088eeb54e45d0800000000000000
+      internalID: -3076444809200659629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_127
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 223
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0034c215828261a70800000000000000
+      internalID: 8797263075740500736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_128
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 237
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e910f7cf3196cdc0800000000000000
+      internalID: -3619045547422246431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_129
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 216
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883ea5d94d3fbf760800000000000000
+      internalID: 7492850499559547784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_130
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 223
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0db2fbd68078770800000000000000
+      internalID: 8612862079821140187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_131
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 215
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb0acad85a3e6060800000000000000
+      internalID: 6948555428381461470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_132
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 239
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738d02ba8cccbcab0800000000000000
+      internalID: -4986667000146110409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_133
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 235
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fdb8741d0bfe8d0800000000000000
+      internalID: -2814836829188268271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_134
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 237
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561ec2785bd487e60800000000000000
+      internalID: 7960197783429636453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_135
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 235
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20701aca4fda56ec0800000000000000
+      internalID: -3574259462868760830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_136
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 235
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff410b2454d10d090800000000000000
+      internalID: -8011871553783327489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_137
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 233
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21368597e21ba3960800000000000000
+      internalID: 7582567735794098962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_138
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 232
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bf437fc45e5a160800000000000000
+      internalID: 7036282111563987792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_139
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 195
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d54dc2d99649ea0800000000000000
+      internalID: -5866948290774016714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_140
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 219
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25b6fe84f49e87b0800000000000000
+      internalID: -5220071139984362195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_141
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 214
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637775fdd2f279e30800000000000000
+      internalID: 4510125425901926198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_142
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 216
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d501e6bc0654c8e0800000000000000
+      internalID: -1674118548867185197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_143
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 218
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d503194fc659c6090800000000000000
+      internalID: -8039886939571015587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_144
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 206
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f4c40ff8d065f80800000000000000
+      internalID: -8118286366425723042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_145
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 209
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d569cc9a6b900c00800000000000000
+      internalID: 864862010654418386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_146
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 204
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca114bdd7503ceed0800000000000000
+      internalID: -2383476948845981268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_147
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 206
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a4c7570ae3a7090800000000000000
+      internalID: -8036041726202459631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_148
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 178
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c6fc1a8cccd5010800000000000000
+      internalID: 1179323839521188882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_149
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 208
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f4ffb5320661350800000000000000
+      internalID: 5987078459619233600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_150
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 217
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb68cf2b01211190800000000000000
+      internalID: -7993571531675898939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_151
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 216
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cceade2529a4d50800000000000000
+      internalID: 6722346278676515884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_152
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 200
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d49afaff9cc1a930800000000000000
+      internalID: 4152825318894900440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_153
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 208
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8725205b6018c170800000000000000
+      internalID: 8198821174720145295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_154
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 215
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e8fb2abdd63ca40800000000000000
+      internalID: 5387270369360973432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_155
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 170
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5e9fe4dd3f34a40800000000000000
+      internalID: 5351388914084603304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_156
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 208
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5063a1ba2a17d6280800000000000000
+      internalID: -9048451132848196091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_157
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 200
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d969c295bb4d2fc0800000000000000
+      internalID: -3518072490682652204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_158
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 219
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ae2a5103ae4e0e0800000000000000
+      internalID: -2241409222281336183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_159
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 216
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266a9b2ce1e99f440800000000000000
+      internalID: 4970177518733207138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_160
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 216
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893e6a4bde7eb3bc0800000000000000
+      internalID: -3802190452260150376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_161
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 213
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cfc663edf764cb0800000000000000
+      internalID: -4880072553836774283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_162
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 196
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87a0a5bd27676e20800000000000000
+      internalID: 3343754694364276620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_163
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 183
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e26719d99795510800000000000000
+      internalID: 1538394465381002867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_164
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 202
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c239ffb346a644ef0800000000000000
+      internalID: -124857910923652308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_165
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 183
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff99dcf6f112b1c0800000000000000
+      internalID: -4489506126033215504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_166
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 204
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8c9e9a464891480800000000000000
+      internalID: -8927959218403030846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_167
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 198
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989787aae64d2f770800000000000000
+      internalID: 8643204206648916361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_168
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 184
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b4f0068bb80a8b0800000000000000
+      internalID: -5142957150455248096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_169
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 187
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efb7b01064385300800000000000000
+      internalID: 241000167266303973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_170
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 170
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b2fb5698941ec00800000000000000
+      internalID: 928103852681407359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_171
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 176
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b833206c529f9040800000000000000
+      internalID: 4656601465171949745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_172
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 201
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b394bf234cf7340800000000000000
+      internalID: 4863821845826714436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_173
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 202
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5ce7daa3b734960800000000000000
+      internalID: 7585041689371133350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_174
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 176
+        width: 71
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f814a95b0cf94a0800000000000000
+      internalID: -6584332243982774467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_175
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b15e70d51b3f7ec0800000000000000
+      internalID: -3567067414975852105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_176
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 194
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88411c82bd84545c0800000000000000
+      internalID: -4231896168725932920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_177
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 197
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fa930fe519446b0800000000000000
+      internalID: -5312961823447077115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_178
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 184
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142e268bff7fa3d50800000000000000
+      internalID: 6717954471858725441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_179
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 200
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4347e735001b315a0800000000000000
+      internalID: -6551698417935027148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_180
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 196
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b978b106fb349fa60800000000000000
+      internalID: 7708266726451546011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_181
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 168
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8e8e0908570c930800000000000000
+      internalID: 4161455250737785019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_182
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 200
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479b8b81fc3da6d20800000000000000
+      internalID: 3272660965664536948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_183
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 206
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bd4b6709b969a20800000000000000
+      internalID: 3068811240868731667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_184
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 200
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078f0cc2db73c0390800000000000000
+      internalID: -7850838764774426512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_185
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 190
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02638c1eafd35310800000000000000
+      internalID: 1392702648683291148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_186
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 173
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b9740e21fc6e300800000000000000
+      internalID: 281139706736384885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_187
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 186
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c04b3824403b1cf0800000000000000
+      internalID: -280577482489642815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_188
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 136
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28787b692fbb11a20800000000000000
+      internalID: 3031410674782144386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_189
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 170
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d2a815178758b30800000000000000
+      internalID: 4288966648234913155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_190
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 196
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9625e68f856363960800000000000000
+      internalID: 7581306778477810281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_191
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 190
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2265e949356453660800000000000000
+      internalID: 7364870090423948834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_192
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 184
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ed9a8f918fd3380800000000000000
+      internalID: -8989756490731889091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_193
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 186
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e72aa4bfc877090800000000000000
+      internalID: -8036799999102517736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_194
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 194
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5431877aac5bc93a0800000000000000
+      internalID: -6657246267162750139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_195
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 176
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95752e6573266fc20800000000000000
+      internalID: 3239884971760047961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_196
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 176
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73d4a8718a170330800000000000000
+      internalID: 3676936764148470654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_197
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 158
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070ded495e8123070800000000000000
+      internalID: 8084551655407669360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_198
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 168
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde88c6e1fba83c10800000000000000
+      internalID: 2033564287205150431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_199
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 166
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61450bb36b1d98f0800000000000000
+      internalID: -532239065806454420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_200
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 186
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c18ce798e869bfb0800000000000000
+      internalID: -4631555393583283770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_201
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 186
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad2c2f75548ea280800000000000000
+      internalID: -9030134700090577489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_202
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 170
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa55d77c6bec44d0800000000000000
+      internalID: -3148883188339352847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_203
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 176
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca99b52661a62b80800000000000000
+      internalID: -8419864993230906682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_204
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 186
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0bb157b1e563ec0800000000000000
+      internalID: -3587576581132144431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_205
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 176
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91ad38c4c3535f90800000000000000
+      internalID: -6966132093973847651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_206
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 176
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb631ac94ab34800800000000000000
+      internalID: 595524401828686771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_207
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 167
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649b89d8aaa1edd70800000000000000
+      internalID: 9069716019393116486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_208
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 158
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc32555c58be3490800000000000000
+      internalID: -7764566000832201541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_209
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 182
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de461b64346667e30800000000000000
+      internalID: 4500897316738262253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_210
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 184
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a225cf76aef4620800000000000000
+      internalID: 2760682828937177640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_211
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 160
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d0ff048ee8535b0800000000000000
+      internalID: -5389244250904916690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_212
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 175
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4858c7437294210800000000000000
+      internalID: 1317627472363488438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_213
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 170
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb25af2e0208e4a50800000000000000
+      internalID: 6507279390332310203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_214
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 170
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57570df83b421860800000000000000
+      internalID: 7499139037660665690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_215
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 168
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f411345b19d116800800000000000000
+      internalID: 603796336692891983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_216
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 170
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1434acacd3b3b60800000000000000
+      internalID: 7726837526870311388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_217
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 169
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc865db0e496c960800000000000000
+      internalID: 7621943112341294272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_218
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 168
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f0a09858c79fdb0800000000000000
+      internalID: -4757634618368585950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_219
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 168
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898288d1f890cec40800000000000000
+      internalID: 5542815751666673816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_220
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 172
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2195fd4859063f5b0800000000000000
+      internalID: -5335814938208282350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_221
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 152
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3194abca17ef530800000000000000
+      internalID: 3890672114768352188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_222
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 150
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b006ff2e554f4e470800000000000000
+      internalID: 8423125852807454731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_223
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 148
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf097c469b69ea80800000000000000
+      internalID: -8437094133629644864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_224
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 170
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4166fb123da257a90800000000000000
+      internalID: -7316894933300845036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_225
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 168
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feaaeee873d4454f0800000000000000
+      internalID: -840962329394894097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_226
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 168
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4af74dcfa075fca0800000000000000
+      internalID: -5983752629526201781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_227
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 176
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b1c4105a7634310800000000000000
+      internalID: 1388067068549274370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_228
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 154
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d7bb96d0ac20670800000000000000
+      internalID: 8503581205386198430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_229
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 154
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec3e8009e64d9aa0800000000000000
+      internalID: -6152683549367583509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_230
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 166
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8d9ccd20bb889a0800000000000000
+      internalID: -6230524463498536787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_231
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 158
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dc1e0f9093b1f40800000000000000
+      internalID: 5700212468226313484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_232
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 136
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc8a6b255b82be70800000000000000
+      internalID: 9129512592550300880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_233
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 160
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69435c778cd221ff0800000000000000
+      internalID: -66940705431014250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_234
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 154
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9982ba824c072a0800000000000000
+      internalID: -6741672963224331811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_235
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 148
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbe38c564584f130800000000000000
+      internalID: 3599648539422223345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_teto_236
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 144
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412270179db34ab00800000000000000
+      internalID: 838861235687989780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tronco_teto_0: -3010991713174972701
+      tronco_teto_1: 3730170529138142162
+      tronco_teto_10: 2676795728934113233
+      tronco_teto_100: 5254178743954070270
+      tronco_teto_101: -615467113681942295
+      tronco_teto_102: -5706660915753336714
+      tronco_teto_103: -7065595399555020144
+      tronco_teto_104: 6207895873229526755
+      tronco_teto_105: 1382915175457955747
+      tronco_teto_106: -6331692949560669324
+      tronco_teto_107: -930000648354818497
+      tronco_teto_108: -7409671819945509650
+      tronco_teto_109: 6636376888270615326
+      tronco_teto_11: 1578234418456290658
+      tronco_teto_110: -6996573993311424727
+      tronco_teto_111: -7245614481920782056
+      tronco_teto_112: -7271130117425805453
+      tronco_teto_113: 513693907508374610
+      tronco_teto_114: -6378296934934631231
+      tronco_teto_115: 5550691796088877617
+      tronco_teto_116: 5208229302374367278
+      tronco_teto_117: 8102273245460892883
+      tronco_teto_118: 5001298333058020317
+      tronco_teto_119: -4803752340374302670
+      tronco_teto_12: -2106993481235791279
+      tronco_teto_120: 1315339753771912357
+      tronco_teto_121: -3304085876526748057
+      tronco_teto_122: 8415535214681461873
+      tronco_teto_123: -631206216460963810
+      tronco_teto_124: -4122677110000524683
+      tronco_teto_125: -1789900234665469568
+      tronco_teto_126: -3076444809200659629
+      tronco_teto_127: 8797263075740500736
+      tronco_teto_128: -3619045547422246431
+      tronco_teto_129: 7492850499559547784
+      tronco_teto_13: 5032332201285460223
+      tronco_teto_130: 8612862079821140187
+      tronco_teto_131: 6948555428381461470
+      tronco_teto_132: -4986667000146110409
+      tronco_teto_133: -2814836829188268271
+      tronco_teto_134: 7960197783429636453
+      tronco_teto_135: -3574259462868760830
+      tronco_teto_136: -8011871553783327489
+      tronco_teto_137: 7582567735794098962
+      tronco_teto_138: 7036282111563987792
+      tronco_teto_139: -5866948290774016714
+      tronco_teto_14: -6929294356979624296
+      tronco_teto_140: -5220071139984362195
+      tronco_teto_141: 4510125425901926198
+      tronco_teto_142: -1674118548867185197
+      tronco_teto_143: -8039886939571015587
+      tronco_teto_144: -8118286366425723042
+      tronco_teto_145: 864862010654418386
+      tronco_teto_146: -2383476948845981268
+      tronco_teto_147: -8036041726202459631
+      tronco_teto_148: 1179323839521188882
+      tronco_teto_149: 5987078459619233600
+      tronco_teto_15: 6309940993316944859
+      tronco_teto_150: -7993571531675898939
+      tronco_teto_151: 6722346278676515884
+      tronco_teto_152: 4152825318894900440
+      tronco_teto_153: 8198821174720145295
+      tronco_teto_154: 5387270369360973432
+      tronco_teto_155: 5351388914084603304
+      tronco_teto_156: -9048451132848196091
+      tronco_teto_157: -3518072490682652204
+      tronco_teto_158: -2241409222281336183
+      tronco_teto_159: 4970177518733207138
+      tronco_teto_16: 66159281152108009
+      tronco_teto_160: -3802190452260150376
+      tronco_teto_161: -4880072553836774283
+      tronco_teto_162: 3343754694364276620
+      tronco_teto_163: 1538394465381002867
+      tronco_teto_164: -124857910923652308
+      tronco_teto_165: -4489506126033215504
+      tronco_teto_166: -8927959218403030846
+      tronco_teto_167: 8643204206648916361
+      tronco_teto_168: -5142957150455248096
+      tronco_teto_169: 241000167266303973
+      tronco_teto_17: -6590438648423882069
+      tronco_teto_170: 928103852681407359
+      tronco_teto_171: 4656601465171949745
+      tronco_teto_172: 4863821845826714436
+      tronco_teto_173: 7585041689371133350
+      tronco_teto_174: -6584332243982774467
+      tronco_teto_175: -3567067414975852105
+      tronco_teto_176: -4231896168725932920
+      tronco_teto_177: -5312961823447077115
+      tronco_teto_178: 6717954471858725441
+      tronco_teto_179: -6551698417935027148
+      tronco_teto_18: 5502045260099729679
+      tronco_teto_180: 7708266726451546011
+      tronco_teto_181: 4161455250737785019
+      tronco_teto_182: 3272660965664536948
+      tronco_teto_183: 3068811240868731667
+      tronco_teto_184: -7850838764774426512
+      tronco_teto_185: 1392702648683291148
+      tronco_teto_186: 281139706736384885
+      tronco_teto_187: -280577482489642815
+      tronco_teto_188: 3031410674782144386
+      tronco_teto_189: 4288966648234913155
+      tronco_teto_19: -4025408557884613232
+      tronco_teto_190: 7581306778477810281
+      tronco_teto_191: 7364870090423948834
+      tronco_teto_192: -8989756490731889091
+      tronco_teto_193: -8036799999102517736
+      tronco_teto_194: -6657246267162750139
+      tronco_teto_195: 3239884971760047961
+      tronco_teto_196: 3676936764148470654
+      tronco_teto_197: 8084551655407669360
+      tronco_teto_198: 2033564287205150431
+      tronco_teto_199: -532239065806454420
+      tronco_teto_2: -1311029533283654076
+      tronco_teto_20: -4246604502731030952
+      tronco_teto_200: -4631555393583283770
+      tronco_teto_201: -9030134700090577489
+      tronco_teto_202: -3148883188339352847
+      tronco_teto_203: -8419864993230906682
+      tronco_teto_204: -3587576581132144431
+      tronco_teto_205: -6966132093973847651
+      tronco_teto_206: 595524401828686771
+      tronco_teto_207: 9069716019393116486
+      tronco_teto_208: -7764566000832201541
+      tronco_teto_209: 4500897316738262253
+      tronco_teto_21: 3145276616146642482
+      tronco_teto_210: 2760682828937177640
+      tronco_teto_211: -5389244250904916690
+      tronco_teto_212: 1317627472363488438
+      tronco_teto_213: 6507279390332310203
+      tronco_teto_214: 7499139037660665690
+      tronco_teto_215: 603796336692891983
+      tronco_teto_216: 7726837526870311388
+      tronco_teto_217: 7621943112341294272
+      tronco_teto_218: -4757634618368585950
+      tronco_teto_219: 5542815751666673816
+      tronco_teto_22: 2386795192296947634
+      tronco_teto_220: -5335814938208282350
+      tronco_teto_221: 3890672114768352188
+      tronco_teto_222: 8423125852807454731
+      tronco_teto_223: -8437094133629644864
+      tronco_teto_224: -7316894933300845036
+      tronco_teto_225: -840962329394894097
+      tronco_teto_226: -5983752629526201781
+      tronco_teto_227: 1388067068549274370
+      tronco_teto_228: 8503581205386198430
+      tronco_teto_229: -6152683549367583509
+      tronco_teto_23: 6050889750844881934
+      tronco_teto_230: -6230524463498536787
+      tronco_teto_231: 5700212468226313484
+      tronco_teto_232: 9129512592550300880
+      tronco_teto_233: -66940705431014250
+      tronco_teto_234: -6741672963224331811
+      tronco_teto_235: 3599648539422223345
+      tronco_teto_236: 838861235687989780
+      tronco_teto_24: -2223119205130697944
+      tronco_teto_25: 2795293815051023620
+      tronco_teto_26: -7528895290100143006
+      tronco_teto_27: 4696571464132588676
+      tronco_teto_28: 7417030210862421738
+      tronco_teto_29: 828887430947489161
+      tronco_teto_3: 8958642818296738697
+      tronco_teto_30: 1082037866552679893
+      tronco_teto_31: -1018180189348546461
+      tronco_teto_32: 684466369455235910
+      tronco_teto_33: 900822230712427998
+      tronco_teto_34: 3735637332399688524
+      tronco_teto_35: 9151617086965057599
+      tronco_teto_36: 5004944715662398180
+      tronco_teto_37: -6682807432025313123
+      tronco_teto_38: 1608504536279488443
+      tronco_teto_39: 4710205695334419145
+      tronco_teto_4: -2733076325113388454
+      tronco_teto_40: -6974202010914123327
+      tronco_teto_41: 887743384475123556
+      tronco_teto_42: 1250575021770549079
+      tronco_teto_43: 5668258127516580958
+      tronco_teto_44: 5218269200926425362
+      tronco_teto_45: 1334139947675784919
+      tronco_teto_46: -4166446052855515994
+      tronco_teto_47: 9101719998596125315
+      tronco_teto_48: -1688713267066421185
+      tronco_teto_49: -9074048806245732330
+      tronco_teto_5: 4320282596670162234
+      tronco_teto_50: -1447618506944564512
+      tronco_teto_51: 7539815799792749678
+      tronco_teto_52: 1978505276086434920
+      tronco_teto_53: 864608697589349922
+      tronco_teto_54: -8123462547823934520
+      tronco_teto_55: 2619622427244186435
+      tronco_teto_56: -1299348581820533182
+      tronco_teto_57: 8300774098671123504
+      tronco_teto_58: 6829406217213335463
+      tronco_teto_59: 9180092020921690315
+      tronco_teto_6: 5188530030963015820
+      tronco_teto_60: 773728791845196749
+      tronco_teto_61: -588691223069034669
+      tronco_teto_62: -1194051281581876178
+      tronco_teto_63: 5225844374726806624
+      tronco_teto_64: -3496739407000080544
+      tronco_teto_65: 5430943902602589299
+      tronco_teto_66: -5438560523822964205
+      tronco_teto_67: -5318081778497925205
+      tronco_teto_68: -8645810799595447136
+      tronco_teto_69: 8395511904848129634
+      tronco_teto_7: 6511404889615990132
+      tronco_teto_70: -3255283607049199207
+      tronco_teto_71: 1858858665014420453
+      tronco_teto_72: -3253426579596783213
+      tronco_teto_73: 4716790192835608430
+      tronco_teto_74: -122946106764655023
+      tronco_teto_75: 5894701915333583775
+      tronco_teto_76: -5796428120794857353
+      tronco_teto_77: 4776934631416417216
+      tronco_teto_78: -6896221771778628315
+      tronco_teto_79: 3847489147382609228
+      tronco_teto_8: 4581280021139050357
+      tronco_teto_80: -3873130010778550388
+      tronco_teto_81: 2459854884008976589
+      tronco_teto_82: 3717204892610525605
+      tronco_teto_83: -2261122391157451206
+      tronco_teto_84: -3349614257048997707
+      tronco_teto_85: -7950015452931782682
+      tronco_teto_86: 4585467545316446187
+      tronco_teto_87: 7070143027614732030
+      tronco_teto_88: 1644937596472231452
+      tronco_teto_89: -6204696826816752018
+      tronco_teto_9: 5585493529437584211
+      tronco_teto_90: 6456127871891554833
+      tronco_teto_91: 9085055151094288116
+      tronco_teto_92: 8733394440186520866
+      tronco_teto_93: 6097438532948495296
+      tronco_teto_94: -849274230454243521
+      tronco_teto_95: -4324025985989631819
+      tronco_teto_96: 3626286590161079709
+      tronco_teto_97: 7912009441830860283
+      tronco_teto_98: 5036155356777194269
+      tronco_teto_99: -3190994951151138785
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

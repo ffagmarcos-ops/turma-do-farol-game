@@ -1,0 +1,1404 @@
+fileFormatVersion: 2
+guid: a28af483fef494ac7b6e5cb851f17992
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2842151434628407232
+    second: tronco_oco_0
+  - first:
+      213: -8681441378097713882
+    second: tronco_oco_1
+  - first:
+      213: -2580191635607179432
+    second: tronco_oco_2
+  - first:
+      213: -8957668470573061067
+    second: tronco_oco_3
+  - first:
+      213: -4775792435740179472
+    second: tronco_oco_4
+  - first:
+      213: 1200642223015363933
+    second: tronco_oco_5
+  - first:
+      213: -5489857459574438314
+    second: tronco_oco_6
+  - first:
+      213: 2668383463444272434
+    second: tronco_oco_7
+  - first:
+      213: 2969769160287448139
+    second: tronco_oco_8
+  - first:
+      213: 7960011842094434146
+    second: tronco_oco_9
+  - first:
+      213: -7426651849975840408
+    second: tronco_oco_10
+  - first:
+      213: -4754597934566376130
+    second: tronco_oco_11
+  - first:
+      213: 2074744715766942605
+    second: tronco_oco_12
+  - first:
+      213: -377519530368250675
+    second: tronco_oco_13
+  - first:
+      213: -9006176014591432673
+    second: tronco_oco_14
+  - first:
+      213: -8158098145869753465
+    second: tronco_oco_15
+  - first:
+      213: -2219773166975221227
+    second: tronco_oco_16
+  - first:
+      213: 6523703211805555331
+    second: tronco_oco_17
+  - first:
+      213: 3662626958866232906
+    second: tronco_oco_18
+  - first:
+      213: -9106077009111787891
+    second: tronco_oco_19
+  - first:
+      213: 2198345686728203398
+    second: tronco_oco_20
+  - first:
+      213: -7246825799309959281
+    second: tronco_oco_21
+  - first:
+      213: -9148866710716605647
+    second: tronco_oco_22
+  - first:
+      213: -8390480659353594364
+    second: tronco_oco_23
+  - first:
+      213: -847977109412692044
+    second: tronco_oco_24
+  - first:
+      213: -6829066249809631297
+    second: tronco_oco_25
+  - first:
+      213: -718726472616099980
+    second: tronco_oco_26
+  - first:
+      213: -8238132153877645800
+    second: tronco_oco_27
+  - first:
+      213: -1510649804004735644
+    second: tronco_oco_28
+  - first:
+      213: -6619514044938540
+    second: tronco_oco_29
+  - first:
+      213: -2381511956359571326
+    second: tronco_oco_30
+  - first:
+      213: -3428402272723718733
+    second: tronco_oco_31
+  - first:
+      213: 884930581268626101
+    second: tronco_oco_32
+  - first:
+      213: 5792259385545176954
+    second: tronco_oco_33
+  - first:
+      213: 8082786139803734352
+    second: tronco_oco_34
+  - first:
+      213: -9042003932138285089
+    second: tronco_oco_35
+  - first:
+      213: -1994917994946494665
+    second: tronco_oco_36
+  - first:
+      213: -2256662406310097226
+    second: tronco_oco_37
+  - first:
+      213: 3210323009617095558
+    second: tronco_oco_38
+  - first:
+      213: 6851548135112477866
+    second: tronco_oco_39
+  - first:
+      213: 1037694125781191086
+    second: tronco_oco_40
+  - first:
+      213: -8027727959831762404
+    second: tronco_oco_41
+  - first:
+      213: -2248769658526307004
+    second: tronco_oco_42
+  - first:
+      213: 3861127045242820770
+    second: tronco_oco_43
+  - first:
+      213: -3691022011689624158
+    second: tronco_oco_44
+  - first:
+      213: 8250104111616700619
+    second: tronco_oco_45
+  - first:
+      213: 5208984991725298215
+    second: tronco_oco_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tronco_oco_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 124
+        width: 1944
+        height: 803
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0406b1d1456ae88d0800000000000000
+      internalID: -2842151434628407232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_1
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 901
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dab181013558780800000000000000
+      internalID: -8681441378097713882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 895
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f233bb061513cd0800000000000000
+      internalID: -2580191635607179432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_3
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 895
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ca6cb5cf7ffa380800000000000000
+      internalID: -8957668470573061067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_4
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 908
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f385ba351af8bdb0800000000000000
+      internalID: -4775792435740179472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_5
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 870
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d558a259db989a010800000000000000
+      internalID: 1200642223015363933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_6
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 903
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656898e1abb10d3b0800000000000000
+      internalID: -5489857459574438314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_7
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 893
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2355f1f4f90080520800000000000000
+      internalID: 2668383463444272434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_8
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 888
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ce7d7115db63920800000000000000
+      internalID: 2969769160287448139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_9
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 892
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26701ffa894a77e60800000000000000
+      internalID: 7960011842094434146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_10
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 856
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86141b39d7b3fe890800000000000000
+      internalID: -7426651849975840408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 872
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d7d549e56440eb0800000000000000
+      internalID: -4754597934566376130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_12
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 866
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b48e69359facc10800000000000000
+      internalID: 2074744715766942605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_13
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 862
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccc0a0ccf7c2caf0800000000000000
+      internalID: -377519530368250675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_14
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 842
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1862a9a1a2a30380800000000000000
+      internalID: -9006176014591432673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_15
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 826
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78319a4b5fc98ce80800000000000000
+      internalID: -8158098145869753465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_16
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 847
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5128f74c018c131e0800000000000000
+      internalID: -2219773166975221227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_17
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 840
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38abebfc189d88a50800000000000000
+      internalID: 6523703211805555331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_18
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 852
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46bdfb40d344d230800000000000000
+      internalID: 3662626958866232906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_19
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 796
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d865a8ec437b0a180800000000000000
+      internalID: -9106077009111787891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_20
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 844
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c52f631c7128e10800000000000000
+      internalID: 2198345686728203398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_21
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 844
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f5ef2b45a1e6b90800000000000000
+      internalID: -7246825799309959281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_22
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 828
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b175a0332b80180800000000000000
+      internalID: -9148866710716605647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_23
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 844
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40691748b460f8b80800000000000000
+      internalID: -8390480659353594364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_24
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 834
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf3bcfcf416b34f0800000000000000
+      internalID: -847977109412692044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_25
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 836
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7ec708d684a31a0800000000000000
+      internalID: -6829066249809631297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_26
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 844
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f3c05c4129606f0800000000000000
+      internalID: -718726472616099980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_27
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 838
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816366b14764cad80800000000000000
+      internalID: -8238132153877645800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_28
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 824
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465c84cc108190be0800000000000000
+      internalID: -1510649804004735644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_29
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 810
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d604c8469b78eff0800000000000000
+      internalID: -6619514044938540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_30
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 822
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28897d45e7b23fed0800000000000000
+      internalID: -2381511956359571326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_31
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 812
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd29232c4edb60d0800000000000000
+      internalID: -3428402272723718733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_32
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 795
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba7563dca7e74c00800000000000000
+      internalID: 884930581268626101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_33
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 805
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77b752f83d326050800000000000000
+      internalID: 5792259385545176954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_34
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 806
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051d3727b23db2070800000000000000
+      internalID: 8082786139803734352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_35
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 804
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7563f8459548280800000000000000
+      internalID: -9042003932138285089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_36
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 803
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ffd2337a0a054e0800000000000000
+      internalID: -1994917994946494665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_37
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 779
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be88ed6f79bea0e0800000000000000
+      internalID: -2256662406310097226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_38
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 789
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b6d7aa4cb5d8c20800000000000000
+      internalID: 3210323009617095558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_39
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 799
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac8ed25ab6951f50800000000000000
+      internalID: 6851548135112477866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_40
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 784
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea982b83f41a66e00800000000000000
+      internalID: 1037694125781191086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_41
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 790
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1aa1c804f7c79090800000000000000
+      internalID: -8027727959831762404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_42
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 231
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44decd9f8e3cac0e0800000000000000
+      internalID: -2248769658526307004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_43
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 223
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a81a5c279a759530800000000000000
+      internalID: 3861127045242820770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_44
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 205
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad9717490bd6ccc0800000000000000
+      internalID: -3691022011689624158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_45
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 211
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc037e48af14e7270800000000000000
+      internalID: 8250104111616700619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tronco_oco_46
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 162
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722a02860480a4840800000000000000
+      internalID: 5208984991725298215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tronco_oco_0: -2842151434628407232
+      tronco_oco_1: -8681441378097713882
+      tronco_oco_10: -7426651849975840408
+      tronco_oco_11: -4754597934566376130
+      tronco_oco_12: 2074744715766942605
+      tronco_oco_13: -377519530368250675
+      tronco_oco_14: -9006176014591432673
+      tronco_oco_15: -8158098145869753465
+      tronco_oco_16: -2219773166975221227
+      tronco_oco_17: 6523703211805555331
+      tronco_oco_18: 3662626958866232906
+      tronco_oco_19: -9106077009111787891
+      tronco_oco_2: -2580191635607179432
+      tronco_oco_20: 2198345686728203398
+      tronco_oco_21: -7246825799309959281
+      tronco_oco_22: -9148866710716605647
+      tronco_oco_23: -8390480659353594364
+      tronco_oco_24: -847977109412692044
+      tronco_oco_25: -6829066249809631297
+      tronco_oco_26: -718726472616099980
+      tronco_oco_27: -8238132153877645800
+      tronco_oco_28: -1510649804004735644
+      tronco_oco_29: -6619514044938540
+      tronco_oco_3: -8957668470573061067
+      tronco_oco_30: -2381511956359571326
+      tronco_oco_31: -3428402272723718733
+      tronco_oco_32: 884930581268626101
+      tronco_oco_33: 5792259385545176954
+      tronco_oco_34: 8082786139803734352
+      tronco_oco_35: -9042003932138285089
+      tronco_oco_36: -1994917994946494665
+      tronco_oco_37: -2256662406310097226
+      tronco_oco_38: 3210323009617095558
+      tronco_oco_39: 6851548135112477866
+      tronco_oco_4: -4775792435740179472
+      tronco_oco_40: 1037694125781191086
+      tronco_oco_41: -8027727959831762404
+      tronco_oco_42: -2248769658526307004
+      tronco_oco_43: 3861127045242820770
+      tronco_oco_44: -3691022011689624158
+      tronco_oco_45: 8250104111616700619
+      tronco_oco_46: 5208984991725298215
+      tronco_oco_5: 1200642223015363933
+      tronco_oco_6: -5489857459574438314
+      tronco_oco_7: 2668383463444272434
+      tronco_oco_8: 2969769160287448139
+      tronco_oco_9: 7960011842094434146
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

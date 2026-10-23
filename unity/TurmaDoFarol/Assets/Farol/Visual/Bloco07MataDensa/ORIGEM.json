@@ -1,0 +1,49 @@
+{
+  "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/revisao-artistica-fase3/mata-densa-pacote-v01",
+  "arquivos": [
+    {
+      "arquivo": "camadas/cenarioE_3_mata_densa.png",
+      "sha256": "0fb33d1bcafbb0558e70a59b3621b1500a2f21d563ab6a4adbec1cc29e7ae878"
+    },
+    {
+      "arquivo": "pecas/cipo_pendente.png",
+      "sha256": "960dca7710c59bdd4dbdc68185fc8426daf7f8f97583ccadbe4a48715bac1283"
+    },
+    {
+      "arquivo": "pecas/cipo_pendente_120x380.png",
+      "sha256": "ca676d8ef347ea61fa09eac46eac9db86b7c4614ed930dc7d04e853a1b07217f"
+    },
+    {
+      "arquivo": "pecas/tronco_oco.png",
+      "sha256": "55238305487ef73b95d68d0c6ce39ce95270af9a9c6827a25fcf7b355845f3a1"
+    },
+    {
+      "arquivo": "pecas/tronco_oco_384x160_ESTUDO.png",
+      "sha256": "c9818494a98655a5ecde41f7b6b2e2954a52fc140dfc07dcf1392bc587f51b4c"
+    },
+    {
+      "arquivo": "pecas/tronco_teto.png",
+      "sha256": "c959d060771cd7ef23d8e4839117cc15765d709225e65e73e130443fed49acc6"
+    },
+    {
+      "arquivo": "pecas/tronco_teto_300x85.png",
+      "sha256": "bcba4acfdb8877f0576544392696610a0a711ce5e89cfd9f35b64874d9a6098a"
+    },
+    {
+      "arquivo": "pecas/tronco_teto_360x85.png",
+      "sha256": "2b8bba5dacfd5b77900fb1d5f623ab9e9afefe4d2f9a2cc07f328fe6ca13bdd6"
+    },
+    {
+      "arquivo": "tiles-adaptados/instavel_intacta_192.png",
+      "sha256": "b90d7ed31c2e19556086b570ad58a03f301d04c7ca31b70624bd8b743522a6f9"
+    },
+    {
+      "arquivo": "tiles-adaptados/laje_192.png",
+      "sha256": "e8c750af88655b52c033a297553702837d520c39a6674fcf27e41397c1aa7d0a"
+    },
+    {
+      "arquivo": "tiles-adaptados/laje_256.png",
+      "sha256": "c2e1c96d111e9a9d62fea5577fef8cfe2aee2a4bff95b7a74db6ee215e9e33fc"
+    }
+  ]
+}
