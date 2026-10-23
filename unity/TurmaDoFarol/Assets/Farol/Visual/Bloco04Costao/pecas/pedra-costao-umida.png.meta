@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 6709f8c1d85934095af31d435d04375b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1851898284657945694
+    second: pedra-costao-umida_0
+  - first:
+      213: -4023585243458922189
+    second: pedra-costao-umida_1
+  - first:
+      213: -6254992625868715692
+    second: pedra-costao-umida_2
+  - first:
+      213: 4260910687219587693
+    second: pedra-costao-umida_3
+  - first:
+      213: -7929183946928774124
+    second: pedra-costao-umida_4
+  - first:
+      213: -230873210644766797
+    second: pedra-costao-umida_5
+  - first:
+      213: 8305589279024928441
+    second: pedra-costao-umida_6
+  - first:
+      213: 6223716509935655934
+    second: pedra-costao-umida_7
+  - first:
+      213: 489518186400971410
+    second: pedra-costao-umida_8
+  - first:
+      213: -4624006059578698782
+    second: pedra-costao-umida_9
+  - first:
+      213: 479767910752986023
+    second: pedra-costao-umida_10
+  - first:
+      213: -2333795967246778977
+    second: pedra-costao-umida_11
+  - first:
+      213: 8689406890353959679
+    second: pedra-costao-umida_12
+  - first:
+      213: -2598548885449621569
+    second: pedra-costao-umida_13
+  - first:
+      213: 1453802378344772662
+    second: pedra-costao-umida_14
+  - first:
+      213: -1067211692870911685
+    second: pedra-costao-umida_15
+  - first:
+      213: -1931606368371189277
+    second: pedra-costao-umida_16
+  - first:
+      213: -7170774788668024358
+    second: pedra-costao-umida_17
+  - first:
+      213: 3627478375410068161
+    second: pedra-costao-umida_18
+  - first:
+      213: 7977950622210426027
+    second: pedra-costao-umida_19
+  - first:
+      213: -2626835671747005689
+    second: pedra-costao-umida_20
+  - first:
+      213: 1091600502891321959
+    second: pedra-costao-umida_21
+  - first:
+      213: -5691108180106539294
+    second: pedra-costao-umida_22
+  - first:
+      213: -194306762271149887
+    second: pedra-costao-umida_23
+  - first:
+      213: -6896542649092811493
+    second: pedra-costao-umida_24
+  - first:
+      213: 5088815025655679200
+    second: pedra-costao-umida_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pedra-costao-umida_0
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 993
+        width: 80
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c21399da343b910800000000000000
+      internalID: 1851898284657945694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 130
+        width: 1528
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3399028f98a5928c0800000000000000
+      internalID: -4023585243458922189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_2
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1074
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459486ed85dc139a0800000000000000
+      internalID: -6254992625868715692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_3
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1129
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a936bd1bbc12b30800000000000000
+      internalID: 4260910687219587693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_4
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1058
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414a49cf531e5f190800000000000000
+      internalID: -7929183946928774124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_5
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf5d53c906cbccf0800000000000000
+      internalID: -230873210644766797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_6
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 1119
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6d292c171634370800000000000000
+      internalID: 8305589279024928441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_7
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1074
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbd27de0351f5650800000000000000
+      internalID: 6223716509935655934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_8
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1078
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29af58b623e1bc600800000000000000
+      internalID: 489518186400971410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_9
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1074
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3de83ecfa34dfb0800000000000000
+      internalID: -4624006059578698782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_10
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1017
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a320177f5a78a600800000000000000
+      internalID: 479767910752986023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_11
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1122
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d340acee0bc9fd0800000000000000
+      internalID: -2333795967246778977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_12
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1082
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff221604789f69870800000000000000
+      internalID: 8689406890353959679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 910
+        width: 33
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfb94f6e8910fbd0800000000000000
+      internalID: -2598548885449621569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_14
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 746
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634bbde7f81fc2410800000000000000
+      internalID: 1453802378344772662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_15
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 714
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b393942ae908031f0800000000000000
+      internalID: -1067211692870911685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_16
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 666
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e95a57fd3e8135e0800000000000000
+      internalID: -1931606368371189277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_17
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 324
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad99d15725a4c7c90800000000000000
+      internalID: -7170774788668024358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_18
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 267
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca6abcfc54675230800000000000000
+      internalID: 3627478375410068161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_19
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 246
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4857862df57be60800000000000000
+      internalID: 7977950622210426027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_20
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 222
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703f136cfda9b8bd0800000000000000
+      internalID: -2626835671747005689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_21
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 197
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a9973bfd4262f00800000000000000
+      internalID: 1091600502891321959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_22
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 201
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee0e62534f1501b0800000000000000
+      internalID: -5691108180106539294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_23
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 148
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c03f59770fad4df0800000000000000
+      internalID: -194306762271149887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_24
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 162
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15dd76000f8a40a0800000000000000
+      internalID: -6896542649092811493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-umida_25
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 150
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e880ebdd4a1f9640800000000000000
+      internalID: 5088815025655679200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pedra-costao-umida_0: 1851898284657945694
+      pedra-costao-umida_1: -4023585243458922189
+      pedra-costao-umida_10: 479767910752986023
+      pedra-costao-umida_11: -2333795967246778977
+      pedra-costao-umida_12: 8689406890353959679
+      pedra-costao-umida_13: -2598548885449621569
+      pedra-costao-umida_14: 1453802378344772662
+      pedra-costao-umida_15: -1067211692870911685
+      pedra-costao-umida_16: -1931606368371189277
+      pedra-costao-umida_17: -7170774788668024358
+      pedra-costao-umida_18: 3627478375410068161
+      pedra-costao-umida_19: 7977950622210426027
+      pedra-costao-umida_2: -6254992625868715692
+      pedra-costao-umida_20: -2626835671747005689
+      pedra-costao-umida_21: 1091600502891321959
+      pedra-costao-umida_22: -5691108180106539294
+      pedra-costao-umida_23: -194306762271149887
+      pedra-costao-umida_24: -6896542649092811493
+      pedra-costao-umida_25: 5088815025655679200
+      pedra-costao-umida_3: 4260910687219587693
+      pedra-costao-umida_4: -7929183946928774124
+      pedra-costao-umida_5: -230873210644766797
+      pedra-costao-umida_6: 8305589279024928441
+      pedra-costao-umida_7: 6223716509935655934
+      pedra-costao-umida_8: 489518186400971410
+      pedra-costao-umida_9: -4624006059578698782
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

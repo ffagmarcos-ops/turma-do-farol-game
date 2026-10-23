@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: ecfaefd1c3a394574bffdf72ead61390
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8479014079847272388
+    second: pedra-costao-musgo_0
+  - first:
+      213: 3854860167444935625
+    second: pedra-costao-musgo_1
+  - first:
+      213: -5598904396139652297
+    second: pedra-costao-musgo_2
+  - first:
+      213: 3883460777543602059
+    second: pedra-costao-musgo_3
+  - first:
+      213: -4051023547914280785
+    second: pedra-costao-musgo_4
+  - first:
+      213: -1386004453208186484
+    second: pedra-costao-musgo_5
+  - first:
+      213: -3302020707904452965
+    second: pedra-costao-musgo_6
+  - first:
+      213: 1746585478722554486
+    second: pedra-costao-musgo_7
+  - first:
+      213: -2077519197070528653
+    second: pedra-costao-musgo_8
+  - first:
+      213: -1143527216015320301
+    second: pedra-costao-musgo_9
+  - first:
+      213: 2175738155809844116
+    second: pedra-costao-musgo_10
+  - first:
+      213: -933716532415214293
+    second: pedra-costao-musgo_11
+  - first:
+      213: 8677989650475263427
+    second: pedra-costao-musgo_12
+  - first:
+      213: 1285174333004721556
+    second: pedra-costao-musgo_13
+  - first:
+      213: 7878414633711798868
+    second: pedra-costao-musgo_14
+  - first:
+      213: -2766636170782110734
+    second: pedra-costao-musgo_15
+  - first:
+      213: 4517575050236569703
+    second: pedra-costao-musgo_16
+  - first:
+      213: 1234883852084146974
+    second: pedra-costao-musgo_17
+  - first:
+      213: -699354807753667099
+    second: pedra-costao-musgo_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pedra-costao-musgo_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 107
+        width: 1242
+        height: 1247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30fa2d3e9d745a80800000000000000
+      internalID: -8479014079847272388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_1
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1240
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3bb5bf5e63f7530800000000000000
+      internalID: 3854860167444935625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_2
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1205
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b19b0bd12bc42b0800000000000000
+      internalID: -5598904396139652297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_3
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1182
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f06a07003d4e530800000000000000
+      internalID: 3883460777543602059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_4
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1170
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0a3d1eb8fd7c7c0800000000000000
+      internalID: -4051023547914280785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_5
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 400
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81aa6d0b4ce3cce0800000000000000
+      internalID: -1386004453208186484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_6
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 340
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b960f5839addc22d0800000000000000
+      internalID: -3302020707904452965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_7
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 309
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a0d153d3e1d3810800000000000000
+      internalID: 1746585478722554486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_8
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 290
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f6e842c4b2b23e0800000000000000
+      internalID: -2077519197070528653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_9
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 298
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b5a624e006120f0800000000000000
+      internalID: -1143527216015320301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_10
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 292
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b2f4d3356c13e10800000000000000
+      internalID: 2175738155809844116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_11
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 278
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d4b74c2c5ca03f0800000000000000
+      internalID: -933716532415214293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_12
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 281
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c52811fb996e6870800000000000000
+      internalID: 8677989650475263427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_13
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 275
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d22392f3bd5d110800000000000000
+      internalID: 1285174333004721556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_14
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 260
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a81a32e50c55d60800000000000000
+      internalID: 7878414633711798868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_15
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 244
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb09c99f0fea99d0800000000000000
+      internalID: -2766636170782110734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_16
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 244
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768a483b296a1be30800000000000000
+      internalID: 4517575050236569703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_17
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 244
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13775e1250332110800000000000000
+      internalID: 1234883852084146974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedra-costao-musgo_18
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 165
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed81e7f1846b46f0800000000000000
+      internalID: -699354807753667099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pedra-costao-musgo_0: -8479014079847272388
+      pedra-costao-musgo_1: 3854860167444935625
+      pedra-costao-musgo_10: 2175738155809844116
+      pedra-costao-musgo_11: -933716532415214293
+      pedra-costao-musgo_12: 8677989650475263427
+      pedra-costao-musgo_13: 1285174333004721556
+      pedra-costao-musgo_14: 7878414633711798868
+      pedra-costao-musgo_15: -2766636170782110734
+      pedra-costao-musgo_16: 4517575050236569703
+      pedra-costao-musgo_17: 1234883852084146974
+      pedra-costao-musgo_18: -699354807753667099
+      pedra-costao-musgo_2: -5598904396139652297
+      pedra-costao-musgo_3: 3883460777543602059
+      pedra-costao-musgo_4: -4051023547914280785
+      pedra-costao-musgo_5: -1386004453208186484
+      pedra-costao-musgo_6: -3302020707904452965
+      pedra-costao-musgo_7: 1746585478722554486
+      pedra-costao-musgo_8: -2077519197070528653
+      pedra-costao-musgo_9: -1143527216015320301
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

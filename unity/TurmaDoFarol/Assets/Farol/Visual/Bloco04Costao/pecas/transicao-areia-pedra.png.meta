@@ -1,0 +1,1820 @@
+fileFormatVersion: 2
+guid: 8f6625d6097f04e65b914eec5d783c15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7220565272931057960
+    second: transicao-areia-pedra_0
+  - first:
+      213: -3081244708058252925
+    second: transicao-areia-pedra_1
+  - first:
+      213: 5109948438658646051
+    second: transicao-areia-pedra_2
+  - first:
+      213: 8134780324010832680
+    second: transicao-areia-pedra_3
+  - first:
+      213: 7890559322971653135
+    second: transicao-areia-pedra_4
+  - first:
+      213: -4581707732347737520
+    second: transicao-areia-pedra_5
+  - first:
+      213: 1529950410015114436
+    second: transicao-areia-pedra_6
+  - first:
+      213: -597795629148857619
+    second: transicao-areia-pedra_7
+  - first:
+      213: -9024304720586780227
+    second: transicao-areia-pedra_8
+  - first:
+      213: -4271289271012108742
+    second: transicao-areia-pedra_9
+  - first:
+      213: 6456993131284558273
+    second: transicao-areia-pedra_10
+  - first:
+      213: -8226547687100491527
+    second: transicao-areia-pedra_11
+  - first:
+      213: 389175578804119802
+    second: transicao-areia-pedra_12
+  - first:
+      213: -940422108774765863
+    second: transicao-areia-pedra_13
+  - first:
+      213: -2192614009936882546
+    second: transicao-areia-pedra_14
+  - first:
+      213: 8484998948329445826
+    second: transicao-areia-pedra_15
+  - first:
+      213: -2758968701781466615
+    second: transicao-areia-pedra_16
+  - first:
+      213: 5499993302123552133
+    second: transicao-areia-pedra_17
+  - first:
+      213: -7683766286050443538
+    second: transicao-areia-pedra_18
+  - first:
+      213: -4573484006740323076
+    second: transicao-areia-pedra_19
+  - first:
+      213: -3585407011982579367
+    second: transicao-areia-pedra_20
+  - first:
+      213: -6335562068896645173
+    second: transicao-areia-pedra_21
+  - first:
+      213: -8768736220795978398
+    second: transicao-areia-pedra_22
+  - first:
+      213: 7239862681074632425
+    second: transicao-areia-pedra_23
+  - first:
+      213: 3065579171503073695
+    second: transicao-areia-pedra_24
+  - first:
+      213: -5617926768673173355
+    second: transicao-areia-pedra_25
+  - first:
+      213: 4917957417995718780
+    second: transicao-areia-pedra_26
+  - first:
+      213: -1485408020413325036
+    second: transicao-areia-pedra_27
+  - first:
+      213: -5996864348576523759
+    second: transicao-areia-pedra_28
+  - first:
+      213: 2786624781586157198
+    second: transicao-areia-pedra_29
+  - first:
+      213: -3275962297739409948
+    second: transicao-areia-pedra_30
+  - first:
+      213: -6330834720762479100
+    second: transicao-areia-pedra_31
+  - first:
+      213: -4375573938498127961
+    second: transicao-areia-pedra_32
+  - first:
+      213: -8170008844434412194
+    second: transicao-areia-pedra_33
+  - first:
+      213: 8623659244677985242
+    second: transicao-areia-pedra_34
+  - first:
+      213: 7745918521867245646
+    second: transicao-areia-pedra_35
+  - first:
+      213: -6311797172264653138
+    second: transicao-areia-pedra_36
+  - first:
+      213: -6330740666478089825
+    second: transicao-areia-pedra_37
+  - first:
+      213: 4674451178939264848
+    second: transicao-areia-pedra_38
+  - first:
+      213: -7611266685085422944
+    second: transicao-areia-pedra_39
+  - first:
+      213: -5769413129066691938
+    second: transicao-areia-pedra_40
+  - first:
+      213: -4529225198047425560
+    second: transicao-areia-pedra_41
+  - first:
+      213: -1103092584506654839
+    second: transicao-areia-pedra_42
+  - first:
+      213: 1335918683120615271
+    second: transicao-areia-pedra_43
+  - first:
+      213: -5998031116461083711
+    second: transicao-areia-pedra_44
+  - first:
+      213: 2466641550905427983
+    second: transicao-areia-pedra_45
+  - first:
+      213: -7954702918286100753
+    second: transicao-areia-pedra_46
+  - first:
+      213: 1905525978886688045
+    second: transicao-areia-pedra_47
+  - first:
+      213: 8861880029891158866
+    second: transicao-areia-pedra_48
+  - first:
+      213: 9183684106402676383
+    second: transicao-areia-pedra_49
+  - first:
+      213: -8786578380726126239
+    second: transicao-areia-pedra_50
+  - first:
+      213: -7760402061782171786
+    second: transicao-areia-pedra_51
+  - first:
+      213: -8230822866586486511
+    second: transicao-areia-pedra_52
+  - first:
+      213: -898285914668589735
+    second: transicao-areia-pedra_53
+  - first:
+      213: 3214855668222189918
+    second: transicao-areia-pedra_54
+  - first:
+      213: 7394107886853083591
+    second: transicao-areia-pedra_55
+  - first:
+      213: -3163286954253054100
+    second: transicao-areia-pedra_56
+  - first:
+      213: -4462032096589507215
+    second: transicao-areia-pedra_57
+  - first:
+      213: -2008656111453709970
+    second: transicao-areia-pedra_58
+  - first:
+      213: 8151290687867214811
+    second: transicao-areia-pedra_59
+  - first:
+      213: 5457485548140908785
+    second: transicao-areia-pedra_60
+  - first:
+      213: 508301480290285360
+    second: transicao-areia-pedra_61
+  - first:
+      213: -772944911902341381
+    second: transicao-areia-pedra_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: transicao-areia-pedra_0
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 527
+        width: 92
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821c39a0cd9943460800000000000000
+      internalID: 7220565272931057960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 535
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389b22e53483d35d0800000000000000
+      internalID: -3081244708058252925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 521
+        width: 57
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3208fc2080f2ae640800000000000000
+      internalID: 5109948438658646051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 521
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823b082da9b84e070800000000000000
+      internalID: 8134780324010832680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_4
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 527
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f044fd4f5e5e08d60800000000000000
+      internalID: 7890559322971653135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_5
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 523
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05aa0c4a7118a60c0800000000000000
+      internalID: -4581707732347737520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_6
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 535
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c40ae8bac97b3510800000000000000
+      internalID: 1529950410015114436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_7
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 529
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea1d44ea0434b7f0800000000000000
+      internalID: -597795629148857619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_8
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 537
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db15b806baa33c280800000000000000
+      internalID: -9024304720586780227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_9
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 541
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36d26cc90559b4c0800000000000000
+      internalID: -4271289271012108742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_10
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 518
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c17a53da09db9950800000000000000
+      internalID: 6456993131284558273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_11
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 521
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f85096f67e65dd80800000000000000
+      internalID: -8226547687100491527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_12
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 505
+        width: 118
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af860e18021a66500800000000000000
+      internalID: 389175578804119802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_13
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 505
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da6e8b1313f2f2f0800000000000000
+      internalID: -940422108774765863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_14
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 480
+        width: 82
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84da28cc254291e0800000000000000
+      internalID: -2192614009936882546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_15
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 511
+        width: 212
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c95dba8695c0c570800000000000000
+      internalID: 8484998948329445826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_16
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 521
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90225e7559c26b9d0800000000000000
+      internalID: -2758968701781466615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_17
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 179
+        width: 2156
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d1a10a4c6e35c40800000000000000
+      internalID: 5499993302123552133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_18
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 519
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee37dee547cd5590800000000000000
+      internalID: -7683766286050443538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_19
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 502
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf41058f688b780c0800000000000000
+      internalID: -4573484006740323076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_20
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 503
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9596593a1531e3ec0800000000000000
+      internalID: -3585407011982579367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_21
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 521
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcff9f69ddf8318a0800000000000000
+      internalID: -6335562068896645173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_22
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 519
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dba5eadd03f4680800000000000000
+      internalID: -8768736220795978398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_23
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 508
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e68f0000c8297460800000000000000
+      internalID: 7239862681074632425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_24
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 490
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99e64ca3002b8a20800000000000000
+      internalID: 3065579171503073695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_25
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 502
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590d3137e5d1902b0800000000000000
+      internalID: -5617926768673173355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_26
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 494
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70d1281738104440800000000000000
+      internalID: 4917957417995718780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_27
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 487
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4116fb48645c26be0800000000000000
+      internalID: -1485408020413325036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_28
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 497
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a54e0d5abd6cca0800000000000000
+      internalID: -5996864348576523759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_29
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 477
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e4eb489741ca620800000000000000
+      internalID: 2786624781586157198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_30
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 477
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e58ba1a5a17982d0800000000000000
+      internalID: -3275962297739409948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_31
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 476
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e3e391d5b5428a0800000000000000
+      internalID: -6330834720762479100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_32
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 484
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7bc5b8fa6d643c0800000000000000
+      internalID: -4375573938498127961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_33
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 473
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5defa71e3c4e9e80800000000000000
+      internalID: -8170008844434412194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_34
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 446
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad37b0794646da770800000000000000
+      internalID: 8623659244677985242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_35
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 469
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4814032bd70f7b60800000000000000
+      internalID: 7745918521867245646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_36
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 468
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaea9d4c9edf768a0800000000000000
+      internalID: -6311797172264653138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_37
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 482
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f992471d7e0b428a0800000000000000
+      internalID: -6330740666478089825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_38
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 478
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fa498b49cfed040800000000000000
+      internalID: 4674451178939264848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_39
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 468
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aae7b0b6495f5690800000000000000
+      internalID: -7611266685085422944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_40
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 466
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e924187a35deeefa0800000000000000
+      internalID: -5769413129066691938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_41
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 462
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb82a2eda5f421c0800000000000000
+      internalID: -4529225198047425560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_42
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 470
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ffc1a832701b0f0800000000000000
+      internalID: -1103092584506654839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_43
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 471
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f363cd6f22a8210800000000000000
+      internalID: 1335918683120615271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_44
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 470
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3f89f7a76b2cca0800000000000000
+      internalID: -5998031116461083711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_45
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 470
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08cfe5fb654b3220800000000000000
+      internalID: 2466641550905427983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_46
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 468
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe63bc577d73b9190800000000000000
+      internalID: -7954702918286100753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_47
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 454
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2dc1d928c9c17a10800000000000000
+      internalID: 1905525978886688045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_48
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 456
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2536ac75fe8bbfa70800000000000000
+      internalID: 8861880029891158866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_49
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 454
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e388b9900037f70800000000000000
+      internalID: 9183684106402676383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_50
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 462
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16931b9148dcf0680800000000000000
+      internalID: -8786578380726126239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_51
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 458
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fb341f0738d4490800000000000000
+      internalID: -7760402061782171786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_52
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 462
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11933fb263e36cd80800000000000000
+      internalID: -8230822866586486511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_53
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 462
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d117d48b5a883f0800000000000000
+      internalID: -898285914668589735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_54
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 430
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51e88c72367d9c20800000000000000
+      internalID: 3214855668222189918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_55
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 446
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1daca82f52d9660800000000000000
+      internalID: 7394107886853083591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_56
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 448
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f8e11664fb914d0800000000000000
+      internalID: -3163286954253054100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_57
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 446
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1751462f27da312c0800000000000000
+      internalID: -4462032096589507215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_58
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 440
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6952e0b8e1df14e0800000000000000
+      internalID: -2008656111453709970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_59
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 434
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb564771b33f1170800000000000000
+      internalID: 8151290687867214811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_60
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 416
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f054c7e032ecbb40800000000000000
+      internalID: 5457485548140908785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_61
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 422
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037f183d089dd0700800000000000000
+      internalID: 508301480290285360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transicao-areia-pedra_62
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 179
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf68d17a2b2f545f0800000000000000
+      internalID: -772944911902341381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      transicao-areia-pedra_0: 7220565272931057960
+      transicao-areia-pedra_1: -3081244708058252925
+      transicao-areia-pedra_10: 6456993131284558273
+      transicao-areia-pedra_11: -8226547687100491527
+      transicao-areia-pedra_12: 389175578804119802
+      transicao-areia-pedra_13: -940422108774765863
+      transicao-areia-pedra_14: -2192614009936882546
+      transicao-areia-pedra_15: 8484998948329445826
+      transicao-areia-pedra_16: -2758968701781466615
+      transicao-areia-pedra_17: 5499993302123552133
+      transicao-areia-pedra_18: -7683766286050443538
+      transicao-areia-pedra_19: -4573484006740323076
+      transicao-areia-pedra_2: 5109948438658646051
+      transicao-areia-pedra_20: -3585407011982579367
+      transicao-areia-pedra_21: -6335562068896645173
+      transicao-areia-pedra_22: -8768736220795978398
+      transicao-areia-pedra_23: 7239862681074632425
+      transicao-areia-pedra_24: 3065579171503073695
+      transicao-areia-pedra_25: -5617926768673173355
+      transicao-areia-pedra_26: 4917957417995718780
+      transicao-areia-pedra_27: -1485408020413325036
+      transicao-areia-pedra_28: -5996864348576523759
+      transicao-areia-pedra_29: 2786624781586157198
+      transicao-areia-pedra_3: 8134780324010832680
+      transicao-areia-pedra_30: -3275962297739409948
+      transicao-areia-pedra_31: -6330834720762479100
+      transicao-areia-pedra_32: -4375573938498127961
+      transicao-areia-pedra_33: -8170008844434412194
+      transicao-areia-pedra_34: 8623659244677985242
+      transicao-areia-pedra_35: 7745918521867245646
+      transicao-areia-pedra_36: -6311797172264653138
+      transicao-areia-pedra_37: -6330740666478089825
+      transicao-areia-pedra_38: 4674451178939264848
+      transicao-areia-pedra_39: -7611266685085422944
+      transicao-areia-pedra_4: 7890559322971653135
+      transicao-areia-pedra_40: -5769413129066691938
+      transicao-areia-pedra_41: -4529225198047425560
+      transicao-areia-pedra_42: -1103092584506654839
+      transicao-areia-pedra_43: 1335918683120615271
+      transicao-areia-pedra_44: -5998031116461083711
+      transicao-areia-pedra_45: 2466641550905427983
+      transicao-areia-pedra_46: -7954702918286100753
+      transicao-areia-pedra_47: 1905525978886688045
+      transicao-areia-pedra_48: 8861880029891158866
+      transicao-areia-pedra_49: 9183684106402676383
+      transicao-areia-pedra_5: -4581707732347737520
+      transicao-areia-pedra_50: -8786578380726126239
+      transicao-areia-pedra_51: -7760402061782171786
+      transicao-areia-pedra_52: -8230822866586486511
+      transicao-areia-pedra_53: -898285914668589735
+      transicao-areia-pedra_54: 3214855668222189918
+      transicao-areia-pedra_55: 7394107886853083591
+      transicao-areia-pedra_56: -3163286954253054100
+      transicao-areia-pedra_57: -4462032096589507215
+      transicao-areia-pedra_58: -2008656111453709970
+      transicao-areia-pedra_59: 8151290687867214811
+      transicao-areia-pedra_6: 1529950410015114436
+      transicao-areia-pedra_60: 5457485548140908785
+      transicao-areia-pedra_61: 508301480290285360
+      transicao-areia-pedra_62: -772944911902341381
+      transicao-areia-pedra_7: -597795629148857619
+      transicao-areia-pedra_8: -9024304720586780227
+      transicao-areia-pedra_9: -4271289271012108742
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

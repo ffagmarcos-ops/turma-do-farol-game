@@ -17,11 +17,11 @@ namespace TurmaDoFarol.Editor
             }
         }
         static Sprite Sprite(string relative){var s=AssetDatabase.LoadAssetAtPath<Sprite>(Folder+relative+".png");if(!s)throw new InvalidOperationException(relative);return s;}
-        static Material Material(string tile,bool pilot)
+        static Material Material(string tile,bool pilot,string folder=null)
         {
-            string path=Folder+"Materiais/"+tile+(pilot?"_URP":"_Padrao")+".mat";var m=AssetDatabase.LoadAssetAtPath<Material>(path);
+            folder=folder??Folder;string path=folder+"Materiais/"+tile+(pilot?"_URP":"_Padrao")+".mat";var m=AssetDatabase.LoadAssetAtPath<Material>(path);
             if(!m){m=new Material(Shader.Find(pilot?"Universal Render Pipeline/2D/Sprite-Unlit-Default":"Sprites/Default"));AssetDatabase.CreateAsset(m,path);}
-            m.mainTexture=Sprite("tiles-candidatos/"+tile).texture;EditorUtility.SetDirty(m);return m;
+            m.mainTexture=AssetDatabase.LoadAssetAtPath<Texture2D>(folder+"tiles-candidatos/"+tile+".png");EditorUtility.SetDirty(m);return m;
         }
         // Cada repetição encontra sua própria borda espelhada: o desenho original não é alterado.
         static float Mirror(float v){return Mathf.PingPong(v,1);}
@@ -34,11 +34,11 @@ namespace TurmaDoFarol.Editor
             }
             public Mesh Mesh(){var m=new Mesh();m.SetVertices(vertices);m.SetUVs(0,uv);m.SetColors(colors);m.SetTriangles(indices,0);m.RecalculateBounds();return m;}
         }
-        static void Render(Transform root,string name,Geometry geometry,Material material,int order)
+        static void Render(Transform root,string name,Geometry geometry,Material material,int order,string folder=null)
         {
-            string path=Folder+"Meshes/"+name+".asset";var mesh=geometry.Mesh();mesh.name=name;var saved=AssetDatabase.LoadAssetAtPath<Mesh>(path);if(saved){EditorUtility.CopySerialized(mesh,saved);UnityEngine.Object.DestroyImmediate(mesh);}else{saved=mesh;AssetDatabase.CreateAsset(saved,path);}var go=new GameObject(name);go.transform.SetParent(root,false);go.AddComponent<MeshFilter>().sharedMesh=saved;var r=go.AddComponent<MeshRenderer>();r.sharedMaterial=material;r.sortingOrder=order;r.sortingLayerName="Default";EditorUtility.SetDirty(saved);
+            folder=folder??Folder;string path=folder+"Meshes/"+name+".asset";var mesh=geometry.Mesh();mesh.name=name;var saved=AssetDatabase.LoadAssetAtPath<Mesh>(path);if(saved){EditorUtility.CopySerialized(mesh,saved);UnityEngine.Object.DestroyImmediate(mesh);}else{saved=mesh;AssetDatabase.CreateAsset(saved,path);}var go=new GameObject(name);go.transform.SetParent(root,false);go.AddComponent<MeshFilter>().sharedMesh=saved;var r=go.AddComponent<MeshRenderer>();r.sharedMaterial=material;r.sortingOrder=order;r.sortingLayerName="Default";EditorUtility.SetDirty(saved);
         }
-        static void Ground(Transform root,Bounds b,bool rock,int index,bool pilot)
+        public static void Ground(Transform root,Bounds b,bool rock,int index,bool pilot,string folder=null,string top=null,string filling=null,float fadeFrom=float.NaN,float fadeTo=float.NaN)
         {
             const float unit=1.28f;float surface=rock?.08f:.12f,ceiling=b.max.y+surface;var cap=new Geometry();var fill=new Geometry();
             int first=Mathf.FloorToInt(b.min.x/unit),last=Mathf.CeilToInt(b.max.x/unit);
@@ -60,8 +60,9 @@ namespace TurmaDoFarol.Editor
                     fill.Quad(left,right,y,next,u0,u1,Mirror(y/unit),Mirror(next/unit));y=next;
                 }
             }
-            if(fill.vertices.Count>0)Render(root,"Solo_"+index+"_Base",fill,Material(rock?"rocha_meio":"areia_meio",pilot),4);
-            Render(root,"Solo_"+index+"_Topo",cap,Material(rock?"rocha_topo":"areia_topo",pilot),5);
+            int extra=0;if(!float.IsNaN(fadeFrom)){extra=2;foreach(var geometry in new[]{fill,cap})for(int i=0;i<geometry.colors.Count;i++){var color=geometry.colors[i];color.a*=Mathf.InverseLerp(fadeFrom,fadeTo,geometry.vertices[i].x);geometry.colors[i]=color;}}
+            if(fill.vertices.Count>0)Render(root,"Solo_"+index+"_Base",fill,Material(filling??(rock?"rocha_meio":"areia_meio"),pilot,folder),4+extra,folder);
+            Render(root,"Solo_"+index+"_Topo",cap,Material(top??(rock?"rocha_topo":"areia_topo"),pilot,folder),5+extra,folder);
         }
         static void Decor(SpriteRenderer sr,string file)
         {

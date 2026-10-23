@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: ad498e090de0243a8838874e81910e46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3762134979583635475
+    second: samambaia-fenda_0
+  - first:
+      213: 7276172432434614111
+    second: samambaia-fenda_1
+  - first:
+      213: 618116959358956729
+    second: samambaia-fenda_2
+  - first:
+      213: -919625311267330422
+    second: samambaia-fenda_3
+  - first:
+      213: 5441441796076366799
+    second: samambaia-fenda_4
+  - first:
+      213: -9023241079732200540
+    second: samambaia-fenda_5
+  - first:
+      213: -2812360158951433567
+    second: samambaia-fenda_6
+  - first:
+      213: 1944108332328105838
+    second: samambaia-fenda_7
+  - first:
+      213: -8742388984104254745
+    second: samambaia-fenda_8
+  - first:
+      213: 3102570876787729127
+    second: samambaia-fenda_9
+  - first:
+      213: 4195157336927100041
+    second: samambaia-fenda_10
+  - first:
+      213: -4721054186382451277
+    second: samambaia-fenda_11
+  - first:
+      213: 2688200373253989639
+    second: samambaia-fenda_12
+  - first:
+      213: 6642580740370511632
+    second: samambaia-fenda_13
+  - first:
+      213: 4893502900987744869
+    second: samambaia-fenda_14
+  - first:
+      213: 2729457329712181690
+    second: samambaia-fenda_15
+  - first:
+      213: -2101717234159085700
+    second: samambaia-fenda_16
+  - first:
+      213: 4739163646729257106
+    second: samambaia-fenda_17
+  - first:
+      213: -8558037702100974625
+    second: samambaia-fenda_18
+  - first:
+      213: 1307157213450506242
+    second: samambaia-fenda_19
+  - first:
+      213: -552495484177648194
+    second: samambaia-fenda_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: samambaia-fenda_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 489
+        width: 155
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def88d03b263acbc0800000000000000
+      internalID: -3762134979583635475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 493
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f41c7c6482af460800000000000000
+      internalID: 7276172432434614111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 502
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b43c30891ef39800800000000000000
+      internalID: 618116959358956729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 550
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86e37bd6a5dc33f0800000000000000
+      internalID: -919625311267330422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_4
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 455
+        width: 153
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb6819cb72e38b40800000000000000
+      internalID: 5441441796076366799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_5
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 459
+        width: 190
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab99df8b0207c280800000000000000
+      internalID: -9023241079732200540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_6
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 518
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa1d31065d78f8d0800000000000000
+      internalID: -2812360158951433567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_7
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 469
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e673b495a3cdafa10800000000000000
+      internalID: 1944108332328105838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_8
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 526
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e28d22c98bcca680800000000000000
+      internalID: -8742388984104254745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_9
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 530
+        width: 86
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2a76936cb8e0b20800000000000000
+      internalID: 3102570876787729127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_10
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 530
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cd96cfe51383a30800000000000000
+      internalID: 4195157336927100041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_11
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 530
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd9d4f0b327b7eb0800000000000000
+      internalID: -4721054186382451277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_12
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 455
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70560ec2ff76e4520800000000000000
+      internalID: 2688200373253989639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_13
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 463
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017b2ad4dff2f2c50800000000000000
+      internalID: 6642580740370511632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 461
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562d7b826f639e340800000000000000
+      internalID: 4893502900987744869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_15
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 337
+        width: 33
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1b417eafaf0e520800000000000000
+      internalID: 2729457329712181690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_16
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 461
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7791a79f4335d2e0800000000000000
+      internalID: -2101717234159085700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_17
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 455
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2900ebf3a34e4c140800000000000000
+      internalID: 4739163646729257106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 74
+        width: 830
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd30fd76d0ebb3980800000000000000
+      internalID: -8558037702100974625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_19
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 443
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2009e4d5f84f32210800000000000000
+      internalID: 1307157213450506242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samambaia-fenda_20
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 372
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5759dc8442558f0800000000000000
+      internalID: -552495484177648194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      samambaia-fenda_0: -3762134979583635475
+      samambaia-fenda_1: 7276172432434614111
+      samambaia-fenda_10: 4195157336927100041
+      samambaia-fenda_11: -4721054186382451277
+      samambaia-fenda_12: 2688200373253989639
+      samambaia-fenda_13: 6642580740370511632
+      samambaia-fenda_14: 4893502900987744869
+      samambaia-fenda_15: 2729457329712181690
+      samambaia-fenda_16: -2101717234159085700
+      samambaia-fenda_17: 4739163646729257106
+      samambaia-fenda_18: -8558037702100974625
+      samambaia-fenda_19: 1307157213450506242
+      samambaia-fenda_2: 618116959358956729
+      samambaia-fenda_20: -552495484177648194
+      samambaia-fenda_3: -919625311267330422
+      samambaia-fenda_4: 5441441796076366799
+      samambaia-fenda_5: -9023241079732200540
+      samambaia-fenda_6: -2812360158951433567
+      samambaia-fenda_7: 1944108332328105838
+      samambaia-fenda_8: -8742388984104254745
+      samambaia-fenda_9: 3102570876787729127
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

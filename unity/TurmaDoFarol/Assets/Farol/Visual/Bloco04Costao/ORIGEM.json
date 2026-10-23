@@ -1,0 +1,119 @@
+{
+  "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/revisao-artistica-fase3/costao-pacote-v01",
+  "chat": "01a164cc-241c-7d22-8ffa-ed54721e70a1",
+  "nota": "PNGs copiados sem alteração. Arte fornecida no chat de produção do projeto.",
+  "arquivos": [
+    {
+      "arquivo": "camadas/cenarioB_1_falesias.png",
+      "sha256": "f658c840a1cfe0fc6a6c61b5f47f49a6698451108d760719f6e57e561d8cc9b6"
+    },
+    {
+      "arquivo": "camadas/cenarioB_3_costao.png",
+      "sha256": "061a8de4f0817e0d25e899f8c5643e2e61c8e775d4bc695e5824aef6a3834661"
+    },
+    {
+      "arquivo": "pecas/arbusto-fenda.png",
+      "sha256": "a324b12b4ffc704e1e6abc2adebab17e96e7d8ae97043fb6385efae79e806587"
+    },
+    {
+      "arquivo": "pecas/canto_externo_direito.png",
+      "sha256": "e8189f3983e6cb8ee7df8cf25cd60a5bbaa6c45051cb0d034f1598e988478ae1"
+    },
+    {
+      "arquivo": "pecas/canto_externo_esquerdo.png",
+      "sha256": "b3f3250d6b7ad29ec89a86e5dc58d576fae5e9c5f461e4b740c4fcdcceb0dfa0"
+    },
+    {
+      "arquivo": "pecas/canto_interno_direito.png",
+      "sha256": "5cc0aeae3e594ea444326b3e00572c9a4a31c3279399e6cef9edfb99a039527f"
+    },
+    {
+      "arquivo": "pecas/canto_interno_esquerdo.png",
+      "sha256": "a4a8f2c266e6a3777ec6ae4a56b500c8d335ab783a3b1bd073b3c5e14d2e3bdb"
+    },
+    {
+      "arquivo": "pecas/capim-fenda.png",
+      "sha256": "3a36c5880d8195e73cceab391c71608b92b1b75fef721e3d6b6e9644045b7cee"
+    },
+    {
+      "arquivo": "pecas/forracao-musgo.png",
+      "sha256": "8f3869f6b96cb1ee53ed8987692304f8112bae65f88c6e56a2bd3f48ec8a9413"
+    },
+    {
+      "arquivo": "pecas/laje-apoio-mestre-recortado.png",
+      "sha256": "22cbb39533fcf5939c8c8e190be519facafc3d8d7bf0246915fc1d908f851eb7"
+    },
+    {
+      "arquivo": "pecas/laje-rachada-mestre-recortado.png",
+      "sha256": "5d23c9b68c3ceeff6117edc486b3d9c3edf793ebd5bdf5f390352f2cf52cdb80"
+    },
+    {
+      "arquivo": "pecas/lateral_direita.png",
+      "sha256": "a0eb55b115e9abd305b5016a30b2b67d548ce39dc2d63483a81b6246b9936d7f"
+    },
+    {
+      "arquivo": "pecas/lateral_esquerda.png",
+      "sha256": "a5cc8a3e34566f24d0d95fb301df1015ec6c3981851272f8acd7db8c8c2dd624"
+    },
+    {
+      "arquivo": "pecas/pedra-costao-musgo.png",
+      "sha256": "93429d44250274c49f0683e5a88f4b43f0612cc170352d36ff97afba012bb354"
+    },
+    {
+      "arquivo": "pecas/pedra-costao-umida.png",
+      "sha256": "ecfdd8ab796ff2ff69da8f5501851dabd28bb639e6f461c0855c7cff8b5338c2"
+    },
+    {
+      "arquivo": "pecas/samambaia-fenda.png",
+      "sha256": "b81771693b45127f22853f139cc2fd522f2cabfffa2390dbb14980feb28a515d"
+    },
+    {
+      "arquivo": "pecas/transicao-areia-pedra.png",
+      "sha256": "b4d264c975869c95f8e05809f1f235ed4a39f9d00a30e8871d4b1b4f3b5add4b"
+    },
+    {
+      "arquivo": "pecas/transicao-praia-costao.png",
+      "sha256": "7b94e1d787936ff2c2a03e7af5c30d6d5011e9f38d5e4e9967daf03dd652a508"
+    },
+    {
+      "arquivo": "tiles-candidatos/canto_externo_direito.png",
+      "sha256": "6e007bf9e80357b6ef6a3ef05f9d0e787b56ba71440708d66a419bd9fc580e7b"
+    },
+    {
+      "arquivo": "tiles-candidatos/canto_externo_esquerdo.png",
+      "sha256": "8703e7888447abd711a84f431fa40dc05943ef8486c26dec30111750db673bd9"
+    },
+    {
+      "arquivo": "tiles-candidatos/canto_interno_direito.png",
+      "sha256": "d70d108221e885cb17fccb00660cf5f063039b11526dbff30d3279a4816ef3b2"
+    },
+    {
+      "arquivo": "tiles-candidatos/canto_interno_esquerdo.png",
+      "sha256": "a8dd37673cd02cffeb91672e1a459cf67c93695f153e9de972fa6b3e8aa1a5ed"
+    },
+    {
+      "arquivo": "tiles-candidatos/lateral_direita.png",
+      "sha256": "f7dc3a7b6eefe0e0e24c09d095aee9b3e51a374a4ef6a4d8ac6f42c98ced0a85"
+    },
+    {
+      "arquivo": "tiles-candidatos/lateral_esquerda.png",
+      "sha256": "938407e5bb8c7eaef7281dd733bc0df09a9a62eb18a0b28aeeed69065b2c0d17"
+    },
+    {
+      "arquivo": "tiles-candidatos/plataforma_pedra_instavel_intacta.png",
+      "sha256": "a9d2f7a194344526650917db61bef52464280061c3d680f37889c93750bcb696"
+    },
+    {
+      "arquivo": "tiles-candidatos/plataforma_pedra_molhada.png",
+      "sha256": "ad4173526f53682af4040205adf217fcfbe100034b1401f186aa8b68cbfbef04"
+    },
+    {
+      "arquivo": "tiles-candidatos/rocha_umida_meio.png",
+      "sha256": "1d70c8f6a91b21cc46687ba4ec2d807b78105c8b407cc475c994ac30f5796774"
+    },
+    {
+      "arquivo": "tiles-candidatos/rocha_umida_topo.png",
+      "sha256": "93f3343603494d60d41f86c166566649a95b661c86494dac366de7dc14e82d07"
+    }
+  ]
+}
