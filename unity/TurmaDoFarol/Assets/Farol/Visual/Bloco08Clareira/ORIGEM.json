@@ -1,0 +1,29 @@
+{
+  "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/revisao-artistica-fase3/clareira-marina-pacote-v01",
+  "arquivos": [
+    {
+      "arquivo": "pecas/bloco_F1_0.png",
+      "sha256": "32453f72c6adbfa3c951c984787fdf28080d5df5ae57becb460bf466e884f2ac"
+    },
+    {
+      "arquivo": "pecas/bloco_F1_1.png",
+      "sha256": "67c010e092113e95b50c0b7cc45f159f29401d2aeefa4d26bad7c51b415647bc"
+    },
+    {
+      "arquivo": "pecas/bloco_F1_2.png",
+      "sha256": "83fa3ba8d721128828255b0544ce5fb3138925736b84406f1017916525520c0c"
+    },
+    {
+      "arquivo": "pecas/parede_F0_1.png",
+      "sha256": "61377241f76775954216df2c2d3793fe29100f42bed027bbdd6062e87f7173ab"
+    },
+    {
+      "arquivo": "pecas/parede_F2_1.png",
+      "sha256": "40685a6349f9f2230942b26903d5d95cd69a5f76db3da516491c35c231275bff"
+    },
+    {
+      "arquivo": "pecas/parede_F3_1.png",
+      "sha256": "c785a6b9655a6f33c7573d4f2576f7cf0884e69155a4b6d91a3792468fa672c0"
+    }
+  ]
+}

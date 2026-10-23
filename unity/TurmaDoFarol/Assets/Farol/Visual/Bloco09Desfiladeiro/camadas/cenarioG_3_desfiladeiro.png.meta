@@ -1,0 +1,1664 @@
+fileFormatVersion: 2
+guid: 75f6a096819b64ccead3abc0de80a8ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8368057625446009048
+    second: cenarioG_3_desfiladeiro_0
+  - first:
+      213: 6093296033893987385
+    second: cenarioG_3_desfiladeiro_1
+  - first:
+      213: 3512189662802358672
+    second: cenarioG_3_desfiladeiro_2
+  - first:
+      213: 3870899128919353976
+    second: cenarioG_3_desfiladeiro_3
+  - first:
+      213: 4331811850111684164
+    second: cenarioG_3_desfiladeiro_4
+  - first:
+      213: -1742767711960026634
+    second: cenarioG_3_desfiladeiro_5
+  - first:
+      213: 870204382264431113
+    second: cenarioG_3_desfiladeiro_6
+  - first:
+      213: -1464375581409814964
+    second: cenarioG_3_desfiladeiro_7
+  - first:
+      213: 4555652286124500604
+    second: cenarioG_3_desfiladeiro_8
+  - first:
+      213: 369602639997677486
+    second: cenarioG_3_desfiladeiro_9
+  - first:
+      213: -7218939002104749399
+    second: cenarioG_3_desfiladeiro_10
+  - first:
+      213: -3527515972979947220
+    second: cenarioG_3_desfiladeiro_11
+  - first:
+      213: 5413920231269866897
+    second: cenarioG_3_desfiladeiro_12
+  - first:
+      213: 7581527602411226455
+    second: cenarioG_3_desfiladeiro_13
+  - first:
+      213: 6676464067750139414
+    second: cenarioG_3_desfiladeiro_14
+  - first:
+      213: -8273659250961394046
+    second: cenarioG_3_desfiladeiro_15
+  - first:
+      213: -550870809255371594
+    second: cenarioG_3_desfiladeiro_16
+  - first:
+      213: 8350279027223528185
+    second: cenarioG_3_desfiladeiro_17
+  - first:
+      213: -3547978929834761033
+    second: cenarioG_3_desfiladeiro_18
+  - first:
+      213: 6345708465846989477
+    second: cenarioG_3_desfiladeiro_19
+  - first:
+      213: -2902017090368651112
+    second: cenarioG_3_desfiladeiro_20
+  - first:
+      213: -8889103480084153200
+    second: cenarioG_3_desfiladeiro_21
+  - first:
+      213: 8997384476678966581
+    second: cenarioG_3_desfiladeiro_22
+  - first:
+      213: -2060078590527832241
+    second: cenarioG_3_desfiladeiro_23
+  - first:
+      213: -1880583616450756635
+    second: cenarioG_3_desfiladeiro_24
+  - first:
+      213: -2533509992283960699
+    second: cenarioG_3_desfiladeiro_25
+  - first:
+      213: -2825917845143391308
+    second: cenarioG_3_desfiladeiro_26
+  - first:
+      213: -8464569506638634723
+    second: cenarioG_3_desfiladeiro_27
+  - first:
+      213: -5594961957551862336
+    second: cenarioG_3_desfiladeiro_28
+  - first:
+      213: -755568890865590999
+    second: cenarioG_3_desfiladeiro_29
+  - first:
+      213: 3632006450323127969
+    second: cenarioG_3_desfiladeiro_30
+  - first:
+      213: -4229048049583605920
+    second: cenarioG_3_desfiladeiro_31
+  - first:
+      213: 1213272438183485736
+    second: cenarioG_3_desfiladeiro_32
+  - first:
+      213: -1231540370480149870
+    second: cenarioG_3_desfiladeiro_33
+  - first:
+      213: -2228831021585686262
+    second: cenarioG_3_desfiladeiro_34
+  - first:
+      213: -5946226710705071472
+    second: cenarioG_3_desfiladeiro_35
+  - first:
+      213: -5651391608446693406
+    second: cenarioG_3_desfiladeiro_36
+  - first:
+      213: 1185800741186648072
+    second: cenarioG_3_desfiladeiro_37
+  - first:
+      213: -973975584610732076
+    second: cenarioG_3_desfiladeiro_38
+  - first:
+      213: -930662293514904431
+    second: cenarioG_3_desfiladeiro_39
+  - first:
+      213: 5080205719678333442
+    second: cenarioG_3_desfiladeiro_40
+  - first:
+      213: -1275893543377618627
+    second: cenarioG_3_desfiladeiro_41
+  - first:
+      213: 2075162157814407656
+    second: cenarioG_3_desfiladeiro_42
+  - first:
+      213: -639755600986403000
+    second: cenarioG_3_desfiladeiro_43
+  - first:
+      213: -7994103565072415028
+    second: cenarioG_3_desfiladeiro_44
+  - first:
+      213: -3811018440542363420
+    second: cenarioG_3_desfiladeiro_45
+  - first:
+      213: -8569014053434091375
+    second: cenarioG_3_desfiladeiro_46
+  - first:
+      213: -4554989960786610464
+    second: cenarioG_3_desfiladeiro_47
+  - first:
+      213: -5675291849311397899
+    second: cenarioG_3_desfiladeiro_48
+  - first:
+      213: 1364546409281100908
+    second: cenarioG_3_desfiladeiro_49
+  - first:
+      213: 5602907813751507773
+    second: cenarioG_3_desfiladeiro_50
+  - first:
+      213: 7388665080722023607
+    second: cenarioG_3_desfiladeiro_51
+  - first:
+      213: 1708115570315016733
+    second: cenarioG_3_desfiladeiro_52
+  - first:
+      213: -5963499227572046648
+    second: cenarioG_3_desfiladeiro_53
+  - first:
+      213: -3185844786335416487
+    second: cenarioG_3_desfiladeiro_54
+  - first:
+      213: 8202305850329616999
+    second: cenarioG_3_desfiladeiro_55
+  - first:
+      213: -2683074838661794684
+    second: cenarioG_3_desfiladeiro_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 1536
+        height: 1022
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827ba4fecefaedb80800000000000000
+      internalID: -8368057625446009048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1011
+        width: 83
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9343c8b857cbf8450800000000000000
+      internalID: 6093296033893987385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_2
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1041
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0913223d3edcdb030800000000000000
+      internalID: 3512189662802358672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 992
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a6b94bf3238b530800000000000000
+      internalID: 3870899128919353976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1003
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e0cbf3defad1c30800000000000000
+      internalID: 4331811850111684164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_5
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1005
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f13a92eff170d7e0800000000000000
+      internalID: -1742767711960026634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 976
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9021cde6646931c00800000000000000
+      internalID: 870204382264431113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 976
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46df44da2e7dabe0800000000000000
+      internalID: -1464375581409814964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_8
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 983
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76a5aa0e9de83f30800000000000000
+      internalID: 4555652286124500604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 973
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafab1194a7112500800000000000000
+      internalID: 369602639997677486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_10
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 979
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a26554a93d21db90800000000000000
+      internalID: -7218939002104749399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_11
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 989
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29830389eebb0fc0800000000000000
+      internalID: -3527515972979947220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_12
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 979
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d142324cb122b40800000000000000
+      internalID: 5413920231269866897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 971
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7554a8c8f2ff63960800000000000000
+      internalID: 7581527602411226455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 971
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61618e932b097ac50800000000000000
+      internalID: 6676464067750139414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_15
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 925
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28652d93fbe0e2d80800000000000000
+      internalID: -8273659250961394046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_16
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 955
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc9339eae9ea58f0800000000000000
+      internalID: -550870809255371594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_17
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 955
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f28d09988622e370800000000000000
+      internalID: 8350279027223528185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_18
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 959
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4e0a816fb03cec0800000000000000
+      internalID: -3547978929834761033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_19
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 955
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2bffa8a3c701850800000000000000
+      internalID: 6345708465846989477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_20
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 936
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890c674f4d6f9b7d0800000000000000
+      internalID: -2902017090368651112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 939
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c35e93b7f83a480800000000000000
+      internalID: -8889103480084153200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_22
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 933
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d4018e2812ddc70800000000000000
+      internalID: 8997384476678966581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_23
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 909
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f733acf612963e0800000000000000
+      internalID: -2060078590527832241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_24
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 923
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef78032a23d6e5e0800000000000000
+      internalID: -1880583616450756635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_25
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 921
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a030bc51a27dcd0800000000000000
+      internalID: -2533509992283960699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_26
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 923
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b37ac331b258c8d0800000000000000
+      internalID: -2825917845143391308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_27
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 929
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11633481eec78a80800000000000000
+      internalID: -8464569506638634723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_28
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 910
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd0c443eb3ba52b0800000000000000
+      internalID: -5594961957551862336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_29
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 891
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92dde90d81ea385f0800000000000000
+      internalID: -755568890865590999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_30
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 911
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aeff659f9a776230800000000000000
+      internalID: 3632006450323127969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_31
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 915
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067b28294376f45c0800000000000000
+      internalID: -4229048049583605920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_32
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 909
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821e2b5bad866d010800000000000000
+      internalID: 1213272438183485736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_33
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 909
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a4afade80b8eee0800000000000000
+      internalID: -1231540370480149870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_34
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 903
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01a306aef99111e0800000000000000
+      internalID: -2228831021585686262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_35
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 171
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a1c72af42ca7da0800000000000000
+      internalID: -5946226710705071472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_36
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 123
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef49e346493291b0800000000000000
+      internalID: -5651391608446693406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_37
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 122
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80833d0dd7fc47010800000000000000
+      internalID: 1185800741186648072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_38
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 139
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7bf5bbd5ebb72f0800000000000000
+      internalID: -973975584610732076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_39
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 123
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c913d239f9513f0800000000000000
+      internalID: -930662293514904431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_40
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 115
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202b55b9f24808640800000000000000
+      internalID: 5080205719678333442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_41
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 123
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3933cf059d1b4ee0800000000000000
+      internalID: -1275893543377618627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_42
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 81
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e16cd3ecf47ccc10800000000000000
+      internalID: 2075162157814407656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 77
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f8324aba12f17f0800000000000000
+      internalID: -639755600986403000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_44
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 99
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6cc22892d3f0190800000000000000
+      internalID: -7994103565072415028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_45
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 91
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e062038bea8c1bc0800000000000000
+      internalID: -3811018440542363420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_46
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1981bb57e1fb41980800000000000000
+      internalID: -8569014053434091375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_47
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 78
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6f7d793cc69c0c0800000000000000
+      internalID: -4554989960786610464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_48
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 91
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7df1dc1205d31b0800000000000000
+      internalID: -5675291849311397899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_49
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 83
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c1cb4cab7dfe210800000000000000
+      internalID: 1364546409281100908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_50
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 77
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b4beb98f681cd40800000000000000
+      internalID: 5602907813751507773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_51
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 67
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4e4cc7ebfc98660800000000000000
+      internalID: 7388665080722023607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_52
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 70
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ab0fbaf0274b710800000000000000
+      internalID: 1708115570315016733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_53
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 77
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4704a6c056d3da0800000000000000
+      internalID: -5963499227572046648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_54
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 69
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f72f0db0b99c3d0800000000000000
+      internalID: -3185844786335416487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_55
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 43
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762510496b174d170800000000000000
+      internalID: 8202305850329616999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenarioG_3_desfiladeiro_56
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 59
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48476c756adc3cad0800000000000000
+      internalID: -2683074838661794684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cenarioG_3_desfiladeiro_0: -8368057625446009048
+      cenarioG_3_desfiladeiro_1: 6093296033893987385
+      cenarioG_3_desfiladeiro_10: -7218939002104749399
+      cenarioG_3_desfiladeiro_11: -3527515972979947220
+      cenarioG_3_desfiladeiro_12: 5413920231269866897
+      cenarioG_3_desfiladeiro_13: 7581527602411226455
+      cenarioG_3_desfiladeiro_14: 6676464067750139414
+      cenarioG_3_desfiladeiro_15: -8273659250961394046
+      cenarioG_3_desfiladeiro_16: -550870809255371594
+      cenarioG_3_desfiladeiro_17: 8350279027223528185
+      cenarioG_3_desfiladeiro_18: -3547978929834761033
+      cenarioG_3_desfiladeiro_19: 6345708465846989477
+      cenarioG_3_desfiladeiro_2: 3512189662802358672
+      cenarioG_3_desfiladeiro_20: -2902017090368651112
+      cenarioG_3_desfiladeiro_21: -8889103480084153200
+      cenarioG_3_desfiladeiro_22: 8997384476678966581
+      cenarioG_3_desfiladeiro_23: -2060078590527832241
+      cenarioG_3_desfiladeiro_24: -1880583616450756635
+      cenarioG_3_desfiladeiro_25: -2533509992283960699
+      cenarioG_3_desfiladeiro_26: -2825917845143391308
+      cenarioG_3_desfiladeiro_27: -8464569506638634723
+      cenarioG_3_desfiladeiro_28: -5594961957551862336
+      cenarioG_3_desfiladeiro_29: -755568890865590999
+      cenarioG_3_desfiladeiro_3: 3870899128919353976
+      cenarioG_3_desfiladeiro_30: 3632006450323127969
+      cenarioG_3_desfiladeiro_31: -4229048049583605920
+      cenarioG_3_desfiladeiro_32: 1213272438183485736
+      cenarioG_3_desfiladeiro_33: -1231540370480149870
+      cenarioG_3_desfiladeiro_34: -2228831021585686262
+      cenarioG_3_desfiladeiro_35: -5946226710705071472
+      cenarioG_3_desfiladeiro_36: -5651391608446693406
+      cenarioG_3_desfiladeiro_37: 1185800741186648072
+      cenarioG_3_desfiladeiro_38: -973975584610732076
+      cenarioG_3_desfiladeiro_39: -930662293514904431
+      cenarioG_3_desfiladeiro_4: 4331811850111684164
+      cenarioG_3_desfiladeiro_40: 5080205719678333442
+      cenarioG_3_desfiladeiro_41: -1275893543377618627
+      cenarioG_3_desfiladeiro_42: 2075162157814407656
+      cenarioG_3_desfiladeiro_43: -639755600986403000
+      cenarioG_3_desfiladeiro_44: -7994103565072415028
+      cenarioG_3_desfiladeiro_45: -3811018440542363420
+      cenarioG_3_desfiladeiro_46: -8569014053434091375
+      cenarioG_3_desfiladeiro_47: -4554989960786610464
+      cenarioG_3_desfiladeiro_48: -5675291849311397899
+      cenarioG_3_desfiladeiro_49: 1364546409281100908
+      cenarioG_3_desfiladeiro_5: -1742767711960026634
+      cenarioG_3_desfiladeiro_50: 5602907813751507773
+      cenarioG_3_desfiladeiro_51: 7388665080722023607
+      cenarioG_3_desfiladeiro_52: 1708115570315016733
+      cenarioG_3_desfiladeiro_53: -5963499227572046648
+      cenarioG_3_desfiladeiro_54: -3185844786335416487
+      cenarioG_3_desfiladeiro_55: 8202305850329616999
+      cenarioG_3_desfiladeiro_56: -2683074838661794684
+      cenarioG_3_desfiladeiro_6: 870204382264431113
+      cenarioG_3_desfiladeiro_7: -1464375581409814964
+      cenarioG_3_desfiladeiro_8: 4555652286124500604
+      cenarioG_3_desfiladeiro_9: 369602639997677486
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

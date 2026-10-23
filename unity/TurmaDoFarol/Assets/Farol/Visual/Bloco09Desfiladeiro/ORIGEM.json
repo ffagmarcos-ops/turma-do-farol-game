@@ -1,0 +1,61 @@
+{
+  "origem": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/revisao-artistica-fase3/desfiladeiro-pacote-v01",
+  "arquivos": [
+    {
+      "arquivo": "camadas/cenarioG_3_desfiladeiro.png",
+      "sha256": "65aa9e159a604c4bd85478b779d9ce9a60c8063e23edfe1c2eb2ebdaa3b635fd"
+    },
+    {
+      "arquivo": "pecas/bloco_G1_0.png",
+      "sha256": "32453f72c6adbfa3c951c984787fdf28080d5df5ae57becb460bf466e884f2ac"
+    },
+    {
+      "arquivo": "pecas/bloco_G1_1.png",
+      "sha256": "67c010e092113e95b50c0b7cc45f159f29401d2aeefa4d26bad7c51b415647bc"
+    },
+    {
+      "arquivo": "pecas/bloco_G1_2.png",
+      "sha256": "83fa3ba8d721128828255b0544ce5fb3138925736b84406f1017916525520c0c"
+    },
+    {
+      "arquivo": "pecas/parede_G0_0.png",
+      "sha256": "578c11c0b6f2d4e148b1a1575a4e2a6ecb2ce2db67e243a81cb019937a103124"
+    },
+    {
+      "arquivo": "pecas/parede_G0_1.png",
+      "sha256": "a99c58723c72747ebc08b486f3bfaf4d2bf2a4f503b56f7bf6fbb62c53ad4e9f"
+    },
+    {
+      "arquivo": "pecas/parede_G0_2.png",
+      "sha256": "1fe0f35af73028ca23b453242520ebe8869d92b1a133774f7414d8ec3f7a380a"
+    },
+    {
+      "arquivo": "pecas/parede_G1_0.png",
+      "sha256": "ed4783b8f602bd96cb5d0d3636b12d760133a1dd84fa7c458908950d7391fedc"
+    },
+    {
+      "arquivo": "pecas/parede_G1_1.png",
+      "sha256": "615e6eba7aac63bf2f4f5552ce568e280301a2b7cdfa73be3f064e85a9de52ec"
+    },
+    {
+      "arquivo": "pecas/parede_G2_0.png",
+      "sha256": "732440508fd669a89aae8578412113f9d7f015e1bd7076f516bf4e2d213bd103"
+    },
+    {
+      "arquivo": "pecas/parede_G2_1.png",
+      "sha256": "ed16a8a563d06cb759153d5383adbb9adaf0e2516f53d089a8709e336bd9911d"
+    },
+    {
+      "arquivo": "pecas/parede_G3_0.png",
+      "sha256": "f44d3281768ea10c38adb853863f01706b6e8135d53f698c43a64436338d0389"
+    },
+    {
+      "arquivo": "pecas/parede_G3_1.png",
+      "sha256": "669fb455f18681aa50a8ab10830e69f5efa32295c7431f94b0a91aca13bfbbb5"
+    },
+    {
+      "arquivo": "pecas/parede_quebravel_G0_BASE.png",
+      "sha256": "7ff5a17b8dfd2429b712c28a53719644007c6e9e458a8c3a683d7159fcdfe07e"
+    }
+  ]
+}

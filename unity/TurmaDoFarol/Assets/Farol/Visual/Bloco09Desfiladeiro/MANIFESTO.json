@@ -1,0 +1,341 @@
+[
+  {
+    "arquivo": "camadas/cenarioG_3_desfiladeiro.png",
+    "tipo": "gerado",
+    "fonte": "mestres/pilares.png",
+    "escala": 1,
+    "deslocamento": [
+      0,
+      28
+    ],
+    "dimensoes": [
+      1536,
+      1080
+    ],
+    "base_silhueta_principal": 838,
+    "offset_y_QA": 100,
+    "observacao": "Todos os pixels do mestre preservados. Pequenas pedras dos extremos encostam nos limites laterais do mestre; conferir ao repetir."
+  },
+  {
+    "arquivo": "pecas/parede_G0_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "escala_uniforme_previa": 1.2503987240829346,
+    "recorte_apos_escala": [
+      554,
+      300,
+      1014,
+      760
+    ],
+    "dimensoes": [
+      460,
+      460
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      0,
+      620
+    ],
+    "observacao": "Recorte grande opaco sem repeticao interna; acabamento de topo/quinas pendente"
+  },
+  {
+    "arquivo": "pecas/parede_G0_1.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "escala_uniforme_previa": 1.2503987240829346,
+    "recorte_apos_escala": [
+      264,
+      347,
+      1304,
+      527
+    ],
+    "dimensoes": [
+      1040,
+      180
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      460,
+      900
+    ],
+    "observacao": "Recorte grande opaco sem repeticao interna; acabamento de topo/quinas pendente"
+  },
+  {
+    "arquivo": "pecas/parede_G0_2.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "escala_uniforme_previa": 1.2503987240829346,
+    "recorte_apos_escala": [
+      574,
+      394,
+      994,
+      1014
+    ],
+    "dimensoes": [
+      420,
+      620
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      1500,
+      460
+    ],
+    "observacao": "Recorte grande opaco sem repeticao interna; acabamento de topo/quinas pendente"
+  },
+  {
+    "arquivo": "pecas/parede_G1_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "escala_uniforme_previa": 1.2503987240829346,
+    "recorte_apos_escala": [
+      614,
+      371,
+      954,
+      991
+    ],
+    "dimensoes": [
+      340,
+      620
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      1920,
+      460
+    ],
+    "observacao": "Recorte grande opaco sem repeticao interna; acabamento de topo/quinas pendente"
+  },
+  {
+    "arquivo": "pecas/parede_G1_1.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "escala_uniforme_previa": 1.2503987240829346,
+    "recorte_apos_escala": [
+      474,
+      418,
+      1094,
+      598
+    ],
+    "dimensoes": [
+      620,
+      180
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      3220,
+      900
+    ],
+    "observacao": "Recorte grande opaco sem repeticao interna; acabamento de topo/quinas pendente"
+  },
+  {
+    "arquivo": "pecas/bloco_G1_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "escala_uniforme_previa": 1.2503987240829346,
+    "recorte_apos_escala": [
+      600,
+      500,
+      980,
+      580
+    ],
+    "dimensoes": [
+      380,
+      80
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      3360,
+      680
+    ]
+  },
+  {
+    "arquivo": "pecas/bloco_G1_1.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "escala_uniforme_previa": 1.2503987240829346,
+    "recorte_apos_escala": [
+      600,
+      600,
+      640,
+      620
+    ],
+    "dimensoes": [
+      40,
+      20
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      3360,
+      760
+    ]
+  },
+  {
+    "arquivo": "pecas/bloco_G1_2.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "escala_uniforme_previa": 1.2503987240829346,
+    "recorte_apos_escala": [
+      600,
+      700,
+      640,
+      840
+    ],
+    "dimensoes": [
+      40,
+      140
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      3700,
+      760
+    ]
+  },
+  {
+    "arquivo": "pecas/parede_G2_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "escala_uniforme_previa": 1.2503987240829346,
+    "recorte_apos_escala": [
+      4,
+      442,
+      1564,
+      622
+    ],
+    "dimensoes": [
+      1560,
+      180
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      3840,
+      900
+    ],
+    "observacao": "Recorte grande opaco sem repeticao interna; acabamento de topo/quinas pendente"
+  },
+  {
+    "arquivo": "pecas/parede_G2_1.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "escala_uniforme_previa": 1.2503987240829346,
+    "recorte_apos_escala": [
+      604,
+      489,
+      964,
+      1189
+    ],
+    "dimensoes": [
+      360,
+      700
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      5400,
+      380
+    ],
+    "observacao": "Recorte grande opaco sem repeticao interna; acabamento de topo/quinas pendente"
+  },
+  {
+    "arquivo": "pecas/parede_G3_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "escala_uniforme_previa": 1.2503987240829346,
+    "recorte_apos_escala": [
+      624,
+      313,
+      944,
+      1013
+    ],
+    "dimensoes": [
+      320,
+      700
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      5760,
+      380
+    ],
+    "observacao": "Recorte grande opaco sem repeticao interna; acabamento de topo/quinas pendente"
+  },
+  {
+    "arquivo": "pecas/parede_G3_1.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "escala_uniforme_previa": 1.2503987240829346,
+    "recorte_apos_escala": [
+      454,
+      360,
+      1114,
+      820
+    ],
+    "dimensoes": [
+      660,
+      460
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      7020,
+      620
+    ],
+    "observacao": "Recorte grande opaco sem repeticao interna; acabamento de topo/quinas pendente"
+  },
+  {
+    "arquivo": "pecas/parede_quebravel_G0_BASE.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "escala_uniforme_previa": 1.2503987240829346,
+    "recorte_apos_escala": [
+      740,
+      520,
+      800,
+      640
+    ],
+    "dimensoes": [
+      60,
+      120
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      1440,
+      780
+    ],
+    "observacao": "Somente base de pedra. Preservar rachaduras, quebra, particulas e remocao do objeto existentes."
+  }
+]
