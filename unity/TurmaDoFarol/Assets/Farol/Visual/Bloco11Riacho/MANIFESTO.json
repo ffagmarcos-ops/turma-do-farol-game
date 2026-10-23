@@ -1,0 +1,76 @@
+[
+  {
+    "arquivo": "pecas/riacho_leito_OPCIONAL.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../../riacho-lucas-v01/pecas/leito-pedregoso.png",
+    "recorte": [
+      3,
+      104,
+      498,
+      250
+    ],
+    "escala": 0.5494949494949495,
+    "deslocamento": [
+      4,
+      16
+    ],
+    "dimensoes": [
+      280,
+      100
+    ],
+    "ancora_base": [
+      140.0,
+      96
+    ],
+    "observacao": "Decor submerso opcional, sem apoio. Conferir estilo sob material de agua; nao impor aprovacao antiga a esta composicao."
+  },
+  {
+    "arquivo": "pecas/riacho_submersas_OPCIONAL.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../../riacho-lucas-v01/pecas/pedras-submersas.png",
+    "recorte": [
+      0,
+      96,
+      293,
+      255
+    ],
+    "escala": 0.5870307167235495,
+    "deslocamento": [
+      4,
+      13
+    ],
+    "dimensoes": [
+      180,
+      110
+    ],
+    "ancora_base": [
+      90.0,
+      106
+    ],
+    "observacao": "Decor submerso opcional, sem apoio. Conferir estilo sob material de agua; nao impor aprovacao antiga a esta composicao."
+  },
+  {
+    "arquivo": "pecas/bloco_I1_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/rocha_umida_fill.png",
+    "recorte": [
+      467,
+      261,
+      787,
+      381
+    ],
+    "escala": 1,
+    "dimensoes": [
+      320,
+      120
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      2140,
+      660
+    ]
+  }
+]

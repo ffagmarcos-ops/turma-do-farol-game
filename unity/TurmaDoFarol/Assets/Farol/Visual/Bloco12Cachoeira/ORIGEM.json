@@ -1,0 +1,22 @@
+{
+  "fonte": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/revisao-artistica-fase3/cachoeira-pacote-v01",
+  "arquivos": {
+    "camadas/cenarioJ_3_paredao_SEM_AGUA.png": "3b5307bb3410d4afc5e8722c0b34448134947485ed2466f72d0a4525653fb806",
+    "pecas/plataforma_ledge_180.png": "676e7f6b5505a6ed263ab19a4041b4adc39e44f079f00e7fa4b7f60e7b9dbfd7",
+    "pecas/plataforma_ledge_200.png": "2b97a565f301fb8203027c8cc05def8160fa2649b32d0fe94a54a9096b9c6203",
+    "pecas/plataforma_ledge_210.png": "7f8e5787408399856123c278af96c5e417d5cdeb79f278d24c0cc916e0c998c8",
+    "pecas/plataforma_ledge_220.png": "1234207f2d77398b462e8c12f8a0181bc3ccc88473642a7c2e75794a98f4895a",
+    "pecas/plataforma_ledge_240.png": "12aede3b910e25ee9c5a9d43ffd4585e6be4fd1696689f4a486f7d1f74a31a16",
+    "pecas/plataforma_ledge_340.png": "adfb3b87c2bd10d875c2424c08819a7bdec52ae2d9e05f0ef7d2727185a096e1",
+    "pecas/plataforma_log_190.png": "5152fcf70de2c655a5a14cdd3f157b940f8d4e5d93590546bd0390984dd6ed31",
+    "pecas/parede_J0_1.png": "b7eee237d02da1839134d3de8cf704adb51e27c6f29bf576f57ad5e2565bf19a",
+    "pecas/parede_J1_0.png": "8e6734dc7bd000d250bee008f52e5a2b9ddd497a0e4b7185418829e85df27974",
+    "pecas/parede_J1_1.png": "49f3be64cf7668fdd156e1fe523253cd085f267c50e52e116030aaf6cade8ca1",
+    "pecas/bloco_J1_0.png": "a856d29bb94a6c2977795495da5e2bffcb7e55369456340fde6eab1c879bfc81",
+    "pecas/parede_J2_0.png": "7c11432a1fa5f36ca378db6a7ddd62ab4eb655fe3dbf3fd4f3215946ab7b175a",
+    "pecas/parede_J2_1.png": "78538eaf64dca6b83a4017c29f8c4ce14027f8f168961206d0e8fede1242640c",
+    "pecas/parede_J3_0.png": "5234153bcba9e8b9dc2bf61df46432b02ab5dbec965e66690f0520a89984570a",
+    "pecas/parede_J3_1.png": "852ea8218c6bec04729322d656d55c90bc4fb2bf175b1fc2e676564f48783b1a",
+    "pecas/bloco_J3_0.png": "a5b043d6e16b2a8b24bc3d26016be3a009ff452d5ca06a8113a1f51c23e5c751"
+  }
+}

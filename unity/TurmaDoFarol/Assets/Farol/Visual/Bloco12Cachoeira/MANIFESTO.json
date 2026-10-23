@@ -1,0 +1,607 @@
+[
+  {
+    "arquivo": "camadas/cenarioJ_3_paredao_SEM_AGUA.png",
+    "tipo": "gerado",
+    "fonte": "mestres/paredao_v02.png",
+    "escala": 1,
+    "deslocamento": [
+      0,
+      120
+    ],
+    "dimensoes": [
+      1774,
+      1080
+    ],
+    "escala_uniforme_QA": 1.4,
+    "offset_QA": [
+      -480,
+      -438
+    ]
+  },
+  {
+    "arquivo": "agua/fluxo_oficial_f000.png",
+    "tipo": "reuso_recortado",
+    "fonte": "agua/oficial/asset_09_waterfall.png",
+    "quadro": "f000",
+    "recorte_no_quadro": [
+      40,
+      180,
+      168,
+      436
+    ],
+    "dimensoes": [
+      128,
+      256
+    ],
+    "escala": 1,
+    "observacao": "Fluxo central opcional para repeticao; emenda vertical nao certificada. Atlas oficial integral tem prioridade."
+  },
+  {
+    "arquivo": "agua/fluxo_oficial_f001.png",
+    "tipo": "reuso_recortado",
+    "fonte": "agua/oficial/asset_09_waterfall.png",
+    "quadro": "f001",
+    "recorte_no_quadro": [
+      40,
+      180,
+      168,
+      436
+    ],
+    "dimensoes": [
+      128,
+      256
+    ],
+    "escala": 1,
+    "observacao": "Fluxo central opcional para repeticao; emenda vertical nao certificada. Atlas oficial integral tem prioridade."
+  },
+  {
+    "arquivo": "agua/fluxo_oficial_f002.png",
+    "tipo": "reuso_recortado",
+    "fonte": "agua/oficial/asset_09_waterfall.png",
+    "quadro": "f002",
+    "recorte_no_quadro": [
+      40,
+      180,
+      168,
+      436
+    ],
+    "dimensoes": [
+      128,
+      256
+    ],
+    "escala": 1,
+    "observacao": "Fluxo central opcional para repeticao; emenda vertical nao certificada. Atlas oficial integral tem prioridade."
+  },
+  {
+    "arquivo": "agua/fluxo_oficial_f003.png",
+    "tipo": "reuso_recortado",
+    "fonte": "agua/oficial/asset_09_waterfall.png",
+    "quadro": "f003",
+    "recorte_no_quadro": [
+      40,
+      180,
+      168,
+      436
+    ],
+    "dimensoes": [
+      128,
+      256
+    ],
+    "escala": 1,
+    "observacao": "Fluxo central opcional para repeticao; emenda vertical nao certificada. Atlas oficial integral tem prioridade."
+  },
+  {
+    "arquivo": "agua/fluxo_oficial_f004.png",
+    "tipo": "reuso_recortado",
+    "fonte": "agua/oficial/asset_09_waterfall.png",
+    "quadro": "f004",
+    "recorte_no_quadro": [
+      40,
+      180,
+      168,
+      436
+    ],
+    "dimensoes": [
+      128,
+      256
+    ],
+    "escala": 1,
+    "observacao": "Fluxo central opcional para repeticao; emenda vertical nao certificada. Atlas oficial integral tem prioridade."
+  },
+  {
+    "arquivo": "agua/fluxo_oficial_f005.png",
+    "tipo": "reuso_recortado",
+    "fonte": "agua/oficial/asset_09_waterfall.png",
+    "quadro": "f005",
+    "recorte_no_quadro": [
+      40,
+      180,
+      168,
+      436
+    ],
+    "dimensoes": [
+      128,
+      256
+    ],
+    "escala": 1,
+    "observacao": "Fluxo central opcional para repeticao; emenda vertical nao certificada. Atlas oficial integral tem prioridade."
+  },
+  {
+    "arquivo": "agua/fluxo_oficial_f006.png",
+    "tipo": "reuso_recortado",
+    "fonte": "agua/oficial/asset_09_waterfall.png",
+    "quadro": "f006",
+    "recorte_no_quadro": [
+      40,
+      180,
+      168,
+      436
+    ],
+    "dimensoes": [
+      128,
+      256
+    ],
+    "escala": 1,
+    "observacao": "Fluxo central opcional para repeticao; emenda vertical nao certificada. Atlas oficial integral tem prioridade."
+  },
+  {
+    "arquivo": "agua/fluxo_oficial_f007.png",
+    "tipo": "reuso_recortado",
+    "fonte": "agua/oficial/asset_09_waterfall.png",
+    "quadro": "f007",
+    "recorte_no_quadro": [
+      40,
+      180,
+      168,
+      436
+    ],
+    "dimensoes": [
+      128,
+      256
+    ],
+    "escala": 1,
+    "observacao": "Fluxo central opcional para repeticao; emenda vertical nao certificada. Atlas oficial integral tem prioridade."
+  },
+  {
+    "arquivo": "agua/fluxo_oficial_f008.png",
+    "tipo": "reuso_recortado",
+    "fonte": "agua/oficial/asset_09_waterfall.png",
+    "quadro": "f008",
+    "recorte_no_quadro": [
+      40,
+      180,
+      168,
+      436
+    ],
+    "dimensoes": [
+      128,
+      256
+    ],
+    "escala": 1,
+    "observacao": "Fluxo central opcional para repeticao; emenda vertical nao certificada. Atlas oficial integral tem prioridade."
+  },
+  {
+    "arquivo": "agua/fluxo_oficial_f009.png",
+    "tipo": "reuso_recortado",
+    "fonte": "agua/oficial/asset_09_waterfall.png",
+    "quadro": "f009",
+    "recorte_no_quadro": [
+      40,
+      180,
+      168,
+      436
+    ],
+    "dimensoes": [
+      128,
+      256
+    ],
+    "escala": 1,
+    "observacao": "Fluxo central opcional para repeticao; emenda vertical nao certificada. Atlas oficial integral tem prioridade."
+  },
+  {
+    "arquivo": "agua/fluxo_oficial_f010.png",
+    "tipo": "reuso_recortado",
+    "fonte": "agua/oficial/asset_09_waterfall.png",
+    "quadro": "f010",
+    "recorte_no_quadro": [
+      40,
+      180,
+      168,
+      436
+    ],
+    "dimensoes": [
+      128,
+      256
+    ],
+    "escala": 1,
+    "observacao": "Fluxo central opcional para repeticao; emenda vertical nao certificada. Atlas oficial integral tem prioridade."
+  },
+  {
+    "arquivo": "agua/fluxo_oficial_f011.png",
+    "tipo": "reuso_recortado",
+    "fonte": "agua/oficial/asset_09_waterfall.png",
+    "quadro": "f011",
+    "recorte_no_quadro": [
+      40,
+      180,
+      168,
+      436
+    ],
+    "dimensoes": [
+      128,
+      256
+    ],
+    "escala": 1,
+    "observacao": "Fluxo central opcional para repeticao; emenda vertical nao certificada. Atlas oficial integral tem prioridade."
+  },
+  {
+    "arquivo": "pecas/plataforma_ledge_180.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/laje_apoio.png",
+    "recorte": [
+      61,
+      333,
+      1713,
+      648
+    ],
+    "escala": 0.10653753026634383,
+    "deslocamento": [
+      2,
+      5
+    ],
+    "dimensoes": [
+      180,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Canvas pode exceder 64px para preservar a parte inferior da rocha; collider e apoio nao mudam."
+  },
+  {
+    "arquivo": "pecas/plataforma_ledge_200.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/laje_apoio.png",
+    "recorte": [
+      61,
+      333,
+      1713,
+      648
+    ],
+    "escala": 0.11864406779661017,
+    "deslocamento": [
+      2,
+      5
+    ],
+    "dimensoes": [
+      200,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Canvas pode exceder 64px para preservar a parte inferior da rocha; collider e apoio nao mudam."
+  },
+  {
+    "arquivo": "pecas/plataforma_ledge_210.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/laje_apoio.png",
+    "recorte": [
+      61,
+      333,
+      1713,
+      648
+    ],
+    "escala": 0.12469733656174334,
+    "deslocamento": [
+      2,
+      5
+    ],
+    "dimensoes": [
+      210,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Canvas pode exceder 64px para preservar a parte inferior da rocha; collider e apoio nao mudam."
+  },
+  {
+    "arquivo": "pecas/plataforma_ledge_220.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/laje_apoio.png",
+    "recorte": [
+      61,
+      333,
+      1713,
+      648
+    ],
+    "escala": 0.13075060532687652,
+    "deslocamento": [
+      2,
+      5
+    ],
+    "dimensoes": [
+      220,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Canvas pode exceder 64px para preservar a parte inferior da rocha; collider e apoio nao mudam."
+  },
+  {
+    "arquivo": "pecas/plataforma_ledge_240.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/laje_apoio.png",
+    "recorte": [
+      61,
+      333,
+      1713,
+      648
+    ],
+    "escala": 0.14285714285714285,
+    "deslocamento": [
+      2,
+      5
+    ],
+    "dimensoes": [
+      240,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Canvas pode exceder 64px para preservar a parte inferior da rocha; collider e apoio nao mudam."
+  },
+  {
+    "arquivo": "pecas/plataforma_ledge_340.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/laje_apoio.png",
+    "recorte": [
+      61,
+      333,
+      1713,
+      648
+    ],
+    "escala": 0.2033898305084746,
+    "deslocamento": [
+      2,
+      5
+    ],
+    "dimensoes": [
+      340,
+      72
+    ],
+    "apoio_y": 6,
+    "observacao": "Canvas pode exceder 64px para preservar a parte inferior da rocha; collider e apoio nao mudam."
+  },
+  {
+    "arquivo": "pecas/plataforma_log_190.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../floresta-inicial-pacote-v01/mestres/galho.png",
+    "recorte": [
+      46,
+      273,
+      2124,
+      539
+    ],
+    "escala": 0.08950914340712224,
+    "deslocamento": [
+      2,
+      3
+    ],
+    "dimensoes": [
+      190,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Canvas pode exceder 64px para preservar a parte inferior da rocha; collider e apoio nao mudam."
+  },
+  {
+    "arquivo": "pecas/parede_J0_1.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/rocha_umida_fill.png",
+    "recorte": [
+      407,
+      249,
+      847,
+      429
+    ],
+    "escala": 1,
+    "dimensoes": [
+      440,
+      180
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      1480,
+      900
+    ]
+  },
+  {
+    "arquivo": "pecas/parede_J1_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/rocha_umida_fill.png",
+    "recorte": [
+      397,
+      261,
+      857,
+      441
+    ],
+    "escala": 1,
+    "dimensoes": [
+      460,
+      180
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      1920,
+      900
+    ]
+  },
+  {
+    "arquivo": "pecas/parede_J1_1.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/rocha_umida_fill.png",
+    "recorte": [
+      417,
+      290,
+      837,
+      470
+    ],
+    "escala": 1,
+    "dimensoes": [
+      420,
+      180
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      3420,
+      900
+    ]
+  },
+  {
+    "arquivo": "pecas/bloco_J1_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/rocha_umida_fill.png",
+    "recorte": [
+      497,
+      261,
+      757,
+      741
+    ],
+    "escala": 1,
+    "dimensoes": [
+      260,
+      480
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      2880,
+      440
+    ]
+  },
+  {
+    "arquivo": "pecas/parede_J2_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/rocha_umida_fill.png",
+    "recorte": [
+      347,
+      302,
+      907,
+      482
+    ],
+    "escala": 1,
+    "dimensoes": [
+      560,
+      180
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      3840,
+      900
+    ]
+  },
+  {
+    "arquivo": "pecas/parede_J2_1.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/rocha_umida_fill.png",
+    "recorte": [
+      267,
+      331,
+      987,
+      511
+    ],
+    "escala": 1,
+    "dimensoes": [
+      720,
+      180
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      5040,
+      900
+    ]
+  },
+  {
+    "arquivo": "pecas/parede_J3_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/rocha_umida_fill.png",
+    "recorte": [
+      287,
+      343,
+      967,
+      523
+    ],
+    "escala": 1,
+    "dimensoes": [
+      680,
+      180
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      5760,
+      900
+    ]
+  },
+  {
+    "arquivo": "pecas/parede_J3_1.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/rocha_umida_fill.png",
+    "recorte": [
+      277,
+      222,
+      977,
+      402
+    ],
+    "escala": 1,
+    "dimensoes": [
+      700,
+      180
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      6980,
+      900
+    ]
+  },
+  {
+    "arquivo": "pecas/bloco_J3_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/rocha_umida_fill.png",
+    "recorte": [
+      467,
+      343,
+      787,
+      703
+    ],
+    "escala": 1,
+    "dimensoes": [
+      320,
+      360
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      6420,
+      560
+    ]
+  }
+]

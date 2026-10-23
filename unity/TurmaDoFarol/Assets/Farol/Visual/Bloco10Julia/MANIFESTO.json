@@ -1,0 +1,98 @@
+[
+  {
+    "arquivo": "pecas/parede_H0_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "recorte": [
+      417,
+      220,
+      837,
+      680
+    ],
+    "escala": 1,
+    "dimensoes": [
+      420,
+      460
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      0,
+      620
+    ]
+  },
+  {
+    "arquivo": "pecas/bloco_H1_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "recorte": [
+      437,
+      261,
+      817,
+      341
+    ],
+    "escala": 1,
+    "dimensoes": [
+      380,
+      80
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      3360,
+      680
+    ]
+  },
+  {
+    "arquivo": "pecas/bloco_H1_1.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "recorte": [
+      607,
+      290,
+      647,
+      310
+    ],
+    "escala": 1,
+    "dimensoes": [
+      40,
+      20
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      3360,
+      760
+    ]
+  },
+  {
+    "arquivo": "pecas/bloco_H1_2.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "recorte": [
+      607,
+      319,
+      647,
+      459
+    ],
+    "escala": 1,
+    "dimensoes": [
+      40,
+      140
+    ],
+    "ancora_topo": [
+      0,
+      0
+    ],
+    "posicao_mapa": [
+      3700,
+      760
+    ]
+  }
+]

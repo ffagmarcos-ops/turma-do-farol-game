@@ -1,0 +1,26 @@
+[
+  {
+    "de": "G3",
+    "para": "H0",
+    "apoio_y": 620,
+    "prova": "qa/JUNTA-G3-H0.jpg",
+    "decisao": "Preservar geometria. Graduar densidade e sobrepor vegetacao/rochas na integracao; agua em camada independente.",
+    "status": "Proposta visual; nao implementada no jogo"
+  },
+  {
+    "de": "H3",
+    "para": "I0",
+    "apoio_y": 900,
+    "prova": "qa/JUNTA-H3-I0.jpg",
+    "decisao": "Preservar geometria. Graduar densidade e sobrepor vegetacao/rochas na integracao; agua em camada independente.",
+    "status": "Proposta visual; nao implementada no jogo"
+  },
+  {
+    "de": "I3",
+    "para": "J0",
+    "apoio_y": 900,
+    "prova": "qa/JUNTA-I3-J0.jpg",
+    "decisao": "Preservar geometria. Graduar densidade e sobrepor vegetacao/rochas na integracao; agua em camada independente.",
+    "status": "Proposta visual; nao implementada no jogo"
+  }
+]
