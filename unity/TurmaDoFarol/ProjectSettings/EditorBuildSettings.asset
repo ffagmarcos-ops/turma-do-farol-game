@@ -20,5 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Farol/Campanha_20261021_215901/Fase3_Ilha.unity
     guid: 21a03cd44422b4f80a78c0b7e019be1e
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
   m_UseUCBPForAssetBundles: 0
