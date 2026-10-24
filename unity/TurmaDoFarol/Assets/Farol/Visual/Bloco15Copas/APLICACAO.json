@@ -1,0 +1,767 @@
+{
+  "plataformas": [
+    {
+      "chunk": "M0",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 520,
+        "y": 740,
+        "w": 200,
+        "kind": "log"
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        520,
+        734
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_200.png"
+    },
+    {
+      "chunk": "M0",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 780,
+        "y": 640,
+        "w": 180,
+        "kind": "log",
+        "sway": true
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_180.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        780,
+        634
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_180.png"
+    },
+    {
+      "chunk": "M0",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 1040,
+        "y": 520,
+        "w": 220,
+        "kind": "log"
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_220.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        1040,
+        514
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_220.png"
+    },
+    {
+      "chunk": "M0",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 1360,
+        "y": 680,
+        "w": 240,
+        "kind": "log"
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_240.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        1360,
+        674
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_240.png"
+    },
+    {
+      "chunk": "M0",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 1680,
+        "y": 540,
+        "w": 200,
+        "kind": "log"
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        1680,
+        534
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_200.png"
+    },
+    {
+      "chunk": "M1",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 2160,
+        "y": 660,
+        "w": 180,
+        "kind": "log",
+        "moveX": 180,
+        "speed": 65
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_180.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        2160,
+        654
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_180.png"
+    },
+    {
+      "chunk": "M1",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 2480,
+        "y": 520,
+        "w": 200,
+        "kind": "log",
+        "sway": true
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        2480,
+        514
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_200.png"
+    },
+    {
+      "chunk": "M1",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 2800,
+        "y": 440,
+        "w": 220,
+        "kind": "log"
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_220.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        2800,
+        434
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_220.png"
+    },
+    {
+      "chunk": "M1",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 2760,
+        "y": 580,
+        "w": 160,
+        "kind": "crumble",
+        "crumble": true
+      },
+      "arquivo": "pecas/plataforma_crumble_160.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        2760,
+        574
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco15Copas/pecas/plataforma_crumble_160.png"
+    },
+    {
+      "chunk": "M1",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 2940,
+        "y": 320,
+        "w": 180,
+        "kind": "log"
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_180.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        2940,
+        314
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_180.png"
+    },
+    {
+      "chunk": "M1",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 3340,
+        "y": 580,
+        "w": 200,
+        "kind": "log",
+        "moveY": 130,
+        "speed": 60
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        3340,
+        574
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_200.png"
+    },
+    {
+      "chunk": "M1",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 3620,
+        "y": 680,
+        "w": 200,
+        "kind": "log"
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        3620,
+        674
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_200.png"
+    },
+    {
+      "chunk": "M2",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 4240,
+        "y": 740,
+        "w": 200,
+        "kind": "log"
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        4240,
+        734
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_200.png"
+    },
+    {
+      "chunk": "M2",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 4540,
+        "y": 580,
+        "w": 240,
+        "kind": "log",
+        "sway": true
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_240.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        4540,
+        574
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_240.png"
+    },
+    {
+      "chunk": "M2",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 4880,
+        "y": 460,
+        "w": 220,
+        "kind": "log"
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_220.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        4880,
+        454
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_220.png"
+    },
+    {
+      "chunk": "M2",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 4720,
+        "y": 340,
+        "w": 200,
+        "kind": "log"
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        4720,
+        334
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_200.png"
+    },
+    {
+      "chunk": "M2",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 5140,
+        "y": 640,
+        "w": 200,
+        "kind": "log",
+        "moveY": 150,
+        "speed": 65
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        5140,
+        634
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_200.png"
+    },
+    {
+      "chunk": "M2",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 5420,
+        "y": 480,
+        "w": 220,
+        "kind": "log",
+        "sway": true
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_220.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        5420,
+        474
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_220.png"
+    },
+    {
+      "chunk": "M3",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 6020,
+        "y": 720,
+        "w": 180,
+        "kind": "log"
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_180.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        6020,
+        714
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_180.png"
+    },
+    {
+      "chunk": "M3",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 6260,
+        "y": 560,
+        "w": 200,
+        "kind": "log",
+        "sway": true
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        6260,
+        554
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_200.png"
+    },
+    {
+      "chunk": "M3",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 6540,
+        "y": 440,
+        "w": 220,
+        "kind": "log"
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_220.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        6540,
+        434
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_220.png"
+    },
+    {
+      "chunk": "M3",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 6740,
+        "y": 560,
+        "w": 180,
+        "kind": "crumble",
+        "crumble": true
+      },
+      "arquivo": "pecas/plataforma_crumble_180.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        6740,
+        554
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco15Copas/pecas/plataforma_crumble_180.png"
+    },
+    {
+      "chunk": "M3",
+      "grupo": "platforms",
+      "dados_mapa": {
+        "x": 7020,
+        "y": 680,
+        "w": 220,
+        "kind": "log"
+      },
+      "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_220.png",
+      "apoio_y": 6,
+      "posicao_imagem": [
+        7020,
+        674
+      ],
+      "condicao": "Preservar movimento/estado original",
+      "asset_unity": "Assets/Farol/Visual/Bloco14CaminhoBia/pecas/plataforma_log_220.png"
+    }
+  ],
+  "decor": [
+    {
+      "chunk": "M0",
+      "dados_mapa": {
+        "kind": "tree",
+        "x": 180,
+        "y": 920,
+        "scale": 1.2
+      },
+      "arquivo": "../floresta-inicial-pacote-v01/pecas/arvore_floresta_420x720.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.2,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco05Floresta/pecas/arvore_floresta_420x720.png"
+    },
+    {
+      "chunk": "M0",
+      "dados_mapa": {
+        "kind": "fern",
+        "x": 480,
+        "y": 910,
+        "front": true
+      },
+      "arquivo": "../praia-pacote-v01/pecas/samambaia-costeira.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 0.2231237322515213,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco03Praia/pecas/samambaia-costeira.png"
+    },
+    {
+      "chunk": "M0",
+      "dados_mapa": {
+        "kind": "vine",
+        "x": 960,
+        "y": 160
+      },
+      "arquivo": "../mata-densa-pacote-v01/pecas/cipo_pendente_120x380.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.0,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco07MataDensa/pecas/cipo_pendente_120x380.png"
+    },
+    {
+      "chunk": "M0",
+      "dados_mapa": {
+        "kind": "tree",
+        "x": 1440,
+        "y": 920,
+        "scale": 1.25,
+        "flip": true
+      },
+      "arquivo": "../floresta-inicial-pacote-v01/pecas/arvore_floresta_420x720.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.25,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco05Floresta/pecas/arvore_floresta_420x720.png"
+    },
+    {
+      "chunk": "M0",
+      "dados_mapa": {
+        "kind": "moss_rock",
+        "x": 1800,
+        "y": 908
+      },
+      "arquivo": "../costao-pacote-v01/pecas/pedra-costao-musgo.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 0.07529089664613278,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco04Costao/pecas/pedra-costao-musgo.png"
+    },
+    {
+      "chunk": "M1",
+      "dados_mapa": {
+        "kind": "tree",
+        "x": 2080,
+        "y": 920,
+        "scale": 1.3
+      },
+      "arquivo": "../floresta-inicial-pacote-v01/pecas/arvore_floresta_420x720.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.3,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco05Floresta/pecas/arvore_floresta_420x720.png"
+    },
+    {
+      "chunk": "M1",
+      "dados_mapa": {
+        "kind": "roots",
+        "x": 2520,
+        "y": 910
+      },
+      "arquivo": "../floresta-inicial-pacote-v01/pecas/raizes_280x130.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.0,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco05Floresta/pecas/raizes_280x130.png"
+    },
+    {
+      "chunk": "M1",
+      "dados_mapa": {
+        "kind": "vine",
+        "x": 2840,
+        "y": 220
+      },
+      "arquivo": "../mata-densa-pacote-v01/pecas/cipo_pendente_120x380.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.0,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco07MataDensa/pecas/cipo_pendente_120x380.png"
+    },
+    {
+      "chunk": "M1",
+      "dados_mapa": {
+        "kind": "tree",
+        "x": 3220,
+        "y": 920,
+        "scale": 1.25,
+        "flip": true
+      },
+      "arquivo": "../floresta-inicial-pacote-v01/pecas/arvore_floresta_420x720.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.25,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco05Floresta/pecas/arvore_floresta_420x720.png"
+    },
+    {
+      "chunk": "M1",
+      "dados_mapa": {
+        "kind": "bush",
+        "x": 3700,
+        "y": 906
+      },
+      "arquivo": "../praia-pacote-v01/pecas/arbusto-costeiro.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 0.25196850393700787,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco03Praia/pecas/arbusto-costeiro.png"
+    },
+    {
+      "chunk": "M2",
+      "dados_mapa": {
+        "kind": "tree",
+        "x": 3980,
+        "y": 920,
+        "scale": 1.28
+      },
+      "arquivo": "../floresta-inicial-pacote-v01/pecas/arvore_floresta_420x720.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.28,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco05Floresta/pecas/arvore_floresta_420x720.png"
+    },
+    {
+      "chunk": "M2",
+      "dados_mapa": {
+        "kind": "fern",
+        "x": 4180,
+        "y": 910,
+        "front": true
+      },
+      "arquivo": "../praia-pacote-v01/pecas/samambaia-costeira.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 0.2231237322515213,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco03Praia/pecas/samambaia-costeira.png"
+    },
+    {
+      "chunk": "M2",
+      "dados_mapa": {
+        "kind": "hollow_log",
+        "x": 4680,
+        "y": 912
+      },
+      "arquivo": "../mata-densa-pacote-v01/pecas/tronco_oco_384x160_ESTUDO.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.0,
+      "observacao": "Tronco oco: estudo fora da composicao; teto 320x48 cobre a geometria correta, abertura deve ser conferida.",
+      "asset_unity": "Assets/Farol/Visual/Bloco07MataDensa/pecas/tronco_oco_384x160_ESTUDO.png"
+    },
+    {
+      "chunk": "M2",
+      "dados_mapa": {
+        "kind": "vine",
+        "x": 4940,
+        "y": 220
+      },
+      "arquivo": "../mata-densa-pacote-v01/pecas/cipo_pendente_120x380.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.0,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco07MataDensa/pecas/cipo_pendente_120x380.png"
+    },
+    {
+      "chunk": "M2",
+      "dados_mapa": {
+        "kind": "tree",
+        "x": 5480,
+        "y": 920,
+        "scale": 1.22,
+        "flip": true
+      },
+      "arquivo": "../floresta-inicial-pacote-v01/pecas/arvore_floresta_420x720.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.22,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco05Floresta/pecas/arvore_floresta_420x720.png"
+    },
+    {
+      "chunk": "M2",
+      "dados_mapa": {
+        "kind": "moss_rock",
+        "x": 5660,
+        "y": 908
+      },
+      "arquivo": "../costao-pacote-v01/pecas/pedra-costao-musgo.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 0.07529089664613278,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco04Costao/pecas/pedra-costao-musgo.png"
+    },
+    {
+      "chunk": "M3",
+      "dados_mapa": {
+        "kind": "tree",
+        "x": 5880,
+        "y": 920,
+        "scale": 1.26
+      },
+      "arquivo": "../floresta-inicial-pacote-v01/pecas/arvore_floresta_420x720.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.26,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco05Floresta/pecas/arvore_floresta_420x720.png"
+    },
+    {
+      "chunk": "M3",
+      "dados_mapa": {
+        "kind": "vine",
+        "x": 6320,
+        "y": 220
+      },
+      "arquivo": "../mata-densa-pacote-v01/pecas/cipo_pendente_120x380.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.0,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco07MataDensa/pecas/cipo_pendente_120x380.png"
+    },
+    {
+      "chunk": "M3",
+      "dados_mapa": {
+        "kind": "tree",
+        "x": 7120,
+        "y": 920,
+        "scale": 1.24,
+        "flip": true
+      },
+      "arquivo": "../floresta-inicial-pacote-v01/pecas/arvore_floresta_420x720.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.24,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco05Floresta/pecas/arvore_floresta_420x720.png"
+    },
+    {
+      "chunk": "M3",
+      "dados_mapa": {
+        "kind": "ancient_rune_stone",
+        "x": 7340,
+        "y": 910
+      },
+      "arquivo": "../ruinas-antigas-pacote-v01/pecas/pedra_runica.png",
+      "origem": [
+        0.5,
+        1
+      ],
+      "escala_uniforme": 1.0,
+      "observacao": "",
+      "asset_unity": "Assets/Farol/Visual/Bloco16Ruinas/pecas/pedra_runica.png"
+    }
+  ]
+}

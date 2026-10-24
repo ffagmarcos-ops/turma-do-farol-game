@@ -1,0 +1,331 @@
+[
+  {
+    "chunk": "L0",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 780,
+      "y": 780,
+      "w": 200,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      780,
+      774
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "L0",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 1080,
+      "y": 760,
+      "w": 220,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      1080,
+      754
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "L0",
+    "grupo": "biaL0/secretPlatforms",
+    "dados_mapa": {
+      "x": 520,
+      "y": 720,
+      "w": 200,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      520,
+      714
+    ],
+    "condicao": "Preservar revelacao da Bia"
+  },
+  {
+    "chunk": "L0",
+    "grupo": "biaL0/secretPlatforms",
+    "dados_mapa": {
+      "x": 780,
+      "y": 580,
+      "w": 220,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      780,
+      574
+    ],
+    "condicao": "Preservar revelacao da Bia"
+  },
+  {
+    "chunk": "L0",
+    "grupo": "biaL0/secretPlatforms",
+    "dados_mapa": {
+      "x": 1060,
+      "y": 470,
+      "w": 220,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      1060,
+      464
+    ],
+    "condicao": "Preservar revelacao da Bia"
+  },
+  {
+    "chunk": "L0",
+    "grupo": "biaL0/secretPlatforms",
+    "dados_mapa": {
+      "x": 1340,
+      "y": 560,
+      "w": 200,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      1340,
+      554
+    ],
+    "condicao": "Preservar revelacao da Bia"
+  },
+  {
+    "chunk": "L1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 2060,
+      "y": 580,
+      "w": 220,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      2060,
+      574
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "L1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 2360,
+      "y": 460,
+      "w": 240,
+      "kind": "log",
+      "sway": true,
+      "speed": 1.5,
+      "ropeTopY": 180
+    },
+    "arquivo": "pecas/plataforma_log_240.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      2360,
+      454
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "L1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 2700,
+      "y": 380,
+      "w": 260,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_260.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      2700,
+      374
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "L1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 3080,
+      "y": 460,
+      "w": 220,
+      "kind": "log",
+      "sway": true,
+      "speed": 1.6,
+      "ropeTopY": 180
+    },
+    "arquivo": "pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      3080,
+      454
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "L1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 3420,
+      "y": 560,
+      "w": 240,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_240.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      3420,
+      554
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "L2",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 4620,
+      "y": 780,
+      "w": 180,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_180.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      4620,
+      774
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "L2",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 4900,
+      "y": 760,
+      "w": 190,
+      "kind": "log"
+    },
+    "arquivo": "../cachoeira-pacote-v01/pecas/plataforma_log_190.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      4900,
+      754
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "L2",
+    "grupo": "biaL2/secretPlatforms",
+    "dados_mapa": {
+      "x": 4460,
+      "y": 460,
+      "w": 220,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      4460,
+      454
+    ],
+    "condicao": "Preservar revelacao da Bia"
+  },
+  {
+    "chunk": "L2",
+    "grupo": "biaL2/secretPlatforms",
+    "dados_mapa": {
+      "x": 4760,
+      "y": 440,
+      "w": 240,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_240.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      4760,
+      434
+    ],
+    "condicao": "Preservar revelacao da Bia"
+  },
+  {
+    "chunk": "L2",
+    "grupo": "biaL2/secretPlatforms",
+    "dados_mapa": {
+      "x": 5080,
+      "y": 520,
+      "w": 200,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      5080,
+      514
+    ],
+    "condicao": "Preservar revelacao da Bia"
+  },
+  {
+    "chunk": "L3",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 6180,
+      "y": 720,
+      "w": 200,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      6180,
+      714
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "L3",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 6420,
+      "y": 460,
+      "w": 220,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      6420,
+      454
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "L3",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 6780,
+      "y": 680,
+      "w": 220,
+      "kind": "log"
+    },
+    "arquivo": "pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      6780,
+      674
+    ],
+    "condicao": "Preservar movimento/estado original"
+  }
+]

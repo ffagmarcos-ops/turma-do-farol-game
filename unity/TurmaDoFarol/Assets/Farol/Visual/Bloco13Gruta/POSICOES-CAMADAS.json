@@ -1,0 +1,30 @@
+[
+  {
+    "chunk": "K0",
+    "arquivo": "camadas/cenarioK_3.png",
+    "origem": [
+      0,
+      0
+    ],
+    "posicao_local": [
+      0,
+      0
+    ],
+    "escala": 1,
+    "nota": "Enquadramento usado na prova; calibrar paralaxe no jogo, nao repetir imagens por chunk automaticamente."
+  },
+  {
+    "chunk": "K1",
+    "arquivo": "camadas/cenarioK_3.png",
+    "origem": [
+      0,
+      0
+    ],
+    "posicao_local": [
+      1920,
+      0
+    ],
+    "escala": 1,
+    "nota": "Enquadramento usado na prova; calibrar paralaxe no jogo, nao repetir imagens por chunk automaticamente."
+  }
+]

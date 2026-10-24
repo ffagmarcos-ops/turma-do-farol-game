@@ -1,0 +1,87 @@
+[
+  {
+    "chunk": "K0",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 680,
+      "y": 760,
+      "w": 200,
+      "kind": "ledge"
+    },
+    "arquivo": "../cachoeira-pacote-v01/pecas/plataforma_ledge_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      680,
+      754
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "K0",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 980,
+      "y": 640,
+      "w": 220,
+      "kind": "ledge"
+    },
+    "arquivo": "../cachoeira-pacote-v01/pecas/plataforma_ledge_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      980,
+      634
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "K0",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 1260,
+      "y": 740,
+      "w": 190,
+      "kind": "ledge"
+    },
+    "arquivo": "pecas/plataforma_ledge_190.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      1260,
+      734
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "K1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 2360,
+      "y": 740,
+      "w": 200,
+      "kind": "ledge"
+    },
+    "arquivo": "../cachoeira-pacote-v01/pecas/plataforma_ledge_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      2360,
+      734
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "K1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 2720,
+      "y": 480,
+      "w": 300,
+      "kind": "ledge"
+    },
+    "arquivo": "pecas/plataforma_ledge_300.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      2720,
+      474
+    ],
+    "condicao": "Preservar movimento/estado original"
+  }
+]

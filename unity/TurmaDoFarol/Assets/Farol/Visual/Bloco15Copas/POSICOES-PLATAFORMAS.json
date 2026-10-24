@@ -1,0 +1,406 @@
+[
+  {
+    "chunk": "M0",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 520,
+      "y": 740,
+      "w": 200,
+      "kind": "log"
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      520,
+      734
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M0",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 780,
+      "y": 640,
+      "w": 180,
+      "kind": "log",
+      "sway": true
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_180.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      780,
+      634
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M0",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 1040,
+      "y": 520,
+      "w": 220,
+      "kind": "log"
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      1040,
+      514
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M0",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 1360,
+      "y": 680,
+      "w": 240,
+      "kind": "log"
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_240.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      1360,
+      674
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M0",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 1680,
+      "y": 540,
+      "w": 200,
+      "kind": "log"
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      1680,
+      534
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 2160,
+      "y": 660,
+      "w": 180,
+      "kind": "log",
+      "moveX": 180,
+      "speed": 65
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_180.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      2160,
+      654
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 2480,
+      "y": 520,
+      "w": 200,
+      "kind": "log",
+      "sway": true
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      2480,
+      514
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 2800,
+      "y": 440,
+      "w": 220,
+      "kind": "log"
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      2800,
+      434
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 2760,
+      "y": 580,
+      "w": 160,
+      "kind": "crumble",
+      "crumble": true
+    },
+    "arquivo": "pecas/plataforma_crumble_160.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      2760,
+      574
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 2940,
+      "y": 320,
+      "w": 180,
+      "kind": "log"
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_180.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      2940,
+      314
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 3340,
+      "y": 580,
+      "w": 200,
+      "kind": "log",
+      "moveY": 130,
+      "speed": 60
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      3340,
+      574
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M1",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 3620,
+      "y": 680,
+      "w": 200,
+      "kind": "log"
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      3620,
+      674
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M2",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 4240,
+      "y": 740,
+      "w": 200,
+      "kind": "log"
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      4240,
+      734
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M2",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 4540,
+      "y": 580,
+      "w": 240,
+      "kind": "log",
+      "sway": true
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_240.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      4540,
+      574
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M2",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 4880,
+      "y": 460,
+      "w": 220,
+      "kind": "log"
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      4880,
+      454
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M2",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 4720,
+      "y": 340,
+      "w": 200,
+      "kind": "log"
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      4720,
+      334
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M2",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 5140,
+      "y": 640,
+      "w": 200,
+      "kind": "log",
+      "moveY": 150,
+      "speed": 65
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      5140,
+      634
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M2",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 5420,
+      "y": 480,
+      "w": 220,
+      "kind": "log",
+      "sway": true
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      5420,
+      474
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M3",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 6020,
+      "y": 720,
+      "w": 180,
+      "kind": "log"
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_180.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      6020,
+      714
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M3",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 6260,
+      "y": 560,
+      "w": 200,
+      "kind": "log",
+      "sway": true
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_200.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      6260,
+      554
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M3",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 6540,
+      "y": 440,
+      "w": 220,
+      "kind": "log"
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      6540,
+      434
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M3",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 6740,
+      "y": 560,
+      "w": 180,
+      "kind": "crumble",
+      "crumble": true
+    },
+    "arquivo": "pecas/plataforma_crumble_180.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      6740,
+      554
+    ],
+    "condicao": "Preservar movimento/estado original"
+  },
+  {
+    "chunk": "M3",
+    "grupo": "platforms",
+    "dados_mapa": {
+      "x": 7020,
+      "y": 680,
+      "w": 220,
+      "kind": "log"
+    },
+    "arquivo": "../caminho-bia-pacote-v01/pecas/plataforma_log_220.png",
+    "apoio_y": 6,
+    "posicao_imagem": [
+      7020,
+      674
+    ],
+    "condicao": "Preservar movimento/estado original"
+  }
+]

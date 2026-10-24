@@ -1,0 +1,17 @@
+{
+  "fonte": "/Users/marcosfagner/Documents/Codex/2026-10-22/vamos-gerar-as-imagens-de-fundo/outputs/revisao-artistica-fase3/ruinas-antigas-pacote-v01",
+  "arquivos": {
+    "pecas/pilar_ruinas.png": "2cf9ef728396bbd0a360684acbaf71cb5636f6b5000c391d566a214ea9d09d88",
+    "pecas/cristais_rocha.png": "036c4d20efcecf6e970ffbedbd3fa4722604bf38c2668ccc250a4e87b60ea746",
+    "pecas/estalactite.png": "00a38117c94f0f05f7929848003652876490158c9cc4419c6d4d33f03f4085ca",
+    "pecas/arco_ruinas.png": "1d58fd5e32a3a875177ff7cece044dd711554606dc44a808fbf0559bf6d1720e",
+    "pecas/pedra_runica.png": "ee3f6b5da2c259030b8410b9e5d8868ff8649118b3dc30a3c58e04cc78e9ff0a",
+    "pecas/pedestal_ancestral.png": "fd9d934915aece5246a35f3431b359d4e511d9bc99d14d17723efbce0b887f6f",
+    "pecas/material_ruinas.png": "1556871c318374bc923b115c024196611bb33006648fa231c61c7d9cf46ed147",
+    "pecas/material_gruta.png": "c2843906923e97600680c1b1996dcfa3363d9118084332c8327474d269b8b589",
+    "camadas/cenarioN_3.png": "633a996d7ec85f47822113bf696e7f8525acd5de7f3b04c43a8e94bc1aee81a5",
+    "pecas/breakables_N0_0.png": "6562ef38552497f4fddb2b541e36d49322c341d879f3454dc9663c4834fe15ab",
+    "pecas/blocks_N2_0.png": "9044a19086a1e21944190b29b69b9380db60ba2a25f0f94f3acbefec84d18809",
+    "camadas/ruinas_distantes.png": "526b9f1de01962980dd555b67eaf30c9ae34b91b408d64fc8d936fb41c067edb"
+  }
+}

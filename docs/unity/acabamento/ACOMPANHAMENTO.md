@@ -5,7 +5,7 @@ Execução em blocos, seguindo a revisão 3 do planejamento entregue por Marcos.
 | Bloco | Itens | Situação |
 |---|---|---|
 | 1 | V01 padrão visual + V02 trecho piloto da ilha | Concluído e testado; aguardando avaliação visual para orientar V03 |
-| 2 | V03 fundos, terreno e transições | Em andamento: setores A–J integrados na direção da HQ, com transições graduais; pacotes K–O preparados no chat de artes para a próxima integração |
+| 2 | V03 fundos, terreno e transições | Em andamento: setores A–O integrados na direção da HQ, com reaproveitamento e transições; aguardando avaliação do acabamento visual |
 | 3 | V04 personagens, objetos e flutuação selecionada | A executar |
 | 4 | V05 luz, atmosfera, águas e cachoeiras | A executar |
 | 5 | V06 acabamento da Vila | A executar |

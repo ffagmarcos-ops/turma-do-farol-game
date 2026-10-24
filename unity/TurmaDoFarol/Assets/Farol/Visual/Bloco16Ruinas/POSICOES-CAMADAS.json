@@ -1,0 +1,98 @@
+[
+  {
+    "chunk": "N0",
+    "arquivo": "camadas/ruinas_distantes.png",
+    "posicao_local": [
+      0,
+      0
+    ],
+    "opacidade_embutida": 0.35
+  },
+  {
+    "chunk": "N0",
+    "arquivo": "camadas/cenarioN_3.png",
+    "origem": [
+      0,
+      0
+    ],
+    "posicao_local": [
+      0,
+      0
+    ],
+    "escala": 1,
+    "nota": "Enquadramento usado na prova; calibrar paralaxe no jogo, nao repetir imagens por chunk automaticamente.",
+    "opacidade": 1.0
+  },
+  {
+    "chunk": "N1",
+    "arquivo": "camadas/ruinas_distantes.png",
+    "posicao_local": [
+      1920,
+      0
+    ],
+    "opacidade_embutida": 0.35
+  },
+  {
+    "chunk": "N1",
+    "arquivo": "camadas/cenarioN_3.png",
+    "origem": [
+      0,
+      0
+    ],
+    "posicao_local": [
+      1920,
+      0
+    ],
+    "escala": 1,
+    "nota": "Enquadramento usado na prova; calibrar paralaxe no jogo, nao repetir imagens por chunk automaticamente.",
+    "opacidade": 0.78
+  },
+  {
+    "chunk": "N2",
+    "arquivo": "camadas/ruinas_distantes.png",
+    "posicao_local": [
+      3840,
+      0
+    ],
+    "opacidade_embutida": 0.35
+  },
+  {
+    "chunk": "N2",
+    "arquivo": "camadas/cenarioN_3.png",
+    "origem": [
+      0,
+      0
+    ],
+    "posicao_local": [
+      3840,
+      0
+    ],
+    "escala": 1,
+    "nota": "Enquadramento usado na prova; calibrar paralaxe no jogo, nao repetir imagens por chunk automaticamente.",
+    "opacidade": 0.56
+  },
+  {
+    "chunk": "N3",
+    "arquivo": "camadas/ruinas_distantes.png",
+    "posicao_local": [
+      5760,
+      0
+    ],
+    "opacidade_embutida": 0.35
+  },
+  {
+    "chunk": "N3",
+    "arquivo": "camadas/cenarioN_3.png",
+    "origem": [
+      0,
+      0
+    ],
+    "posicao_local": [
+      5760,
+      0
+    ],
+    "escala": 1,
+    "nota": "Enquadramento usado na prova; calibrar paralaxe no jogo, nao repetir imagens por chunk automaticamente.",
+    "opacidade": 0.33999999999999997
+  }
+]

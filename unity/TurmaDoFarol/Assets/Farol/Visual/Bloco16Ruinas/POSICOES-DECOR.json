@@ -1,0 +1,288 @@
+[
+  {
+    "chunk": "N0",
+    "dados_mapa": {
+      "kind": "ruin_pillar",
+      "x": 260,
+      "y": 910
+    },
+    "arquivo": "pecas/pilar_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N0",
+    "dados_mapa": {
+      "kind": "ancient_rune_stone",
+      "x": 480,
+      "y": 908
+    },
+    "arquivo": "pecas/pedra_runica.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N0",
+    "dados_mapa": {
+      "kind": "fern",
+      "x": 680,
+      "y": 910,
+      "front": true
+    },
+    "arquivo": "../praia-pacote-v01/pecas/samambaia-costeira.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 0.2231237322515213,
+    "observacao": ""
+  },
+  {
+    "chunk": "N0",
+    "dados_mapa": {
+      "kind": "ruin_arch",
+      "x": 1420,
+      "y": 910
+    },
+    "arquivo": "pecas/arco_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N0",
+    "dados_mapa": {
+      "kind": "ancient_pedestal",
+      "x": 1740,
+      "y": 908
+    },
+    "arquivo": "pecas/pedestal_ancestral.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N1",
+    "dados_mapa": {
+      "kind": "ruin_pillar",
+      "x": 2080,
+      "y": 910
+    },
+    "arquivo": "pecas/pilar_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N1",
+    "dados_mapa": {
+      "kind": "ancient_pedestal",
+      "x": 2480,
+      "y": 908
+    },
+    "arquivo": "pecas/pedestal_ancestral.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N1",
+    "dados_mapa": {
+      "kind": "ruin_arch",
+      "x": 2880,
+      "y": 460
+    },
+    "arquivo": "pecas/arco_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N1",
+    "dados_mapa": {
+      "kind": "ancient_rune_stone",
+      "x": 3360,
+      "y": 908
+    },
+    "arquivo": "pecas/pedra_runica.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N1",
+    "dados_mapa": {
+      "kind": "moss_rock",
+      "x": 3720,
+      "y": 908
+    },
+    "arquivo": "../costao-pacote-v01/pecas/pedra-costao-musgo.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 0.07529089664613278,
+    "observacao": ""
+  },
+  {
+    "chunk": "N2",
+    "dados_mapa": {
+      "kind": "ruin_pillar",
+      "x": 4020,
+      "y": 910
+    },
+    "arquivo": "pecas/pilar_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N2",
+    "dados_mapa": {
+      "kind": "ancient_pedestal",
+      "x": 4240,
+      "y": 908
+    },
+    "arquivo": "pecas/pedestal_ancestral.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N2",
+    "dados_mapa": {
+      "kind": "ruin_arch",
+      "x": 4720,
+      "y": 910
+    },
+    "arquivo": "pecas/arco_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N2",
+    "dados_mapa": {
+      "kind": "ruin_pillar",
+      "x": 5120,
+      "y": 910
+    },
+    "arquivo": "pecas/pilar_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N2",
+    "dados_mapa": {
+      "kind": "ancient_rune_stone",
+      "x": 5540,
+      "y": 908
+    },
+    "arquivo": "pecas/pedra_runica.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N3",
+    "dados_mapa": {
+      "kind": "ruin_pillar",
+      "x": 5920,
+      "y": 910
+    },
+    "arquivo": "pecas/pilar_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N3",
+    "dados_mapa": {
+      "kind": "ruin_arch",
+      "x": 6480,
+      "y": 380
+    },
+    "arquivo": "pecas/arco_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N3",
+    "dados_mapa": {
+      "kind": "ancient_pedestal",
+      "x": 7120,
+      "y": 908
+    },
+    "arquivo": "pecas/pedestal_ancestral.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "N3",
+    "dados_mapa": {
+      "kind": "ancient_rune_stone",
+      "x": 7320,
+      "y": 910
+    },
+    "arquivo": "pecas/pedra_runica.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  }
+]

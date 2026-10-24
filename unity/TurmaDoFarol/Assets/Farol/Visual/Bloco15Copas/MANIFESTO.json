@@ -1,0 +1,78 @@
+[
+  {
+    "arquivo": "pecas/plataforma_crumble_160.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../mata-densa-pacote-v01/tiles-adaptados/instavel_intacta_192.png",
+    "recorte": [
+      2,
+      5,
+      190,
+      47
+    ],
+    "escala_uniforme": 0.8297872340425532,
+    "deslocamento": [
+      2,
+      5
+    ],
+    "dimensoes": [
+      160,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Colocar em y do apoio menos apoio_y; collider conserva largura e posicao originais. Instavel apenas estado intacto."
+  },
+  {
+    "arquivo": "pecas/plataforma_crumble_180.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../mata-densa-pacote-v01/tiles-adaptados/instavel_intacta_192.png",
+    "recorte": [
+      2,
+      5,
+      190,
+      47
+    ],
+    "escala_uniforme": 0.9361702127659575,
+    "deslocamento": [
+      2,
+      5
+    ],
+    "dimensoes": [
+      180,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Colocar em y do apoio menos apoio_y; collider conserva largura e posicao originais. Instavel apenas estado intacto."
+  },
+  {
+    "arquivo": "camadas/cenarioM_3.png",
+    "tipo": "reuso_composicao",
+    "fonte": "../mata-densa-pacote-v01/camadas/cenarioE_3_mata_densa.png",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "ancora": [
+      0,
+      0
+    ],
+    "observacao": "Repeticao espelhada com sobreposicao de 100px. Conferir juntas e espelhamento em movimento."
+  },
+  {
+    "arquivo": "pecas/blocks_M2_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../mata-densa-pacote-v01/mestres/tronco_teto.png",
+    "dimensoes": [
+      320,
+      48
+    ],
+    "ancora": [
+      0,
+      0
+    ],
+    "posicao": [
+      4520,
+      760
+    ],
+    "observacao": "Recorte/material base; limites fisicos preservados; acabamento das bordas pendente. Quebravel deve manter estados e remocao no jogo."
+  }
+]

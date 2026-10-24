@@ -1,0 +1,84 @@
+[
+  {
+    "arquivo": "pecas/plataforma_ledge_190.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/laje_apoio.png",
+    "recorte": [
+      61,
+      333,
+      1713,
+      648
+    ],
+    "escala_uniforme": 0.11259079903147699,
+    "deslocamento": [
+      2,
+      6
+    ],
+    "dimensoes": [
+      190,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Colocar em y do apoio menos apoio_y; collider conserva largura e posicao originais. Instavel apenas estado intacto."
+  },
+  {
+    "arquivo": "pecas/plataforma_ledge_300.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/laje_apoio.png",
+    "recorte": [
+      61,
+      333,
+      1713,
+      648
+    ],
+    "escala_uniforme": 0.1791767554479419,
+    "deslocamento": [
+      2,
+      5
+    ],
+    "dimensoes": [
+      300,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Colocar em y do apoio menos apoio_y; collider conserva largura e posicao originais. Instavel apenas estado intacto."
+  },
+  {
+    "arquivo": "camadas/cenarioK_3.png",
+    "tipo": "gerado",
+    "fonte": "mestres/fundo_gruta.png",
+    "escala_uniforme": 1.1483253588516746,
+    "recorte_apos_escala": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "ancora": [
+      0,
+      0
+    ]
+  },
+  {
+    "arquivo": "pecas/blocks_K1_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../ruinas-antigas-pacote-v01/pecas/material_gruta.png",
+    "dimensoes": [
+      380,
+      320
+    ],
+    "ancora": [
+      0,
+      0
+    ],
+    "posicao": [
+      2680,
+      600
+    ],
+    "observacao": "Recorte/material base; limites fisicos preservados; acabamento das bordas pendente. Quebravel deve manter estados e remocao no jogo."
+  }
+]

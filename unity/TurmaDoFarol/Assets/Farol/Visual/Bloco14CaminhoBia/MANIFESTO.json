@@ -1,0 +1,180 @@
+[
+  {
+    "arquivo": "pecas/plataforma_log_180.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../floresta-inicial-pacote-v01/mestres/galho.png",
+    "recorte": [
+      46,
+      273,
+      2124,
+      539
+    ],
+    "escala_uniforme": 0.0846968238691049,
+    "deslocamento": [
+      2,
+      3
+    ],
+    "dimensoes": [
+      180,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Colocar em y do apoio menos apoio_y; collider conserva largura e posicao originais. Instavel apenas estado intacto."
+  },
+  {
+    "arquivo": "pecas/plataforma_log_200.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../floresta-inicial-pacote-v01/mestres/galho.png",
+    "recorte": [
+      46,
+      273,
+      2124,
+      539
+    ],
+    "escala_uniforme": 0.09432146294513956,
+    "deslocamento": [
+      2,
+      3
+    ],
+    "dimensoes": [
+      200,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Colocar em y do apoio menos apoio_y; collider conserva largura e posicao originais. Instavel apenas estado intacto."
+  },
+  {
+    "arquivo": "pecas/plataforma_log_220.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../floresta-inicial-pacote-v01/mestres/galho.png",
+    "recorte": [
+      46,
+      273,
+      2124,
+      539
+    ],
+    "escala_uniforme": 0.1039461020211742,
+    "deslocamento": [
+      2,
+      2
+    ],
+    "dimensoes": [
+      220,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Colocar em y do apoio menos apoio_y; collider conserva largura e posicao originais. Instavel apenas estado intacto."
+  },
+  {
+    "arquivo": "pecas/plataforma_log_240.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../floresta-inicial-pacote-v01/mestres/galho.png",
+    "recorte": [
+      46,
+      273,
+      2124,
+      539
+    ],
+    "escala_uniforme": 0.11357074109720885,
+    "deslocamento": [
+      2,
+      2
+    ],
+    "dimensoes": [
+      240,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Colocar em y do apoio menos apoio_y; collider conserva largura e posicao originais. Instavel apenas estado intacto."
+  },
+  {
+    "arquivo": "pecas/plataforma_log_260.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../floresta-inicial-pacote-v01/mestres/galho.png",
+    "recorte": [
+      46,
+      273,
+      2124,
+      539
+    ],
+    "escala_uniforme": 0.12319538017324351,
+    "deslocamento": [
+      2,
+      2
+    ],
+    "dimensoes": [
+      260,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Colocar em y do apoio menos apoio_y; collider conserva largura e posicao originais. Instavel apenas estado intacto."
+  },
+  {
+    "arquivo": "camadas/cenarioL_3.png",
+    "tipo": "reuso_composicao",
+    "fonte": "../mata-densa-pacote-v01/camadas/cenarioE_3_mata_densa.png",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "ancora": [
+      0,
+      0
+    ],
+    "observacao": "Repeticao espelhada com sobreposicao de 100px. Conferir juntas e espelhamento em movimento."
+  },
+  {
+    "arquivo": "pecas/blocks_L1_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "dimensoes": [
+      320,
+      140
+    ],
+    "ancora": [
+      0,
+      0
+    ],
+    "posicao": [
+      2640,
+      640
+    ],
+    "observacao": "Recorte/material base; limites fisicos preservados; acabamento das bordas pendente. Quebravel deve manter estados e remocao no jogo."
+  },
+  {
+    "arquivo": "pecas/blocks_L2_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "dimensoes": [
+      260,
+      280
+    ],
+    "ancora": [
+      0,
+      0
+    ],
+    "posicao": [
+      4160,
+      620
+    ],
+    "observacao": "Recorte/material base; limites fisicos preservados; acabamento das bordas pendente. Quebravel deve manter estados e remocao no jogo."
+  },
+  {
+    "arquivo": "pecas/blocks_L3_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../encosta-pacote-v01/mestres/parede_rochosa.png",
+    "dimensoes": [
+      340,
+      340
+    ],
+    "ancora": [
+      0,
+      0
+    ],
+    "posicao": [
+      6360,
+      580
+    ],
+    "observacao": "Recorte/material base; limites fisicos preservados; acabamento das bordas pendente. Quebravel deve manter estados e remocao no jogo."
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "chunk": "O0",
+    "dados_mapa": {
+      "kind": "ruin_pillar",
+      "x": 220,
+      "y": 910
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/pilar_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "O0",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 420,
+      "y": 908
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "O0",
+    "dados_mapa": {
+      "kind": "ruin_arch",
+      "x": 680,
+      "y": 910
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/arco_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "O0",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 1260,
+      "y": 908
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "O0",
+    "dados_mapa": {
+      "kind": "ancient_pedestal",
+      "x": 1540,
+      "y": 908
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/pedestal_ancestral.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "O0",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 1780,
+      "y": 908
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "O1",
+    "dados_mapa": {
+      "kind": "ruin_pillar",
+      "x": 2020,
+      "y": 910
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/pilar_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "O1",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 2120,
+      "y": 908
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "O1",
+    "dados_mapa": {
+      "kind": "ruin_arch",
+      "x": 2480,
+      "y": 910
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/arco_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "O1",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 2740,
+      "y": 908
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "O1",
+    "dados_mapa": {
+      "kind": "ancient_pedestal",
+      "x": 3020,
+      "y": 570
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/pedestal_ancestral.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "O1",
+    "dados_mapa": {
+      "kind": "ruin_pillar",
+      "x": 3260,
+      "y": 910
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/pilar_ruinas.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "O1",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 3380,
+      "y": 908
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  },
+  {
+    "chunk": "O1",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 3460,
+      "y": 908
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.0,
+    "observacao": ""
+  }
+]

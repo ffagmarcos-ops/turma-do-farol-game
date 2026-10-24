@@ -1,0 +1,58 @@
+[
+  {
+    "chunk": "L0",
+    "arquivo": "camadas/cenarioL_3.png",
+    "origem": [
+      0,
+      0
+    ],
+    "posicao_local": [
+      0,
+      0
+    ],
+    "escala": 1,
+    "nota": "Enquadramento usado na prova; calibrar paralaxe no jogo, nao repetir imagens por chunk automaticamente."
+  },
+  {
+    "chunk": "L1",
+    "arquivo": "camadas/cenarioL_3.png",
+    "origem": [
+      0,
+      0
+    ],
+    "posicao_local": [
+      1920,
+      0
+    ],
+    "escala": 1,
+    "nota": "Enquadramento usado na prova; calibrar paralaxe no jogo, nao repetir imagens por chunk automaticamente."
+  },
+  {
+    "chunk": "L2",
+    "arquivo": "camadas/cenarioL_3.png",
+    "origem": [
+      0,
+      0
+    ],
+    "posicao_local": [
+      3840,
+      0
+    ],
+    "escala": 1,
+    "nota": "Enquadramento usado na prova; calibrar paralaxe no jogo, nao repetir imagens por chunk automaticamente."
+  },
+  {
+    "chunk": "L3",
+    "arquivo": "camadas/cenarioL_3.png",
+    "origem": [
+      0,
+      0
+    ],
+    "posicao_local": [
+      5760,
+      0
+    ],
+    "escala": 1,
+    "nota": "Enquadramento usado na prova; calibrar paralaxe no jogo, nao repetir imagens por chunk automaticamente."
+  }
+]

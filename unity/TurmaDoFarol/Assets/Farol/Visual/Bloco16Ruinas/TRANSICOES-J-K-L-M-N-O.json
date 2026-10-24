@@ -1,0 +1,42 @@
+[
+  {
+    "de": "J3",
+    "para": "K0",
+    "apoio_y": 900,
+    "prova": "gruta-secreta-pacote-v01/qa/JUNTA-J3-K0.jpg",
+    "orientacao": "Escurecer rocha de J e introduzir interior azul; agua e particulas em planos separados.",
+    "status": "Proposta, sem certificacao de continuidade nem integracao"
+  },
+  {
+    "de": "K1",
+    "para": "L0",
+    "apoio_y": 900,
+    "prova": "caminho-bia-pacote-v01/qa/JUNTA-K1-L0.jpg",
+    "orientacao": "Saida da gruta para floresta; revelar luz e vegetacao gradualmente, sem inventar novo portal jogavel.",
+    "status": "Proposta, sem certificacao de continuidade nem integracao"
+  },
+  {
+    "de": "L3",
+    "para": "M0",
+    "apoio_y": 900,
+    "prova": "copas-altas-pacote-v01/qa/JUNTA-L3-M0.jpg",
+    "orientacao": "Mesma familia E/C, manter apoio e aumentar leitura vertical sem regenerar floresta.",
+    "status": "Proposta, sem certificacao de continuidade nem integracao"
+  },
+  {
+    "de": "M3",
+    "para": "N0",
+    "apoio_y": 900,
+    "prova": "ruinas-antigas-pacote-v01/qa/JUNTA-M3-N0.jpg",
+    "orientacao": "Diminuir densidade/opacidade da floresta e introduzir modulos de ruinas existentes.",
+    "status": "Proposta, sem certificacao de continuidade nem integracao"
+  },
+  {
+    "de": "N3",
+    "para": "O0",
+    "apoio_y": 900,
+    "prova": "entrada-caverna-pacote-v01/qa/JUNTA-N3-O0.jpg",
+    "orientacao": "Ruinas e cristais conduzem ao paredao seco de J em O0 e entrada unica em O1.",
+    "status": "Proposta, sem certificacao de continuidade nem integracao"
+  }
+]

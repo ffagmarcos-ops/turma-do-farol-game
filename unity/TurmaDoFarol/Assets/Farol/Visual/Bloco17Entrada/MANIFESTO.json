@@ -1,0 +1,42 @@
+[
+  {
+    "arquivo": "pecas/plataforma_ledge_260.png",
+    "tipo": "reuso_preparado",
+    "fonte": "../costao-pacote-v01/mestres/laje_apoio.png",
+    "recorte": [
+      61,
+      333,
+      1713,
+      648
+    ],
+    "escala_uniforme": 0.1549636803874092,
+    "deslocamento": [
+      2,
+      5
+    ],
+    "dimensoes": [
+      260,
+      64
+    ],
+    "apoio_y": 6,
+    "observacao": "Colocar em y do apoio menos apoio_y; collider conserva largura e posicao originais. Instavel apenas estado intacto."
+  },
+  {
+    "arquivo": "camadas/cenarioO_3.png",
+    "tipo": "edicao_separacao_agua",
+    "fonte": "mestres/entrada_SEM_AGUA.png",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "deslocamento": [
+      73,
+      190
+    ],
+    "ancora": [
+      0,
+      0
+    ],
+    "observacao": "Boca monumental unica; posicionar uma vez no mirante O1, nao repetir como varias cavernas."
+  }
+]

@@ -1,0 +1,291 @@
+[
+  {
+    "arquivo": "pecas/pilar_ruinas.png",
+    "dimensoes": [
+      160,
+      420
+    ],
+    "tipo": "reuso_oficial",
+    "fonte": "fontes-oficiais/asset_07_ruins_cave_tiles/asset_07_ruins_cave_tiles.png",
+    "quadro": "f007",
+    "recorte_atlas": {
+      "x": 829,
+      "y": 419,
+      "w": 159,
+      "h": 261
+    },
+    "recorte_local": [
+      3,
+      4,
+      155,
+      257
+    ],
+    "escala_uniforme": 1.0,
+    "deslocamento": [
+      4,
+      167
+    ],
+    "ancora": [
+      80.0,
+      420
+    ],
+    "observacao": "Tamanho do canvas preservado; silhueta pode ocupar menor altura para evitar deformacao."
+  },
+  {
+    "arquivo": "pecas/cristais_rocha.png",
+    "dimensoes": [
+      140,
+      190
+    ],
+    "tipo": "reuso_oficial",
+    "fonte": "fontes-oficiais/asset_07_ruins_cave_tiles/asset_07_ruins_cave_tiles.png",
+    "quadro": "f015",
+    "recorte_atlas": {
+      "x": 1217,
+      "y": 906,
+      "w": 221,
+      "h": 135
+    },
+    "recorte_local": [
+      3,
+      4,
+      218,
+      132
+    ],
+    "escala_uniforme": 0.6139534883720931,
+    "deslocamento": [
+      4,
+      111
+    ],
+    "ancora": [
+      70.0,
+      190
+    ],
+    "observacao": "Tamanho do canvas preservado; silhueta pode ocupar menor altura para evitar deformacao."
+  },
+  {
+    "arquivo": "pecas/estalactite.png",
+    "dimensoes": [
+      164,
+      177
+    ],
+    "tipo": "reuso_oficial",
+    "fonte": "fontes-oficiais/asset_07_ruins_cave_tiles/asset_07_ruins_cave_tiles.png",
+    "quadro": "f012",
+    "recorte_atlas": {
+      "x": 726,
+      "y": 733,
+      "w": 164,
+      "h": 177
+    },
+    "recorte_local": [
+      3,
+      3,
+      161,
+      174
+    ],
+    "escala_uniforme": 0.9873417721518988,
+    "deslocamento": [
+      4,
+      8
+    ],
+    "ancora": [
+      82.0,
+      177
+    ],
+    "observacao": "Tamanho do canvas preservado; silhueta pode ocupar menor altura para evitar deformacao."
+  },
+  {
+    "arquivo": "pecas/arco_ruinas.png",
+    "dimensoes": [
+      380,
+      440
+    ],
+    "tipo": "edicao_transparencia",
+    "fonte": "mestres/ruinas_alpha.png",
+    "recorte": [
+      0,
+      0,
+      584,
+      553
+    ],
+    "recorte_local": [
+      18,
+      39,
+      572,
+      528
+    ],
+    "escala_uniforme": 0.6714801444043321,
+    "deslocamento": [
+      4,
+      112
+    ],
+    "ancora": [
+      190.0,
+      440
+    ],
+    "observacao": "Imagem editada: nao usar coordenadas do atlas original nesta folha."
+  },
+  {
+    "arquivo": "pecas/pedra_runica.png",
+    "dimensoes": [
+      180,
+      200
+    ],
+    "tipo": "edicao_transparencia",
+    "fonte": "mestres/ruinas_alpha.png",
+    "recorte": [
+      668,
+      553,
+      983,
+      1024
+    ],
+    "recorte_local": [
+      12,
+      8,
+      294,
+      417
+    ],
+    "escala_uniforme": 0.4792176039119804,
+    "deslocamento": [
+      22,
+      4
+    ],
+    "ancora": [
+      90.0,
+      200
+    ],
+    "observacao": "Imagem editada: nao usar coordenadas do atlas original nesta folha."
+  },
+  {
+    "arquivo": "pecas/pedestal_ancestral.png",
+    "dimensoes": [
+      220,
+      180
+    ],
+    "tipo": "gerado",
+    "fonte": "mestres/pedestal.png",
+    "recorte": [
+      137,
+      410,
+      1252,
+      828
+    ],
+    "escala_uniforme": 0.19013452914798207,
+    "deslocamento": [
+      4,
+      101
+    ],
+    "ancora": [
+      110,
+      180
+    ]
+  },
+  {
+    "arquivo": "pecas/material_ruinas.png",
+    "dimensoes": [
+      300,
+      163
+    ],
+    "tipo": "reuso_recortado",
+    "fonte": "fontes-oficiais/asset_07_ruins_cave_tiles/asset_07_ruins_cave_tiles.png",
+    "quadro": "f001",
+    "recorte_local": [
+      15,
+      12,
+      315,
+      175
+    ],
+    "recorte_atlas": {
+      "x": 389,
+      "y": 174,
+      "w": 335,
+      "h": 183
+    },
+    "observacao": "Material recortado; emendas e acabamento de bordas pendentes, nao certificado seamless."
+  },
+  {
+    "arquivo": "pecas/material_gruta.png",
+    "dimensoes": [
+      295,
+      195
+    ],
+    "tipo": "reuso_recortado",
+    "fonte": "fontes-oficiais/asset_07_ruins_cave_tiles/asset_07_ruins_cave_tiles.png",
+    "quadro": "f010",
+    "recorte_local": [
+      35,
+      40,
+      330,
+      235
+    ],
+    "recorte_atlas": {
+      "x": 17,
+      "y": 727,
+      "w": 363,
+      "h": 313
+    },
+    "observacao": "Material recortado; emendas e acabamento de bordas pendentes, nao certificado seamless."
+  },
+  {
+    "arquivo": "camadas/cenarioN_3.png",
+    "tipo": "reuso_composicao",
+    "fonte": "../floresta-inicial-pacote-v01/camadas/cenarioC_3_floresta.png",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "ancora": [
+      0,
+      0
+    ],
+    "observacao": "Repeticao espelhada com sobreposicao de 100px. Conferir juntas e espelhamento em movimento."
+  },
+  {
+    "arquivo": "pecas/breakables_N0_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "pecas/material_ruinas.png",
+    "dimensoes": [
+      70,
+      130
+    ],
+    "ancora": [
+      0,
+      0
+    ],
+    "posicao": [
+      1210,
+      770
+    ],
+    "observacao": "Recorte/material base; limites fisicos preservados; acabamento das bordas pendente. Quebravel deve manter estados e remocao no jogo."
+  },
+  {
+    "arquivo": "pecas/blocks_N2_0.png",
+    "tipo": "reuso_preparado",
+    "fonte": "pecas/material_ruinas.png",
+    "dimensoes": [
+      340,
+      48
+    ],
+    "ancora": [
+      0,
+      0
+    ],
+    "posicao": [
+      4620,
+      760
+    ],
+    "observacao": "Recorte/material base; limites fisicos preservados; acabamento das bordas pendente. Quebravel deve manter estados e remocao no jogo."
+  },
+  {
+    "arquivo": "camadas/ruinas_distantes.png",
+    "tipo": "reuso_composicao",
+    "fonte": "pecas/arco_ruinas.png",
+    "dimensoes": [
+      1920,
+      1080
+    ],
+    "opacidade": 0.35,
+    "observacao": "Decor de fundo, sem colisao; testar repeticao e leitura"
+  }
+]

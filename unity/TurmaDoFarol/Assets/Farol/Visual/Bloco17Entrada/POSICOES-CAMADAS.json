@@ -1,0 +1,30 @@
+[
+  {
+    "chunk": "O0",
+    "arquivo": "../cachoeira-pacote-v01/camadas/cenarioJ_3_paredao_SEM_AGUA.png",
+    "origem": [
+      0,
+      0
+    ],
+    "posicao_local": [
+      0,
+      0
+    ],
+    "escala": 1,
+    "nota": "Prova com repeticao espelhada/sobreposicao 100px; nao certificada continua."
+  },
+  {
+    "chunk": "O1",
+    "arquivo": "camadas/cenarioO_3.png",
+    "origem": [
+      0,
+      0
+    ],
+    "posicao_local": [
+      1920,
+      0
+    ],
+    "escala": 1,
+    "nota": "Entrada unica em O1; mestre inserido no canvas em (73,190), escala 1. Calibrar paralaxe preservando o mirante."
+  }
+]

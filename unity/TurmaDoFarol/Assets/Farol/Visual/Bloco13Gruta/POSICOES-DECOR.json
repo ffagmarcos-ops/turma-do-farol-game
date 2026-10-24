@@ -1,0 +1,149 @@
+[
+  {
+    "chunk": "K0",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 260,
+      "y": 910,
+      "scale": 0.95
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 0.95,
+    "observacao": ""
+  },
+  {
+    "chunk": "K0",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 540,
+      "y": 910,
+      "scale": 1.1,
+      "flip": true
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.1,
+    "observacao": ""
+  },
+  {
+    "chunk": "K0",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 1540,
+      "y": 910,
+      "scale": 1.05
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.05,
+    "observacao": ""
+  },
+  {
+    "chunk": "K0",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 1820,
+      "y": 910,
+      "scale": 0.9
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 0.9,
+    "observacao": ""
+  },
+  {
+    "chunk": "K1",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 2140,
+      "y": 910,
+      "scale": 1.15
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.15,
+    "observacao": ""
+  },
+  {
+    "chunk": "K1",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 2420,
+      "y": 910,
+      "scale": 0.95,
+      "flip": true
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 0.95,
+    "observacao": ""
+  },
+  {
+    "chunk": "K1",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 2740,
+      "y": 480,
+      "scale": 0.85
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 0.85,
+    "observacao": ""
+  },
+  {
+    "chunk": "K1",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 2990,
+      "y": 480,
+      "scale": 0.85,
+      "flip": true
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 0.85,
+    "observacao": ""
+  },
+  {
+    "chunk": "K1",
+    "dados_mapa": {
+      "kind": "crystal",
+      "x": 3340,
+      "y": 910,
+      "scale": 1.2
+    },
+    "arquivo": "../ruinas-antigas-pacote-v01/pecas/cristais_rocha.png",
+    "origem": [
+      0.5,
+      1
+    ],
+    "escala_uniforme": 1.2,
+    "observacao": ""
+  }
+]
